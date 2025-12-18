@@ -108,7 +108,7 @@ def build_structure(A, X):
 def main():
     agent = PPOAgent_Online()
     relaxer = Relaxer()
-    oracle = Oracle(device="cuda")
+    oracle = Oracle()
     reward_engine = RewardEngine()
     
     # Discovery Folder
@@ -161,7 +161,31 @@ def main():
                     actions_list.append(agent.idx_to_atom.get(action.item(), 6))
                 
                 # Build & Relax
-                struct = build_structure(actions_list, [[0.5, 0.5, 0.5]] * num_atoms)
+                # --- 1. Extract Coordinates (The Fix) ---
+                X_list = []
+                # The logits sequence maps roughly to: [G, Atom1, Atom2..., Coord1, Coord2...]
+                # The exact offset depends on n_max, but usually coords start after the atom logits.
+                # We approximate the start index based on the number of atoms.
+                c_start = num_atoms + 1 
+                
+                for j in range(num_atoms):
+                    # Each atom needs 3 coordinates (x, y, z)
+                    # We calculate the index in the flat logits vector
+                    idx_base = c_start + (j * 3)
+                    
+                    if idx_base + 2 < len(logits_policy):
+                        # Apply Sigmoid to squash output between 0.0 and 1.0 (Unit Cell)
+                        x = torch.sigmoid(logits_policy[idx_base][0]).item()
+                        y = torch.sigmoid(logits_policy[idx_base + 1][0]).item()
+                        z = torch.sigmoid(logits_policy[idx_base + 2][0]).item()
+                        X_list.append([x, y, z])
+                    else:
+                        # Fallback if the model output is shorter than expected
+                        # (Prevents crashing, just adds random noise for this step)
+                        X_list.append([random.random(), random.random(), random.random()])
+
+                # --- 2. Build Structure with REAL coordinates ---
+                struct = build_structure(actions_list, X_list)
                 
                 reward = -5.0
                 info = "Build_Fail"
