@@ -27,13 +27,21 @@ from oracle import Oracle
 # --- CONFIGURATION (UPDATED) ---
 PRETRAINED_DIR = os.path.join(ROOT, "pretrained_model")
 CONFIG = {
-    "BATCH_SIZE": 128,      # Increased for GPU efficiency
-    "LR": 1e-6,             # Low learning rate for stability
-    "EPOCHS": 50,           # Set to 2000 for full discovery run
-    "KL_COEF": 0.05,        # Penalty for drifting too far from "Professor"
-    "DEVICE": "cuda" if torch.cuda.is_available() else "cpu",
-    "REPLAY_RATIO": 0.2     # 20% Memory (Safety), 80% Exploration (Discovery)
+    "BATCH_SIZE": 64,       # Keep this. It's stable and fits in memory.
+    "LR": 1e-5,             # INCREASE: 10x faster learning to escape local minima.
+    "EPOCHS": 300,          # INCREASE: Long enough to find new things, short enough to monitor.
+    "KL_COEF": 0.05,        # Keep consistent for now.
+    "DEVICE": "cuda",
+    "REPLAY_RATIO": 0.2     # DECREASE: Only 20% memory. Force 80% exploration.
 }
+# CONFIG = {
+#     "BATCH_SIZE": 128,      # MAX: Maximize throughput (check GPU memory!)
+#     "LR": 1e-6,             # DECREASE: Back to "Fine-Tuning" speed.
+#     "EPOCHS": 2000,         # MAX: Run overnight (approx. 12-16 hours).
+#     "KL_COEF": 0.02,        # DECREASE: Loosen the leash (allow creativity).
+#     "DEVICE": "cuda",
+#     "REPLAY_RATIO": 0.1     # MIN: 90% Exploration.
+# }
 
 class PPOAgent_Online:
     def __init__(self):
@@ -271,7 +279,7 @@ def main():
         # Save Best Model Logic
         if avg_r > best_avg_reward:
             best_avg_reward = avg_r
-            torch.save(agent.policy.state_dict(), os.path.join(ROOT, "best_rl_model.pt"))
+            torch.save(agent.policy.state_dict(), os.path.join(ROOT, "best_rl_model_v2.pt"))
 
     # --- FINAL REPORTING ---
     print("\n" + "="*60)
