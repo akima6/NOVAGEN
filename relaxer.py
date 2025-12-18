@@ -28,15 +28,8 @@ class Relaxer:
     def __init__(self):
         # Only print on first load
         try:
-            self.potential = matgl.load_model(
-                "M3GNet-MP-2021.2.8-PES"
-            ).to("cuda")
-            
-            self.calculator = M3GNetCalculator(
-                potential=self.potential,
-                device="cuda"
-            )
-
+            self.potential = matgl.load_model("M3GNet-MP-2021.2.8-PES")
+            self.calculator = M3GNetCalculator(potential=self.potential)
         except Exception as e:
             print(f"Error loading model: {e}")
             raise e
