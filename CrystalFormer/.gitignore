@@ -1,0 +1,8 @@
+*.png
+job*
+*.out
+__pycache__/
+data/
+experimental/
+*.ipynb
+*.egg-info/
