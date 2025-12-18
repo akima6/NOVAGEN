@@ -25,7 +25,7 @@ from oracle import Oracle
 # --- CONFIGURATION ---
 PRETRAINED_DIR = os.path.join(ROOT, "pretrained_model")
 CONFIG = {
-    "BATCH_SIZE": 4, 
+    "BATCH_SIZE": 64, 
     "LR": 1e-6,           
     "EPOCHS": 50,
     "KL_COEF": 0.05,
