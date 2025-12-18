@@ -29,7 +29,7 @@ CONFIG = {
     "LR": 1e-6,           
     "EPOCHS": 50,
     "KL_COEF": 0.05,
-    "DEVICE": "cpu",
+    "DEVICE": "gpu",
     "REPLAY_RATIO": 0.5   # 50% of batch comes from your own discoveries
 }
 
