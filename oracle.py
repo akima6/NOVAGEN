@@ -21,17 +21,18 @@ class Oracle:
         try:
             import matgl
 
+            self.device = device
+            
             self.eform_model = matgl.load_model(
                 "M3GNet-MP-2018.6.1-Eform"
-            )
-
+            ).to(self.device)
+            
             self.bg_model = matgl.load_model(
                 "MEGNet-MP-2019.4.1-BandGap-mfi"
-            )
+            ).to(self.device)
+            
+            self.fixed_state = torch.tensor([0], dtype=torch.long, device=self.device)
 
-            # MEGNet requires Long state attributes
-            self.fixed_state = torch.tensor([0], dtype=torch.long)
-            self.device = device
 
         except Exception as e:
             print(f"Oracle initialization failed: {e}")
