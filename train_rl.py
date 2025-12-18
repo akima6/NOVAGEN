@@ -108,7 +108,7 @@ def build_structure(A, X):
 def main():
     agent = PPOAgent_Online()
     relaxer = Relaxer()
-    oracle = Oracle()
+    oracle = Oracle(device="cuda")
     reward_engine = RewardEngine()
     
     # Discovery Folder
