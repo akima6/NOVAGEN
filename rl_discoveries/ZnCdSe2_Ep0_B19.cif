@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_ZnCdSe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.56559842
+_cell_length_b   5.11609983
+_cell_length_c   4.48836942
+_cell_angle_alpha   93.97470232
+_cell_angle_beta   94.36615083
+_cell_angle_gamma   90.76280595
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnCdSe2
+_chemical_formula_sum   'Zn1 Cd1 Se2'
+_cell_volume   127.10293273
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.49986174  0.50009022  0.00001203  1
+  Zn  Zn1  1  0.00032535  0.00020560  0.49999640  1
+  Cd  Cd2  1  0.50009458  0.00016092  0.00019833  1
+  Se  Se3  1  0.00025172  0.50001783  0.50035248  1

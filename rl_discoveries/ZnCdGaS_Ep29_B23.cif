@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_ZnCdGaS
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.70247547
+_cell_length_b   6.95011096
+_cell_length_c   3.70238456
+_cell_angle_alpha   89.99867338
+_cell_angle_beta   89.99977895
+_cell_angle_gamma   90.00133135
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnCdGaS
+_chemical_formula_sum   'Zn1 Cd1 Ga1 S1'
+_cell_volume   95.27203750
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.50023343  0.50098936  -0.00023738  1
+  Zn  Zn1  1  0.00000280  0.00025812  0.50010880  1
+  Ga  Ga2  1  0.50001597  -0.00099650  -0.00009999  1
+  Cd  Cd3  1  -0.00021627  0.49978274  0.50025739  1
