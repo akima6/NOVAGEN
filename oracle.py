@@ -17,7 +17,7 @@ class Oracle:
     - Calibrated ranges → human reporting only
     """
 
-    def __init__(self, device="cpu"):
+    def __init__(self, device="cuda"):
         try:
             import matgl
 
