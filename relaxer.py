@@ -1,4 +1,3 @@
-%%writefile /kaggle/working/NOVAGEN/relaxer.py
 import os
 import numpy as np
 import torch
