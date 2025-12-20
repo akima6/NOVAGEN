@@ -1,3 +1,4 @@
+%%writefile /kaggle/working/NOVAGEN/train_rl.py
 import os
 import sys
 import torch
@@ -33,13 +34,8 @@ CONFIG = {
     "KL_COEF": 0.05,
     "DEVICE": "cuda" if torch.cuda.is_available() else "cpu",
     "REPLAY_RATIO": 0.3,    
-    # KAGGLE SAFE SETTING: 2 Physical Cores available.
-    # We use 1 for Main Process, 1 for Relaxer Worker.
-    # Setting this > 2 on Kaggle will cause thrashing and slowness.
-    "NUM_WORKERS": 1        
+    "NUM_WORKERS": 1        # Keep safe default
 }
-
-
 
 # --- WORKER FUNCTION ---
 def worker_relax_task(task_data):
@@ -53,6 +49,44 @@ def worker_relax_task(task_data):
     except Exception as e:
         return (idx, {"is_converged": False, "error": str(e)})
 
+# --- UTILS ---
+def get_structure_hash(struct):
+    """
+    Generates a deterministic hash for structure deduplication.
+    Rounds lattice and coords to ensure slight variations match.
+    """
+    try:
+        # 1. Formula
+        formula = struct.composition.reduced_formula
+        # 2. Lattice (Round to 2 decimals)
+        # .parameters returns (a, b, c, alpha, beta, gamma)
+        latt = tuple(np.round(struct.lattice.parameters, 2))
+        # 3. Coords (Flatten & Round to 2 decimals)
+        coords = tuple(np.round(struct.frac_coords.flatten(), 2))
+        
+        # Combine into immutable tuple
+        return (formula, latt, coords)
+    except:
+        return None
+
+def check_geometry_fast(struct):
+    """Fast pre-relax filter."""
+    try:
+        dm = struct.distance_matrix
+        np.fill_diagonal(dm, 10.0)
+        return np.min(dm) >= 0.8
+    except: return False
+
+def build_structure(A, X, lattice_scale):
+    species = [a for a in A if a != 0]
+    coords = [x for a, x in zip(A, X) if a != 0]
+    if len(species) < 1: return None
+    try:
+        a = b = c = lattice_scale
+        lattice = Lattice.from_parameters(a, b, c, 90, 90, 90)
+        return Structure(lattice, species, coords)
+    except: return None
+
 # --- AGENT CLASS ---
 class PPOAgent_Pipeline:
     def __init__(self):
@@ -60,6 +94,9 @@ class PPOAgent_Pipeline:
         self.device = CONFIG["DEVICE"]
         self.start_epoch = 0
         self.best_avg_reward = -10.0
+        
+        # Reward Cache for Deduplication
+        self.reward_cache = {} 
         
         with open(os.path.join(PRETRAINED_DIR, "config.yaml"), "r") as f:
             cfg = yaml.safe_load(f)
@@ -94,7 +131,10 @@ class PPOAgent_Pipeline:
             self.optimizer.load_state_dict(ckpt['optimizer_state'])
             self.start_epoch = ckpt['epoch'] + 1
             self.best_avg_reward = ckpt['best_reward']
-            self.memory = ckpt['memory'] # Restore replay buffer
+            self.memory = ckpt['memory'] 
+            # Ideally load cache too, but starting fresh is safe
+            if 'reward_cache' in ckpt:
+                self.reward_cache = ckpt['reward_cache']
             print(f"   Resuming at Epoch {self.start_epoch}")
             
         else:
@@ -118,11 +158,11 @@ class PPOAgent_Pipeline:
             'ref_state': self.ref_model.state_dict(),
             'optimizer_state': self.optimizer.state_dict(),
             'best_reward': self.best_avg_reward,
-            'memory': self.memory
+            'memory': self.memory,
+            'reward_cache': self.reward_cache
         }
         torch.save(ckpt, os.path.join(ROOT, "checkpoint.pt"))
         
-        # Save best model separately (weights only) for inference
         if current_reward > self.best_avg_reward:
             self.best_avg_reward = current_reward
             torch.save(self.policy.state_dict(), os.path.join(ROOT, "best_rl_model_v4.pt"))
@@ -136,25 +176,6 @@ class PPOAgent_Pipeline:
             torch.tensor([M], device=self.device)
         )
 
-# --- UTILS ---
-def check_geometry_fast(struct):
-    """Fast pre-relax filter."""
-    try:
-        dm = struct.distance_matrix
-        np.fill_diagonal(dm, 10.0)
-        return np.min(dm) >= 0.8
-    except: return False
-
-def build_structure(A, X, lattice_scale):
-    species = [a for a in A if a != 0]
-    coords = [x for a, x in zip(A, X) if a != 0]
-    if len(species) < 1: return None
-    try:
-        a = b = c = lattice_scale
-        lattice = Lattice.from_parameters(a, b, c, 90, 90, 90)
-        return Structure(lattice, species, coords)
-    except: return None
-
 # --- MAIN PIPELINE ---
 def main():
     mp.set_start_method('spawn', force=True)
@@ -165,10 +186,12 @@ def main():
     disc_dir = os.path.join(ROOT, "rl_discoveries")
     os.makedirs(disc_dir, exist_ok=True)
     
-    # Initialize logs only if starting fresh
     if agent.start_epoch == 0:
         with open("training_log.csv", "w", newline="") as f:
-            csv.writer(f).writerow(["Epoch", "Reward", "Stable_Count", "Top_Formula", "Time_Sec"])
+            # Updated Headers with Diagnostics
+            writer = csv.writer(f)
+            writer.writerow(["Epoch", "Reward", "Stable_Count", "Top_Formula", "Time_Sec", 
+                             "Pct_Filtered", "Pct_Diverged", "Pct_Converged", "Pct_Dedup"])
         with open("final_candidates.csv", "w", newline="") as f:
             csv.writer(f).writerow(["Formula", "Formation_Energy", "Band_Gap", "Reward", "Epoch"])
     
@@ -180,20 +203,28 @@ def main():
         for epoch in range(agent.start_epoch, CONFIG["EPOCHS"]):
             start_time = time.time()
             
+            # --- DIAGNOSTIC COUNTERS ---
+            count_total = 0
+            count_dedup = 0
+            count_filtered = 0
+            count_diverged = 0
+            count_converged = 0
+            
             # --- STAGE 1: BATCH GENERATION ---
             batch_data = [] 
             
             for i in range(CONFIG["BATCH_SIZE"]):
-                # Memory Replay with TRUE REWARD
+                count_total += 1
+                
+                # Memory Replay
                 use_mem = (len(agent.memory) > 20) and (random.random() < CONFIG["REPLAY_RATIO"])
                 
                 if use_mem:
-                    # Retrieve full stored object {struct, reward}
                     memory_item = random.choice(agent.memory)
                     batch_data.append({
                         "type": "replay", 
                         "struct": memory_item['struct'],
-                        "stored_reward": memory_item['reward'] # Reuse exact historical reward
+                        "stored_reward": memory_item['reward']
                     })
                 else:
                     # Generate New
@@ -239,15 +270,36 @@ def main():
                         "struct": struct
                     })
 
-            # --- STAGE 2: FILTERING ---
+            # --- STAGE 2: DEDUPLICATION & FILTERING ---
             relax_tasks = []
+            
             for idx, item in enumerate(batch_data):
                 if item["type"] == "gen":
                     s = item["struct"]
-                    if s and check_geometry_fast(s):
+                    
+                    # 1. Structure Validity
+                    if s is None:
+                        item["result"] = "invalid"
+                        count_filtered += 1
+                        continue
+
+                    # 2. DEDUPLICATION (Cache Check)
+                    shash = get_structure_hash(s)
+                    if shash and shash in agent.reward_cache:
+                        item["result"] = "cached"
+                        item["cached_reward"] = agent.reward_cache[shash]
+                        count_dedup += 1
+                        continue
+
+                    # 3. Geometry Filter
+                    if check_geometry_fast(s):
+                        # Valid & New -> Send to Relaxer
                         relax_tasks.append((idx, s))
+                        # Note: We assign 'shash' to item so we can cache result later
+                        item["shash"] = shash
                     else:
                         item["result"] = "invalid" 
+                        count_filtered += 1
                 else:
                     item["result"] = "replay" 
 
@@ -265,13 +317,17 @@ def main():
                 if "relax_res" in item:
                     res = item["relax_res"]
                     if res["is_converged"]:
+                        # Converged -> Check Post-Relax Geometry
                         if check_geometry_fast(res["final_structure"]):
                             oracle_tasks.append(res["final_structure"])
                             oracle_indices.append(idx)
+                            count_converged += 1
                         else:
                             item["result"] = "collapsed"
+                            count_diverged += 1 # Technically geometry fail, but post-relax
                     else:
                         item["result"] = "diverged"
+                        count_diverged += 1
             
             if oracle_tasks:
                 oracle_preds = oracle.predict_batch(oracle_tasks)
@@ -280,7 +336,7 @@ def main():
                     batch_data[idx]["oracle"] = pred
                     batch_data[idx]["result"] = "success"
 
-            # --- STAGE 5: REWARD & UPDATE ---
+            # --- STAGE 5: REWARD, UPDATE & CACHING ---
             rewards = []
             stable_cnt = 0
             best_form = "None"
@@ -291,9 +347,15 @@ def main():
             for item in batch_data:
                 reward = -5.0 
                 
-                if item["result"] == "replay":
-                    # Correctness Fix: Use original reward
+                # A. Handle Cached Result
+                if item["result"] == "cached":
+                    reward = item["cached_reward"]
+                
+                # B. Handle Replay
+                elif item["result"] == "replay":
                     reward = item["stored_reward"]
+                
+                # C. Handle New Success
                 elif item["result"] == "success":
                     props = item["oracle"]
                     e = props["formation_energy"]
@@ -304,11 +366,13 @@ def main():
                         r_gap = min(g * 5.0, 10.0)
                         reward = r_stab + r_gap
                         
+                        # --- CACHE UPDATE ---
+                        if "shash" in item and item["shash"]:
+                            agent.reward_cache[item["shash"]] = reward
+
                         if reward > 0.0:
                             stable_cnt += 1
                             final_s = item["relax_res"]["final_structure"]
-                            
-                            # Store Structure AND Reward for valid replay
                             agent.memory.append({'struct': final_s, 'reward': reward})
                             
                             f_str = final_s.composition.reduced_formula
@@ -321,13 +385,17 @@ def main():
                                 fname = f"{disc_dir}/{f_str}_{epoch}.cif"
                                 CifWriter(final_s).write_file(fname)
 
+                # D. Failures
                 elif item["result"] == "invalid":
                     reward = -10.0
                 elif item["result"] == "diverged":
                     reward = -5.0
+                elif item["result"] == "collapsed":
+                    reward = -10.0
                 
                 rewards.append(reward)
                 
+                # Accumulate Loss
                 if item["type"] == "gen":
                     log_sum = torch.stack(item["log_probs"]).sum()
                     kl = F.mse_loss(item["logits_policy"], item["logits_ref"].detach())
@@ -342,12 +410,19 @@ def main():
             avg_r = np.mean(rewards)
             epoch_time = time.time() - start_time
             
-            print(f"Epoch {epoch+1}/{CONFIG['EPOCHS']} | Avg R: {avg_r:.2f} | Stable: {stable_cnt} | Time: {epoch_time:.1f}s")
+            # --- LOGGING ---
+            # Avoid division by zero
+            pct_filt = (count_filtered / CONFIG["BATCH_SIZE"]) * 100
+            pct_divg = (count_diverged / CONFIG["BATCH_SIZE"]) * 100
+            pct_conv = (count_converged / CONFIG["BATCH_SIZE"]) * 100
+            pct_dedup = (count_dedup / CONFIG["BATCH_SIZE"]) * 100
+            
+            print(f"Epoch {epoch+1}/{CONFIG['EPOCHS']} | R: {avg_r:.2f} | Filt: {int(pct_filt)}% | Divg: {int(pct_divg)}% | Conv: {int(pct_conv)}% | Dup: {int(pct_dedup)}%")
             
             with open("training_log.csv", "a", newline="") as f:
-                csv.writer(f).writerow([epoch, avg_r, stable_cnt, best_form, epoch_time])
+                csv.writer(f).writerow([epoch, avg_r, stable_cnt, best_form, epoch_time, 
+                                        pct_filt, pct_divg, pct_conv, pct_dedup])
 
-            # Save Checkpoint every epoch
             agent.save_checkpoint(epoch, avg_r)
 
     except KeyboardInterrupt:
