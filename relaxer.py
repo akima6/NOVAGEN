@@ -26,6 +26,7 @@ from matgl.ext.ase import M3GNetCalculator
 class Relaxer:
     """
     Production-Grade Relaxer with Early Stopping Hooks.
+    Includes sanitization to prevent PicklingErrors.
     """
     def __init__(self):
         try:
@@ -63,19 +64,38 @@ class Relaxer:
             optimizer.run(fmax=fmax, steps=steps)
             
         except StopIteration as e:
-             return {"final_structure": structure, "is_converged": False, "error": f"Early Stop: {e}"}
+            # Return "dirty" structure here is fine as we are about to sanitize or fail
+             pass 
         except Exception as e:
             return {"final_structure": structure, "is_converged": False, "error": f"Crash: {e}"}
 
-        final_structure = AseAtomsAdaptor.get_structure(atoms)
+        # --- RESULT EXTRACTION & SANITIZATION ---
+        raw_final_structure = AseAtomsAdaptor.get_structure(atoms)
+        
+        # CRITICAL FIX: Create a fresh Structure to strip the unpicklable Calculator
+        clean_structure = Structure(
+            raw_final_structure.lattice,
+            raw_final_structure.species,
+            raw_final_structure.frac_coords,
+            charge=raw_final_structure.charge
+        )
+        
         try:
+            # Ensure standard Python types (no numpy types that might cause pickle issues)
             forces = atoms.get_forces()
             max_force = np.sqrt((forces ** 2).sum(axis=1).max())
-            converged = max_force <= fmax
-        except: converged = False
+            converged = bool(max_force <= fmax)
+            
+            final_energy = atoms.get_potential_energy()
+            num_atoms = len(atoms)
+            energy_per_atom = float(final_energy / num_atoms)
+        except: 
+            converged = False
+            energy_per_atom = None
 
         return {
-            "final_structure": final_structure,
+            "final_structure": clean_structure, # Now completely safe to pickle
+            "final_energy_per_atom": energy_per_atom,
             "is_converged": converged,
-            "num_steps": optimizer.get_number_of_steps()
+            "num_steps": int(optimizer.get_number_of_steps())
         }
