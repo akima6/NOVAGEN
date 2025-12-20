@@ -1,4 +1,3 @@
-%%writefile /kaggle/working/NOVAGEN/train_rl.py
 import os
 import sys
 import torch
