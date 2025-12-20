@@ -40,9 +40,9 @@ PRETRAINED_DIR = os.path.join(ROOT, "pretrained_model")
 # }
 
 CONFIG = {
-    "BATCH_SIZE": 8,        # small but enough to test batching logic
+    "BATCH_SIZE": 4,        # small but enough to test batching logic
     "LR": 1e-5,
-    "EPOCHS": 10,           # finishes in minutes, not hours
+    "EPOCHS": 50,           # finishes in minutes, not hours
     "KL_COEF": 0.05,
     "DEVICE": "cuda" if torch.cuda.is_available() else "cpu",
     "REPLAY_RATIO": 0.2,    # slightly lower to observe exploration clearly
