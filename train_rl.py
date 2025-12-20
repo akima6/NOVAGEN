@@ -26,28 +26,19 @@ from oracle import Oracle
 
 # --- CONFIGURATION ---
 PRETRAINED_DIR = os.path.join(ROOT, "pretrained_model")
-# CONFIG = {
-#     "BATCH_SIZE": 64,       
-#     "LR": 1e-5,
-#     "EPOCHS": 300,
-#     "KL_COEF": 0.05,
-#     "DEVICE": "cuda" if torch.cuda.is_available() else "cpu",
-#     "REPLAY_RATIO": 0.3,    
-#     # KAGGLE SAFE SETTING: 2 Physical Cores available.
-#     # We use 1 for Main Process, 1 for Relaxer Worker.
-#     # Setting this > 2 on Kaggle will cause thrashing and slowness.
-#     "NUM_WORKERS": 1        
-# }
-
 CONFIG = {
-    "BATCH_SIZE": 4,        # small but enough to test batching logic
+    "BATCH_SIZE": 64,       
     "LR": 1e-5,
-    "EPOCHS": 50,           # finishes in minutes, not hours
+    "EPOCHS": 300,
     "KL_COEF": 0.05,
     "DEVICE": "cuda" if torch.cuda.is_available() else "cpu",
-    "REPLAY_RATIO": 0.2,    # slightly lower to observe exploration clearly
-    "NUM_WORKERS": 1        # Kaggle-safe (2 physical cores)
+    "REPLAY_RATIO": 0.3,    
+    # KAGGLE SAFE SETTING: 2 Physical Cores available.
+    # We use 1 for Main Process, 1 for Relaxer Worker.
+    # Setting this > 2 on Kaggle will cause thrashing and slowness.
+    "NUM_WORKERS": 1        
 }
+
 
 
 # --- WORKER FUNCTION ---
