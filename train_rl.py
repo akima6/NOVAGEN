@@ -380,7 +380,7 @@ def main():
             best_form = "None"
             
             agent.optimizer.zero_grad()
-            loss_accum = 0.0            
+            loss_accum = torch.tensor(0.0, device=agent.device)           
             for item in batch_data:
                 reward = -5.0 
                 
