@@ -29,7 +29,7 @@ PRETRAINED_DIR = os.path.join(ROOT, "pretrained_model")
 CONFIG = {
     "BATCH_SIZE": 8,       
     "LR": 1e-5,
-    "EPOCHS": 50,
+    "EPOCHS": 100,
     "KL_COEF": 0.05,
     "DEVICE": "cuda" if torch.cuda.is_available() else "cpu",
     "REPLAY_RATIO": 0.3,    
