@@ -37,13 +37,18 @@ CONFIG = {
 }
 
 # --- WORKER FUNCTION ---
+_relaxer = None
+
 def worker_relax_task(task_data):
-    """Running in a separate process with strictly 1 CPU thread."""
+    global _relaxer
+    torch.set_num_threads(1)
+
+    if _relaxer is None:
+        _relaxer = Relaxer()
+
     idx, struct = task_data
-    torch.set_num_threads(1) 
     try:
-        relaxer = Relaxer()
-        result = relaxer.relax(struct)
+        result = _relaxer.relax(struct)
         return (idx, result)
     except Exception as e:
         return (idx, {"is_converged": False, "error": str(e)})
@@ -375,8 +380,7 @@ def main():
             best_form = "None"
             
             agent.optimizer.zero_grad()
-            loss_accum = torch.tensor(0.0, device=agent.device)
-            
+            loss_accum = 0.0            
             for item in batch_data:
                 reward = -5.0 
                 
@@ -393,33 +397,32 @@ def main():
                     props = item["oracle"]
                     e = props["formation_energy"]
                     g = props["band_gap_scalar"]
-                    
-                if e > -50.0:
-                    r_stab = np.tanh(-e)
                 
-                    mu = 1.8
-                    sigma = 0.3
-                    r_gap = np.exp(-((g - mu) ** 2) / (2 * sigma ** 2))
+                    if e > -50.0:
+                        r_stab = np.tanh(-e)
                 
-                    reward = 1.5 * r_stab + 1.5 * r_gap
-
-                        
+                        mu = 1.8
+                        sigma = 0.3
+                        r_gap = np.exp(-((g - mu) ** 2) / (2 * sigma ** 2))
+                
+                        reward = 1.5 * r_stab + 1.5 * r_gap
+                
                         # --- CACHE UPDATE ---
                         if "shash" in item and item["shash"]:
                             agent.reward_cache[item["shash"]] = reward
-
+                
                         if reward > 0.0:
                             stable_cnt += 1
                             final_s = item["relax_res"]["final_structure"]
                             agent.memory.append({'struct': final_s, 'reward': reward})
-                            
+                
                             f_str = final_s.composition.reduced_formula
                             best_form = f_str
-                            
+                
                             with open("final_candidates.csv", "a", newline="") as f:
                                 csv.writer(f).writerow([f_str, e, g, reward, epoch])
-                            
-                            if stable_cnt <= 5: 
+                
+                            if stable_cnt <= 5:
                                 fname = f"{disc_dir}/{f_str}_{epoch}.cif"
                                 CifWriter(final_s).write_file(fname)
 
@@ -434,9 +437,13 @@ def main():
                 rewards.append(reward)
                 
                 # Accumulate Loss
-                if item["type"] == "gen":
+                if item["type"] == "gen" and item["result"] == "success":
                     log_sum = torch.stack(item["log_probs"]).sum()
-                    kl = F.mse_loss(item["logits_policy"], item["logits_ref"].detach())
+                    kl = F.kl_div(
+                    F.log_softmax(item["logits_policy"], dim=-1),
+                    F.softmax(item["logits_ref"].detach(), dim=-1),
+                    reduction="batchmean"
+                    )
                     loss = -(reward * log_sum) + (CONFIG["KL_COEF"] * kl)
                     loss_accum += loss
 
