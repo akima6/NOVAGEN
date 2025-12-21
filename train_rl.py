@@ -252,24 +252,45 @@ def main():
                 
                     # ---------- Atom sampling ----------
                     for j in range(num_atoms):
-                        base = 1 + 5 * j   # <<< FIX (already correct)
-                
+                        base = 1 + 5 * j
+                    
+                        # Atom first
                         atom_logits = logits_policy[base][:13]
                         atom_dist = torch.distributions.Categorical(logits=atom_logits)
                         atom_action = atom_dist.sample()
-                
                         log_probs.append(atom_dist.log_prob(atom_action))
                         actions.append(agent.idx_to_atom.get(atom_action.item(), 6))
+                    
+                        # Then Wyckoff
+                        wyckoff_logits = logits_policy[base + 4][:agent.policy.wyck_types]
+                        wyckoff_dist = torch.distributions.Categorical(logits=wyckoff_logits)
+                        wyckoff_action = wyckoff_dist.sample()
+                        log_probs.append(wyckoff_dist.log_prob(wyckoff_action))
+
                 
                     # ---------- Coordinate sampling ----------
                     for j in range(num_atoms):
-                        base = 1 + 5 * j   # <<< FIX (already correct)
-                
-                        x = torch.sigmoid(logits_policy[base + 1][0]).item()
-                        y = torch.sigmoid(logits_policy[base + 2][0]).item()
-                        z = torch.sigmoid(logits_policy[base + 3][0]).item()
-                
+                        base = 1 + 5 * j
+                    
+                        Kx = agent.policy.Kx  # number of coordinate modes
+                    
+                        # X
+                        block_x = logits_policy[base + 1]
+                        mu_x = block_x[Kx:2*Kx].mean()
+                        x = torch.sigmoid(mu_x).item()
+                    
+                        # Y
+                        block_y = logits_policy[base + 2]
+                        mu_y = block_y[Kx:2*Kx].mean()
+                        y = torch.sigmoid(mu_y).item()
+                    
+                        # Z
+                        block_z = logits_policy[base + 3]
+                        mu_z = block_z[Kx:2*Kx].mean()
+                        z = torch.sigmoid(mu_z).item()
+                    
                         X_list.append([x, y, z])
+
                 
                     struct = build_structure(actions, X_list, lattice_guess)
                 
@@ -373,10 +394,15 @@ def main():
                     e = props["formation_energy"]
                     g = props["band_gap_scalar"]
                     
-                    if e > -50.0: 
-                        r_stab = (10 / (1 + np.exp(2 * e))) - 5
-                        r_gap = min(g * 5.0, 10.0)
-                        reward = r_stab + r_gap
+                if e > -50.0:
+                    r_stab = np.tanh(-e)
+                
+                    mu = 1.8
+                    sigma = 0.3
+                    r_gap = np.exp(-((g - mu) ** 2) / (2 * sigma ** 2))
+                
+                    reward = 1.5 * r_stab + 1.5 * r_gap
+
                         
                         # --- CACHE UPDATE ---
                         if "shash" in item and item["shash"]:
