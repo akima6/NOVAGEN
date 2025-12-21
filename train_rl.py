@@ -397,6 +397,21 @@ def main():
                     props = item["oracle"]
                     e = props["formation_energy"]
                     g = props["band_gap_scalar"]
+
+                    # ------------------------------
+                    # SAVE ALL RELAXED STRUCTURES (DEBUG / ANALYSIS)
+                    # ------------------------------
+                    final_s = item["relax_res"]["final_structure"]
+                    f_str = final_s.composition.reduced_formula
+                    
+                    with open("relaxed_all.csv", "a", newline="") as f:
+                        csv.writer(f).writerow([
+                            epoch,
+                            f_str,
+                            e,
+                            g
+                        ])
+
                 
                     if e > -50.0:
                         r_stab = np.tanh(-e)
