@@ -198,7 +198,7 @@ def main():
         with open("final_candidates.csv", "w", newline="") as f:
             csv.writer(f).writerow(["Formula", "Formation_Energy", "Band_Gap", "Reward", "Epoch"])
 
-    # ✅ Step 1: Add rolling window trackers
+    # Step 1: Add rolling window trackers
     WINDOW = 10
 
     # Rolling window accumulators
@@ -209,11 +209,11 @@ def main():
     # Best target material in window
     w_best = None   # (reward, formula, formation_energy, band_gap)
     
-    # 🧾 Print legend ONCE
+    # Print legend ONCE
     print(
         "Legend: gen=generated, filt=geom filtered, relx=sent to relaxer, "
         "valid=relaxed & physical, target=reward-positive, "
-        "avg_t=avg time/epoch, t_t=window time"
+        "total_time=window time"
     )
 
     print(f"\n🚀 STARTING PARALLEL PIPELINE: {CONFIG['EPOCHS']} Epochs")
@@ -261,12 +261,9 @@ def main():
                         [1]*num_atoms
                     )
                 
-                    # ===================== FIX START =====================
-                    # <<< FIX: compute logits BEFORE using them
                     logits_policy = agent.policy(*inputs, is_train=False).squeeze(0)
                     with torch.no_grad():
                         logits_ref = agent.ref_model(*inputs, is_train=False).squeeze(0)
-                    # ====================== FIX END ======================
                 
                     log_probs = []
                     actions = []
@@ -451,7 +448,7 @@ def main():
                             f_str = final_s.composition.reduced_formula
                             best_form = f_str
 
-                            # ✅ Step 3: Track best target in window
+                            # Step 3: Track best target in window
                             if (w_best is None) or (reward > w_best[0]):
                                 w_best = (reward, f_str, e, g)
                 
@@ -498,13 +495,14 @@ def main():
             pct_conv = (count_converged / CONFIG["BATCH_SIZE"]) * 100
             pct_dedup = (count_dedup / CONFIG["BATCH_SIZE"]) * 100
             
-            print(f"Epoch {epoch+1}/{CONFIG['EPOCHS']} | R: {avg_r:.2f} | Filt: {int(pct_filt)}% | Divg: {int(pct_divg)}% | Conv: {int(pct_conv)}% | Dup: {int(pct_dedup)}%")
+            # REMOVED per-epoch print to satisfy "only want to see every 10 epoches"
+            # print(f"Epoch {epoch+1}/{CONFIG['EPOCHS']} | R: {avg_r:.2f} | Filt: {int(pct_filt)}% | ...")
             
             with open("training_log.csv", "a", newline="") as f:
                 csv.writer(f).writerow([epoch, avg_r, stable_cnt, best_form, epoch_time, 
                                         pct_filt, pct_divg, pct_conv, pct_dedup])
             
-            # ✅ Step 2: Update counters INSIDE each epoch
+            # Step 2: Update counters INSIDE each epoch
             # ---- WINDOW ACCUMULATION ----
             w_gen += CONFIG["BATCH_SIZE"]
             w_filt += count_filtered
@@ -514,19 +512,17 @@ def main():
             w_reward += avg_r
             w_time += epoch_time
 
-            # ✅ Step 4: Print ONE line every 10 epochs
+            # Step 4: Print ONE line every 10 epochs
             if (epoch + 1) % WINDOW == 0:
-                e_start = epoch + 1 - WINDOW
                 e_end = epoch + 1
+                e_start = e_end - WINDOW + 1 # Logic update to show 1-10 instead of 0-10
 
                 avg_reward = w_reward / WINDOW
-                avg_t = w_time / WINDOW
+                # avg_t = w_time / WINDOW  # REMOVED as requested
 
                 # Estimate ETA
                 remaining_epochs = CONFIG["EPOCHS"] - (epoch + 1)
-                eta_sec = remaining_epochs * avg_t
-                eta_min = int(eta_sec // 60)
-
+                
                 if w_best is not None:
                     _, bf, be, bg = w_best
                     best_str = f"⭐ {bf} (E={be:.2f} eV, Bg={bg:.2f} eV)"
@@ -537,8 +533,8 @@ def main():
                     f"[E {e_start}–{e_end}] "
                     f"gen={w_gen} | filt={w_filt} | relx={w_relx} | "
                     f"valid={w_valid} | target={w_target} | "
-                    f"R={avg_reward:.2f} | avg_t={avg_t:.2f}s | "
-                    f"t_t={w_time:.1f}s | {best_str}"
+                    f"avg_reward={avg_reward:.2f} | "
+                    f"total_time={w_time:.1f}s | {best_str}"
                 )
 
                 # ---- RESET WINDOW ----
