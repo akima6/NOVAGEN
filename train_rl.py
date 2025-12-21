@@ -179,7 +179,6 @@ class PPOAgent_Pipeline:
             torch.tensor([W], device=self.device),
             torch.tensor([M], device=self.device)
         )
-
 # --- MAIN PIPELINE ---
 def main():
     mp.set_start_method('spawn', force=True)
@@ -198,7 +197,25 @@ def main():
                              "Pct_Filtered", "Pct_Diverged", "Pct_Converged", "Pct_Dedup"])
         with open("final_candidates.csv", "w", newline="") as f:
             csv.writer(f).writerow(["Formula", "Formation_Energy", "Band_Gap", "Reward", "Epoch"])
+
+    # ✅ Step 1: Add rolling window trackers
+    WINDOW = 10
+
+    # Rolling window accumulators
+    w_gen = w_filt = w_relx = w_valid = w_target = 0
+    w_reward = 0.0
+    w_time = 0.0
+
+    # Best target material in window
+    w_best = None   # (reward, formula, formation_energy, band_gap)
     
+    # 🧾 Print legend ONCE
+    print(
+        "Legend: gen=generated, filt=geom filtered, relx=sent to relaxer, "
+        "valid=relaxed & physical, target=reward-positive, "
+        "avg_t=avg time/epoch, t_t=window time"
+    )
+
     print(f"\n🚀 STARTING PARALLEL PIPELINE: {CONFIG['EPOCHS']} Epochs")
     
     pool = mp.Pool(processes=CONFIG["NUM_WORKERS"])
@@ -433,6 +450,10 @@ def main():
                 
                             f_str = final_s.composition.reduced_formula
                             best_form = f_str
+
+                            # ✅ Step 3: Track best target in window
+                            if (w_best is None) or (reward > w_best[0]):
+                                w_best = (reward, f_str, e, g)
                 
                             with open("final_candidates.csv", "a", newline="") as f:
                                 csv.writer(f).writerow([f_str, e, g, reward, epoch])
@@ -482,6 +503,49 @@ def main():
             with open("training_log.csv", "a", newline="") as f:
                 csv.writer(f).writerow([epoch, avg_r, stable_cnt, best_form, epoch_time, 
                                         pct_filt, pct_divg, pct_conv, pct_dedup])
+            
+            # ✅ Step 2: Update counters INSIDE each epoch
+            # ---- WINDOW ACCUMULATION ----
+            w_gen += CONFIG["BATCH_SIZE"]
+            w_filt += count_filtered
+            w_relx += (CONFIG["BATCH_SIZE"] - count_filtered)
+            w_valid += count_converged
+            w_target += stable_cnt
+            w_reward += avg_r
+            w_time += epoch_time
+
+            # ✅ Step 4: Print ONE line every 10 epochs
+            if (epoch + 1) % WINDOW == 0:
+                e_start = epoch + 1 - WINDOW
+                e_end = epoch + 1
+
+                avg_reward = w_reward / WINDOW
+                avg_t = w_time / WINDOW
+
+                # Estimate ETA
+                remaining_epochs = CONFIG["EPOCHS"] - (epoch + 1)
+                eta_sec = remaining_epochs * avg_t
+                eta_min = int(eta_sec // 60)
+
+                if w_best is not None:
+                    _, bf, be, bg = w_best
+                    best_str = f"⭐ {bf} (E={be:.2f} eV, Bg={bg:.2f} eV)"
+                else:
+                    best_str = "—"
+
+                print(
+                    f"[E {e_start}–{e_end}] "
+                    f"gen={w_gen} | filt={w_filt} | relx={w_relx} | "
+                    f"valid={w_valid} | target={w_target} | "
+                    f"R={avg_reward:.2f} | avg_t={avg_t:.2f}s | "
+                    f"t_t={w_time:.1f}s | {best_str}"
+                )
+
+                # ---- RESET WINDOW ----
+                w_gen = w_filt = w_relx = w_valid = w_target = 0
+                w_reward = 0.0
+                w_time = 0.0
+                w_best = None
 
             agent.save_checkpoint(epoch, avg_r)
 
