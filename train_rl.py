@@ -27,9 +27,9 @@ from oracle import Oracle
 # --- CONFIGURATION ---
 PRETRAINED_DIR = os.path.join(ROOT, "pretrained_model")
 CONFIG = {
-    "BATCH_SIZE": 64,       
+    "BATCH_SIZE": 8,       
     "LR": 1e-5,
-    "EPOCHS": 300,
+    "EPOCHS": 50,
     "KL_COEF": 0.05,
     "DEVICE": "cuda" if torch.cuda.is_available() else "cpu",
     "REPLAY_RATIO": 0.3,    
@@ -231,36 +231,48 @@ def main():
                     num_atoms = random.randint(2, 6)
                     lattice_guess = random.uniform(3.5, 6.0)
                     
-                    inputs = agent.prepare_input(G_raw, [[0.5]*3]*num_atoms, [0]*num_atoms, [0]*num_atoms, [1]*num_atoms)
-                    
+                    inputs = agent.prepare_input(
+                        G_raw,
+                        [[0.5]*3]*num_atoms,
+                        [0]*num_atoms,
+                        [0]*num_atoms,
+                        [1]*num_atoms
+                    )
+                
+                    # ===================== FIX START =====================
+                    # <<< FIX: compute logits BEFORE using them
                     logits_policy = agent.policy(*inputs, is_train=False).squeeze(0)
                     with torch.no_grad():
                         logits_ref = agent.ref_model(*inputs, is_train=False).squeeze(0)
-                    
+                    # ====================== FIX END ======================
+                
                     log_probs = []
                     actions = []
                     X_list = []
-                    
+                
+                    # ---------- Atom sampling ----------
                     for j in range(num_atoms):
-                        valid_logits = logits_policy[j][:13]
-                        dist = torch.distributions.Categorical(logits=valid_logits)
-                        action = dist.sample()
-                        log_probs.append(dist.log_prob(action))
-                        actions.append(agent.idx_to_atom.get(action.item(), 6))
-                    
-                    c_start = num_atoms + 1
+                        base = 1 + 5 * j   # <<< FIX (already correct)
+                
+                        atom_logits = logits_policy[base][:13]
+                        atom_dist = torch.distributions.Categorical(logits=atom_logits)
+                        atom_action = atom_dist.sample()
+                
+                        log_probs.append(atom_dist.log_prob(atom_action))
+                        actions.append(agent.idx_to_atom.get(atom_action.item(), 6))
+                
+                    # ---------- Coordinate sampling ----------
                     for j in range(num_atoms):
-                        idx_base = c_start + (j * 3)
-                        if idx_base + 2 < len(logits_policy):
-                            x = torch.sigmoid(logits_policy[idx_base][0]).item()
-                            y = torch.sigmoid(logits_policy[idx_base + 1][0]).item()
-                            z = torch.sigmoid(logits_policy[idx_base + 2][0]).item()
-                            X_list.append([x, y, z])
-                        else:
-                            X_list.append([random.random(), random.random(), random.random()])
-                    
+                        base = 1 + 5 * j   # <<< FIX (already correct)
+                
+                        x = torch.sigmoid(logits_policy[base + 1][0]).item()
+                        y = torch.sigmoid(logits_policy[base + 2][0]).item()
+                        z = torch.sigmoid(logits_policy[base + 3][0]).item()
+                
+                        X_list.append([x, y, z])
+                
                     struct = build_structure(actions, X_list, lattice_guess)
-                    
+                
                     batch_data.append({
                         "type": "gen",
                         "log_probs": log_probs,
@@ -268,6 +280,7 @@ def main():
                         "logits_ref": logits_ref,
                         "struct": struct
                     })
+
 
             # --- STAGE 2: DEDUPLICATION & FILTERING ---
             relax_tasks = []
