@@ -209,12 +209,6 @@ def main():
     # Best target material in window
     w_best = None   # (reward, formula, formation_energy, band_gap)
     
-    # Print legend ONCE
-    print(
-        "Legend: gen=generated, filt=geom filtered, relx=sent to relaxer, "
-        "valid=relaxed & physical, target=reward-positive, "
-        "total_time=window time"
-    )
 
     print(f"\n🚀 STARTING PARALLEL PIPELINE: {CONFIG['EPOCHS']} Epochs")
     
@@ -515,13 +509,9 @@ def main():
             # Step 4: Print ONE line every 10 epochs
             if (epoch + 1) % WINDOW == 0:
                 e_end = epoch + 1
-                e_start = e_end - WINDOW + 1 # Logic update to show 1-10 instead of 0-10
+                e_start = e_end - WINDOW + 1 
 
                 avg_reward = w_reward / WINDOW
-                # avg_t = w_time / WINDOW  # REMOVED as requested
-
-                # Estimate ETA
-                remaining_epochs = CONFIG["EPOCHS"] - (epoch + 1)
                 
                 if w_best is not None:
                     _, bf, be, bg = w_best
@@ -530,11 +520,10 @@ def main():
                     best_str = "—"
 
                 print(
-                    f"[E {e_start}–{e_end}] "
+                    f"[E{e_start}–{e_end}]  "
                     f"gen={w_gen} | filt={w_filt} | relx={w_relx} | "
                     f"valid={w_valid} | target={w_target} | "
-                    f"avg_reward={avg_reward:.2f} | "
-                    f"total_time={w_time:.1f}s | {best_str}"
+                    f"R = {avg_reward:.2f} | {w_time:.1f}sec | {best_str}"
                 )
 
                 # ---- RESET WINDOW ----
