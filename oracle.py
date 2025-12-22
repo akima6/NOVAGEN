@@ -153,9 +153,11 @@ class Oracle:
                 except: gap = 0.0
                 
                 results.append({"formation_energy": e_val, "band_gap_scalar": gap})
-            except:
-                results.append(self._error_result())
-        return results
+
+            except Exception as e:
+                            print(f"❌ Sequential Prediction Error: {e}") # <--- Add this
+                            results.append(self._error_result())
+                    return results
 
     def _error_result(self):
         return {"formation_energy": 0.0, "band_gap_scalar": 0.0}
