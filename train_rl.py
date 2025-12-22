@@ -1,5 +1,21 @@
-import os
 import sys
+import types
+
+# ==============================================================================
+# 🩹 CRITICAL MONKEY PATCH for PyTorch/TorchData Compatibility
+# Fixes "No module named 'torch.utils._import_utils'"
+# ==============================================================================
+try:
+    import torch.utils._import_utils
+except ImportError:
+    dummy_utils = types.ModuleType("torch.utils._import_utils")
+    dummy_utils.dill_available = lambda: False
+    sys.modules["torch.utils._import_utils"] = dummy_utils
+    import torch.utils
+    torch.utils._import_utils = dummy_utils
+# ==============================================================================
+
+import os
 import torch
 import torch.multiprocessing as mp
 import torch.nn.functional as F
@@ -39,7 +55,6 @@ CONFIG = {
 }
 
 # --- ATOMIC RADII LOOKUP (For Smart Lattice) ---
-# Simple covalent radii in Angstroms to guess box size
 ATOM_RADII = {
     "H": 0.31, "Li": 1.28, "Be": 0.96, "B": 0.84, "C": 0.76, "N": 0.71, "O": 0.66, "F": 0.57,
     "Na": 1.66, "Mg": 1.41, "Al": 1.21, "Si": 1.11, "P": 1.07, "S": 1.05, "Cl": 1.02,
@@ -72,7 +87,6 @@ def estimate_lattice_parameter(species_list):
         avg_r = sum(radii) / len(radii)
         # Empirical heuristic: Box size ~ 4 * average radius for small cells
         guess = 4.0 * avg_r
-        # Clamp to reasonable physics limits
         return max(3.0, min(guess, 10.0))
     except:
         return 5.0
@@ -142,8 +156,8 @@ class PPOAgent_Product:
         self.idx_to_atom = {
             0: 30, 1: 16, 2: 48, 3: 34, 4: 8, 5: 31, 6: 33,
             7: 29, 8: 49, 9: 50, 10: 32, 11: 52, 12: 14,
-            # Adding common extensions for mutation logic (Fake IDs mapped to closest real ones for now)
-            13: 12, 14: 20 # Mg, Ca placeholder if needed
+            # Adding common extensions for mutation logic 
+            13: 12, 14: 20 
         }
         self.atom_keys = list(self.idx_to_atom.keys())
 
@@ -171,7 +185,7 @@ def main():
     mp.set_start_method('spawn', force=True)
     agent = PPOAgent_Product()
     print("🔮 Initializing Oracle...")
-    oracle = Oracle() # CPU safe
+    oracle = Oracle() # CPU safe, no args
     
     disc_dir = os.path.join(ROOT, "rl_discoveries")
     os.makedirs(disc_dir, exist_ok=True)
@@ -194,7 +208,6 @@ def main():
             batch_data = []
             
             # --- CURRICULUM LOGIC ---
-            # 0-50: Binary (2 elements), 50-150: Ternary (3), 150+: Quaternary (4)
             if epoch < 50:
                 complexity = 2
                 mode = "Binary"
@@ -209,32 +222,27 @@ def main():
             for i in range(CONFIG["BATCH_SIZE"]):
                 
                 # FEATURE: EVOLUTIONARY MUTATION (20% chance)
-                # If we have winners, pick one and mutate it instead of random generation
                 if len(agent.hall_of_fame) > 5 and random.random() < 0.20:
-                    parent = random.choice(agent.hall_of_fame) # (Struct, Formula, Reward)
+                    parent = random.choice(agent.hall_of_fame) 
                     p_struct = parent[0]
                     
-                    # Mutation: Transmutation (Swap one element type)
-                    # e.g., ZnS -> ZnSe
                     new_species = []
                     for s in p_struct.species:
-                        if random.random() < 0.5: # 50% chance to mutate atom
-                            # Pick random neighbor? For now, random from list
+                        if random.random() < 0.5: 
                             new_s = agent.idx_to_atom.get(random.choice(agent.atom_keys), 6)
                         else:
                             new_s = s
                         new_species.append(new_s)
                     
-                    # Rebuild
                     try:
                         mutant_struct = Structure(p_struct.lattice, new_species, p_struct.frac_coords)
                         batch_data.append({"type": "mutation", "struct": mutant_struct, "parent": parent[1]})
-                        continue # Skip standard generation
-                    except: pass # Fallback to gen if mutation fails
+                        continue 
+                    except: pass 
 
                 # STANDARD GENERATION
                 G_raw = random.randint(1, 230)
-                num_atoms = random.randint(complexity, complexity+2) # Curriculum
+                num_atoms = random.randint(complexity, complexity+2) 
                 
                 inputs = agent.prepare_input(G_raw, [[0.5]*3]*num_atoms, [0]*num_atoms, [0]*num_atoms, [1]*num_atoms)
                 logits_policy = agent.policy(*inputs, is_train=False).squeeze(0)
@@ -276,8 +284,6 @@ def main():
                         sample_c(logits_policy[base+3])
                     ])
                 
-                # FEATURE: SMART LATTICE
-                # No more random guessing. We use the atoms chosen to estimate size.
                 struct = build_structure(actions, X_list, forced_lattice=None)
                 batch_data.append({
                     "type": "gen",
@@ -336,33 +342,27 @@ def main():
                     g = item["oracle"]["band_gap_scalar"]
                     
                     # PRODUCT-GRADE REWARD
-                    # 1. Stability (Relaxed threshold for discovery)
                     if e < 0.2: 
                         r_stab = 1.0
                     else:
                         r_stab = -0.5
                     
-                    # 2. Band Gap
                     if g > 0.5: r_gap = 5.0
                     elif g > 0.1: r_gap = 1.0
                     else: r_gap = 0.0
                     
-                    # 3. Novelty (Anti-Zinc, Anti-Element)
-                    # Penalize single elements heavily
                     if len(final_s.composition.elements) < 2:
                         r_nov = -2.0
                     else:
-                        r_nov = 0.5 # Bonus for mixing elements
+                        r_nov = 0.5 
                         
                     reward = r_stab + r_gap + r_nov
                     valid_cnt += 1
                     best_f = form
                     
-                    # Log
                     with open("relaxed_all.csv", "a") as f:
                         csv.writer(f).writerow([epoch, form, f"{e:.4f}", f"{g:.4f}", f"{reward:.2f}"])
                     
-                    # SAVE WINNERS TO HALL OF FAME
                     if reward > 1.0:
                         agent.hall_of_fame.append((final_s, form, reward))
                         with open("final_candidates.csv", "a") as f:
@@ -374,7 +374,6 @@ def main():
 
                 rewards.append(reward)
 
-                # Only train on standard generation (Mutations don't have log_probs)
                 if item["type"] == "gen" and item["result"] in ["success", "diverged"]:
                      log_sum = torch.stack(item["log_probs"]).sum()
                      kl = F.kl_div(F.log_softmax(item["logits_policy"], dim=-1), F.softmax(item["logits_ref"].detach(), dim=-1), reduction="batchmean")
