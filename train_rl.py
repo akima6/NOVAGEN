@@ -27,9 +27,9 @@ from oracle import Oracle
 # --- CONFIGURATION ---
 PRETRAINED_DIR = os.path.join(ROOT, "pretrained_model")
 CONFIG = {
-    "BATCH_SIZE": 64,       
+    "BATCH_SIZE": 32,       
     "LR": 1e-5,
-    "EPOCHS": 300,
+    "EPOCHS": 150,
     "KL_COEF": 0.05,
     "DEVICE": "cuda" if torch.cuda.is_available() else "cpu",
     "REPLAY_RATIO": 0.3,    
@@ -433,42 +433,56 @@ def main():
                             g
                         ])
 
-                
-                    if e > -50.0:
-                        r_stab = np.tanh(-e)
-                
+                    # ------------------------------
+                    # NEW REWARD LOGIC ("The Veto")
+                    # ------------------------------
+                    
+                    # 1. METALS ARE FAILURES
+                    # If Band Gap is near zero (< 0.1 eV), it's a metal.
+                    # We give it a negative reward so the agent hates it.
+                    if g < 0.1:
+                        reward = -5.0
+                    else:
+                        # 2. SEMICONDUCTORS ARE WINNERS
+                        # Now we calculate the score based on Stability + Band Gap
+                        
+                        # Stability: Map Energy (e) to range [0, 1]
+                        # Stable (e < 0) gets high score. Unstable (e > 0) gets low score.
+                        if e < 0:
+                            r_stab = 1.0 + np.tanh(-e) # Range [1.0, 2.0] for stable
+                        else:
+                            r_stab = np.exp(-e)        # Range [0.0, 1.0] for unstable
+
+                        # Band Gap: Target 1.8 eV
                         mu = 1.8
-                        sigma = 0.3
+                        sigma = 0.5
                         r_gap = np.exp(-((g - mu) ** 2) / (2 * sigma ** 2))
-                
-                        reward = 1.5 * r_stab + 1.5 * r_gap
-                
-                        # --- CACHE UPDATE ---
-                        if "shash" in item and item["shash"]:
-                            agent.reward_cache[item["shash"]] = reward
-                
-                        if reward > 0.0:
-                            stable_cnt += 1
-                            final_s = item["relax_res"]["final_structure"]
-                            agent.memory.append({'struct': final_s, 'reward': reward})
-                
-                            f_str = final_s.composition.reduced_formula
-                            # Keep only inorganic (non-unary) candidates for window summary
-                            if len(final_s.composition.elements) > 1:
-                                w_candidates.append((reward, f_str, e, g))
+                        
+                        # Total Reward
+                        reward = 2.0 * r_stab + 3.0 * r_gap
 
-                            best_form = f_str
+                    # --- CACHE UPDATE ---
+                    if "shash" in item and item["shash"]:
+                        agent.reward_cache[item["shash"]] = reward
 
-                            # Step 3: Track best target in window
-                            if (w_best is None) or (reward > w_best[0]):
-                                w_best = (reward, f_str, e, g)
-                
-                            with open("final_candidates.csv", "a", newline="") as f:
-                                csv.writer(f).writerow([f_str, e, g, reward, epoch])
-                
-                            if stable_cnt <= 5:
-                                fname = f"{disc_dir}/{f_str}_{epoch}.cif"
-                                CifWriter(final_s).write_file(fname)
+                    # Save "Winners" (Only positive rewards, so Zn is now excluded)
+                    if reward > 0.0:
+                        stable_cnt += 1
+                        agent.memory.append({'struct': final_s, 'reward': reward})
+                        
+                        best_form = f_str
+                        
+                        # Step 3: Track best target in window
+                        if (w_best is None) or (reward > w_best[0]):
+                            w_best = (reward, f_str, e, g)
+                            
+                        with open("final_candidates.csv", "a", newline="") as f:
+                            csv.writer(f).writerow([f_str, e, g, reward, epoch])
+                            
+                        # Save CIF
+                        if stable_cnt <= 5:
+                            fname = f"{disc_dir}/{f_str}_{epoch}.cif"
+                            CifWriter(final_s).write_file(fname)
 
                 # D. Failures
                 elif item["result"] == "invalid":
