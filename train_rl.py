@@ -431,16 +431,15 @@ def main():
                     # ------------------------------
                     # NEW REWARD LOGIC ("Stepping Stones")
                     # ------------------------------
-                    
                     # 1. Stability Base Score (Range -1 to +1)
-                    # If stable (e < 0), score is positive.
-                    if e < 0:
-                        r_stab = 1.0  # BASELINE for any stable crystal (Even metal)
+                    # FIX: e <= 0.05 to include pure elements (Zn = 0.0) as "Stable"
+                    # This gives them +1.0 instead of -1.0
+                    if e <= 0.05: 
+                        r_stab = 1.0  # Good job, it's a stable crystal!
                     else:
                         r_stab = -1.0 # Unstable penalty
                         
                     # 2. Band Gap Bonus (The Jackpot)
-                    # If it has a gap > 0.1 eV, massive multiplier
                     if g > 0.1:
                         # Target 1.8 eV, sigma 0.5
                         r_gap = 5.0 * np.exp(-((g - 1.8) ** 2) / (2 * 0.5 ** 2))
@@ -448,17 +447,17 @@ def main():
                         r_gap = 0.0 # No bonus for metals
 
                     # Total Reward
-                    # Stable Metal = 1.0 + 0.0 = 1.0
-                    # Stable Semiconductor = 1.0 + 5.0 = 6.0
-                    # Unstable = -1.0
+                    # Stable Metal (Zn) = 1.0 + 0.0 = +1.0 (Better than explosion!)
+                    # Stable Semiconductor = 1.0 + ~5.0 = +6.0
                     reward = r_stab + r_gap
 
                     # --- CACHE UPDATE ---
                     if "shash" in item and item["shash"]:
                         agent.reward_cache[item["shash"]] = reward
 
-                    # Save "Winners" (Stable things)
-                    if reward > 0.0:
+                    # Save "Winners"
+                    # FIX: Threshold > 0.5 captures Zinc (Reward 1.0) so you see output
+                    if reward > 0.5:
                         stable_cnt += 1
                         agent.memory.append({'struct': final_s, 'reward': reward})
                         
@@ -466,6 +465,8 @@ def main():
                         
                         if (w_best is None) or (reward > w_best[0]):
                             w_best = (reward, f_str, e, g)
+                            
+                        # Save high-value candidates
                         with open("final_candidates.csv", "a", newline="") as f:
                             csv.writer(f).writerow([f_str, e, g, reward, epoch])
                             
