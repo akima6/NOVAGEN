@@ -26,13 +26,13 @@ from oracle import Oracle
 # --- CONFIGURATION ---
 PRETRAINED_DIR = os.path.join(ROOT, "pretrained_model")
 CONFIG = {
-    "BATCH_SIZE": 16,       # Lower batch size since we relax EVERYTHING
+    "BATCH_SIZE": 16,       # Keep low for brute force
     "LR": 1e-4,             
-    "EPOCHS": 100,
+    "EPOCHS": 300,          # Increased to 300 (Let it cook!)
     "KL_COEF": 0.05,
     "ENTROPY_COEF": 0.1,    
     "DEVICE": "cuda" if torch.cuda.is_available() else "cpu",
-    "EPSILON": 0.20,        # 20% Chance to FORCE random atoms (The "Shortcut")
+    "EPSILON": 0.20,        # 20% Chance to FORCE random atoms (The Key to Success)
     "NUM_WORKERS": 1        
 }
 
@@ -44,8 +44,7 @@ def worker_relax_task(task_data):
     if _relaxer is None: _relaxer = Relaxer()
     idx, struct = task_data
     try:
-        # TIMEOUT: Don't spend forever on garbage crystals
-        # We rely on the relaxer's internal step limit, but this catches hangs
+        # Relax everything (No pre-filter)
         result = _relaxer.relax(struct) 
         return (idx, result)
     except Exception as e:
@@ -57,18 +56,19 @@ def build_structure(A, X, lattice_scale):
     coords = [x for a, x in zip(A, X) if a != 0]
     if len(species) < 1: return None
     try:
-        # Give them space! 4.0 to 8.0 Angstroms
+        # Random Lattice 4.0 - 8.0 (Room to breathe)
         a = b = c = lattice_scale
         lattice = Lattice.from_parameters(a, b, c, 90, 90, 90)
         return Structure(lattice, species, coords)
     except: return None
 
 # --- AGENT ---
-class PPOAgent_Direct:
+class PPOAgent_Production:
     def __init__(self):
-        print(f"--- Initializing Direct PPO (No Filters) ---")
+        print(f"--- Initializing Production PPO (Hybrid Mode) ---")
         self.device = CONFIG["DEVICE"]
         self.memory = deque(maxlen=5000)
+        self.best_avg_reward = -10.0
         
         with open(os.path.join(PRETRAINED_DIR, "config.yaml"), "r") as f:
             cfg = yaml.safe_load(f)
@@ -89,21 +89,42 @@ class PPOAgent_Direct:
         
         self.optimizer = optim.AdamW(self.policy.parameters(), lr=CONFIG["LR"])
         
-        # Fresh Start Only
+        # Checkpoint Logic
+        checkpoint_path = os.path.join(ROOT, "checkpoint.pt")
         author_path = os.path.join(PRETRAINED_DIR, "epoch_005500_CLEAN.pt")
-        print("⚠️ Starting Fresh from Author Weights.")
-        state = torch.load(author_path, map_location=self.device)
-        self.policy.load_state_dict(state, strict=True)
-        self.ref_model.load_state_dict(state, strict=True)
+        
+        if os.path.exists(checkpoint_path):
+            print(f"🔄 Resuming from Checkpoint...")
+            ckpt = torch.load(checkpoint_path, map_location=self.device)
+            self.policy.load_state_dict(ckpt['policy_state'])
+            self.ref_model.load_state_dict(ckpt['ref_state'])
+            self.optimizer.load_state_dict(ckpt['optimizer_state'])
+            self.memory = ckpt['memory'] 
+        else:
+            print("⚠️ Starting Fresh from Author Weights.")
+            state = torch.load(author_path, map_location=self.device)
+            self.policy.load_state_dict(state, strict=True)
+            self.ref_model.load_state_dict(state, strict=True)
+
         self.ref_model.eval()
 
-        # Mapping (Zinc is 0, Silicon is 12, etc)
+        # Mapping
         self.idx_to_atom = {
             0: 30, 1: 16, 2: 48, 3: 34, 4: 8, 5: 31, 6: 33,
             7: 29, 8: 49, 9: 50, 10: 32, 11: 52, 12: 14
         }
-        # Reverse mapping for "Forced" exploration
         self.atom_keys = list(self.idx_to_atom.keys())
+
+    def save_checkpoint(self, epoch, current_reward):
+        ckpt = {
+            'epoch': epoch,
+            'policy_state': self.policy.state_dict(),
+            'ref_state': self.ref_model.state_dict(),
+            'optimizer_state': self.optimizer.state_dict(),
+            'best_reward': self.best_avg_reward,
+            'memory': self.memory
+        }
+        torch.save(ckpt, os.path.join(ROOT, "checkpoint.pt"))
 
     def prepare_input(self, G, XYZ, A, W, M):
         return (
@@ -117,29 +138,42 @@ class PPOAgent_Direct:
 # --- MAIN ---
 def main():
     mp.set_start_method('spawn', force=True)
-    agent = PPOAgent_Direct()
+    agent = PPOAgent_Production()
     oracle = Oracle(device=CONFIG["DEVICE"])
-    os.makedirs("rl_discoveries", exist_ok=True)
     
-    # Clean Logs
-    with open("training_log.csv", "w") as f:
-        csv.writer(f).writerow(["Epoch", "Avg_Reward", "Valid_Count", "Semi_Count", "Best_Formula"])
-    with open("all_attempts.csv", "w") as f:
-        csv.writer(f).writerow(["Epoch", "Formula", "Result", "Energy", "Gap", "Reward"])
+    disc_dir = os.path.join(ROOT, "rl_discoveries")
+    os.makedirs(disc_dir, exist_ok=True)
+    
+    # --- INIT LOGS ---
+    # We restart logs if no checkpoint, otherwise append (logic simplified for restart)
+    if not os.path.exists("training_log.csv"):
+        with open("training_log.csv", "w") as f:
+            csv.writer(f).writerow(["Epoch", "Avg_Reward", "Valid_Count", "Best_Formula", "Time_Sec"])
+        with open("final_candidates.csv", "w") as f:
+            csv.writer(f).writerow(["Formula", "Formation_Energy", "Band_Gap", "Reward", "Epoch"])
+        with open("relaxed_all.csv", "w") as f:
+            csv.writer(f).writerow(["Epoch", "Formula", "Energy", "BandGap", "Reward"])
 
-    print(f"\n🚀 STARTING DIRECT TRAINING (Epsilon={CONFIG['EPSILON']*100}%)")
+    # Rolling Window Trackers
+    WINDOW = 10
+    w_reward = 0.0
+    w_valid = 0
+    w_best_f = "-"
+    w_best_r = -10.0
+    
+    print(f"\n🚀 STARTING PRODUCTION PIPELINE: {CONFIG['EPOCHS']} Epochs")
     pool = mp.Pool(processes=CONFIG["NUM_WORKERS"])
     
     try:
         for epoch in range(CONFIG["EPOCHS"]):
-            start = time.time()
+            start_time = time.time()
             batch_data = []
             
             # --- 1. GENERATION (With Forced Exploration) ---
             for _ in range(CONFIG["BATCH_SIZE"]):
                 G_raw = random.randint(1, 230)
-                num_atoms = random.randint(2, 6) # Keep it small for speed
-                lattice_guess = random.uniform(4.0, 8.0) # BIG BOX
+                num_atoms = random.randint(2, 6) 
+                lattice_guess = random.uniform(4.0, 8.0) 
                 
                 inputs = agent.prepare_input(G_raw, [[0.5]*3]*num_atoms, [0]*num_atoms, [0]*num_atoms, [1]*num_atoms)
                 logits_policy = agent.policy(*inputs, is_train=False).squeeze(0)
@@ -152,30 +186,24 @@ def main():
                 
                 for j in range(num_atoms):
                     base = 1 + 5 * j
-                    
-                    # --- A. ATOM SELECTION ---
                     atom_logits = logits_policy[base][:13]
                     atom_dist = torch.distributions.Categorical(logits=atom_logits)
                     
-                    # EPSILON-GREEDY: Force diversity!
+                    # EPSILON-GREEDY
                     if random.random() < CONFIG["EPSILON"]:
-                        # IGNORE model, pick random atom (forces non-Zinc)
                         atom_idx = torch.tensor(random.choice(agent.atom_keys), device=agent.device)
-                        # We still need log_prob for the update, even if forced
                         log_probs.append(atom_dist.log_prob(atom_idx))
                     else:
-                        # Use Model
                         atom_idx = atom_dist.sample()
                         log_probs.append(atom_dist.log_prob(atom_idx))
                         
                     actions.append(agent.idx_to_atom.get(atom_idx.item(), 6))
                     
-                    # --- B. WYCKOFF ---
+                    # Wyckoff & Coords
                     w_dist = torch.distributions.Categorical(logits=logits_policy[base+4][:agent.policy.wyck_types])
                     w_act = w_dist.sample()
                     log_probs.append(w_dist.log_prob(w_act))
                     
-                    # --- C. COORDINATES (Mixture Sampling) ---
                     Kx = agent.policy.Kx
                     def sample_c(blk):
                         w_dist = torch.distributions.Categorical(logits=blk[:Kx])
@@ -198,7 +226,7 @@ def main():
                     "logits_ref": logits_ref
                 })
 
-            # --- 2. RELAX EVERYTHING (No Filter) ---
+            # --- 2. RELAXATION (Brute Force) ---
             relax_tasks = []
             for i, item in enumerate(batch_data):
                 if item["struct"]:
@@ -211,7 +239,7 @@ def main():
                 for (idx, res) in results:
                     batch_data[idx]["relax_res"] = res
 
-            # --- 3. ORACLE & REWARD ---
+            # --- 3. ORACLE ---
             oracle_tasks = []
             oracle_map = []
             for idx, item in enumerate(batch_data):
@@ -221,7 +249,7 @@ def main():
                         oracle_tasks.append(res["final_structure"])
                         oracle_map.append(idx)
                     else:
-                        item["result"] = "diverged" # Physics failed
+                        item["result"] = "diverged"
             
             if oracle_tasks:
                 preds = oracle.predict_batch(oracle_tasks)
@@ -230,58 +258,58 @@ def main():
                     batch_data[idx]["oracle"] = pred
                     batch_data[idx]["result"] = "success"
 
-            # --- 4. CALC REWARDS ---
+            # --- 4. REWARDS & LOGGING ---
             agent.optimizer.zero_grad()
             loss_accum = torch.tensor(0.0, device=agent.device)
             rewards = []
             
-            valid_count = 0
-            semi_count = 0
-            best_f = "-"
+            epoch_valid_count = 0
+            epoch_best_f = "-"
             
             for item in batch_data:
-                reward = -2.0 # Default penalty (Explosion/Invalid)
-                
-                form = "Invalid"
-                e = 0.0
-                g = 0.0
+                reward = -2.0 # Failure
                 
                 if item["result"] == "success":
-                    form = item["relax_res"]["final_structure"].composition.reduced_formula
+                    final_s = item["relax_res"]["final_structure"]
+                    form = final_s.composition.reduced_formula
                     e = item["oracle"]["formation_energy"]
                     g = item["oracle"]["band_gap_scalar"]
                     
-                    # REWARD LOGIC
-                    # 1. Base Stability
-                    if e <= 0.2: # Loose stability threshold
+                    # === REWARD LOGIC ===
+                    # 1. Base Stability (Loose allows metals/messy crystals)
+                    if e <= 0.2: 
                         r_stab = 0.5
                     else:
                         r_stab = -0.5
                         
-                    # 2. Band Gap (The Goal)
+                    # 2. Band Gap Bonus
                     if g > 0.1:
-                        r_gap = 5.0 # BIG BONUS
-                        semi_count += 1
+                        r_gap = 5.0 
                     else:
                         r_gap = 0.0
                         
                     reward = r_stab + r_gap
-                    valid_count += 1
-                    best_f = form
+                    epoch_valid_count += 1
+                    epoch_best_f = form
                     
-                    # Save Good Stuff
+                    # === LOGGING ===
+                    # 1. Debug Log (Everything valid)
+                    with open("relaxed_all.csv", "a") as f:
+                        csv.writer(f).writerow([epoch, form, f"{e:.2f}", f"{g:.2f}", f"{reward:.1f}"])
+                        
+                    # 2. Candidate Log (Only Promising stuff)
+                    # Lowered threshold to 0.0 so we see the Zn/ZnS appear
+                    if reward > 0.0:
+                        with open("final_candidates.csv", "a") as f:
+                            csv.writer(f).writerow([form, e, g, reward, epoch])
+                        
+                    # 3. Save CIF (Only High Quality)
                     if reward > 2.0:
-                        item["relax_res"]["final_structure"].to(filename=f"rl_discoveries/{form}_{epoch}.cif")
+                        CifWriter(final_s).write_file(f"{disc_dir}/{form}_{epoch}.cif")
 
                 rewards.append(reward)
-                
-                # Log Attempt
-                with open("all_attempts.csv", "a") as f:
-                    csv.writer(f).writerow([epoch, form, item["result"], f"{e:.2f}", f"{g:.2f}", f"{reward:.2f}"])
 
-                # Loss Calculation
-                if item["result"] == "success" or item["result"] == "diverged":
-                     # We learn from Failures too! (Diverged = Negative Reward)
+                if item["result"] in ["success", "diverged"]:
                      log_sum = torch.stack(item["log_probs"]).sum()
                      kl = F.kl_div(F.log_softmax(item["logits_policy"], dim=-1), F.softmax(item["logits_ref"].detach(), dim=-1), reduction="batchmean")
                      loss = -(reward * log_sum) + (CONFIG["KL_COEF"] * kl)
@@ -292,12 +320,31 @@ def main():
                 torch.nn.utils.clip_grad_norm_(agent.policy.parameters(), 1.0)
                 agent.optimizer.step()
                 
-            # Log
             avg_r = np.mean(rewards) if rewards else 0
-            print(f"[Epoch {epoch+1}] R={avg_r:.2f} | Valid={valid_count} | Semi={semi_count} | Last: {best_f}")
             
+            # --- 5. WINDOW UPDATES & PRINTING ---
+            w_reward += avg_r
+            w_valid += epoch_valid_count
+            
+            # Update best formula for the window
+            if epoch_valid_count > 0:
+                if rewards and max(rewards) > w_best_r:
+                    w_best_r = max(rewards)
+                    w_best_f = epoch_best_f
+            
+            # CSV Log every epoch
             with open("training_log.csv", "a") as f:
-                csv.writer(f).writerow([epoch, avg_r, valid_count, semi_count, best_f])
+                csv.writer(f).writerow([epoch, avg_r, epoch_valid_count, epoch_best_f, time.time()-start_time])
+            
+            # Console Print every 10 epochs
+            if (epoch + 1) % WINDOW == 0:
+                print(f"[E{epoch+1-WINDOW}-{epoch+1}] R={w_reward/WINDOW:.2f} | Total Valid={w_valid} | Best={w_best_f}")
+                agent.save_checkpoint(epoch, avg_r)
+                # Reset Window
+                w_reward = 0.0
+                w_valid = 0
+                w_best_f = "-"
+                w_best_r = -10.0
 
     except KeyboardInterrupt: pass
     finally:
