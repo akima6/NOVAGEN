@@ -31,8 +31,9 @@ CONFIG = {
     "LR": 1e-5,
     "EPOCHS": 150,
     "KL_COEF": 0.05,
+    "ENTROPY_COEF": 0.05,   # Added Explicit Entropy Coef
     "DEVICE": "cuda" if torch.cuda.is_available() else "cpu",
-    "REPLAY_RATIO": 0.3,    
+    "REPLAY_RATIO": 0.5,    # INCREASED to 50% for Teacher Mode
     "NUM_WORKERS": 1        # Keep safe default
 }
 
@@ -78,7 +79,8 @@ def check_geometry_fast(struct):
     try:
         dm = struct.distance_matrix
         np.fill_diagonal(dm, 10.0)
-        return np.min(dm) >= 0.8
+        # LOOSENED FILTER: 0.8 -> 0.6 to allow slightly messy crystals to survive
+        return np.min(dm) >= 0.6
     except: return False
 
 def build_structure(A, X, lattice_scale):
@@ -136,7 +138,6 @@ class PPOAgent_Pipeline:
             self.start_epoch = ckpt['epoch'] + 1
             self.best_avg_reward = ckpt['best_reward']
             self.memory = ckpt['memory'] 
-            # Ideally load cache too, but starting fresh is safe
             if 'reward_cache' in ckpt:
                 self.reward_cache = ckpt['reward_cache']
             print(f"   Resuming at Epoch {self.start_epoch}")
@@ -146,6 +147,8 @@ class PPOAgent_Pipeline:
             state = torch.load(author_path, map_location=self.device)
             self.policy.load_state_dict(state, strict=True)
             self.ref_model.load_state_dict(state, strict=True)
+            # INJECT TEACHER KNOWLEDGE ON FRESH START
+            self.inject_teacher_knowledge()
         
         self.ref_model.eval()
 
@@ -153,6 +156,21 @@ class PPOAgent_Pipeline:
             0: 30, 1: 16, 2: 48, 3: 34, 4: 8, 5: 31, 6: 33,
             7: 29, 8: 49, 9: 50, 10: 32, 11: 52, 12: 14
         }
+
+    def inject_teacher_knowledge(self):
+        """Hard-codes known semiconductors into memory so the agent knows what to look for."""
+        seeds = []
+        # Si (Diamond)
+        seeds.append(Structure(Lattice.cubic(5.43), ["Si", "Si"], [[0,0,0], [0.25,0.25,0.25]]))
+        # GaAs (Zincblende)
+        seeds.append(Structure(Lattice.cubic(5.65), ["Ga", "As"], [[0,0,0], [0.25,0.25,0.25]]))
+        # MgO (Rock Salt)
+        seeds.append(Structure(Lattice.cubic(4.21), ["Mg", "O"], [[0,0,0], [0.5,0.5,0.5]]))
+        
+        print(f"💉 Injecting {len(seeds)} Teacher Crystals into Memory...")
+        for s in seeds:
+            for _ in range(50): # Repeat to fill buffer and influence early batches
+                self.memory.append({'struct': s, 'reward': 5.0}) # Synthetic High Reward
 
     def save_checkpoint(self, epoch, current_reward):
         """Saves full training state for resume capability."""
@@ -179,6 +197,7 @@ class PPOAgent_Pipeline:
             torch.tensor([W], device=self.device),
             torch.tensor([M], device=self.device)
         )
+
 # --- MAIN PIPELINE ---
 def main():
     mp.set_start_method('spawn', force=True)
@@ -234,7 +253,8 @@ def main():
                 count_total += 1
                 
                 # Memory Replay
-                use_mem = (len(agent.memory) > 20) and (random.random() < CONFIG["REPLAY_RATIO"])
+                # Increased threshold to 50 to allow teacher memory to work
+                use_mem = (len(agent.memory) > 50) and (random.random() < CONFIG["REPLAY_RATIO"])
                 
                 if use_mem:
                     memory_item = random.choice(agent.memory)
@@ -265,59 +285,45 @@ def main():
                     actions = []
                     X_list = []
                 
-                    # ---------- Atom sampling ----------
+                    # ---------- Atom & Coordinate Sampling ----------
                     for j in range(num_atoms):
                         base = 1 + 5 * j
                     
-                        # Atom first
+                        # 1. Atom Type
                         atom_logits = logits_policy[base][:13]
                         atom_dist = torch.distributions.Categorical(logits=atom_logits)
                         atom_action = atom_dist.sample()
                         log_probs.append(atom_dist.log_prob(atom_action))
                         actions.append(agent.idx_to_atom.get(atom_action.item(), 6))
                     
-                        # Then Wyckoff
+                        # 2. Wyckoff (Standard)
                         wyckoff_logits = logits_policy[base + 4][:agent.policy.wyck_types]
                         wyckoff_dist = torch.distributions.Categorical(logits=wyckoff_logits)
                         wyckoff_action = wyckoff_dist.sample()
                         log_probs.append(wyckoff_dist.log_prob(wyckoff_action))
 
-                
-                    
-# ---------- Coordinate sampling (FIXED) ----------
-                    for j in range(num_atoms):
-                        base = 1 + 5 * j
-                        Kx = agent.policy.Kx  # Number of mixture components (e.g., 16)
-
-                        # Function to sample X, Y, or Z correctly
+                        # 3. Coordinate Sampling (FIXED & MERGED)
+                        Kx = agent.policy.Kx
+                        
                         def sample_coord(logit_block):
-                            # 1. Get Mixture Weights (First Kx values)
-                            # This decides WHICH "peak" or "mode" to pick
+                            # Mixture Weights
                             weights = logit_block[:Kx]
                             dist = torch.distributions.Categorical(logits=weights)
-                            
-                            # Sample a specific mode (e.g., "Peak #3")
                             mode_idx = dist.sample()
-                            
-                            # IMPORTANT: Record log_prob so the Agent learns!
-                            log_probs.append(dist.log_prob(mode_idx))
+                            log_probs.append(dist.log_prob(mode_idx)) # Learn choice
 
-                            # 2. Get the Mean value for that specific mode
-                            # The means are in the second block [Kx : 2*Kx]
+                            # Mean Value
                             means = logit_block[Kx : 2*Kx]
                             chosen_mu = means[mode_idx]
-
-                            # 3. Convert to 0-1 coordinate
                             return torch.sigmoid(chosen_mu).item()
 
-                        # Apply to X, Y, Z independently
                         x = sample_coord(logits_policy[base + 1])
                         y = sample_coord(logits_policy[base + 2])
                         z = sample_coord(logits_policy[base + 3])
                     
                         X_list.append([x, y, z])
 
-                
+                    # Build Structure
                     struct = build_structure(actions, X_list, lattice_guess)
                 
                     batch_data.append({
@@ -328,7 +334,6 @@ def main():
                         "struct": struct
                     })
 
-
             # --- STAGE 2: DEDUPLICATION & FILTERING ---
             relax_tasks = []
             
@@ -336,13 +341,12 @@ def main():
                 if item["type"] == "gen":
                     s = item["struct"]
                     
-                    # 1. Structure Validity
                     if s is None:
                         item["result"] = "invalid"
                         count_filtered += 1
                         continue
 
-                    # 2. DEDUPLICATION (Cache Check)
+                    # DEDUPLICATION
                     shash = get_structure_hash(s)
                     if shash and shash in agent.reward_cache:
                         item["result"] = "cached"
@@ -350,11 +354,9 @@ def main():
                         count_dedup += 1
                         continue
 
-                    # 3. Geometry Filter
+                    # GEOMETRY FILTER
                     if check_geometry_fast(s):
-                        # Valid & New -> Send to Relaxer
                         relax_tasks.append((idx, s))
-                        # Note: We assign 'shash' to item so we can cache result later
                         item["shash"] = shash
                     else:
                         item["result"] = "invalid" 
@@ -383,7 +385,7 @@ def main():
                             count_converged += 1
                         else:
                             item["result"] = "collapsed"
-                            count_diverged += 1 # Technically geometry fail, but post-relax
+                            count_diverged += 1
                     else:
                         item["result"] = "diverged"
                         count_diverged += 1
@@ -402,8 +404,9 @@ def main():
             
             agent.optimizer.zero_grad()
             loss_accum = torch.tensor(0.0, device=agent.device)           
+            
             for item in batch_data:
-                reward = -5.0 
+                reward = -1.0 # Default penalty (Invalid/Diverged)
                 
                 # A. Handle Cached Result
                 if item["result"] == "cached":
@@ -419,104 +422,84 @@ def main():
                     e = props["formation_energy"]
                     g = props["band_gap_scalar"]
 
-                    # ------------------------------
-                    # SAVE ALL RELAXED STRUCTURES (DEBUG / ANALYSIS)
-                    # ------------------------------
+                    # Save for Debug
                     final_s = item["relax_res"]["final_structure"]
                     f_str = final_s.composition.reduced_formula
-                    
                     with open("relaxed_all.csv", "a", newline="") as f:
-                        csv.writer(f).writerow([
-                            epoch,
-                            f_str,
-                            e,
-                            g
-                        ])
+                        csv.writer(f).writerow([epoch, f_str, e, g])
 
                     # ------------------------------
-                    # NEW REWARD LOGIC ("The Veto")
+                    # NEW REWARD LOGIC ("Stepping Stones")
                     # ------------------------------
                     
-                    # 1. METALS ARE FAILURES
-                    # If Band Gap is near zero (< 0.1 eV), it's a metal.
-                    # We give it a negative reward so the agent hates it.
-                    if g < 0.1:
-                        reward = -5.0
+                    # 1. Stability Base Score (Range -1 to +1)
+                    # If stable (e < 0), score is positive.
+                    if e < 0:
+                        r_stab = 1.0  # BASELINE for any stable crystal (Even metal)
                     else:
-                        # 2. SEMICONDUCTORS ARE WINNERS
-                        # Now we calculate the score based on Stability + Band Gap
+                        r_stab = -1.0 # Unstable penalty
                         
-                        # Stability: Map Energy (e) to range [0, 1]
-                        # Stable (e < 0) gets high score. Unstable (e > 0) gets low score.
-                        if e < 0:
-                            r_stab = 1.0 + np.tanh(-e) # Range [1.0, 2.0] for stable
-                        else:
-                            r_stab = np.exp(-e)        # Range [0.0, 1.0] for unstable
+                    # 2. Band Gap Bonus (The Jackpot)
+                    # If it has a gap > 0.1 eV, massive multiplier
+                    if g > 0.1:
+                        # Target 1.8 eV, sigma 0.5
+                        r_gap = 5.0 * np.exp(-((g - 1.8) ** 2) / (2 * 0.5 ** 2))
+                    else:
+                        r_gap = 0.0 # No bonus for metals
 
-                        # Band Gap: Target 1.8 eV
-                        mu = 1.8
-                        sigma = 0.5
-                        r_gap = np.exp(-((g - mu) ** 2) / (2 * sigma ** 2))
-                        
-                        # Total Reward
-                        reward = 2.0 * r_stab + 3.0 * r_gap
+                    # Total Reward
+                    # Stable Metal = 1.0 + 0.0 = 1.0
+                    # Stable Semiconductor = 1.0 + 5.0 = 6.0
+                    # Unstable = -1.0
+                    reward = r_stab + r_gap
 
                     # --- CACHE UPDATE ---
                     if "shash" in item and item["shash"]:
                         agent.reward_cache[item["shash"]] = reward
 
-                    # Save "Winners" (Only positive rewards, so Zn is now excluded)
+                    # Save "Winners" (Stable things)
                     if reward > 0.0:
                         stable_cnt += 1
                         agent.memory.append({'struct': final_s, 'reward': reward})
                         
                         best_form = f_str
                         
-                        # Step 3: Track best target in window
                         if (w_best is None) or (reward > w_best[0]):
                             w_best = (reward, f_str, e, g)
                             
-                        with open("final_candidates.csv", "a", newline="") as f:
-                            csv.writer(f).writerow([f_str, e, g, reward, epoch])
+                        # Save high-value candidates (Semi-conductors) to CSV
+                        if reward > 2.0: 
+                            with open("final_candidates.csv", "a", newline="") as f:
+                                csv.writer(f).writerow([f_str, e, g, reward, epoch])
                             
-                        # Save CIF
+                        # Save CIF for any stable crystal (limit 5 per epoch)
                         if stable_cnt <= 5:
                             fname = f"{disc_dir}/{f_str}_{epoch}.cif"
                             CifWriter(final_s).write_file(fname)
 
                 # D. Failures
                 elif item["result"] == "invalid":
-                    reward = -10.0
+                    reward = -1.0
                 elif item["result"] == "diverged":
-                    reward = -5.0
+                    reward = -1.0
                 elif item["result"] == "collapsed":
-                    reward = -10.0
+                    reward = -1.0
                 
                 rewards.append(reward)
   
-# Accumulate Loss
+                # Accumulate Loss
                 if item["type"] == "gen" and item["result"] == "success":
                     log_sum = torch.stack(item["log_probs"]).sum()
                     
-                    # 1. Calculate KL Divergence (Stay close to physics knowledge)
                     kl = F.kl_div(
                         F.log_softmax(item["logits_policy"], dim=-1),
                         F.softmax(item["logits_ref"].detach(), dim=-1),
                         reduction="batchmean"
                     )
                     
-                    # 2. Calculate Entropy (Measure of "Curiosity")
-                    # We want to maximize entropy (exploration), so we subtract it from loss
-                    # Note: We estimate entropy from the stored log_probs
-                    # (A simplified proxy for full distribution entropy to save memory)
                     entropy_proxy = -log_sum / len(item["log_probs"])
-
-                    # 3. Final Loss Equation
-                    # Loss = -Reward + KL_Penalty - Entropy_Bonus
-                    ENTROPY_COEF = 0.05  # Force 5% curiosity
                     
-                    loss = -(reward * log_sum) + (CONFIG["KL_COEF"] * kl) - (ENTROPY_COEF * entropy_proxy)
-                    
+                    loss = -(reward * log_sum) + (CONFIG["KL_COEF"] * kl) - (CONFIG["ENTROPY_COEF"] * entropy_proxy)
                     loss_accum += loss
 
             if loss_accum.requires_grad:
@@ -528,20 +511,15 @@ def main():
             epoch_time = time.time() - start_time
             
             # --- LOGGING ---
-            # Avoid division by zero
             pct_filt = (count_filtered / CONFIG["BATCH_SIZE"]) * 100
             pct_divg = (count_diverged / CONFIG["BATCH_SIZE"]) * 100
             pct_conv = (count_converged / CONFIG["BATCH_SIZE"]) * 100
             pct_dedup = (count_dedup / CONFIG["BATCH_SIZE"]) * 100
             
-            # REMOVED per-epoch print to satisfy "only want to see every 10 epoches"
-            # print(f"Epoch {epoch+1}/{CONFIG['EPOCHS']} | R: {avg_r:.2f} | Filt: {int(pct_filt)}% | ...")
-            
             with open("training_log.csv", "a", newline="") as f:
                 csv.writer(f).writerow([epoch, avg_r, stable_cnt, best_form, epoch_time, 
                                         pct_filt, pct_divg, pct_conv, pct_dedup])
             
-            # Step 2: Update counters INSIDE each epoch
             # ---- WINDOW ACCUMULATION ----
             w_gen += CONFIG["BATCH_SIZE"]
             w_filt += count_filtered
@@ -551,18 +529,16 @@ def main():
             w_reward += avg_r
             w_time += epoch_time
 
-
-# Step 4: Print ONE line every 10 epochs
+            # Step 4: Print ONE line every 10 epochs
             if (epoch + 1) % WINDOW == 0:
                 e_end = epoch + 1
                 e_start = e_end - WINDOW + 1 
             
                 avg_reward = w_reward / WINDOW
                             
-                if w_candidates:
-                    # Pick best candidate found in this window
-                    best = max(w_candidates, key=lambda x: x[0])  # by reward
-                    _, bf, be, bg = best
+                if w_best:
+                    # Best in window
+                    r, bf, be, bg = w_best
                     best_str = f"⭐ {bf} (E={be:.2f} eV, Bg={bg:.2f} eV)"
                 else:
                     best_str = "—"
@@ -580,8 +556,6 @@ def main():
                 w_time = 0.0
                 w_best = None
                 w_candidates = []
-
-
 
             agent.save_checkpoint(epoch, avg_r)
 
