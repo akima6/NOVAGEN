@@ -164,7 +164,7 @@ def main():
     
     # 1. Initialize Oracle with CPU Fallback (handled inside your oracle.py)
     print("🔮 Initializing Oracle...")
-    oracle = Oracle(device=CONFIG["DEVICE"]) 
+    oracle = Oracle()
     
     # --- ORACLE WARMUP TEST ---
     print("\n🧪 Running Oracle Warmup Test (Silicon)...")
