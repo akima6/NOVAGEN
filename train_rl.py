@@ -281,26 +281,37 @@ def main():
                         log_probs.append(wyckoff_dist.log_prob(wyckoff_action))
 
                 
-                    # ---------- Coordinate sampling ----------
+                    
+# ---------- Coordinate sampling (FIXED) ----------
                     for j in range(num_atoms):
                         base = 1 + 5 * j
-                    
-                        Kx = agent.policy.Kx  # number of coordinate modes
-                    
-                        # X
-                        block_x = logits_policy[base + 1]
-                        mu_x = block_x[Kx:2*Kx].mean()
-                        x = torch.sigmoid(mu_x).item()
-                    
-                        # Y
-                        block_y = logits_policy[base + 2]
-                        mu_y = block_y[Kx:2*Kx].mean()
-                        y = torch.sigmoid(mu_y).item()
-                    
-                        # Z
-                        block_z = logits_policy[base + 3]
-                        mu_z = block_z[Kx:2*Kx].mean()
-                        z = torch.sigmoid(mu_z).item()
+                        Kx = agent.policy.Kx  # Number of mixture components (e.g., 16)
+
+                        # Function to sample X, Y, or Z correctly
+                        def sample_coord(logit_block):
+                            # 1. Get Mixture Weights (First Kx values)
+                            # This decides WHICH "peak" or "mode" to pick
+                            weights = logit_block[:Kx]
+                            dist = torch.distributions.Categorical(logits=weights)
+                            
+                            # Sample a specific mode (e.g., "Peak #3")
+                            mode_idx = dist.sample()
+                            
+                            # IMPORTANT: Record log_prob so the Agent learns!
+                            log_probs.append(dist.log_prob(mode_idx))
+
+                            # 2. Get the Mean value for that specific mode
+                            # The means are in the second block [Kx : 2*Kx]
+                            means = logit_block[Kx : 2*Kx]
+                            chosen_mu = means[mode_idx]
+
+                            # 3. Convert to 0-1 coordinate
+                            return torch.sigmoid(chosen_mu).item()
+
+                        # Apply to X, Y, Z independently
+                        x = sample_coord(logits_policy[base + 1])
+                        y = sample_coord(logits_policy[base + 2])
+                        z = sample_coord(logits_policy[base + 3])
                     
                         X_list.append([x, y, z])
 
