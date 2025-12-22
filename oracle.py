@@ -22,7 +22,7 @@ class Oracle:
             from pymatgen.core import Structure, Lattice
             from pymatgen.core.periodic_table import Element
             
-            # 1. Determine Device
+            # 1. Try to use requested device (GPU if available)
             self.device_str = device if torch.cuda.is_available() else "cpu"
             self.device = torch.device(self.device_str)
             print(f"🔮 Oracle initialized on: {self.device}")
@@ -51,6 +51,7 @@ class Oracle:
             # 4. Run Self-Test
             print("🧪 Running Batching Self-Test...")
             self.use_batching = False
+            
             try:
                 # Create Dummy Input
                 dummy_s = Structure(Lattice.cubic(3.0), ["Si"], [[0,0,0]])
@@ -66,7 +67,8 @@ class Oracle:
                 print(f"⚠️ Batching Self-Test Failed ({e}).")
                 print("   -> 📉 Downgrading models to CPU for Robust Sequential Mode.")
                 
-                # CRITICAL FIX: Move models to CPU to prevent "Device Mismatch" errors
+                # --- CRITICAL FIX: MOVE MODELS TO CPU ---
+                # This prevents the "cuda:0 vs cpu" mismatch error
                 self.device = torch.device("cpu")
                 self.eform_model.to(self.device)
                 self.bg_model.to(self.device)
@@ -126,7 +128,7 @@ class Oracle:
             preds = self.eform_model(batched_graph, batched_state)
             vals = preds.cpu().numpy().flatten()
             
-        # 4. Map Back (MEGNet runs sequentially even in batch mode usually)
+        # 4. Map Back 
         res_ptr = 0
         for idx in valid_indices:
             e_val = float(vals[res_ptr])
@@ -156,13 +158,14 @@ class Oracle:
                 
                 # MEGNet Prediction
                 try:
+                    # We use fixed_state which is already on the correct device (CPU)
                     gap = float(self.bg_model.predict_structure(struct, state_attr=self.fixed_state))
                     gap = max(0.0, gap)
                 except: gap = 0.0
                 
                 results.append({"formation_energy": e_val, "band_gap_scalar": gap})
             except Exception as e:
-                # Print error only if debugging
+                # Debug print only if needed
                 # print(f"Sequential Error: {e}")
                 results.append(self._error_result())
         return results
