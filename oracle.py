@@ -28,7 +28,6 @@ class Oracle:
             print(f"🔮 Oracle initialized on: {self.device}")
 
             # 2. Load Models
-            # We load M3GNet (Formation Energy) and MEGNet (Band Gap)
             self.eform_model = matgl.load_model("M3GNet-MP-2018.6.1-Eform")
             self.bg_model = matgl.load_model("MEGNet-MP-2019.4.1-BandGap-mfi")
             
