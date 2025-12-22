@@ -1,5 +1,26 @@
-import os
 import sys
+import types
+
+# ==============================================================================
+# 🩹 CRITICAL MONKEY PATCH for PyTorch/TorchData Compatibility
+# This fixes the "No module named 'torch.utils._import_utils'" crash.
+# It creates a fake module in memory so DGL/TorchData stops complaining.
+# ==============================================================================
+try:
+    import torch.utils._import_utils
+except ImportError:
+    # Create a dummy module object
+    dummy_utils = types.ModuleType("torch.utils._import_utils")
+    # Add the specific function 'dill_available' that torchdata looks for
+    dummy_utils.dill_available = lambda: False
+    # Inject it into python's system modules
+    sys.modules["torch.utils._import_utils"] = dummy_utils
+    # Also attach it to torch.utils if possible
+    import torch.utils
+    torch.utils._import_utils = dummy_utils
+# ==============================================================================
+
+import os
 import torch
 import torch.multiprocessing as mp
 import torch.nn.functional as F
@@ -27,13 +48,13 @@ from oracle import Oracle
 # --- CONFIGURATION ---
 PRETRAINED_DIR = os.path.join(ROOT, "pretrained_model")
 CONFIG = {
-    "BATCH_SIZE": 16,       # Low batch size for CPU safety
+    "BATCH_SIZE": 16,       
     "LR": 1e-4,             
     "EPOCHS": 300,          
     "KL_COEF": 0.05,
     "ENTROPY_COEF": 0.1,    
     "DEVICE": "cuda" if torch.cuda.is_available() else "cpu",
-    "EPSILON": 0.20,        # 20% Forced Exploration
+    "EPSILON": 0.20,        
     "NUM_WORKERS": 1        
 }
 
