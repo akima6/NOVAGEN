@@ -28,13 +28,13 @@ from oracle import Oracle
 PRETRAINED_DIR = os.path.join(ROOT, "pretrained_model")
 CONFIG = {
     "BATCH_SIZE": 32,       
-    "LR": 1e-5,
+    "LR": 1e-4,             # INCREASED: Learn 10x faster
     "EPOCHS": 150,
     "KL_COEF": 0.05,
-    "ENTROPY_COEF": 0.05,   # Added Explicit Entropy Coef
+    "ENTROPY_COEF": 0.1,    # INCREASED: Force more random exploration
     "DEVICE": "cuda" if torch.cuda.is_available() else "cpu",
-    "REPLAY_RATIO": 0.5,    # INCREASED to 50% for Teacher Mode
-    "NUM_WORKERS": 1        # Keep safe default
+    "REPLAY_RATIO": 0.5,    
+    "NUM_WORKERS": 1        
 }
 
 # --- WORKER FUNCTION ---
@@ -267,7 +267,7 @@ def main():
                     # Generate New
                     G_raw = random.randint(1, 230)
                     num_atoms = random.randint(2, 6)
-                    lattice_guess = random.uniform(3.5, 6.0)
+                    lattice_guess = random.uniform(4.5, 7.0)
                     
                     inputs = agent.prepare_input(
                         G_raw,
@@ -466,6 +466,8 @@ def main():
                         
                         if (w_best is None) or (reward > w_best[0]):
                             w_best = (reward, f_str, e, g)
+                        with open("final_candidates.csv", "a", newline="") as f:
+                            csv.writer(f).writerow([f_str, e, g, reward, epoch])
                             
                         # Save high-value candidates (Semi-conductors) to CSV
                         if reward > 2.0: 
