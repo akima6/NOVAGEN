@@ -17,6 +17,7 @@ import time
 ROOT = os.path.dirname(os.path.abspath("__file__"))
 sys.path.append(os.path.join(ROOT, "CrystalFormer"))
 
+# --- IMPORTS ---
 from crystalformer.src.transformer import make_transformer
 from pymatgen.core import Lattice, Structure
 from pymatgen.io.cif import CifWriter
@@ -26,18 +27,19 @@ from oracle import Oracle
 # --- CONFIGURATION ---
 PRETRAINED_DIR = os.path.join(ROOT, "pretrained_model")
 CONFIG = {
-    "BATCH_SIZE": 16,       # Keep low for brute force
+    "BATCH_SIZE": 16,       # Low batch size for CPU safety
     "LR": 1e-4,             
-    "EPOCHS": 300,          # Increased to 300 (Let it cook!)
+    "EPOCHS": 300,          
     "KL_COEF": 0.05,
     "ENTROPY_COEF": 0.1,    
     "DEVICE": "cuda" if torch.cuda.is_available() else "cpu",
-    "EPSILON": 0.20,        # 20% Chance to FORCE random atoms (The Key to Success)
+    "EPSILON": 0.20,        # 20% Forced Exploration
     "NUM_WORKERS": 1        
 }
 
-# --- WORKER ---
+# --- WORKER FUNCTION ---
 _relaxer = None
+
 def worker_relax_task(task_data):
     global _relaxer
     torch.set_num_threads(1)
@@ -56,16 +58,16 @@ def build_structure(A, X, lattice_scale):
     coords = [x for a, x in zip(A, X) if a != 0]
     if len(species) < 1: return None
     try:
-        # Random Lattice 4.0 - 8.0 (Room to breathe)
+        # Random Lattice 3.5 - 6.0 (Tighter box to force bonding)
         a = b = c = lattice_scale
         lattice = Lattice.from_parameters(a, b, c, 90, 90, 90)
         return Structure(lattice, species, coords)
     except: return None
 
-# --- AGENT ---
-class PPOAgent_Production:
+# --- AGENT CLASS ---
+class PPOAgent_Final:
     def __init__(self):
-        print(f"--- Initializing Production PPO (Hybrid Mode) ---")
+        print(f"--- Initializing PPO Agent (Device: {CONFIG['DEVICE']}) ---")
         self.device = CONFIG["DEVICE"]
         self.memory = deque(maxlen=5000)
         self.best_avg_reward = -10.0
@@ -89,7 +91,7 @@ class PPOAgent_Production:
         
         self.optimizer = optim.AdamW(self.policy.parameters(), lr=CONFIG["LR"])
         
-        # Checkpoint Logic
+        # Load Weights
         checkpoint_path = os.path.join(ROOT, "checkpoint.pt")
         author_path = os.path.join(PRETRAINED_DIR, "epoch_005500_CLEAN.pt")
         
@@ -108,7 +110,6 @@ class PPOAgent_Production:
 
         self.ref_model.eval()
 
-        # Mapping
         self.idx_to_atom = {
             0: 30, 1: 16, 2: 48, 3: 34, 4: 8, 5: 31, 6: 33,
             7: 29, 8: 49, 9: 50, 10: 32, 11: 52, 12: 14
@@ -135,17 +136,37 @@ class PPOAgent_Production:
             torch.tensor([M], device=self.device)
         )
 
-# --- MAIN ---
+# --- MAIN PIPELINE ---
 def main():
     mp.set_start_method('spawn', force=True)
-    agent = PPOAgent_Production()
-    oracle = Oracle(device=CONFIG["DEVICE"])
+    agent = PPOAgent_Final()
+    
+    # 1. Initialize Oracle with CPU Fallback (handled inside your oracle.py)
+    print("🔮 Initializing Oracle...")
+    oracle = Oracle(device=CONFIG["DEVICE"]) 
+    
+    # --- ORACLE WARMUP TEST ---
+    print("\n🧪 Running Oracle Warmup Test (Silicon)...")
+    try:
+        # Create a fake Silicon structure
+        si_struct = Structure(Lattice.cubic(5.43), ["Si"]*2, [[0,0,0], [0.25,0.25,0.25]])
+        pred = oracle.predict_batch([si_struct])[0]
+        e_test = pred["formation_energy"]
+        g_test = pred["band_gap_scalar"]
+        print(f"   -> Result: Energy={e_test:.4f} eV, Gap={g_test:.4f} eV")
+        
+        if e_test == 0.0 and g_test == 0.0:
+            print("🚨 WARNING: Oracle returned EXACT ZEROS. Check installation.")
+        elif e_test < -0.1:
+            print("✅ PASS: Oracle is returning valid negative energy.")
+    except Exception as e:
+        print(f"❌ Oracle Warmup Failed: {e}")
+        # We continue anyway, but expect issues if this failed
     
     disc_dir = os.path.join(ROOT, "rl_discoveries")
     os.makedirs(disc_dir, exist_ok=True)
     
-    # --- INIT LOGS ---
-    # We restart logs if no checkpoint, otherwise append (logic simplified for restart)
+    # Initialize Logs
     if not os.path.exists("training_log.csv"):
         with open("training_log.csv", "w") as f:
             csv.writer(f).writerow(["Epoch", "Avg_Reward", "Valid_Count", "Best_Formula", "Time_Sec"])
@@ -154,14 +175,13 @@ def main():
         with open("relaxed_all.csv", "w") as f:
             csv.writer(f).writerow(["Epoch", "Formula", "Energy", "BandGap", "Reward"])
 
-    # Rolling Window Trackers
     WINDOW = 10
     w_reward = 0.0
     w_valid = 0
     w_best_f = "-"
     w_best_r = -10.0
     
-    print(f"\n🚀 STARTING PRODUCTION PIPELINE: {CONFIG['EPOCHS']} Epochs")
+    print(f"\n🚀 STARTING FINAL PIPELINE: {CONFIG['EPOCHS']} Epochs")
     pool = mp.Pool(processes=CONFIG["NUM_WORKERS"])
     
     try:
@@ -169,11 +189,12 @@ def main():
             start_time = time.time()
             batch_data = []
             
-            # --- 1. GENERATION (With Forced Exploration) ---
+            # --- 1. GENERATION ---
             for _ in range(CONFIG["BATCH_SIZE"]):
                 G_raw = random.randint(1, 230)
                 num_atoms = random.randint(2, 6) 
-                lattice_guess = random.uniform(4.0, 8.0) 
+                # Tighter lattice to encourage bonding (was 4.0-8.0)
+                lattice_guess = random.uniform(3.5, 6.0) 
                 
                 inputs = agent.prepare_input(G_raw, [[0.5]*3]*num_atoms, [0]*num_atoms, [0]*num_atoms, [1]*num_atoms)
                 logits_policy = agent.policy(*inputs, is_train=False).squeeze(0)
@@ -199,7 +220,6 @@ def main():
                         
                     actions.append(agent.idx_to_atom.get(atom_idx.item(), 6))
                     
-                    # Wyckoff & Coords
                     w_dist = torch.distributions.Categorical(logits=logits_policy[base+4][:agent.policy.wyck_types])
                     w_act = w_dist.sample()
                     log_probs.append(w_dist.log_prob(w_act))
@@ -226,7 +246,7 @@ def main():
                     "logits_ref": logits_ref
                 })
 
-            # --- 2. RELAXATION (Brute Force) ---
+            # --- 2. RELAXATION ---
             relax_tasks = []
             for i, item in enumerate(batch_data):
                 if item["struct"]:
@@ -258,7 +278,7 @@ def main():
                     batch_data[idx]["oracle"] = pred
                     batch_data[idx]["result"] = "success"
 
-            # --- 4. REWARDS & LOGGING ---
+            # --- 4. REAL REWARDS ---
             agent.optimizer.zero_grad()
             loss_accum = torch.tensor(0.0, device=agent.device)
             rewards = []
@@ -267,7 +287,7 @@ def main():
             epoch_best_f = "-"
             
             for item in batch_data:
-                reward = -2.0 # Failure
+                reward = -2.0 # Default failure
                 
                 if item["result"] == "success":
                     final_s = item["relax_res"]["final_structure"]
@@ -275,16 +295,24 @@ def main():
                     e = item["oracle"]["formation_energy"]
                     g = item["oracle"]["band_gap_scalar"]
                     
-                    # === REWARD LOGIC ===
-                    # 1. Base Stability (Loose allows metals/messy crystals)
-                    if e <= 0.2: 
-                        r_stab = 0.5
+                    # === REAL PHYSICS LOGIC ===
+                    # 1. Stability (Must be negative energy)
+                    # e < -0.1 implies true bonding
+                    if e < -0.1: 
+                        r_stab = 1.0
                     else:
-                        r_stab = -0.5
+                        r_stab = -0.5 # Penalty for unstable/positive energy
                         
-                    # 2. Band Gap Bonus
-                    if g > 0.1:
+                    # 2. Diversity Penalty (Anti-Zinc)
+                    # If it's just Zn, cap the reward so it explores
+                    if form == "Zn" or form == "Zn1":
+                         r_stab = min(r_stab, 0.2)
+                        
+                    # 3. Band Gap Bonus (Real Semiconductor)
+                    if g > 0.5:
                         r_gap = 5.0 
+                    elif g > 0.1:
+                        r_gap = 1.0 # Small gap is better than metal
                     else:
                         r_gap = 0.0
                         
@@ -292,20 +320,18 @@ def main():
                     epoch_valid_count += 1
                     epoch_best_f = form
                     
-                    # === LOGGING ===
-                    # 1. Debug Log (Everything valid)
+                    # Log EVERYTHING valid
                     with open("relaxed_all.csv", "a") as f:
-                        csv.writer(f).writerow([epoch, form, f"{e:.2f}", f"{g:.2f}", f"{reward:.1f}"])
+                        csv.writer(f).writerow([epoch, form, f"{e:.4f}", f"{g:.4f}", f"{reward:.2f}"])
                         
-                    # 2. Candidate Log (Only Promising stuff)
-                    # Lowered threshold to 0.0 so we see the Zn/ZnS appear
-                    if reward > 0.0:
+                    # Save WINNERS (Now defining winner as stable OR gap)
+                    if reward > 0.5:
                         with open("final_candidates.csv", "a") as f:
                             csv.writer(f).writerow([form, e, g, reward, epoch])
                         
-                    # 3. Save CIF (Only High Quality)
                     if reward > 2.0:
-                        CifWriter(final_s).write_file(f"{disc_dir}/{form}_{epoch}.cif")
+                        fname = f"{disc_dir}/{form}_{epoch}_gap{g:.2f}.cif"
+                        CifWriter(final_s).write_file(fname)
 
                 rewards.append(reward)
 
@@ -322,29 +348,21 @@ def main():
                 
             avg_r = np.mean(rewards) if rewards else 0
             
-            # --- 5. WINDOW UPDATES & PRINTING ---
+            # --- 5. REPORTING ---
             w_reward += avg_r
             w_valid += epoch_valid_count
-            
-            # Update best formula for the window
-            if epoch_valid_count > 0:
-                if rewards and max(rewards) > w_best_r:
+            if epoch_valid_count > 0 and rewards:
+                if max(rewards) > w_best_r:
                     w_best_r = max(rewards)
                     w_best_f = epoch_best_f
             
-            # CSV Log every epoch
             with open("training_log.csv", "a") as f:
                 csv.writer(f).writerow([epoch, avg_r, epoch_valid_count, epoch_best_f, time.time()-start_time])
             
-            # Console Print every 10 epochs
             if (epoch + 1) % WINDOW == 0:
-                print(f"[E{epoch+1-WINDOW}-{epoch+1}] R={w_reward/WINDOW:.2f} | Total Valid={w_valid} | Best={w_best_f}")
+                print(f"[E{epoch+1-WINDOW}-{epoch+1}] R={w_reward/WINDOW:.2f} | Valid={w_valid} | Best={w_best_f}")
                 agent.save_checkpoint(epoch, avg_r)
-                # Reset Window
-                w_reward = 0.0
-                w_valid = 0
-                w_best_f = "-"
-                w_best_r = -10.0
+                w_reward = 0.0; w_valid = 0; w_best_f = "-"; w_best_r = -10.0
 
     except KeyboardInterrupt: pass
     finally:
