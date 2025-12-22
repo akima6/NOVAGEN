@@ -205,6 +205,8 @@ def main():
     w_gen = w_filt = w_relx = w_valid = w_target = 0
     w_reward = 0.0
     w_time = 0.0
+    # Store all target candidates in this window
+    w_candidates = []  # (reward, formula, formation_energy, band_gap)
 
     # Best target material in window
     w_best = None   # (reward, formula, formation_energy, band_gap)
@@ -451,6 +453,10 @@ def main():
                             agent.memory.append({'struct': final_s, 'reward': reward})
                 
                             f_str = final_s.composition.reduced_formula
+                            # Keep only inorganic (non-unary) candidates for window summary
+                            if len(final_s.composition.elements) > 1:
+                                w_candidates.append((reward, f_str, e, g))
+
                             best_form = f_str
 
                             # Step 3: Track best target in window
@@ -531,31 +537,37 @@ def main():
             w_reward += avg_r
             w_time += epoch_time
 
-            # Step 4: Print ONE line every 10 epochs
+
+# Step 4: Print ONE line every 10 epochs
             if (epoch + 1) % WINDOW == 0:
                 e_end = epoch + 1
                 e_start = e_end - WINDOW + 1 
-
+            
                 avg_reward = w_reward / WINDOW
-                
-                if w_best is not None:
-                    _, bf, be, bg = w_best
+                            
+                if w_candidates:
+                    # Pick best candidate found in this window
+                    best = max(w_candidates, key=lambda x: x[0])  # by reward
+                    _, bf, be, bg = best
                     best_str = f"⭐ {bf} (E={be:.2f} eV, Bg={bg:.2f} eV)"
                 else:
                     best_str = "—"
-
+            
                 print(
                     f"[E{e_start}–{e_end}]  "
                     f"gen={w_gen} | filt={w_filt} | relx={w_relx} | "
                     f"valid={w_valid} | target={w_target} | "
                     f"R = {avg_reward:.2f} | {w_time:.1f}sec | {best_str}"
                 )
-
+            
                 # ---- RESET WINDOW ----
                 w_gen = w_filt = w_relx = w_valid = w_target = 0
                 w_reward = 0.0
                 w_time = 0.0
                 w_best = None
+                w_candidates = []
+
+
 
             agent.save_checkpoint(epoch, avg_r)
 
