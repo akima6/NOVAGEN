@@ -473,16 +473,30 @@ def main():
                     reward = -10.0
                 
                 rewards.append(reward)
-                
-                # Accumulate Loss
+  
+# Accumulate Loss
                 if item["type"] == "gen" and item["result"] == "success":
                     log_sum = torch.stack(item["log_probs"]).sum()
+                    
+                    # 1. Calculate KL Divergence (Stay close to physics knowledge)
                     kl = F.kl_div(
-                    F.log_softmax(item["logits_policy"], dim=-1),
-                    F.softmax(item["logits_ref"].detach(), dim=-1),
-                    reduction="batchmean"
+                        F.log_softmax(item["logits_policy"], dim=-1),
+                        F.softmax(item["logits_ref"].detach(), dim=-1),
+                        reduction="batchmean"
                     )
-                    loss = -(reward * log_sum) + (CONFIG["KL_COEF"] * kl)
+                    
+                    # 2. Calculate Entropy (Measure of "Curiosity")
+                    # We want to maximize entropy (exploration), so we subtract it from loss
+                    # Note: We estimate entropy from the stored log_probs
+                    # (A simplified proxy for full distribution entropy to save memory)
+                    entropy_proxy = -log_sum / len(item["log_probs"])
+
+                    # 3. Final Loss Equation
+                    # Loss = -Reward + KL_Penalty - Entropy_Bonus
+                    ENTROPY_COEF = 0.05  # Force 5% curiosity
+                    
+                    loss = -(reward * log_sum) + (CONFIG["KL_COEF"] * kl) - (ENTROPY_COEF * entropy_proxy)
+                    
                     loss_accum += loss
 
             if loss_accum.requires_grad:
