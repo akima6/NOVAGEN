@@ -3,7 +3,6 @@ import types
 
 # ==============================================================================
 # 🩹 CRITICAL MONKEY PATCH for PyTorch/TorchData Compatibility
-# Fixes "No module named 'torch.utils._import_utils'"
 # ==============================================================================
 try:
     import torch.utils._import_utils
@@ -46,7 +45,7 @@ PRETRAINED_DIR = os.path.join(ROOT, "pretrained_model")
 CONFIG = {
     "BATCH_SIZE": 16,       
     "LR": 1e-4,             
-    "EPOCHS": 500,          # Longer run for Curriculum
+    "EPOCHS": 500,          
     "KL_COEF": 0.05,
     "ENTROPY_COEF": 0.1,    
     "DEVICE": "cuda" if torch.cuda.is_available() else "cpu",
@@ -85,7 +84,6 @@ def estimate_lattice_parameter(species_list):
     try:
         radii = [ATOM_RADII.get(str(s), 1.5) for s in species_list]
         avg_r = sum(radii) / len(radii)
-        # Empirical heuristic: Box size ~ 4 * average radius for small cells
         guess = 4.0 * avg_r
         return max(3.0, min(guess, 10.0))
     except:
@@ -99,9 +97,7 @@ def build_structure(A, X, forced_lattice=None):
         if forced_lattice:
             a = b = c = forced_lattice
         else:
-            # Smart Guess
             a = b = c = estimate_lattice_parameter(species)
-            
         lattice = Lattice.from_parameters(a, b, c, 90, 90, 90)
         return Structure(lattice, species, coords)
     except: return None
@@ -111,8 +107,6 @@ class PPOAgent_Product:
     def __init__(self):
         print(f"--- Initializing Product-Grade Agent (Device: {CONFIG['DEVICE']}) ---")
         self.device = CONFIG["DEVICE"]
-        
-        # Hall of Fame: Stores (Structure, Formula, Reward)
         self.hall_of_fame = deque(maxlen=50) 
         
         with open(os.path.join(PRETRAINED_DIR, "config.yaml"), "r") as f:
@@ -134,7 +128,6 @@ class PPOAgent_Product:
         
         self.optimizer = optim.AdamW(self.policy.parameters(), lr=CONFIG["LR"])
         
-        # Load Weights (Checkpoint or Fresh)
         checkpoint_path = os.path.join(ROOT, "checkpoint.pt")
         author_path = os.path.join(PRETRAINED_DIR, "epoch_005500_CLEAN.pt")
         
@@ -153,13 +146,15 @@ class PPOAgent_Product:
 
         self.ref_model.eval()
 
+        # FIXED: ONLY INDICES 0-12 (Matches Pre-trained Model Output)
         self.idx_to_atom = {
             0: 30, 1: 16, 2: 48, 3: 34, 4: 8, 5: 31, 6: 33,
-            7: 29, 8: 49, 9: 50, 10: 32, 11: 52, 12: 14,
-            # Adding common extensions for mutation logic 
-            13: 12, 14: 20 
+            7: 29, 8: 49, 9: 50, 10: 32, 11: 52, 12: 14
         }
         self.atom_keys = list(self.idx_to_atom.keys())
+        
+        # Mutation Pool can include extras (Mg=12, Ca=20)
+        self.mutation_pool = list(self.idx_to_atom.values()) + [12, 20]
 
     def save_checkpoint(self, epoch):
         ckpt = {
@@ -185,12 +180,11 @@ def main():
     mp.set_start_method('spawn', force=True)
     agent = PPOAgent_Product()
     print("🔮 Initializing Oracle...")
-    oracle = Oracle() # CPU safe, no args
+    oracle = Oracle() 
     
     disc_dir = os.path.join(ROOT, "rl_discoveries")
     os.makedirs(disc_dir, exist_ok=True)
     
-    # Init Logs
     if not os.path.exists("training_log.csv"):
         with open("training_log.csv", "w") as f:
             csv.writer(f).writerow(["Epoch", "Avg_Reward", "Valid_Count", "Best_Formula", "Mode"])
@@ -207,21 +201,18 @@ def main():
             start_time = time.time()
             batch_data = []
             
-            # --- CURRICULUM LOGIC ---
+            # --- CURRICULUM ---
             if epoch < 50:
-                complexity = 2
-                mode = "Binary"
+                complexity = 2; mode = "Binary"
             elif epoch < 150:
-                complexity = 3
-                mode = "Ternary"
+                complexity = 3; mode = "Ternary"
             else:
-                complexity = 4
-                mode = "Complex"
+                complexity = 4; mode = "Complex"
                 
             # --- GENERATION ---
             for i in range(CONFIG["BATCH_SIZE"]):
                 
-                # FEATURE: EVOLUTIONARY MUTATION (20% chance)
+                # EVOLUTION (Mutation)
                 if len(agent.hall_of_fame) > 5 and random.random() < 0.20:
                     parent = random.choice(agent.hall_of_fame) 
                     p_struct = parent[0]
@@ -229,7 +220,8 @@ def main():
                     new_species = []
                     for s in p_struct.species:
                         if random.random() < 0.5: 
-                            new_s = agent.idx_to_atom.get(random.choice(agent.atom_keys), 6)
+                            # Sample from Expanded Pool (includes Ca, Mg)
+                            new_s = random.choice(agent.mutation_pool)
                         else:
                             new_s = s
                         new_species.append(new_s)
@@ -255,10 +247,12 @@ def main():
                 
                 for j in range(num_atoms):
                     base = 1 + 5 * j
+                    # SAFE SLICING (0-12)
                     atom_logits = logits_policy[base][:13]
                     atom_dist = torch.distributions.Categorical(logits=atom_logits)
                     
                     if random.random() < CONFIG["EPSILON"]:
+                        # SAFE SAMPLING (0-12)
                         atom_idx = torch.tensor(random.choice(agent.atom_keys), device=agent.device)
                         log_probs.append(atom_dist.log_prob(atom_idx))
                     else:
