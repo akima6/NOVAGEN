@@ -345,7 +345,8 @@ if __name__ == "__main__":
     
     # 2. FIX THE CONFIG & CHECKPOINT PATHS
     # Point to the actual location of the files you uploaded
-    CKPT = "/kaggle/working/NOVAGEN/checkpoint.pt"  # Or wherever your .pt file is
+    # Change this line
+    CKPT = "/path/to/your/epoch_005500_CLEAN.pt"
     CFG = "/kaggle/working/NOVAGEN/CrystalFormer/model/config.yaml"
     
     if os.path.exists(CKPT) and os.path.exists(CFG):
