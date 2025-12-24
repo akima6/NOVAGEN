@@ -1,18 +1,25 @@
+import sys
+import os
+
+# --- 🩹 CRITICAL PATH FIX ---
+# We must add the folder containing 'crystalformer' to the system path
+# Current Path: /kaggle/working/NOVAGEN/
+# Target Package: /kaggle/working/NOVAGEN/CrystalFormer/crystalformer
+sys.path.append(os.path.abspath("/kaggle/working/NOVAGEN/CrystalFormer"))
+# -----------------------------
+
 import torch
 import torch.nn.functional as F
 import numpy as np
 import yaml
-import os
 import warnings
 from pymatgen.core import Structure, Lattice
 
-# --- IMPORTING FROM YOUR FILE STRUCTURE ---
-# Adjust these imports if your folder structure is slightly different in the final product
+# Now these imports will work because Python knows where to look
 from crystalformer.src.transformer import make_transformer
 from crystalformer.src.lattice import symmetrize_lattice
-from crystalformer.src.wyckoff import mult_table, symops, wmax_table, symmetrize_atoms
+from crystalformer.src.wyckoff import mult_table, symops, symmetrize_atoms
 from crystalformer.src.elements import element_dict, element_list
-
 class CrystalGenerator:
     """
     Production-Grade Generator Service.
