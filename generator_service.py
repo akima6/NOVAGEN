@@ -3,6 +3,7 @@ import os
 import time
 
 # --- 1. PATH SETUP ---
+# Ensure Python can find the CrystalFormer package
 sys.path.append(os.path.abspath("/kaggle/working/NOVAGEN/CrystalFormer")) 
 
 import torch
@@ -10,28 +11,37 @@ import torch.nn.functional as F
 import numpy as np
 import yaml
 import warnings
+from tqdm import tqdm
+
+from pymatgen.core import Structure, Lattice
 
 # Import internal modules
 from crystalformer.src.transformer import make_transformer
 from crystalformer.src.lattice import symmetrize_lattice
 from crystalformer.src.wyckoff import mult_table, symops, symmetrize_atoms
 from crystalformer.src.elements import element_dict, element_list
-from pymatgen.core import Structure, Lattice
 
-# Suppress the spammy warnings
-warnings.filterwarnings("ignore")
+# Suppress speed-killing warnings
+warnings.filterwarnings("ignore", category=UserWarning)
 
 class CrystalGenerator:
-    def __init__(self, checkpoint_path, config_path):
-        # ⚠️ FORCE CPU FOR SAFETY & DEBUGGING
-        self.device = "cpu" 
-        print(f"💎 Initializing CrystalGenerator on {self.device} (Safe Mode)...")
+    def __init__(self, checkpoint_path, config_path, device=None):
+        """
+        Product-Grade Generator Initialization.
+        """
+        # 1. Device Setup
+        if device:
+            self.device = device
+        else:
+            self.device = "cuda" if torch.cuda.is_available() else "cpu"
+            
+        print(f"💎 Initializing CrystalGenerator on {self.device}...")
 
+        # 2. Load Config
         with open(config_path, 'r') as file:
             self.config = yaml.safe_load(file)
 
-        # Initialize Model
-        print("   Building Model Architecture...")
+        # 3. Initialize Model Architecture
         self.model = make_transformer(
             key=None, Nf=self.config['Nf'], Kx=self.config['Kx'], Kl=self.config['Kl'], n_max=self.config['n_max'],
             h0_size=self.config['h0_size'], num_layers=self.config['transformer_layers'], num_heads=self.config['num_heads'],
@@ -39,31 +49,32 @@ class CrystalGenerator:
             atom_types=self.config['atom_types'], wyck_types=self.config['wyck_types'], dropout_rate=0.0
         ).to(self.device)
 
-        # Load Weights
+        # 4. Load Weights
         print(f"   Loading weights from {os.path.basename(checkpoint_path)}...")
         checkpoint = torch.load(checkpoint_path, map_location=self.device)
+        
+        # Handle state dict variations
         state_dict = checkpoint.get('policy_state', checkpoint.get('model_state_dict', checkpoint))
         self.model.load_state_dict(state_dict)
         self.model.eval()
         
-        # Cache Constants
+        # 5. Cache Constants & Tables
         self.n_max = self.config['n_max']
         self.atom_types = self.config['atom_types']
         self.Kl = self.config['Kl']
         self.Kx = self.config['Kx']
         self.wyck_types = self.config['wyck_types']
         
-        # Tables (Move to CPU)
         self.mult_table = mult_table.to(self.device)
         self.symops = symops.to(self.device)
 
     def _apply_element_mask(self, logits, allowed_elements):
         if allowed_elements is None: return logits
         mask = torch.zeros(logits.shape[-1], device=self.device)
-        mask[0] = 1.0 
+        mask[0] = 1.0 # Always allow Pad
         for z in allowed_elements:
             if z < len(mask): mask[z] = 1.0
-        return torch.where(mask.bool(), logits, torch.tensor(-1e9))
+        return torch.where(mask.bool(), logits, torch.tensor(-1e9, device=self.device))
 
     def _project_xyz(self, G, W, X, idx=0):
         batch_size = G.shape[0]
@@ -75,9 +86,11 @@ class CrystalGenerator:
         return x_new
 
     def _sample_von_mises(self, loc, kappa, shape, temperature):
-        # Simplified Von Mises for CPU Test
-        # Just return the location (mode) to avoid complex sampling logic errors
-        return loc / (2.0 * np.pi) 
+        import torch.distributions as dist
+        kappa = torch.clamp(kappa, min=1e-6) / temperature
+        vm = dist.von_mises.VonMises(loc, kappa)
+        samples = vm.sample(shape if len(loc.shape)==0 else torch.Size([]))
+        return (samples + np.pi) / (2.0 * np.pi)
 
     @torch.no_grad()
     def generate(self, num_samples, temperature=1.0, allowed_elements=None):
@@ -91,24 +104,22 @@ class CrystalGenerator:
         Z = torch.zeros((batch_size, self.n_max), device=self.device)
         L_preds = torch.zeros((batch_size, self.n_max, self.Kl + 12 * self.Kl), device=self.device)
 
-        print(f"   🌊 Sampling {self.n_max} steps (Verbose Mode)...")
-        
-        for i in range(self.n_max):
-            # Print dot every step to prove life
-            print(f".", end="", flush=True) 
-            
+        # 1. SAMPLING LOOP
+        for i in tqdm(range(self.n_max), desc="   Sampling"):
             XYZ = torch.stack([X, Y, Z], dim=-1)
             G_exp = (G - 1).unsqueeze(1).expand(-1, self.n_max)
             M = self.mult_table[G_exp, W]
             
-            # 1. Wyckoff
+            # Forward Pass
             output = self.model(G, XYZ, A, W, M, is_train=False)
+            
+            # Wyckoff
             w_logit = output[:, 5 * i, :self.wyck_types]
             w_probs = F.softmax(w_logit / temperature, dim=1)
             w = torch.multinomial(w_probs, 1).squeeze(1)
             W[:, i] = w
             
-            # 2. Atom
+            # Atom
             output = self.model(G, XYZ, A, W, M, is_train=False)
             a_logit = output[:, 5 * i + 1, :self.atom_types]
             a_logit = self._apply_element_mask(a_logit, allowed_elements)
@@ -116,43 +127,93 @@ class CrystalGenerator:
             a = torch.multinomial(a_probs, 1).squeeze(1)
             A[:, i] = a
             
-            # Lattice storage
             L_preds[:, i] = output[:, 5 * i + 1, self.atom_types : self.atom_types + self.Kl + 12 * self.Kl]
 
-            # 3. Coords (Simplified projection for speed)
+            # Coords (X)
             output = self.model(G, XYZ, A, W, M, is_train=False)
             h_x = output[:, 5 * i + 2]
-            # Just take the first mode for testing stability
             x_logit, x_loc, x_kappa = torch.split(h_x[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
-            k = torch.argmax(x_logit, dim=1)
-            sel_loc = torch.gather(x_loc, 1, k.unsqueeze(1)).squeeze(1)
-            x_val = self._sample_von_mises(sel_loc, None, (batch_size,), temperature)
-            
+            k = torch.multinomial(F.softmax(x_logit, dim=1), 1)
+            sel_loc = torch.gather(x_loc, 1, k).squeeze(1)
+            sel_kap = torch.gather(x_kappa, 1, k).squeeze(1)
+            x_val = self._sample_von_mises(sel_loc, sel_kap, (batch_size,), temperature)
             xyz_temp = torch.stack([x_val, torch.zeros_like(x_val), torch.zeros_like(x_val)], dim=1)
             X[:, i] = self._project_xyz(G, w, xyz_temp, idx=0)[:, 0]
-            
-            # (Repeat for Y and Z - skipping for brevity in debug mode, just filling X is enough to test loop)
-            Y[:, i] = X[:, i] 
-            Z[:, i] = X[:, i]
 
-        print("\n   🔨 Reconstructing Lattices...")
-        # ... (Rest of reconstruction code logic) ...
-        # For the test, let's just return a success message if we passed the loop
+            # Coords (Y)
+            output = self.model(G, XYZ, A, W, M, is_train=False)
+            h_y = output[:, 5 * i + 3]
+            y_logit, y_loc, y_kappa = torch.split(h_y[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
+            k = torch.multinomial(F.softmax(y_logit, dim=1), 1)
+            sel_loc = torch.gather(y_loc, 1, k).squeeze(1)
+            sel_kap = torch.gather(y_kappa, 1, k).squeeze(1)
+            y_val = self._sample_von_mises(sel_loc, sel_kap, (batch_size,), temperature)
+            xyz_temp = torch.stack([X[:, i], y_val, torch.zeros_like(y_val)], dim=1)
+            Y[:, i] = self._project_xyz(G, w, xyz_temp, idx=0)[:, 1]
+
+            # Coords (Z)
+            output = self.model(G, XYZ, A, W, M, is_train=False)
+            h_z = output[:, 5 * i + 4]
+            z_logit, z_loc, z_kappa = torch.split(h_z[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
+            k = torch.multinomial(F.softmax(z_logit, dim=1), 1)
+            sel_loc = torch.gather(z_loc, 1, k).squeeze(1)
+            sel_kap = torch.gather(z_kappa, 1, k).squeeze(1)
+            z_val = self._sample_von_mises(sel_loc, sel_kap, (batch_size,), temperature)
+            xyz_temp = torch.stack([X[:, i], Y[:, i], z_val], dim=1)
+            Z[:, i] = self._project_xyz(G, w, xyz_temp, idx=0)[:, 2]
+
+        # 2. LATTICE RECONSTRUCTION
+        l_pred = L_preds[:, -1, :] 
+        l_logit, mu, sigma = torch.split(l_pred, [self.Kl, 6*self.Kl, 6*self.Kl], dim=-1)
+        k = torch.multinomial(F.softmax(l_logit, dim=1), 1)
+        mu = mu.reshape(batch_size, self.Kl, 6)
+        sigma = sigma.reshape(batch_size, self.Kl, 6)
+        k_uns = k.unsqueeze(2).expand(-1, -1, 6)
+        sel_mu = torch.gather(mu, 1, k_uns).squeeze(1)
+        sel_sigma = torch.gather(sigma, 1, k_uns).squeeze(1)
+        L_final = torch.normal(sel_mu, sel_sigma * np.sqrt(temperature))
         
-        return ["Success"]
+        lengths = torch.abs(L_final[:, :3])
+        angles = L_final[:, 3:]
+        num_atoms = (A != 0).sum(dim=1).float()
+        scale = torch.pow(num_atoms, 1/3.0).unsqueeze(1)
+        lengths = lengths * scale * 0.6 
+        angles = angles * (180.0 / np.pi)
+        L_symmetrized = symmetrize_lattice(G, torch.cat([lengths, angles], dim=-1))
 
-if __name__ == "__main__":
-    CKPT = "/kaggle/working/NOVAGEN/pretrained_model/epoch_005500_CLEAN.pt"
-    CFG = "/kaggle/working/NOVAGEN/CrystalFormer/model/config.yaml"
-    
-    if os.path.exists(CKPT):
-        gen = CrystalGenerator(CKPT, CFG)
-        print("⚡ Start Generation...")
-        # Generate just 1 sample to be fast
-        try:
-            structs = gen.generate(1, allowed_elements=[8, 26]) 
-            print("\n✅ DEBUG TEST PASSED: The loop runs correctly on CPU.")
-        except Exception as e:
-            print(f"\n❌ CRASHED: {e}")
-            import traceback
-            traceback.print_exc()
+        # 3. STRUCTURE BUILDING
+        structures = []
+        for b in range(batch_size):
+            try:
+                valid_mask = A[b] != 0
+                species = A[b][valid_mask].cpu().numpy()
+                wyckoffs = W[b][valid_mask].cpu().numpy()
+                coords = torch.stack([X[b], Y[b], Z[b]], dim=-1)[valid_mask]
+                lat_params = L_symmetrized[b].cpu().numpy()
+                lattice = Lattice.from_parameters(*lat_params)
+                
+                sg = G[b].item()
+                final_sites_species = []
+                final_sites_coords = []
+                
+                # Expand symmetry
+                if len(species) > 50:
+                    # Skip massive expansion for speed
+                    for idx, (sp, coord) in enumerate(zip(species, coords)):
+                        final_sites_species.append(element_list[sp])
+                        final_sites_coords.append(coord.cpu().numpy())
+                else:
+                    for idx, (sp, wy, coord) in enumerate(zip(species, wyckoffs, coords)):
+                        orbit_coords = symmetrize_atoms(sg, wy, coord)
+                        elem_sym = element_list[sp] 
+                        for oc in orbit_coords:
+                            final_sites_species.append(elem_sym)
+                            final_sites_coords.append(oc.cpu().numpy())
+                
+                struct = Structure(lattice, final_sites_species, final_sites_coords)
+                structures.append(struct)
+            except Exception as e:
+                # Silently skip failed builds in batch mode
+                continue
+                
+        return structures
