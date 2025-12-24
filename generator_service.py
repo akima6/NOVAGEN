@@ -71,26 +71,27 @@ class CrystalGenerator:
         return x_new
 
     def _sample_von_mises(self, loc, kappa, shape, temperature):
+        # STABILITY FIX: Sample on CPU to avoid GPU Hangs
         import torch.distributions as dist
         
-        # GUARDRAIL 1: Clamp kappa
-        kappa = torch.nan_to_num(kappa, nan=1.0)
-        kappa = torch.clamp(kappa, min=1e-6, max=1000.0) 
-        kappa = kappa / temperature
+        loc_cpu = loc.detach().cpu()
+        kappa_cpu = torch.clamp(kappa, min=1e-6).detach().cpu() / temperature
         
-        vm = dist.von_mises.VonMises(loc, kappa)
+        # Run sampler on CPU (Safe)
+        vm = dist.von_mises.VonMises(loc_cpu, kappa_cpu)
         samples = vm.sample(shape if len(loc.shape)==0 else torch.Size([]))
         
-        return (samples + np.pi) / (2.0 * np.pi)
+        # Move result back to GPU for the model
+        return ((samples + np.pi) / (2.0 * np.pi)).to(self.device)
 
     def _safe_multinomial(self, probs):
-        # GUARDRAIL 2: Fix NaNs on GPU
-        if torch.isnan(probs).any():
-             probs = torch.nan_to_num(probs, nan=0.0)
-             sums = probs.sum(dim=1, keepdim=True)
-             probs = torch.where(sums == 0, torch.ones_like(probs), probs)
-             
-        return torch.multinomial(probs, 1).squeeze(1)
+        # STABILITY FIX: Sample on CPU to catch NaNs
+        try:
+            return torch.multinomial(probs.detach().cpu(), 1).to(self.device).squeeze(1)
+        except RuntimeError:
+            # Fallback for NaNs
+            bs = probs.shape[0]
+            return torch.randint(0, probs.shape[1], (bs,), device=self.device)
 
     @torch.no_grad()
     def generate(self, num_samples, temperature=1.0, allowed_elements=None):
@@ -104,19 +105,19 @@ class CrystalGenerator:
         Z = torch.zeros((batch_size, self.n_max), device=self.device)
         L_preds = torch.zeros((batch_size, self.n_max, self.Kl + 12 * self.Kl), device=self.device)
 
-        # 1. SAMPLING LOOP (PURE GPU)
+        # 1. SAMPLING LOOP
         for i in tqdm(range(self.n_max), desc="   Sampling"):
             XYZ = torch.stack([X, Y, Z], dim=-1)
             G_exp = (G - 1).unsqueeze(1).expand(-1, self.n_max)
             M = self.mult_table[G_exp, W]
             
-            # 1. Wyckoff
+            # Wyckoff
             output = self.model(G, XYZ, A, W, M, is_train=False)
             w_logit = output[:, 5 * i, :self.wyck_types]
             w_probs = F.softmax(w_logit / temperature, dim=1)
             W[:, i] = self._safe_multinomial(w_probs)
             
-            # 2. Atom
+            # Atom
             output = self.model(G, XYZ, A, W, M, is_train=False)
             a_logit = output[:, 5 * i + 1, :self.atom_types]
             a_logit = self._apply_element_mask(a_logit, allowed_elements)
@@ -125,7 +126,7 @@ class CrystalGenerator:
             
             L_preds[:, i] = output[:, 5 * i + 1, self.atom_types : self.atom_types + self.Kl + 12 * self.Kl]
 
-            # 3. Coords (X)
+            # Coords (X)
             output = self.model(G, XYZ, A, W, M, is_train=False)
             h_x = output[:, 5 * i + 2]
             x_logit, x_loc, x_kappa = torch.split(h_x[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
@@ -165,19 +166,18 @@ class CrystalGenerator:
         mu = mu.reshape(batch_size, self.Kl, 6)
         sigma = sigma.reshape(batch_size, self.Kl, 6)
         
-        # --- THE FIX IS HERE ---
-        # Was: k.unsqueeze(2)... 
-        # Now: k.unsqueeze(1).unsqueeze(2)...
+        # --- THE FIX (Combining Correct Dimensions + Stability) ---
         k_uns = k.unsqueeze(1).unsqueeze(2).expand(-1, -1, 6)
         
         sel_mu = torch.gather(mu, 1, k_uns).squeeze(1)
         sel_sigma = torch.gather(sigma, 1, k_uns).squeeze(1)
         
-        # GUARDRAIL 3: Clamp Sigma for Lattice
-        sel_sigma = torch.nan_to_num(sel_sigma, nan=1.0)
-        sel_sigma = torch.clamp(sel_sigma, max=100.0)
-        
-        L_final = torch.normal(sel_mu, sel_sigma * np.sqrt(temperature))
+        # Sample Lattice (CPU Safe)
+        # We assume normal distribution is stable enough on GPU, but let's be consistent
+        sel_mu_cpu = sel_mu.detach().cpu()
+        sel_sigma_cpu = sel_sigma.detach().cpu()
+        L_final_cpu = torch.normal(sel_mu_cpu, sel_sigma_cpu * np.sqrt(temperature))
+        L_final = L_final_cpu.to(self.device)
         
         lengths = torch.abs(L_final[:, :3])
         angles = L_final[:, 3:]
