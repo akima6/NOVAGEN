@@ -331,21 +331,28 @@ class CrystalGenerator:
 
 # --- EXAMPLE USAGE ---
 if __name__ == "__main__":
-    # Point this to your actual files
-    CKPT = "checkpoint.pt" 
-    CFG = "crystalformer/model/config.yaml"
+    # 1. FIX THE IMPORT PATH
+    import sys
+    # Add the outer folder so Python can find 'crystalformer'
+    sys.path.append("/kaggle/working/NOVAGEN/CrystalFormer") 
+    
+    # 2. FIX THE CONFIG & CHECKPOINT PATHS
+    # Point to the actual location of the files you uploaded
+    CKPT = "/kaggle/working/NOVAGEN/checkpoint.pt"  # Or wherever your .pt file is
+    CFG = "/kaggle/working/NOVAGEN/CrystalFormer/model/config.yaml"
     
     if os.path.exists(CKPT) and os.path.exists(CFG):
         gen = CrystalGenerator(CKPT, CFG)
         
-        # Test: Generate 5 Iron-Oxides
-        # Fe=26, O=8
         print("⚡ Generating constrained structures...")
+        # Test 1: Generate Iron Oxide (Fe-O)
         structs = gen.generate(
-            num_samples=5, 
-            allowed_elements=[8, 26], # O, Fe
+            num_samples=3, 
+            allowed_elements=[8, 26], # O=8, Fe=26
             temperature=1.0
         )
         
         for s in structs:
-            print(s.composition, s.volume)
+            print(f"Formula: {s.composition.reduced_formula} | Volume: {s.volume:.2f} A^3 | Valid: {s.is_valid()}")
+    else:
+        print(f"❌ Could not find files!\nCheck CKPT: {CKPT}\nCheck CFG: {CFG}")
