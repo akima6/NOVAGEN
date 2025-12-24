@@ -338,29 +338,33 @@ class CrystalGenerator:
 
 # --- EXAMPLE USAGE ---
 if __name__ == "__main__":
-    # 1. FIX THE IMPORT PATH
     import sys
-    # Add the outer folder so Python can find 'crystalformer'
-    sys.path.append("/kaggle/working/NOVAGEN/CrystalFormer") 
+    import os
+
+    # 1. PATH FIX (Keep this!)
+    sys.path.append(os.path.abspath("/kaggle/working/NOVAGEN/CrystalFormer")) 
     
-    # 2. FIX THE CONFIG & CHECKPOINT PATHS
-    # Point to the actual location of the files you uploaded
-    # Change this line
-    CKPT = "/path/to/your/epoch_005500_CLEAN.pt"
+    # 2. POINT TO THE REAL BRAIN
+    # Use the path you just confirmed
+    CKPT = "/kaggle/working/NOVAGEN/pretrained_model/epoch_005500_CLEAN.pt"
     CFG = "/kaggle/working/NOVAGEN/CrystalFormer/model/config.yaml"
     
     if os.path.exists(CKPT) and os.path.exists(CFG):
+        print(f"🧠 Loading Pretrained Model from: {CKPT}")
         gen = CrystalGenerator(CKPT, CFG)
         
-        print("⚡ Generating constrained structures...")
-        # Test 1: Generate Iron Oxide (Fe-O)
+        print("⚡ Generating REAL constrained structures (Fe-O)...")
+        # Test: Generate 5 Iron-Oxides
         structs = gen.generate(
-            num_samples=3, 
+            num_samples=5, 
             allowed_elements=[8, 26], # O=8, Fe=26
             temperature=1.0
         )
         
-        for s in structs:
-            print(f"Formula: {s.composition.reduced_formula} | Volume: {s.volume:.2f} A^3 | Valid: {s.is_valid()}")
+        print(f"\n✅ GENERATION COMPLETE. Found {len(structs)} structures:")
+        for i, s in enumerate(structs):
+            # Print formula, volume, and density to verify physics
+            print(f"  {i+1}. {s.composition.reduced_formula} | Vol: {s.volume:.2f} A^3 | Density: {s.density:.2f} g/cm3")
+            
     else:
         print(f"❌ Could not find files!\nCheck CKPT: {CKPT}\nCheck CFG: {CFG}")
