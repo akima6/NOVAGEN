@@ -14,8 +14,7 @@ class CrystalOracle:
     using pre-trained graph neural networks.
     """
     def __init__(self, device="cpu"):
-        # We default to CPU for the Oracle to avoid VRAM fragmentation 
-        # when running alongside the Generator/Relaxer.
+        # Default to CPU to avoid VRAM fragmentation
         self.device = torch.device(device)
         print(f"🔮 Initializing Oracle on {self.device}...")
 
@@ -23,19 +22,17 @@ class CrystalOracle:
             import matgl
             
             # 1. Load Stability Model (Formation Energy)
-            # This tells us if the crystal can exist in nature.
             print("   Loading Formation Energy Model...")
             self.model_eform = matgl.load_model("M3GNet-MP-2018.6.1-Eform").to(self.device)
             
             # 2. Load Electronic Model (Band Gap)
-            # This tells us if it conducts electricity or light.
             print("   Loading Band Gap Model...")
             self.model_gap = matgl.load_model("MEGNet-MP-2019.4.1-BandGap-mfi").to(self.device)
             
-            # 3. Fixed State Input (Required for MEGNet)
-            # MEGNet expects a global state tensor (Temperature, Pressure, etc.). 
-            # We use [0, 0] as the standard reference.
-            self.fixed_state = torch.tensor([0, 0], dtype=torch.float32, device=self.device)
+            # 3. FIXED STATE INPUT (The Fix)
+            # This specific MEGNet model expects an Integer (Long) index for the state embedding.
+            # We use [0] (State Index 0) as the standard reference.
+            self.fixed_state = torch.tensor([0], dtype=torch.long, device=self.device)
             
             print("   ✅ Oracle System Online.")
             
@@ -64,11 +61,12 @@ class CrystalOracle:
 
         # B. Predict Band Gap
         try:
-            # MEGNet needs the state_attr argument
+            # Pass the fixed LongTensor state
             gap = self.model_gap.predict_structure(structure, state_attr=self.fixed_state)
-            result['band_gap'] = max(0.0, float(gap)) # Physics check: Gap cannot be negative
+            result['band_gap'] = max(0.0, float(gap)) 
         except Exception as e:
             print(f"⚠️ BandGap failed: {e}")
+            # Fallback to 0.0 if it fails, but print error to debug
             result['band_gap'] = 0.0
             
         return result
@@ -84,7 +82,6 @@ if __name__ == "__main__":
     from pymatgen.core import Structure, Lattice
     
     # Create a test crystal (NaCl - Salt)
-    # This is an insulator, so it should have a HIGH band gap (> 4 eV)
     lattice = Lattice.cubic(5.6)
     species = ["Na", "Cl", "Na", "Cl"]
     coords = [[0,0,0], [0.5,0.5,0.5], [0.5,0.5,0], [0,0,0.5]]
