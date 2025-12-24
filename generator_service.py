@@ -73,11 +73,9 @@ class CrystalGenerator:
     def _sample_von_mises(self, loc, kappa, shape, temperature):
         import torch.distributions as dist
         
-        # GUARDRAIL 1: Clamp kappa to prevent infinite loops in sampler
-        # If kappa is too huge, the sampler gets stuck. If NaN, it crashes.
+        # GUARDRAIL 1: Clamp kappa
         kappa = torch.nan_to_num(kappa, nan=1.0)
         kappa = torch.clamp(kappa, min=1e-6, max=1000.0) 
-        
         kappa = kappa / temperature
         
         vm = dist.von_mises.VonMises(loc, kappa)
@@ -86,10 +84,9 @@ class CrystalGenerator:
         return (samples + np.pi) / (2.0 * np.pi)
 
     def _safe_multinomial(self, probs):
-        # GUARDRAIL 2: Fix NaNs on GPU without leaving GPU
+        # GUARDRAIL 2: Fix NaNs on GPU
         if torch.isnan(probs).any():
              probs = torch.nan_to_num(probs, nan=0.0)
-             # If a whole row is 0, give it uniform prob to prevent crash
              sums = probs.sum(dim=1, keepdim=True)
              probs = torch.where(sums == 0, torch.ones_like(probs), probs)
              
@@ -167,7 +164,12 @@ class CrystalGenerator:
         k = self._safe_multinomial(F.softmax(l_logit, dim=1))
         mu = mu.reshape(batch_size, self.Kl, 6)
         sigma = sigma.reshape(batch_size, self.Kl, 6)
-        k_uns = k.unsqueeze(2).expand(-1, -1, 6)
+        
+        # --- THE FIX IS HERE ---
+        # Was: k.unsqueeze(2)... 
+        # Now: k.unsqueeze(1).unsqueeze(2)...
+        k_uns = k.unsqueeze(1).unsqueeze(2).expand(-1, -1, 6)
+        
         sel_mu = torch.gather(mu, 1, k_uns).squeeze(1)
         sel_sigma = torch.gather(sigma, 1, k_uns).squeeze(1)
         
