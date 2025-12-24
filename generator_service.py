@@ -71,27 +71,29 @@ class CrystalGenerator:
         return x_new
 
     def _sample_von_mises(self, loc, kappa, shape, temperature):
-        # STABILITY FIX: Move to CPU for sampling to avoid GPU infinite loops on bad params
         import torch.distributions as dist
         
-        loc_cpu = loc.detach().cpu()
-        kappa_cpu = torch.clamp(kappa, min=1e-6).detach().cpu() / temperature
+        # GUARDRAIL 1: Clamp kappa to prevent infinite loops in sampler
+        # If kappa is too huge, the sampler gets stuck. If NaN, it crashes.
+        kappa = torch.nan_to_num(kappa, nan=1.0)
+        kappa = torch.clamp(kappa, min=1e-6, max=1000.0) 
         
-        vm = dist.von_mises.VonMises(loc_cpu, kappa_cpu)
+        kappa = kappa / temperature
+        
+        vm = dist.von_mises.VonMises(loc, kappa)
         samples = vm.sample(shape if len(loc.shape)==0 else torch.Size([]))
         
-        # Move result back to GPU
-        return ((samples + np.pi) / (2.0 * np.pi)).to(self.device)
+        return (samples + np.pi) / (2.0 * np.pi)
 
     def _safe_multinomial(self, probs):
-        # STABILITY FIX: Sample on CPU to catch NaNs explicitly
-        try:
-            return torch.multinomial(probs.detach().cpu(), 1).to(self.device).squeeze(1)
-        except RuntimeError as e:
-            # If NaNs exist, fall back to random choice to prevent crash
-            print("⚠️ Warning: NaN detected in probabilities. Using uniform fallback.")
-            bs = probs.shape[0]
-            return torch.randint(0, probs.shape[1], (bs,), device=self.device)
+        # GUARDRAIL 2: Fix NaNs on GPU without leaving GPU
+        if torch.isnan(probs).any():
+             probs = torch.nan_to_num(probs, nan=0.0)
+             # If a whole row is 0, give it uniform prob to prevent crash
+             sums = probs.sum(dim=1, keepdim=True)
+             probs = torch.where(sums == 0, torch.ones_like(probs), probs)
+             
+        return torch.multinomial(probs, 1).squeeze(1)
 
     @torch.no_grad()
     def generate(self, num_samples, temperature=1.0, allowed_elements=None):
@@ -105,6 +107,7 @@ class CrystalGenerator:
         Z = torch.zeros((batch_size, self.n_max), device=self.device)
         L_preds = torch.zeros((batch_size, self.n_max, self.Kl + 12 * self.Kl), device=self.device)
 
+        # 1. SAMPLING LOOP (PURE GPU)
         for i in tqdm(range(self.n_max), desc="   Sampling"):
             XYZ = torch.stack([X, Y, Z], dim=-1)
             G_exp = (G - 1).unsqueeze(1).expand(-1, self.n_max)
@@ -125,7 +128,7 @@ class CrystalGenerator:
             
             L_preds[:, i] = output[:, 5 * i + 1, self.atom_types : self.atom_types + self.Kl + 12 * self.Kl]
 
-            # 3. Coords
+            # 3. Coords (X)
             output = self.model(G, XYZ, A, W, M, is_train=False)
             h_x = output[:, 5 * i + 2]
             x_logit, x_loc, x_kappa = torch.split(h_x[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
@@ -136,7 +139,7 @@ class CrystalGenerator:
             xyz_temp = torch.stack([x_val, torch.zeros_like(x_val), torch.zeros_like(x_val)], dim=1)
             X[:, i] = self._project_xyz(G, W[:, i], xyz_temp, idx=0)[:, 0]
 
-            # Y
+            # (Y)
             output = self.model(G, XYZ, A, W, M, is_train=False)
             h_y = output[:, 5 * i + 3]
             y_logit, y_loc, y_kappa = torch.split(h_y[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
@@ -147,7 +150,7 @@ class CrystalGenerator:
             xyz_temp = torch.stack([X[:, i], y_val, torch.zeros_like(y_val)], dim=1)
             Y[:, i] = self._project_xyz(G, W[:, i], xyz_temp, idx=0)[:, 1]
 
-            # Z
+            # (Z)
             output = self.model(G, XYZ, A, W, M, is_train=False)
             h_z = output[:, 5 * i + 4]
             z_logit, z_loc, z_kappa = torch.split(h_z[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
@@ -167,6 +170,11 @@ class CrystalGenerator:
         k_uns = k.unsqueeze(2).expand(-1, -1, 6)
         sel_mu = torch.gather(mu, 1, k_uns).squeeze(1)
         sel_sigma = torch.gather(sigma, 1, k_uns).squeeze(1)
+        
+        # GUARDRAIL 3: Clamp Sigma for Lattice
+        sel_sigma = torch.nan_to_num(sel_sigma, nan=1.0)
+        sel_sigma = torch.clamp(sel_sigma, max=100.0)
+        
         L_final = torch.normal(sel_mu, sel_sigma * np.sqrt(temperature))
         
         lengths = torch.abs(L_final[:, :3])
