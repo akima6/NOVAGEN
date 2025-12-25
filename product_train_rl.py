@@ -37,9 +37,9 @@ CONFIG_PATH = os.path.join(BASE_DIR, "pretrained_model", "config.yaml")
 SAVE_DIR = os.path.join(BASE_DIR, "rl_checkpoints")
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-# --- MEMORY OPTIMIZED HYPERPARAMETERS ---
-BATCH_SIZE = 4           # Reduced from 16 to 4 to fit in VRAM
-GRAD_ACCUM_STEPS = 4     # 4 * 4 = 16 Effective Batch Size (Same math, less memory)
+# --- MEMORY & STABILITY OPTIMIZED HYPERPARAMETERS ---
+BATCH_SIZE = 2           # TINY BATCH (Safe for FP32 on T4)
+GRAD_ACCUM_STEPS = 8     # 2 * 8 = 16 Effective Batch Size (Maintains learning quality)
 LR = 1e-5                
 EPOCHS = 100             
 VALIDATION_FREQ = 10     
@@ -48,7 +48,7 @@ CAMPAIGN_ELEMENTS = [26, 8, 16]
 
 class RLTrainer:
     def __init__(self):
-        print(f"🚀 Initializing RL Gym on {DEVICE}...")
+        print(f"🚀 Initializing RL Gym on {DEVICE} (FP32 Mode)...")
         os.makedirs(SAVE_DIR, exist_ok=True)
         
         # 1. Load Config
@@ -70,13 +70,12 @@ class RLTrainer:
         
         self.model.train()
         self.optimizer = optim.Adam(self.model.parameters(), lr=LR)
-        # scaler for Mixed Precision Training
-        self.scaler = torch.cuda.amp.GradScaler() 
+        # Note: No Scaler needed for FP32
 
         # 3. Initialize Teachers
         print("   🔧 Initializing Teachers...")
         self.oracle = CrystalOracle(device="cpu")   
-        self.sentinel = CrystalSentinel() # Removed 'device' arg as requested
+        self.sentinel = CrystalSentinel() # Corrected: No device arg
         self.relaxer = CrystalRelaxer(device="cpu") 
         self.reward_engine = RewardEngine()         
 
@@ -95,6 +94,7 @@ class RLTrainer:
         mask[0] = 1.0 
         for z in allowed:
             if z < len(mask): mask[z] = 1.0
+        # Use standard -1e9 mask (Safe in FP32)
         return torch.where(mask.bool(), logits, torch.tensor(-1e9, device=DEVICE))
 
     def rollout(self, batch_size):
@@ -113,42 +113,36 @@ class RLTrainer:
             G_exp = (G - 1).unsqueeze(1).expand(-1, self.n_max)
             M = self.mult_table[G_exp, W]
 
-            # Use Mixed Precision for Forward Pass
-            with torch.cuda.amp.autocast():
-                output = self.model(G, XYZ, A, W, M, is_train=False)
+            # STANDARD FP32 FORWARD PASS (No autocast)
+            output = self.model(G, XYZ, A, W, M, is_train=False)
 
-                w_logit = output[:, 5 * i, :self.wyck_types]
-                w_dist = torch.distributions.Categorical(logits=w_logit)
-                w_action = w_dist.sample()
-                
-                # Check for EOS (End of Sequence) - simple heuristic if needed, else run full
-                # Here we just run full sequence as per architecture
-                
+            w_logit = output[:, 5 * i, :self.wyck_types]
+            w_dist = torch.distributions.Categorical(logits=w_logit)
+            w_action = w_dist.sample()
+            
             W[:, i] = w_action
             log_probs.append(w_dist.log_prob(w_action))
             entropy_loss += w_dist.entropy().mean()
 
-            with torch.cuda.amp.autocast():
-                output = self.model(G, XYZ, A, W, M, is_train=False) 
-                a_logit = output[:, 5 * i + 1, :self.atom_types]
-                a_logit = self._apply_mask(a_logit, CAMPAIGN_ELEMENTS)
-                a_dist = torch.distributions.Categorical(logits=a_logit)
-                a_action = a_dist.sample()
+            # Refresh state
+            output = self.model(G, XYZ, A, W, M, is_train=False) 
+            a_logit = output[:, 5 * i + 1, :self.atom_types]
+            a_logit = self._apply_mask(a_logit, CAMPAIGN_ELEMENTS)
+            a_dist = torch.distributions.Categorical(logits=a_logit)
+            a_action = a_dist.sample()
             
             A[:, i] = a_action
             log_probs.append(a_dist.log_prob(a_action))
             entropy_loss += a_dist.entropy().mean()
 
-            # Coords (Simplified)
-            with torch.cuda.amp.autocast():
-                h_x = output[:, 5 * i + 2]
-                x_logit, _, _ = torch.split(h_x[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
+            # Coords (Greedy for stability)
+            h_x = output[:, 5 * i + 2]
+            x_logit, _, _ = torch.split(h_x[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
             
         # Lattice
-        with torch.cuda.amp.autocast():
-            L_preds = output[:, 5 * i + 1, self.atom_types : self.atom_types + self.Kl + 12 * self.Kl]
-            l_logit, _, _ = torch.split(L_preds, [self.Kl, 6*self.Kl, 6*self.Kl], dim=-1)
-            k_l = torch.argmax(l_logit, dim=1) 
+        L_preds = output[:, 5 * i + 1, self.atom_types : self.atom_types + self.Kl + 12 * self.Kl]
+        l_logit, _, _ = torch.split(L_preds, [self.Kl, 6*self.Kl, 6*self.Kl], dim=-1)
+        k_l = torch.argmax(l_logit, dim=1) 
         
         raw_structs = self._reconstruct_structures(G, A, W, X, Y, Z, k_l)
         total_log_prob = torch.stack(log_probs).sum(dim=0)
@@ -173,64 +167,60 @@ class RLTrainer:
 
     def train(self):
         print(f"⚡ Starting REINFORCE Training for {EPOCHS} epochs...")
-        self.optimizer.zero_grad() # Initialize gradients
+        self.optimizer.zero_grad() 
         
         for epoch in range(1, EPOCHS + 1):
             
-            # --- GRADIENT ACCUMULATION LOOP ---
             epoch_loss = 0
             epoch_reward = 0
+            n_updates = 0
             
-            # We run the rollout multiple times to simulate a larger batch
+            # --- GRADIENT ACCUMULATION LOOP ---
             for _ in range(GRAD_ACCUM_STEPS):
-                # A. Rollout (Small Batch)
+                # A. Rollout (Batch Size 2)
                 log_probs, entropy, raw_structs = self.rollout(BATCH_SIZE)
                 
                 # B. Score
                 validity_mask, valid_structs = self.sentinel.filter(raw_structs)
                 
-                # Handling empty batches safely
                 if not valid_structs:
-                    # Even if 0 survivors, we must backward pass to clear graph buffers
-                    # We create a dummy loss from entropy to keep graph alive but minimal update
+                    # Dummy backward to keep graph alive
                     dummy_loss = (ENTROPY_COEF * entropy) * 0.0 
-                    self.scaler.scale(dummy_loss).backward()
+                    dummy_loss.backward()
                     continue
 
                 e_form_preds = self.oracle.predict_formation_energy(valid_structs)
                 bg_preds = self.oracle.predict_band_gap(valid_structs)
                 
-                # Rewards
                 valid_rewards, stats = self.reward_engine.compute_reward(
                     [True]*len(valid_structs), e_form_preds, bg_preds
                 )
                 
                 baseline = valid_rewards.mean() if len(valid_rewards) > 0 else 0.0
                 epoch_reward += baseline.item()
+                n_updates += 1
                 
-                # Loss (Normalized by accumulation steps)
+                # C. Backward (Standard FP32)
                 loss = (-(log_probs.mean() * (baseline - 0.0)) - (ENTROPY_COEF * entropy)) / GRAD_ACCUM_STEPS
-                
-                # C. Backward (With Scaler)
-                self.scaler.scale(loss).backward()
+                loss.backward()
                 epoch_loss += loss.item()
                 
-                # Clear graph intermediates immediately
+                # Free Memory
                 del log_probs, raw_structs, valid_structs, valid_rewards
 
-            # D. Update Weights (Once per Epoch)
-            self.scaler.unscale_(self.optimizer)
+            # D. Update Weights
             torch.nn.utils.clip_grad_norm_(self.model.parameters(), 1.0) 
-            self.scaler.step(self.optimizer)
-            self.scaler.update()
+            self.optimizer.step()
             self.optimizer.zero_grad()
             
-            print(f"[Epoch {epoch}] Avg Reward: {epoch_reward/GRAD_ACCUM_STEPS:.2f} | Loss: {epoch_loss:.2f}")
+            # Safe averaging for display
+            display_reward = epoch_reward / n_updates if n_updates > 0 else 0.0
+            print(f"[Epoch {epoch}] Avg Reward: {display_reward:.2f} | Loss: {epoch_loss:.2f}")
 
             # E. Validation
             if epoch % VALIDATION_FREQ == 0:
                 print(f"\n🔍 [Epoch {epoch}] VALIDATION...")
-                # Run a quick check with one batch
+                # Small test batch
                 _, _, test_structs = self.rollout(4)
                 _, valid_test = self.sentinel.filter(test_structs)
                 if valid_test:
@@ -239,7 +229,7 @@ class RLTrainer:
                         status = "✅ Stable" if res['converged'] and res.get('energy_per_atom', 10) < 0 else "❌ Unstable"
                         print(f"   {status}: E={res.get('energy_per_atom',0):.3f} eV")
                 else:
-                    print("   ⚠️ No valid crystals generated in validation batch.")
+                    print("   ⚠️ No valid crystals generated.")
                 print("")
                 
             if epoch % 50 == 0:
