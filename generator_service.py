@@ -71,29 +71,21 @@ class CrystalGenerator:
         return x_new
 
     def _sample_von_mises(self, loc, kappa, shape, temperature):
-        # Gaussian Approximation (Stable & Fast)
+        # Gaussian Approximation
         loc_cpu = loc.detach().cpu()
         kappa_cpu = torch.clamp(kappa, min=1e-6, max=1000.0).detach().cpu()
-        
-        # Sigma = 1 / sqrt(kappa)
         sigma = 1.0 / torch.sqrt(kappa_cpu)
         sigma = sigma * np.sqrt(temperature)
-        
         samples = torch.normal(loc_cpu, sigma)
-        
-        # Wrap to [0, 1]
         samples = (samples + np.pi) % (2.0 * np.pi) - np.pi
         final_val = (samples + np.pi) / (2.0 * np.pi)
-        
         return final_val.to(self.device)
 
     def _safe_multinomial(self, probs):
         if torch.isnan(probs).any():
             probs = torch.nan_to_num(probs, nan=0.0)
-            
         if probs.sum(dim=1).min() == 0:
             return torch.randint(0, probs.shape[1], (probs.shape[0],), device=self.device)
-
         try:
             return torch.multinomial(probs.detach().cpu(), 1).to(self.device).squeeze(1)
         except Exception:
@@ -111,7 +103,6 @@ class CrystalGenerator:
         Z = torch.zeros((batch_size, self.n_max), device=self.device)
         L_preds = torch.zeros((batch_size, self.n_max, self.Kl + 12 * self.Kl), device=self.device)
 
-        # 1. SAMPLING LOOP
         for i in tqdm(range(self.n_max), desc="   Sampling"):
             XYZ = torch.stack([X, Y, Z], dim=-1)
             G_exp = (G - 1).unsqueeze(1).expand(-1, self.n_max)
@@ -132,7 +123,7 @@ class CrystalGenerator:
             
             L_preds[:, i] = output[:, 5 * i + 1, self.atom_types : self.atom_types + self.Kl + 12 * self.Kl]
 
-            # Coords X
+            # Coords
             output = self.model(G, XYZ, A, W, M, is_train=False)
             h_x = output[:, 5 * i + 2]
             x_logit, x_loc, x_kappa = torch.split(h_x[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
@@ -143,7 +134,7 @@ class CrystalGenerator:
             xyz_temp = torch.stack([x_val, torch.zeros_like(x_val), torch.zeros_like(x_val)], dim=1)
             X[:, i] = self._project_xyz(G, W[:, i], xyz_temp, idx=0)[:, 0]
 
-            # Coords Y
+            # Y
             output = self.model(G, XYZ, A, W, M, is_train=False)
             h_y = output[:, 5 * i + 3]
             y_logit, y_loc, y_kappa = torch.split(h_y[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
@@ -154,7 +145,7 @@ class CrystalGenerator:
             xyz_temp = torch.stack([X[:, i], y_val, torch.zeros_like(y_val)], dim=1)
             Y[:, i] = self._project_xyz(G, W[:, i], xyz_temp, idx=0)[:, 1]
 
-            # Coords Z
+            # Z
             output = self.model(G, XYZ, A, W, M, is_train=False)
             h_z = output[:, 5 * i + 4]
             z_logit, z_loc, z_kappa = torch.split(h_z[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
@@ -172,13 +163,9 @@ class CrystalGenerator:
         mu = mu.reshape(batch_size, self.Kl, 6)
         sigma = sigma.reshape(batch_size, self.Kl, 6)
         
-        # Dimension Fix
         k_uns = k.unsqueeze(1).unsqueeze(2).expand(-1, -1, 6)
-        
         sel_mu = torch.gather(mu, 1, k_uns).squeeze(1)
         sel_sigma = torch.gather(sigma, 1, k_uns).squeeze(1)
-        
-        # Clamping
         sel_sigma = torch.nan_to_num(sel_sigma, nan=1.0)
         sel_sigma = torch.clamp(sel_sigma, max=100.0)
         
@@ -187,11 +174,14 @@ class CrystalGenerator:
         L_final_cpu = torch.normal(sel_mu_cpu, sel_sigma_cpu * np.sqrt(temperature))
         L_final = L_final_cpu.to(self.device)
         
-        lengths = torch.abs(L_final[:, :3])
+        # --- SCALING FIX: Removed 0.6 factor, added +0.1 for stability ---
+        lengths = torch.abs(L_final[:, :3]) + 0.1
         angles = L_final[:, 3:]
         num_atoms = (A != 0).sum(dim=1).float()
         scale = torch.pow(num_atoms, 1/3.0).unsqueeze(1)
-        lengths = lengths * scale * 0.6 
+        lengths = lengths * scale 
+        # -----------------------------------------------------------------
+        
         angles = angles * (180.0 / np.pi)
         L_symmetrized = symmetrize_lattice(G, torch.cat([lengths, angles], dim=-1))
 
