@@ -47,7 +47,7 @@ def run_discovery_pipeline():
     # --- B. CAMPAIGN SETUP ---
     # Hunting for Iron-based semiconductors (Fe-O-S)
     campaign_elements = [26, 8, 16] # Fe, O, S
-    num_candidates = 500 # Reduced to 5 for a quick CPU test if needed
+    num_candidates = 100 # Reduced to 5 for a quick CPU test if needed
     
     print(f"\n[2/5] 🧪 Starting Campaign: Fe-O-S Search ({num_candidates} candidates)")
 
