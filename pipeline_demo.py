@@ -39,7 +39,7 @@ def run_discovery_pipeline():
     sentinel = CrystalSentinel(min_distance=0.6, min_density=0.5)
     
     # 3. Relaxer (Pass detected device)
-    relaxer = CrystalRelaxer(device=DEVICE)
+    relaxer = CrystalRelaxer(device="cpu")
     
     # 4. Oracle (Always CPU for safety)
     oracle = CrystalOracle(device="cpu")
