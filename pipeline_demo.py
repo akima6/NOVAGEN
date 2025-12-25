@@ -77,15 +77,14 @@ def run_discovery_pipeline():
     
     # Iterate with progress bar
     for i, struct in enumerate(tqdm(valid_structs, desc="   Processing")):
-            # 1. Relax
-            relax_res = relaxer.relax(struct)
-            
-            if not relax_res['converged']:
-                # --- NEW: PRINT THE ERROR ---
-                if i == 0: # Only print the first one to avoid spamming
-                    print(f"\n❌ CRASH DETECTED: {relax_res.get('error')}")
-                continue
-            
+        # 1. Relax
+        relax_res = relaxer.relax(struct)
+        
+        if not relax_res['converged']:
+            if i == 0:  # print only once
+                print(f"\n❌ CRASH DETECTED: {relax_res.get('error')}")
+            continue
+    
         final_s = relax_res['final_structure']
         
         # 2. Oracle
