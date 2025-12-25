@@ -88,7 +88,7 @@ class RLTrainer:
         # 3. Initialize Teachers & Validators
         print("   🔧 Initializing Teachers...")
         self.oracle = CrystalOracle(device="cpu")   
-        self.sentinel = CrystalSentinel(device=DEVICE) 
+        self.sentinel = CrystalSentinel() 
         self.relaxer = CrystalRelaxer(device="cpu") 
         self.reward_engine = RewardEngine()         
 
