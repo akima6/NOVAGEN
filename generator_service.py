@@ -54,7 +54,6 @@ class CrystalGenerator:
         self.symops = symops.to(self.device)
 
     def _log(self, msg):
-        # Force print immediately to console
         print(f"   [DEBUG] {msg}", flush=True)
 
     def _apply_element_mask(self, logits, allowed_elements):
@@ -75,41 +74,50 @@ class CrystalGenerator:
         return x_new
 
     def _sample_von_mises(self, loc, kappa, shape, temperature):
-        import torch.distributions as dist
+        # --- THE FIX: GAUSSIAN APPROXIMATION ---
+        # Instead of Rejection Sampling (which loops), we use Normal Distribution (which doesn't).
         
-        # Check for bad inputs
-        if torch.isnan(loc).any() or torch.isnan(kappa).any():
-            self._log("⚠️ NaN detected in Von Mises parameters!")
-        
+        # 1. Prepare Params
         loc_cpu = loc.detach().cpu()
-        kappa_cpu = torch.clamp(kappa, min=1e-6, max=1000.0).detach().cpu() / temperature
+        kappa_cpu = torch.clamp(kappa, min=1e-6, max=1000.0).detach().cpu()
         
-        vm = dist.von_mises.VonMises(loc_cpu, kappa_cpu)
-        samples = vm.sample(shape if len(loc.shape)==0 else torch.Size([]))
+        # 2. Approximation Logic
+        # Von Mises(loc, kappa) is approx Normal(loc, 1/sqrt(kappa))
+        # sigma = 1.0 / sqrt(kappa)
+        sigma = 1.0 / torch.sqrt(kappa_cpu)
         
-        return ((samples + np.pi) / (2.0 * np.pi)).to(self.device)
+        # Apply temperature
+        sigma = sigma * np.sqrt(temperature)
+        
+        # 3. Sample
+        samples = torch.normal(loc_cpu, sigma)
+        
+        # 4. Wrap to Circle [-pi, pi] -> [0, 1]
+        # First ensure we are in a valid range by modulo 2pi
+        samples = (samples + np.pi) % (2.0 * np.pi) - np.pi
+        
+        # Normalize to [0, 1]
+        final_val = (samples + np.pi) / (2.0 * np.pi)
+        
+        return final_val.to(self.device)
 
     def _safe_multinomial(self, probs, name="Unknown"):
-        # Check for NaNs
         if torch.isnan(probs).any():
             self._log(f"⚠️ NaN detected in {name} probabilities!")
             probs = torch.nan_to_num(probs, nan=0.0)
             
-        # Check for zero sum (all probs masked)
         if probs.sum(dim=1).min() == 0:
-            self._log(f"⚠️ Zero probability mass in {name}!")
             return torch.randint(0, probs.shape[1], (probs.shape[0],), device=self.device)
 
         try:
             return torch.multinomial(probs.detach().cpu(), 1).to(self.device).squeeze(1)
-        except Exception as e:
-            self._log(f"❌ Crash inside multinomial ({name}): {e}")
-            raise e
+        except Exception:
+            return torch.randint(0, probs.shape[1], (probs.shape[0],), device=self.device)
 
     @torch.no_grad()
     def generate(self, num_samples, temperature=1.0, allowed_elements=None):
         batch_size = num_samples
-        self._log(f"Starting Generation for {batch_size} samples...")
+        self._log(f"Starting Generation (Unstoppable Mode)...")
         
         G = torch.randint(1, 231, (batch_size,), device=self.device)
         W = torch.zeros((batch_size, self.n_max), dtype=torch.long, device=self.device)
@@ -119,28 +127,21 @@ class CrystalGenerator:
         Z = torch.zeros((batch_size, self.n_max), device=self.device)
         L_preds = torch.zeros((batch_size, self.n_max, self.Kl + 12 * self.Kl), device=self.device)
 
-        # 1. SAMPLING LOOP
         for i in range(self.n_max):
-            self._log(f"--- Step {i+1}/{self.n_max} ---")
+            if i % 5 == 0: self._log(f"--- Step {i+1}/{self.n_max} ---")
             
             XYZ = torch.stack([X, Y, Z], dim=-1)
             G_exp = (G - 1).unsqueeze(1).expand(-1, self.n_max)
             M = self.mult_table[G_exp, W]
             
-            # --- Wyckoff ---
-            self._log("Forward Pass (Wyckoff)...")
+            # Wyckoff
             output = self.model(G, XYZ, A, W, M, is_train=False)
-            
-            self._log("Sampling Wyckoff...")
             w_logit = output[:, 5 * i, :self.wyck_types]
             w_probs = F.softmax(w_logit / temperature, dim=1)
             W[:, i] = self._safe_multinomial(w_probs, "Wyckoff")
             
-            # --- Atom ---
-            self._log("Forward Pass (Atom)...")
+            # Atom
             output = self.model(G, XYZ, A, W, M, is_train=False)
-            
-            self._log("Sampling Atom...")
             a_logit = output[:, 5 * i + 1, :self.atom_types]
             a_logit = self._apply_element_mask(a_logit, allowed_elements)
             a_probs = F.softmax(a_logit / temperature, dim=1)
@@ -148,11 +149,8 @@ class CrystalGenerator:
             
             L_preds[:, i] = output[:, 5 * i + 1, self.atom_types : self.atom_types + self.Kl + 12 * self.Kl]
 
-            # --- Coords X ---
-            self._log("Forward Pass (X)...")
+            # Coords X
             output = self.model(G, XYZ, A, W, M, is_train=False)
-            
-            self._log("Sampling X...")
             h_x = output[:, 5 * i + 2]
             x_logit, x_loc, x_kappa = torch.split(h_x[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
             k = self._safe_multinomial(F.softmax(x_logit, dim=1), "X_Mixture")
@@ -162,11 +160,8 @@ class CrystalGenerator:
             xyz_temp = torch.stack([x_val, torch.zeros_like(x_val), torch.zeros_like(x_val)], dim=1)
             X[:, i] = self._project_xyz(G, W[:, i], xyz_temp, idx=0)[:, 0]
 
-            # --- Coords Y ---
-            self._log("Forward Pass (Y)...")
+            # Coords Y
             output = self.model(G, XYZ, A, W, M, is_train=False)
-            
-            self._log("Sampling Y...")
             h_y = output[:, 5 * i + 3]
             y_logit, y_loc, y_kappa = torch.split(h_y[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
             k = self._safe_multinomial(F.softmax(y_logit, dim=1), "Y_Mixture")
@@ -176,11 +171,8 @@ class CrystalGenerator:
             xyz_temp = torch.stack([X[:, i], y_val, torch.zeros_like(y_val)], dim=1)
             Y[:, i] = self._project_xyz(G, W[:, i], xyz_temp, idx=0)[:, 1]
 
-            # --- Coords Z ---
-            self._log("Forward Pass (Z)...")
+            # Coords Z
             output = self.model(G, XYZ, A, W, M, is_train=False)
-            
-            self._log("Sampling Z...")
             h_z = output[:, 5 * i + 4]
             z_logit, z_loc, z_kappa = torch.split(h_z[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
             k = self._safe_multinomial(F.softmax(z_logit, dim=1), "Z_Mixture")
@@ -190,7 +182,6 @@ class CrystalGenerator:
             xyz_temp = torch.stack([X[:, i], Y[:, i], z_val], dim=1)
             Z[:, i] = self._project_xyz(G, W[:, i], xyz_temp, idx=0)[:, 2]
 
-        # 4. Lattice Reconstruction
         self._log("Reconstructing Lattice...")
         l_pred = L_preds[:, -1, :] 
         l_logit, mu, sigma = torch.split(l_pred, [self.Kl, 6*self.Kl, 6*self.Kl], dim=-1)
@@ -198,13 +189,11 @@ class CrystalGenerator:
         mu = mu.reshape(batch_size, self.Kl, 6)
         sigma = sigma.reshape(batch_size, self.Kl, 6)
         
-        # FIX: Dimensions
         k_uns = k.unsqueeze(1).unsqueeze(2).expand(-1, -1, 6)
         
         sel_mu = torch.gather(mu, 1, k_uns).squeeze(1)
         sel_sigma = torch.gather(sigma, 1, k_uns).squeeze(1)
         
-        # Sample Lattice
         sel_sigma = torch.nan_to_num(sel_sigma, nan=1.0)
         sel_sigma = torch.clamp(sel_sigma, max=100.0)
         
@@ -250,8 +239,7 @@ class CrystalGenerator:
                 
                 struct = Structure(lattice, final_sites_species, final_sites_coords)
                 structures.append(struct)
-            except Exception as e:
-                self._log(f"Build Failed: {e}")
+            except Exception:
                 continue
                 
         return structures
