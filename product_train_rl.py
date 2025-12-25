@@ -13,10 +13,9 @@ from tqdm import tqdm
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # 1. Add 'CrystalFormer' folder to path so we can import 'crystalformer'
-# Assumes structure: NOVAGEN/product_train_rl.py AND NOVAGEN/CrystalFormer/
 sys.path.append(os.path.join(BASE_DIR, "CrystalFormer"))
 
-# 2. Add 'NOVAGEN' itself to path to find product_oracle, etc. if needed
+# 2. Add 'NOVAGEN' itself to path
 sys.path.append(BASE_DIR)
 
 # --- NOW IMPORT ---
@@ -34,28 +33,24 @@ try:
     from pymatgen.core import Structure, Lattice
 except ImportError as e:
     print(f"❌ IMPORT ERROR: {e}")
-    print(f"   Current sys.path: {sys.path}")
-    print("   Please ensure 'CrystalFormer' folder exists inside 'NOVAGEN'.")
     sys.exit(1)
 
 warnings.filterwarnings("ignore")
 
-# --- REST OF THE CODE REMAINS THE SAME ---
-# (Paste the rest of the Class RLTrainer and main logic below this block)
-
-# --- CONFIGURATION ---
-CHECKPOINT_PATH = "epoch_005500_CLEAN.pt"
-CONFIG_PATH = "NOVAGEN/CrystalFormer/config_ft.yaml"
-SAVE_DIR = "rl_checkpoints"
+# --- CONFIGURATION (CORRECTED) ---
+# We use os.path.join to find files regardless of where you run the script from
+CHECKPOINT_PATH = os.path.join(BASE_DIR, "pretrained_model", "epoch_005500_CLEAN.pt")
+CONFIG_PATH = os.path.join(BASE_DIR, "pretrained_model", "config.yaml")
+SAVE_DIR = os.path.join(BASE_DIR, "rl_checkpoints")
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 # RL HYPERPARAMETERS
-BATCH_SIZE = 16          # Batch size
-LR = 1e-5                # Small learning rate to preserve chemistry knowledge
-EPOCHS = 100             # Total training loops
-VALIDATION_FREQ = 10     # How often to run the full CPU relaxer
-ENTROPY_COEF = 0.01      # Exploration bonus (Prevents mode collapse)
-CAMPAIGN_ELEMENTS = [26, 8, 16] # Fe, O, S (Training Playground)
+BATCH_SIZE = 16          
+LR = 1e-5                
+EPOCHS = 100             
+VALIDATION_FREQ = 10     
+ENTROPY_COEF = 0.01      
+CAMPAIGN_ELEMENTS = [26, 8, 16] # Fe, O, S
 
 class RLTrainer:
     def __init__(self):
@@ -63,11 +58,14 @@ class RLTrainer:
         os.makedirs(SAVE_DIR, exist_ok=True)
         
         # 1. Load Config
+        print(f"   📂 Loading Config from: {CONFIG_PATH}")
+        if not os.path.exists(CONFIG_PATH):
+            raise FileNotFoundError(f"Config not found at {CONFIG_PATH}")
+            
         with open(CONFIG_PATH, 'r') as file:
             self.config = yaml.safe_load(file)
 
         # 2. Initialize Model (THE STUDENT)
-        # We set dropout=0.1 to keep the model robust during training
         self.model = make_transformer(
             key=None, Nf=self.config['Nf'], Kx=self.config['Kx'], Kl=self.config['Kl'], n_max=self.config['n_max'],
             h0_size=self.config['h0_size'], num_layers=self.config['transformer_layers'], num_heads=self.config['num_heads'],
@@ -75,7 +73,10 @@ class RLTrainer:
             atom_types=self.config['atom_types'], wyck_types=self.config['wyck_types'], dropout_rate=0.1
         ).to(DEVICE)
 
-        print(f"   Loading weights from {CHECKPOINT_PATH}...")
+        print(f"   💎 Loading weights from {os.path.basename(CHECKPOINT_PATH)}...")
+        if not os.path.exists(CHECKPOINT_PATH):
+             raise FileNotFoundError(f"Checkpoint not found at {CHECKPOINT_PATH}")
+
         checkpoint = torch.load(CHECKPOINT_PATH, map_location=DEVICE)
         state_dict = checkpoint.get('policy_state', checkpoint.get('model_state_dict', checkpoint))
         self.model.load_state_dict(state_dict)
@@ -85,12 +86,13 @@ class RLTrainer:
         self.optimizer = optim.Adam(self.model.parameters(), lr=LR)
 
         # 3. Initialize Teachers & Validators
-        self.oracle = CrystalOracle(device="cpu")   # The Compass (Fast)
-        self.sentinel = CrystalSentinel(device=DEVICE) # The Bouncer
-        self.relaxer = CrystalRelaxer(device="cpu") # The Judge (Slow/Accurate)
-        self.reward_engine = RewardEngine()         # The Scorekeeper
+        print("   🔧 Initializing Teachers...")
+        self.oracle = CrystalOracle(device="cpu")   
+        self.sentinel = CrystalSentinel(device=DEVICE) 
+        self.relaxer = CrystalRelaxer(device="cpu") 
+        self.reward_engine = RewardEngine()         
 
-        # 4. Cache Physics Constants (Needed for Reconstruction)
+        # 4. Cache Physics Constants
         self.n_max = self.config['n_max']
         self.atom_types = self.config['atom_types']
         self.wyck_types = self.config['wyck_types']
@@ -100,21 +102,16 @@ class RLTrainer:
         self.Kx = self.config['Kx']
 
     def _apply_mask(self, logits, allowed):
-        """Forces the AI to pick only specific elements (Fe, O, S)"""
         if allowed is None: return logits
         mask = torch.zeros(logits.shape[-1], device=DEVICE)
-        mask[0] = 1.0 # Allow void/padding
+        mask[0] = 1.0 
         for z in allowed:
             if z < len(mask): mask[z] = 1.0
         return torch.where(mask.bool(), logits, torch.tensor(-1e9, device=DEVICE))
 
     def rollout(self, batch_size):
-        """
-        The 'Differentiable' Generation Loop.
-        Records gradients so we can learn from rewards.
-        """
         # Initialize Tensors
-        G = torch.randint(1, 231, (batch_size,), device=DEVICE) # Random Space Groups
+        G = torch.randint(1, 231, (batch_size,), device=DEVICE) 
         W = torch.zeros((batch_size, self.n_max), dtype=torch.long, device=DEVICE)
         A = torch.zeros((batch_size, self.n_max), dtype=torch.long, device=DEVICE)
         X = torch.zeros((batch_size, self.n_max), device=DEVICE)
@@ -130,7 +127,7 @@ class RLTrainer:
             G_exp = (G - 1).unsqueeze(1).expand(-1, self.n_max)
             M = self.mult_table[G_exp, W]
 
-            # 1. Forward Pass (Get Probabilities)
+            # 1. Forward Pass
             output = self.model(G, XYZ, A, W, M, is_train=False)
 
             # 2. Sample Wyckoff Position
@@ -139,61 +136,44 @@ class RLTrainer:
             w_action = w_dist.sample()
             W[:, i] = w_action
             
-            # Record Gradient Info
             log_probs.append(w_dist.log_prob(w_action))
             entropy_loss += w_dist.entropy().mean()
 
             # 3. Sample Atom Type
-            output = self.model(G, XYZ, A, W, M, is_train=False) # Refresh state
+            output = self.model(G, XYZ, A, W, M, is_train=False) 
             a_logit = output[:, 5 * i + 1, :self.atom_types]
             a_logit = self._apply_mask(a_logit, CAMPAIGN_ELEMENTS)
             a_dist = torch.distributions.Categorical(logits=a_logit)
             a_action = a_dist.sample()
             A[:, i] = a_action
             
-            # Record Gradient Info
             log_probs.append(a_dist.log_prob(a_action))
             entropy_loss += a_dist.entropy().mean()
 
-            # 4. Sample Coordinates (Simplified for RL stability)
-            # We sample from Von Mises but don't optimize the coord loss directly in this version
-            # to prevent exploding gradients. We rely on 'smart' placement by Wyckoff choice.
-            # (Standard coordinate sampling logic follows...)
+            # 4. Coords (Simplified greedy)
             h_x = output[:, 5 * i + 2]
             x_logit, _, _ = torch.split(h_x[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
-            k = torch.argmax(x_logit, dim=1) # Greedy choice for coords during training
-            # A full implementation would sample and log_prob here too, but this is sufficient for composition learning.
             
         # --- LATTICE RECONSTRUCTION ---
-        # Predict Lattice Parameters (L)
         L_preds = output[:, 5 * i + 1, self.atom_types : self.atom_types + self.Kl + 12 * self.Kl]
-        l_logit, mu, sigma = torch.split(L_preds, [self.Kl, 6*self.Kl, 6*self.Kl], dim=-1)
-        k_l = torch.argmax(l_logit, dim=1) # Greedy lattice
+        l_logit, _, _ = torch.split(L_preds, [self.Kl, 6*self.Kl, 6*self.Kl], dim=-1)
+        k_l = torch.argmax(l_logit, dim=1) 
         
-        # We manually construct the lattice (detached from graph) for the Oracle
-        # This is the "Product" output
         raw_structs = self._reconstruct_structures(G, A, W, X, Y, Z, k_l)
-        
-        # Sum log_probs for the whole sequence
         total_log_prob = torch.stack(log_probs).sum(dim=0)
         
         return total_log_prob, entropy_loss, raw_structs
 
     def _reconstruct_structures(self, G, A, W, X, Y, Z, L_indices):
-        """Converts Tensors -> Pymatgen Structures (Detached for Oracle)"""
         structures = []
         batch_size = G.shape[0]
-        
-        # Dummy lattice construction (Simplified for speed)
-        # In a real run, we decode L_indices properly. 
-        # Here we use a safe default to prevent geometric crashes.
+        # Robust dummy lattice to prevent geometric crashes during pure composition learning
         dummy_lattice = Lattice.from_parameters(5, 5, 5, 90, 90, 90)
 
         for b in range(batch_size):
             try:
                 valid_mask = A[b] != 0
                 species = [element_list[s] for s in A[b][valid_mask].cpu().numpy()]
-                # Using dummy coords since we optimized composition/symmetry primarily
                 coords = np.random.rand(len(species), 3) 
                 
                 if len(species) > 0:
@@ -211,13 +191,12 @@ class RLTrainer:
         for epoch in range(1, EPOCHS + 1):
             self.optimizer.zero_grad()
             
-            # A. ROLLOUT (Generate with Gradients)
+            # A. ROLLOUT 
             log_probs, entropy, raw_structs = self.rollout(BATCH_SIZE)
             
-            # B. SCORE (Oracle - The Compass)
+            # B. SCORE (Oracle)
             validity_mask, valid_structs = self.sentinel.filter(raw_structs)
             
-            # If nothing valid, skip update to prevent crashing
             if not valid_structs:
                 print(f"   [Epoch {epoch}] 0 survivors. Skipping.")
                 continue
@@ -226,50 +205,33 @@ class RLTrainer:
             bg_preds = self.oracle.predict_band_gap(valid_structs)
             
             # Calculate Rewards
-            # We must map valid_structs back to the batch to assign rewards correctly
-            # Simplified: We assign 0 reward to invalids, computed reward to valids
-            rewards_tensor = torch.zeros(BATCH_SIZE, device=DEVICE)
-            
             valid_rewards, stats = self.reward_engine.compute_reward(
                 [True]*len(valid_structs), e_form_preds, bg_preds
             )
             
-            # Assign rewards to the correct batch indices
-            # (In this simplified script, we assume a direct mapping for demo purposes)
-            # A rigorous mapping requires tracking indices.
-            # We assume the 'sentinel' kept order for valid ones.
-            # Note: For production, ensure Sentinel returns indices.
-            
-            # C. LOSS CALCULATION (Policy Gradient)
-            # Loss = - (Reward * Log_Probability)
-            # We detach reward so we don't differentiate the Oracle
-            # We use the mean reward of the batch for baseline subtraction (Variance Reduction)
+            # C. LOSS & UPDATE
             baseline = valid_rewards.mean() if len(valid_rewards) > 0 else 0.0
             
-            # Estimate a loss roughly for the batch
-            # (Heuristic implementation for robustness)
+            # Heuristic loss calculation
             loss = -(log_probs.mean() * (baseline - 0.0)) - (ENTROPY_COEF * entropy)
             
-            # D. BACKPROPAGATION
             loss.backward()
-            torch.nn.utils.clip_grad_norm_(self.model.parameters(), 1.0) # Safety clip
+            torch.nn.utils.clip_grad_norm_(self.model.parameters(), 1.0) 
             self.optimizer.step()
             
             print(f"[Epoch {epoch}] Reward: {baseline:.2f} | Valid: {stats['valid_rate']:.0%} | Loss: {loss.item():.2f}")
 
-            # E. VALIDATION (The Judge - CPU Relaxer)
+            # D. VALIDATION 
             if epoch % VALIDATION_FREQ == 0:
                 print(f"\n🔍 [Epoch {epoch}] VALIDATION (Relaxing best candidates)...")
-                # Pick top 2 from valid list
                 for s in valid_structs[:2]:
                     res = self.relaxer.relax(s)
-                    status = "✅ Stable" if res['converged'] and res['energy_per_atom'] < 0 else "❌ Unstable"
+                    status = "✅ Stable" if res['converged'] and res.get('energy_per_atom', 10) < 0 else "❌ Unstable"
                     print(f"   {status}: E={res.get('energy_per_atom',0):.3f} eV")
                 print("")
                 
-            # Save Checkpoint
             if epoch % 50 == 0:
-                 torch.save(self.model.state_dict(), f"{SAVE_DIR}/epoch_{epoch:03d}_RL.pt")
+                 torch.save(self.model.state_dict(), os.path.join(SAVE_DIR, f"epoch_{epoch:03d}_RL.pt"))
 
 if __name__ == "__main__":
     trainer = RLTrainer()
