@@ -37,9 +37,9 @@ CONFIG_PATH = os.path.join(BASE_DIR, "pretrained_model", "config.yaml")
 SAVE_DIR = os.path.join(BASE_DIR, "rl_checkpoints")
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-# --- MEMORY & STABILITY OPTIMIZED HYPERPARAMETERS ---
-BATCH_SIZE = 2           # TINY BATCH (Safe for FP32 on T4)
-GRAD_ACCUM_STEPS = 8     # 2 * 8 = 16 Effective Batch Size (Maintains learning quality)
+# --- HYPERPARAMETERS ---
+BATCH_SIZE = 2           # Tiny Batch for Stability
+GRAD_ACCUM_STEPS = 8     # 2 * 8 = 16 Effective Batch
 LR = 1e-5                
 EPOCHS = 100             
 VALIDATION_FREQ = 10     
@@ -70,12 +70,11 @@ class RLTrainer:
         
         self.model.train()
         self.optimizer = optim.Adam(self.model.parameters(), lr=LR)
-        # Note: No Scaler needed for FP32
 
         # 3. Initialize Teachers
         print("   🔧 Initializing Teachers...")
         self.oracle = CrystalOracle(device="cpu")   
-        self.sentinel = CrystalSentinel() # Corrected: No device arg
+        self.sentinel = CrystalSentinel() 
         self.relaxer = CrystalRelaxer(device="cpu") 
         self.reward_engine = RewardEngine()         
 
@@ -94,7 +93,6 @@ class RLTrainer:
         mask[0] = 1.0 
         for z in allowed:
             if z < len(mask): mask[z] = 1.0
-        # Use standard -1e9 mask (Safe in FP32)
         return torch.where(mask.bool(), logits, torch.tensor(-1e9, device=DEVICE))
 
     def rollout(self, batch_size):
@@ -109,35 +107,46 @@ class RLTrainer:
         entropy_loss = 0.0
 
         for i in range(self.n_max):
+            # Recalculate dependencies
             XYZ = torch.stack([X, Y, Z], dim=-1)
             G_exp = (G - 1).unsqueeze(1).expand(-1, self.n_max)
-            M = self.mult_table[G_exp, W]
+            M = self.mult_table[G_exp, W] # W is safe here (read-only index)
 
-            # STANDARD FP32 FORWARD PASS (No autocast)
-            output = self.model(G, XYZ, A, W, M, is_train=False)
+            # --- THE FIX: CLONE INPUTS ---
+            # We pass A.clone() and W.clone() so the model stores a safe copy.
+            # We can then modify A and W in-place without breaking the history.
+            
+            # 1. Forward (Wyckoff)
+            output = self.model(G, XYZ, A.clone(), W.clone(), M, is_train=False)
 
             w_logit = output[:, 5 * i, :self.wyck_types]
             w_dist = torch.distributions.Categorical(logits=w_logit)
             w_action = w_dist.sample()
             
+            # Modify W in-place (Now safe because we cloned input)
             W[:, i] = w_action
             log_probs.append(w_dist.log_prob(w_action))
             entropy_loss += w_dist.entropy().mean()
 
-            # Refresh state
-            output = self.model(G, XYZ, A, W, M, is_train=False) 
+            # 2. Forward (Atom)
+            # Must clone again because we just modified W!
+            M = self.mult_table[G_exp, W] # Update M with new W
+            output = self.model(G, XYZ, A.clone(), W.clone(), M, is_train=False) 
+            
             a_logit = output[:, 5 * i + 1, :self.atom_types]
             a_logit = self._apply_mask(a_logit, CAMPAIGN_ELEMENTS)
             a_dist = torch.distributions.Categorical(logits=a_logit)
             a_action = a_dist.sample()
             
+            # Modify A in-place
             A[:, i] = a_action
             log_probs.append(a_dist.log_prob(a_action))
             entropy_loss += a_dist.entropy().mean()
 
-            # Coords (Greedy for stability)
+            # 3. Coords
             h_x = output[:, 5 * i + 2]
             x_logit, _, _ = torch.split(h_x[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
+            # We skip coord sampling for RL stability in this version
             
         # Lattice
         L_preds = output[:, 5 * i + 1, self.atom_types : self.atom_types + self.Kl + 12 * self.Kl]
@@ -175,16 +184,15 @@ class RLTrainer:
             epoch_reward = 0
             n_updates = 0
             
-            # --- GRADIENT ACCUMULATION LOOP ---
             for _ in range(GRAD_ACCUM_STEPS):
-                # A. Rollout (Batch Size 2)
+                # A. Rollout
                 log_probs, entropy, raw_structs = self.rollout(BATCH_SIZE)
                 
                 # B. Score
-                validity_mask, valid_structs = self.sentinel.filter(raw_structs)
+                mask, valid_structs = self.sentinel.filter(raw_structs)
                 
                 if not valid_structs:
-                    # Dummy backward to keep graph alive
+                    # Dummy backward
                     dummy_loss = (ENTROPY_COEF * entropy) * 0.0 
                     dummy_loss.backward()
                     continue
@@ -200,27 +208,21 @@ class RLTrainer:
                 epoch_reward += baseline.item()
                 n_updates += 1
                 
-                # C. Backward (Standard FP32)
                 loss = (-(log_probs.mean() * (baseline - 0.0)) - (ENTROPY_COEF * entropy)) / GRAD_ACCUM_STEPS
                 loss.backward()
                 epoch_loss += loss.item()
                 
-                # Free Memory
                 del log_probs, raw_structs, valid_structs, valid_rewards
 
-            # D. Update Weights
             torch.nn.utils.clip_grad_norm_(self.model.parameters(), 1.0) 
             self.optimizer.step()
             self.optimizer.zero_grad()
             
-            # Safe averaging for display
             display_reward = epoch_reward / n_updates if n_updates > 0 else 0.0
             print(f"[Epoch {epoch}] Avg Reward: {display_reward:.2f} | Loss: {epoch_loss:.2f}")
 
-            # E. Validation
             if epoch % VALIDATION_FREQ == 0:
                 print(f"\n🔍 [Epoch {epoch}] VALIDATION...")
-                # Small test batch
                 _, _, test_structs = self.rollout(4)
                 _, valid_test = self.sentinel.filter(test_structs)
                 if valid_test:
