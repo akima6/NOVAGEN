@@ -2,9 +2,9 @@ import os
 import torch
 import warnings
 import numpy as np
+import traceback # <--- Added for detailed error tracing
 
 # --- THREAD LOCKDOWN ---
-# Keeps CPU clear for data transfers
 os.environ["OMP_NUM_THREADS"] = "1"
 os.environ["MKL_NUM_THREADS"] = "1"
 os.environ["TORCH_NUM_THREADS"] = "1"
@@ -30,15 +30,16 @@ class CrystalRelaxer:
         print(f"🔧 Initializing Relaxer on {self.device}...")
         
         try:
-            # Load the potential
             self.potential = matgl.load_model(model_name)
             
-            # --- THE FIX: MOVE THE ENTIRE OBJECT TO GPU ---
-            # This ensures input graphs are also cast to GPU automatically
+            # FORCE GPU MOVE and Log it
             if self.device.type == 'cuda':
                 self.potential = self.potential.to(self.device)
-                print("   🚀 M3GNet Pipeline moved to GPU.")
-            # -----------------------------------------------
+                print("   🚀 Moved Potential to GPU.")
+                
+                # DEBUG 1: Check where the model actually is
+                param = next(self.potential.model.parameters())
+                print(f"   [DEBUG] Model Weight Device: {param.device}")
 
             self.calculator = M3GNetCalculator(potential=self.potential)
             print("   ✅ M3GNet Model Loaded.")
@@ -50,12 +51,22 @@ class CrystalRelaxer:
         try:
             # 1. Pymatgen -> ASE
             atoms = AseAtomsAdaptor.get_atoms(structure)
-            
-            # 2. Attach Calculator
             atoms.calc = self.calculator
             
+            # DEBUG 2: Trigger a single static calculation BEFORE optimization
+            # This helps us see if the crash happens on data transfer
+            print("\n   [DEBUG] Testing Static Energy Calculation...")
+            try:
+                # This forces the calculator to take the atoms (CPU) and feed the model (GPU)
+                e_static = atoms.get_potential_energy()
+                print(f"   [DEBUG] Static Energy: {e_static:.3f} eV (Success)")
+            except Exception as e:
+                print(f"   [DEBUG] ❌ Static Calc Failed! The bridge is broken.")
+                # We re-raise to be caught by the outer block, but now we know WHERE.
+                raise e
+
             # 3. Optimize
-            # ASE runs the loop on CPU, but the Calculator sends data to GPU
+            print("   [DEBUG] Starting LBFGS Loop...")
             ucf = UnitCellFilter(atoms)
             optimizer = LBFGS(ucf, logfile=None) 
             optimizer.run(fmax=fmax, steps=steps)
@@ -65,7 +76,6 @@ class CrystalRelaxer:
             max_force = np.sqrt((forces ** 2).sum(axis=1).max())
             converged = max_force <= (fmax * 1.5)
             
-            # 5. Extract Results
             final_energy = atoms.get_potential_energy()
             num_atoms = len(atoms)
             energy_per_atom = final_energy / num_atoms
@@ -81,10 +91,14 @@ class CrystalRelaxer:
             }
             
         except Exception as e:
-            # Catch crashes (like exploding gradients)
+            # Detailed Error Logging
+            err_msg = str(e)
+            print(f"   [DEBUG] CRASH DETAILS: {err_msg}")
+            # print(traceback.format_exc()) # Uncomment if you want full huge stack trace
+            
             return {
                 "final_structure": structure, 
                 "energy": 0.0, 
                 "converged": False, 
-                "error": str(e)
+                "error": err_msg
             }
