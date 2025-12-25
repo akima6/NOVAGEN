@@ -10,11 +10,11 @@ warnings.simplefilter("ignore")
 class CrystalOracle:
     """
     The Inspector.
-    Predicts material properties (Stability & Electronic Structure)
-    using pre-trained graph neural networks.
+    Predicts material properties using pre-trained graph neural networks.
+    Updated to support RL Training Loop API.
     """
     def __init__(self, device="cpu"):
-        # Default to CPU to avoid VRAM fragmentation
+        # Default to CPU to avoid VRAM fragmentation during RL
         self.device = torch.device(device)
         print(f"🔮 Initializing Oracle on {self.device}...")
 
@@ -29,9 +29,7 @@ class CrystalOracle:
             print("   Loading Band Gap Model...")
             self.model_gap = matgl.load_model("MEGNet-MP-2019.4.1-BandGap-mfi").to(self.device)
             
-            # 3. FIXED STATE INPUT (The Fix)
-            # This specific MEGNet model expects an Integer (Long) index for the state embedding.
-            # We use [0] (State Index 0) as the standard reference.
+            # 3. Fixed State Input (Required for MEGNet)
             self.fixed_state = torch.tensor([0], dtype=torch.long, device=self.device)
             
             print("   ✅ Oracle System Online.")
@@ -40,58 +38,70 @@ class CrystalOracle:
             print(f"   ❌ Oracle crashed during load: {e}")
             raise e
 
+    def predict_formation_energy(self, structures):
+        """
+        RL API: Batch predict formation energy.
+        Returns: Tensor of shape (batch_size,)
+        """
+        preds = []
+        for s in structures:
+            if s is None:
+                preds.append(5.0) # Penalty for invalid structures
+                continue
+            
+            try:
+                # M3GNet prediction
+                val = self.model_eform.predict_structure(s)
+                preds.append(float(val))
+            except:
+                preds.append(5.0) # Penalty if model crashes on weird geometry
+
+        return torch.tensor(preds, device=self.device, dtype=torch.float32)
+
+    def predict_band_gap(self, structures):
+        """
+        RL API: Batch predict band gap.
+        Returns: Tensor of shape (batch_size,)
+        """
+        preds = []
+        for s in structures:
+            if s is None:
+                preds.append(0.0)
+                continue
+            
+            try:
+                # MEGNet prediction
+                val = self.model_gap.predict_structure(s, state_attr=self.fixed_state)
+                preds.append(max(0.0, float(val)))
+            except:
+                preds.append(0.0)
+
+        return torch.tensor(preds, device=self.device, dtype=torch.float32)
+
     def predict(self, structure):
         """
-        Run inference on a single Pymatgen Structure.
-        Returns: {'formation_energy': float, 'band_gap': float}
+        Legacy/User API: Single structure dictionary return.
         """
-        if structure is None:
-            return None
-
-        result = {}
+        if structure is None: return None
         
-        # A. Predict Formation Energy
-        try:
-            # matgl models handle the graph conversion internally
-            eform = self.model_eform.predict_structure(structure)
-            result['formation_energy'] = float(eform)
-        except Exception as e:
-            print(f"⚠️ E_form failed: {e}")
-            result['formation_energy'] = 0.0
-
-        # B. Predict Band Gap
-        try:
-            # Pass the fixed LongTensor state
-            gap = self.model_gap.predict_structure(structure, state_attr=self.fixed_state)
-            result['band_gap'] = max(0.0, float(gap)) 
-        except Exception as e:
-            print(f"⚠️ BandGap failed: {e}")
-            # Fallback to 0.0 if it fails, but print error to debug
-            result['band_gap'] = 0.0
-            
-        return result
-
-    def predict_batch(self, structures):
-        """
-        Helper to predict a list of structures.
-        """
-        return [self.predict(s) for s in structures]
+        e_form = self.predict_formation_energy([structure])[0].item()
+        bg = self.predict_band_gap([structure])[0].item()
+        
+        return {'formation_energy': e_form, 'band_gap': bg}
 
 # --- TEST BLOCK ---
 if __name__ == "__main__":
     from pymatgen.core import Structure, Lattice
     
-    # Create a test crystal (NaCl - Salt)
+    # Create a test crystal (NaCl)
     lattice = Lattice.cubic(5.6)
     species = ["Na", "Cl", "Na", "Cl"]
     coords = [[0,0,0], [0.5,0.5,0.5], [0.5,0.5,0], [0,0,0.5]]
     salt = Structure(lattice, species, coords)
     
-    print("🔮 Testing Oracle on NaCl (Salt)...")
+    print("🔮 Testing Oracle on NaCl...")
     oracle = CrystalOracle(device="cpu")
     
-    props = oracle.predict(salt)
-    
-    print("\n📊 PREDICTION RESULTS:")
-    print(f"   Formation Energy: {props['formation_energy']:.3f} eV/atom (Should be negative)")
-    print(f"   Band Gap:         {props['band_gap']:.3f} eV       (Should be > 3.0 for Salt)")
+    # Test RL API
+    e_tensor = oracle.predict_formation_energy([salt, None])
+    print(f"Tensor Output: {e_tensor}")
