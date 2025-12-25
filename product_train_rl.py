@@ -8,22 +8,40 @@ import sys
 import warnings
 from tqdm import tqdm
 
-# --- IMPORT PRODUCT MODULES ---
-from product_oracle import CrystalOracle
-from product_relaxer import CrystalRelaxer
-from product_reward_engine import RewardEngine
-from sentinel import CrystalSentinel
+# --- FIX PATHS ---
+# Get the absolute path of the directory containing this script (NOVAGEN/)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# --- IMPORT CRYSTALFORMER INTERNALS ---
-# We need deep access to the model internals for gradient tracking
-sys.path.append(os.path.abspath("NOVAGEN/CrystalFormer"))
-from crystalformer.src.transformer import make_transformer
-from crystalformer.src.lattice import symmetrize_lattice
-from crystalformer.src.wyckoff import mult_table, symops, symmetrize_atoms
-from crystalformer.src.elements import element_list
-from pymatgen.core import Structure, Lattice
+# 1. Add 'CrystalFormer' folder to path so we can import 'crystalformer'
+# Assumes structure: NOVAGEN/product_train_rl.py AND NOVAGEN/CrystalFormer/
+sys.path.append(os.path.join(BASE_DIR, "CrystalFormer"))
+
+# 2. Add 'NOVAGEN' itself to path to find product_oracle, etc. if needed
+sys.path.append(BASE_DIR)
+
+# --- NOW IMPORT ---
+try:
+    from product_oracle import CrystalOracle
+    from product_relaxer import CrystalRelaxer
+    from product_reward_engine import RewardEngine
+    from sentinel import CrystalSentinel
+    
+    # Import CrystalFormer Internals
+    from crystalformer.src.transformer import make_transformer
+    from crystalformer.src.lattice import symmetrize_lattice
+    from crystalformer.src.wyckoff import mult_table, symops, symmetrize_atoms
+    from crystalformer.src.elements import element_list
+    from pymatgen.core import Structure, Lattice
+except ImportError as e:
+    print(f"❌ IMPORT ERROR: {e}")
+    print(f"   Current sys.path: {sys.path}")
+    print("   Please ensure 'CrystalFormer' folder exists inside 'NOVAGEN'.")
+    sys.exit(1)
 
 warnings.filterwarnings("ignore")
+
+# --- REST OF THE CODE REMAINS THE SAME ---
+# (Paste the rest of the Class RLTrainer and main logic below this block)
 
 # --- CONFIGURATION ---
 CHECKPOINT_PATH = "epoch_005500_CLEAN.pt"
