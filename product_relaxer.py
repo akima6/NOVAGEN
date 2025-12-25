@@ -4,6 +4,7 @@ import warnings
 import numpy as np
 
 # --- THREAD LOCKDOWN ---
+# Keeps CPU clear for data transfers
 os.environ["OMP_NUM_THREADS"] = "1"
 os.environ["MKL_NUM_THREADS"] = "1"
 os.environ["TORCH_NUM_THREADS"] = "1"
@@ -20,12 +21,7 @@ import matgl
 from matgl.ext.ase import M3GNetCalculator
 
 class CrystalRelaxer:
-    """
-    State-of-the-Art Relaxer using M3GNet.
-    Takes a 'rough draft' structure and optimizes its geometry.
-    """
     def __init__(self, model_name="M3GNet-MP-2021.2.8-PES", device=None):
-        # 1. Setup Device
         if device is None:
             self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         else:
@@ -33,16 +29,16 @@ class CrystalRelaxer:
             
         print(f"🔧 Initializing Relaxer on {self.device}...")
         
-        # 2. Load Model
         try:
-            # Load the potential (defaults to CPU)
+            # Load the potential
             self.potential = matgl.load_model(model_name)
             
-            # --- THE FIX: FORCE GPU MOVE ---
+            # --- THE FIX: MOVE THE ENTIRE OBJECT TO GPU ---
+            # This ensures input graphs are also cast to GPU automatically
             if self.device.type == 'cuda':
-                print("   🚀 Moving M3GNet to GPU (This fixes the speed issue)...")
-                self.potential.model.to(self.device)
-            # -------------------------------
+                self.potential = self.potential.to(self.device)
+                print("   🚀 M3GNet Pipeline moved to GPU.")
+            # -----------------------------------------------
 
             self.calculator = M3GNetCalculator(potential=self.potential)
             print("   ✅ M3GNet Model Loaded.")
@@ -51,56 +47,44 @@ class CrystalRelaxer:
             raise e
 
     def relax(self, structure: Structure, fmax=0.05, steps=200):
-        """
-        Relax a single structure.
-        Returns: {
-            "final_structure": Structure, 
-            "energy": float (eV/atom), 
-            "converged": bool
-        }
-        """
-        # 1. Convert Pymatgen -> ASE
         try:
+            # 1. Pymatgen -> ASE
             atoms = AseAtomsAdaptor.get_atoms(structure)
+            
+            # 2. Attach Calculator
             atoms.calc = self.calculator
-        except Exception as e:
-            return {"final_structure": structure, "energy": 0.0, "converged": False, "error": f"Conversion Fail: {e}"}
-
-        # 2. Run Optimization
-        try:
-            # UnitCellFilter allows the lattice box to change shape
+            
+            # 3. Optimize
+            # ASE runs the loop on CPU, but the Calculator sends data to GPU
             ucf = UnitCellFilter(atoms)
-            
-            # LBFGS is the standard optimizer
-            optimizer = LBFGS(ucf, logfile=None)
-            
-            # Run
+            optimizer = LBFGS(ucf, logfile=None) 
             optimizer.run(fmax=fmax, steps=steps)
             
-            # Check convergence
+            # 4. Check Convergence
             forces = atoms.get_forces()
             max_force = np.sqrt((forces ** 2).sum(axis=1).max())
-            converged = max_force <= (fmax * 1.5) 
+            converged = max_force <= (fmax * 1.5)
             
-        except Exception as e:
-            return {"final_structure": structure, "energy": 0.0, "converged": False, "error": f"Optimization Crash: {e}"}
-
-        # 3. Extract Results
-        try:
+            # 5. Extract Results
             final_energy = atoms.get_potential_energy()
             num_atoms = len(atoms)
             energy_per_atom = final_energy / num_atoms
             
-            # 4. Clean Memory
             final_struct = AseAtomsAdaptor.get_structure(atoms)
             clean_struct = Structure.from_dict(final_struct.as_dict())
+
+            return {
+                "final_structure": clean_struct,
+                "energy_per_atom": energy_per_atom,
+                "converged": converged,
+                "error": None
+            }
             
         except Exception as e:
-            return {"final_structure": structure, "energy": 0.0, "converged": False, "error": f"Extraction Fail: {e}"}
-
-        return {
-            "final_structure": clean_struct,
-            "energy_per_atom": energy_per_atom,
-            "converged": converged,
-            "error": None
-        }
+            # Catch crashes (like exploding gradients)
+            return {
+                "final_structure": structure, 
+                "energy": 0.0, 
+                "converged": False, 
+                "error": str(e)
+            }
