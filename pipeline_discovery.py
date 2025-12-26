@@ -6,20 +6,17 @@ import pandas as pd
 from tqdm import tqdm
 import logging
 
-# --- SETUP PATHS (ABSOLUTE) ---
-# Get the directory where THIS script is located (e.g., /kaggle/working/NOVAGEN)
+# --- CONFIGURATION (PRODUCT RUN) ---
+# Get the directory where THIS script is located
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-# Add library paths relative to this script
 sys.path.append(os.path.join(BASE_DIR, "CrystalFormer"))
 sys.path.append(BASE_DIR)
 
-# --- CONFIGURATION ---
-# Now we build the full paths using BASE_DIR
 RL_MODEL_PATH = os.path.join(BASE_DIR, "rl_checkpoints", "epoch_100_RL.pt")
 BASE_CONFIG_PATH = os.path.join(BASE_DIR, "pretrained_model", "config.yaml")
-NUM_CANDIDATES = 2000  
-CAMPAIGN_ELEMENTS = None
+
+NUM_CANDIDATES = 2000 
+CAMPAIGN_ELEMENTS = None  # Full Periodic Table Search
 
 # --- SILENCE LOGS ---
 os.environ["OMP_NUM_THREADS"] = "1"
@@ -37,20 +34,17 @@ except ImportError as e:
 
 def main():
     print(f"==================================================")
-    print(f"🚀 STARTING DISCOVERY CAMPAIGN (Silent Mode)")
+    print(f"🚀 STARTING SEMICONDUCTOR DISCOVERY (Silent Mode)")
     print(f"   Target: {NUM_CANDIDATES} Candidates")
+    print(f"   Filter: Stable (< 0 eV) AND Band Gap (> 0.1 eV)")
     print(f"==================================================")
 
-    # 1. INITIALIZE (Quietly)
+    # 1. INITIALIZE
     print("[1/4] Loading Modules...", end="\r")
     device = "cuda" if torch.cuda.is_available() else "cpu"
     
-    # Check if files exist before crashing
     if not os.path.exists(RL_MODEL_PATH):
         print(f"\n❌ Error: RL Model not found at {RL_MODEL_PATH}")
-        return
-    if not os.path.exists(BASE_CONFIG_PATH):
-        print(f"\n❌ Error: Config not found at {BASE_CONFIG_PATH}")
         return
 
     try:
@@ -79,59 +73,54 @@ def main():
     print(f"[3/4] ✅ Sentinel Passed: {n_valid} / {NUM_CANDIDATES} ({n_valid/NUM_CANDIDATES:.1%})")
 
     if n_valid == 0:
-        print("❌ No valid structures found. RL Model might need more entropy or training.")
+        print("❌ No valid structures found.")
         return
 
-    # 4. RELAX & ANALYZE (The "Silent" Loop)
+    # 4. RELAX & ANALYZE
     print(f"[4/4] Relaxing & Analyzing survivors...")
     
     results = []
-    stats = {"stable": 0, "unstable_high_e": 0, "unstable_crash": 0}
+    stats = {"stable_semicon": 0, "stable_metal": 0, "unstable": 0, "crash": 0}
 
     for struct in tqdm(valid_structs, desc="   Processing", unit="cryst"):
         try:
-            # A. Relax (Force CPU mode if needed)
+            # A. Relax
             res = relaxer.relax(struct)
-            
-            # GET DATA EVEN IF NOT CONVERGED
             final_e = res.get('energy_per_atom', 0.0)
             final_s = res.get('final_structure', struct)
-            is_converged = res.get('converged', False)
             
             # B. Predict Properties
             props = oracle.predict(final_s)
             gap = props.get('band_gap', 0.0)
             
             # C. SMART CATEGORIZATION
-            status = "Unknown"
+            status = "Rejected"
             
-            if final_e > -0.1:
-                # Positive/High energy = Trash
-                stats["unstable_high_e"] += 1
-                status = "High Energy"
-            else:
-                # Negative Energy = Interesting!
-                if is_converged:
-                    stats["stable"] += 1
-                    status = "Stable"
+            if final_e < 0.0: # Must be stable
+                if gap > 0.1:
+                    # THE GOLDEN STANDARD: Stable + Semiconductor
+                    stats["stable_semicon"] += 1
+                    status = "✅ Semiconductor"
                 else:
-                    # It failed to converge, BUT energy is good.
-                    # We call this a "Candidate" (needs more cleaning later)
-                    stats["stable"] += 1 # Count as success for now
-                    status = "Promising (Unconverged)"
+                    # It's stable, but it's a metal.
+                    stats["stable_metal"] += 1
+                    status = "⚠️ Metal (Ignored)"
+            else:
+                stats["unstable"] += 1
+                status = "❌ Unstable"
 
-            # Only save if it's not high energy garbage
-            if status != "High Energy":
+            # Only save interesting things (Semiconductors)
+            if "Semiconductor" in status:
                 results.append({
                     "Formula": final_s.composition.reduced_formula,
-                    "Energy (eV/atom)": round(final_e, 3),
-                    "Band Gap (eV)": round(gap, 2),
+                    "Energy": round(final_e, 3),
+                    "Band Gap": round(gap, 2),
                     "Space Group": final_s.get_space_group_info()[1],
                     "Status": status
                 })
                 
         except Exception:
-            stats["unstable_crash"] += 1
+            stats["crash"] += 1
 
     # --- FINAL REPORT ---
     print("\n" + "="*50)
@@ -139,22 +128,17 @@ def main():
     print("="*50)
     print(f"Total Attempts:     {NUM_CANDIDATES}")
     print(f"Physically Valid:   {n_valid}")
-    print(f"Relaxation Crashes: {stats['unstable_crash']}")
-    print(f"High Energy (Bad):  {stats['unstable_high_e']}")
-    print(f"STABLE (Winners):   {stats['stable']}")
+    print(f"Metals (Discarded): {stats['stable_metal']}")
+    print(f"SEMICONDUCTORS:     {stats['stable_semicon']}")
     print("-" * 50)
     
     if results:
         df = pd.DataFrame(results)
-        df = df.sort_values(by="Energy (eV/atom)", ascending=True)
-        best_ones = df[df["Status"] == "Stable"]
-        
-        if not best_ones.empty:
-            print("\n🏆 TOP DISCOVERIES (Paste this table):")
-            print(best_ones.to_string(index=False))
-        else:
-            print("\n⚠️ No stable crystals found (Best attempt below):")
-            print(df.head(5).to_string(index=False))
+        df = df.sort_values(by="Band Gap", ascending=False)
+        print("\n🏆 TOP SEMICONDUCTORS FOUND:")
+        print(df.to_string(index=False))
+    else:
+        print("\n⚠️ No stable semiconductors found in this batch.")
             
     print("\n" + "="*50)
 
