@@ -10,7 +10,9 @@ from tqdm import tqdm
 from pymatgen.core import Structure, Lattice
 
 # Import internal modules
-sys.path.append(os.path.abspath("/kaggle/working/NOVAGEN/CrystalFormer"))
+current_dir = os.path.dirname(os.path.abspath(__file__))
+crystal_former_path = os.path.join(current_dir, "CrystalFormer")
+sys.path.append(crystal_former_path)
 from crystalformer.src.transformer import make_transformer
 from crystalformer.src.lattice import symmetrize_lattice
 from crystalformer.src.wyckoff import mult_table, symops, symmetrize_atoms
