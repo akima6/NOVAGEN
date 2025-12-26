@@ -87,19 +87,30 @@ class ReinforceTrainer:
                         continue
 
                     # 2. Filter & Relax
+# 2. Filter & Relax
                     valid_mask, _ = self.sentinel.filter([struct])
                     final_struct = struct
                     
                     if valid_mask[0]:
                         try:
-                            # Increased steps slightly for better accuracy
+                            # Run Physics (Relaxer) only on valid crystals
                             res = self.relaxer.relax(struct, steps=50) 
                             final_struct = res["final_structure"]
                         except:
                             valid_mask[0] = False
 
-                    # 3. Reward
-                    e_form_preds, bg_preds = self.oracle.predict_batch([final_struct])
+                    # 3. Reward (OPTIMIZED)
+                    # --- FIX START: Don't call Oracle on dead crystals ---
+                    if valid_mask[0]:
+                        # Only run the heavy AI if the crystal is valid
+                        e_form_preds, bg_preds = self.oracle.predict_batch([final_struct])
+                    else:
+                        # If invalid, save time by passing dummy zeros
+                        # (The Reward Engine will ignore these anyway because valid_mask is False)
+                        e_form_preds = [0.0]
+                        bg_preds = [0.0]
+                    # --- FIX END ---
+
                     comps = [final_struct.composition]
                     rewards_tensor, stats = self.reward_engine.compute_reward(
                         valid_mask, e_form_preds, bg_preds, compositions=comps
