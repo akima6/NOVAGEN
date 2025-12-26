@@ -1,92 +1,71 @@
-import numpy as np
 import torch
+import numpy as np
 
 class RewardEngine:
-    """
-    The 'Teacher' for the RL Agent.
-    UPDATED logic to strictly punish metals and simple unary crystals.
-    """
     def __init__(self, target_gap_min=0.5, target_gap_max=4.0):
         self.target_gap_min = target_gap_min
         self.target_gap_max = target_gap_max
 
-    def compute_reward(self, validity_mask, formation_energies, band_gaps, compositions=None):
+    def compute_reward(self, valid_mask, e_form_preds, bg_preds, compositions=None):
         """
-        Input:
-            validity_mask: List[bool]
-            formation_energies: Tensor (eV/atom)
-            band_gaps: Tensor (eV)
-            compositions: List[Composition] (Optional, needed to check for Unary)
+        Calculates reward based on stability, band gap, and complexity.
         """
-        rewards = []
+        batch_size = len(valid_mask)
+        rewards = torch.zeros(batch_size)
         
-        # Stats tracking
-        n_valid = 0
-        n_semicon = 0
-        
-        # Move tensors to CPU list for easier processing in loop
-        e_list = formation_energies.tolist()
-        bg_list = band_gaps.tolist()
-        
-        for i, is_valid in enumerate(validity_mask):
-            r_total = 0.0
-            
-            # --- 1. VALIDITY (The Bouncer) ---
-            if not is_valid:
-                rewards.append(-5.0) # Punishment for breaking physics
+        # Convert predictions to tensor if they aren't already
+        if not isinstance(e_form_preds, torch.Tensor):
+            e_form_preds = torch.tensor(e_form_preds)
+        if not isinstance(bg_preds, torch.Tensor):
+            bg_preds = torch.tensor(bg_preds)
+
+        stats = {"valid": 0, "stable": 0, "semicon": 0}
+
+        for i in range(batch_size):
+            # 1. VALIDITY CHECK
+            if not valid_mask[i]:
+                rewards[i] = -5.0  # Heavy penalty for invalid/exploding crystals
                 continue
             
-            n_valid += 1
-            r_total += 1.0 # Participation trophy for being valid
-            
-            # --- 2. ELECTRONIC PROPERTY (The Target) ---
-            # This is now the MOST important metric.
-            bg = bg_list[i]
-            
-            if bg < 0.1:
-                # METAL PENALTY
-                # We actively punish metals so the AI learns to avoid them
-                r_total -= 3.0 
-            elif self.target_gap_min <= bg <= self.target_gap_max:
-                # SWEET SPOT BONUS
-                # Huge reward to overpower the stability of metals
-                r_total += 5.0 
-                n_semicon += 1
-            elif bg > self.target_gap_max:
-                # Insulator (Too wide, but better than metal)
-                r_total += 1.0
+            stats["valid"] += 1
+            e_form = e_form_preds[i].item()
+            bg = bg_preds[i].item()
+
+            # 2. STABILITY REWARD
+            # We want Energy < 0.0 eV/atom
+            if e_form < 0.0:
+                r_stab = 2.0 + abs(e_form)  # Bonus for being deeper in the well
+                stats["stable"] += 1
+            elif e_form < 0.5:
+                r_stab = 0.5  # Small partial credit for "almost stable"
             else:
-                # Narrow gap (0.1 - 0.5)
-                r_total += 0.5
+                r_stab = -2.0 - e_form  # Penalty for instability
 
-            # --- 3. STABILITY (The Constraint) ---
-            # We want stable, but not "Metal Stable"
-            e_form = e_list[i]
-            
-            # Clamp energy to avoid infinities
-            e_clamped = max(min(e_form, 5.0), -5.0)
-            
-            if e_clamped < 0.0:
-                # Stable: Reward scales with stability, but CAPPED
-                # Max stability reward is +2.0 (Lower than Semiconductor bonus)
-                # This prevents "Super Stable Metals" from winning just by being stable.
-                r_total += 2.0 * np.tanh(-0.5 * e_clamped)
+            # 3. BAND GAP REWARD (Semiconductor Target)
+            if self.target_gap_min <= bg <= self.target_gap_max:
+                r_bg = 5.0  # Jackpot!
+                stats["semicon"] += 1
+            elif bg > 0.1 and bg < self.target_gap_min:
+                r_bg = 1.0  # Good try (narrow gap)
+            elif bg == 0.0:
+                r_bg = -3.0  # Penalty for Metals
             else:
-                # Unstable: Punishment
-                r_total -= 2.0 * np.tanh(e_clamped)
+                r_bg = -1.0  # Too wide (Insulator)
 
-            # --- 4. COMPLEXITY CHECK (No Unary) ---
-            # If we have composition data, penalize single-element materials
-            if compositions is not None and i < len(compositions) and compositions[i] is not None:
-                if len(compositions[i].elements) < 2:
-                    r_total -= 3.0 # Punishment for being boring (e.g. Pure Fe)
+            # 4. COMPLEXITY BONUS (New Feature)
+            # Reward ternary (3) and quaternary (4) elements more than binary (2)
+            r_complex = 0.0
+            if compositions is not None:
+                try:
+                    num_elements = len(compositions[i].elements)
+                    if num_elements == 3:
+                        r_complex = 1.5
+                    elif num_elements >= 4:
+                        r_complex = 3.0
+                except:
+                    pass
 
-            rewards.append(r_total)
+            # TOTAL REWARD
+            rewards[i] = r_stab + r_bg + r_complex
 
-        # Return stats for logging
-        stats = {
-            "valid_rate": n_valid / (len(rewards) + 1e-6),
-            "semicon_rate": n_semicon / (n_valid + 1e-6)
-        }
-        
-        return torch.tensor(rewards), stats
+        return rewards, stats
