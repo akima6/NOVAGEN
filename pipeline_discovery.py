@@ -12,9 +12,14 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.join(BASE_DIR, "CrystalFormer"))
 sys.path.append(BASE_DIR)
 
-RL_MODEL_PATH = os.path.join(BASE_DIR, "rl_checkpoints", "epoch_100_RL.pt")
+# Auto-detect the checkpoint (Look for epoch_100, fallback to clean)
+CHECKPOINT_PATH = os.path.join(BASE_DIR, "rl_checkpoints", "epoch_100_RL.pt")
+if not os.path.exists(CHECKPOINT_PATH):
+    print("⚠️ RL Checkpoint not found. Falling back to Pretrained Model.")
+    CHECKPOINT_PATH = os.path.join(BASE_DIR, "pretrained_model", "epoch_005500_CLEAN.pt")
+
 BASE_CONFIG_PATH = os.path.join(BASE_DIR, "pretrained_model", "config.yaml")
-RESULTS_DIR = os.path.join(BASE_DIR, "rl_discoveries") # <--- New Output Folder
+RESULTS_DIR = os.path.join(BASE_DIR, "rl_discoveries") 
 
 NUM_CANDIDATES = 2000 
 CAMPAIGN_ELEMENTS = None  # Full Periodic Table
@@ -47,7 +52,7 @@ def main():
     # 2. LOAD MODULES
     print("[1/4] Loading Modules...", end="\r")
     try:
-        generator = CrystalGenerator(RL_MODEL_PATH, BASE_CONFIG_PATH, device)
+        generator = CrystalGenerator(CHECKPOINT_PATH, BASE_CONFIG_PATH, device)
         sentinel = CrystalSentinel()
         relaxer = CrystalRelaxer(device="cpu") 
         oracle = CrystalOracle(device="cpu")
@@ -83,6 +88,7 @@ def main():
     for i, struct in enumerate(tqdm(valid_structs, desc="   Analyzing", unit="cryst")):
         try:
             # A. Relax
+            # NOTE: struct is the RAW guess. final_s is the RELAXED crystal.
             res = relaxer.relax(struct)
             final_e = res.get('energy_per_atom', 0.0)
             final_s = res.get('final_structure', struct)
@@ -92,38 +98,57 @@ def main():
             gap = props.get('band_gap', 0.0)
             
             # C. Classify
-            status = "Rejected"
             is_winner = False
             
             if final_e < 0.0:
                 if gap > 0.1:
                     stats["semicon"] += 1
-                    status = "✅ Semiconductor"
                     is_winner = True
                 else:
                     stats["metal"] += 1
-                    status = "⚠️ Metal"
             else:
                 stats["unstable"] += 1
-                status = "❌ Unstable"
 
             # D. SAVE IF WINNER
             if is_winner:
-                # Create a unique name: Formula_ID.cif (e.g., Fe2O3_001.cif)
                 formula = final_s.composition.reduced_formula
-                safe_formula = "".join([c for c in formula if c.isalnum()])
-                filename = f"{safe_formula}_{i:04d}.cif"
-                filepath = os.path.join(RESULTS_DIR, filename)
                 
-                # Write CIF file
-                final_s.to(filename=filepath)
+                # --- UPGRADE 5: SYMMETRY REFINEMENT ---
+                # CRITICAL FIX: We must analyze final_s (Relaxed), not struct (Raw)
+                final_struct_to_save = final_s 
+                sg_number = 1
+                
+                try:
+                    from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
+                    
+                    # 1. Analyze the RELAXED crystal
+                    sga = SpacegroupAnalyzer(final_s, symprec=0.1)
+                    
+                    # 2. Refine it
+                    refined_struct = sga.get_refined_structure()
+                    
+                    # 3. Use refined structure for saving
+                    final_struct_to_save = refined_struct
+                    sg_number = sga.get_space_group_number()
+                    
+                except Exception:
+                    # Fallback to the relaxed structure if refinement fails
+                    final_struct_to_save = final_s
+                    sg_number = final_s.get_space_group_info()[1]
+                # --------------------------------------
+
+                # Save the POLISHED crystal
+                filename = f"{formula}_{i:04d}.cif"
+                # CRITICAL FIX: Use RESULTS_DIR, not SAVE_DIR
+                save_path = os.path.join(RESULTS_DIR, filename)
+                final_struct_to_save.to(filename=save_path)
                 
                 results.append({
                     "Formula": formula,
                     "Energy": round(final_e, 3),
                     "Band Gap": round(gap, 2),
-                    "Space Group": final_s.get_space_group_info()[1],
-                    "File": filename # Link to the file
+                    "Space Group": sg_number,
+                    "File": filename
                 })
                 
         except Exception:
