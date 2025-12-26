@@ -22,10 +22,12 @@ class CrystalOracle:
             import matgl
             
             # 1. Load Stability Model (Formation Energy)
+            # KEEPING YOUR MODEL: M3GNet-MP-2018.6.1-Eform
             print("   Loading Formation Energy Model...")
             self.model_eform = matgl.load_model("M3GNet-MP-2018.6.1-Eform").to(self.device)
             
             # 2. Load Electronic Model (Band Gap)
+            # KEEPING YOUR MODEL: MEGNet-MP-2019.4.1-BandGap-mfi
             print("   Loading Band Gap Model...")
             self.model_gap = matgl.load_model("MEGNet-MP-2019.4.1-BandGap-mfi").to(self.device)
             
@@ -40,7 +42,7 @@ class CrystalOracle:
 
     def predict_formation_energy(self, structures):
         """
-        RL API: Batch predict formation energy.
+        Internal: Batch predict formation energy.
         Returns: Tensor of shape (batch_size,)
         """
         preds = []
@@ -60,7 +62,7 @@ class CrystalOracle:
 
     def predict_band_gap(self, structures):
         """
-        RL API: Batch predict band gap.
+        Internal: Batch predict band gap.
         Returns: Tensor of shape (batch_size,)
         """
         preds = []
@@ -89,6 +91,20 @@ class CrystalOracle:
         
         return {'formation_energy': e_form, 'band_gap': bg}
 
+    # --- THIS IS THE MISSING FUNCTION YOU NEED ---
+    def predict_batch(self, structures):
+        """
+        RL API: Predicts both properties for a list of structures.
+        Used by product_train_rl.py
+        """
+        # 1. Get Tensors using your existing logic
+        e_tensor = self.predict_formation_energy(structures)
+        bg_tensor = self.predict_band_gap(structures)
+        
+        # 2. Return them directly
+        # The RewardEngine expects two lists/tensors
+        return e_tensor, bg_tensor
+
 # --- TEST BLOCK ---
 if __name__ == "__main__":
     from pymatgen.core import Structure, Lattice
@@ -103,5 +119,6 @@ if __name__ == "__main__":
     oracle = CrystalOracle(device="cpu")
     
     # Test RL API
-    e_tensor = oracle.predict_formation_energy([salt, None])
-    print(f"Tensor Output: {e_tensor}")
+    e_form, bg = oracle.predict_batch([salt, salt])
+    print(f"Batch Energy: {e_form}")
+    print(f"Batch Gap:    {bg}")
