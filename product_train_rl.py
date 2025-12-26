@@ -3,6 +3,7 @@ import sys
 import torch
 import numpy as np
 import warnings
+import traceback 
 
 # --- CONFIGURATION ---
 BATCH_SIZE = 2          
@@ -22,7 +23,6 @@ sys.path.append(BASE_DIR)
 RL_CHECKPOINT_DIR = os.path.join(BASE_DIR, "rl_checkpoints")
 os.makedirs(RL_CHECKPOINT_DIR, exist_ok=True)
 
-# Silence standard warnings
 warnings.filterwarnings("ignore")
 os.environ["OMP_NUM_THREADS"] = "1"
 
@@ -40,13 +40,11 @@ class ReinforceTrainer:
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         print(f"--- Training on {self.device.upper()} ---")
         
-        # 1. Load Generator
         config_path = os.path.join(BASE_DIR, "pretrained_model", "config.yaml")
         model_path = os.path.join(BASE_DIR, "pretrained_model", "epoch_005500_CLEAN.pt")
         self.generator = CrystalGenerator(model_path, config_path, self.device)
         self.optimizer = torch.optim.Adam(self.generator.model.parameters(), lr=LR)
         
-        # 2. Initialize Components (Silent)
         self.oracle = CrystalOracle(device="cpu")
         self.sentinel = CrystalSentinel()
         self.reward_engine = RewardEngine(target_gap_min=0.5, target_gap_max=4.0)
@@ -61,8 +59,6 @@ class ReinforceTrainer:
             epoch_loss = 0.0
             epoch_reward = 0.0
             self.optimizer.zero_grad()
-            
-            # --- BATCH LOOP ---
             valid_batches = 0
             
             for step in range(GRAD_ACCUM_STEPS):
@@ -80,7 +76,7 @@ class ReinforceTrainer:
                     # B. Sentinel Filter
                     valid_mask, _ = self.sentinel.filter(raw_structs)
                     
-                    # C. FAST RELAXATION (Modified In-Place)
+                    # C. Fast Relax
                     processed_structs = []
                     for i, struct in enumerate(raw_structs):
                         if valid_mask[i]:
@@ -93,7 +89,7 @@ class ReinforceTrainer:
                         else:
                             processed_structs.append(struct)
 
-                    # D. Oracle & Reward
+                    # D. Reward
                     e_form_preds, bg_preds = self.oracle.predict_batch(processed_structs)
                     comps = [s.composition for s in processed_structs]
                     
@@ -117,27 +113,27 @@ class ReinforceTrainer:
                     valid_batches += 1
 
                 except Exception:
-                    continue
+                    # PRINT ERROR AND STOP IF CRASH
+                    print("\n❌ CRITICAL FAILURE IN BATCH:")
+                    traceback.print_exc()
+                    return 
             
-            # --- UPDATE & LOG ---
+            # --- LOGGING ---
             if valid_batches > 0:
                 torch.nn.utils.clip_grad_norm_(self.generator.model.parameters(), 1.0)
                 self.optimizer.step()
                 
-                # Normalize metrics
                 avg_rew = epoch_reward / valid_batches
-                avg_loss = epoch_loss # Loss is already normalized by division
-                
-                print(f"{epoch:<6} | {avg_rew:<12.4f} | {avg_loss:<10.4f}")
-            
-            # --- CHECKPOINT ---
+                print(f"{epoch:<6} | {avg_rew:<12.4f} | {epoch_loss:<10.4f}")
+            else:
+                print(f"{epoch:<6} | {'SKIPPED':<12} | {'0.00':<10}")
+
             if epoch % VALIDATION_FREQ == 0:
                 self.save_checkpoint()
                 
     def save_checkpoint(self):
         path = os.path.join(RL_CHECKPOINT_DIR, "epoch_100_RL.pt")
         torch.save(self.generator.model.state_dict(), path)
-        # Overwrites the previous line to keep output clean
         sys.stdout.write(f"\r[Saved Checkpoint]   \n") 
 
 if __name__ == "__main__":
