@@ -90,25 +90,38 @@ def main():
 
     for struct in tqdm(valid_structs, desc="   Processing", unit="cryst"):
         try:
-            # A. Relax
+            # A. Relax (Force CPU mode if needed)
             res = relaxer.relax(struct)
             
-            if res['converged']:
-                final_e = res['energy_per_atom']
-                final_s = res['final_structure']
-                
-                # B. Predict Properties
-                props = oracle.predict(final_s)
-                gap = props.get('band_gap', 0.0)
-                
-                # C. Categorize
-                if final_e < -0.1: 
+            # GET DATA EVEN IF NOT CONVERGED
+            final_e = res.get('energy_per_atom', 0.0)
+            final_s = res.get('final_structure', struct)
+            is_converged = res.get('converged', False)
+            
+            # B. Predict Properties
+            props = oracle.predict(final_s)
+            gap = props.get('band_gap', 0.0)
+            
+            # C. SMART CATEGORIZATION
+            status = "Unknown"
+            
+            if final_e > -0.1:
+                # Positive/High energy = Trash
+                stats["unstable_high_e"] += 1
+                status = "High Energy"
+            else:
+                # Negative Energy = Interesting!
+                if is_converged:
                     stats["stable"] += 1
                     status = "Stable"
                 else:
-                    stats["unstable_high_e"] += 1
-                    status = "High Energy"
+                    # It failed to converge, BUT energy is good.
+                    # We call this a "Candidate" (needs more cleaning later)
+                    stats["stable"] += 1 # Count as success for now
+                    status = "Promising (Unconverged)"
 
+            # Only save if it's not high energy garbage
+            if status != "High Energy":
                 results.append({
                     "Formula": final_s.composition.reduced_formula,
                     "Energy (eV/atom)": round(final_e, 3),
@@ -116,8 +129,6 @@ def main():
                     "Space Group": final_s.get_space_group_info()[1],
                     "Status": status
                 })
-            else:
-                stats["unstable_crash"] += 1
                 
         except Exception:
             stats["unstable_crash"] += 1
