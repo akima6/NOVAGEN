@@ -200,8 +200,11 @@ class RLTrainer:
                 e_form_preds = self.oracle.predict_formation_energy(valid_structs)
                 bg_preds = self.oracle.predict_band_gap(valid_structs)
                 
+    # Extract compositions for the "No-Unary" check
+                comps = [s.composition for s in valid_structs]
+    
                 valid_rewards, stats = self.reward_engine.compute_reward(
-                    [True]*len(valid_structs), e_form_preds, bg_preds
+                    [True]*len(valid_structs), e_form_preds, bg_preds, compositions=comps
                 )
                 
                 baseline = valid_rewards.mean() if len(valid_rewards) > 0 else 0.0
