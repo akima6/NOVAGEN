@@ -11,7 +11,6 @@ GRAD_ACCUM_STEPS = 16
 LR = 1e-5                
 EPOCHS = 100            
 VALIDATION_FREQ = 10    
-ENTROPY_COEF = 0.01     
 
 # Fe(26), O(8), S(16), Si(14), N(7)
 CAMPAIGN_ELEMENTS = [26, 8, 16, 14, 7] 
@@ -69,7 +68,7 @@ class ReinforceTrainer:
                         allowed_elements=CAMPAIGN_ELEMENTS
                     )
                     raw_structs = outputs["structures"]
-                    log_probs = outputs["log_probs"]
+                    log_probs = outputs["log_probs"] # Shape: [Batch_Size]
                     
                     if not raw_structs: continue
 
@@ -98,13 +97,15 @@ class ReinforceTrainer:
                     )
                     rewards_tensor = rewards_tensor.to(self.device)
 
-                    # E. Loss
-                    entropy = -torch.mean(torch.sum(torch.exp(log_probs) * log_probs, dim=1))
+                    # E. Loss Calculation (SIMPLIFIED)
+                    # 1. Calculate Advantage
                     advantage = (rewards_tensor - rewards_tensor.mean()) 
-                    policy_loss = -torch.mean(log_probs * advantage.unsqueeze(1))
                     
-                    loss = policy_loss - (ENTROPY_COEF * entropy)
-                    loss = loss / GRAD_ACCUM_STEPS
+                    # 2. Policy Loss = - log_prob * advantage
+                    # Since log_probs is 1D, we just multiply element-wise
+                    policy_loss = -torch.mean(log_probs * advantage)
+                    
+                    loss = policy_loss / GRAD_ACCUM_STEPS
                     
                     loss.backward()
                     
