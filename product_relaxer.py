@@ -1,80 +1,102 @@
 import warnings
 import torch
+import numpy as np
 import matgl
-import traceback
-import sys
-from matgl.ext.ase import M3GNetCalculator, Relaxer
+from pymatgen.io.ase import AseAtomsAdaptor
+from ase.filters import UnitCellFilter
+from ase.optimize import LBFGS
+from ase.geometry import get_distances
+from matgl.ext.ase import M3GNetCalculator
 
-# Filter minor warnings
+# Filter harmless warnings
 warnings.filterwarnings("ignore")
 
 class CrystalRelaxer:
     """
-    Robust Physics Engine with Debugging Enabled.
+    Hybrid Relaxer:
+    Combines the Robustness of the Old Script (Explosion Guard + Cell Filter)
+    with the Compatibility of the New Script (RL API).
     """
     def __init__(self, device="cpu"):
         self.device = device
-        self.pot = None
-        
-        print("   [Relaxer] Loading M3GNet Potential...")
+        print("   [Relaxer] Initializing M3GNet Potential...")
         try:
-            # 1. Try Specific Model Name
+            # Load the Physics Model
             self.pot = matgl.load_model("M3GNet-MP-2021.2.8-PES")
+            self.calc = M3GNetCalculator(potential=self.pot)
+            print("   [Relaxer] ✅ Physics Engine Loaded.")
         except Exception as e:
-            print(f"   [Relaxer] ⚠️ Specific model load failed: {e}")
-            try:
-                # 2. Try Default Fallback
-                print("   [Relaxer] 🔄 Trying default load...")
-                self.pot = matgl.load_model("M3GNet-MP-2021.2.8-PES")
-            except Exception as e2:
-                print(f"   [Relaxer] ❌ CRITICAL: Could not load physics model.")
-                print(e2)
+            print(f"   [Relaxer] ❌ Failed to load potential: {e}")
+            self.pot = None
+            self.calc = None
 
-    def relax(self, structure, steps=500):
-        if self.pot is None:
-            return self._fail(structure)
+    def relax(self, structure, steps=100):
+        """
+        Relaxes a structure (Atoms + Lattice).
+        Returns dict compatible with RL Trainer.
+        """
+        # 1. Check if model exists
+        if self.calc is None:
+            return self._fail(structure, "No Model")
 
         try:
-            # --- FIX IS HERE ---
-            # 1. Initialize Relaxer (Do NOT pass fmax here)
-            relaxer = Relaxer(potential=self.pot, optimizer="Fire")
+            # 2. Convert to ASE (Physics Format)
+            atoms = AseAtomsAdaptor.get_atoms(structure)
             
-            # 2. Run Relaxation (Pass fmax here!)
-            # fmax=0.1 means "stop when forces are low" (stable)
-            result = relaxer.relax(structure, fmax=0.1, steps=steps)
-            # -------------------
+            # 3. SAFETY CHECK: EXPLOSION GUARD
+            # If atoms are overlapping (< 0.5 Angstrom), reject immediately.
+            # This saves huge amounts of memory and prevents crashes.
+            try:
+                # get_distances returns (dist_matrix, dist_vectors)
+                # We want the matrix [0]
+                dists = atoms.get_all_distances(mic=True)
+                # Filter out self-distances (0.0)
+                mask = dists > 0.01
+                if mask.any():
+                    min_dist = dists[mask].min()
+                    if min_dist < 0.5:
+                        return self._fail(structure, "Explosion Detected (Atoms too close)")
+            except:
+                pass # If check fails, risk running the physics anyway
+
+            # 4. Attach Calculator
+            atoms.calc = self.calc
+
+            # 5. Setup Optimizer with UnitCellFilter
+            # This allows the Box (Lattice) to change shape
+            ucf = UnitCellFilter(atoms)
             
-            final_s = result["final_structure"]
+            # Use LBFGS (Memory Efficient Optimizer)
+            # logfile=None prevents it from printing to console
+            optimizer = LBFGS(ucf, logfile=None)
             
-            # Extract energy safely
-            if "trajectory" in result and len(result["trajectory"].energies) > 0:
-                final_e = float(result["trajectory"].energies[-1])
-            else:
-                final_e = -1.0 
-                
-            n_atoms = len(final_s)
+            # 6. Run Relaxation
+            # fmax=0.1 is "good enough" for RL. 
+            # 0.01 is for final paper publication.
+            optimizer.run(fmax=0.1, steps=steps)
+
+            # 7. Process Results
+            final_structure = AseAtomsAdaptor.get_structure(atoms)
+            final_energy = atoms.get_potential_energy() # Total eV
+            num_atoms = len(atoms)
+            
+            # Cleanup to save memory
+            del atoms, ucf, optimizer
             
             return {
-                "final_structure": final_s,
-                "energy_per_atom": final_e / n_atoms,
-                "converged": True 
+                "final_structure": final_structure,
+                "energy_per_atom": final_energy / num_atoms,
+                "converged": True
             }
-            
-        except Exception as e:
-            # Only print if it's NOT the specific error we just fixed
-            if "fmax" not in str(e):
-                print("\n" + "="*40)
-                print("❌ RELAXATION CRASH REPORT")
-                print(f"Structure Formula: {structure.composition.reduced_formula}")
-                print("Error Details:")
-                traceback.print_exc()
-                print("="*40 + "\n")
-            
-            return self._fail(structure)
 
-    def _fail(self, structure):
+        except Exception as e:
+            # If anything breaks, return failure
+            return self._fail(structure, str(e))
+
+    def _fail(self, structure, reason="Unknown"):
+        """Helper to return a standardized failure object"""
         return {
             "final_structure": structure,
-            "energy_per_atom": 5.0, 
+            "energy_per_atom": 5.0, # High penalty
             "converged": False
         }
