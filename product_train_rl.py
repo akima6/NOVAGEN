@@ -44,7 +44,7 @@ LR = 1e-5
 EPOCHS = 100             
 VALIDATION_FREQ = 10     
 ENTROPY_COEF = 0.01      
-CAMPAIGN_ELEMENTS = [26, 8, 16] 
+CAMPAIGN_ELEMENTS = [26, 8, 16, 14, 7]
 
 class RLTrainer:
     def __init__(self):
