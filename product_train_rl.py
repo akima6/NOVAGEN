@@ -6,15 +6,16 @@ import warnings
 import traceback
 import gc  # Garbage Collector
 
-# --- CONFIGURATION (Low Memory Mode) ---
-BATCH_SIZE = 2          
-GRAD_ACCUM_STEPS = 4    # REDUCED from 16 to 4 to prevent crashes
-LR = 1e-5                
-EPOCHS = 100            
-VALIDATION_FREQ = 10    
+# --- CONFIGURATION (NUCLEAR SAFETY MODE) ---
+BATCH_SIZE = 1           # Process 1 crystal at a time
+GRAD_ACCUM_STEPS = 1     # Update brain immediately (No backlog)
+LR = 1e-5
+EPOCHS = 100
+VALIDATION_FREQ = 5      # Save more often in case it crashes
+MAX_ATOMS = 20           # REJECT large crystals to save RAM
 
 # Fe(26), O(8), S(16), Si(14), N(7)
-CAMPAIGN_ELEMENTS = [26, 8, 16, 14, 7] 
+CAMPAIGN_ELEMENTS = [26, 8, 16, 14, 7]
 
 # PATHS
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -38,122 +39,125 @@ except ImportError as e:
 class ReinforceTrainer:
     def __init__(self):
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        print(f"--- Training on {self.device.upper()} (Low Memory Mode) ---")
-        
+        print(f"--- Training on {self.device.upper()} (Single-Shot Mode) ---")
+
         config_path = os.path.join(BASE_DIR, "pretrained_model", "config.yaml")
         model_path = os.path.join(BASE_DIR, "pretrained_model", "epoch_005500_CLEAN.pt")
         self.generator = CrystalGenerator(model_path, config_path, self.device)
         self.optimizer = torch.optim.Adam(self.generator.model.parameters(), lr=LR)
-        
-        # Load heavy models once
+
         print("   Loading Physics Engines...")
         self.oracle = CrystalOracle(device="cpu")
         self.sentinel = CrystalSentinel()
         self.reward_engine = RewardEngine(target_gap_min=0.5, target_gap_max=4.0)
-        self.relaxer = CrystalRelaxer(device="cpu") 
+        self.relaxer = CrystalRelaxer(device="cpu")
 
     def train(self):
         print(f"Starting {EPOCHS} Epochs...")
         print("-" * 60)
-        
+
         for epoch in range(1, EPOCHS + 1):
             epoch_loss = 0.0
             epoch_reward = 0.0
-            self.optimizer.zero_grad(set_to_none=True) # Save memory
             valid_batches = 0
             
-            print(f"\n[Epoch {epoch}] Processing batches...")
+            # Reset Optimizer memory
+            self.optimizer.zero_grad(set_to_none=True)
 
-            for step in range(GRAD_ACCUM_STEPS):
+            print(f"\n[Epoch {epoch}] Running...")
+
+            # Run 4 steps (Since Batch=1, this means 4 crystals per epoch)
+            # You can increase this range() later if it proves stable
+            for step in range(4):
                 try:
                     # 1. Generate
-                    # print(f"   Step {step+1}/{GRAD_ACCUM_STEPS}: Generating...", end="\r")
                     outputs = self.generator.generate_with_grads(
-                        BATCH_SIZE, 
+                        BATCH_SIZE,
                         allowed_elements=CAMPAIGN_ELEMENTS
                     )
                     raw_structs = outputs["structures"]
                     log_probs = outputs["log_probs"]
-                    
-                    if not raw_structs: 
-                        print(f"   Step {step+1}: Failed (Empty Generation)")
+
+                    if not raw_structs:
                         continue
 
-                    # 2. Sentinel & Relax
-                    # print(f"   Step {step+1}/{GRAD_ACCUM_STEPS}: Relaxing...", end="\r")
-                    valid_mask, _ = self.sentinel.filter(raw_structs)
-                    processed_structs = []
+                    struct = raw_structs[0] # Batch size is 1
+                    formula = struct.composition.reduced_formula
+
+                    # --- SAFETY VALVE: REJECT LARGE CRYSTALS ---
+                    if len(struct) > MAX_ATOMS:
+                        print(f"   Step {step+1}: Skipped {formula} (Too Large: {len(struct)} atoms)")
+                        del outputs, raw_structs, log_probs
+                        continue
+                    # -------------------------------------------
+
+                    # 2. Filter & Relax
+                    valid_mask, _ = self.sentinel.filter([struct])
                     
-                    for i, struct in enumerate(raw_structs):
-                        if valid_mask[i]:
-                            try:
-                                # Run fast physics
-                                res = self.relaxer.relax(struct, steps=25)
-                                processed_structs.append(res["final_structure"])
-                            except:
-                                valid_mask[i] = False
-                                processed_structs.append(struct)
-                        else:
-                            processed_structs.append(struct)
+                    final_struct = struct
+                    if valid_mask[0]:
+                        try:
+                            # 25 steps is enough for RL
+                            res = self.relaxer.relax(struct, steps=25)
+                            final_struct = res["final_structure"]
+                        except:
+                            valid_mask[0] = False
 
                     # 3. Reward
-                    e_form_preds, bg_preds = self.oracle.predict_batch(processed_structs)
-                    comps = [s.composition for s in processed_structs]
-                    
+                    e_form_preds, bg_preds = self.oracle.predict_batch([final_struct])
+                    comps = [final_struct.composition]
+
                     rewards_tensor, stats = self.reward_engine.compute_reward(
                         valid_mask, e_form_preds, bg_preds, compositions=comps
                     )
                     rewards_tensor = rewards_tensor.to(self.device)
 
-                    # Log progress for this specific batch so you see movement
-                    if sum(valid_mask) > 0:
-                        best_idx = torch.argmax(rewards_tensor).item()
-                        best_form = processed_structs[best_idx].composition.reduced_formula
-                        print(f"   Step {step+1}: Best={best_form:<8} | R={rewards_tensor[best_idx]:.2f}")
+                    # Log
+                    if valid_mask[0]:
+                        print(f"   Step {step+1}: {formula:<8} | R={rewards_tensor[0]:.2f}")
                     else:
-                        print(f"   Step {step+1}: No valid crystals.")
+                        print(f"   Step {step+1}: {formula:<8} | Invalid")
 
-                    # 4. Loss
-                    advantage = (rewards_tensor - rewards_tensor.mean()) 
+                    # 4. Loss & Update (IMMEDIATE)
+                    advantage = (rewards_tensor - rewards_tensor.mean())
                     policy_loss = -torch.mean(log_probs * advantage)
-                    loss = policy_loss / GRAD_ACCUM_STEPS
                     
-                    loss.backward()
+                    policy_loss.backward()
                     
-                    epoch_loss += loss.item()
+                    # Update weights immediately to clear graph
+                    torch.nn.utils.clip_grad_norm_(self.generator.model.parameters(), 1.0)
+                    self.optimizer.step()
+                    self.optimizer.zero_grad(set_to_none=True)
+
+                    epoch_loss += policy_loss.item()
                     epoch_reward += rewards_tensor.mean().item()
                     valid_batches += 1
-                    
-                    # FREE MEMORY IMMEDIATELY
-                    del outputs, raw_structs, processed_structs, log_probs, loss, rewards_tensor
+
+                    # --- AGGRESSIVE CLEANUP ---
+                    del outputs, raw_structs, log_probs, policy_loss, rewards_tensor, final_struct
                     torch.cuda.empty_cache()
+                    gc.collect() 
+                    # --------------------------
 
                 except Exception:
-                    print(f"\n❌ Crash at Step {step+1}:")
-                    traceback.print_exc()
-                    continue 
-            
-            # --- UPDATE ---
+                    print(f"   Step {step+1}: Failed (Error)")
+                    # traceback.print_exc() # Keep logs clean, just skip
+                    continue
+
+            # --- END EPOCH ---
             if valid_batches > 0:
-                torch.nn.utils.clip_grad_norm_(self.generator.model.parameters(), 1.0)
-                self.optimizer.step()
-                
                 avg_rew = epoch_reward / valid_batches
-                print(f"✅ [Epoch {epoch} Done] Avg Reward: {avg_rew:.4f} | Loss: {epoch_loss:.4f}")
+                print(f"✅ [Epoch {epoch}] Avg Reward: {avg_rew:.4f}")
             else:
-                print(f"⚠️ [Epoch {epoch} Done] No valid batches.")
-
-            # Hard Cleanup between epochs
-            gc.collect()
-            torch.cuda.empty_cache()
-
+                print(f"⚠️ [Epoch {epoch}] No valid crystals.")
+            
             if epoch % VALIDATION_FREQ == 0:
                 self.save_checkpoint()
-                
+
     def save_checkpoint(self):
         path = os.path.join(RL_CHECKPOINT_DIR, "epoch_100_RL.pt")
         torch.save(self.generator.model.state_dict(), path)
-        print(f"💾 Checkpoint Saved: {path}")
+        print(f"💾 Saved: {path}")
 
 if __name__ == "__main__":
     trainer = ReinforceTrainer()
