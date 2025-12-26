@@ -18,8 +18,8 @@ sys.path.append(BASE_DIR)
 # Now we build the full paths using BASE_DIR
 RL_MODEL_PATH = os.path.join(BASE_DIR, "rl_checkpoints", "epoch_100_RL.pt")
 BASE_CONFIG_PATH = os.path.join(BASE_DIR, "pretrained_model", "config.yaml")
-NUM_CANDIDATES = 500  
-CAMPAIGN_ELEMENTS = [26, 8, 16] # Fe, O, S
+NUM_CANDIDATES = 2000  
+CAMPAIGN_ELEMENTS = None
 
 # --- SILENCE LOGS ---
 os.environ["OMP_NUM_THREADS"] = "1"
