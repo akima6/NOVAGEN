@@ -21,7 +21,7 @@ if not os.path.exists(CHECKPOINT_PATH):
 BASE_CONFIG_PATH = os.path.join(BASE_DIR, "pretrained_model", "config.yaml")
 RESULTS_DIR = os.path.join(BASE_DIR, "rl_discoveries") 
 
-NUM_CANDIDATES = 2000 
+NUM_CANDIDATES = 10000 
 CAMPAIGN_ELEMENTS = None  # Full Periodic Table
 
 # --- SILENCE LOGS ---
