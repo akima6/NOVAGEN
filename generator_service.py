@@ -10,7 +10,6 @@ from tqdm import tqdm
 from pymatgen.core import Structure, Lattice
 
 # Import internal modules
-# Ensure this path matches your directory structure in Kaggle
 sys.path.append(os.path.abspath("/kaggle/working/NOVAGEN/CrystalFormer"))
 from crystalformer.src.transformer import make_transformer
 from crystalformer.src.lattice import symmetrize_lattice
@@ -42,9 +41,6 @@ class CrystalGenerator:
         checkpoint = torch.load(checkpoint_path, map_location=self.device)
         state_dict = checkpoint.get('policy_state', checkpoint.get('model_state_dict', checkpoint))
         self.model.load_state_dict(state_dict)
-        
-        # We keep model in eval mode for BatchNorm stability, 
-        # but we will manually enable gradients for the input/output flow during RL.
         self.model.eval()
         
         # Cache Constants
@@ -58,24 +54,13 @@ class CrystalGenerator:
         self.symops = symops.to(self.device)
 
     def _apply_element_mask(self, logits, allowed_elements):
-        """
-        Masks out forbidden elements by setting their logits to -inf.
-        """
         if allowed_elements is None: return logits
-        
-        # Create a mask of -inf
         mask_val = torch.tensor(float('-inf'), device=self.device)
         masked_logits = torch.full_like(logits, mask_val)
-        
-        # Always allow padding/null token (index 0) if it exists
         masked_logits[:, 0] = logits[:, 0]
-        
-        # Enable allowed elements
         for z in allowed_elements:
-            # Check bounds to prevent index errors
             if z < logits.shape[-1]:
                 masked_logits[:, z] = logits[:, z]
-                
         return masked_logits
 
     def _project_xyz(self, G, W, X, idx=0):
@@ -88,7 +73,6 @@ class CrystalGenerator:
         return x_new
 
     def _sample_von_mises(self, loc, kappa, shape, temperature):
-        # Gaussian Approximation for Von Mises
         loc_cpu = loc.detach().cpu()
         kappa_cpu = torch.clamp(kappa, min=1e-6, max=1000.0).detach().cpu()
         sigma = 1.0 / torch.sqrt(kappa_cpu)
@@ -99,9 +83,6 @@ class CrystalGenerator:
         return final_val.to(self.device)
 
     def _safe_multinomial(self, probs):
-        """
-        Robust sampling for Eval mode (no gradients).
-        """
         if torch.isnan(probs).any():
             probs = torch.nan_to_num(probs, nan=0.0)
         if probs.sum(dim=1).min() == 0:
@@ -112,29 +93,17 @@ class CrystalGenerator:
             return torch.randint(0, probs.shape[1], (probs.shape[0],), device=self.device)
 
     def generate(self, num_samples, temperature=1.0, allowed_elements=None):
-        """
-        Standard generation for Discovery (No Gradients).
-        Returns a list of Structures.
-        """
         with torch.no_grad():
             result = self._run_generation(num_samples, temperature, allowed_elements, with_grads=False)
             return result["structures"]
 
     def generate_with_grads(self, num_samples, allowed_elements=None, temperature=1.0):
-        """
-        Generation for RL Training (Keeps Gradients).
-        Returns {"structures": [...], "log_probs": tensor}
-        """
-        # We DO NOT use torch.no_grad() here.
+        # IMPORTANT: Returns structures AND log_probs for RL
         return self._run_generation(num_samples, temperature, allowed_elements, with_grads=True)
 
     def _run_generation(self, num_samples, temperature, allowed_elements, with_grads):
-        """
-        Internal engine that handles both Training (RL) and Inference (Discovery).
-        """
         batch_size = num_samples
         
-        # Initialize Tensors
         G = torch.randint(1, 231, (batch_size,), device=self.device)
         W = torch.zeros((batch_size, self.n_max), dtype=torch.long, device=self.device)
         A = torch.zeros((batch_size, self.n_max), dtype=torch.long, device=self.device)
@@ -143,64 +112,54 @@ class CrystalGenerator:
         Z = torch.zeros((batch_size, self.n_max), device=self.device)
         L_preds = torch.zeros((batch_size, self.n_max, self.Kl + 12 * self.Kl), device=self.device)
         
-        # Store log probabilities for RL (accumulated sum for the trajectory)
         log_probs_sum = torch.zeros(batch_size, device=self.device)
 
-        # Iterate over atoms (Autoregressive loop)
         iterator = range(self.n_max)
         if not with_grads:
             iterator = tqdm(iterator, desc="   Sampling")
 
         for i in iterator:
+            # --- CRITICAL FIX: CLONE TENSORS TO AVOID IN-PLACE ERROR ---
+            if with_grads:
+                W = W.clone()
+                A = A.clone()
+                X = X.clone()
+                Y = Y.clone()
+                Z = Z.clone()
+            # -----------------------------------------------------------
+
             XYZ = torch.stack([X, Y, Z], dim=-1)
             G_exp = (G - 1).unsqueeze(1).expand(-1, self.n_max)
             M = self.mult_table[G_exp, W]
             
-            # -----------------------------------------------------------
-            # 1. WYCKOFF POSITIONS
-            # -----------------------------------------------------------
+            # 1. WYCKOFF
             output = self.model(G, XYZ, A, W, M, is_train=False)
             w_logit = output[:, 5 * i, :self.wyck_types]
             
             if with_grads:
-                # RL Mode: Use Categorical to track gradients
                 w_dist = torch.distributions.Categorical(logits=w_logit / temperature)
                 W[:, i] = w_dist.sample()
-                log_probs_sum += w_dist.log_prob(W[:, i])
+                log_probs_sum = log_probs_sum + w_dist.log_prob(W[:, i]) # Use + not +=
             else:
-                # Eval Mode: Simple sampling
                 w_probs = F.softmax(w_logit / temperature, dim=1)
                 W[:, i] = self._safe_multinomial(w_probs)
             
-            # -----------------------------------------------------------
             # 2. ATOM TYPES
-            # -----------------------------------------------------------
             output = self.model(G, XYZ, A, W, M, is_train=False)
             a_logit = output[:, 5 * i + 1, :self.atom_types]
             a_logit = self._apply_element_mask(a_logit, allowed_elements)
             
             if with_grads:
-                # RL Mode
                 a_dist = torch.distributions.Categorical(logits=a_logit / temperature)
                 A[:, i] = a_dist.sample()
-                log_probs_sum += a_dist.log_prob(A[:, i])
+                log_probs_sum = log_probs_sum + a_dist.log_prob(A[:, i]) # Use + not +=
             else:
-                # Eval Mode
                 a_probs = F.softmax(a_logit / temperature, dim=1)
                 A[:, i] = self._safe_multinomial(a_probs)
             
-            # Store Lattice predictions for later
             L_preds[:, i] = output[:, 5 * i + 1, self.atom_types : self.atom_types + self.Kl + 12 * self.Kl]
 
-            # -----------------------------------------------------------
-            # 3. COORDINATES (X, Y, Z)
-            # -----------------------------------------------------------
-            # Note: For RL stability, we often do not backpropagate through 
-            # the coordinate sampling because it's continuous and complex.
-            # We focus RL on Chemistry (Atom) and Symmetry (Wyckoff).
-            # We use the standard sampling logic here for both modes.
-            
-            # X Coord
+            # 3. COORDS (Standard sampling)
             output = self.model(G, XYZ, A, W, M, is_train=False)
             h_x = output[:, 5 * i + 2]
             x_logit, x_loc, x_kappa = torch.split(h_x[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
@@ -211,7 +170,6 @@ class CrystalGenerator:
             xyz_temp = torch.stack([x_val, torch.zeros_like(x_val), torch.zeros_like(x_val)], dim=1)
             X[:, i] = self._project_xyz(G, W[:, i], xyz_temp, idx=0)[:, 0]
 
-            # Y Coord
             output = self.model(G, XYZ, A, W, M, is_train=False)
             h_y = output[:, 5 * i + 3]
             y_logit, y_loc, y_kappa = torch.split(h_y[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
@@ -222,7 +180,6 @@ class CrystalGenerator:
             xyz_temp = torch.stack([X[:, i], y_val, torch.zeros_like(y_val)], dim=1)
             Y[:, i] = self._project_xyz(G, W[:, i], xyz_temp, idx=0)[:, 1]
 
-            # Z Coord
             output = self.model(G, XYZ, A, W, M, is_train=False)
             h_z = output[:, 5 * i + 4]
             z_logit, z_loc, z_kappa = torch.split(h_z[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
@@ -233,9 +190,7 @@ class CrystalGenerator:
             xyz_temp = torch.stack([X[:, i], Y[:, i], z_val], dim=1)
             Z[:, i] = self._project_xyz(G, W[:, i], xyz_temp, idx=0)[:, 2]
 
-        # -----------------------------------------------------------
-        # 4. LATTICE RECONSTRUCTION
-        # -----------------------------------------------------------
+        # 4. LATTICE
         l_pred = L_preds[:, -1, :] 
         l_logit, mu, sigma = torch.split(l_pred, [self.Kl, 6*self.Kl, 6*self.Kl], dim=-1)
         k = self._safe_multinomial(F.softmax(l_logit, dim=1))
@@ -253,7 +208,6 @@ class CrystalGenerator:
         L_final_cpu = torch.normal(sel_mu_cpu, sel_sigma_cpu * np.sqrt(temperature))
         L_final = L_final_cpu.to(self.device)
         
-        # Scaling and Formatting
         lengths = torch.abs(L_final[:, :3]) + 0.1
         angles = L_final[:, 3:]
         num_atoms = (A != 0).sum(dim=1).float()
@@ -263,9 +217,6 @@ class CrystalGenerator:
         
         L_symmetrized = symmetrize_lattice(G, torch.cat([lengths, angles], dim=-1))
 
-        # -----------------------------------------------------------
-        # 5. BUILD STRUCTURES
-        # -----------------------------------------------------------
         structures = []
         for b in range(batch_size):
             try:
@@ -280,7 +231,6 @@ class CrystalGenerator:
                 final_sites_species = []
                 final_sites_coords = []
                 
-                # Handling large structures vs small structures
                 if len(species) > 50:
                     for idx, (sp, coord) in enumerate(zip(species, coords)):
                         final_sites_species.append(element_list[sp])
@@ -296,10 +246,6 @@ class CrystalGenerator:
                 struct = Structure(lattice, final_sites_species, final_sites_coords)
                 structures.append(struct)
             except Exception:
-                # If building fails, append None or a dummy to keep indexing aligned
-                # But typically we just skip. For RL batch alignment, it's safer to skip 
-                # and let the Trainer handle list length mismatches.
                 continue
                 
-        # Return Dict for RL, or List for Discovery
         return {"structures": structures, "log_probs": log_probs_sum}
