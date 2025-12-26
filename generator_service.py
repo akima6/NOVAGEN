@@ -98,7 +98,6 @@ class CrystalGenerator:
             return result["structures"]
 
     def generate_with_grads(self, num_samples, allowed_elements=None, temperature=1.0):
-        # IMPORTANT: Returns structures AND log_probs for RL
         return self._run_generation(num_samples, temperature, allowed_elements, with_grads=True)
 
     def _run_generation(self, num_samples, temperature, allowed_elements, with_grads):
@@ -119,15 +118,7 @@ class CrystalGenerator:
             iterator = tqdm(iterator, desc="   Sampling")
 
         for i in iterator:
-            # --- CRITICAL FIX: CLONE TENSORS TO AVOID IN-PLACE ERROR ---
-            if with_grads:
-                W = W.clone()
-                A = A.clone()
-                X = X.clone()
-                Y = Y.clone()
-                Z = Z.clone()
-            # -----------------------------------------------------------
-
+            # Prepare Input tensors (Read-Only)
             XYZ = torch.stack([X, Y, Z], dim=-1)
             G_exp = (G - 1).unsqueeze(1).expand(-1, self.n_max)
             M = self.mult_table[G_exp, W]
@@ -138,28 +129,41 @@ class CrystalGenerator:
             
             if with_grads:
                 w_dist = torch.distributions.Categorical(logits=w_logit / temperature)
-                W[:, i] = w_dist.sample()
-                log_probs_sum = log_probs_sum + w_dist.log_prob(W[:, i]) # Use + not +=
+                sample_w = w_dist.sample()
+                log_probs_sum = log_probs_sum + w_dist.log_prob(sample_w)
+                
+                # UPDATE SAFEGUARD: Clone, then Update
+                W = W.clone() 
+                W[:, i] = sample_w
             else:
                 w_probs = F.softmax(w_logit / temperature, dim=1)
                 W[:, i] = self._safe_multinomial(w_probs)
             
             # 2. ATOM TYPES
+            # Re-compute M/XYZ is not strictly needed if only W changed and is used for next step,
+            # but for safety in the graph we assume dependencies.
+            M = self.mult_table[G_exp, W] # Update M with new W
+            
             output = self.model(G, XYZ, A, W, M, is_train=False)
             a_logit = output[:, 5 * i + 1, :self.atom_types]
             a_logit = self._apply_element_mask(a_logit, allowed_elements)
             
             if with_grads:
                 a_dist = torch.distributions.Categorical(logits=a_logit / temperature)
-                A[:, i] = a_dist.sample()
-                log_probs_sum = log_probs_sum + a_dist.log_prob(A[:, i]) # Use + not +=
+                sample_a = a_dist.sample()
+                log_probs_sum = log_probs_sum + a_dist.log_prob(sample_a)
+                
+                # UPDATE SAFEGUARD
+                A = A.clone()
+                A[:, i] = sample_a
             else:
                 a_probs = F.softmax(a_logit / temperature, dim=1)
                 A[:, i] = self._safe_multinomial(a_probs)
             
             L_preds[:, i] = output[:, 5 * i + 1, self.atom_types : self.atom_types + self.Kl + 12 * self.Kl]
 
-            # 3. COORDS (Standard sampling)
+            # 3. COORDINATES
+            # X
             output = self.model(G, XYZ, A, W, M, is_train=False)
             h_x = output[:, 5 * i + 2]
             x_logit, x_loc, x_kappa = torch.split(h_x[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
@@ -167,9 +171,15 @@ class CrystalGenerator:
             sel_loc = torch.gather(x_loc, 1, k.unsqueeze(1)).squeeze(1)
             sel_kap = torch.gather(x_kappa, 1, k.unsqueeze(1)).squeeze(1)
             x_val = self._sample_von_mises(sel_loc, sel_kap, (batch_size,), temperature)
+            
+            # Update X
+            if with_grads: X = X.clone()
+            
             xyz_temp = torch.stack([x_val, torch.zeros_like(x_val), torch.zeros_like(x_val)], dim=1)
             X[:, i] = self._project_xyz(G, W[:, i], xyz_temp, idx=0)[:, 0]
 
+            # Y
+            XYZ = torch.stack([X, Y, Z], dim=-1) # Re-stack with new X
             output = self.model(G, XYZ, A, W, M, is_train=False)
             h_y = output[:, 5 * i + 3]
             y_logit, y_loc, y_kappa = torch.split(h_y[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
@@ -177,9 +187,15 @@ class CrystalGenerator:
             sel_loc = torch.gather(y_loc, 1, k.unsqueeze(1)).squeeze(1)
             sel_kap = torch.gather(y_kappa, 1, k.unsqueeze(1)).squeeze(1)
             y_val = self._sample_von_mises(sel_loc, sel_kap, (batch_size,), temperature)
+            
+            # Update Y
+            if with_grads: Y = Y.clone()
+            
             xyz_temp = torch.stack([X[:, i], y_val, torch.zeros_like(y_val)], dim=1)
             Y[:, i] = self._project_xyz(G, W[:, i], xyz_temp, idx=0)[:, 1]
 
+            # Z
+            XYZ = torch.stack([X, Y, Z], dim=-1) # Re-stack with new Y
             output = self.model(G, XYZ, A, W, M, is_train=False)
             h_z = output[:, 5 * i + 4]
             z_logit, z_loc, z_kappa = torch.split(h_z[:, :3*self.Kx], [self.Kx, self.Kx, self.Kx], dim=-1)
@@ -187,6 +203,10 @@ class CrystalGenerator:
             sel_loc = torch.gather(z_loc, 1, k.unsqueeze(1)).squeeze(1)
             sel_kap = torch.gather(z_kappa, 1, k.unsqueeze(1)).squeeze(1)
             z_val = self._sample_von_mises(sel_loc, sel_kap, (batch_size,), temperature)
+            
+            # Update Z
+            if with_grads: Z = Z.clone()
+            
             xyz_temp = torch.stack([X[:, i], Y[:, i], z_val], dim=1)
             Z[:, i] = self._project_xyz(G, W[:, i], xyz_temp, idx=0)[:, 2]
 
