@@ -6,22 +6,25 @@ import pandas as pd
 from tqdm import tqdm
 import logging
 
+# --- SETUP PATHS (ABSOLUTE) ---
+# Get the directory where THIS script is located (e.g., /kaggle/working/NOVAGEN)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Add library paths relative to this script
+sys.path.append(os.path.join(BASE_DIR, "CrystalFormer"))
+sys.path.append(BASE_DIR)
+
 # --- CONFIGURATION ---
-# Point this to your new RL-trained model
-RL_MODEL_PATH = "rl_checkpoints/epoch_100_RL.pt" 
-BASE_CONFIG_PATH = "NOVAGEN/pretrained_model/config.yaml"
-NUM_CANDIDATES = 500  # Large batch for discovery
-CAMPAIGN_ELEMENTS = [26, 8, 16] # Fe, O, S (Or set to None for global search)
+# Now we build the full paths using BASE_DIR
+RL_MODEL_PATH = os.path.join(BASE_DIR, "rl_checkpoints", "epoch_100_RL.pt")
+BASE_CONFIG_PATH = os.path.join(BASE_DIR, "pretrained_model", "config.yaml")
+NUM_CANDIDATES = 500  
+CAMPAIGN_ELEMENTS = [26, 8, 16] # Fe, O, S
 
 # --- SILENCE LOGS ---
 os.environ["OMP_NUM_THREADS"] = "1"
 warnings.filterwarnings("ignore")
 logging.getLogger("pymatgen").setLevel(logging.CRITICAL)
-
-# --- SETUP PATHS ---
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(os.path.join(BASE_DIR, "CrystalFormer"))
-sys.path.append(BASE_DIR)
 
 try:
     from generator_service import CrystalGenerator
@@ -36,19 +39,24 @@ def main():
     print(f"==================================================")
     print(f"🚀 STARTING DISCOVERY CAMPAIGN (Silent Mode)")
     print(f"   Target: {NUM_CANDIDATES} Candidates")
-    print(f"   Model:  {RL_MODEL_PATH}")
     print(f"==================================================")
 
     # 1. INITIALIZE (Quietly)
     print("[1/4] Loading Modules...", end="\r")
     device = "cuda" if torch.cuda.is_available() else "cpu"
     
+    # Check if files exist before crashing
+    if not os.path.exists(RL_MODEL_PATH):
+        print(f"\n❌ Error: RL Model not found at {RL_MODEL_PATH}")
+        return
+    if not os.path.exists(BASE_CONFIG_PATH):
+        print(f"\n❌ Error: Config not found at {BASE_CONFIG_PATH}")
+        return
+
     try:
-        # We manually instantiate generator to ensure we load the RL weights correctly
-        # (Handling the generic state_dict structure of the RL save)
         generator = CrystalGenerator(RL_MODEL_PATH, BASE_CONFIG_PATH, device)
         sentinel = CrystalSentinel()
-        relaxer = CrystalRelaxer(device="cpu") # Keep CPU for stability
+        relaxer = CrystalRelaxer(device="cpu") 
         oracle = CrystalOracle(device="cpu")
         print(f"[1/4] ✅ Modules Loaded on {device}.          ")
     except Exception as e:
@@ -80,7 +88,6 @@ def main():
     results = []
     stats = {"stable": 0, "unstable_high_e": 0, "unstable_crash": 0}
 
-    # Use tqdm for progress bar only
     for struct in tqdm(valid_structs, desc="   Processing", unit="cryst"):
         try:
             # A. Relax
@@ -90,20 +97,18 @@ def main():
                 final_e = res['energy_per_atom']
                 final_s = res['final_structure']
                 
-                # B. Predict Properties (Band Gap)
-                # We use Oracle on the RELAXED structure for accuracy
+                # B. Predict Properties
                 props = oracle.predict(final_s)
                 gap = props.get('band_gap', 0.0)
                 
                 # C. Categorize
-                if final_e < -0.1: # Threshold for "Interesting"
+                if final_e < -0.1: 
                     stats["stable"] += 1
                     status = "Stable"
                 else:
                     stats["unstable_high_e"] += 1
                     status = "High Energy"
 
-                # Save Data
                 results.append({
                     "Formula": final_s.composition.reduced_formula,
                     "Energy (eV/atom)": round(final_e, 3),
@@ -129,12 +134,8 @@ def main():
     print("-" * 50)
     
     if results:
-        # Convert to dataframe for clean printing
         df = pd.DataFrame(results)
-        # Sort by Energy (Lowest is best)
         df = df.sort_values(by="Energy (eV/atom)", ascending=True)
-        
-        # Filter only the best ones to print
         best_ones = df[df["Status"] == "Stable"]
         
         if not best_ones.empty:
