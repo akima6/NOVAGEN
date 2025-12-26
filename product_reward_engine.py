@@ -43,14 +43,14 @@ class RewardEngine:
 
             # 3. BAND GAP REWARD (Semiconductor Target)
             if self.target_gap_min <= bg <= self.target_gap_max:
-                r_bg = 5.0  # Jackpot!
+                r_bg = 2.0  # Jackpot (Reduced from 5.0)
                 stats["semicon"] += 1
             elif bg > 0.1 and bg < self.target_gap_min:
-                r_bg = 1.0  # Good try (narrow gap)
+                r_bg = 0.5  # Partial credit
             elif bg == 0.0:
-                r_bg = -3.0  # Penalty for Metals
+                r_bg = -1.0 # Penalty for Metals
             else:
-                r_bg = -1.0  # Too wide (Insulator)
+                r_bg = -0.5 # Too wide
 
             # 4. COMPLEXITY BONUS (New Feature)
             # Reward ternary (3) and quaternary (4) elements more than binary (2)
