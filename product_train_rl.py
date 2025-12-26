@@ -55,50 +55,45 @@ class ReinforceTrainer:
     def train(self):
         print(f"Starting {EPOCHS} Epochs...")
         print("-" * 60)
+        
+        # --- NEW: Moving Average Baseline for Batch=1 Stability ---
+        moving_baseline = 0.0 
+        # ----------------------------------------------------------
 
         for epoch in range(1, EPOCHS + 1):
             epoch_loss = 0.0
             epoch_reward = 0.0
             valid_batches = 0
             
-            # Reset Optimizer memory
             self.optimizer.zero_grad(set_to_none=True)
-
             print(f"\n[Epoch {epoch}] Running...")
 
-            # Run 4 steps (Since Batch=1, this means 4 crystals per epoch)
-            # You can increase this range() later if it proves stable
+            # We process 4 crystals per epoch (you can increase this number now)
             for step in range(4):
                 try:
                     # 1. Generate
-                    outputs = self.generator.generate_with_grads(
-                        BATCH_SIZE,
-                        allowed_elements=CAMPAIGN_ELEMENTS
-                    )
+                    outputs = self.generator.generate_with_grads(BATCH_SIZE, allowed_elements=CAMPAIGN_ELEMENTS)
                     raw_structs = outputs["structures"]
                     log_probs = outputs["log_probs"]
 
-                    if not raw_structs:
-                        continue
+                    if not raw_structs: continue
 
-                    struct = raw_structs[0] # Batch size is 1
-                    formula = struct.composition.reduced_formula
-
-                    # --- SAFETY VALVE: REJECT LARGE CRYSTALS ---
+                    struct = raw_structs[0]
+                    
+                    # Safety: Reject Large Crystals
                     if len(struct) > MAX_ATOMS:
-                        print(f"   Step {step+1}: Skipped {formula} (Too Large: {len(struct)} atoms)")
+                        print(f"   Step {step+1}: Skipped (Too Large: {len(struct)} atoms)")
                         del outputs, raw_structs, log_probs
                         continue
-                    # -------------------------------------------
 
                     # 2. Filter & Relax
                     valid_mask, _ = self.sentinel.filter([struct])
-                    
                     final_struct = struct
+                    
                     if valid_mask[0]:
                         try:
-                            # 25 steps is enough for RL
-                            res = self.relaxer.relax(struct, steps=25)
+                            # Increased steps slightly for better accuracy
+                            res = self.relaxer.relax(struct, steps=50) 
                             final_struct = res["final_structure"]
                         except:
                             valid_mask[0] = False
@@ -106,48 +101,58 @@ class ReinforceTrainer:
                     # 3. Reward
                     e_form_preds, bg_preds = self.oracle.predict_batch([final_struct])
                     comps = [final_struct.composition]
-
                     rewards_tensor, stats = self.reward_engine.compute_reward(
                         valid_mask, e_form_preds, bg_preds, compositions=comps
                     )
                     rewards_tensor = rewards_tensor.to(self.device)
+                    
+                    current_reward = rewards_tensor.item() # Scalar value
 
                     # Log
+                    formula = struct.composition.reduced_formula
                     if valid_mask[0]:
-                        print(f"   Step {step+1}: {formula:<8} | R={rewards_tensor[0]:.2f}")
+                        print(f"   Step {step+1}: {formula:<8} | R={current_reward:.2f}")
                     else:
                         print(f"   Step {step+1}: {formula:<8} | Invalid")
 
-                    # 4. Loss & Update (IMMEDIATE)
-                    advantage = (rewards_tensor - rewards_tensor.mean())
-                    policy_loss = -torch.mean(log_probs * advantage)
+                    # --- CRITICAL FIX: ADVANTAGE CALCULATION ---
+                    # Old (Broken): advantage = current_reward - current_reward = 0
+                    # New (Fixed):  advantage = current_reward - moving_baseline
                     
+                    if valid_batches == 0 and epoch == 1:
+                        moving_baseline = current_reward # Initialize
+                    
+                    advantage = current_reward - moving_baseline
+                    
+                    # Update baseline (Exponential Moving Average)
+                    # This allows the AI to learn "Is this better than usual?"
+                    moving_baseline = 0.9 * moving_baseline + 0.1 * current_reward
+                    # -------------------------------------------
+
+                    # 4. Loss & Update
+                    policy_loss = -log_probs.mean() * advantage
                     policy_loss.backward()
                     
-                    # Update weights immediately to clear graph
                     torch.nn.utils.clip_grad_norm_(self.generator.model.parameters(), 1.0)
                     self.optimizer.step()
                     self.optimizer.zero_grad(set_to_none=True)
 
                     epoch_loss += policy_loss.item()
-                    epoch_reward += rewards_tensor.mean().item()
+                    epoch_reward += current_reward
                     valid_batches += 1
 
-                    # --- AGGRESSIVE CLEANUP ---
+                    # Cleanup
                     del outputs, raw_structs, log_probs, policy_loss, rewards_tensor, final_struct
                     torch.cuda.empty_cache()
                     gc.collect() 
-                    # --------------------------
 
                 except Exception:
-                    print(f"   Step {step+1}: Failed (Error)")
-                    # traceback.print_exc() # Keep logs clean, just skip
                     continue
 
-            # --- END EPOCH ---
+            # End Epoch Logs
             if valid_batches > 0:
                 avg_rew = epoch_reward / valid_batches
-                print(f"✅ [Epoch {epoch}] Avg Reward: {avg_rew:.4f}")
+                print(f"✅ [Epoch {epoch}] Avg Reward: {avg_rew:.4f} | Baseline: {moving_baseline:.2f}")
             else:
                 print(f"⚠️ [Epoch {epoch}] No valid crystals.")
             
