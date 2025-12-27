@@ -10,7 +10,7 @@ import contextlib
 # --- CONFIGURATION ---
 TARGET_CANDIDATES = 10000   # Target count
 BATCH_SIZE = 50             # Keep small to avoid OOM
-MAX_ATTEMPTS = 10000        # Safety limit (Batches, not crystals)
+MAX_ATTEMPTS = 5000        # Safety limit (Batches, not crystals)
 
 # Fe, O, S, Si, N
 CAMPAIGN_ELEMENTS = [26, 8, 16, 14, 7] 
