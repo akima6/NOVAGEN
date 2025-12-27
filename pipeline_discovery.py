@@ -8,7 +8,7 @@ from tqdm import tqdm
 import contextlib
 
 # --- CONFIGURATION ---
-TARGET_CANDIDATES = 10000   # Target count
+TARGET_CANDIDATES = 5000   # Target count
 BATCH_SIZE = 50             # Keep small to avoid OOM
 MAX_ATTEMPTS = 5000        # Safety limit (Batches, not crystals)
 
