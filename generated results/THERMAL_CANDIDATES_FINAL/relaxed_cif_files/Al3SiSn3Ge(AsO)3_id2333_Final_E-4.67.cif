@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Al3SiSn3Ge(AsO)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.65256621
+_cell_length_b   13.65223794
+_cell_length_c   4.51299294
+_cell_angle_alpha   89.99911507
+_cell_angle_beta   90.00037327
+_cell_angle_gamma   120.00117858
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al3SiSn3Ge(AsO)3
+_chemical_formula_sum   'Al6 Si2 Sn6 Ge2 As6 O6'
+_cell_volume   728.46429208
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.39195794  0.59082886  0.15490768  1
+  Al  Al1  1  0.40917170  0.80112867  0.15490752  1
+  Al  Al2  1  0.19887165  0.60804151  0.15490738  1
+  Al  Al3  1  0.60804254  0.40917061  0.65490743  1
+  Al  Al4  1  0.59082888  0.19887072  0.65490710  1
+  Al  Al5  1  0.80112879  0.39195735  0.65490784  1
+  Si  Si6  1  -0.00000087  -0.00000022  0.00672858  1
+  Si  Si7  1  -0.00000088  -0.00000021  0.50672861  1
+  Sn  Sn8  1  0.64198910  0.88160915  0.25362828  1
+  Sn  Sn9  1  0.11839284  0.76038049  0.25362925  1
+  Sn  Sn10  1  0.23961981  0.35801072  0.25362857  1
+  Sn  Sn11  1  0.35801297  0.11839269  0.75362862  1
+  Sn  Sn12  1  0.88160914  0.23961988  0.75362775  1
+  Sn  Sn13  1  0.76037942  0.64198858  0.75362986  1
+  Ge  Ge14  1  0.33333359  0.66666644  0.65195531  1
+  Ge  Ge15  1  0.66666692  0.33333300  0.15195563  1
+  As  As16  1  0.59365091  0.64502529  0.17079695  1
+  As  As17  1  0.35497654  0.94862631  0.17079677  1
+  As  As18  1  0.05137184  0.40634929  0.17079803  1
+  As  As19  1  0.40635002  0.35497682  0.67079673  1
+  As  As20  1  0.64502380  0.05137240  0.67079762  1
+  As  As21  1  0.94862597  0.59364993  0.67079651  1
+  O  O22  1  0.37203382  0.32319257  0.27583436  1
+  O  O23  1  0.67680745  0.04884132  0.27583409  1
+  O  O24  1  0.95115863  0.62796559  0.27583242  1
+  O  O25  1  0.62796497  0.67680890  0.77583367  1
+  O  O26  1  0.32319111  0.95115799  0.77583437  1
+  O  O27  1  0.04884138  0.37203526  0.77583439  1

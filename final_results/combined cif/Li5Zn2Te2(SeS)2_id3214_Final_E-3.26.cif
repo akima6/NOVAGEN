@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Li5Zn2Te2(SeS)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.02595443
+_cell_length_b   11.02591888
+_cell_length_c   14.64973024
+_cell_angle_alpha   89.99982228
+_cell_angle_beta   90.00006479
+_cell_angle_gamma   90.00000388
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li5Zn2Te2(SeS)2
+_chemical_formula_sum   'Li10 Zn4 Te4 Se4 S4'
+_cell_volume   1780.98644393
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  1.00000046  0.49999987  0.09107051  1
+  Li  Li1  1  0.49999991  -0.00000030  0.59107027  1
+  Li  Li2  1  0.63015767  0.49999951  0.87083937  1
+  Li  Li3  1  0.36984244  0.49999952  0.87083903  1
+  Li  Li4  1  0.50000021  0.63015785  0.37083819  1
+  Li  Li5  1  0.50000017  0.36984219  0.37083838  1
+  Li  Li6  1  0.17079911  0.49999999  0.23630259  1
+  Li  Li7  1  0.82920020  0.50000003  0.23630195  1
+  Li  Li8  1  0.49999998  0.17079919  0.73630255  1
+  Li  Li9  1  0.50000000  0.82920106  0.73630251  1
+  Zn  Zn10  1  0.11143144  0.49999998  0.90767496  1
+  Zn  Zn11  1  0.88856842  0.49999995  0.90767530  1
+  Zn  Zn12  1  0.49999999  0.11143225  0.40767556  1
+  Zn  Zn13  1  0.49999995  0.88856779  0.40767543  1
+  Te  Te14  1  0.24131449  0.49999997  0.04366517  1
+  Te  Te15  1  0.75868556  0.49999996  0.04366520  1
+  Te  Te16  1  0.49999998  0.24131517  0.54366591  1
+  Te  Te17  1  0.49999996  0.75868452  0.54366615  1
+  Se  Se18  1  0.24021362  0.50000002  0.40056909  1
+  Se  Se19  1  0.75978636  0.50000007  0.40056922  1
+  Se  Se20  1  0.49999990  0.24021817  0.90057018  1
+  Se  Se21  1  0.49999992  0.75978298  0.90057012  1
+  S  S22  1  0.62943596  0.50000001  0.29052697  1
+  S  S23  1  0.37056423  0.50000015  0.29052718  1
+  S  S24  1  0.50000002  0.62943538  0.79052648  1
+  S  S25  1  0.50000009  0.37056480  0.79052550  1

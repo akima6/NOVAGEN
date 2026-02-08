@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ba3O11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.15573504
+_cell_length_b   6.16007042
+_cell_length_c   8.52048714
+_cell_angle_alpha   90.08523363
+_cell_angle_beta   90.02659149
+_cell_angle_gamma   120.01233647
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3O11
+_chemical_formula_sum   'Ba3 O11'
+_cell_volume   279.77296684
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.00000066  0.00000021  -0.00000015  1
+  Ba  Ba1  1  0.33333351  0.66666686  0.50000007  1
+  Ba  Ba2  1  0.66666640  0.33333309  0.50000065  1
+  O  O3  1  0.49984847  -0.00024307  0.00005246  1
+  O  O4  1  0.00021709  0.50012643  -0.00007368  1
+  O  O5  1  0.49989237  0.50009686  -0.00000562  1
+  O  O6  1  0.33442859  0.66888913  1.00470166  1
+  O  O7  1  0.33220482  0.66444999  -0.00469159  1
+  O  O8  1  0.66802013  0.33462482  -0.00148546  1
+  O  O9  1  0.66539070  0.33205821  1.00150360  1
+  O  O10  1  0.33335525  0.66670980  0.74694051  1
+  O  O11  1  0.33330955  0.66662052  0.25305663  1
+  O  O12  1  0.66667422  0.33333078  0.25316027  1
+  O  O13  1  0.66665838  0.33333652  0.74684064  1

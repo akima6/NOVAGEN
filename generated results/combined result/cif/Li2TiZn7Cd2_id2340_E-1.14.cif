@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Li2TiZn7Cd2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.18995114
+_cell_length_b   8.23559590
+_cell_length_c   8.40451527
+_cell_angle_alpha   90.17332387
+_cell_angle_beta   90.17680770
+_cell_angle_gamma   89.99947341
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2TiZn7Cd2
+_chemical_formula_sum   'Li4 Ti2 Zn14 Cd4'
+_cell_volume   566.87193354
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.00000058  0.50000049  0.09026028  1
+  Zn  Zn1  1  0.50000015  0.00000008  0.59024625  1
+  Zn  Zn2  1  0.00000757  0.49999537  0.36239154  1
+  Zn  Zn3  1  0.49999993  0.00001719  0.86263671  1
+  Zn  Zn4  1  -0.00063924  0.50068354  0.63381969  1
+  Zn  Zn5  1  0.50000353  -0.01803204  0.13897171  1
+  Zn  Zn6  1  0.00053163  0.49953316  0.62074244  1
+  Zn  Zn7  1  0.49999213  0.00193367  0.12084980  1
+  Zn  Zn8  1  0.00016341  0.49986102  0.65136852  1
+  Zn  Zn9  1  0.50000604  0.01625323  0.14462726  1
+  Ti  Ti10  1  0.00001232  0.49992798  0.66783843  1
+  Ti  Ti11  1  0.49999739  -0.00015291  0.16898003  1
+  Zn  Zn12  1  0.31012906  0.49999996  0.64189225  1
+  Zn  Zn13  1  0.68905497  0.49999958  0.64169888  1
+  Zn  Zn14  1  0.49999898  0.31145658  0.14204313  1
+  Zn  Zn15  1  0.49999940  0.68852596  0.14186258  1
+  Li  Li16  1  0.67917992  0.50000020  0.60535559  1
+  Li  Li17  1  0.32103298  0.49999966  0.60518902  1
+  Li  Li18  1  0.49999872  0.67934944  0.10545136  1
+  Li  Li19  1  0.49999908  0.32052713  0.10534967  1
+  Cd  Cd20  1  0.28697018  0.49999865  0.63040276  1
+  Cd  Cd21  1  0.71355917  0.49999906  0.63048478  1
+  Cd  Cd22  1  0.50000110  0.28628401  0.13014919  1
+  Cd  Cd23  1  0.50000105  0.71383901  0.13025726  1

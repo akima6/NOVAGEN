@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Li4MgAl2Ga2(TeS)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.99587985
+_cell_length_b   6.27713433
+_cell_length_c   5.97857436
+_cell_angle_alpha   89.98170919
+_cell_angle_beta   90.00911266
+_cell_angle_gamma   89.99778498
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li4MgAl2Ga2(TeS)4
+_chemical_formula_sum   'Li4 Mg1 Al2 Ga2 Te4 S4'
+_cell_volume   487.71343306
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.38339144  0.34779470  0.75046499  1
+  Li  Li1  1  0.61666276  0.65224381  0.75046943  1
+  Li  Li2  1  0.38339756  0.65221671  0.24957451  1
+  Li  Li3  1  0.61665809  0.34774786  0.24949380  1
+  Mg  Mg4  1  1.00001660  -0.00000429  1.00000655  1
+  Al  Al5  1  0.50036953  -0.00000851  1.00000075  1
+  Al  Al6  1  0.00002047  0.49999952  0.99999316  1
+  Ga  Ga7  1  0.49975852  0.00000906  0.49999949  1
+  Ga  Ga8  1  0.99996904  0.50000021  0.49999750  1
+  Te  Te9  1  0.12670919  0.26061331  0.24984872  1
+  Te  Te10  1  0.87323455  0.73925660  0.24984050  1
+  Te  Te11  1  0.12670375  0.73938353  0.75020639  1
+  Te  Te12  1  0.87323203  0.26075203  0.75009394  1
+  S  S13  1  0.57262470  0.75499970  0.24371736  1
+  S  S14  1  0.42731476  0.24488093  0.24266947  1
+  S  S15  1  0.57262236  0.24498901  0.75634991  1
+  S  S16  1  0.42731473  0.75512593  0.75727358  1

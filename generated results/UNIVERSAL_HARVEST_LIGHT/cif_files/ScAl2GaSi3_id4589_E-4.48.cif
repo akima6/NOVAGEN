@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_ScAl2GaSi3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.96803806
+_cell_length_b   4.91524250
+_cell_length_c   10.16744580
+_cell_angle_alpha   89.99981572
+_cell_angle_beta   89.99997758
+_cell_angle_gamma   90.00000662
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScAl2GaSi3
+_chemical_formula_sum   'Sc2 Al4 Ga2 Si6'
+_cell_volume   248.27999633
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  -0.00000000  0.00000001  0.45264811  1
+  Si  Si1  1  0.00000001  0.49999999  0.95264806  1
+  Sc  Sc2  1  -0.00000000  0.00000002  0.15445963  1
+  Sc  Sc3  1  0.00000000  0.50000004  0.65445968  1
+  Si  Si4  1  -0.00000000  -0.00000002  0.79604304  1
+  Si  Si5  1  -0.00000001  0.49999996  0.29604316  1
+  Si  Si6  1  0.50000000  0.00000003  0.96227654  1
+  Si  Si7  1  0.50000000  0.50000003  0.46227644  1
+  Al  Al8  1  0.50000001  0.00000001  0.48211042  1
+  Al  Al9  1  0.50000000  0.50000000  0.98211044  1
+  Ga  Ga10  1  0.50000000  -0.00000005  0.25649491  1
+  Ga  Ga11  1  0.50000000  0.49999995  0.75649500  1
+  Al  Al12  1  0.50000000  0.00000002  0.71891110  1
+  Al  Al13  1  0.50000000  0.50000002  0.21891113  1

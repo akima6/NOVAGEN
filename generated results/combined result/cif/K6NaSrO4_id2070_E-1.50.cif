@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_K6NaSrO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   19.09366300
+_cell_length_b   19.09363384
+_cell_length_c   12.87045308
+_cell_angle_alpha   90.00021494
+_cell_angle_beta   89.99999024
+_cell_angle_gamma   89.99982207
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K6NaSrO4
+_chemical_formula_sum   'K12 Na2 Sr2 O8'
+_cell_volume   4692.14774277
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.50000000  0.50000000  0.25000000  1
+  Na  Na1  1  0.50000000  0.50000000  0.75000000  1
+  Sr  Sr2  1  0.00000005  0.00000000  0.00000024  1
+  Sr  Sr3  1  -0.00000001  -0.00000006  0.49999977  1
+  K  K4  1  -0.00000032  0.00000135  0.74030030  1
+  K  K5  1  -0.00000054  -0.00000051  0.25969145  1
+  K  K6  1  0.00000055  0.00000052  0.24030858  1
+  K  K7  1  0.00000030  -0.00000134  0.75969970  1
+  K  K8  1  0.90354429  0.85239224  0.59026675  1
+  K  K9  1  0.09645573  0.14760779  0.59026674  1
+  K  K10  1  0.85239228  0.09645566  0.40973320  1
+  K  K11  1  0.14760770  0.90354435  0.40973322  1
+  K  K12  1  0.90354433  0.14760772  0.09026674  1
+  K  K13  1  0.09645567  0.85239229  0.09026673  1
+  K  K14  1  0.85239221  0.90354428  0.90973326  1
+  K  K15  1  0.14760778  0.09645570  0.90973326  1
+  O  O16  1  0.07266954  0.34819006  0.48486178  1
+  O  O17  1  0.92733046  0.65180994  0.48486178  1
+  O  O18  1  0.34819006  0.92733047  0.51513823  1
+  O  O19  1  0.65180993  0.07266955  0.51513822  1
+  O  O20  1  0.07266954  0.65180994  0.98486177  1
+  O  O21  1  0.92733046  0.34819007  0.98486178  1
+  O  O22  1  0.34819007  0.07266954  0.01513823  1
+  O  O23  1  0.65180994  0.92733047  0.01513822  1

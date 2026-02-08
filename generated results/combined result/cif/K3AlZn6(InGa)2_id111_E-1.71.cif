@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_K3AlZn6(InGa)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.04554396
+_cell_length_b   6.04554723
+_cell_length_c   11.96266866
+_cell_angle_alpha   89.99991719
+_cell_angle_beta   89.99995350
+_cell_angle_gamma   120.00000714
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3AlZn6(InGa)2
+_chemical_formula_sum   'K3 Al1 Zn6 In2 Ga2'
+_cell_volume   378.64277636
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  -0.00000001  0.00000001  -0.00000000  1
+  Al  Al1  1  -0.00000001  0.00000001  0.49999999  1
+  K  K2  1  0.33333349  0.66666680  0.66162740  1
+  K  K3  1  0.66666663  0.33333331  0.33837260  1
+  Ga  Ga4  1  0.33333341  0.66666673  0.97380929  1
+  Ga  Ga5  1  0.66666666  0.33333335  0.02619070  1
+  In  In6  1  0.33333355  0.66666678  0.39901863  1
+  In  In7  1  0.66666654  0.33333332  0.60098145  1
+  Zn  Zn8  1  0.54036652  0.47770457  0.82708176  1
+  Zn  Zn9  1  0.52229527  0.06266186  0.82708183  1
+  Zn  Zn10  1  0.93733822  0.45963354  0.82708194  1
+  Zn  Zn11  1  0.47770463  0.54036650  0.17291822  1
+  Zn  Zn12  1  0.06266175  0.52229524  0.17291801  1
+  Zn  Zn13  1  0.45963344  0.93733808  0.17291821  1

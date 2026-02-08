@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_K(ZnAs2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.98159662
+_cell_length_b   11.98158775
+_cell_length_c   14.56175046
+_cell_angle_alpha   90.00002117
+_cell_angle_beta   90.00002109
+_cell_angle_gamma   90.00001670
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K(ZnAs2)4
+_chemical_formula_sum   'K2 Zn8 As16'
+_cell_volume   2090.46379912
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.75000000  0.24999999  0.24999992  1
+  K  K1  1  0.25000013  0.74999992  0.75000000  1
+  Zn  Zn2  1  0.25000001  0.63359531  0.58022215  1
+  Zn  Zn3  1  0.24999999  0.86640470  0.58022221  1
+  Zn  Zn4  1  0.86640473  0.24999998  0.08022217  1
+  Zn  Zn5  1  0.63359528  0.25000000  0.08022215  1
+  Zn  Zn6  1  0.75000001  0.13359532  0.41977780  1
+  Zn  Zn7  1  0.75000001  0.36640468  0.41977784  1
+  Zn  Zn8  1  0.13359531  0.75000003  0.91977787  1
+  Zn  Zn9  1  0.36640469  0.75000000  0.91977786  1
+  As  As10  1  0.56666140  0.37873533  0.32544640  1
+  As  As11  1  0.93333862  0.12126468  0.32544646  1
+  As  As12  1  0.12126463  0.56666135  0.82544641  1
+  As  As13  1  0.37873534  0.93333862  0.82544641  1
+  As  As14  1  0.43333862  0.87873533  0.67455358  1
+  As  As15  1  0.06666134  0.62126466  0.67455356  1
+  As  As16  1  0.87873531  0.06666141  0.17455358  1
+  As  As17  1  0.62126466  0.43333861  0.17455362  1
+  As  As18  1  0.43333858  0.62126470  0.67455362  1
+  As  As19  1  0.06666136  0.87873534  0.67455355  1
+  As  As20  1  0.87873536  0.43333865  0.17455358  1
+  As  As21  1  0.62126467  0.06666140  0.17455361  1
+  As  As22  1  0.56666136  0.12126465  0.32544644  1
+  As  As23  1  0.93333859  0.37873530  0.32544642  1
+  As  As24  1  0.12126466  0.93333863  0.82544642  1
+  As  As25  1  0.37873533  0.56666142  0.82544638  1

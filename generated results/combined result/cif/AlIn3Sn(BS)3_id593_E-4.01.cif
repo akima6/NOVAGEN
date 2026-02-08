@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_AlIn3Sn(BS)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.70662505
+_cell_length_b   8.70679128
+_cell_length_c   9.34697919
+_cell_angle_alpha   90.00009025
+_cell_angle_beta   90.00019795
+_cell_angle_gamma   119.99976296
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlIn3Sn(BS)3
+_chemical_formula_sum   'Al2 In6 Sn2 B6 S6'
+_cell_volume   613.63612744
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.00000001  0.00000006  0.62182940  1
+  Sn  Sn1  1  -0.00000000  0.00000001  0.12182945  1
+  Al  Al2  1  0.33333336  0.66666684  0.47602849  1
+  Al  Al3  1  0.66666666  0.33333325  0.97602849  1
+  S  S4  1  0.39309621  0.89772547  0.17516067  1
+  S  S5  1  0.10227498  0.49537021  0.17516056  1
+  S  S6  1  0.50462972  0.60690462  0.17516046  1
+  S  S7  1  0.60690477  0.10227477  0.67516072  1
+  S  S8  1  0.89772532  0.50462966  0.67516042  1
+  S  S9  1  0.49537015  0.39309504  0.67516092  1
+  In  In10  1  0.30673594  0.32670717  0.28910888  1
+  In  In11  1  0.67329283  0.98002928  0.28910913  1
+  In  In12  1  0.01997016  0.69326334  0.28910925  1
+  In  In13  1  0.69326348  0.67329266  0.78910891  1
+  In  In14  1  0.32670759  0.01997163  0.78910852  1
+  In  In15  1  0.98002867  0.30673590  0.78910901  1
+  B  B16  1  0.44344082  0.40919524  0.07634553  1
+  B  B17  1  0.59080465  0.03424563  0.07634524  1
+  B  B18  1  0.96575477  0.55655907  0.07634554  1
+  B  B19  1  0.55655919  0.59080467  0.57634560  1
+  B  B20  1  0.40919553  0.96575451  0.57634567  1
+  B  B21  1  0.03424523  0.44344100  0.57634553  1

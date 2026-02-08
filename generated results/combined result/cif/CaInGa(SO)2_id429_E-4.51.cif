@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CaInGa(SO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.72385989
+_cell_length_b   10.03898957
+_cell_length_c   9.20740523
+_cell_angle_alpha   89.99996694
+_cell_angle_beta   90.00019954
+_cell_angle_gamma   89.99999949
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaInGa(SO)2
+_chemical_formula_sum   'Ca2 In2 Ga2 S4 O4'
+_cell_volume   344.20770851
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  -0.00000002  0.05873848  0.25504668  1
+  In  In1  1  -0.00000002  0.94126139  0.75504664  1
+  Ca  Ca2  1  -0.00000000  0.40601525  0.47811448  1
+  Ca  Ca3  1  -0.00000002  0.59398481  0.97811447  1
+  S  S4  1  -0.00000002  0.66941475  0.64494371  1
+  S  S5  1  -0.00000001  0.33058520  0.14494371  1
+  S  S6  1  0.50000002  0.32825479  0.96148742  1
+  S  S7  1  0.50000003  0.67174528  0.46148742  1
+  O  O8  1  0.50000000  0.30669037  0.42460646  1
+  O  O9  1  0.49999998  0.69330964  0.92460651  1
+  O  O10  1  0.50000002  0.12735750  0.28874609  1
+  O  O11  1  0.50000003  0.87264238  0.78874630  1
+  Ga  Ga12  1  0.50000000  0.90927069  0.46553276  1
+  Ga  Ga13  1  0.50000000  0.09072945  0.96553309  1

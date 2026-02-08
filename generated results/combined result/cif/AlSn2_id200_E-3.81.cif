@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_AlSn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.90161955
+_cell_length_b   6.90167626
+_cell_length_c   6.90168485
+_cell_angle_alpha   90.00000819
+_cell_angle_beta   89.99968090
+_cell_angle_gamma   89.99953310
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlSn2
+_chemical_formula_sum   'Al4 Sn8'
+_cell_volume   328.74618675
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  -0.00000001  0.00000009  0.00000013  1
+  Al  Al1  1  0.50000025  0.00000005  0.49999984  1
+  Al  Al2  1  0.00000020  0.50000002  0.50000018  1
+  Al  Al3  1  0.49999998  0.49999989  0.00000034  1
+  Sn  Sn4  1  0.37258427  0.37258430  0.37258420  1
+  Sn  Sn5  1  0.12741562  0.62741566  0.87258413  1
+  Sn  Sn6  1  0.62741589  0.87258446  0.12741582  1
+  Sn  Sn7  1  0.87258435  0.12741550  0.62741553  1
+  Sn  Sn8  1  0.62741579  0.62741583  0.62741557  1
+  Sn  Sn9  1  0.87258414  0.37258421  0.12741553  1
+  Sn  Sn10  1  0.37258420  0.12741563  0.87258435  1
+  Sn  Sn11  1  0.12741531  0.87258435  0.37258438  1

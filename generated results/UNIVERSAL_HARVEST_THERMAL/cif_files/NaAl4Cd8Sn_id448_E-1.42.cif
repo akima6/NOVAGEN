@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_NaAl4Cd8Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.05045015
+_cell_length_b   11.49934360
+_cell_length_c   16.88269971
+_cell_angle_alpha   89.99999609
+_cell_angle_beta   89.99986184
+_cell_angle_gamma   89.99990340
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaAl4Cd8Sn
+_chemical_formula_sum   'Na2 Al8 Cd16 Sn2'
+_cell_volume   980.49421443
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.00000000  0.50000002  0.50000001  1
+  Sn  Sn1  1  0.49999999  -0.00000000  -0.00000001  1
+  Na  Na2  1  0.49999999  0.50000001  0.00000001  1
+  Na  Na3  1  -0.00000000  -0.00000001  0.50000000  1
+  Cd  Cd4  1  0.00000001  0.61505816  -0.00000000  1
+  Cd  Cd5  1  -0.00000001  0.38494186  -0.00000002  1
+  Cd  Cd6  1  0.50000001  0.11505818  0.50000002  1
+  Cd  Cd7  1  0.50000000  0.88494187  0.50000001  1
+  Cd  Cd8  1  0.00000000  0.87681263  0.00000002  1
+  Cd  Cd9  1  0.00000001  0.12318738  0.00000002  1
+  Cd  Cd10  1  0.49999998  0.37681266  0.50000000  1
+  Cd  Cd11  1  0.50000001  0.62318735  0.49999997  1
+  Cd  Cd12  1  0.00000000  0.00000002  0.21173521  1
+  Cd  Cd13  1  0.00000000  0.00000001  0.78826476  1
+  Cd  Cd14  1  0.50000000  0.49999999  0.71173524  1
+  Cd  Cd15  1  0.50000000  0.49999999  0.28826475  1
+  Cd  Cd16  1  0.50000000  -0.00000001  0.31482259  1
+  Cd  Cd17  1  0.50000000  0.00000000  0.68517745  1
+  Cd  Cd18  1  -0.00000000  0.50000000  0.81482258  1
+  Cd  Cd19  1  0.00000000  0.50000000  0.18517741  1
+  Al  Al20  1  0.00000000  0.72918487  0.12991144  1
+  Al  Al21  1  -0.00000000  0.27081511  0.12991149  1
+  Al  Al22  1  0.00000000  0.72918485  0.87008852  1
+  Al  Al23  1  -0.00000000  0.27081514  0.87008847  1
+  Al  Al24  1  0.50000000  0.22918491  0.62991152  1
+  Al  Al25  1  0.49999999  0.77081512  0.62991148  1
+  Al  Al26  1  0.50000000  0.22918493  0.37008848  1
+  Al  Al27  1  0.49999999  0.77081508  0.37008854  1

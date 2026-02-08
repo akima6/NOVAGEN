@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Na2ScGa
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.83351536
+_cell_length_b   7.83295321
+_cell_length_c   7.83371173
+_cell_angle_alpha   89.99997770
+_cell_angle_beta   89.99951190
+_cell_angle_gamma   90.00023865
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2ScGa
+_chemical_formula_sum   'Na8 Sc4 Ga4'
+_cell_volume   480.67309908
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.84152629  0.84152770  0.84152855  1
+  Na  Na1  1  0.65847389  0.15847114  0.34152969  1
+  Na  Na2  1  0.15847424  0.34152779  0.65847203  1
+  Na  Na3  1  0.34152546  0.65847093  0.15847074  1
+  Na  Na4  1  0.09152953  0.59152825  0.90847356  1
+  Na  Na5  1  0.40847158  0.40847276  0.40847313  1
+  Na  Na6  1  0.59152860  0.90847347  0.09152646  1
+  Na  Na7  1  0.90847016  0.09152787  0.59152608  1
+  Sc  Sc8  1  0.12500053  0.12499993  0.12499955  1
+  Sc  Sc9  1  0.37499851  0.87500007  0.62499865  1
+  Sc  Sc10  1  0.87499907  0.62499943  0.37500038  1
+  Sc  Sc11  1  0.62500195  0.37500059  0.87500140  1
+  Ga  Ga12  1  0.62500222  0.62499948  0.62499832  1
+  Ga  Ga13  1  0.87499687  0.37500069  0.12499721  1
+  Ga  Ga14  1  0.37499743  0.12499897  0.87500159  1
+  Ga  Ga15  1  0.12500368  0.87500092  0.37500266  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Sr6Zn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.34983260
+_cell_length_b   25.81682964
+_cell_length_c   7.17049301
+_cell_angle_alpha   90.00027100
+_cell_angle_beta   89.99999559
+_cell_angle_gamma   89.99998749
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr6Zn
+_chemical_formula_sum   'Sr12 Zn2'
+_cell_volume   2101.07416207
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  -0.00000000  -0.00000000  0.57599644  1
+  Zn  Zn1  1  0.00000000  0.49999999  0.07599644  1
+  Sr  Sr2  1  -0.00000000  0.00000000  0.10208516  1
+  Sr  Sr3  1  -0.00000000  0.50000001  0.60208516  1
+  Sr  Sr4  1  0.50000000  -0.00000028  0.36809272  1
+  Sr  Sr5  1  0.50000000  0.49999998  0.86809271  1
+  Sr  Sr6  1  0.50000000  0.70462716  0.65369110  1
+  Sr  Sr7  1  0.50000000  0.29538061  0.65369105  1
+  Sr  Sr8  1  0.50000000  0.20463670  0.15369104  1
+  Sr  Sr9  1  0.50000000  0.79538375  0.15369107  1
+  Sr  Sr10  1  0.49999999  0.64749896  0.15185018  1
+  Sr  Sr11  1  0.50000000  0.35248083  0.15185027  1
+  Sr  Sr12  1  0.49999999  0.14750204  0.65185019  1
+  Sr  Sr13  1  0.50000001  0.85249023  0.65185017  1

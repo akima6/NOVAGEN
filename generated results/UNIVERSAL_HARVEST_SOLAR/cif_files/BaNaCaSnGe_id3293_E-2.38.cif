@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_BaNaCaSnGe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.63424518
+_cell_length_b   9.63424272
+_cell_length_c   11.14720335
+_cell_angle_alpha   90.00040552
+_cell_angle_beta   89.99978413
+_cell_angle_gamma   119.99988665
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaNaCaSnGe
+_chemical_formula_sum   'Ba3 Na3 Ca3 Sn3 Ge3'
+_cell_volume   896.05017560
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.04000649  0.71782059  0.83317363  1
+  Sn  Sn1  1  0.28217969  0.32218604  0.16650697  1
+  Sn  Sn2  1  0.67781403  0.95999354  0.49984029  1
+  Ca  Ca3  1  0.77857888  0.29953212  0.94057144  1
+  Ca  Ca4  1  0.70046779  0.47904670  0.27390467  1
+  Ca  Ca5  1  0.52095334  0.22142113  0.60723820  1
+  Ba  Ba6  1  0.70517841  0.59302930  -0.04447846  1
+  Ba  Ba7  1  0.40697069  0.11214886  0.28885521  1
+  Ba  Ba8  1  0.88785086  0.29482156  0.62218844  1
+  Ge  Ge9  1  0.38229009  0.87062257  0.48295455  1
+  Ge  Ge10  1  0.12937768  0.51166771  0.81628809  1
+  Ge  Ge11  1  0.48833214  0.61770987  0.14962138  1
+  Na  Na12  1  0.72912966  0.62912917  0.62135613  1
+  Na  Na13  1  0.37087084  0.10000050  0.95468947  1
+  Na  Na14  1  0.89999951  0.27087033  0.28802285  1

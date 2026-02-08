@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_In2SnTe2Se5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.63541504
+_cell_length_b   11.96720384
+_cell_length_c   4.13871897
+_cell_angle_alpha   89.99997780
+_cell_angle_beta   90.00003563
+_cell_angle_gamma   89.99980123
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In2SnTe2Se5
+_chemical_formula_sum   'In4 Sn2 Te4 Se10'
+_cell_volume   576.28923288
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  -0.00000014  0.00000049  -0.00000000  1
+  Sn  Sn1  1  0.50000007  0.50000008  0.00000000  1
+  Se  Se2  1  0.00000002  0.50000006  0.00000001  1
+  Se  Se3  1  0.50000001  -0.00000003  0.00000000  1
+  Se  Se4  1  0.88818218  0.22163332  -0.00000000  1
+  Se  Se5  1  0.11181794  0.77836613  0.00000000  1
+  Se  Se6  1  0.61181776  0.72163334  0.00000000  1
+  Se  Se7  1  0.38818214  0.27836659  -0.00000000  1
+  Se  Se8  1  0.14788715  0.09335433  0.50000000  1
+  Se  Se9  1  0.85211282  0.90664566  0.50000000  1
+  Se  Se10  1  0.35211281  0.59335435  0.50000000  1
+  Se  Se11  1  0.64788717  0.40664571  0.50000000  1
+  Te  Te12  1  0.71540719  0.62683408  0.50000000  1
+  Te  Te13  1  0.28459276  0.37316582  0.50000000  1
+  Te  Te14  1  0.78459255  0.12683416  0.50000000  1
+  Te  Te15  1  0.21540749  0.87316581  0.50000000  1
+  In  In16  1  0.52617166  0.20504761  0.50000000  1
+  In  In17  1  0.47382831  0.79495240  0.50000000  1
+  In  In18  1  0.97382861  0.70504781  0.50000000  1
+  In  In19  1  0.02617154  0.29495229  0.50000000  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_NaLiZn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.48721058
+_cell_length_b   4.10329995
+_cell_length_c   5.86739286
+_cell_angle_alpha   89.99996740
+_cell_angle_beta   68.67272602
+_cell_angle_gamma   89.99998250
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLiZn2
+_chemical_formula_sum   'Na2 Li2 Zn4'
+_cell_volume   302.47669542
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.19693369  0.24999999  0.86043046  1
+  Zn  Zn1  1  0.80306627  0.75000000  0.13956955  1
+  Na  Na2  1  0.43289731  0.25000001  0.86523531  1
+  Na  Na3  1  0.56710272  0.75000000  0.13476467  1
+  Li  Li4  1  0.64855445  0.25000000  0.40443544  1
+  Li  Li5  1  0.35144557  0.75000000  0.59556455  1
+  Zn  Zn6  1  0.87144391  0.25000000  0.36110555  1
+  Zn  Zn7  1  0.12855608  0.75000000  0.63889448  1

@@ -1,0 +1,51 @@
+# generated using pymatgen
+data_K2NaLi4Cd4Sn4BO9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.50118564
+_cell_length_b   11.50111536
+_cell_length_c   10.44101999
+_cell_angle_alpha   90.00013450
+_cell_angle_beta   90.00024398
+_cell_angle_gamma   90.00008220
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2NaLi4Cd4Sn4BO9
+_chemical_formula_sum   'K2 Na1 Li4 Cd4 Sn4 B1 O9'
+_cell_volume   1381.10119235
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  -0.00000003  -0.00000001  0.51032094  1
+  O  O1  1  0.00000005  0.00000003  0.73483277  1
+  B  B2  1  0.49999998  0.50000000  0.25465071  1
+  K  K3  1  0.00000003  0.50000000  0.26430326  1
+  K  K4  1  0.50000005  0.00000004  0.26430331  1
+  Cd  Cd5  1  0.17780666  0.00532270  0.21521918  1
+  Cd  Cd6  1  0.82219333  0.99467730  0.21521934  1
+  Cd  Cd7  1  0.99467747  0.17780631  0.21521923  1
+  Cd  Cd8  1  0.00532246  0.82219365  0.21521927  1
+  O  O9  1  0.62958214  0.83545167  0.25198605  1
+  O  O10  1  0.37041781  0.16454837  0.25198607  1
+  O  O11  1  0.16454860  0.62958206  0.25198603  1
+  O  O12  1  0.83545141  0.37041787  0.25198615  1
+  Li  Li13  1  0.31659038  0.92213849  0.85199500  1
+  Li  Li14  1  0.68340974  0.07786157  0.85199501  1
+  Li  Li15  1  0.07786153  0.31659034  0.85199487  1
+  Li  Li16  1  0.92213846  0.68340965  0.85199506  1
+  O  O17  1  0.26446814  0.66838359  0.26489469  1
+  O  O18  1  0.73553188  0.33161635  0.26489455  1
+  O  O19  1  0.33161636  0.26446828  0.26489462  1
+  O  O20  1  0.66838355  0.73553176  0.26489470  1
+  Sn  Sn21  1  0.16145705  0.35099795  0.06753888  1
+  Sn  Sn22  1  0.83854311  0.64900209  0.06753863  1
+  Sn  Sn23  1  0.64900197  0.16145701  0.06753882  1
+  Sn  Sn24  1  0.35099795  0.83854301  0.06753869  1

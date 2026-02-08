@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KSnTe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.73181306
+_cell_length_b   4.73180633
+_cell_length_c   22.88007684
+_cell_angle_alpha   90.00005375
+_cell_angle_beta   90.00001935
+_cell_angle_gamma   120.00001946
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KSnTe2
+_chemical_formula_sum   'K3 Sn3 Te6'
+_cell_volume   443.65212448
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.00000001  -0.00000004  0.50000000  1
+  K  K1  1  0.66666661  0.33333331  0.83333332  1
+  K  K2  1  0.33333334  0.66666669  0.16666668  1
+  Sn  Sn3  1  -0.00000000  -0.00000001  0.00000001  1
+  Sn  Sn4  1  0.66666667  0.33333333  0.33333333  1
+  Sn  Sn5  1  0.33333333  0.66666667  0.66666666  1
+  Te  Te6  1  -0.00000003  -0.00000003  0.26814878  1
+  Te  Te7  1  1.00000002  1.00000002  0.73185123  1
+  Te  Te8  1  0.66666665  0.33333333  0.60148211  1
+  Te  Te9  1  0.66666669  0.33333334  0.06518457  1
+  Te  Te10  1  0.33333336  0.66666668  0.93481547  1
+  Te  Te11  1  0.33333334  0.66666671  0.39851789  1

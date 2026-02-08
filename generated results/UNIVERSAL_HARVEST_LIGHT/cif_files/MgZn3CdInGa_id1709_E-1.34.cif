@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_MgZn3CdInGa
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.94744589
+_cell_length_b   2.86755387
+_cell_length_c   11.28632211
+_cell_angle_alpha   90.00007763
+_cell_angle_beta   114.52299490
+_cell_angle_gamma   89.99995428
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgZn3CdInGa
+_chemical_formula_sum   'Mg2 Zn6 Cd2 In2 Ga2'
+_cell_volume   292.89978010
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.15527283  0.00000001  0.80937648  1
+  Zn  Zn1  1  0.65527282  0.50000000  0.80937648  1
+  In  In2  1  0.50507423  -0.00000001  0.12612113  1
+  In  In3  1  0.00507419  0.50000000  0.12612115  1
+  Ga  Ga4  1  0.56273445  0.00000001  0.52249047  1
+  Ga  Ga5  1  0.06273450  0.50000000  0.52249043  1
+  Zn  Zn6  1  0.79964087  -0.00000001  0.52363615  1
+  Zn  Zn7  1  0.29964087  0.50000000  0.52363616  1
+  Zn  Zn8  1  0.81519971  -0.00000000  0.79806779  1
+  Zn  Zn9  1  0.31519970  0.49999999  0.79806781  1
+  Mg  Mg10  1  0.77524304  0.00000000  0.29583861  1
+  Mg  Mg11  1  0.27524304  0.50000001  0.29583858  1
+  Cd  Cd12  1  0.75888421  0.00000000  0.04477423  1
+  Cd  Cd13  1  0.25888425  0.50000001  0.04477419  1

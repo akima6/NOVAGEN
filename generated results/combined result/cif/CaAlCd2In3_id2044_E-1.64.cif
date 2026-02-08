@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_CaAlCd2In3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.20750779
+_cell_length_b   5.53354982
+_cell_length_c   8.24469572
+_cell_angle_alpha   90.00010611
+_cell_angle_beta   95.58151143
+_cell_angle_gamma   89.99994998
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaAlCd2In3
+_chemical_formula_sum   'Ca1 Al1 Cd2 In3'
+_cell_volume   463.48343647
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  -0.00000004  0.00000000  -0.00000004  1
+  Al  Al1  1  0.00000000  0.50000000  -0.00000000  1
+  Ca  Ca2  1  -0.00000001  0.50000000  0.50000001  1
+  In  In3  1  0.25684367  0.00000001  0.19348182  1
+  In  In4  1  0.74315639  -0.00000001  0.80651816  1
+  Cd  Cd5  1  0.98954346  0.00000004  0.66665618  1
+  Cd  Cd6  1  0.01045652  -0.00000004  0.33334387  1

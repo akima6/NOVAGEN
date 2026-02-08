@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Na2MgInSnGe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.03698193
+_cell_length_b   6.03700138
+_cell_length_c   10.72483687
+_cell_angle_alpha   99.57842028
+_cell_angle_beta   99.58804202
+_cell_angle_gamma   145.96713162
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2MgInSnGe2
+_chemical_formula_sum   'Na2 Mg1 In1 Sn1 Ge2'
+_cell_volume   179.91067534
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.06740851  0.55287697  0.29641516  1
+  Na  Na1  1  0.44704142  -0.06748724  0.70360283  1
+  Mg  Mg2  1  0.09149388  0.90836737  0.99997978  1
+  In  In3  1  -0.01087398  0.01089532  0.49998763  1
+  Sn  Sn4  1  0.36707176  0.63293273  0.00000971  1
+  Ge  Ge5  1  0.06167593  0.02392389  0.25154400  1
+  Ge  Ge6  1  -0.02381752  -0.06150901  0.74846092  1

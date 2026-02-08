@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NaLiCd2InSn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.23910462
+_cell_length_b   8.24511364
+_cell_length_c   11.13437365
+_cell_angle_alpha   90.00000669
+_cell_angle_beta   90.00005700
+_cell_angle_gamma   90.00000394
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLiCd2InSn
+_chemical_formula_sum   'Na2 Li2 Cd4 In2 Sn2'
+_cell_volume   756.38421070
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  -0.00000000  -0.00000000  0.99367447  1
+  Sn  Sn1  1  0.50000000  0.50000000  0.49369780  1
+  Li  Li2  1  -0.00000001  0.50000000  0.19144070  1
+  Li  Li3  1  0.50000000  -0.00000000  0.69154325  1
+  Cd  Cd4  1  0.00000126  0.50000000  0.39031420  1
+  Cd  Cd5  1  0.50000000  0.00000000  0.89073483  1
+  In  In6  1  0.00009703  0.50000000  0.61613670  1
+  In  In7  1  0.50000000  0.00000005  0.11428944  1
+  Na  Na8  1  -0.00001768  0.50000000  0.59563292  1
+  Na  Na9  1  0.50000000  -0.00000003  0.09051449  1
+  Cd  Cd10  1  -0.00008059  0.50000000  0.61865316  1
+  Cd  Cd11  1  0.50000000  -0.00000002  0.12512753  1

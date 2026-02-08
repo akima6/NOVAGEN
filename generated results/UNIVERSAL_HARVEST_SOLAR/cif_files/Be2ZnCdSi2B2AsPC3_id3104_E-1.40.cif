@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Be2ZnCdSi2B2AsPC3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.24327372
+_cell_length_b   9.24360930
+_cell_length_c   8.89487848
+_cell_angle_alpha   89.99378291
+_cell_angle_beta   89.99219925
+_cell_angle_gamma   120.00481749
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Be2ZnCdSi2B2AsPC3
+_chemical_formula_sum   'Be4 Zn2 Cd2 Si4 B4 As2 P2 C6'
+_cell_volume   658.13797182
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  C  C0  1  0.00000004  0.00000003  0.32673929  1
+  C  C1  1  0.00000003  0.00000003  0.82672094  1
+  C  C2  1  -0.00000007  -0.00000006  0.37906562  1
+  C  C3  1  -0.00000007  -0.00000006  0.87904408  1
+  C  C4  1  0.00000004  0.00000003  0.49202273  1
+  C  C5  1  0.00000006  0.00000003  0.99204800  1
+  Zn  Zn6  1  -0.00000001  -0.00000001  0.68455028  1
+  Zn  Zn7  1  -0.00000001  -0.00000001  0.18457943  1
+  As  As8  1  -0.00000003  -0.00000002  0.72869637  1
+  As  As9  1  -0.00000003  -0.00000002  0.22862761  1
+  Be  Be10  1  0.00000001  0.00000001  0.04537738  1
+  Be  Be11  1  0.00000001  0.00000001  0.54539109  1
+  Si  Si12  1  0.33333108  0.66666228  0.25319451  1
+  Si  Si13  1  0.66670434  0.33336539  0.75319574  1
+  B  B14  1  0.33392326  0.66783320  0.22190945  1
+  B  B15  1  0.67266891  0.33755941  0.72288825  1
+  Be  Be16  1  0.33183330  0.66366446  0.22252427  1
+  Be  Be17  1  0.66663394  0.33323934  0.72231336  1
+  B  B18  1  0.33380195  0.66759741  0.22324085  1
+  B  B19  1  0.66091860  0.32933965  0.72263555  1
+  Si  Si20  1  0.33380274  0.66762765  0.22193612  1
+  Si  Si21  1  0.66640726  0.33315121  0.72147726  1
+  P  P22  1  0.33331117  0.66662222  0.19952156  1
+  P  P23  1  0.66668949  0.33336030  0.69980218  1
+  Cd  Cd24  1  0.33332992  0.66665962  0.17079073  1
+  Cd  Cd25  1  0.66664428  0.33331812  0.67080736  1

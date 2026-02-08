@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_NaCdSO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.19229903
+_cell_length_b   4.48715118
+_cell_length_c   26.72240523
+_cell_angle_alpha   85.39702827
+_cell_angle_beta   89.70239989
+_cell_angle_gamma   72.18727223
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCdSO5
+_chemical_formula_sum   'Na2 Cd2 S2 O10'
+_cell_volume   476.94703433
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.47958707  0.46098754  0.17565373  1.0
+  Na  Na1  1  0.54132794  0.49668060  0.83276918  1.0
+  Cd  Cd2  1  0.13029362  0.15188506  0.76112417  1.0
+  Cd  Cd3  1  0.86546347  0.87254869  0.23435814  1.0
+  S  S4  1  0.18575596  0.33027358  0.96318386  1.0
+  S  S5  1  0.73811599  0.81886435  0.03911779  1.0
+  O  O6  1  0.96094985  0.98526109  0.05506348  1.0
+  O  O7  1  0.40273034  0.45459954  0.93093238  1.0
+  O  O8  1  0.12801477  0.45870212  0.01362331  1.0
+  O  O9  1  0.57691096  0.92731503  0.98821163  1.0
+  O  O10  1  0.44226648  0.96371288  0.18432121  1.0
+  O  O11  1  0.28951182  0.47455717  0.26155898  1.0
+  O  O12  1  0.99643366  0.31594659  0.22764118  1.0
+  O  O13  1  0.67636598  0.04433458  0.77601260  1.0
+  O  O14  1  0.03302452  0.51758387  0.81139785  1.0
+  O  O15  1  0.55324750  0.72674711  0.74503043  1.0

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_LiCdO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.60433852
+_cell_length_b   11.60435509
+_cell_length_c   4.80398428
+_cell_angle_alpha   89.99995111
+_cell_angle_beta   90.00018681
+_cell_angle_gamma   119.99991275
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCdO6
+_chemical_formula_sum   'Li2 Cd2 O12'
+_cell_volume   560.23984078
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  -0.00000000  -0.00000000  -0.00000002  1
+  Li  Li1  1  -0.00000003  -0.00000001  0.50000002  1
+  Cd  Cd2  1  0.33333335  0.66666670  0.24999999  1
+  Cd  Cd3  1  0.66666669  0.33333335  0.75000001  1
+  O  O4  1  0.15632460  0.15214987  0.60544311  1
+  O  O5  1  0.84785016  0.00417488  0.60544318  1
+  O  O6  1  0.99582519  0.84367538  0.60544312  1
+  O  O7  1  0.84785013  0.84367523  0.89455688  1
+  O  O8  1  0.99582532  0.15214998  0.89455686  1
+  O  O9  1  0.15632468  0.00417480  0.89455687  1
+  O  O10  1  0.84367540  0.84785005  0.39455687  1
+  O  O11  1  0.15214984  0.99582515  0.39455687  1
+  O  O12  1  0.00417493  0.15632478  0.39455692  1
+  O  O13  1  0.15214987  0.15632467  0.10544309  1
+  O  O14  1  0.00417481  0.84785016  0.10544311  1
+  O  O15  1  0.84367521  0.99582516  0.10544312  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Cd3Ga
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.05492220
+_cell_length_b   9.05490279
+_cell_length_c   6.28723895
+_cell_angle_alpha   90.00003980
+_cell_angle_beta   90.00002511
+_cell_angle_gamma   90.00001450
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cd3Ga
+_chemical_formula_sum   'Cd12 Ga4'
+_cell_volume   515.49977760
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  -0.00000000  0.50000000  0.24999996  1
+  Ga  Ga1  1  0.50000011  0.00000003  0.75000001  1
+  Ga  Ga2  1  0.00000003  0.00000003  0.00000002  1
+  Ga  Ga3  1  0.00000009  -0.00000001  0.49999996  1
+  Cd  Cd4  1  0.50000019  0.34518483  0.25000014  1
+  Cd  Cd5  1  0.50000007  0.65481510  0.24999987  1
+  Cd  Cd6  1  0.34518559  0.50000003  0.74999988  1
+  Cd  Cd7  1  0.65481462  0.49999992  0.75000005  1
+  Cd  Cd8  1  0.10359180  0.35398573  0.56782385  1
+  Cd  Cd9  1  0.89640807  0.64601432  0.56782377  1
+  Cd  Cd10  1  0.35398532  0.89640864  0.43217667  1
+  Cd  Cd11  1  0.64601450  0.10359146  0.43217649  1
+  Cd  Cd12  1  0.89640801  0.35398579  0.93217617  1
+  Cd  Cd13  1  0.10359175  0.64601420  0.93217631  1
+  Cd  Cd14  1  0.64601452  0.89640855  0.06782352  1
+  Cd  Cd15  1  0.35398530  0.10359136  0.06782345  1

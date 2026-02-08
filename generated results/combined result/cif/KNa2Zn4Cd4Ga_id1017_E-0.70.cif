@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_KNa2Zn4Cd4Ga
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.92686401
+_cell_length_b   7.92834355
+_cell_length_c   12.39743830
+_cell_angle_alpha   89.98264510
+_cell_angle_beta   90.29089635
+_cell_angle_gamma   90.00000412
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNa2Zn4Cd4Ga
+_chemical_formula_sum   'K2 Na4 Zn8 Cd8 Ga2'
+_cell_volume   779.13050128
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  -0.00000247  0.00000280  0.00006483  1
+  Ga  Ga1  1  0.50000007  0.49999991  0.50005221  1
+  K  K2  1  0.00006827  -0.00006534  0.50034454  1
+  K  K3  1  0.49998368  0.50000016  -0.00002620  1
+  Cd  Cd4  1  -0.00000097  0.49999781  0.24999765  1
+  Cd  Cd5  1  0.50000107  -0.00000010  0.24999774  1
+  Cd  Cd6  1  0.49999993  0.00000005  0.75000974  1
+  Cd  Cd7  1  0.00000046  0.49999997  0.75000987  1
+  Na  Na8  1  0.00050900  -0.00001750  0.72878899  1
+  Na  Na9  1  0.00014800  -0.00131693  0.25320916  1
+  Na  Na10  1  0.49999821  0.50000013  0.24688854  1
+  Na  Na11  1  0.49968859  0.50000105  0.75318814  1
+  Cd  Cd12  1  -0.00057332  0.00002185  0.74662449  1
+  Cd  Cd13  1  -0.00015438  0.00138188  0.27114016  1
+  Cd  Cd14  1  0.49999982  0.49999988  0.22868793  1
+  Cd  Cd15  1  0.50033122  0.49999910  0.77124584  1
+  Zn  Zn16  1  0.27066835  0.27066816  0.00001037  1
+  Zn  Zn17  1  0.72933102  0.72933112  0.00000318  1
+  Zn  Zn18  1  0.72933079  0.27066891  0.00000348  1
+  Zn  Zn19  1  0.27066812  0.72933186  0.00001010  1
+  Zn  Zn20  1  0.77064230  0.77064209  0.49994187  1
+  Zn  Zn21  1  0.22935766  0.22935771  0.49993264  1
+  Zn  Zn22  1  0.22936000  0.77063986  0.49993443  1
+  Zn  Zn23  1  0.77064457  0.22935556  0.49994023  1

@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Li4(Cd2Sn)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.89106226
+_cell_length_b   11.89150322
+_cell_length_c   9.56909726
+_cell_angle_alpha   89.99848323
+_cell_angle_beta   89.99911751
+_cell_angle_gamma   120.00049723
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li4(Cd2Sn)3
+_chemical_formula_sum   'Li8 Cd12 Sn6'
+_cell_volume   1171.80901563
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.66666656  0.33333324  0.56263911  1
+  Li  Li1  1  0.66666657  0.33333323  0.06263914  1
+  Cd  Cd2  1  0.04171503  0.75098099  0.68384219  1
+  Cd  Cd3  1  0.24901904  0.29073315  0.68384263  1
+  Cd  Cd4  1  0.70926851  0.95828825  0.68384327  1
+  Cd  Cd5  1  0.24901935  0.95828761  0.18384338  1
+  Cd  Cd6  1  0.70926689  0.75098079  0.18384274  1
+  Cd  Cd7  1  0.04171545  0.29073454  0.18384187  1
+  Li  Li8  1  0.72655110  0.75848557  0.20751947  1
+  Li  Li9  1  0.24151379  0.96806341  0.20751860  1
+  Li  Li10  1  0.03193169  0.27344670  0.20752099  1
+  Li  Li11  1  0.24151410  0.27344908  0.70751938  1
+  Li  Li12  1  0.03193390  0.75848555  0.70751979  1
+  Li  Li13  1  0.72654897  0.96806175  0.70751831  1
+  Cd  Cd14  1  0.85948658  0.13616101  0.32106924  1
+  Cd  Cd15  1  0.86384005  0.72332618  0.32106915  1
+  Cd  Cd16  1  0.27667419  0.14051400  0.32106875  1
+  Cd  Cd17  1  0.86384002  0.14051445  0.82106866  1
+  Cd  Cd18  1  0.27667473  0.13616054  0.82106890  1
+  Cd  Cd19  1  0.85948609  0.72332576  0.82106913  1
+  Sn  Sn20  1  0.83614490  0.13019446  0.33905945  1
+  Sn  Sn21  1  0.86980523  0.70594934  0.33905992  1
+  Sn  Sn22  1  0.29405091  0.16385654  0.33906047  1
+  Sn  Sn23  1  0.86980601  0.16385699  0.83906078  1
+  Sn  Sn24  1  0.29405007  0.13019363  0.83906045  1
+  Sn  Sn25  1  0.83614368  0.70594988  0.83906026  1

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Cd2Sn4GeTe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.66379747
+_cell_length_b   9.66380083
+_cell_length_c   7.67861694
+_cell_angle_alpha   90.00005912
+_cell_angle_beta   90.00017015
+_cell_angle_gamma   90.00086960
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cd2Sn4GeTe4
+_chemical_formula_sum   'Cd2 Sn4 Ge1 Te4'
+_cell_volume   717.09846504
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  -0.00000000  -0.00000001  0.00000008  1
+  Cd  Cd1  1  0.49999987  -0.00000000  0.50000003  1
+  Cd  Cd2  1  0.00000010  0.49999996  0.50000019  1
+  Sn  Sn3  1  0.28559259  0.49999911  0.49999951  1
+  Sn  Sn4  1  0.71440747  0.50000067  0.49999970  1
+  Sn  Sn5  1  0.49999993  0.71440732  0.50000014  1
+  Sn  Sn6  1  0.50000020  0.28559277  0.50000025  1
+  Te  Te7  1  0.27447554  0.27447622  0.25143005  1
+  Te  Te8  1  0.72552445  0.72552390  0.25142989  1
+  Te  Te9  1  0.27447574  0.72552447  0.74857018  1
+  Te  Te10  1  0.72552409  0.27447557  0.74857001  1

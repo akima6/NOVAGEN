@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Ba2Na4Sr4Ca
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.76784755
+_cell_length_b   12.76785378
+_cell_length_c   10.90926410
+_cell_angle_alpha   89.99991091
+_cell_angle_beta   90.00003232
+_cell_angle_gamma   90.00069475
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Na4Sr4Ca
+_chemical_formula_sum   'Ba4 Na8 Sr8 Ca2'
+_cell_volume   1778.40653023
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.75000000  0.24999996  -0.00000015  1
+  Ca  Ca1  1  0.24999999  0.75000002  0.00000016  1
+  Ba  Ba2  1  0.25000001  0.24999999  0.18191108  1
+  Ba  Ba3  1  0.24999998  0.25000001  0.81808889  1
+  Ba  Ba4  1  0.74999998  0.74999998  0.81808889  1
+  Ba  Ba5  1  0.75000002  0.75000001  0.18191108  1
+  Na  Na6  1  0.92331323  0.07668679  0.80873035  1
+  Na  Na7  1  0.57668686  0.42331306  0.80873045  1
+  Na  Na8  1  0.42331277  0.92331283  0.80873013  1
+  Na  Na9  1  0.07668725  0.57668725  0.80873022  1
+  Na  Na10  1  0.57668721  0.07668723  0.19126985  1
+  Na  Na11  1  0.92331287  0.42331280  0.19126987  1
+  Na  Na12  1  0.07668684  0.92331316  0.19126955  1
+  Na  Na13  1  0.42331315  0.57668681  0.19126965  1
+  Sr  Sr14  1  0.92038848  0.07961153  0.18183206  1
+  Sr  Sr15  1  0.57961146  0.42038856  0.18183206  1
+  Sr  Sr16  1  0.42038792  0.92038792  0.18183249  1
+  Sr  Sr17  1  0.07961197  0.57961199  0.18183248  1
+  Sr  Sr18  1  0.57961205  0.07961202  0.81816753  1
+  Sr  Sr19  1  0.92038791  0.42038790  0.81816743  1
+  Sr  Sr20  1  0.07961144  0.92038854  0.81816801  1
+  Sr  Sr21  1  0.42038850  0.57961152  0.81816786  1

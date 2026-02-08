@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_LiZn4CdGa2Ge3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.52992010
+_cell_length_b   17.43874352
+_cell_length_c   12.41338199
+_cell_angle_alpha   70.37751958
+_cell_angle_beta   112.57964999
+_cell_angle_gamma   133.26891054
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiZn4CdGa2Ge3
+_chemical_formula_sum   'Li2 Zn8 Cd2 Ga4 Ge6'
+_cell_volume   1234.19287129
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.22305081  0.39539467  0.05486416  1
+  Ge  Ge1  1  0.77694921  0.60460533  0.94513585  1
+  Ge  Ge2  1  0.34438924  0.30090295  0.57007715  1
+  Ge  Ge3  1  0.65561076  0.69909708  0.42992287  1
+  Ge  Ge4  1  0.45312745  0.89330014  0.74423824  1
+  Ge  Ge5  1  0.54687261  0.10669990  0.25576179  1
+  Zn  Zn6  1  0.45127535  0.20414921  0.08129366  1
+  Zn  Zn7  1  0.54872462  0.79585067  0.91870630  1
+  Ga  Ga8  1  0.73182290  0.12392625  0.75667061  1
+  Ga  Ga9  1  0.26817718  0.87607382  0.24332915  1
+  Ga  Ga10  1  0.77229639  0.04400417  0.66769181  1
+  Ga  Ga11  1  0.22770355  0.95599588  0.33230826  1
+  Li  Li12  1  0.78664103  0.23002228  0.87677495  1
+  Li  Li13  1  0.21335896  0.76997765  0.12322499  1
+  Zn  Zn14  1  0.68070745  0.42251165  0.69159180  1
+  Zn  Zn15  1  0.31929254  0.57748838  0.30840819  1
+  Cd  Cd16  1  0.81235937  -0.01665781  0.88893416  1
+  Cd  Cd17  1  0.18764063  1.01665782  0.11106603  1
+  Zn  Zn18  1  0.88013076  0.34050771  0.52654407  1
+  Zn  Zn19  1  0.11986925  0.65949230  0.47345594  1
+  Zn  Zn20  1  0.92761958  0.68779205  0.52919802  1
+  Zn  Zn21  1  0.07238036  0.31220794  0.47080199  1

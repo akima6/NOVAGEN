@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_KLiPO14
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.87590791
+_cell_length_b   4.19320419
+_cell_length_c   9.48780438
+_cell_angle_alpha   90.24651269
+_cell_angle_beta   109.76244259
+_cell_angle_gamma   89.85216136
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLiPO14
+_chemical_formula_sum   'K1 Li1 P1 O14'
+_cell_volume   332.32052705
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.99943165  0.44312503  0.49976648  1
+  Li  Li1  1  0.50173552  0.09276164  -0.00009731  1
+  P  P2  1  0.49854750  0.09157917  1.00006723  1
+  O  O3  1  0.99971847  0.10839851  0.00035161  1
+  O  O4  1  0.00010993  0.81530088  0.99975818  1
+  O  O5  1  0.16107184  0.56527200  0.25021727  1
+  O  O6  1  0.83929655  0.56611968  0.75004287  1
+  O  O7  1  0.45213119  0.13641560  0.43428191  1
+  O  O8  1  0.54745451  0.13734275  0.56501896  1
+  O  O9  1  0.73242921  0.14305106  0.34496875  1
+  O  O10  1  0.26828359  0.14188814  0.65514895  1
+  O  O11  1  0.23766385  0.32081604  0.75231311  1
+  O  O12  1  0.76249635  0.32226881  0.24827574  1
+  O  O13  1  0.34680196  0.87289972  0.98595492  1
+  O  O14  1  0.65299970  0.87542428  0.01365643  1
+  O  O15  1  0.75628018  0.47406038  0.62185888  1
+  O  O16  1  0.24354789  0.47463770  0.37841602  1

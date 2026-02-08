@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_SrLiCa11In
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.21106148
+_cell_length_b   9.21106175
+_cell_length_c   11.18570847
+_cell_angle_alpha   90.00001009
+_cell_angle_beta   90.00000854
+_cell_angle_gamma   89.99999720
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrLiCa11In
+_chemical_formula_sum   'Sr2 Li2 Ca22 In2'
+_cell_volume   949.03640299
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.00000000  -0.00000000  0.00746136  1
+  Sr  Sr1  1  0.50000000  0.50000000  0.50746139  1
+  Li  Li2  1  0.00000000  0.00000000  0.19192877  1
+  Li  Li3  1  0.50000000  0.50000000  0.69192879  1
+  In  In4  1  0.00000000  0.00000000  0.48405786  1
+  In  In5  1  0.50000000  0.50000000  0.98405788  1
+  Ca  Ca6  1  -0.00000000  -0.00000000  0.75300688  1
+  Ca  Ca7  1  0.50000000  0.50000000  0.25300681  1
+  Ca  Ca8  1  0.00000000  0.50000000  0.24066765  1
+  Ca  Ca9  1  0.50000000  0.00000000  0.24066763  1
+  Ca  Ca10  1  0.50000000  0.00000000  0.74066766  1
+  Ca  Ca11  1  0.00000000  0.50000000  0.74066766  1
+  Ca  Ca12  1  0.00000000  0.50000000  0.46039631  1
+  Ca  Ca13  1  0.50000000  -0.00000000  0.46039640  1
+  Ca  Ca14  1  0.50000000  0.00000000  0.96039625  1
+  Ca  Ca15  1  -0.00000000  0.50000000  0.96039629  1
+  Ca  Ca16  1  -0.00000000  0.50000000  0.21207649  1
+  Ca  Ca17  1  0.50000000  -0.00000000  0.21207647  1
+  Ca  Ca18  1  0.50000000  -0.00000000  0.71207649  1
+  Ca  Ca19  1  -0.00000000  0.50000000  0.71207649  1
+  Ca  Ca20  1  0.70960868  0.70960867  0.45444541  1
+  Ca  Ca21  1  0.29039132  0.29039133  0.45444540  1
+  Ca  Ca22  1  0.29039132  0.70960867  0.45444541  1
+  Ca  Ca23  1  0.70960867  0.29039133  0.45444541  1
+  Ca  Ca24  1  0.20960868  0.20960867  0.95444544  1
+  Ca  Ca25  1  0.79039132  0.79039132  0.95444544  1
+  Ca  Ca26  1  0.79039132  0.20960868  0.95444544  1
+  Ca  Ca27  1  0.20960868  0.79039133  0.95444544  1

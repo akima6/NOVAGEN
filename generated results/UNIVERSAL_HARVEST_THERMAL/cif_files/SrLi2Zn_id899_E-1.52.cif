@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_SrLi2Zn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.50910421
+_cell_length_b   6.50913661
+_cell_length_c   12.00895364
+_cell_angle_alpha   90.00018423
+_cell_angle_beta   90.00022602
+_cell_angle_gamma   89.99769934
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrLi2Zn
+_chemical_formula_sum   'Sr4 Li8 Zn4'
+_cell_volume   508.80313487
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.26574122  0.75848573  0.00000014  1
+  Sr  Sr1  1  0.73425881  0.24151422  -0.00000015  1
+  Sr  Sr2  1  0.24151486  0.26574159  0.49999978  1
+  Sr  Sr3  1  0.75848513  0.73425840  0.50000024  1
+  Zn  Zn4  1  0.26766568  0.18047245  -0.00000013  1
+  Zn  Zn5  1  0.73233432  0.81952754  0.00000015  1
+  Zn  Zn6  1  0.81952666  0.26766430  0.50000010  1
+  Zn  Zn7  1  0.18047332  0.73233568  0.49999989  1
+  Li  Li8  1  0.78582732  0.38762228  0.27347451  1
+  Li  Li9  1  0.21417268  0.61237768  0.27347443  1
+  Li  Li10  1  0.61237754  0.78582751  0.77347463  1
+  Li  Li11  1  0.38762234  0.21417248  0.77347474  1
+  Li  Li12  1  0.21417267  0.61237769  0.72652551  1
+  Li  Li13  1  0.78582732  0.38762230  0.72652559  1
+  Li  Li14  1  0.38762239  0.21417251  0.22652528  1
+  Li  Li15  1  0.61237763  0.78582754  0.22652529  1

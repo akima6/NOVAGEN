@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ba4Na2In
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.13884810
+_cell_length_b   10.27489901
+_cell_length_c   8.28332371
+_cell_angle_alpha   90.00000028
+_cell_angle_beta   88.19213143
+_cell_angle_gamma   90.00000219
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba4Na2In
+_chemical_formula_sum   'Ba8 Na4 In2'
+_cell_volume   862.49102169
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  -0.00000024  0.50000000  0.50000017  1
+  In  In1  1  0.49999993  0.00000000  0.50000005  1
+  Na  Na2  1  0.23475269  0.00000000  0.75595652  1
+  Na  Na3  1  0.76524687  -0.00000000  0.24404165  1
+  Na  Na4  1  0.73475203  0.50000000  0.75595545  1
+  Na  Na5  1  0.26524638  0.50000000  0.24403919  1
+  Ba  Ba6  1  0.24615692  -0.00000000  0.11540277  1
+  Ba  Ba7  1  0.75384302  0.00000000  0.88459691  1
+  Ba  Ba8  1  0.74615685  0.50000000  0.11540243  1
+  Ba  Ba9  1  0.25384293  0.50000000  0.88459646  1
+  Ba  Ba10  1  0.76588824  0.00000000  0.21490649  1
+  Ba  Ba11  1  0.23411235  -0.00000000  0.78509558  1
+  Ba  Ba12  1  0.26588892  0.50000000  0.21490931  1
+  Ba  Ba13  1  0.73411312  0.50000000  0.78509694  1

@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_BSe12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.21368859
+_cell_length_b   13.21368855
+_cell_length_c   13.21368805
+_cell_angle_alpha   89.99999961
+_cell_angle_beta   89.99999934
+_cell_angle_gamma   90.00000390
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BSe12
+_chemical_formula_sum   'B2 Se24'
+_cell_volume   2307.13062144
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  B  B0  1  0.00000000  0.00000000  -0.00000000  1
+  B  B1  1  0.50000000  0.50000001  0.50000000  1
+  Se  Se2  1  0.25000000  0.32207205  0.17792795  1
+  Se  Se3  1  0.74999999  0.67792792  0.17792794  1
+  Se  Se4  1  0.75000001  0.32207206  0.82207208  1
+  Se  Se5  1  0.25000000  0.67792794  0.82207207  1
+  Se  Se6  1  0.17792794  0.25000000  0.32207205  1
+  Se  Se7  1  0.17792795  0.75000000  0.67792792  1
+  Se  Se8  1  0.82207209  0.75000000  0.32207207  1
+  Se  Se9  1  0.82207208  0.25000000  0.67792792  1
+  Se  Se10  1  0.32207206  0.17792795  0.25000000  1
+  Se  Se11  1  0.67792791  0.17792794  0.75000000  1
+  Se  Se12  1  0.32207205  0.82207207  0.75000001  1
+  Se  Se13  1  0.67792791  0.82207208  0.25000000  1
+  Se  Se14  1  0.75000000  0.82207208  0.67792792  1
+  Se  Se15  1  0.25000001  0.17792796  0.67792794  1
+  Se  Se16  1  0.24999999  0.82207205  0.32207207  1
+  Se  Se17  1  0.75000001  0.17792795  0.32207209  1
+  Se  Se18  1  0.67792791  0.75000000  0.82207209  1
+  Se  Se19  1  0.67792791  0.25000000  0.17792794  1
+  Se  Se20  1  0.32207207  0.24999999  0.82207206  1
+  Se  Se21  1  0.32207208  0.75000001  0.17792795  1
+  Se  Se22  1  0.82207208  0.67792792  0.74999999  1
+  Se  Se23  1  0.17792796  0.67792794  0.25000001  1
+  Se  Se24  1  0.82207208  0.32207208  0.25000000  1
+  Se  Se25  1  0.17792795  0.32207208  0.75000000  1

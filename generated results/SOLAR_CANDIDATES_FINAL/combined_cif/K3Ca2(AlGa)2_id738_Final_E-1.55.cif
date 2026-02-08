@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_K3Ca2(AlGa)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.44459422
+_cell_length_b   6.30055162
+_cell_length_c   12.65601954
+_cell_angle_alpha   89.73912623
+_cell_angle_beta   89.84547904
+_cell_angle_gamma   90.08281968
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3Ca2(AlGa)2
+_chemical_formula_sum   'K6 Ca4 Al4 Ga4'
+_cell_volume   513.88358534
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  -0.00003023  0.00000056  0.00119050  1
+  K  K1  1  0.50000370  0.49999916  0.50115457  1
+  K  K2  1  -0.01069287  0.50021734  0.28860381  1
+  K  K3  1  0.99899165  0.49999644  0.78379071  1
+  K  K4  1  0.49834269  -0.00000646  0.78349313  1
+  K  K5  1  0.50003508  -0.00151308  0.28497838  1
+  Ca  Ca6  1  1.02056327  0.49960519  0.27308699  1
+  Ca  Ca7  1  -0.00123501  0.49999548  0.78625948  1
+  Ca  Ca8  1  0.48337190  0.99994068  0.76685360  1
+  Ca  Ca9  1  0.49994139  1.00071661  0.26884972  1
+  Al  Al10  1  0.00044725  0.49999867  0.56948205  1
+  Al  Al11  1  0.99928628  0.50000524  0.07372871  1
+  Al  Al12  1  0.50008707  -0.00012283  0.07078583  1
+  Al  Al13  1  0.49961357  0.99999179  0.57448458  1
+  Ga  Ga14  1  0.99082359  0.50016596  0.25840413  1
+  Ga  Ga15  1  1.00186336  0.50000852  0.75250361  1
+  Ga  Ga16  1  0.51865473  0.00007710  0.76791320  1
+  Ga  Ga17  1  0.49993259  0.00092364  0.26769535  1

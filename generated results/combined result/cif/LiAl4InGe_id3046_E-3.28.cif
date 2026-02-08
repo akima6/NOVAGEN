@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_LiAl4InGe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.72740639
+_cell_length_b   5.72741285
+_cell_length_c   19.10398164
+_cell_angle_alpha   90.00000890
+_cell_angle_beta   90.00000398
+_cell_angle_gamma   89.99998845
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiAl4InGe
+_chemical_formula_sum   'Li4 Al16 In4 Ge4'
+_cell_volume   626.67213068
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  -0.00000000  -0.00000000  0.25000001  1
+  In  In1  1  -0.00000000  -0.00000001  0.75000000  1
+  In  In2  1  0.50000000  0.50000000  0.75000000  1
+  In  In3  1  0.50000000  0.50000000  0.25000001  1
+  Li  Li4  1  -0.00000000  0.00000000  0.00000000  1
+  Li  Li5  1  -0.00000000  -0.00000000  0.50000000  1
+  Li  Li6  1  0.50000000  0.50000000  0.50000000  1
+  Li  Li7  1  0.50000000  0.50000000  -0.00000000  1
+  Ge  Ge8  1  -0.00000001  0.49999995  -0.00000001  1
+  Ge  Ge9  1  0.50000002  -0.00000001  0.00000001  1
+  Ge  Ge10  1  0.49999994  -0.00000003  0.50000000  1
+  Ge  Ge11  1  -0.00000001  0.50000004  0.49999999  1
+  Al  Al12  1  0.64625168  0.14625168  0.37856703  1
+  Al  Al13  1  0.35374836  0.85374833  0.37856694  1
+  Al  Al14  1  0.85374834  0.64625167  0.37856683  1
+  Al  Al15  1  0.14625167  0.35374832  0.37856687  1
+  Al  Al16  1  0.35374832  0.14625169  0.12143309  1
+  Al  Al17  1  0.64625167  0.85374832  0.12143310  1
+  Al  Al18  1  0.14625166  0.64625168  0.12143314  1
+  Al  Al19  1  0.85374835  0.35374834  0.12143317  1
+  Al  Al20  1  0.14625167  0.64625167  0.87856687  1
+  Al  Al21  1  0.85374834  0.35374835  0.87856682  1
+  Al  Al22  1  0.35374833  0.14625168  0.87856688  1
+  Al  Al23  1  0.64625165  0.85374833  0.87856692  1
+  Al  Al24  1  0.85374831  0.64625169  0.62143317  1
+  Al  Al25  1  0.14625169  0.35374830  0.62143314  1
+  Al  Al26  1  0.64625170  0.14625169  0.62143297  1
+  Al  Al27  1  0.35374834  0.85374832  0.62143307  1

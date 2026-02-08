@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SrLi(AsO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.01377987
+_cell_length_b   8.31046903
+_cell_length_c   8.57684319
+_cell_angle_alpha   158.39540139
+_cell_angle_beta   95.11638890
+_cell_angle_gamma   97.40089521
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrLi(AsO4)2
+_chemical_formula_sum   'Sr1 Li1 As2 O8'
+_cell_volume   235.07185070
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  -0.00013903  -0.00033258  0.00031182  1
+  Li  Li1  1  0.00390753  -0.00034121  0.49836971  1
+  As  As2  1  0.25463846  0.64863674  0.33089592  1
+  As  As3  1  0.74446224  0.35095361  0.66924251  1
+  O  O4  1  0.30760936  0.65362741  0.52502790  1
+  O  O5  1  0.69111212  0.34555906  0.47470683  1
+  O  O6  1  0.19807302  0.90408224  -0.01803371  1
+  O  O7  1  0.06469894  0.30343328  -0.02265907  1
+  O  O8  1  0.68427691  0.65251830  0.07178410  1
+  O  O9  1  0.80161061  0.09547573  0.01913815  1
+  O  O10  1  -0.06536160  0.69901766  0.02246228  1
+  O  O11  1  0.31511144  0.34736979  -0.07124644  1

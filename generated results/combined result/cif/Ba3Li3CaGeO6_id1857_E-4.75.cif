@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ba3Li3CaGeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.56731360
+_cell_length_b   9.56716388
+_cell_length_c   3.44905278
+_cell_angle_alpha   89.99987934
+_cell_angle_beta   89.99986508
+_cell_angle_gamma   120.00394984
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3Li3CaGeO6
+_chemical_formula_sum   'Ba3 Li3 Ca1 Ge1 O6'
+_cell_volume   273.39238174
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.00000032  -0.00000020  0.00000001  1
+  Ge  Ge1  1  0.66666767  0.33333352  0.00000000  1
+  Li  Li2  1  0.53932005  0.53549808  -0.00000003  1
+  Li  Li3  1  0.46449622  0.00381561  0.00000001  1
+  Li  Li4  1  0.99616296  0.46067524  0.00000003  1
+  Ba  Ba5  1  0.01128906  0.49124892  -0.00000001  1
+  Ba  Ba6  1  0.50875487  0.52003073  0.00000002  1
+  Ba  Ba7  1  0.47997325  0.98872959  -0.00000003  1
+  O  O8  1  0.03963624  0.84429498  0.50000000  1
+  O  O9  1  0.15570536  0.19534338  0.50000000  1
+  O  O10  1  0.80465569  0.96036185  0.50000001  1
+  O  O11  1  0.58989589  0.72082943  0.50000000  1
+  O  O12  1  0.27917321  0.86906748  0.50000000  1
+  O  O13  1  0.13093590  0.41010473  0.50000000  1

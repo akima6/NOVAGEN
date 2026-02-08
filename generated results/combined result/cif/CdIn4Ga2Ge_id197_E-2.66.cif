@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_CdIn4Ga2Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.36745359
+_cell_length_b   7.36745805
+_cell_length_c   8.49856085
+_cell_angle_alpha   90.00001448
+_cell_angle_beta   89.99988978
+_cell_angle_gamma   89.99998388
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CdIn4Ga2Ge
+_chemical_formula_sum   'Cd2 In8 Ga4 Ge2'
+_cell_volume   461.29682853
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  -0.00000003  0.50000002  0.24999993  1
+  Ge  Ge1  1  0.50000002  0.00000001  0.75000006  1
+  Cd  Cd2  1  0.00000000  0.00000001  -0.00000000  1
+  Cd  Cd3  1  0.00000001  -0.00000001  0.50000000  1
+  Ga  Ga4  1  0.50000000  0.68782215  0.25000004  1
+  Ga  Ga5  1  0.50000000  0.31217784  0.24999996  1
+  Ga  Ga6  1  0.68782213  0.50000002  0.75000005  1
+  Ga  Ga7  1  0.31217784  0.50000000  0.74999998  1
+  In  In8  1  0.19552507  0.32873225  0.49995173  1
+  In  In9  1  0.80447494  0.67126775  0.49995161  1
+  In  In10  1  0.32873226  0.80447492  0.50004840  1
+  In  In11  1  0.67126773  0.19552504  0.50004840  1
+  In  In12  1  0.80447494  0.32873227  1.00004839  1
+  In  In13  1  0.19552504  0.67126772  1.00004834  1
+  In  In14  1  0.67126771  0.80447493  -0.00004848  1
+  In  In15  1  0.32873229  0.19552505  -0.00004840  1

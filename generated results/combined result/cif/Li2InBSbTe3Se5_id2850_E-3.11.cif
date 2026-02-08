@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Li2InBSbTe3Se5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.87437111
+_cell_length_b   19.48911406
+_cell_length_c   7.03849854
+_cell_angle_alpha   89.99975727
+_cell_angle_beta   75.12967604
+_cell_angle_gamma   89.99982792
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2InBSbTe3Se5
+_chemical_formula_sum   'Li4 In2 B2 Sb2 Te6 Se10'
+_cell_volume   1574.30436847
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  1.03339172  0.61316763  0.38301471  1
+  Sb  Sb1  1  -0.03339161  0.11316729  0.61698511  1
+  Te  Te2  1  0.03793597  0.33536430  0.96587784  1
+  Te  Te3  1  0.96206403  0.83536430  0.03412216  1
+  Se  Se4  1  0.41193605  0.31311860  0.28961023  1
+  Se  Se5  1  0.58806391  0.81311863  0.71038976  1
+  Se  Se6  1  0.72924160  0.20108053  0.75492130  1
+  Se  Se7  1  0.27075840  0.70108051  0.24507871  1
+  Te  Te8  1  0.91753220  0.82642940  0.62890647  1
+  Te  Te9  1  0.08246783  0.32642938  0.37109351  1
+  Se  Se10  1  0.86908628  0.06162163  0.90318038  1
+  Se  Se11  1  0.13091359  0.56162158  0.09681983  1
+  Se  Se12  1  0.91010088  0.42984212  0.34746761  1
+  Se  Se13  1  0.08989906  0.92984231  0.65253233  1
+  Te  Te14  1  0.65077977  0.63208577  0.25170339  1
+  Te  Te15  1  0.34921993  0.13208568  0.74829645  1
+  In  In16  1  0.80234825  0.55361216  0.40154792  1
+  In  In17  1  0.19765215  0.05361218  0.59845228  1
+  Se  Se18  1  0.82336256  0.19623892  0.26943725  1
+  Se  Se19  1  0.17663745  0.69623890  0.73056278  1
+  Li  Li20  1  0.89906622  0.30435529  0.26379207  1
+  Li  Li21  1  0.10093378  0.80435521  0.73620793  1
+  B  B22  1  0.76789696  0.41850768  0.29765702  1
+  B  B23  1  0.23210297  0.91850787  0.70234294  1
+  Li  Li24  1  0.81676625  0.31834361  0.74257177  1
+  Li  Li25  1  0.18323378  0.81834359  0.25742825  1

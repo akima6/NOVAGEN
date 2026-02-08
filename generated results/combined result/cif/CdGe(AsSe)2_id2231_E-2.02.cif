@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CdGe(AsSe)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.14891077
+_cell_length_b   7.07700281
+_cell_length_c   11.16739601
+_cell_angle_alpha   90.05818345
+_cell_angle_beta   89.92110826
+_cell_angle_gamma   90.09025580
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CdGe(AsSe)2
+_chemical_formula_sum   'Cd2 Ge2 As4 Se4'
+_cell_volume   564.98899443
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  -0.00001937  0.00001726  0.00000534  1
+  Cd  Cd1  1  -0.00001706  0.00001499  0.49990545  1
+  Ge  Ge2  1  -0.00286962  0.00233570  0.23449564  1
+  Ge  Ge3  1  0.00969191  -0.00860727  0.74902587  1
+  Se  Se4  1  0.00221445  -0.00179686  0.28090965  1
+  Se  Se5  1  0.00065268  -0.00053691  0.23467743  1
+  Se  Se6  1  -0.00453665  0.00403133  0.74211461  1
+  Se  Se7  1  -0.00511555  0.00454158  0.75885814  1
+  As  As8  1  0.58024990  0.72983118  -0.00001927  1
+  As  As9  1  0.41974978  0.27016912  -0.00001911  1
+  As  As10  1  0.41975370  0.72982910  0.50002356  1
+  As  As11  1  0.58024582  0.27017077  0.50002270  1

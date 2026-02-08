@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Sc7Si
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.52232461
+_cell_length_b   15.13750796
+_cell_length_c   3.06409787
+_cell_angle_alpha   89.99999009
+_cell_angle_beta   89.99999746
+_cell_angle_gamma   89.99999299
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc7Si
+_chemical_formula_sum   'Sc14 Si2'
+_cell_volume   488.05494079
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.00000002  -0.00000008  -0.00000000  1
+  Si  Si1  1  0.50000000  0.50000003  0.00000000  1
+  Sc  Sc2  1  -0.00000000  0.50000000  -0.00000000  1
+  Sc  Sc3  1  0.50000000  0.00000001  -0.00000000  1
+  Sc  Sc4  1  0.40345171  0.32359529  -0.00000000  1
+  Sc  Sc5  1  0.59654831  0.67640470  0.00000000  1
+  Sc  Sc6  1  0.09654827  0.82359534  0.00000000  1
+  Sc  Sc7  1  0.90345169  0.17640470  -0.00000000  1
+  Sc  Sc8  1  0.89076121  0.34816433  0.50000000  1
+  Sc  Sc9  1  0.10923882  0.65183568  0.50000001  1
+  Sc  Sc10  1  0.60923881  0.84816434  0.50000000  1
+  Sc  Sc11  1  0.39076126  0.15183566  0.50000000  1
+  Sc  Sc12  1  0.84999262  0.74667826  0.50000000  1
+  Sc  Sc13  1  0.15000740  0.25332172  0.50000000  1
+  Sc  Sc14  1  0.65000738  0.24667832  0.50000000  1
+  Sc  Sc15  1  0.34999263  0.75332174  0.50000000  1

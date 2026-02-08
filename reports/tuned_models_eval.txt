@@ -1,0 +1,85 @@
+==========================================================================================
+                               🚀  PHASE 1 FINAL VALIDATION                                
+==========================================================================================
+Samples per model : 100
+Evaluation goal  : Reduce gas/implosion & improve structural stability
+
+
+------------------------------------------------------------------------------------------
+🧪 Testing Model: Original Base
+------------------------------------------------------------------------------------------
+💎 Initializing CrystalGenerator on cuda...
+100%|█████████████████████████████████████████| 100/100 [02:07<00:00,  1.27s/it]
+
+------------------------------------------------------------------------------------------
+🧪 Testing Model: Phase 1 (Final)
+------------------------------------------------------------------------------------------
+💎 Initializing CrystalGenerator on cuda...
+100%|█████████████████████████████████████████| 100/100 [02:07<00:00,  1.27s/it]
+
+==========================================================================================
+                               📊  PHASE 1 VALIDATION REPORT                               
+==========================================================================================
+          Model Success Rate (%) Gas Rate (%) Implosion Rate (%) Vol Std Dev Sentinel Pass (%)
+  Original Base           53.00%       21.00%             26.00%       47.05            46.00%
+Phase 1 (Final)           48.00%       25.00%             27.00%       39.30            33.00%
+==========================================================================================
+
+==========================================================================================
+                            🚀  PHASE 2: DEFINITIVE VALIDATION                             
+==========================================================================================
+Objective: Prove Phase 2 generates ORDERED MATERIALS (Symmetry + Chemistry).
+Metrics:   Energy, Realistic Purity, and Crystal Symmetry.
+
+🧪 Evaluating: Original Base...
+💎 Initializing CrystalGenerator on cuda...
+                                                                                
+
+🏆 TOP 10 VALID CANDIDATES: Original Base
+Rank  | Formula              | Energy     | SG #  | Realism?
+-----------------------------------------------------------------
+1     | BaSc3CdSe6           | -4.366 eV   | 163   | ✅ Valid
+2     | BPO19                | -4.052 eV   | 7     | ✅ Valid
+3     | MgTi2O8              | -3.743 eV   | 113   | ✅ Valid
+4     | Li4MgSiO16           | -3.503 eV   | 34    | ✅ Valid
+5     | Li4P3                | -3.482 eV   | 220   | ✅ Valid
+6     | Li6PO5               | -3.076 eV   | 18    | ✅ Valid
+7     | Na2LiB4Sb            | -2.916 eV   | 132   | ✅ Valid
+8     | BaCdO12              | -2.628 eV   | 182   | ✅ Valid
+9     | BeB                  | -2.322 eV   | 180   | ✅ Valid
+10    | Al15Si               | -2.192 eV   | 3     | ✅ Valid
+-----------------------------------------------------------------
+
+🧪 Evaluating: Phase 2 (Fine-Tuned)...
+💎 Initializing CrystalGenerator on cuda...
+                                                                                
+
+🏆 TOP 10 VALID CANDIDATES: Phase 2 (Fine-Tuned)
+Rank  | Formula              | Energy     | SG #  | Realism?
+-----------------------------------------------------------------
+1     | AsO                  | -5.257 eV   | 225   | ✅ Valid
+2     | Si                   | -4.797 eV   | 60    | ✅ Valid
+3     | Sc                   | -4.679 eV   | 53    | ✅ Valid
+4     | Sc5Te2               | -4.585 eV   | 64    | ✅ Valid
+5     | P2C                  | -3.621 eV   | 213   | ✅ Valid
+6     | BaMgAlGa4            | -3.022 eV   | 119   | ✅ Valid
+7     | Ga                   | -2.925 eV   | 221   | ✅ Valid
+8     | Zn2Ga6Ge             | -2.770 eV   | 111   | ✅ Valid
+9     | Al                   | -2.526 eV   | 142   | ✅ Valid
+10    | Zn3Cd2Sn3Ge          | -2.479 eV   | 193   | ✅ Valid
+-----------------------------------------------------------------
+
+==========================================================================================
+                                   📊  FINAL COMPARISON                                    
+==========================================================================================
+               Model Stable Yield Realistic Purity Symmetry (>P1) Best Valid Energy Median Energy
+       Original Base        19.0%            57.0%          71.0%         -4.366 eV     50.000 eV
+Phase 2 (Fine-Tuned)        31.0%            61.0%          78.0%         -5.257 eV     19.953 eV
+
+🧠  VERDICT:
+------------------------------------------------------------------------------------------
+1. CHEMISTRY  : Phase 2 produces 4.0% more realistic formulas.
+2. ORDER      : Phase 2 produces 7.0% more symmetrical crystals.
+   -> Original model makes random blobs (P1).
+   -> Phase 2 creates structured, ordered matter.
+==========================================================================================

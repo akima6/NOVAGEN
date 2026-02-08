@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_K2Na2Sr2Li6Be2Cd4In6SnSb2Te
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   15.03986391
+_cell_length_b   8.44447859
+_cell_length_c   25.88787626
+_cell_angle_alpha   89.99994961
+_cell_angle_beta   85.05383452
+_cell_angle_gamma   90.00003116
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Na2Sr2Li6Be2Cd4In6SnSb2Te
+_chemical_formula_sum   'K2 Na2 Sr2 Li6 Be2 Cd4 In6 Sn1 Sb2 Te1'
+_cell_volume   3275.61538971
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.00000001  -0.00000000  0.00000000  1
+  Te  Te1  1  0.50027215  0.50000000  0.00000732  1
+  Sb  Sb2  1  0.23511070  -0.00000000  0.56553315  1
+  Sb  Sb3  1  0.76488878  -0.00000000  0.43446741  1
+  In  In4  1  0.36162273  0.50000004  0.06776701  1
+  In  In5  1  0.63766365  0.49999999  0.93101058  1
+  In  In6  1  0.12788011  0.50000000  0.59414681  1
+  In  In7  1  0.87212761  0.50000000  0.40583975  1
+  Li  Li8  1  0.63985189  0.50000000  0.08992168  1
+  Li  Li9  1  0.36015613  0.50000000  0.91009942  1
+  Li  Li10  1  0.87952817  0.50000000  0.73135671  1
+  Li  Li11  1  0.11507716  0.50000001  0.27129138  1
+  Sr  Sr12  1  0.35704863  0.49999997  0.31095463  1
+  Sr  Sr13  1  0.64288632  0.50000000  0.68895112  1
+  Cd  Cd14  1  0.36517162  0.49999992  0.17060494  1
+  Cd  Cd15  1  0.62951798  0.50000000  0.82556981  1
+  K  K16  1  0.86339956  0.50000000  0.59451374  1
+  K  K17  1  0.13660676  0.50000000  0.40548040  1
+  Cd  Cd18  1  0.61038611  0.50000000  0.36261827  1
+  Cd  Cd19  1  0.38961106  0.50000000  0.63737061  1
+  Li  Li20  1  0.63331574  0.50000000  0.83091150  1
+  Li  Li21  1  0.37213609  0.50000006  0.17392202  1
+  Na  Na22  1  0.48038964  0.50000001  0.77474881  1
+  Na  Na23  1  0.51990066  0.50000001  0.22553082  1
+  Be  Be24  1  0.12210808  0.49999999  0.27022763  1
+  Be  Be25  1  0.88333439  0.50000000  0.72711803  1
+  In  In26  1  0.37872007  0.50000000  0.46497518  1
+  In  In27  1  0.62128829  0.50000000  0.53506121  1

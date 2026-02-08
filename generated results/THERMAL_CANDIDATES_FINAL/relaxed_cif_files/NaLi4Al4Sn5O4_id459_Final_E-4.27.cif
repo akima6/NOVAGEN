@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_NaLi4Al4Sn5O4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.48695574
+_cell_length_b   7.48696121
+_cell_length_c   8.55024526
+_cell_angle_alpha   90.00002283
+_cell_angle_beta   89.99993374
+_cell_angle_gamma   89.99946376
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLi4Al4Sn5O4
+_chemical_formula_sum   'Na1 Li4 Al4 Sn5 O4'
+_cell_volume   479.28012712
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.49999982  0.50000003  0.46185689  1
+  Li  Li1  1  0.27653784  0.17886455  0.71380662  1
+  Li  Li2  1  0.72346185  0.82113579  0.71380668  1
+  Li  Li3  1  0.82113680  0.27653925  0.71380532  1
+  Li  Li4  1  0.17886288  0.72346202  0.71380513  1
+  Al  Al5  1  0.23007525  0.11377302  0.08727450  1
+  Al  Al6  1  0.76992477  0.88622664  0.08727462  1
+  Al  Al7  1  0.88622698  0.23007114  0.08727638  1
+  Al  Al8  1  0.11377276  0.76992889  0.08727595  1
+  Sn  Sn9  1  -0.00000044  1.00000029  0.84718459  1
+  Sn  Sn10  1  0.31476505  -0.07346707  0.36750507  1
+  Sn  Sn11  1  0.68523510  1.07346676  0.36750544  1
+  Sn  Sn12  1  1.07346669  0.31476387  0.36750528  1
+  Sn  Sn13  1  -0.07346630  0.68523561  0.36750507  1
+  O  O14  1  0.23807135  0.15246371  0.50433537  1
+  O  O15  1  0.76192877  0.84753623  0.50433533  1
+  O  O16  1  0.84753652  0.23806940  0.50433440  1
+  O  O17  1  0.15246432  0.76192990  0.50433423  1

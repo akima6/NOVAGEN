@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Li4AlZn4InGa4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.77775510
+_cell_length_b   2.92878246
+_cell_length_c   8.88560875
+_cell_angle_alpha   89.99994118
+_cell_angle_beta   116.95334310
+_cell_angle_gamma   90.00001984
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li4AlZn4InGa4
+_chemical_formula_sum   'Li4 Al1 Zn4 In1 Ga4'
+_cell_volume   342.80225086
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.00000002  0.00000000  0.00000001  1
+  Li  Li1  1  0.50000001  0.49999998  0.00000001  1
+  Al  Al2  1  0.00000002  0.49999999  0.49999999  1
+  Li  Li3  1  0.49999994  0.00000000  0.50000002  1
+  Ga  Ga4  1  0.23154403  0.00000001  0.19874413  1
+  Ga  Ga5  1  0.76845594  0.00000000  0.80125590  1
+  Zn  Zn6  1  0.11949745  -0.00000000  0.40051744  1
+  Zn  Zn7  1  0.88050261  0.00000001  0.59948253  1
+  Ga  Ga8  1  0.32395802  -0.00000000  0.55705016  1
+  Ga  Ga9  1  0.67604198  0.00000001  0.44294983  1
+  Zn  Zn10  1  0.45775786  0.50000002  0.72195223  1
+  Zn  Zn11  1  0.54224212  0.49999998  0.27804774  1
+  Li  Li12  1  0.65301522  0.49999999  0.86931987  1
+  Li  Li13  1  0.34698478  0.50000001  0.13068015  1

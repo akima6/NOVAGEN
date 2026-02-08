@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Na2LiSb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.38503340
+_cell_length_b   5.38549752
+_cell_length_c   20.62429607
+_cell_angle_alpha   89.99997175
+_cell_angle_beta   89.99999254
+_cell_angle_gamma   89.99987945
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2LiSb
+_chemical_formula_sum   'Na8 Li4 Sb4'
+_cell_volume   598.12694319
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  -0.00000001  -0.00000001  -0.00000002  1
+  Li  Li1  1  0.00000001  0.00000001  0.49999998  1
+  Li  Li2  1  0.49999994  0.49999997  0.25000007  1
+  Li  Li3  1  0.50000004  0.49999999  0.75000012  1
+  Sb  Sb4  1  0.00000005  0.50000003  0.25000001  1
+  Sb  Sb5  1  0.49999994  -0.00000005  0.74999994  1
+  Sb  Sb6  1  -0.00000011  0.49999999  0.74999995  1
+  Sb  Sb7  1  0.50000002  -0.00000002  0.24999998  1
+  Na  Na8  1  0.27481243  0.27481363  0.12702075  1
+  Na  Na9  1  0.72518755  0.72518639  0.12702081  1
+  Na  Na10  1  0.72518759  0.27481367  0.62702080  1
+  Na  Na11  1  0.27481244  0.72518637  0.62702082  1
+  Na  Na12  1  0.72518753  0.27481362  0.37297918  1
+  Na  Na13  1  0.27481241  0.72518632  0.37297918  1
+  Na  Na14  1  0.27481248  0.27481365  0.87297922  1
+  Na  Na15  1  0.72518757  0.72518632  0.87297922  1

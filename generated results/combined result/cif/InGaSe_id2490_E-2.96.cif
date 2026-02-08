@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_InGaSe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.10045944
+_cell_length_b   15.22754711
+_cell_length_c   8.00114318
+_cell_angle_alpha   90.00017190
+_cell_angle_beta   89.99999358
+_cell_angle_gamma   89.99996951
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InGaSe
+_chemical_formula_sum   'In4 Ga4 Se4'
+_cell_volume   986.94203327
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  -0.00000000  -0.00513717  0.22171148  1
+  Se  Se1  1  0.00000000  1.00513684  0.72171139  1
+  Se  Se2  1  0.50000000  0.49486298  0.22171148  1
+  Se  Se3  1  0.50000000  0.50513711  0.72171150  1
+  Ga  Ga4  1  0.00000000  0.87767599  0.51895437  1
+  Ga  Ga5  1  -0.00000000  0.12232452  0.01895436  1
+  Ga  Ga6  1  0.50000000  0.37767577  0.51895428  1
+  Ga  Ga7  1  0.50000000  0.62232414  0.01895432  1
+  In  In8  1  -0.00000000  0.84006607  0.84740860  1
+  In  In9  1  0.00000000  0.15993377  0.34740846  1
+  In  In10  1  0.50000000  0.34006613  0.84740851  1
+  In  In11  1  0.50000000  0.65993385  0.34740855  1

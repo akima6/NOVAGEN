@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Li2Be5(Al2B)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.47741717
+_cell_length_b   10.88689595
+_cell_length_c   4.63334910
+_cell_angle_alpha   90.13477816
+_cell_angle_beta   87.90022994
+_cell_angle_gamma   92.17016676
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2Be5(Al2B)2
+_chemical_formula_sum   'Li4 Be10 Al8 B4'
+_cell_volume   578.14896162
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.11994275  0.87950108  0.00008740  1.0
+  Li  Li1  1  0.87928702  0.11967786  0.99991724  1.0
+  Li  Li2  1  0.61910451  0.61876076  0.50004797  1.0
+  Li  Li3  1  0.37966813  0.37953085  0.49991548  1.0
+  Be  Be4  1  0.00274432  0.00240218  0.49954277  1.0
+  Be  Be5  1  0.50729766  0.49279489  0.00018650  1.0
+  Be  Be6  1  0.34175013  0.64842139  0.99993985  1.0
+  Be  Be7  1  0.63638520  0.35589580  0.99586367  1.0
+  Be  Be8  1  0.87125516  0.85733739  0.49400443  1.0
+  Be  Be9  1  0.14295300  0.14911958  0.50003380  1.0
+  Be  Be10  1  0.40552882  0.60424113  0.99996690  1.0
+  Be  Be11  1  0.61445821  0.39394308  0.99882398  1.0
+  Be  Be12  1  0.88311661  0.88570460  0.50057728  1.0
+  Be  Be13  1  0.10902376  0.11733340  0.50004048  1.0
+  Al  Al14  1  0.38099723  0.62125574  0.99996211  1.0
+  Al  Al15  1  0.63067751  0.36759024  0.00077401  1.0
+  Al  Al16  1  0.86213074  0.86457182  0.49998352  1.0
+  Al  Al17  1  0.13302419  0.12808080  0.50006819  1.0
+  Al  Al18  1  0.36344424  0.63339298  0.99995256  1.0
+  Al  Al19  1  0.62866530  0.37257179  0.00426924  1.0
+  Al  Al20  1  0.87430628  0.88607461  0.50590883  1.0
+  Al  Al21  1  0.13129741  0.11963862  0.50008033  1.0
+  B  B22  1  0.24233365  0.75791208  0.00001374  1.0
+  B  B23  1  0.74808471  0.25186588  0.00028362  1.0
+  B  B24  1  0.74558537  0.74485285  0.49983669  1.0
+  B  B25  1  0.24693809  0.24752857  0.49991942  1.0

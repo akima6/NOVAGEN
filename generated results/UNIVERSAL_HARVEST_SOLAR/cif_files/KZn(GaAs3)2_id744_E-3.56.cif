@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KZn(GaAs3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.12377525
+_cell_length_b   6.12377550
+_cell_length_c   10.19719877
+_cell_angle_alpha   90.00000423
+_cell_angle_beta   89.99999482
+_cell_angle_gamma   120.00000671
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KZn(GaAs3)2
+_chemical_formula_sum   'K1 Zn1 Ga2 As6'
+_cell_volume   331.16923968
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  -0.00000000  0.00000000  0.00000001  1
+  K  K1  1  -0.00000002  0.00000002  0.50000002  1
+  Ga  Ga2  1  0.33333334  0.66666669  0.39685071  1
+  Ga  Ga3  1  0.66666669  0.33333335  0.60314928  1
+  As  As4  1  0.23560016  0.22148817  0.78686858  1
+  As  As5  1  0.77851182  0.01411197  0.78686858  1
+  As  As6  1  0.98588801  0.76439983  0.78686860  1
+  As  As7  1  0.22148818  0.23560015  0.21313141  1
+  As  As8  1  0.01411198  0.77851182  0.21313139  1
+  As  As9  1  0.76439984  0.98588801  0.21313141  1

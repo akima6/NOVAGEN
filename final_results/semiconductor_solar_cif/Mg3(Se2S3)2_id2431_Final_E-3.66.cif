@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Mg3(Se2S3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.92494067
+_cell_length_b   9.74144545
+_cell_length_c   5.14725509
+_cell_angle_alpha   91.80822681
+_cell_angle_beta   87.86384223
+_cell_angle_gamma   87.74599111
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg3(Se2S3)2
+_chemical_formula_sum   'Mg6 Se8 S12'
+_cell_volume   496.65105837
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.99980260  1.00010362  1.00003016  1
+  Mg  Mg1  1  0.50013930  0.50011663  0.99999908  1
+  Mg  Mg2  1  0.34004613  0.83997477  0.99364831  1
+  Mg  Mg3  1  0.66042211  0.16028518  0.99364823  1
+  Mg  Mg4  1  0.83959129  0.66000857  0.00632401  1
+  Mg  Mg5  1  0.15996954  0.33967646  0.00634232  1
+  Se  Se6  1  0.15016668  0.65990787  0.48922310  1
+  Se  Se7  1  0.86167880  0.33733336  0.49259221  1
+  Se  Se8  1  0.65573220  0.84701642  0.51090525  1
+  Se  Se9  1  0.34038616  0.14537007  0.50968358  1
+  Se  Se10  1  0.35437668  0.15935932  0.51025030  1
+  Se  Se11  1  0.64953469  0.84690298  0.51146278  1
+  Se  Se12  1  0.83771431  0.35531061  0.49320040  1
+  Se  Se13  1  0.15692511  0.64364451  0.48942761  1
+  S  S14  1  0.16426072  0.66654354  0.48833753  1
+  S  S15  1  0.83229303  0.33666623  0.48037841  1
+  S  S16  1  0.66615361  0.83471054  0.51043566  1
+  S  S17  1  0.33564254  0.16449088  0.51352066  1
+  S  S18  1  0.20443243  0.88472930  0.50528117  1
+  S  S19  1  0.79450237  0.11555867  0.50567921  1
+  S  S20  1  0.88419791  0.79498596  0.49479824  1
+  S  S21  1  0.11305764  0.20508134  0.49449669  1
+  S  S22  1  0.29502208  0.38760962  0.49442902  1
+  S  S23  1  0.70516142  0.61570301  0.49474519  1
+  S  S24  1  0.61380200  0.29416749  0.50575124  1
+  S  S25  1  0.38498863  0.70474305  0.50540970  1

@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_Li4Ca(AlIn)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.25607960
+_cell_length_b   12.25608157
+_cell_length_c   5.43497087
+_cell_angle_alpha   90.00001109
+_cell_angle_beta   89.99997325
+_cell_angle_gamma   120.00001488
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li4Ca(AlIn)2
+_chemical_formula_sum   'Li12 Ca3 Al6 In6'
+_cell_volume   707.01886656
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.50000007  0.50000004  0.75521693  1
+  Ca  Ca1  1  0.50000002  -0.00000001  0.08855029  1
+  Ca  Ca2  1  0.00000010  0.50000008  0.42188369  1
+  Al  Al3  1  0.62102218  0.56662717  0.27174762  1
+  Al  Al4  1  0.43337286  0.05439510  0.60508091  1
+  Al  Al5  1  0.94560488  0.37897774  0.93841427  1
+  Al  Al6  1  0.37897775  0.43337280  0.27174756  1
+  Al  Al7  1  0.56662722  0.94560503  0.60508098  1
+  Al  Al8  1  0.05439512  0.62102214  0.93841430  1
+  Li  Li9  1  0.76466306  0.21177573  0.71213307  1
+  Li  Li10  1  0.78822428  0.55288718  0.04546631  1
+  Li  Li11  1  0.44711259  0.23533691  0.37879980  1
+  Li  Li12  1  0.23533696  0.78822436  0.71213303  1
+  Li  Li13  1  0.21177574  0.44711273  0.04546644  1
+  Li  Li14  1  0.55288729  0.76466306  0.37879973  1
+  Li  Li15  1  0.67432078  0.77142359  0.85207657  1
+  Li  Li16  1  0.22857640  0.90289716  0.18540989  1
+  Li  Li17  1  0.09710278  0.32567928  0.51874314  1
+  Li  Li18  1  0.32567924  0.22857640  0.85207660  1
+  Li  Li19  1  0.77142357  0.09710280  0.18540994  1
+  Li  Li20  1  0.90289716  0.67432079  0.51874322  1
+  In  In21  1  0.85273007  0.05042343  0.64580567  1
+  In  In22  1  0.94957658  0.80230671  -0.02086102  1
+  In  In23  1  0.19769333  0.14726988  0.31247229  1
+  In  In24  1  0.14726982  0.94957648  0.64580569  1
+  In  In25  1  0.05042348  0.19769333  -0.02086103  1
+  In  In26  1  0.80230667  0.85273009  0.31247236  1

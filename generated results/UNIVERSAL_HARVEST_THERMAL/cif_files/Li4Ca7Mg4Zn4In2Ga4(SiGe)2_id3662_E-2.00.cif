@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Li4Ca7Mg4Zn4In2Ga4(SiGe)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.76629613
+_cell_length_b   11.38646609
+_cell_length_c   17.28079245
+_cell_angle_alpha   51.31295833
+_cell_angle_beta   112.52841296
+_cell_angle_gamma   111.48467461
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li4Ca7Mg4Zn4In2Ga4(SiGe)2
+_chemical_formula_sum   'Li4 Ca7 Mg4 Zn4 In2 Ga4 Si2 Ge2'
+_cell_volume   1363.96522195
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  -0.00000001  -0.00000000  0.00000000  1
+  Ca  Ca1  1  0.15117458  0.62951384  0.23826017  1
+  Ca  Ca2  1  0.84882542  0.37048615  0.76173985  1
+  Ga  Ga3  1  0.23899231  0.87913861  0.38041010  1
+  Ga  Ga4  1  0.76100771  0.12086145  0.61958990  1
+  Zn  Zn5  1  0.24062365  0.05242709  0.46664502  1
+  Zn  Zn6  1  0.75937633  0.94757288  0.53335496  1
+  Ca  Ca7  1  0.47267875  0.93803355  0.14360851  1
+  Ca  Ca8  1  0.52732129  0.06196644  0.85639156  1
+  Mg  Mg9  1  0.39672480  0.65752662  0.04577306  1
+  Mg  Mg10  1  0.60327523  0.34247340  0.95422695  1
+  Li  Li11  1  0.44711833  0.47017770  0.40508212  1
+  Li  Li12  1  0.55288165  0.52982229  0.59491784  1
+  Mg  Mg13  1  0.64516052  0.34396240  0.14399341  1
+  Mg  Mg14  1  0.35483949  0.65603763  0.85600659  1
+  Li  Li15  1  0.76615015  0.02812118  0.79145268  1
+  Li  Li16  1  0.23384985  0.97187882  0.20854734  1
+  Ca  Ca17  1  0.90485973  0.77087165  0.28184666  1
+  Ca  Ca18  1  0.09514023  0.22912830  0.71815333  1
+  Ga  Ga19  1  0.87983495  0.45477728  0.43648759  1
+  Ga  Ga20  1  0.12016504  0.54522271  0.56351255  1
+  Si  Si21  1  0.88048518  0.42630818  0.58797276  1
+  Si  Si22  1  0.11951481  0.57369176  0.41202713  1
+  Zn  Zn23  1  0.93382471  0.37141986  0.32623581  1
+  Zn  Zn24  1  0.06617535  0.62858006  0.67376395  1
+  Ge  Ge25  1  0.88916500  0.70665242  0.48060924  1
+  Ge  Ge26  1  0.11083494  0.29334772  0.51939084  1
+  In  In27  1  0.76325713  0.57476312  0.18147867  1
+  In  In28  1  0.23674288  0.42523689  0.81852133  1

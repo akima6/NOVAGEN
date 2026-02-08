@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Sn2GeSe6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   15.60816285
+_cell_length_b   7.99271221
+_cell_length_c   9.61304574
+_cell_angle_alpha   90.00005032
+_cell_angle_beta   89.99998792
+_cell_angle_gamma   89.99999614
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sn2GeSe6
+_chemical_formula_sum   'Sn4 Ge2 Se12'
+_cell_volume   1199.24239336
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  -0.00000000  -0.00000000  0.80695067  1
+  Ge  Ge1  1  -0.00000000  0.00000000  0.30695073  1
+  Se  Se2  1  0.00000000  0.50000000  0.26455261  1
+  Se  Se3  1  0.00000000  0.50000000  0.76455264  1
+  Se  Se4  1  0.50000000  0.50000000  0.38218475  1
+  Se  Se5  1  0.50000006  0.49999997  0.88218477  1
+  Sn  Sn6  1  0.45124021  0.14155198  0.36747450  1
+  Sn  Sn7  1  0.54875978  0.85844823  0.36747436  1
+  Sn  Sn8  1  0.45124023  0.85844812  0.86747450  1
+  Sn  Sn9  1  0.54875972  0.14155184  0.86747441  1
+  Se  Se10  1  0.61910142  0.84797993  0.80178861  1
+  Se  Se11  1  0.38089863  0.15202008  0.80178860  1
+  Se  Se12  1  0.61910141  0.15202004  0.30178866  1
+  Se  Se13  1  0.38089862  0.84797992  0.30178869  1
+  Se  Se14  1  0.59676561  0.63270573  0.54373597  1
+  Se  Se15  1  0.40323441  0.36729412  0.54373587  1
+  Se  Se16  1  0.59676562  0.36729425  0.04373589  1
+  Se  Se17  1  0.40323437  0.63270584  0.04373584  1

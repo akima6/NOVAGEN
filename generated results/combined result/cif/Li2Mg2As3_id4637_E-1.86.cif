@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Li2Mg2As3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   16.68974927
+_cell_length_b   16.68976561
+_cell_length_c   9.44111443
+_cell_angle_alpha   90.00000443
+_cell_angle_beta   90.00000443
+_cell_angle_gamma   90.00014311
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2Mg2As3
+_chemical_formula_sum   'Li4 Mg4 As6'
+_cell_volume   2629.80357380
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  -0.00000001  0.00000004  -0.00000000  1
+  As  As1  1  0.49999980  0.50000011  0.00000000  1
+  As  As2  1  0.32688785  0.32688788  -0.00000000  1
+  As  As3  1  0.67311209  0.67311213  -0.00000000  1
+  As  As4  1  0.32688771  0.67311227  0.00000000  1
+  As  As5  1  0.67311247  0.32688750  -0.00000000  1
+  Li  Li6  1  0.10042824  0.10042838  0.00000000  1
+  Li  Li7  1  0.89957148  0.89957161  -0.00000000  1
+  Li  Li8  1  0.10042864  0.89957137  -0.00000000  1
+  Li  Li9  1  0.89957130  0.10042871  -0.00000000  1
+  Mg  Mg10  1  0.77492080  0.77492076  0.00000000  1
+  Mg  Mg11  1  0.22507944  0.22507947  -0.00000000  1
+  Mg  Mg12  1  0.77492082  0.22507924  0.00000000  1
+  Mg  Mg13  1  0.22507940  0.77492057  0.00000000  1

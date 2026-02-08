@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Li4Mg8Ga4BSb4P
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.47080644
+_cell_length_b   10.47081734
+_cell_length_c   15.51457286
+_cell_angle_alpha   89.99993186
+_cell_angle_beta   89.99992705
+_cell_angle_gamma   89.99984127
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li4Mg8Ga4BSb4P
+_chemical_formula_sum   'Li4 Mg8 Ga4 B1 Sb4 P1'
+_cell_volume   1700.98521288
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.00000051  0.00000016  0.53807587  1
+  B  B1  1  0.00000001  0.00000001  0.32381451  1
+  Li  Li2  1  0.24390302  0.81074437  0.24871436  1
+  Li  Li3  1  0.75609704  0.18925560  0.24871478  1
+  Li  Li4  1  0.18925562  0.24390309  0.24871451  1
+  Li  Li5  1  0.81074435  0.75609690  0.24871466  1
+  Sb  Sb6  1  0.20314195  0.64596855  0.60386458  1
+  Sb  Sb7  1  0.79685791  0.35403143  0.60386467  1
+  Sb  Sb8  1  0.35403113  0.20314197  0.60386455  1
+  Sb  Sb9  1  0.64596841  0.79685783  0.60386473  1
+  Mg  Mg10  1  0.76179272  0.51230684  0.26444639  1
+  Mg  Mg11  1  0.23820733  0.48769310  0.26444658  1
+  Mg  Mg12  1  0.48769316  0.76179268  0.26444671  1
+  Mg  Mg13  1  0.51230676  0.23820738  0.26444634  1
+  Ga  Ga14  1  0.14849386  0.85048117  0.53992882  1
+  Ga  Ga15  1  0.85150596  0.14951901  0.53992880  1
+  Ga  Ga16  1  0.14951909  0.14849388  0.53992890  1
+  Ga  Ga17  1  0.85048096  0.85150593  0.53992881  1
+  Mg  Mg18  1  0.35999084  0.25658056  0.76011499  1
+  Mg  Mg19  1  0.64000920  0.74341944  0.76011506  1
+  Mg  Mg20  1  0.74341950  0.35999086  0.76011510  1
+  Mg  Mg21  1  0.25658062  0.64000918  0.76011512  1

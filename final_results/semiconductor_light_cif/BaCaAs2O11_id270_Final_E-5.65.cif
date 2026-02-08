@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_BaCaAs2O11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.97944826
+_cell_length_b   18.02369691
+_cell_length_c   8.77084026
+_cell_angle_alpha   166.10663740
+_cell_angle_beta   33.20918560
+_cell_angle_gamma   145.78934478
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaCaAs2O11
+_chemical_formula_sum   'Ba1 Ca1 As2 O11'
+_cell_volume   288.78659695
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.01949353  1.02779776  -0.00126155  1
+  Ca  Ca1  1  -0.01183326  -0.01126960  0.48545449  1
+  As  As2  1  0.32148682  0.74331420  0.26146824  1
+  As  As3  1  0.65160053  0.27441478  0.74647436  1
+  O  O4  1  0.17505571  0.55659532  0.95608373  1
+  O  O5  1  0.75556423  0.38543936  0.03846238  1
+  O  O6  1  0.44839692  0.01104706  0.49691125  1
+  O  O7  1  0.04688129  0.49507458  0.50575757  1
+  O  O8  1  0.58780982  0.51477162  0.49547388  1
+  O  O9  1  0.20176766  -0.03200110  0.97944788  1
+  O  O10  1  0.13665592  0.27013582  0.04560195  1
+  O  O11  1  0.72274935  0.65796594  0.03431857  1
+  O  O12  1  0.80550825  0.02074621  0.00808470  1
+  O  O13  1  0.83546317  0.74898214  0.96328505  1
+  O  O14  1  0.30340003  0.33698588  -0.01556248  1

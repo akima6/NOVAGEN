@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ba2LiS2O3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.32925735
+_cell_length_b   10.32926266
+_cell_length_c   7.17738861
+_cell_angle_alpha   90.00000614
+_cell_angle_beta   89.99999812
+_cell_angle_gamma   120.00026423
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2LiS2O3
+_chemical_formula_sum   'Ba6 Li3 S6 O9'
+_cell_volume   663.18448145
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.00000421  0.00000420  0.00000017  1
+  O  O1  1  0.00000399  0.00000303  0.66666673  1
+  O  O2  1  -0.00000173  0.00000550  0.33333346  1
+  Li  Li3  1  0.50000000  -0.00000000  0.50000000  1
+  Li  Li4  1  0.00000000  0.50000000  0.16666667  1
+  Li  Li5  1  0.50000000  0.50000000  0.83333331  1
+  O  O6  1  -0.00000004  -0.00000034  0.22660959  1
+  O  O7  1  -0.00000032  -0.00000026  0.89327515  1
+  O  O8  1  -0.00000013  -0.00000024  0.55994443  1
+  O  O9  1  -0.00000002  -0.00000037  0.44005796  1
+  O  O10  1  -0.00000030  -0.00000028  0.77339264  1
+  O  O11  1  -0.00000013  -0.00000034  0.10672272  1
+  S  S12  1  0.00000070  -0.00000236  0.26924546  1
+  S  S13  1  -0.00000179  -0.00000180  0.93591501  1
+  S  S14  1  -0.00000168  -0.00000135  0.60257758  1
+  S  S15  1  0.00000069  -0.00000232  0.39742003  1
+  S  S16  1  -0.00000171  -0.00000128  0.73075059  1
+  S  S17  1  -0.00000177  -0.00000181  0.06408862  1
+  Ba  Ba18  1  0.13251674  0.26503347  0.50000002  1
+  Ba  Ba19  1  0.73496656  0.86748331  0.16666666  1
+  Ba  Ba20  1  0.13251680  0.86748323  0.83333331  1
+  Ba  Ba21  1  0.86748330  0.73496654  0.50000002  1
+  Ba  Ba22  1  0.26503344  0.13251672  0.16666666  1
+  Ba  Ba23  1  0.86748323  0.13251680  0.83333331  1

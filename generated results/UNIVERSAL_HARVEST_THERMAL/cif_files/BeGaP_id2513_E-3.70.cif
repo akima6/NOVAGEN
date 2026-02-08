@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_BeGaP
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.63604439
+_cell_length_b   5.09617891
+_cell_length_c   7.58602312
+_cell_angle_alpha   89.99994479
+_cell_angle_beta   89.99992107
+_cell_angle_gamma   90.00008866
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BeGaP
+_chemical_formula_sum   'Be4 Ga4 P4'
+_cell_volume   217.88796011
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.02742584  0.04859224  0.95043606  1
+  Ga  Ga1  1  0.97257418  0.95140777  0.45043604  1
+  Ga  Ga2  1  0.52742582  0.95140776  0.95043608  1
+  Ga  Ga3  1  0.47257416  0.04859225  0.45043607  1
+  Be  Be4  1  0.17927161  0.44769214  0.12861997  1
+  Be  Be5  1  0.82072842  0.55230783  0.62861997  1
+  Be  Be6  1  0.67927158  0.55230783  0.12862002  1
+  Be  Be7  1  0.32072839  0.44769215  0.62861990  1
+  P  P8  1  0.18693851  0.40438291  0.38991535  1
+  P  P9  1  0.81306149  0.59561707  0.88991531  1
+  P  P10  1  0.68693857  0.59561707  0.38991538  1
+  P  P11  1  0.31306141  0.40438292  0.88991533  1

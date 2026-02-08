@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ba2LiCd4Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   18.46454275
+_cell_length_b   18.46453361
+_cell_length_c   21.15971905
+_cell_angle_alpha   90.00001560
+_cell_angle_beta   89.99999687
+_cell_angle_gamma   120.00003273
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2LiCd4Sn
+_chemical_formula_sum   'Ba6 Li3 Cd12 Sn3'
+_cell_volume   6247.65853691
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.06802048  0.93197948  0.83333332  1
+  Sn  Sn1  1  0.06802052  0.13604103  0.16666667  1
+  Sn  Sn2  1  0.86395899  0.93197952  0.50000002  1
+  Li  Li3  1  0.31555074  0.68444926  0.83333332  1
+  Li  Li4  1  0.31555075  0.63110149  0.16666667  1
+  Li  Li5  1  0.36889851  0.68444925  0.50000000  1
+  Cd  Cd6  1  0.39751878  0.14416667  0.63919455  1
+  Cd  Cd7  1  0.85583337  0.25335210  0.97252793  1
+  Cd  Cd8  1  0.74664790  0.60248120  0.30586118  1
+  Cd  Cd9  1  0.85583335  0.60248119  0.02747214  1
+  Cd  Cd10  1  0.74664789  0.14416667  0.69413882  1
+  Cd  Cd11  1  0.39751878  0.25335211  0.36080545  1
+  Cd  Cd12  1  0.61705435  0.92682689  0.18417541  1
+  Cd  Cd13  1  0.07317310  0.69022746  0.51750877  1
+  Cd  Cd14  1  0.30977254  0.38294564  0.85084208  1
+  Cd  Cd15  1  0.07317311  0.38294565  0.48249129  1
+  Cd  Cd16  1  0.30977254  0.92682690  0.14915793  1
+  Cd  Cd17  1  0.61705436  0.69022746  0.81582460  1
+  Ba  Ba18  1  0.78395504  0.78747316  0.40297797  1
+  Ba  Ba19  1  0.21252685  0.99648190  0.73631130  1
+  Ba  Ba20  1  0.00351809  0.21604494  0.06964468  1
+  Ba  Ba21  1  0.21252683  0.21604493  0.26368873  1
+  Ba  Ba22  1  0.00351812  0.78747318  0.93035538  1
+  Ba  Ba23  1  0.78395506  0.99648187  0.59702204  1

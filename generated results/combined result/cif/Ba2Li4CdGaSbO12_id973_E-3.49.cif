@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Ba2Li4CdGaSbO12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.82182794
+_cell_length_b   8.82220279
+_cell_length_c   5.77733024
+_cell_angle_alpha   89.99354218
+_cell_angle_beta   90.00892394
+_cell_angle_gamma   90.00322558
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Li4CdGaSbO12
+_chemical_formula_sum   'Ba2 Li4 Cd1 Ga1 Sb1 O12'
+_cell_volume   449.63778912
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.00013264  -0.00006123  0.26178325  1
+  Cd  Cd1  1  -0.00013081  0.00005868  0.27046559  1
+  Sb  Sb2  1  0.49999523  0.50000001  0.42527242  1
+  Ba  Ba3  1  0.00000440  0.49999790  0.26135271  1
+  Ba  Ba4  1  0.49999857  0.00000205  0.26135322  1
+  O  O5  1  0.60928051  0.18205445  0.50146517  1
+  O  O6  1  0.39067779  0.81792258  0.50145632  1
+  O  O7  1  0.81792521  0.60931720  0.50145874  1
+  O  O8  1  0.18207353  0.39068608  0.50145817  1
+  O  O9  1  0.17546534  0.40652136  0.51271110  1
+  O  O10  1  0.82453304  0.59348087  0.51271472  1
+  O  O11  1  0.59351494  0.17548299  0.51270492  1
+  O  O12  1  0.40652775  0.82453593  0.51271592  1
+  O  O13  1  0.16510695  0.37954409  0.01517047  1
+  O  O14  1  0.83489733  0.62045378  0.01517350  1
+  O  O15  1  0.62045389  0.16510587  0.01517176  1
+  O  O16  1  0.37954443  0.83489593  0.01517224  1
+  Li  Li17  1  0.75238034  0.90396905  0.15914752  1
+  Li  Li18  1  0.24762257  0.09603061  0.15914889  1
+  Li  Li19  1  0.09602794  0.75238029  0.15914956  1
+  Li  Li20  1  0.90396838  0.24762147  0.15914754  1

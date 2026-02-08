@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KCd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   15.20344093
+_cell_length_b   15.20345792
+_cell_length_c   4.34222571
+_cell_angle_alpha   90.00003434
+_cell_angle_beta   89.99959665
+_cell_angle_gamma   120.00008865
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KCd
+_chemical_formula_sum   'K6 Cd6'
+_cell_volume   869.21438570
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.00000002  0.00000006  -0.00000017  1
+  K  K1  1  0.33333333  0.66666670  -0.00000000  1
+  K  K2  1  0.66666679  0.33333340  0.00000000  1
+  K  K3  1  0.49999993  -0.00000009  0.00000000  1
+  K  K4  1  -0.00000003  0.49999995  0.00000003  1
+  K  K5  1  0.49999996  0.49999999  -0.00000001  1
+  Cd  Cd6  1  0.18819967  0.00000000  0.50000004  1
+  Cd  Cd7  1  0.00000004  0.18819972  0.50000003  1
+  Cd  Cd8  1  0.81180037  0.81180028  0.50000003  1
+  Cd  Cd9  1  0.81180040  0.00000001  0.50000000  1
+  Cd  Cd10  1  -0.00000008  0.81180034  0.49999995  1
+  Cd  Cd11  1  0.18819961  0.18819965  0.50000009  1

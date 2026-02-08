@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_KLiScTi(SO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.00636098
+_cell_length_b   9.30191885
+_cell_length_c   9.74345613
+_cell_angle_alpha   90.00004377
+_cell_angle_beta   142.54704826
+_cell_angle_gamma   89.99992175
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLiScTi(SO4)2
+_chemical_formula_sum   'K1 Li1 Sc1 Ti1 S2 O8'
+_cell_volume   275.92415316
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.00000001  0.12112761  0.50000004  1
+  Ti  Ti1  1  0.00000002  0.84215759  0.50000002  1
+  K  K2  1  0.49999999  0.23291743  -0.00000000  1
+  Li  Li3  1  0.49999998  0.39323710  0.50000000  1
+  O  O4  1  0.17203541  0.36078188  0.20234031  1
+  O  O5  1  0.82796464  0.36078190  0.79765970  1
+  O  O6  1  0.31857150  0.61061436  0.71391556  1
+  O  O7  1  0.68142851  0.61061435  0.28608443  1
+  O  O8  1  0.34310544  0.20183376  0.24487849  1
+  O  O9  1  0.65689461  0.20183372  0.75512150  1
+  O  O10  1  0.35038390  0.94909380  0.24315130  1
+  O  O11  1  0.64961603  0.94909377  0.75684864  1
+  S  S12  1  0.82641155  0.02334346  0.68119490  1
+  S  S13  1  0.17358848  0.02334342  0.31880511  1

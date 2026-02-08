@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_K3Zn2In(Sb2O3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.28065407
+_cell_length_b   12.28065478
+_cell_length_c   18.60689248
+_cell_angle_alpha   89.99999699
+_cell_angle_beta   90.00000646
+_cell_angle_gamma   120.00000125
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3Zn2In(Sb2O3)2
+_chemical_formula_sum   'K3 Zn2 In1 Sb4 O6'
+_cell_volume   2430.23065929
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.00000000  0.00000000  -0.00000000  1
+  In  In1  1  -0.00000000  -0.00000000  0.50000000  1
+  Sb  Sb2  1  0.33333334  0.66666669  0.35807263  1
+  Sb  Sb3  1  0.66666669  0.33333334  0.64192721  1
+  K  K4  1  0.33333334  0.66666669  0.18331475  1
+  K  K5  1  0.66666668  0.33333334  0.81668522  1
+  Zn  Zn6  1  0.33333334  0.66666669  0.63386294  1
+  Zn  Zn7  1  0.66666669  0.33333334  0.36613702  1
+  Sb  Sb8  1  0.33333334  0.66666669  0.50012247  1
+  Sb  Sb9  1  0.66666669  0.33333335  0.49987775  1
+  O  O10  1  0.19592805  -0.00000000  0.00000000  1
+  O  O11  1  -0.00000000  0.19592805  -0.00000000  1
+  O  O12  1  0.80407194  0.80407194  0.00000000  1
+  O  O13  1  0.80407195  0.00000000  -0.00000000  1
+  O  O14  1  0.00000000  0.80407194  -0.00000000  1
+  O  O15  1  0.19592806  0.19592805  -0.00000000  1

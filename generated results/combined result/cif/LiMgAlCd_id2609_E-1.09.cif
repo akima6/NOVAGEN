@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_LiMgAlCd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.43975918
+_cell_length_b   10.69220218
+_cell_length_c   7.73700471
+_cell_angle_alpha   89.96736207
+_cell_angle_beta   89.98304609
+_cell_angle_gamma   90.05832681
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiMgAlCd
+_chemical_formula_sum   'Li4 Mg4 Al4 Cd4'
+_cell_volume   615.45823430
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.23531631  0.73058192  0.12161306  1
+  Al  Al1  1  0.76469388  0.26941914  0.12160335  1
+  Al  Al2  1  0.23532165  0.26946720  0.62165335  1
+  Al  Al3  1  0.76465282  0.73045615  0.62174769  1
+  Mg  Mg4  1  0.61491620  0.38601647  0.59494919  1
+  Mg  Mg5  1  0.38508549  0.61398665  0.59494746  1
+  Mg  Mg6  1  0.61491726  0.61399051  0.09494686  1
+  Mg  Mg7  1  0.38508076  0.38601227  0.09494748  1
+  Li  Li8  1  0.76460902  0.43308573  0.30140266  1
+  Li  Li9  1  0.23539157  0.56690746  0.30140666  1
+  Li  Li10  1  0.76462416  0.56691498  0.80137266  1
+  Li  Li11  1  0.23538459  0.43308730  0.80139499  1
+  Cd  Cd12  1  0.74359363  0.74362616  0.65174431  1
+  Cd  Cd13  1  0.25642006  0.25644533  0.65181610  1
+  Cd  Cd14  1  0.74357421  0.25649303  0.15185635  1
+  Cd  Cd15  1  0.25641843  0.74350970  0.15184329  1

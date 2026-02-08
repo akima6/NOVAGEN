@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_LiZn2(As2S)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.46630032
+_cell_length_b   9.46629363
+_cell_length_c   9.78175064
+_cell_angle_alpha   90.00019192
+_cell_angle_beta   89.99982364
+_cell_angle_gamma   120.00025711
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiZn2(As2S)2
+_chemical_formula_sum   'Li3 Zn6 As12 S6'
+_cell_volume   759.11285121
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.45039077  -0.00000002  0.33333335  1
+  Li  Li1  1  -0.00000001  0.45039053  0.66666668  1
+  Li  Li2  1  0.54961122  0.54961123  0.00000000  1
+  Zn  Zn3  1  0.70495109  0.89514150  0.47834536  1
+  Zn  Zn4  1  0.10485850  0.80980955  0.81167866  1
+  Zn  Zn5  1  0.19019047  0.29504898  0.14501196  1
+  Zn  Zn6  1  0.89514149  0.70495107  0.52165462  1
+  Zn  Zn7  1  0.80980954  0.10485851  0.18832138  1
+  Zn  Zn8  1  0.29504898  0.19019047  0.85498804  1
+  As  As9  1  0.67178181  0.64781388  0.99090134  1
+  As  As10  1  0.35218797  0.02397349  0.32423253  1
+  As  As11  1  0.97602703  0.32821493  0.65756609  1
+  As  As12  1  0.64781384  0.67178176  0.00909866  1
+  As  As13  1  0.02397295  0.35218784  0.67576735  1
+  As  As14  1  0.32821462  0.97602651  0.34243421  1
+  As  As15  1  0.31140422  0.45351375  0.97944232  1
+  As  As16  1  0.54648606  0.85789054  0.31277568  1
+  As  As17  1  0.14210945  0.68859555  0.64610911  1
+  As  As18  1  0.45351375  0.31140421  0.02055768  1
+  As  As19  1  0.85789054  0.54648610  0.68722437  1
+  As  As20  1  0.68859552  0.14210943  0.35389100  1
+  S  S21  1  0.90068688  0.83636512  0.21923222  1
+  S  S22  1  0.16363495  0.06432170  0.55256558  1
+  S  S23  1  0.93567827  0.09931319  0.88589885  1
+  S  S24  1  0.83636512  0.90068687  0.78076779  1
+  S  S25  1  0.06432169  0.16363494  0.44743448  1
+  S  S26  1  0.09931320  0.93567827  0.11410118  1

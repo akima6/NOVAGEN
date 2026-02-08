@@ -1,0 +1,51 @@
+# generated using pymatgen
+data_Li6Mg11ScCd2In5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.04713651
+_cell_length_b   7.17860139
+_cell_length_c   19.96824807
+_cell_angle_alpha   93.44454364
+_cell_angle_beta   64.92396476
+_cell_angle_gamma   91.79635253
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li6Mg11ScCd2In5
+_chemical_formula_sum   'Li6 Mg11 Sc1 Cd2 In5'
+_cell_volume   1820.45357675
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  -0.00000000  -0.00000000  0.00000001  1
+  In  In1  1  0.00000271  0.00000053  0.50000146  1
+  Mg  Mg2  1  -0.00000000  0.50000000  -0.00000000  1
+  In  In3  1  0.15740463  0.71411414  0.36693554  1
+  In  In4  1  0.84259633  0.28588602  0.63306445  1
+  Cd  Cd5  1  0.12227288  0.25053628  0.40163986  1
+  Cd  Cd6  1  0.87758626  0.74946641  0.59830289  1
+  In  In7  1  0.50752932  0.77593125  0.34087353  1
+  In  In8  1  0.49247126  0.22406623  0.65912911  1
+  Li  Li9  1  0.41356432  0.44296228  0.72963983  1
+  Li  Li10  1  0.58643459  0.55703789  0.27036046  1
+  Mg  Mg11  1  0.65133895  0.73064993  0.60958013  1
+  Mg  Mg12  1  0.34868471  0.26934366  0.39033653  1
+  Mg  Mg13  1  0.32717713  0.21173473  0.81401082  1
+  Mg  Mg14  1  0.67282302  0.78826464  0.18598898  1
+  Li  Li15  1  0.32844499  0.82337989  0.38253768  1
+  Li  Li16  1  0.67155266  0.17661972  0.61746223  1
+  Mg  Mg17  1  0.66751929  0.73359193  0.60843991  1
+  Mg  Mg18  1  0.33259703  0.26641268  0.39170706  1
+  Mg  Mg19  1  0.59057576  0.08134207  0.28451495  1
+  Mg  Mg20  1  0.40942461  0.91866034  0.71548424  1
+  Li  Li21  1  0.64289771  0.76934359  0.77426401  1
+  Li  Li22  1  0.35710000  0.23065642  0.22572786  1
+  Mg  Mg23  1  0.83068079  0.30941492  0.47866277  1
+  Mg  Mg24  1  0.16932100  0.69058450  0.52133570  1

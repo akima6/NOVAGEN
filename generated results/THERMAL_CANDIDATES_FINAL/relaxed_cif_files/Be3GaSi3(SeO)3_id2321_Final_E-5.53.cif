@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Be3GaSi3(SeO)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.66628756
+_cell_length_b   4.63199069
+_cell_length_c   42.99527401
+_cell_angle_alpha   70.93161835
+_cell_angle_beta   95.68011936
+_cell_angle_gamma   120.13618115
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Be3GaSi3(SeO)3
+_chemical_formula_sum   'Be6 Ga2 Si6 Se6 O6'
+_cell_volume   757.18966201
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Be  Be0  1  0.00041473  0.33256862  0.75320766  1
+  Be  Be1  1  0.66708296  0.66590306  0.75327517  1
+  Be  Be2  1  0.33360692  0.99894852  0.75332025  1
+  Be  Be3  1  0.99887087  0.66514283  0.25336818  1
+  Be  Be4  1  0.33222866  0.33182618  0.25336864  1
+  Be  Be5  1  0.66565371  -0.00125423  0.25327757  1
+  Ga  Ga6  1  0.99812681  0.99193957  0.57842036  1
+  Ga  Ga7  1  0.00161896  -0.00902017  0.07735247  1
+  Si  Si8  1  0.29911435  0.33856412  0.01953936  1
+  Si  Si9  1  0.66229053  0.95631760  0.02272381  1
+  Si  Si10  1  0.03960899  0.70448066  0.02164304  1
+  Si  Si11  1  0.70965640  0.66428867  0.52302756  1
+  Si  Si12  1  0.33287959  0.03224474  0.52187473  1
+  Si  Si13  1  0.95419689  0.29726146  0.52057284  1
+  Se  Se14  1  0.29608102  0.30690465  0.12712297  1
+  Se  Se15  1  0.71241393  0.01128749  0.13413915  1
+  Se  Se16  1  0.99391078  0.70216824  0.16761627  1
+  Se  Se17  1  0.71190419  0.69601330  0.66328343  1
+  Se  Se18  1  0.28608484  1.00214639  0.64797826  1
+  Se  Se19  1  0.00714893  0.32299682  0.61494685  1
+  O  O20  1  0.66582297  0.66434120  0.25359823  1
+  O  O21  1  0.33267301  -0.00199790  0.25339997  1
+  O  O22  1  0.99971218  0.33123937  0.25343493  1
+  O  O23  1  0.33285208  0.33205451  0.75347474  1
+  O  O24  1  0.66672035  0.99934033  0.75337755  1
+  O  O25  1  -0.00067472  0.66429394  0.75382503  1

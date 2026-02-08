@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_KZnSnSb6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.96912376
+_cell_length_b   7.96912823
+_cell_length_c   6.42940727
+_cell_angle_alpha   90.00003051
+_cell_angle_beta   89.99996610
+_cell_angle_gamma   119.99997020
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KZnSnSb6
+_chemical_formula_sum   'K1 Zn1 Sn1 Sb6'
+_cell_volume   353.60881750
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  -0.00000003  -0.00000002  0.49999997  1
+  K  K1  1  0.33333333  0.66666669  0.00000001  1
+  Zn  Zn2  1  0.66666666  0.33333326  0.49999999  1
+  Sb  Sb3  1  0.36709132  0.35688512  0.35174424  1
+  Sb  Sb4  1  0.64311489  0.01020620  0.35174425  1
+  Sb  Sb5  1  0.98979374  0.63290868  0.35174423  1
+  Sb  Sb6  1  0.64311488  0.63290864  0.64825578  1
+  Sb  Sb7  1  0.98979382  0.35688514  0.64825585  1
+  Sb  Sb8  1  0.36709135  0.01020625  0.64825577  1

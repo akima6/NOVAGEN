@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_BeCd2In4GaSe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.64623587
+_cell_length_b   11.64623841
+_cell_length_c   6.03166373
+_cell_angle_alpha   89.99999063
+_cell_angle_beta   89.99994621
+_cell_angle_gamma   89.99998434
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BeCd2In4GaSe4
+_chemical_formula_sum   'Be2 Cd4 In8 Ga2 Se8'
+_cell_volume   818.10374283
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.00000000  0.50000000  0.25000000  1
+  Ga  Ga1  1  0.50000000  -0.00000000  0.75000000  1
+  Be  Be2  1  0.00000000  -0.00000000  0.00000000  1
+  Be  Be3  1  -0.00000000  0.00000000  0.50000000  1
+  Cd  Cd4  1  0.50000000  0.27540505  0.25000000  1
+  Cd  Cd5  1  0.50000000  0.72459499  0.25000000  1
+  Cd  Cd6  1  0.27540505  0.49999999  0.75000000  1
+  Cd  Cd7  1  0.72459497  0.49999998  0.75000000  1
+  In  In8  1  0.11636215  0.75510207  0.26324988  1
+  In  In9  1  0.88363785  0.24489793  0.26324989  1
+  In  In10  1  0.75510206  0.88363784  0.73675014  1
+  In  In11  1  0.24489794  0.11636217  0.73675015  1
+  In  In12  1  0.88363787  0.75510207  0.23675012  1
+  In  In13  1  0.11636217  0.24489793  0.23675012  1
+  In  In14  1  0.24489794  0.88363785  0.76324986  1
+  In  In15  1  0.75510207  0.11636218  0.76324984  1
+  Se  Se16  1  0.39680359  0.32458698  0.78675822  1
+  Se  Se17  1  0.60319643  0.67541303  0.78675822  1
+  Se  Se18  1  0.32458697  0.60319644  0.21324177  1
+  Se  Se19  1  0.67541303  0.39680359  0.21324177  1
+  Se  Se20  1  0.60319645  0.32458699  0.71324178  1
+  Se  Se21  1  0.39680359  0.67541303  0.71324177  1
+  Se  Se22  1  0.67541303  0.60319644  0.28675823  1
+  Se  Se23  1  0.32458697  0.39680358  0.28675822  1

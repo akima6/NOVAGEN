@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Be9GaSi4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.78106567
+_cell_length_b   10.78106918
+_cell_length_c   5.31892935
+_cell_angle_alpha   90.00000280
+_cell_angle_beta   89.99999446
+_cell_angle_gamma   89.99999448
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Be9GaSi4
+_chemical_formula_sum   'Be18 Ga2 Si8'
+_cell_volume   618.22668373
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.00000001  -0.00000000  -0.00000001  1
+  Ga  Ga1  1  0.50000000  0.50000000  0.50000000  1
+  Be  Be2  1  -0.00000000  0.00000002  0.49999997  1
+  Be  Be3  1  0.49999998  0.49999999  0.00000004  1
+  Si  Si4  1  0.26371642  0.76371641  0.25000000  1
+  Si  Si5  1  0.73628358  0.23628357  0.25000001  1
+  Si  Si6  1  0.23628359  0.26371642  0.25000000  1
+  Si  Si7  1  0.76371640  0.73628360  0.25000000  1
+  Si  Si8  1  0.76371643  0.26371635  0.74999999  1
+  Si  Si9  1  0.23628360  0.73628357  0.75000001  1
+  Si  Si10  1  0.73628361  0.76371642  0.74999999  1
+  Si  Si11  1  0.26371636  0.23628360  0.74999999  1
+  Be  Be12  1  0.40111595  0.62356061  0.15162419  1
+  Be  Be13  1  0.59888405  0.37643939  0.15162419  1
+  Be  Be14  1  0.37643943  0.40111596  0.15162422  1
+  Be  Be15  1  0.62356058  0.59888400  0.15162419  1
+  Be  Be16  1  0.59888402  0.62356059  0.84837581  1
+  Be  Be17  1  0.40111595  0.37643940  0.84837582  1
+  Be  Be18  1  0.62356060  0.40111599  0.84837582  1
+  Be  Be19  1  0.37643940  0.59888405  0.84837580  1
+  Be  Be20  1  0.90111596  0.12356055  0.65162420  1
+  Be  Be21  1  0.09888400  0.87643943  0.65162418  1
+  Be  Be22  1  0.87643942  0.90111598  0.65162420  1
+  Be  Be23  1  0.12356055  0.09888403  0.65162421  1
+  Be  Be24  1  0.09888406  0.12356057  0.34837579  1
+  Be  Be25  1  0.90111598  0.87643942  0.34837584  1
+  Be  Be26  1  0.12356059  0.90111596  0.34837579  1
+  Be  Be27  1  0.87643940  0.09888406  0.34837581  1

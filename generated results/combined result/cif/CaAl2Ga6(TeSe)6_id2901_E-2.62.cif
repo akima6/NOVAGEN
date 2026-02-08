@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_CaAl2Ga6(TeSe)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.22549273
+_cell_length_b   13.22740834
+_cell_length_c   10.10819235
+_cell_angle_alpha   90.07788199
+_cell_angle_beta   90.03642590
+_cell_angle_gamma   119.97346169
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaAl2Ga6(TeSe)6
+_chemical_formula_sum   'Ca1 Al2 Ga6 Te6 Se6'
+_cell_volume   1531.81361539
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  -0.00000000  0.00000000  0.99893355  1
+  Al  Al1  1  0.33338746  0.66671111  0.49505059  1
+  Al  Al2  1  0.66661849  0.33341367  0.49507017  1
+  Ga  Ga3  1  0.50000088  0.00000189  0.19212895  1
+  Ga  Ga4  1  0.00000023  0.50000002  0.19212913  1
+  Ga  Ga5  1  0.50000004  0.49999962  0.19212885  1
+  Ga  Ga6  1  0.50000297  0.00000533  0.48667711  1
+  Ga  Ga7  1  -0.00000084  0.49999806  0.48667692  1
+  Ga  Ga8  1  0.49999899  0.49999847  0.48667751  1
+  Se  Se9  1  0.28466799  0.71529439  0.51456736  1
+  Se  Se10  1  0.28468431  0.56938792  0.51457227  1
+  Se  Se11  1  0.43058123  0.71528533  0.51446766  1
+  Se  Se12  1  0.71527940  0.28469419  0.51451807  1
+  Se  Se13  1  0.71530886  0.43059791  0.51440604  1
+  Se  Se14  1  0.56934149  0.28464774  0.51452295  1
+  Te  Te15  1  0.27347567  0.72652726  0.48207587  1
+  Te  Te16  1  0.27345633  0.54691948  0.48206476  1
+  Te  Te17  1  0.45307776  0.72653919  0.48215103  1
+  Te  Te18  1  0.72659296  0.27341377  0.48211150  1
+  Te  Te19  1  0.72655934  0.45309256  0.48220624  1
+  Te  Te20  1  0.54696638  0.27347206  0.48211323  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Na3SrLiBe3Sn3Sb3TeSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.67682587
+_cell_length_b   8.68492208
+_cell_length_c   13.61174139
+_cell_angle_alpha   89.53270027
+_cell_angle_beta   90.66637062
+_cell_angle_gamma   119.90178812
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3SrLiBe3Sn3Sb3TeSe3
+_chemical_formula_sum   'Na3 Sr1 Li1 Be3 Sn3 Sb3 Te1 Se3'
+_cell_volume   889.13784912
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  -0.00001718  0.00002735  0.01731137  1
+  Te  Te1  1  0.33334169  0.66666915  0.80559691  1
+  Sr  Sr2  1  0.66666278  0.33331114  0.69188914  1
+  Sn  Sn3  1  0.69441055  0.65248002  0.36046874  1
+  Sn  Sn4  1  0.34795856  0.04196032  0.36052382  1
+  Sn  Sn5  1  0.95814570  0.30566603  0.36058182  1
+  Sb  Sb6  1  0.30615294  0.30894062  0.32470657  1
+  Sb  Sb7  1  0.69144647  -0.00248123  0.32306890  1
+  Sb  Sb8  1  1.00258768  0.69338929  0.32505176  1
+  Se  Se9  1  0.31773089  0.33914237  0.31998308  1
+  Se  Se10  1  0.66035693  0.97810932  0.32167286  1
+  Se  Se11  1  0.02099145  0.68260573  0.31973469  1
+  Na  Na12  1  0.41943863  0.59115638  0.13602664  1
+  Na  Na13  1  0.40884049  0.82818653  0.13608582  1
+  Na  Na14  1  0.17186211  0.58065535  0.13606305  1
+  Be  Be15  1  0.41951909  0.61377896  0.30677005  1
+  Be  Be16  1  0.38642605  0.80602507  0.30677437  1
+  Be  Be17  1  0.19414522  0.58037756  0.30686746  1

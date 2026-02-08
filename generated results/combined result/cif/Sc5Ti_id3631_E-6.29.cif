@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Sc5Ti
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.24977923
+_cell_length_b   16.29337428
+_cell_length_c   5.41271618
+_cell_angle_alpha   90.00019490
+_cell_angle_beta   90.00000314
+_cell_angle_gamma   89.99999627
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc5Ti
+_chemical_formula_sum   'Sc10 Ti2'
+_cell_volume   286.60261444
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.00000000  0.00000001  0.00000000  1
+  Ti  Ti1  1  0.49999998  0.50000002  -0.00000000  1
+  Sc  Sc2  1  0.00000000  0.00000001  0.50000000  1
+  Sc  Sc3  1  0.50000000  0.50000001  0.49999999  1
+  Sc  Sc4  1  0.00000000  0.17926102  0.00000001  1
+  Sc  Sc5  1  -0.00000001  0.82073898  -0.00000001  1
+  Sc  Sc6  1  0.50000001  0.67926099  0.00000001  1
+  Sc  Sc7  1  0.50000000  0.32073899  -0.00000001  1
+  Sc  Sc8  1  0.00000001  0.65718732  0.49999999  1
+  Sc  Sc9  1  -0.00000001  0.34281268  0.50000002  1
+  Sc  Sc10  1  0.50000000  0.15718736  0.49999998  1
+  Sc  Sc11  1  0.50000000  0.84281268  0.50000001  1

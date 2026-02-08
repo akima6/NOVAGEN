@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_NaSrAlSbAs3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.07176119
+_cell_length_b   9.07176089
+_cell_length_c   14.35829591
+_cell_angle_alpha   89.99993522
+_cell_angle_beta   90.00000231
+_cell_angle_gamma   120.00000648
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaSrAlSbAs3
+_chemical_formula_sum   'Na1 Sr1 Al1 Sb1 As3'
+_cell_volume   1023.33235709
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.00000000  -0.00000001  0.07130851  1
+  Sr  Sr1  1  0.33333334  0.66666671  0.64430900  1
+  Sb  Sb2  1  0.66666669  0.33333335  0.48483568  1
+  Na  Na3  1  0.66666668  0.33333335  0.01481509  1
+  As  As4  1  0.24651418  0.49274314  0.45395057  1
+  As  As5  1  0.50725685  0.75377101  0.45395059  1
+  As  As6  1  0.24622897  0.75348577  0.45395063  1

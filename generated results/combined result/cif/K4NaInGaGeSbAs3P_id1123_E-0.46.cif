@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_K4NaInGaGeSbAs3P
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.29316890
+_cell_length_b   10.29441979
+_cell_length_c   9.05369652
+_cell_angle_alpha   89.97186533
+_cell_angle_beta   90.05623867
+_cell_angle_gamma   119.99609151
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K4NaInGaGeSbAs3P
+_chemical_formula_sum   'K4 Na1 In1 Ga1 Ge1 Sb1 As3 P1'
+_cell_volume   830.85345778
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  -0.00000000  -0.00000000  0.99485243  1
+  Ge  Ge1  1  0.33333334  0.66666668  0.24880739  1
+  K  K2  1  0.66682274  0.33333334  0.48273849  1
+  K  K3  1  0.66665149  0.33333334  0.48440863  1
+  In  In4  1  0.66522738  0.33333334  0.52779063  1
+  P  P5  1  0.66663291  0.33333334  0.53844278  1
+  K  K6  1  0.66427759  0.33333334  0.51262173  1
+  Na  Na7  1  0.66670543  0.33333334  0.49924771  1
+  Ga  Ga8  1  0.66908145  0.33333334  0.51282699  1
+  Sb  Sb9  1  0.66793458  0.33333334  0.52965071  1
+  As  As10  1  0.25721403  0.86556102  0.49195333  1
+  As  As11  1  0.13443893  0.39165298  0.49195335  1
+  As  As12  1  0.60834699  0.74278600  0.49195335  1

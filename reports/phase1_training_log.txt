@@ -1,0 +1,137 @@
+🚀 STARTING PHASE 1 v3: STABILIZATION
+   Goal: Eliminate Implosions/Gas via Lower LR & Higher Batch Size
+💎 Initializing CrystalGenerator on cuda...
+   Loading weights from epoch_005500_CLEAN.pt...
+   ⚠️  New Lattice Head initialized to default (3.0).
+Epoch 1/60: 100%|████████████| 50/50 [02:31<00:00,  3.03s/it, R=-4.81, Vol=25.2]
+📊 Ep 1 | Avg Reward: -2.95 | Avg Volume: 28.5 Å³
+Epoch 2/60: 100%|████████████| 50/50 [02:30<00:00,  3.01s/it, R=-2.32, Vol=27.7]
+📊 Ep 2 | Avg Reward: -3.41 | Avg Volume: 29.5 Å³
+Epoch 3/60: 100%|████████████| 50/50 [02:30<00:00,  3.01s/it, R=-4.98, Vol=24.9]
+📊 Ep 3 | Avg Reward: -2.81 | Avg Volume: 28.3 Å³
+Epoch 4/60: 100%|████████████| 50/50 [02:31<00:00,  3.02s/it, R=-5.00, Vol=14.4]
+📊 Ep 4 | Avg Reward: -3.22 | Avg Volume: 26.1 Å³
+Epoch 5/60: 100%|█████████████| 50/50 [02:30<00:00,  3.01s/it, R=2.52, Vol=24.6]
+📊 Ep 5 | Avg Reward: -2.52 | Avg Volume: 27.4 Å³
+   💾 Checkpoint Saved: epoch_5 (Bias: 2.2000)
+Epoch 6/60: 100%|████████████| 50/50 [02:31<00:00,  3.03s/it, R=-4.84, Vol=27.1]
+📊 Ep 6 | Avg Reward: -3.32 | Avg Volume: 27.2 Å³
+Epoch 7/60: 100%|█████████████| 50/50 [02:31<00:00,  3.03s/it, R=0.13, Vol=27.7]
+📊 Ep 7 | Avg Reward: -2.33 | Avg Volume: 29.3 Å³
+Epoch 8/60: 100%|█████████████| 50/50 [02:32<00:00,  3.04s/it, R=0.24, Vol=40.3]
+📊 Ep 8 | Avg Reward: -2.54 | Avg Volume: 29.7 Å³
+Epoch 9/60: 100%|████████████| 50/50 [02:31<00:00,  3.03s/it, R=-4.93, Vol=36.5]
+📊 Ep 9 | Avg Reward: -3.38 | Avg Volume: 28.6 Å³
+Epoch 10/60: 100%|███████████| 50/50 [02:30<00:00,  3.01s/it, R=-4.98, Vol=29.5]
+📊 Ep 10 | Avg Reward: -2.92 | Avg Volume: 30.1 Å³
+   💾 Checkpoint Saved: epoch_10 (Bias: 2.2000)
+Epoch 11/60: 100%|███████████| 50/50 [02:30<00:00,  3.01s/it, R=-2.40, Vol=21.8]
+📊 Ep 11 | Avg Reward: -3.19 | Avg Volume: 26.3 Å³
+Epoch 12/60: 100%|███████████| 50/50 [02:31<00:00,  3.02s/it, R=-2.44, Vol=24.4]
+📊 Ep 12 | Avg Reward: -3.02 | Avg Volume: 24.3 Å³
+Epoch 13/60: 100%|███████████| 50/50 [02:30<00:00,  3.00s/it, R=-4.94, Vol=27.3]
+📊 Ep 13 | Avg Reward: -2.88 | Avg Volume: 28.8 Å³
+Epoch 14/60: 100%|███████████| 50/50 [02:31<00:00,  3.02s/it, R=-2.46, Vol=36.4]
+📊 Ep 14 | Avg Reward: -2.85 | Avg Volume: 28.9 Å³
+Epoch 15/60: 100%|███████████| 50/50 [02:28<00:00,  2.98s/it, R=-2.48, Vol=37.9]
+📊 Ep 15 | Avg Reward: -2.93 | Avg Volume: 33.0 Å³
+   💾 Checkpoint Saved: epoch_15 (Bias: 2.1999)
+Epoch 16/60: 100%|███████████| 50/50 [02:30<00:00,  3.00s/it, R=-4.80, Vol=32.6]
+📊 Ep 16 | Avg Reward: -2.85 | Avg Volume: 26.7 Å³
+Epoch 17/60: 100%|████████████| 50/50 [02:29<00:00,  2.98s/it, R=0.00, Vol=29.3]
+📊 Ep 17 | Avg Reward: -3.01 | Avg Volume: 31.9 Å³
+Epoch 18/60: 100%|███████████| 50/50 [02:30<00:00,  3.01s/it, R=-2.36, Vol=21.6]
+📊 Ep 18 | Avg Reward: -2.84 | Avg Volume: 22.3 Å³
+Epoch 19/60: 100%|████████████| 50/50 [02:30<00:00,  3.01s/it, R=0.00, Vol=25.5]
+📊 Ep 19 | Avg Reward: -2.80 | Avg Volume: 30.5 Å³
+Epoch 20/60: 100%|███████████| 50/50 [02:27<00:00,  2.94s/it, R=-4.90, Vol=37.7]
+📊 Ep 20 | Avg Reward: -2.95 | Avg Volume: 27.1 Å³
+   💾 Checkpoint Saved: epoch_20 (Bias: 2.1999)
+Epoch 21/60: 100%|███████████| 50/50 [02:28<00:00,  2.96s/it, R=-4.93, Vol=21.5]
+📊 Ep 21 | Avg Reward: -3.65 | Avg Volume: 26.8 Å³
+Epoch 22/60: 100%|███████████| 50/50 [02:27<00:00,  2.95s/it, R=-4.99, Vol=40.0]
+📊 Ep 22 | Avg Reward: -2.78 | Avg Volume: 31.8 Å³
+Epoch 23/60: 100%|███████████| 50/50 [02:29<00:00,  2.99s/it, R=-4.95, Vol=21.3]
+📊 Ep 23 | Avg Reward: -2.94 | Avg Volume: 27.8 Å³
+Epoch 24/60: 100%|███████████| 50/50 [02:29<00:00,  2.99s/it, R=-2.50, Vol=40.7]
+📊 Ep 24 | Avg Reward: -2.53 | Avg Volume: 31.1 Å³
+Epoch 25/60: 100%|███████████| 50/50 [02:29<00:00,  2.99s/it, R=-4.81, Vol=21.5]
+📊 Ep 25 | Avg Reward: -2.99 | Avg Volume: 30.3 Å³
+   💾 Checkpoint Saved: epoch_25 (Bias: 2.1999)
+Epoch 26/60: 100%|███████████| 50/50 [02:29<00:00,  3.00s/it, R=-4.78, Vol=22.6]
+📊 Ep 26 | Avg Reward: -3.40 | Avg Volume: 27.9 Å³
+Epoch 27/60: 100%|███████████| 50/50 [02:29<00:00,  2.98s/it, R=-4.78, Vol=14.3]
+📊 Ep 27 | Avg Reward: -2.98 | Avg Volume: 27.8 Å³
+Epoch 28/60: 100%|███████████| 50/50 [02:29<00:00,  2.99s/it, R=-2.44, Vol=36.4]
+📊 Ep 28 | Avg Reward: -2.67 | Avg Volume: 27.9 Å³
+Epoch 29/60: 100%|███████████| 50/50 [02:30<00:00,  3.01s/it, R=-4.99, Vol=24.0]
+📊 Ep 29 | Avg Reward: -2.71 | Avg Volume: 31.4 Å³
+Epoch 30/60: 100%|████████████| 50/50 [02:30<00:00,  3.00s/it, R=2.50, Vol=29.3]
+📊 Ep 30 | Avg Reward: -2.53 | Avg Volume: 31.2 Å³
+   💾 Checkpoint Saved: epoch_30 (Bias: 2.1999)
+Epoch 31/60: 100%|███████████| 50/50 [02:29<00:00,  2.99s/it, R=-4.87, Vol=28.4]
+📊 Ep 31 | Avg Reward: -2.60 | Avg Volume: 24.7 Å³
+Epoch 32/60: 100%|███████████| 50/50 [02:29<00:00,  3.00s/it, R=-4.97, Vol=22.0]
+📊 Ep 32 | Avg Reward: -3.15 | Avg Volume: 26.3 Å³
+Epoch 33/60: 100%|███████████| 50/50 [02:30<00:00,  3.00s/it, R=-2.35, Vol=26.9]
+📊 Ep 33 | Avg Reward: -3.07 | Avg Volume: 28.8 Å³
+Epoch 34/60: 100%|███████████| 50/50 [02:30<00:00,  3.01s/it, R=-4.96, Vol=22.1]
+📊 Ep 34 | Avg Reward: -3.08 | Avg Volume: 27.0 Å³
+Epoch 35/60: 100%|███████████| 50/50 [02:30<00:00,  3.01s/it, R=-5.00, Vol=27.0]
+📊 Ep 35 | Avg Reward: -2.48 | Avg Volume: 30.5 Å³
+   💾 Checkpoint Saved: epoch_35 (Bias: 2.1998)
+Epoch 36/60: 100%|███████████| 50/50 [02:30<00:00,  3.01s/it, R=-2.51, Vol=19.4]
+📊 Ep 36 | Avg Reward: -3.07 | Avg Volume: 26.4 Å³
+Epoch 37/60: 100%|████████████| 50/50 [02:29<00:00,  2.98s/it, R=2.50, Vol=32.8]
+📊 Ep 37 | Avg Reward: -2.89 | Avg Volume: 26.0 Å³
+Epoch 38/60: 100%|███████████| 50/50 [02:29<00:00,  2.99s/it, R=-2.26, Vol=33.4]
+📊 Ep 38 | Avg Reward: -2.56 | Avg Volume: 31.3 Å³
+Epoch 39/60: 100%|███████████| 50/50 [02:29<00:00,  2.98s/it, R=-5.00, Vol=37.5]
+📊 Ep 39 | Avg Reward: -3.36 | Avg Volume: 29.5 Å³
+Epoch 40/60: 100%|███████████| 50/50 [02:29<00:00,  2.99s/it, R=-2.50, Vol=40.0]
+📊 Ep 40 | Avg Reward: -2.89 | Avg Volume: 26.5 Å³
+   💾 Checkpoint Saved: epoch_40 (Bias: 2.1998)
+Epoch 41/60: 100%|███████████| 50/50 [02:29<00:00,  2.99s/it, R=-2.39, Vol=44.7]
+📊 Ep 41 | Avg Reward: -2.38 | Avg Volume: 28.6 Å³
+Epoch 42/60: 100%|███████████| 50/50 [02:28<00:00,  2.98s/it, R=-4.99, Vol=24.5]
+📊 Ep 42 | Avg Reward: -3.04 | Avg Volume: 25.9 Å³
+Epoch 43/60: 100%|███████████| 50/50 [02:29<00:00,  2.99s/it, R=-2.49, Vol=32.1]
+📊 Ep 43 | Avg Reward: -2.78 | Avg Volume: 27.0 Å³
+Epoch 44/60: 100%|████████████| 50/50 [02:27<00:00,  2.96s/it, R=0.00, Vol=25.0]
+📊 Ep 44 | Avg Reward: -2.34 | Avg Volume: 26.5 Å³
+Epoch 45/60: 100%|███████████| 50/50 [02:27<00:00,  2.95s/it, R=-4.65, Vol=16.8]
+📊 Ep 45 | Avg Reward: -2.84 | Avg Volume: 27.5 Å³
+   💾 Checkpoint Saved: epoch_45 (Bias: 2.1998)
+Epoch 46/60: 100%|███████████| 50/50 [02:27<00:00,  2.95s/it, R=-2.50, Vol=17.0]
+📊 Ep 46 | Avg Reward: -3.20 | Avg Volume: 23.7 Å³
+Epoch 47/60: 100%|████████████| 50/50 [02:28<00:00,  2.98s/it, R=2.49, Vol=46.7]
+📊 Ep 47 | Avg Reward: -2.94 | Avg Volume: 27.0 Å³
+Epoch 48/60: 100%|███████████| 50/50 [02:29<00:00,  2.99s/it, R=-2.39, Vol=30.2]
+📊 Ep 48 | Avg Reward: -2.66 | Avg Volume: 29.3 Å³
+Epoch 49/60: 100%|████████████| 50/50 [02:28<00:00,  2.98s/it, R=0.06, Vol=25.7]
+📊 Ep 49 | Avg Reward: -1.81 | Avg Volume: 29.3 Å³
+Epoch 50/60: 100%|███████████| 50/50 [02:29<00:00,  2.99s/it, R=-2.50, Vol=50.9]
+📊 Ep 50 | Avg Reward: -3.07 | Avg Volume: 32.1 Å³
+   💾 Checkpoint Saved: epoch_50 (Bias: 2.1998)
+Epoch 51/60: 100%|████████████| 50/50 [02:28<00:00,  2.98s/it, R=0.00, Vol=22.4]
+📊 Ep 51 | Avg Reward: -2.37 | Avg Volume: 31.3 Å³
+Epoch 52/60: 100%|███████████| 50/50 [02:29<00:00,  3.00s/it, R=-2.41, Vol=31.3]
+📊 Ep 52 | Avg Reward: -2.81 | Avg Volume: 30.6 Å³
+Epoch 53/60: 100%|████████████| 50/50 [02:29<00:00,  2.98s/it, R=0.00, Vol=28.5]
+📊 Ep 53 | Avg Reward: -3.15 | Avg Volume: 27.3 Å³
+Epoch 54/60: 100%|███████████| 50/50 [02:28<00:00,  2.96s/it, R=-2.43, Vol=33.5]
+📊 Ep 54 | Avg Reward: -2.68 | Avg Volume: 31.8 Å³
+Epoch 55/60: 100%|███████████| 50/50 [02:29<00:00,  2.98s/it, R=-2.29, Vol=31.1]
+📊 Ep 55 | Avg Reward: -2.69 | Avg Volume: 26.2 Å³
+   💾 Checkpoint Saved: epoch_55 (Bias: 2.1997)
+Epoch 56/60: 100%|███████████| 50/50 [02:28<00:00,  2.98s/it, R=-2.50, Vol=31.4]
+📊 Ep 56 | Avg Reward: -2.89 | Avg Volume: 30.9 Å³
+Epoch 57/60: 100%|███████████| 50/50 [02:29<00:00,  2.99s/it, R=-2.25, Vol=25.7]
+📊 Ep 57 | Avg Reward: -2.95 | Avg Volume: 32.2 Å³
+Epoch 58/60: 100%|████████████| 50/50 [02:28<00:00,  2.97s/it, R=0.03, Vol=26.8]
+📊 Ep 58 | Avg Reward: -2.73 | Avg Volume: 27.8 Å³
+Epoch 59/60: 100%|███████████| 50/50 [02:28<00:00,  2.98s/it, R=-2.30, Vol=40.6]
+📊 Ep 59 | Avg Reward: -3.31 | Avg Volume: 31.8 Å³
+Epoch 60/60: 100%|███████████| 50/50 [02:28<00:00,  2.96s/it, R=-2.50, Vol=26.4]
+📊 Ep 60 | Avg Reward: -3.06 | Avg Volume: 29.4 Å³
+   💾 Checkpoint Saved: epoch_60 (Bias: 2.1997)

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_LiTe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.18799689
+_cell_length_b   10.29546345
+_cell_length_c   7.70917758
+_cell_angle_alpha   89.99982620
+_cell_angle_beta   89.99997083
+_cell_angle_gamma   89.99955236
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiTe
+_chemical_formula_sum   'Li8 Te8'
+_cell_volume   411.76900995
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.23498902  0.93456030  0.13867977  1
+  Li  Li1  1  0.26500796  0.06543978  0.63868003  1
+  Li  Li2  1  0.76501087  0.43456034  0.36132045  1
+  Li  Li3  1  0.73499275  0.56543965  0.86131986  1
+  Li  Li4  1  0.76500776  0.06543975  0.86132003  1
+  Li  Li5  1  0.73499019  0.93456040  0.36132005  1
+  Li  Li6  1  0.23499212  0.56543970  0.63868038  1
+  Li  Li7  1  0.26501090  0.43456028  0.13867994  1
+  Te  Te8  1  0.26379524  0.17358973  -0.01314606  1
+  Te  Te9  1  0.23620484  0.82641049  0.48685423  1
+  Te  Te10  1  0.73620160  0.67358934  0.51314577  1
+  Te  Te11  1  0.76379754  0.32641043  1.01314557  1
+  Te  Te12  1  0.73620594  0.82641052  1.01314583  1
+  Te  Te13  1  0.76379393  0.17358953  0.51314583  1
+  Te  Te14  1  0.26379844  0.32641032  0.48685417  1
+  Te  Te15  1  0.23620088  0.67358955  -0.01314584  1

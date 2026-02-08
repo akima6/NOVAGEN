@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_SrLiSb4As
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.43976968
+_cell_length_b   4.43978523
+_cell_length_c   11.63433953
+_cell_angle_alpha   90.00001506
+_cell_angle_beta   89.99998120
+_cell_angle_gamma   90.00003716
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrLiSb4As
+_chemical_formula_sum   'Sr1 Li1 Sb4 As1'
+_cell_volume   229.33172430
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  -0.00000000  0.00000000  0.00000000  1
+  As  As1  1  0.50000001  0.50000002  0.50000001  1
+  Sr  Sr2  1  -0.00000000  0.00000001  0.50000002  1
+  Sb  Sb3  1  0.70858671  0.70858671  0.26393916  1
+  Sb  Sb4  1  0.29141327  0.29141327  0.26393915  1
+  Sb  Sb5  1  0.70858672  0.29141328  0.73606082  1
+  Sb  Sb6  1  0.29141329  0.70858671  0.73606083  1

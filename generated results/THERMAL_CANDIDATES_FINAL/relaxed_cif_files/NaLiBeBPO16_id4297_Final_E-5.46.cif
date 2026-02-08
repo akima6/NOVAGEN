@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_NaLiBeBPO16
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.60840282
+_cell_length_b   8.92142338
+_cell_length_c   7.10510348
+_cell_angle_alpha   78.41293628
+_cell_angle_beta   54.68205073
+_cell_angle_gamma   97.39141846
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLiBeBPO16
+_chemical_formula_sum   'Na1 Li1 Be1 B1 P1 O16'
+_cell_volume   366.98050346
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.69412319  0.03230404  0.21014784  1
+  Li  Li1  1  0.68571788  0.61336877  0.06046816  1
+  Be  Be2  1  0.24165126  0.34435608  0.43410053  1
+  B  B3  1  0.82119395  0.75071656  0.24904487  1
+  P  P4  1  0.87815244  0.85732945  0.58039670  1
+  O  O5  1  -0.05742379  0.65116825  0.21108828  1
+  O  O6  1  0.17026868  0.27993269  0.70158123  1
+  O  O7  1  0.32481103  0.81808155  0.61665412  1
+  O  O8  1  0.40775238  0.20794784  0.77893274  1
+  O  O9  1  0.90117367  0.30653624  0.21895585  1
+  O  O10  1  0.78980492  0.38906363  0.74164021  1
+  O  O11  1  0.70501804  0.78886030  0.17060424  1
+  O  O12  1  0.89661428  0.70484603  0.68745257  1
+  O  O13  1  0.67458627  0.29141151  0.94904882  1
+  O  O14  1  0.81833477  0.86029893  0.40217567  1
+  O  O15  1  0.44351987  0.43994955  0.19558892  1
+  O  O16  1  0.98771873  0.16133143  0.75209861  1
+  O  O17  1  1.00147472  0.23075624  0.54214043  1
+  O  O18  1  0.45643686  0.08433810  0.74628628  1
+  O  O19  1  0.29706772  0.67289910  0.68173590  1
+  O  O20  1  0.80468191  0.40884478  0.22950812  1

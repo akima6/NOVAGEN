@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_KNa2(TeO)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.87871442
+_cell_length_b   8.88625960
+_cell_length_c   3.57189276
+_cell_angle_alpha   90.00635638
+_cell_angle_beta   89.99250014
+_cell_angle_gamma   119.99560992
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNa2(TeO)3
+_chemical_formula_sum   'K1 Na2 Te3 O3'
+_cell_volume   244.07164787
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.99994502  1.00004198  1.09788953  1
+  Na  Na1  1  0.33324873  0.66668320  0.12988890  1
+  Na  Na2  1  0.66662894  0.33340003  0.12988907  1
+  Te  Te3  1  0.34114777  0.99998902  0.60895911  1
+  Te  Te4  1  1.00001778  0.34117818  0.60888350  1
+  Te  Te5  1  0.65885108  0.65882275  0.60889944  1
+  O  O6  1  0.55473714  -0.00003198  0.64705238  1
+  O  O7  1  1.00004520  0.55461869  0.64720060  1
+  O  O8  1  0.44537827  0.44529805  0.64715807  1

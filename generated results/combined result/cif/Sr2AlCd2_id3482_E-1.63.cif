@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Sr2AlCd2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.51168193
+_cell_length_b   10.51168410
+_cell_length_c   6.53661799
+_cell_angle_alpha   90.00005264
+_cell_angle_beta   89.99999849
+_cell_angle_gamma   90.00001435
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2AlCd2
+_chemical_formula_sum   'Sr8 Al4 Cd8'
+_cell_volume   722.26674128
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  -0.00000000  0.00000000  0.25000000  1
+  Al  Al1  1  0.00000000  -0.00000000  0.74999999  1
+  Al  Al2  1  0.50000000  0.50000000  0.75000000  1
+  Al  Al3  1  0.50000000  0.50000000  0.25000000  1
+  Cd  Cd4  1  0.62711865  0.12711865  -0.00000000  1
+  Cd  Cd5  1  0.37288136  0.87288137  0.00000000  1
+  Cd  Cd6  1  0.87288136  0.62711863  -0.00000000  1
+  Cd  Cd7  1  0.12711865  0.37288135  0.00000000  1
+  Cd  Cd8  1  0.12711866  0.62711865  0.50000000  1
+  Cd  Cd9  1  0.87288136  0.37288136  0.50000000  1
+  Cd  Cd10  1  0.37288135  0.12711865  0.49999999  1
+  Cd  Cd11  1  0.62711866  0.87288136  0.50000000  1
+  Sr  Sr12  1  0.82281484  0.32281490  0.00000001  1
+  Sr  Sr13  1  0.17718515  0.67718515  -0.00000000  1
+  Sr  Sr14  1  0.67718515  0.82281485  0.00000001  1
+  Sr  Sr15  1  0.32281489  0.17718517  0.00000001  1
+  Sr  Sr16  1  0.32281488  0.82281489  0.50000000  1
+  Sr  Sr17  1  0.67718515  0.17718516  0.50000000  1
+  Sr  Sr18  1  0.17718517  0.32281489  0.50000000  1
+  Sr  Sr19  1  0.82281489  0.67718517  0.50000000  1

@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_BaCaTiGeNO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.34804454
+_cell_length_b   9.27059466
+_cell_length_c   7.22080325
+_cell_angle_alpha   90.00000199
+_cell_angle_beta   89.99999719
+_cell_angle_gamma   89.99313990
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaCaTiGeNO8
+_chemical_formula_sum   'Ba2 Ca2 Ti2 Ge2 N2 O16'
+_cell_volume   625.76875449
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.00000049  0.00000032  0.18043871  1
+  Ba  Ba1  1  0.00000032  0.00000022  0.68036814  1
+  Ca  Ca2  1  -0.00000052  0.00000008  0.44107360  1
+  Ca  Ca3  1  -0.00000119  -0.00000082  0.94063641  1
+  O  O4  1  0.00000075  0.00000055  0.04441509  1
+  O  O5  1  0.00000028  0.00000009  0.54436828  1
+  Ge  Ge6  1  -0.00000076  0.00000015  0.32540796  1
+  Ge  Ge7  1  -0.00000177  -0.00000120  0.82561105  1
+  Ti  Ti8  1  0.00000025  -0.00000004  0.38838147  1
+  Ti  Ti9  1  0.00000047  0.00000033  0.88981024  1
+  O  O10  1  -0.00000131  -0.00000090  0.78213255  1
+  O  O11  1  -0.00000046  0.00000005  0.28240616  1
+  O  O12  1  0.00000129  -0.00000024  0.34504114  1
+  O  O13  1  0.00000334  0.00000227  0.84425676  1
+  O  O14  1  -0.00000104  -0.00000080  0.10969440  1
+  O  O15  1  -0.00000030  -0.00000016  0.60973178  1
+  O  O16  1  0.00000011  0.00000008  -0.00031465  1
+  O  O17  1  0.00000005  0.00000002  0.49974777  1
+  N  N18  1  0.00000000  0.50000000  0.52286981  1
+  N  N19  1  -0.00000000  0.50000000  0.02287053  1
+  O  O20  1  0.50000000  -0.00000000  0.06618188  1
+  O  O21  1  0.50000000  -0.00000000  0.56618118  1
+  O  O22  1  0.82694627  0.83333129  0.92334381  1
+  O  O23  1  0.17305373  0.16666871  0.92334381  1
+  O  O24  1  0.82694833  0.16666673  0.42334122  1
+  O  O25  1  0.17305167  0.83333328  0.42334122  1

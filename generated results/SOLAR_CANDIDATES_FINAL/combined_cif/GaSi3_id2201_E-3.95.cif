@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_GaSi3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.36419503
+_cell_length_b   19.19496883
+_cell_length_c   7.41027246
+_cell_angle_alpha   89.99999179
+_cell_angle_beta   89.99974063
+_cell_angle_gamma   89.99999211
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaSi3
+_chemical_formula_sum   'Ga4 Si12'
+_cell_volume   620.76287837
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  -0.00000001  0.25000000  0.29504318  1
+  Ga  Ga1  1  0.00000000  0.75000000  0.70495682  1
+  Ga  Ga2  1  0.50000000  0.75000000  0.79504318  1
+  Ga  Ga3  1  0.50000001  0.25000000  0.20495682  1
+  Si  Si4  1  0.00000006  0.25000007  0.84637428  1
+  Si  Si5  1  -0.00000006  0.75000003  0.15362570  1
+  Si  Si6  1  0.50000004  0.75000001  0.34637428  1
+  Si  Si7  1  0.49999999  0.25000002  0.65362573  1
+  Si  Si8  1  0.24999996  0.64507653  0.25000000  1
+  Si  Si9  1  0.74999993  0.85492377  0.25000001  1
+  Si  Si10  1  0.74999990  0.35492349  0.75000000  1
+  Si  Si11  1  0.24999998  0.14507623  0.75000000  1
+  Si  Si12  1  0.74999999  0.14507652  0.75000000  1
+  Si  Si13  1  0.25000008  0.35492379  0.74999999  1
+  Si  Si14  1  0.25000012  0.85492347  0.25000001  1
+  Si  Si15  1  0.75000002  0.64507624  0.25000000  1

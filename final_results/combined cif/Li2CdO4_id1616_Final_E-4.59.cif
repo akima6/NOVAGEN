@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Li2CdO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.79688562
+_cell_length_b   6.76803525
+_cell_length_c   5.46670172
+_cell_angle_alpha   124.16972789
+_cell_angle_beta   124.22520319
+_cell_angle_gamma   61.25783848
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2CdO4
+_chemical_formula_sum   'Li4 Cd2 O8'
+_cell_volume   166.95887116
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.74707711  0.25332152  0.00288240  1
+  Li  Li1  1  0.25287725  0.74671334  0.99712133  1
+  Li  Li2  1  0.26507201  0.26555326  0.47717620  1
+  Li  Li3  1  0.73492309  0.73443654  0.52278296  1
+  Cd  Cd4  1  0.75531949  0.24561140  0.50276888  1
+  Cd  Cd5  1  0.24471045  0.75439152  0.49727525  1
+  O  O6  1  0.50169732  0.49704682  0.25231489  1
+  O  O7  1  -0.00211814  -0.00312763  0.23702676  1
+  O  O8  1  0.02598042  0.50473580  0.64957644  1
+  O  O9  1  0.50443967  0.02588422  0.64924051  1
+  O  O10  1  0.49831184  0.50294390  0.74771197  1
+  O  O11  1  1.00213395  1.00312425  0.76299698  1
+  O  O12  1  0.97401622  0.49525761  0.35039280  1
+  O  O13  1  0.49555919  0.97410744  0.35073261  1

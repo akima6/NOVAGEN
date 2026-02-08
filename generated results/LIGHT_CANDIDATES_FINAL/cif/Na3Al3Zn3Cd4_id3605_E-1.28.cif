@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Na3Al3Zn3Cd4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.64481320
+_cell_length_b   13.66997649
+_cell_length_c   5.22711458
+_cell_angle_alpha   90.00001849
+_cell_angle_beta   89.99998121
+_cell_angle_gamma   119.99325354
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3Al3Zn3Cd4
+_chemical_formula_sum   'Na6 Al6 Zn6 Cd8'
+_cell_volume   844.41810064
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.33333416  0.66666601  0.25000000  1
+  Cd  Cd1  1  0.66666686  0.33333408  0.75000000  1
+  Cd  Cd2  1  0.43374526  0.40983009  0.25000000  1
+  Cd  Cd3  1  0.59017499  0.02391371  0.25000000  1
+  Cd  Cd4  1  0.97608399  0.56625710  0.25000000  1
+  Cd  Cd5  1  0.56625906  0.59017407  0.75000000  1
+  Cd  Cd6  1  0.40984180  0.97608393  0.75000000  1
+  Cd  Cd7  1  0.02391471  0.43374831  0.75000000  1
+  Na  Na8  1  0.22517460  0.00143148  0.25000000  1
+  Na  Na9  1  0.99910084  0.22460677  0.25000000  1
+  Na  Na10  1  0.77570087  0.77513978  0.25000000  1
+  Na  Na11  1  0.77433913  0.99952616  0.74999999  1
+  Na  Na12  1  -0.00095208  0.77646365  0.75000002  1
+  Na  Na13  1  0.22293515  0.22140059  0.75000000  1
+  Zn  Zn14  1  0.21320153  0.99059684  0.25000000  1
+  Zn  Zn15  1  0.00883825  0.22176936  0.25000000  1
+  Zn  Zn16  1  0.77787594  0.78636631  0.25000000  1
+  Zn  Zn17  1  0.78722751  0.00838958  0.75000001  1
+  Zn  Zn18  1  0.99301108  0.77706041  0.74999999  1
+  Zn  Zn19  1  0.22353054  0.21721054  0.75000000  1
+  Al  Al20  1  0.82034089  0.98204294  0.25000000  1
+  Al  Al21  1  0.01808734  0.83832584  0.25000000  1
+  Al  Al22  1  0.16167046  0.17971723  0.25000000  1
+  Al  Al23  1  0.17959576  0.01784564  0.75000000  1
+  Al  Al24  1  0.98199548  0.16167542  0.75000000  1
+  Al  Al25  1  0.83830585  0.82042416  0.75000000  1

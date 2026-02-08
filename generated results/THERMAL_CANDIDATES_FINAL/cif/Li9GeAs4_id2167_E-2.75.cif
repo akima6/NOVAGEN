@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Li9GeAs4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.75069764
+_cell_length_b   7.75069935
+_cell_length_c   7.75066749
+_cell_angle_alpha   90.00211778
+_cell_angle_beta   90.00003016
+_cell_angle_gamma   89.94220613
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li9GeAs4
+_chemical_formula_sum   'Li18 Ge2 As8'
+_cell_volume   465.60814672
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.25000001  0.25000001  0.24999999  1
+  Ge  Ge1  1  0.74999998  0.75000001  0.74999997  1
+  Li  Li2  1  0.75000000  0.24999999  0.24999999  1
+  Li  Li3  1  0.25000001  0.74999998  0.24999999  1
+  Li  Li4  1  0.25000001  0.25000001  0.74999999  1
+  Li  Li5  1  0.24999999  0.75000000  0.74999998  1
+  Li  Li6  1  0.75000000  0.25000001  0.75000003  1
+  Li  Li7  1  0.74999999  0.74999997  0.25000000  1
+  As  As8  1  -0.00000002  -0.00000001  -0.00000000  1
+  As  As9  1  0.49999997  0.50000000  0.00000003  1
+  As  As10  1  0.49999998  -0.00000001  0.49999999  1
+  As  As11  1  -0.00000000  0.50000003  0.50000001  1
+  As  As12  1  0.00000003  0.00000000  0.49999999  1
+  As  As13  1  0.49999998  0.49999998  0.49999997  1
+  As  As14  1  -0.00000003  0.49999997  -0.00000000  1
+  As  As15  1  0.50000001  0.00000001  0.00000002  1
+  Li  Li16  1  0.97768143  0.25000057  0.25000000  1
+  Li  Li17  1  0.52231854  0.24999942  0.24999997  1
+  Li  Li18  1  0.25000061  0.97768151  0.24999996  1
+  Li  Li19  1  0.24999941  0.52231851  0.25000002  1
+  Li  Li20  1  0.25000003  0.25000002  0.97768148  1
+  Li  Li21  1  0.24999999  0.25000003  0.52231857  1
+  Li  Li22  1  0.02231854  0.74999941  0.74999997  1
+  Li  Li23  1  0.47768147  0.75000060  0.75000002  1
+  Li  Li24  1  0.74999937  0.02231849  0.75000004  1
+  Li  Li25  1  0.75000063  0.47768148  0.74999998  1
+  Li  Li26  1  0.74999997  0.74999998  0.02231854  1
+  Li  Li27  1  0.75000004  0.74999995  0.47768144  1

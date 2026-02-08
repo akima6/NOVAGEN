@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Li3ZnIn5Ga3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.20660761
+_cell_length_b   8.20663152
+_cell_length_c   4.59553964
+_cell_angle_alpha   90.00886671
+_cell_angle_beta   89.99604230
+_cell_angle_gamma   119.99995505
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3ZnIn5Ga3
+_chemical_formula_sum   'Li3 Zn1 In5 Ga3'
+_cell_volume   268.03773673
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  -0.00000003  -0.00000002  0.00000000  1
+  In  In1  1  0.33333334  0.66666669  0.50000003  1
+  In  In2  1  0.66666667  0.33333330  0.49999996  1
+  Ga  Ga3  1  0.65501385  -0.00000001  0.00000036  1
+  Ga  Ga4  1  -0.00000007  0.65501377  -0.00000064  1
+  Ga  Ga5  1  0.34498619  0.34498612  0.00000036  1
+  In  In6  1  0.33753695  0.00000006  -0.00000017  1
+  In  In7  1  0.00000002  0.33753705  0.00000036  1
+  In  In8  1  0.66246308  0.66246303  -0.00000017  1
+  Li  Li9  1  0.65927634  0.00000001  0.49999985  1
+  Li  Li10  1  0.00000000  0.65927637  0.50000018  1
+  Li  Li11  1  0.34072368  0.34072366  0.49999988  1

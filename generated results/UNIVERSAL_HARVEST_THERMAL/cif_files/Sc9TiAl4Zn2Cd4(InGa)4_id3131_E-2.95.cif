@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Sc9TiAl4Zn2Cd4(InGa)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.74823234
+_cell_length_b   12.89656536
+_cell_length_c   9.11204356
+_cell_angle_alpha   89.11164682
+_cell_angle_beta   78.50630365
+_cell_angle_gamma   71.92404803
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc9TiAl4Zn2Cd4(InGa)4
+_chemical_formula_sum   'Sc9 Ti1 Al4 Zn2 Cd4 In4 Ga4'
+_cell_volume   1175.19683750
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  -0.00000001  -0.00000002  0.00000002  1
+  Ti  Ti1  1  -0.00000003  0.00000000  0.49999999  1
+  Sc  Sc2  1  0.06747848  0.42902146  0.73191676  1
+  Sc  Sc3  1  0.93252151  0.57097846  0.26808318  1
+  Sc  Sc4  1  0.19417671  0.50307434  0.12296156  1
+  Sc  Sc5  1  0.80582329  0.49692568  0.87703844  1
+  Sc  Sc6  1  0.13335605  0.68556424  0.33907343  1
+  Sc  Sc7  1  0.86664390  0.31443582  0.66092659  1
+  Al  Al8  1  0.23098883  0.03863268  0.47455373  1
+  Al  Al9  1  0.76901114  0.96136720  0.52544628  1
+  Cd  Cd10  1  0.15638253  0.73494846  1.00894884  1
+  Cd  Cd11  1  0.84361753  0.26505165  -0.00894881  1
+  Ga  Ga12  1  0.13985522  0.59507262  0.79044401  1
+  Ga  Ga13  1  0.86014473  0.40492745  0.20955601  1
+  In  In14  1  0.40825013  0.68746404  0.79682533  1
+  In  In15  1  0.59174995  0.31253600  0.20317470  1
+  Al  Al16  1  0.36042434  0.49864952  0.28167354  1
+  Al  Al17  1  0.63957568  0.50135046  0.71832645  1
+  In  In18  1  0.43227352  0.86913285  0.31107057  1
+  In  In19  1  0.56772644  0.13086717  0.68892937  1
+  Zn  Zn20  1  0.34742469  0.49788435  0.87615033  1
+  Zn  Zn21  1  0.65257531  0.50211555  0.12384962  1
+  Ga  Ga22  1  0.19857658  0.86748258  0.25652485  1
+  Ga  Ga23  1  0.80142346  0.13251745  0.74347518  1
+  Cd  Cd24  1  0.58044667  0.15458588  0.38643448  1
+  Cd  Cd25  1  0.41955334  0.84541409  0.61356551  1
+  Sc  Sc26  1  0.78475851  0.92859957  0.80826002  1
+  Sc  Sc27  1  0.21524158  0.07140043  0.19174002  1

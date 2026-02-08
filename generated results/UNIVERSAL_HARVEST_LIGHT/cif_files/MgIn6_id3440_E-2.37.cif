@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_MgIn6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.00764732
+_cell_length_b   13.23513485
+_cell_length_c   12.87688404
+_cell_angle_alpha   89.99999781
+_cell_angle_beta   90.00001858
+_cell_angle_gamma   90.00001298
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgIn6
+_chemical_formula_sum   'Mg4 In24'
+_cell_volume   1023.86709239
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.00000000  0.00000001  -0.00000000  1
+  Mg  Mg1  1  0.00000000  0.49999998  0.50000000  1
+  Mg  Mg2  1  0.50000000  0.49999998  -0.00000001  1
+  Mg  Mg3  1  0.50000000  -0.00000000  0.50000001  1
+  In  In4  1  0.25000000  0.05516965  0.25000000  1
+  In  In5  1  0.75000000  0.44483035  0.75000000  1
+  In  In6  1  0.75000000  0.94483035  0.75000001  1
+  In  In7  1  0.25000000  0.55516965  0.25000000  1
+  In  In8  1  0.75000000  0.55516964  0.25000000  1
+  In  In9  1  0.25000000  0.94483035  0.75000000  1
+  In  In10  1  0.25000000  0.44483035  0.75000001  1
+  In  In11  1  0.75000000  0.05516960  0.25000000  1
+  In  In12  1  0.00000001  0.81436074  0.89551947  1
+  In  In13  1  -0.00000000  0.68563925  0.39551946  1
+  In  In14  1  -0.00000001  0.31436069  0.60448053  1
+  In  In15  1  -0.00000001  0.18563926  0.10448055  1
+  In  In16  1  0.50000000  0.31436069  0.89551946  1
+  In  In17  1  0.50000001  0.18563926  0.39551946  1
+  In  In18  1  0.50000000  0.81436069  0.60448053  1
+  In  In19  1  0.50000000  0.68563926  0.10448055  1
+  In  In20  1  0.00000000  0.72987352  0.10242440  1
+  In  In21  1  0.00000000  0.77012650  0.60242438  1
+  In  In22  1  0.00000000  0.22987346  0.39757558  1
+  In  In23  1  -0.00000000  0.27012648  0.89757562  1
+  In  In24  1  0.50000000  0.22987345  0.10242441  1
+  In  In25  1  0.50000000  0.27012649  0.60242439  1
+  In  In26  1  0.50000000  0.72987345  0.39757559  1
+  In  In27  1  0.50000000  0.77012649  0.89757562  1

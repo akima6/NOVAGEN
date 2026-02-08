@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ba6SrMg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.43128514
+_cell_length_b   11.43128565
+_cell_length_c   8.53824198
+_cell_angle_alpha   89.99999856
+_cell_angle_beta   90.00000314
+_cell_angle_gamma   119.99999620
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba6SrMg
+_chemical_formula_sum   'Ba12 Sr2 Mg2'
+_cell_volume   966.24941166
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  -0.00000001  -0.00000000  -0.00000002  1
+  Sr  Sr1  1  -0.00000001  0.00000000  0.50000000  1
+  Mg  Mg2  1  0.33333334  0.66666669  0.25000000  1
+  Mg  Mg3  1  0.66666669  0.33333335  0.75000000  1
+  Ba  Ba4  1  0.65806595  0.64980288  0.61042525  1
+  Ba  Ba5  1  0.35019714  0.00826306  0.61042523  1
+  Ba  Ba6  1  0.99173694  0.34193407  0.61042525  1
+  Ba  Ba7  1  0.35019713  0.34193405  0.88957474  1
+  Ba  Ba8  1  0.99173693  0.64980287  0.88957476  1
+  Ba  Ba9  1  0.65806592  0.00826306  0.88957476  1
+  Ba  Ba10  1  0.34193407  0.35019713  0.38957476  1
+  Ba  Ba11  1  0.64980286  0.99173694  0.38957477  1
+  Ba  Ba12  1  0.00826308  0.65806593  0.38957476  1
+  Ba  Ba13  1  0.64980287  0.65806594  0.11042526  1
+  Ba  Ba14  1  0.00826306  0.35019711  0.11042524  1
+  Ba  Ba15  1  0.34193407  0.99173693  0.11042524  1

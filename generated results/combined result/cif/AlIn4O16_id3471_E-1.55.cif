@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_AlIn4O16
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.34629956
+_cell_length_b   13.34630160
+_cell_length_c   13.34630278
+_cell_angle_alpha   90.00001488
+_cell_angle_beta   90.00000773
+_cell_angle_gamma   89.99996188
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlIn4O16
+_chemical_formula_sum   'Al1 In4 O16'
+_cell_volume   2377.29335639
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  -0.00000002  -0.00000002  -0.00000001  1
+  O  O1  1  0.19411040  0.19411040  0.19411040  1
+  O  O2  1  0.80588963  0.80588963  0.19411040  1
+  O  O3  1  0.80588962  0.19411041  0.80588962  1
+  O  O4  1  0.19411040  0.80588963  0.80588963  1
+  In  In5  1  0.47359536  0.47359536  0.47359536  1
+  In  In6  1  0.52640466  0.52640468  0.47359536  1
+  In  In7  1  0.52640468  0.47359536  0.52640468  1
+  In  In8  1  0.47359536  0.52640467  0.52640467  1
+  O  O9  1  0.54550465  -0.00000001  0.00000000  1
+  O  O10  1  0.45449535  0.00000001  -0.00000000  1
+  O  O11  1  -0.00000001  0.54550466  0.00000000  1
+  O  O12  1  0.00000001  0.45449534  -0.00000000  1
+  O  O13  1  0.00000000  0.00000000  0.54550465  1
+  O  O14  1  -0.00000000  -0.00000000  0.45449536  1
+  O  O15  1  0.13108396  0.00000002  -0.00000000  1
+  O  O16  1  0.86891602  -0.00000002  0.00000000  1
+  O  O17  1  0.00000002  0.13108396  -0.00000000  1
+  O  O18  1  -0.00000002  0.86891602  0.00000000  1
+  O  O19  1  -0.00000000  -0.00000000  0.13108396  1
+  O  O20  1  0.00000000  0.00000000  0.86891602  1

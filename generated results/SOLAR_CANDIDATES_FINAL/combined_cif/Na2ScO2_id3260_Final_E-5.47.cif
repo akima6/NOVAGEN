@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Na2ScO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.32824519
+_cell_length_b   6.32830032
+_cell_length_c   6.74914642
+_cell_angle_alpha   90.00027191
+_cell_angle_beta   89.99887576
+_cell_angle_gamma   120.00053076
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2ScO2
+_chemical_formula_sum   'Na4 Sc2 O4'
+_cell_volume   234.07096097
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  -0.00000012  0.00000011  0.00000000  1
+  Na  Na1  1  0.49999946  -0.00000025  0.00000008  1
+  Na  Na2  1  0.00000022  0.50000054  -0.00000002  1
+  Na  Na3  1  0.50000018  0.49999983  -0.00000003  1
+  Sc  Sc4  1  0.33330998  0.66667145  0.49999997  1
+  Sc  Sc5  1  0.66667468  0.33334538  0.50000003  1
+  O  O6  1  0.33334360  0.66666378  0.21939456  1
+  O  O7  1  0.33334607  0.66666451  0.78060539  1
+  O  O8  1  0.66666421  0.33332770  0.78060548  1
+  O  O9  1  0.66666172  0.33332695  0.21939455  1

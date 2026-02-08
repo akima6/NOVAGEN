@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SrInSn4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.98515270
+_cell_length_b   10.37843982
+_cell_length_c   10.21935976
+_cell_angle_alpha   89.99998230
+_cell_angle_beta   90.00004673
+_cell_angle_gamma   89.99998645
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrInSn4
+_chemical_formula_sum   'Sr2 In2 Sn8'
+_cell_volume   952.97437265
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.00000000  0.50000000  -0.00000000  1
+  Sn  Sn1  1  0.50000000  0.50000000  -0.00000000  1
+  Sn  Sn2  1  0.25000001  0.00000000  0.19636986  1
+  Sn  Sn3  1  0.75000003  0.00000000  0.80364909  1
+  Sr  Sr4  1  0.25000000  -0.00000000  0.37239870  1
+  Sr  Sr5  1  0.74999999  0.00000000  0.62760037  1
+  Sn  Sn6  1  0.24999999  -0.00000000  0.16403660  1
+  Sn  Sn7  1  0.74999997  0.00000000  0.83594430  1
+  Sn  Sn8  1  0.25000000  -0.00000000  0.85944778  1
+  Sn  Sn9  1  0.75000000  0.00000001  0.14055326  1
+  In  In10  1  0.25000000  0.50000000  0.40599591  1
+  In  In11  1  0.75000000  0.50000000  0.59400416  1

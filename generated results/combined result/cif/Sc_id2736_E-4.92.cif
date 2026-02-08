@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Sc
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.02960086
+_cell_length_b   12.01001693
+_cell_length_c   3.60524962
+_cell_angle_alpha   90.81919952
+_cell_angle_beta   89.99241514
+_cell_angle_gamma   89.71733109
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc
+_chemical_formula_sum   Sc28
+_cell_volume   434.22310000
+_cell_formula_units_Z   28
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  1.00171688  0.25000364  0.01348382  1
+  Sc  Sc1  1  -0.00170695  0.75000090  0.01348596  1
+  Sc  Sc2  1  1.00166761  0.75000141  0.51348136  1
+  Sc  Sc3  1  -0.00164030  0.25000147  0.51348351  1
+  Sc  Sc4  1  0.16460961  0.08576787  0.60825223  1
+  Sc  Sc5  1  0.83539118  0.91424097  0.60824615  1
+  Sc  Sc6  1  0.16459971  0.41428817  0.60824942  1
+  Sc  Sc7  1  0.83539750  0.58577484  0.60825046  1
+  Sc  Sc8  1  0.16459838  0.58572234  0.10825589  1
+  Sc  Sc9  1  0.83539906  0.41427083  0.10824974  1
+  Sc  Sc10  1  0.16459632  0.91429556  0.10825090  1
+  Sc  Sc11  1  0.83539549  0.08573461  0.10825637  1
+  Sc  Sc12  1  0.20150149  0.25013660  0.52458896  1
+  Sc  Sc13  1  0.80007716  0.74866739  0.52467040  1
+  Sc  Sc14  1  0.20081677  0.25014904  0.52541164  1
+  Sc  Sc15  1  0.79816691  0.74957994  0.52499063  1
+  Sc  Sc16  1  0.20019943  0.74922559  0.02375528  1
+  Sc  Sc17  1  0.79812408  0.24969081  0.02540447  1
+  Sc  Sc18  1  0.20208267  0.75053711  0.02623178  1
+  Sc  Sc19  1  0.79904795  0.24959239  0.02487939  1
+  Sc  Sc20  1  0.19024218  0.73124332  0.97621863  1
+  Sc  Sc21  1  0.81011658  0.26884186  0.97596507  1
+  Sc  Sc22  1  0.19028890  0.76897386  0.97617731  1
+  Sc  Sc23  1  0.80987294  0.23186536  0.97613327  1
+  Sc  Sc24  1  0.19012099  0.23071318  0.47617453  1
+  Sc  Sc25  1  0.80981874  0.76940583  0.47619295  1
+  Sc  Sc26  1  0.19031838  0.26894401  0.47621361  1
+  Sc  Sc27  1  0.80918039  0.73233101  0.47653850  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_LiCdInTeO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.93717773
+_cell_length_b   7.71647245
+_cell_length_c   22.21402485
+_cell_angle_alpha   43.71970337
+_cell_angle_beta   88.50716014
+_cell_angle_gamma   90.07699599
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCdInTeO3
+_chemical_formula_sum   'Li2 Cd2 In2 Te2 O6'
+_cell_volume   466.07823879
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.35002455  0.10474361  0.45045098  1
+  Li  Li1  1  0.83209264  0.89357297  0.55366891  1
+  Cd  Cd2  1  0.25654870  0.35774072  0.97984937  1
+  Cd  Cd3  1  0.75020896  0.63859112  0.01488144  1
+  In  In4  1  0.26948970  0.26276361  0.54750222  1
+  In  In5  1  0.78700672  0.74235753  0.45295830  1
+  Te  Te6  1  0.23248717  0.26780372  0.12690330  1
+  Te  Te7  1  0.77422953  0.72856369  0.86780867  1
+  O  O8  1  0.72157331  0.23695559  0.50137309  1
+  O  O9  1  0.22489938  0.76416504  0.50050343  1
+  O  O10  1  0.91588621  0.03944473  0.43440713  1
+  O  O11  1  0.48710125  0.46018380  0.57006685  1
+  O  O12  1  0.39392500  -0.03987103  0.56906034  1
+  O  O13  1  0.00452686  0.54298489  0.43056595  1

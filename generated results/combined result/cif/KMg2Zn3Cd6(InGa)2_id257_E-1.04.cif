@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_KMg2Zn3Cd6(InGa)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.84635349
+_cell_length_b   10.81416654
+_cell_length_c   8.61287754
+_cell_angle_alpha   91.04985048
+_cell_angle_beta   98.05448027
+_cell_angle_gamma   58.32597007
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KMg2Zn3Cd6(InGa)2
+_chemical_formula_sum   'K1 Mg2 Zn3 Cd6 In2 Ga2'
+_cell_volume   1084.40228432
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  -0.00000004  -0.00000002  -0.00000000  1
+  K  K1  1  0.00000001  0.00000001  0.50000000  1
+  Mg  Mg2  1  0.41003549  0.02869176  0.22173183  1
+  Mg  Mg3  1  0.58996466  0.97130829  0.77826821  1
+  Cd  Cd4  1  0.21304843  0.43648363  0.69343949  1
+  Cd  Cd5  1  0.78695151  0.56351635  0.30656055  1
+  Cd  Cd6  1  0.48356590  0.72641790  0.30930062  1
+  Cd  Cd7  1  0.51643416  0.27358211  0.69069947  1
+  In  In8  1  0.38321899  0.37090291  0.20737534  1
+  In  In9  1  0.61678106  0.62909710  0.79262462  1
+  Ga  Ga10  1  0.62768329  0.81643863  0.21887389  1
+  Ga  Ga11  1  0.37231662  0.18356137  0.78112615  1
+  Cd  Cd12  1  0.61248620  0.96748885  0.45923733  1
+  Cd  Cd13  1  0.38751367  0.03251117  0.54076261  1
+  Zn  Zn14  1  0.64047337  0.71468548  0.52837968  1
+  Zn  Zn15  1  0.35952662  0.28531447  0.47162024  1

@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_NaLiGe2Te(Se2S)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.73624180
+_cell_length_b   7.55284399
+_cell_length_c   9.64075576
+_cell_angle_alpha   89.88300239
+_cell_angle_beta   90.00000673
+_cell_angle_gamma   90.00000201
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLiGe2Te(Se2S)2
+_chemical_formula_sum   'Na2 Li2 Ge4 Te2 Se8 S4'
+_cell_volume   563.31423275
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  -0.00000116  0.13857095  0.23371468  1
+  Ge  Ge1  1  -0.00000000  0.85736923  0.73615921  1
+  Na  Na2  1  0.00000000  0.85459668  0.24680975  1
+  Na  Na3  1  0.00000000  0.14281336  0.73688467  1
+  Se  Se4  1  -0.00000000  0.85940245  0.23310504  1
+  Se  Se5  1  -0.00000000  0.14270334  0.74391666  1
+  Ge  Ge6  1  -0.00000002  0.39398188  0.18571766  1
+  Ge  Ge7  1  0.00000000  0.60599448  0.68553052  1
+  Se  Se8  1  0.00000002  0.87271321  0.27495265  1
+  Se  Se9  1  -0.00000000  0.12720231  0.77372515  1
+  S  S10  1  0.00000000  0.87606062  0.74676599  1
+  S  S11  1  0.00000017  0.12649118  0.24727343  1
+  Se  Se12  1  -0.00000000  0.82854275  0.71687675  1
+  Se  Se13  1  0.00000009  0.17119468  0.21943628  1
+  S  S14  1  -0.00000000  0.85396342  0.73397233  1
+  S  S15  1  0.00000092  0.14839623  0.23279384  1
+  Li  Li16  1  0.50000000  0.91280628  0.71432424  1
+  Li  Li17  1  0.50000000  0.08718938  0.21432644  1
+  Se  Se18  1  0.50000000  0.41456549  0.12509192  1
+  Se  Se19  1  0.50000000  0.58550947  0.62506279  1
+  Te  Te20  1  0.50000000  0.41579084  0.88013548  1
+  Te  Te21  1  0.50000000  0.58414178  0.38008923  1

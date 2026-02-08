@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_MgSnSb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.47121739
+_cell_length_b   11.70882890
+_cell_length_c   3.24029852
+_cell_angle_alpha   91.34527362
+_cell_angle_beta   87.01617708
+_cell_angle_gamma   92.91311234
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgSnSb
+_chemical_formula_sum   'Mg4 Sn4 Sb4'
+_cell_volume   282.64697121
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.83525664  0.90267939  0.87555105  1
+  Mg  Mg1  1  0.67125752  0.10542375  0.36394152  1
+  Mg  Mg2  1  0.17329172  0.39439802  0.64512166  1
+  Mg  Mg3  1  0.32716295  0.60312518  0.13660994  1
+  Sn  Sn4  1  0.78505491  0.35529956  0.58267193  1
+  Sn  Sn5  1  0.71477717  0.64058813  0.08715847  1
+  Sn  Sn6  1  0.21496408  0.85233753  0.91866720  1
+  Sn  Sn7  1  0.28822684  0.14697199  0.41613556  1
+  Sb  Sb8  1  0.67239998  0.10781078  0.34661017  1
+  Sb  Sb9  1  0.82030289  0.88854264  0.82617504  1
+  Sb  Sb10  1  0.32404294  0.60854812  0.15501050  1
+  Sb  Sb11  1  0.17326241  0.39427490  0.64634690  1

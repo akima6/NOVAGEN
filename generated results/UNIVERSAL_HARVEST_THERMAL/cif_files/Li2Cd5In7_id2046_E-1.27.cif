@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Li2Cd5In7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.26062712
+_cell_length_b   10.42546451
+_cell_length_c   12.82343980
+_cell_angle_alpha   90.00001031
+_cell_angle_beta   82.95339928
+_cell_angle_gamma   89.99999149
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2Cd5In7
+_chemical_formula_sum   'Li4 Cd10 In14'
+_cell_volume   1892.10733372
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.50000000  0.00000000  0.00000000  1
+  In  In1  1  0.50000000  0.50000000  0.50000000  1
+  Cd  Cd2  1  0.00000000  0.00000000  0.50000000  1
+  Cd  Cd3  1  0.00000000  0.50000000  -0.00000000  1
+  In  In4  1  0.17413190  0.21352765  0.23615009  1
+  In  In5  1  0.82586819  0.71352781  0.26384979  1
+  In  In6  1  0.82586814  0.78647234  0.76384994  1
+  In  In7  1  0.17413189  0.28647230  0.73615014  1
+  Cd  Cd8  1  0.18257984  0.19049892  0.22576156  1
+  Cd  Cd9  1  0.81742011  0.69049876  0.27423860  1
+  Cd  Cd10  1  0.81742015  0.80950108  0.77423844  1
+  Cd  Cd11  1  0.18257986  0.30950113  0.72576152  1
+  In  In12  1  0.11121000  0.22024345  0.48432312  1
+  In  In13  1  0.88879001  0.72024341  0.01567687  1
+  In  In14  1  0.88879000  0.77975658  0.51567687  1
+  In  In15  1  0.11121000  0.27975656  0.98432313  1
+  Li  Li16  1  0.18766444  0.70027628  0.16940702  1
+  Li  Li17  1  0.81233555  0.20027628  0.33059297  1
+  Li  Li18  1  0.81233555  0.29972372  0.83059297  1
+  Li  Li19  1  0.18766445  0.79972372  0.66940703  1
+  In  In20  1  0.23157042  0.43545757  0.43866451  1
+  In  In21  1  0.76842958  0.93545754  0.06133549  1
+  In  In22  1  0.76842958  0.56454246  0.56133552  1
+  In  In23  1  0.23157042  0.06454243  0.93866448  1
+  Cd  Cd24  1  0.28979854  0.33900459  0.85803113  1
+  Cd  Cd25  1  0.71020142  0.83900457  0.64196884  1
+  Cd  Cd26  1  0.71020142  0.66099544  0.14196883  1
+  Cd  Cd27  1  0.28979854  0.16099542  0.35803113  1

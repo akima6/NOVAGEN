@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_K2ZnGa2SiGe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.94958725
+_cell_length_b   8.42952909
+_cell_length_c   9.12809248
+_cell_angle_alpha   89.88026538
+_cell_angle_beta   87.38381331
+_cell_angle_gamma   89.99850492
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2ZnGa2SiGe4
+_chemical_formula_sum   'K4 Zn2 Ga4 Si2 Ge8'
+_cell_volume   611.04624670
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.00000014  0.00000068  0.00000008  1
+  Si  Si1  1  0.49999994  0.50000064  0.49999996  1
+  Zn  Zn2  1  0.00000006  -0.00000192  0.49999995  1
+  Zn  Zn3  1  0.49999988  0.49999787  0.00000000  1
+  K  K4  1  -0.00001643  0.49999643  0.25001007  1
+  K  K5  1  0.50001684  -0.00000472  0.24998993  1
+  K  K6  1  0.49998354  -0.00000360  0.75001008  1
+  K  K7  1  0.00001689  0.49999525  0.74998994  1
+  Ga  Ga8  1  -0.00001421  -0.00000204  0.75350862  1
+  Ga  Ga9  1  0.00001402  0.00000023  0.24649141  1
+  Ga  Ga10  1  0.49998585  0.49999849  0.25350862  1
+  Ga  Ga11  1  0.50001440  0.50000046  0.74649145  1
+  Ge  Ge12  1  0.24576160  0.74586445  0.25003469  1
+  Ge  Ge13  1  0.75423828  0.25414087  0.24997721  1
+  Ge  Ge14  1  0.25423874  0.24586455  0.24996748  1
+  Ge  Ge15  1  0.74576114  0.75414117  0.25002047  1
+  Ge  Ge16  1  0.74576122  0.24586473  0.75003476  1
+  Ge  Ge17  1  0.25423842  0.75414080  0.74997721  1
+  Ge  Ge18  1  0.75423851  0.74586445  0.74996755  1
+  Ge  Ge19  1  0.24576114  0.25414119  0.75002052  1

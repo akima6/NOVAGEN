@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_BeZnB
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.09098805
+_cell_length_b   6.09099162
+_cell_length_c   9.15254835
+_cell_angle_alpha   90.00002582
+_cell_angle_beta   90.00000441
+_cell_angle_gamma   119.99999049
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BeZnB
+_chemical_formula_sum   'Be6 Zn6 B6'
+_cell_volume   294.06846532
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  B  B0  1  0.00000003  0.00000003  0.25102186  1
+  B  B1  1  0.00000002  -0.00000001  0.91768849  1
+  B  B2  1  -0.00000000  0.00000000  0.58435521  1
+  B  B3  1  0.00000001  0.00000001  0.41564479  1
+  B  B4  1  -0.00000001  0.00000000  0.74897815  1
+  B  B5  1  0.00000000  -0.00000001  0.08231146  1
+  Be  Be6  1  0.50000000  0.00000000  0.36825884  1
+  Be  Be7  1  -0.00000001  0.49999999  0.03492553  1
+  Be  Be8  1  0.50000000  0.50000000  0.70159216  1
+  Be  Be9  1  -0.00000000  0.50000000  0.29840784  1
+  Be  Be10  1  0.50000000  0.00000000  0.63174116  1
+  Be  Be11  1  0.50000000  0.50000001  0.96507448  1
+  Zn  Zn12  1  0.17992302  0.35984605  0.50000000  1
+  Zn  Zn13  1  0.64015396  0.82007697  0.16666668  1
+  Zn  Zn14  1  0.17992302  0.82007700  0.83333332  1
+  Zn  Zn15  1  0.82007698  0.64015395  0.50000003  1
+  Zn  Zn16  1  0.35984604  0.17992302  0.16666669  1
+  Zn  Zn17  1  0.82007699  0.17992302  0.83333330  1

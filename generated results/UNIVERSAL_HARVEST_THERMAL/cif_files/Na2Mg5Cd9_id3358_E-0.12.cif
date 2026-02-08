@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Na2Mg5Cd9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.88498680
+_cell_length_b   7.88498599
+_cell_length_c   10.53810395
+_cell_angle_alpha   89.99996859
+_cell_angle_beta   90.00000618
+_cell_angle_gamma   120.00001582
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Mg5Cd9
+_chemical_formula_sum   'Na2 Mg5 Cd9'
+_cell_volume   567.40732460
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  -0.00000000  -0.00000000  0.17416861  1
+  Mg  Mg1  1  -0.00000000  -0.00000000  0.65344277  1
+  Na  Na2  1  0.33333335  0.66666665  0.97764435  1
+  Na  Na3  1  0.66666668  0.33333336  0.97764275  1
+  Cd  Cd4  1  0.49999873  -0.00000255  0.74262315  1
+  Cd  Cd5  1  0.00000260  0.50000129  0.74262312  1
+  Cd  Cd6  1  0.49999870  0.50000129  0.74262314  1
+  Mg  Mg7  1  0.49999955  -0.00000091  0.02030728  1
+  Mg  Mg8  1  0.00000092  0.50000046  0.02030729  1
+  Mg  Mg9  1  0.49999954  0.50000045  0.02030728  1
+  Cd  Cd10  1  0.34123748  0.65876249  0.55904456  1
+  Cd  Cd11  1  0.34123749  0.68247500  0.55904455  1
+  Cd  Cd12  1  0.31752502  0.65876252  0.55904461  1
+  Cd  Cd13  1  0.65871077  0.34128916  0.55904157  1
+  Cd  Cd14  1  0.65871069  0.31742153  0.55904152  1
+  Cd  Cd15  1  0.68257853  0.34128929  0.55904156  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_MgZn6Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.79288539
+_cell_length_b   11.79286715
+_cell_length_c   6.75042778
+_cell_angle_alpha   90.00008367
+_cell_angle_beta   90.00001727
+_cell_angle_gamma   119.99996848
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgZn6Ge
+_chemical_formula_sum   'Mg2 Zn12 Ge2'
+_cell_volume   813.02059850
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  -0.00000001  -0.00000004  0.25000000  1
+  Mg  Mg1  1  0.00000003  0.00000002  0.75000002  1
+  Ge  Ge2  1  0.33333334  0.66666669  0.25000000  1
+  Ge  Ge3  1  0.66666667  0.33333333  0.75000000  1
+  Zn  Zn4  1  0.75038887  0.86366898  0.56702643  1
+  Zn  Zn5  1  0.13633103  0.88671990  0.56702646  1
+  Zn  Zn6  1  0.11328011  0.24961107  0.56702645  1
+  Zn  Zn7  1  0.24961110  0.13633098  0.06702636  1
+  Zn  Zn8  1  0.86366894  0.11328009  0.06702641  1
+  Zn  Zn9  1  0.88671989  0.75038887  0.06702642  1
+  Zn  Zn10  1  0.86366902  0.75038889  0.43297353  1
+  Zn  Zn11  1  0.88671990  0.13633104  0.43297355  1
+  Zn  Zn12  1  0.24961108  0.11328010  0.43297354  1
+  Zn  Zn13  1  0.13633110  0.24961116  0.93297355  1
+  Zn  Zn14  1  0.11328014  0.86366907  0.93297354  1
+  Zn  Zn15  1  0.75038883  0.88671989  0.93297355  1

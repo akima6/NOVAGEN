@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Sr2Zn2In2GaO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.91086775
+_cell_length_b   15.21339930
+_cell_length_c   5.45070148
+_cell_angle_alpha   90.00027094
+_cell_angle_beta   89.99992375
+_cell_angle_gamma   90.00002474
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2Zn2In2GaO4
+_chemical_formula_sum   'Sr4 Zn4 In4 Ga2 O8'
+_cell_volume   738.92210696
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.00000000  0.00000001  -0.00000000  1
+  Ga  Ga1  1  0.50000000  0.49999999  0.49999999  1
+  Sr  Sr2  1  0.50000008  -0.00000002  0.00000005  1
+  Sr  Sr3  1  0.00000009  0.50000000  0.50000005  1
+  Sr  Sr4  1  0.00000003  0.49999998  -0.00000009  1
+  Sr  Sr5  1  0.50000004  0.00000000  0.49999997  1
+  Zn  Zn6  1  0.50000000  0.58020419  -0.00000000  1
+  Zn  Zn7  1  0.50000000  0.41979579  0.00000001  1
+  Zn  Zn8  1  -0.00000000  0.08020416  0.50000000  1
+  Zn  Zn9  1  0.00000000  0.91979583  0.50000000  1
+  In  In10  1  0.50000001  0.21501020  0.00000001  1
+  In  In11  1  0.50000000  0.78498978  -0.00000001  1
+  In  In12  1  -0.00000000  0.71501014  0.49999999  1
+  In  In13  1  -0.00000003  0.28498982  0.49999996  1
+  O  O14  1  0.36296968  0.11505705  0.10812257  1
+  O  O15  1  0.63703022  0.88494301  0.10812261  1
+  O  O16  1  0.63703021  0.11505695  0.89187737  1
+  O  O17  1  0.36296971  0.88494303  0.89187740  1
+  O  O18  1  0.86296967  0.61505706  0.60812261  1
+  O  O19  1  0.13703031  0.38494308  0.60812266  1
+  O  O20  1  0.13703026  0.61505698  0.39187742  1
+  O  O21  1  0.86296973  0.38494297  0.39187745  1

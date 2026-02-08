@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KBaSr3Ca6Sc
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.96187640
+_cell_length_b   10.02524456
+_cell_length_c   13.06263336
+_cell_angle_alpha   90.00200431
+_cell_angle_beta   102.28696053
+_cell_angle_gamma   90.00586862
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KBaSr3Ca6Sc
+_chemical_formula_sum   'K1 Ba1 Sr3 Ca6 Sc1'
+_cell_volume   1274.68600985
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.63787813  -0.00000069  0.30913142  1
+  K  K1  1  0.87297592  -0.00000082  0.09685830  1
+  Sr  Sr2  1  0.89057932  -0.00000218  0.79077911  1
+  Ba  Ba3  1  0.89356165  0.50000324  0.53275051  1
+  Sr  Sr4  1  0.20785382  0.81511908  0.94213791  1
+  Sr  Sr5  1  0.20785368  0.18488034  0.94213811  1
+  Ca  Ca6  1  0.79113420  0.68941552  0.26644239  1
+  Ca  Ca7  1  0.79113639  0.31058636  0.26643932  1
+  Ca  Ca8  1  0.17310047  0.18138302  0.65394673  1
+  Ca  Ca9  1  0.17309495  0.81861760  0.65394918  1
+  Ca  Ca10  1  0.07549134  0.33626958  0.18874032  1
+  Ca  Ca11  1  0.07548454  0.66372895  0.18874315  1

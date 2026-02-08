@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_BeZn2SiO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.70693262
+_cell_length_b   7.70693209
+_cell_length_c   7.55487146
+_cell_angle_alpha   89.99919863
+_cell_angle_beta   89.99996475
+_cell_angle_gamma   40.35791334
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BeZn2SiO8
+_chemical_formula_sum   'Be2 Zn4 Si2 O16'
+_cell_volume   290.58314153
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Be  Be0  1  -0.00002464  0.99995044  -0.01487047  1
+  Be  Be1  1  -0.00001529  -0.00001083  0.48513029  1
+  Zn  Zn2  1  0.51539935  0.80221843  0.37709455  1
+  Zn  Zn3  1  0.48460629  0.19779402  0.37709435  1
+  Zn  Zn4  1  0.80221845  0.51539637  0.87709480  1
+  Zn  Zn5  1  0.19779394  0.48460343  0.87709395  1
+  Si  Si6  1  0.00000391  0.50000883  0.24528839  1
+  Si  Si7  1  0.50001123  0.00000411  0.74528843  1
+  O  O8  1  0.20016740  0.21925628  0.36457886  1
+  O  O9  1  0.79984492  0.78075794  0.36457746  1
+  O  O10  1  0.23145855  0.70722826  0.51971309  1
+  O  O11  1  0.76856847  0.29276334  0.51970278  1
+  O  O12  1  0.70722835  0.23146264  0.01972772  1
+  O  O13  1  0.29276350  0.76857223  0.01968814  1
+  O  O14  1  0.78076359  0.79984984  0.86458164  1
+  O  O15  1  0.21926185  0.20017235  0.86457470  1
+  O  O16  1  0.27606508  0.75869284  0.35522213  1
+  O  O17  1  0.72395156  0.24131866  0.35520494  1
+  O  O18  1  0.56276823  0.76774380  0.64320015  1
+  O  O19  1  0.43725036  0.23226750  0.64319337  1
+  O  O20  1  0.76774388  0.56276816  0.14319426  1
+  O  O21  1  0.23226778  0.43725000  0.14319926  1
+  O  O22  1  0.24130982  0.72395412  0.85519455  1
+  O  O23  1  0.75868408  0.27606795  0.85523259  1

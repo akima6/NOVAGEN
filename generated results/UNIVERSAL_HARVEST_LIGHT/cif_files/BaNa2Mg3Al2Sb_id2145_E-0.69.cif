@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_BaNa2Mg3Al2Sb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.38300475
+_cell_length_b   7.38302932
+_cell_length_c   8.20962868
+_cell_angle_alpha   90.00507891
+_cell_angle_beta   89.99999843
+_cell_angle_gamma   119.99988970
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaNa2Mg3Al2Sb
+_chemical_formula_sum   'Ba1 Na2 Mg3 Al2 Sb1'
+_cell_volume   387.54520445
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  -0.00000008  -0.00000016  0.00000162  1
+  Mg  Mg1  1  0.33398088  0.66796220  0.49375844  1
+  Sb  Sb2  1  0.66666648  0.33333294  0.49999966  1
+  Al  Al3  1  -0.00000004  -0.00000008  0.68313712  1
+  Al  Al4  1  -0.00000021  -0.00000042  0.31686310  1
+  Mg  Mg5  1  0.33296219  0.66592415  0.47793153  1
+  Mg  Mg6  1  0.33305202  0.66610382  0.52824512  1
+  Na  Na7  1  0.33334293  0.66668586  0.21037417  1
+  Na  Na8  1  0.33332923  0.66665846  0.78968928  1

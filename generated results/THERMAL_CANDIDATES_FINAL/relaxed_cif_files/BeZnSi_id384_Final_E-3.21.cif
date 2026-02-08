@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_BeZnSi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.80160539
+_cell_length_b   17.36788050
+_cell_length_c   4.99801417
+_cell_angle_alpha   90.58981782
+_cell_angle_beta   90.03532632
+_cell_angle_gamma   89.98359458
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BeZnSi
+_chemical_formula_sum   'Be8 Zn8 Si8'
+_cell_volume   329.98046358
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Be  Be0  1  0.49557207  0.53588477  0.56113036  1
+  Be  Be1  1  1.00838907  0.46438212  0.06556252  1
+  Be  Be2  1  0.50641883  0.03510831  0.93224927  1
+  Be  Be3  1  -0.00219542  0.96470359  0.43948480  1
+  Be  Be4  1  0.20255507  0.73359800  0.62022948  1
+  Be  Be5  1  0.29584498  0.26658805  0.12346002  1
+  Be  Be6  1  0.70111639  0.76707506  0.38179221  1
+  Be  Be7  1  0.79621044  0.23321708  0.87766724  1
+  Zn  Zn8  1  0.77362316  0.80156976  0.89033184  1
+  Zn  Zn9  1  0.72915611  0.19850382  0.38641664  1
+  Zn  Zn10  1  0.22820283  0.30151716  0.61473870  1
+  Zn  Zn11  1  0.27390639  0.69812711  0.11144592  1
+  Zn  Zn12  1  0.48361638  0.05735032  0.47331076  1
+  Zn  Zn13  1  1.01800369  0.94258047  0.97097214  1
+  Zn  Zn14  1  -0.01493203  0.44285172  0.52579369  1
+  Zn  Zn15  1  0.51708843  0.55736976  0.02847306  1
+  Si  Si16  1  -0.00571471  0.07580617  0.16083926  1
+  Si  Si17  1  0.50942762  0.92085871  0.65352271  1
+  Si  Si18  1  1.00677555  0.57861182  0.34424344  1
+  Si  Si19  1  0.49630954  0.42402658  0.83821302  1
+  Si  Si20  1  0.80220400  0.34050360  0.16950994  1
+  Si  Si21  1  0.68899666  0.66035379  0.67872936  1
+  Si  Si22  1  0.30323025  0.15936919  0.83080280  1
+  Si  Si23  1  0.18619461  0.84004289  0.32108070  1

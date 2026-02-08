@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Na4As3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.97144768
+_cell_length_b   8.97144643
+_cell_length_c   8.97144636
+_cell_angle_alpha   90.00000430
+_cell_angle_beta   89.99999875
+_cell_angle_gamma   90.00000193
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na4As3
+_chemical_formula_sum   'Na16 As12'
+_cell_volume   722.08356815
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.87500002  -0.00000001  0.24999999  1
+  As  As1  1  0.62500002  0.00000001  0.75000000  1
+  As  As2  1  0.24999999  0.87500000  -0.00000000  1
+  As  As3  1  0.75000003  0.62500001  0.00000003  1
+  As  As4  1  -0.00000001  0.24999999  0.87499996  1
+  As  As5  1  0.00000001  0.75000001  0.62499998  1
+  As  As6  1  0.37499998  0.49999999  0.75000001  1
+  As  As7  1  0.12500002  0.50000001  0.25000001  1
+  As  As8  1  0.74999998  0.37500001  0.50000000  1
+  As  As9  1  0.25000000  0.12499998  0.50000002  1
+  As  As10  1  0.49999998  0.75000000  0.37499996  1
+  As  As11  1  0.49999998  0.24999998  0.12500001  1
+  Na  Na12  1  0.40963585  0.40963586  0.40963585  1
+  Na  Na13  1  0.09036417  0.59036419  0.90963581  1
+  Na  Na14  1  0.59036416  0.90963583  0.09036417  1
+  Na  Na15  1  0.90963581  0.09036414  0.59036417  1
+  Na  Na16  1  0.65963583  0.65963582  0.65963583  1
+  Na  Na17  1  0.84036414  0.34036415  0.15963582  1
+  Na  Na18  1  0.15963581  0.84036418  0.34036417  1
+  Na  Na19  1  0.34036415  0.15963583  0.84036419  1
+  Na  Na20  1  0.90963582  0.90963580  0.90963582  1
+  Na  Na21  1  0.59036418  0.09036416  0.40963583  1
+  Na  Na22  1  0.09036416  0.40963583  0.59036415  1
+  Na  Na23  1  0.40963586  0.59036418  0.09036416  1
+  Na  Na24  1  0.15963582  0.15963581  0.15963585  1
+  Na  Na25  1  0.34036416  0.84036417  0.65963580  1
+  Na  Na26  1  0.65963581  0.34036417  0.84036414  1
+  Na  Na27  1  0.84036415  0.65963582  0.34036418  1

@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Li2MgBe(GaO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.45439953
+_cell_length_b   7.45439949
+_cell_length_c   14.03766929
+_cell_angle_alpha   89.99874742
+_cell_angle_beta   90.00321296
+_cell_angle_gamma   119.99998061
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2MgBe(GaO)2
+_chemical_formula_sum   'Li6 Mg3 Be3 Ga6 O6'
+_cell_volume   675.53997246
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Be  Be0  1  0.49999998  -0.00000003  0.00000001  1
+  Be  Be1  1  -0.00000000  0.49999999  0.33333334  1
+  Be  Be2  1  0.50000010  0.50000009  0.66666670  1
+  Mg  Mg3  1  0.49999996  -0.00000008  0.49999998  1
+  Mg  Mg4  1  -0.00000003  0.50000004  0.83333331  1
+  Mg  Mg5  1  0.50000005  0.50000001  0.16666666  1
+  Ga  Ga6  1  0.18004455  0.00000001  -0.00000043  1
+  Ga  Ga7  1  -0.00000006  0.18004453  0.33333354  1
+  Ga  Ga8  1  0.81995548  0.81995552  0.66666688  1
+  Ga  Ga9  1  0.81995542  -0.00000004  0.00000044  1
+  Ga  Ga10  1  0.00000003  0.81995556  0.33333317  1
+  Ga  Ga11  1  0.18004455  0.18004448  0.66666637  1
+  O  O12  1  0.90358248  0.80716491  0.00000024  1
+  O  O13  1  0.19283510  0.09641749  0.33333259  1
+  O  O14  1  0.90358234  0.09641743  0.66666735  1
+  O  O15  1  0.09641754  0.19283504  -0.00000015  1
+  O  O16  1  0.80716488  0.90358242  0.33333411  1
+  O  O17  1  0.09641752  0.90358239  0.66666606  1
+  Li  Li18  1  0.85838615  0.71677228  0.49999988  1
+  Li  Li19  1  0.28322828  0.14161393  0.83333378  1
+  Li  Li20  1  0.85838563  0.14161394  0.16666633  1
+  Li  Li21  1  0.14161431  0.28322851  0.50000005  1
+  Li  Li22  1  0.71677196  0.85838572  0.83333291  1
+  Li  Li23  1  0.14161372  0.85838579  0.16666699  1

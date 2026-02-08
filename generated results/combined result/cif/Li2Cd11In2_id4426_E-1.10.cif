@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Li2Cd11In2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.70354691
+_cell_length_b   6.04992521
+_cell_length_c   8.33798218
+_cell_angle_alpha   89.99997673
+_cell_angle_beta   90.00002952
+_cell_angle_gamma   90.00044277
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2Cd11In2
+_chemical_formula_sum   'Li2 Cd11 In2'
+_cell_volume   489.48735683
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  -0.00000000  -0.00000000  0.00000000  1
+  In  In1  1  0.50000000  -0.00000000  0.50000000  1
+  In  In2  1  0.50000000  0.50000001  0.00000000  1
+  Cd  Cd3  1  0.26841072  -0.00000001  0.00000000  1
+  Cd  Cd4  1  0.73158929  0.00000000  0.00000000  1
+  Li  Li5  1  -0.00000002  0.24440069  0.50000002  1
+  Li  Li6  1  -0.00000001  0.75559931  0.50000000  1
+  Cd  Cd7  1  0.26438083  0.27723767  0.66352345  1
+  Cd  Cd8  1  0.73561913  0.72276231  0.66352346  1
+  Cd  Cd9  1  0.73561917  0.27723768  0.33647655  1
+  Cd  Cd10  1  0.26438079  0.72276228  0.33647655  1
+  Cd  Cd11  1  0.73561915  0.72276231  0.33647655  1
+  Cd  Cd12  1  0.26438084  0.27723766  0.33647655  1
+  Cd  Cd13  1  0.26438079  0.72276228  0.66352345  1
+  Cd  Cd14  1  0.73561921  0.27723769  0.66352343  1

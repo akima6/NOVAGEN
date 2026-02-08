@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_NaLi2MgAlCd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.38064767
+_cell_length_b   8.38064199
+_cell_length_c   9.49031229
+_cell_angle_alpha   90.00000491
+_cell_angle_beta   90.00013727
+_cell_angle_gamma   120.00013718
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLi2MgAlCd
+_chemical_formula_sum   'Na3 Li6 Mg3 Al3 Cd3'
+_cell_volume   577.25194695
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.52173818  0.57057990  0.11834796  1
+  Li  Li1  1  0.42942010  0.95115845  0.45168132  1
+  Li  Li2  1  0.04884160  0.47826175  0.78501469  1
+  Li  Li3  1  0.74717391  0.19933572  0.78267715  1
+  Li  Li4  1  0.80066430  0.54783808  0.11601051  1
+  Li  Li5  1  0.45216193  0.25282602  0.44934392  1
+  Na  Na6  1  0.76986110  0.74800583  0.40304346  1
+  Na  Na7  1  0.25199405  1.02185516  0.73637695  1
+  Na  Na8  1  -0.02185524  0.23013894  0.06971007  1
+  Mg  Mg9  1  0.71549605  0.92429907  0.66973809  1
+  Mg  Mg10  1  0.07570112  0.79119725  1.00307127  1
+  Mg  Mg11  1  0.20880284  0.28450399  0.33640472  1
+  Cd  Cd12  1  0.80658509  0.09136432  0.37774536  1
+  Cd  Cd13  1  0.90863576  0.71522072  0.71107850  1
+  Cd  Cd14  1  0.28477932  0.19341489  0.04441190  1
+  Al  Al15  1  0.62465808  0.64288042  0.86506107  1
+  Al  Al16  1  0.35711947  0.98177766  0.19839439  1
+  Al  Al17  1  0.01822234  0.37534182  0.53172771  1

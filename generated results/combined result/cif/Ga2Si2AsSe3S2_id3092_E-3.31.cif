@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ga2Si2AsSe3S2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.46262117
+_cell_length_b   9.46564525
+_cell_length_c   7.50865534
+_cell_angle_alpha   90.00000683
+_cell_angle_beta   90.00000351
+_cell_angle_gamma   89.99999015
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ga2Si2AsSe3S2
+_chemical_formula_sum   'Ga4 Si4 As2 Se6 S4'
+_cell_volume   530.40033507
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.50000000  -0.00000000  0.50000000  1
+  Se  Se1  1  0.00000000  0.50000000  0.50000000  1
+  As  As2  1  0.00000000  -0.00000000  0.50000000  1
+  As  As3  1  0.50000000  0.50000000  0.50000000  1
+  S  S4  1  0.41426078  0.00000000  0.00000000  1
+  S  S5  1  0.58573982  -0.00000000  -0.00000000  1
+  S  S6  1  0.91425473  0.50000000  -0.00000000  1
+  S  S7  1  0.08574520  0.50000000  -0.00000000  1
+  Se  Se8  1  0.78772066  -0.00000000  -0.00000000  1
+  Se  Se9  1  0.21227922  0.00000000  0.00000000  1
+  Se  Se10  1  0.28771981  0.50000000  -0.00000000  1
+  Se  Se11  1  0.71228021  0.50000000  -0.00000000  1
+  Ga  Ga12  1  0.52154895  0.00000000  0.00000000  1
+  Ga  Ga13  1  0.47845056  -0.00000000  -0.00000000  1
+  Ga  Ga14  1  0.02162396  0.49999999  -0.00000000  1
+  Ga  Ga15  1  0.97837610  0.50000001  0.00000000  1
+  Si  Si16  1  0.00000000  0.79073908  0.50000000  1
+  Si  Si17  1  0.00000000  0.20926092  0.50000000  1
+  Si  Si18  1  0.50000000  0.29073898  0.50000000  1
+  Si  Si19  1  0.50000000  0.70926103  0.50000000  1

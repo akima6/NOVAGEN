@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GaAsSe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.02035036
+_cell_length_b   11.02035133
+_cell_length_c   5.07745652
+_cell_angle_alpha   90.00000070
+_cell_angle_beta   89.99999221
+_cell_angle_gamma   90.00000867
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaAsSe
+_chemical_formula_sum   'Ga4 As4 Se4'
+_cell_volume   616.64761365
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.31483213  0.31483214  0.00000000  1
+  Se  Se1  1  0.68516787  0.68516787  0.50000001  1
+  Se  Se2  1  0.18516786  0.81483214  0.74999999  1
+  Se  Se3  1  0.81483214  0.18516787  0.25000000  1
+  As  As4  1  0.81960700  0.81960700  0.00000000  1
+  As  As5  1  0.18039300  0.18039300  0.50000000  1
+  As  As6  1  0.68039300  0.31960700  0.75000000  1
+  As  As7  1  0.31960701  0.68039299  0.25000000  1
+  Ga  Ga8  1  0.67570232  0.67570232  -0.00000001  1
+  Ga  Ga9  1  0.32429768  0.32429768  0.50000000  1
+  Ga  Ga10  1  0.82429768  0.17570238  0.75000000  1
+  Ga  Ga11  1  0.17570238  0.82429769  0.25000001  1

@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Zn(Ga2Te)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.68094485
+_cell_length_b   13.68067942
+_cell_length_c   4.21514222
+_cell_angle_alpha   89.99933044
+_cell_angle_beta   89.99944296
+_cell_angle_gamma   120.00007713
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn(Ga2Te)2
+_chemical_formula_sum   'Zn3 Ga12 Te6'
+_cell_volume   683.22899007
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.08842035  -0.00000020  0.66666606  1
+  Zn  Zn1  1  -0.00000008  0.08841756  0.33333625  1
+  Zn  Zn2  1  0.91158220  0.91158183  -0.00000162  1
+  Ga  Ga3  1  0.27070211  0.00000060  0.66666898  1
+  Ga  Ga4  1  0.99999886  0.27070127  0.33333437  1
+  Ga  Ga5  1  0.72929780  0.72929970  -0.00000396  1
+  Ga  Ga6  1  0.80611717  -0.00000065  0.66666731  1
+  Ga  Ga7  1  0.00000080  0.80611846  0.33333297  1
+  Ga  Ga8  1  0.19388213  0.19388083  0.00000074  1
+  Ga  Ga9  1  0.19912153  0.85120835  1.13959838  1
+  Ga  Ga10  1  0.14878938  0.34791136  0.80626223  1
+  Ga  Ga11  1  0.65208664  0.80087795  0.47292704  1
+  Ga  Ga12  1  0.85120953  0.19912238  -0.13959359  1
+  Ga  Ga13  1  0.34791327  0.14879182  0.19373803  1
+  Ga  Ga14  1  0.80087826  0.65208834  0.52706787  1
+  Te  Te15  1  0.81240621  0.29754024  0.37667177  1
+  Te  Te16  1  0.70246156  0.51486669  0.04333817  1
+  Te  Te17  1  0.48513287  0.18759434  0.71000300  1
+  Te  Te18  1  0.29753857  0.81240524  0.62332951  1
+  Te  Te19  1  0.51486654  0.70246045  0.95666382  1
+  Te  Te20  1  0.18759435  0.48513351  0.28999279  1

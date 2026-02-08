@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Na6InSb2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.01039315
+_cell_length_b   8.01032235
+_cell_length_c   10.18841444
+_cell_angle_alpha   89.99954276
+_cell_angle_beta   90.00084959
+_cell_angle_gamma   119.99902786
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na6InSb2
+_chemical_formula_sum   'Na12 In2 Sb4'
+_cell_volume   566.16799324
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.61191694  0.80593674  0.35650351  1
+  Na  Na1  1  0.19406184  0.80598139  0.35649876  1
+  Na  Na2  1  0.19402041  0.38808185  0.35650132  1
+  Na  Na3  1  0.80593705  0.61191811  0.14349862  1
+  Na  Na4  1  0.80598068  0.19406114  0.14350125  1
+  Na  Na5  1  0.38808310  0.19402067  0.14349648  1
+  Na  Na6  1  0.38808262  0.19406305  0.64349632  1
+  Na  Na7  1  0.80593836  0.19401835  0.64350108  1
+  Na  Na8  1  0.80597982  0.61191860  0.64349851  1
+  Na  Na9  1  0.19406271  0.38808141  0.85650150  1
+  Na  Na10  1  0.19401910  0.80593911  0.85649894  1
+  Na  Na11  1  0.61191739  0.80597956  0.85650375  1
+  In  In12  1  0.00000002  0.00000001  0.00000048  1
+  In  In13  1  -0.00000000  -0.00000001  0.49999949  1
+  Sb  Sb14  1  0.33333487  0.66666660  0.10978242  1
+  Sb  Sb15  1  0.66666514  0.33333345  0.39021756  1
+  Sb  Sb16  1  0.66666508  0.33333338  0.89021724  1
+  Sb  Sb17  1  0.33333492  0.66666659  0.60978275  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Na2SrCa4GaSiO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.74632654
+_cell_length_b   12.74378850
+_cell_length_c   8.45795846
+_cell_angle_alpha   89.99981803
+_cell_angle_beta   90.00075527
+_cell_angle_gamma   89.99998953
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2SrCa4GaSiO
+_chemical_formula_sum   'Na4 Sr2 Ca8 Ga2 Si2 O2'
+_cell_volume   1373.88108154
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  -0.00001172  -0.00003101  0.49846872  1
+  Na  Na1  1  0.49997111  0.49997736  0.49846753  1
+  Na  Na2  1  0.49997243  0.00002149  0.49846668  1
+  Na  Na3  1  -0.00001144  0.50003083  0.49846824  1
+  Sr  Sr4  1  0.25000261  0.24999999  0.86117342  1
+  Sr  Sr5  1  0.75000202  0.75000006  0.13885095  1
+  Ca  Ca6  1  0.14406403  0.85598019  0.50411582  1
+  Ca  Ca7  1  0.35593203  0.64402035  0.50412083  1
+  Ca  Ca8  1  0.64393511  0.14392614  0.50333307  1
+  Ca  Ca9  1  0.85609726  0.35605826  0.50333465  1
+  Ca  Ca10  1  0.85609696  0.14394258  0.50333522  1
+  Ca  Ca11  1  0.64393736  0.35607739  0.50333128  1
+  Ca  Ca12  1  0.35593235  0.85597829  0.50411996  1
+  Ca  Ca13  1  0.14406478  0.64401797  0.50411652  1
+  Ga  Ga14  1  0.75000336  0.25000033  0.48655361  1
+  Ga  Ga15  1  0.24999688  0.74999967  0.48345166  1
+  Si  Si16  1  0.25001925  0.24999954  0.35809026  1
+  Si  Si17  1  0.75000780  0.75000077  0.64189202  1
+  O  O18  1  0.74999054  0.24999957  0.00277919  1
+  O  O19  1  0.24999731  0.75000026  0.00353034  1

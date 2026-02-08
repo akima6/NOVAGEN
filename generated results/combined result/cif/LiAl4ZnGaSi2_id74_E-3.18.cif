@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_LiAl4ZnGaSi2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.94233373
+_cell_length_b   5.94384232
+_cell_length_c   9.92612150
+_cell_angle_alpha   90.00040343
+_cell_angle_beta   89.99894976
+_cell_angle_gamma   90.00004955
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiAl4ZnGaSi2
+_chemical_formula_sum   'Li2 Al8 Zn2 Ga2 Si4'
+_cell_volume   350.59353659
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00000017  0.00000022  -0.00000024  1
+  Li  Li1  1  0.49999983  0.49999997  0.00000023  1
+  Ga  Ga2  1  -0.00000000  -0.00000008  0.50000019  1
+  Ga  Ga3  1  0.50000001  0.50000002  0.49999983  1
+  Zn  Zn4  1  -0.00000000  0.50000005  0.46130930  1
+  Zn  Zn5  1  0.50000002  -0.00000003  0.53869074  1
+  Si  Si6  1  0.75953349  0.75953188  -0.00000067  1
+  Si  Si7  1  0.24046690  0.24046824  -0.00000010  1
+  Si  Si8  1  0.74046658  0.25953163  0.00000148  1
+  Si  Si9  1  0.25953302  0.74046802  -0.00000089  1
+  Al  Al10  1  0.32783191  0.36961867  0.76474664  1
+  Al  Al11  1  0.67216791  0.63038184  0.76474651  1
+  Al  Al12  1  0.13038049  0.82783165  0.76474668  1
+  Al  Al13  1  0.86961909  0.17216821  0.76474659  1
+  Al  Al14  1  0.17216795  0.86961810  0.23525352  1
+  Al  Al15  1  0.82783194  0.13038186  0.23525356  1
+  Al  Al16  1  0.36961977  0.32783156  0.23525297  1
+  Al  Al17  1  0.63038087  0.67216815  0.23525370  1

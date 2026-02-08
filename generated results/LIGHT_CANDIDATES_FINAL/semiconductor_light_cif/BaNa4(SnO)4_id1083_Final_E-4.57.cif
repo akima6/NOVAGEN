@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_BaNa4(SnO)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.93641669
+_cell_length_b   12.67708648
+_cell_length_c   3.86903165
+_cell_angle_alpha   89.99975568
+_cell_angle_beta   89.99985575
+_cell_angle_gamma   90.75787066
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaNa4(SnO)4
+_chemical_formula_sum   'Ba2 Na8 Sn8 O8'
+_cell_volume   634.45049120
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.25000004  0.25000009  0.24543405  1
+  Ba  Ba1  1  0.74999989  0.74999996  0.75456561  1
+  Na  Na2  1  0.79624656  0.09295538  0.35068026  1
+  Na  Na3  1  0.70375352  0.40704450  0.35067927  1
+  Na  Na4  1  0.90322116  0.29413341  0.85148585  1
+  Na  Na5  1  0.59677886  0.20586646  0.85148649  1
+  Na  Na6  1  0.20375346  0.90704455  0.64931979  1
+  Na  Na7  1  0.29624651  0.59295553  0.64932117  1
+  Na  Na8  1  0.09677894  0.70586656  0.14851442  1
+  Na  Na9  1  0.40322126  0.79413360  0.14851368  1
+  Sn  Sn10  1  0.53226442  0.58648424  0.22079323  1
+  Sn  Sn11  1  0.96773525  0.91351497  0.22079724  1
+  Sn  Sn12  1  0.41447583  0.03238911  0.71388719  1
+  Sn  Sn13  1  0.08552401  0.46761111  0.71388595  1
+  Sn  Sn14  1  0.46773553  0.41351562  0.77920599  1
+  Sn  Sn15  1  0.03226477  0.08648500  0.77920223  1
+  Sn  Sn16  1  0.58552413  0.96761097  0.28611297  1
+  Sn  Sn17  1  0.91447592  0.53238891  0.28611374  1
+  O  O18  1  0.38230301  0.61767811  0.15234589  1
+  O  O19  1  0.11769674  0.88232210  0.15234325  1
+  O  O20  1  0.37520034  0.88005505  0.65104125  1
+  O  O21  1  0.12479960  0.61994495  0.65104069  1
+  O  O22  1  0.61769697  0.38232198  0.84765447  1
+  O  O23  1  0.88230329  0.11767788  0.84765681  1
+  O  O24  1  0.62479972  0.11994500  0.34895892  1
+  O  O25  1  0.87520040  0.38005505  0.34895959  1

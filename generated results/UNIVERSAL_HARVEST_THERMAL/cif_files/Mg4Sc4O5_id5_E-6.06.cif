@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Mg4Sc4O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.73601955
+_cell_length_b   10.73601062
+_cell_length_c   6.05946985
+_cell_angle_alpha   89.99996025
+_cell_angle_beta   89.99991109
+_cell_angle_gamma   90.00005380
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg4Sc4O5
+_chemical_formula_sum   'Mg8 Sc8 O10'
+_cell_volume   698.42673390
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.00000002  0.00000003  0.00000002  1
+  O  O1  1  0.49999999  0.50000003  0.50000003  1
+  O  O2  1  0.84165426  0.28546624  0.36527732  1
+  O  O3  1  0.15834583  0.71453379  0.36527730  1
+  O  O4  1  0.28546622  0.15834585  0.63472257  1
+  O  O5  1  0.71453386  0.84165412  0.63472298  1
+  O  O6  1  0.65834584  0.78546618  0.13472275  1
+  O  O7  1  0.34165412  0.21453384  0.13472273  1
+  O  O8  1  0.21453382  0.65834578  0.86527736  1
+  O  O9  1  0.78546622  0.34165412  0.86527684  1
+  Sc  Sc10  1  0.71610916  0.35008436  0.17308582  1
+  Sc  Sc11  1  0.28389086  0.64991557  0.17308581  1
+  Sc  Sc12  1  0.35008432  0.28389081  0.82691421  1
+  Sc  Sc13  1  0.64991568  0.71610924  0.82691410  1
+  Sc  Sc14  1  0.78389091  0.85008449  0.32691433  1
+  Sc  Sc15  1  0.21610920  0.14991560  0.32691423  1
+  Sc  Sc16  1  0.14991540  0.78389100  0.67308566  1
+  Sc  Sc17  1  0.85008447  0.21610918  0.67308606  1
+  Mg  Mg18  1  0.36869650  0.62238930  0.73328482  1
+  Mg  Mg19  1  0.63130362  0.37761060  0.73328496  1
+  Mg  Mg20  1  0.62238935  0.63130365  0.26671505  1
+  Mg  Mg21  1  0.37761065  0.36869620  0.26671521  1
+  Mg  Mg22  1  0.13130373  0.12238943  0.76671533  1
+  Mg  Mg23  1  0.86869619  0.87761057  0.76671509  1
+  Mg  Mg24  1  0.87761047  0.13130368  0.23328468  1
+  Mg  Mg25  1  0.12238937  0.86869639  0.23328472  1

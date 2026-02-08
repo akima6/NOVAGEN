@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_CdGeSb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.38757428
+_cell_length_b   8.38759995
+_cell_length_c   8.00651656
+_cell_angle_alpha   89.99994283
+_cell_angle_beta   90.00012199
+_cell_angle_gamma   119.99968554
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CdGeSb
+_chemical_formula_sum   'Cd3 Ge3 Sb3'
+_cell_volume   487.80887965
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.10426516  -0.00000000  0.33333331  1
+  Cd  Cd1  1  -0.00000001  0.10426515  0.66666671  1
+  Cd  Cd2  1  0.89573484  0.89573483  -0.00000001  1
+  Ge  Ge3  1  0.43537489  0.00000001  0.33333333  1
+  Ge  Ge4  1  0.00000000  0.43537479  0.66666669  1
+  Ge  Ge5  1  0.56462521  0.56462522  0.00000001  1
+  Sb  Sb6  1  0.78843780  -0.00000001  0.33333336  1
+  Sb  Sb7  1  -0.00000001  0.78843791  0.66666669  1
+  Sb  Sb8  1  0.21156206  0.21156206  0.00000000  1

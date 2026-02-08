@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_NaLi2ZnGaGe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.70956335
+_cell_length_b   11.42877201
+_cell_length_c   13.67736864
+_cell_angle_alpha   90.00379845
+_cell_angle_beta   90.00006936
+_cell_angle_gamma   89.99922526
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLi2ZnGaGe
+_chemical_formula_sum   'Na4 Li8 Zn4 Ga4 Ge4'
+_cell_volume   892.49340619
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.24999992  -0.00000024  0.50000004  1
+  Na  Na1  1  0.75000007  0.00000011  0.49999996  1
+  Na  Na2  1  0.74999993  0.49999999  0.50000004  1
+  Na  Na3  1  0.25000007  0.49999999  0.49999996  1
+  Zn  Zn4  1  0.00000000  0.00000000  -0.00000000  1
+  Zn  Zn5  1  0.00000000  0.50000001  -0.00000001  1
+  Zn  Zn6  1  0.50000000  0.50000000  0.00000000  1
+  Zn  Zn7  1  0.50000000  0.00000000  -0.00000001  1
+  Ge  Ge8  1  0.24999997  0.25000003  0.50000000  1
+  Ge  Ge9  1  0.75000006  0.25000036  0.50000003  1
+  Ge  Ge10  1  0.75000030  0.75000002  0.49999991  1
+  Ge  Ge11  1  0.24999980  0.75000072  0.50000009  1
+  Li  Li12  1  -0.00000000  0.24999988  0.35578733  1
+  Li  Li13  1  -0.00000002  0.74999996  0.64421271  1
+  Li  Li14  1  0.49999992  0.74999981  0.35578743  1
+  Li  Li15  1  0.49999999  0.25000003  0.64421273  1
+  Li  Li16  1  0.00000000  0.24999997  0.17450831  1
+  Li  Li17  1  -0.00000000  0.75000001  0.82549168  1
+  Li  Li18  1  0.50000001  0.74999999  0.17450833  1
+  Li  Li19  1  0.50000000  0.25000001  0.82549168  1
+  Ga  Ga20  1  0.00000001  0.24999961  0.66020694  1
+  Ga  Ga21  1  0.00000004  0.75000006  0.33979291  1
+  Ga  Ga22  1  0.49999997  0.74999952  0.66020692  1
+  Ga  Ga23  1  0.49999998  0.25000016  0.33979298  1

@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_K9Ba3Cd4Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   16.29661342
+_cell_length_b   16.29661668
+_cell_length_c   6.96649520
+_cell_angle_alpha   89.99997571
+_cell_angle_beta   90.00002340
+_cell_angle_gamma   120.00002955
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K9Ba3Cd4Ge
+_chemical_formula_sum   'K9 Ba3 Cd4 Ge1'
+_cell_volume   1602.28459820
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  -0.00000004  -0.00000002  -0.00000000  1
+  Ge  Ge1  1  0.66666661  0.33333331  0.00000000  1
+  K  K2  1  0.73833282  0.73141300  0.00000000  1
+  K  K3  1  0.26858703  0.00691976  -0.00000000  1
+  K  K4  1  0.99308041  0.26166741  0.00000000  1
+  K  K5  1  0.51133471  0.36912631  0.00000001  1
+  K  K6  1  0.63087370  0.14220830  -0.00000000  1
+  K  K7  1  0.85779165  0.48866522  -0.00000000  1
+  Ba  Ba8  1  0.48575900  0.80330119  -0.00000002  1
+  Ba  Ba9  1  0.19669897  0.68245794  0.00000001  1
+  Ba  Ba10  1  0.31754196  0.51424097  0.00000001  1
+  K  K11  1  0.77871736  0.01139999  0.00000000  1
+  K  K12  1  0.98860004  0.76731737  -0.00000000  1
+  K  K13  1  0.23268256  0.22128261  -0.00000001  1
+  Cd  Cd14  1  0.54707343  0.80982914  0.50000001  1
+  Cd  Cd15  1  0.19017086  0.73724434  0.50000000  1
+  Cd  Cd16  1  0.26275561  0.45292648  0.50000000  1

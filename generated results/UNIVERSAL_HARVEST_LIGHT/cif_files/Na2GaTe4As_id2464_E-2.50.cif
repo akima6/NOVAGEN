@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Na2GaTe4As
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.53057097
+_cell_length_b   10.53059918
+_cell_length_c   12.34267143
+_cell_angle_alpha   90.00010990
+_cell_angle_beta   89.99989666
+_cell_angle_gamma   90.00234123
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2GaTe4As
+_chemical_formula_sum   'Na4 Ga2 Te8 As2'
+_cell_volume   1368.71860186
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  -0.00000002  0.50000001  0.25000001  1
+  As  As1  1  0.50000000  0.00000004  0.74999999  1
+  Ga  Ga2  1  0.00000005  0.00000020  0.00000009  1
+  Ga  Ga3  1  -0.00000013  0.00000023  0.50000003  1
+  Na  Na4  1  0.50000006  0.31222591  0.24999986  1
+  Na  Na5  1  0.49999996  0.68777415  0.24999979  1
+  Na  Na6  1  0.31222595  0.50000007  0.74999988  1
+  Na  Na7  1  0.68777416  0.49999992  0.75000000  1
+  Te  Te8  1  0.33871747  0.40981366  0.52512119  1
+  Te  Te9  1  0.66128223  0.59018613  0.52512086  1
+  Te  Te10  1  0.40981432  0.66128214  0.47487914  1
+  Te  Te11  1  0.59018609  0.33871782  0.47487921  1
+  Te  Te12  1  0.66128218  0.40981446  0.97487915  1
+  Te  Te13  1  0.33871787  0.59018542  0.97487898  1
+  Te  Te14  1  0.59018642  0.66128207  0.02512098  1
+  Te  Te15  1  0.40981340  0.33871776  0.02512085  1

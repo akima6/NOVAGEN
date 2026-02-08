@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_BaSr3Ca11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.42041675
+_cell_length_b   13.39420078
+_cell_length_c   8.72025983
+_cell_angle_alpha   89.91510657
+_cell_angle_beta   90.13752781
+_cell_angle_gamma   120.04625770
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaSr3Ca11
+_chemical_formula_sum   'Ba1 Sr3 Ca11'
+_cell_volume   1356.87227064
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.00000017  0.00000008  0.00000002  1
+  Ca  Ca1  1  0.33332970  0.66666095  0.49999982  1
+  Ca  Ca2  1  0.66667014  0.33333880  0.49999972  1
+  Ca  Ca3  1  0.50000347  0.00000001  -0.00000300  1
+  Ca  Ca4  1  0.00000003  0.50000519  -0.00000423  1
+  Ca  Ca5  1  0.50000132  0.50000138  0.00000093  1
+  Sr  Sr6  1  0.49999991  -0.00000007  0.50000021  1
+  Sr  Sr7  1  -0.00000004  0.49999990  0.50000025  1
+  Sr  Sr8  1  0.49999989  0.49999988  0.50000000  1
+  Ca  Ca9  1  0.30200949  0.00001314  0.20442487  1
+  Ca  Ca10  1  -0.00007747  0.30207204  0.20447374  1
+  Ca  Ca11  1  0.69785633  0.69794669  0.20446417  1
+  Ca  Ca12  1  0.00007741  0.69792305  0.79553054  1
+  Ca  Ca13  1  0.69798725  -0.00001301  0.79557812  1
+  Ca  Ca14  1  0.30214237  0.30205192  0.79553493  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GaSiSe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.84368814
+_cell_length_b   8.84356129
+_cell_length_c   5.02356539
+_cell_angle_alpha   89.99945932
+_cell_angle_beta   89.99993864
+_cell_angle_gamma   90.00010358
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaSiSe
+_chemical_formula_sum   'Ga4 Si4 Se4'
+_cell_volume   392.89153280
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.00000077  -0.00000016  0.00000001  1
+  Si  Si1  1  0.50000081  0.50000010  0.00000001  1
+  Si  Si2  1  0.00000080  0.49999978  0.02528137  1
+  Si  Si3  1  0.50000077  0.00000026  0.97471815  1
+  Ga  Ga4  1  0.37185090  0.87185097  0.30398951  1
+  Ga  Ga5  1  0.62814855  0.12814900  0.30398913  1
+  Ga  Ga6  1  0.87185080  0.62814912  0.69601072  1
+  Ga  Ga7  1  0.12814865  0.37185090  0.69601096  1
+  Se  Se8  1  0.18117833  0.68117939  0.12877353  1
+  Se  Se9  1  0.81882062  0.31882116  0.12877387  1
+  Se  Se10  1  0.68117846  0.81882052  0.87122646  1
+  Se  Se11  1  0.31882053  0.18117894  0.87122615  1

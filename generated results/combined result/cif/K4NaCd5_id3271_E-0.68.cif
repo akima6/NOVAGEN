@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_K4NaCd5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.47316733
+_cell_length_b   23.99887302
+_cell_length_c   20.50952179
+_cell_angle_alpha   90.00000191
+_cell_angle_beta   89.99996343
+_cell_angle_gamma   89.99996059
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K4NaCd5
+_chemical_formula_sum   'K8 Na2 Cd10'
+_cell_volume   2693.92256662
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  -0.00000000  0.50000000  0.50000000  1
+  Cd  Cd1  1  0.50000000  -0.00000000  -0.00000000  1
+  Na  Na2  1  0.50000000  -0.00000001  0.49999999  1
+  Na  Na3  1  0.00000000  0.50000001  0.00000001  1
+  Cd  Cd4  1  0.25000000  0.24999999  0.25000001  1
+  Cd  Cd5  1  0.74999999  0.75000000  0.25000000  1
+  Cd  Cd6  1  0.74999999  0.25000000  0.75000000  1
+  Cd  Cd7  1  0.25000000  0.75000000  0.75000001  1
+  Cd  Cd8  1  0.75000000  0.74999999  0.75000000  1
+  Cd  Cd9  1  0.25000000  0.24999999  0.74999999  1
+  Cd  Cd10  1  0.25000002  0.75000000  0.25000000  1
+  Cd  Cd11  1  0.75000001  0.25000000  0.25000000  1
+  K  K12  1  -0.00000000  0.34205799  0.13061396  1
+  K  K13  1  -0.00000000  0.65794199  0.13061396  1
+  K  K14  1  0.00000001  0.34205798  0.86938603  1
+  K  K15  1  0.00000000  0.65794202  0.86938604  1
+  K  K16  1  0.50000000  0.84205799  0.63061395  1
+  K  K17  1  0.50000000  0.15794203  0.63061395  1
+  K  K18  1  0.50000000  0.84205800  0.36938605  1
+  K  K19  1  0.50000000  0.15794204  0.36938605  1

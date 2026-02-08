@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_K12Ba10NaSrInGa
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   20.68108360
+_cell_length_b   20.69398530
+_cell_length_c   18.56231685
+_cell_angle_alpha   89.54358787
+_cell_angle_beta   90.00001014
+_cell_angle_gamma   89.99997728
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K12Ba10NaSrInGa
+_chemical_formula_sum   'K12 Ba10 Na1 Sr1 In1 Ga1'
+_cell_volume   7943.93768538
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.00000001  0.00000432  0.39599555  1
+  In  In1  1  0.00000001  0.00002118  0.84238136  1
+  Na  Na2  1  0.50000000  0.50000213  0.22822463  1
+  Ba  Ba3  1  0.50000000  0.50377211  0.51686896  1
+  Sr  Sr4  1  0.50000000  0.49108155  0.51078380  1
+  Ba  Ba5  1  0.50000000  0.50514419  0.49829455  1
+  Ba  Ba6  1  0.50000001  0.00000000  0.31245112  1
+  Ba  Ba7  1  0.00000000  0.49999999  0.31245112  1
+  Ba  Ba8  1  0.50000000  0.00000000  0.65962553  1
+  Ba  Ba9  1  -0.00000000  0.50000000  0.65962554  1
+  Ba  Ba10  1  0.12209218  -0.00000316  0.09988635  1
+  Ba  Ba11  1  0.87790783  -0.00000315  0.09988634  1
+  Ba  Ba12  1  -0.00000000  0.12209070  0.09990440  1
+  Ba  Ba13  1  0.00000000  0.87790763  0.09986856  1
+  K  K14  1  0.14690932  -0.00000258  0.29795063  1
+  K  K15  1  0.85309070  -0.00000256  0.29795063  1
+  K  K16  1  -0.00000002  0.14690866  0.29795151  1
+  K  K17  1  0.00000001  0.85308990  0.29794988  1
+  K  K18  1  0.85095954  0.00000680  0.49501797  1
+  K  K19  1  0.14904036  0.00000686  0.49501795  1
+  K  K20  1  0.00000001  0.85096335  0.49501604  1
+  K  K21  1  0.00000008  0.14904492  0.49501994  1
+  K  K22  1  0.15051035  -0.00000170  0.89493951  1
+  K  K23  1  0.84948964  -0.00000171  0.89493951  1
+  K  K24  1  -0.00000000  0.15049875  0.89493547  1
+  K  K25  1  -0.00000001  0.84947184  0.89494505  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Ba2Ca
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.83697188
+_cell_length_b   5.83697125
+_cell_length_c   10.05173012
+_cell_angle_alpha   90.00005886
+_cell_angle_beta   89.99991096
+_cell_angle_gamma   89.99998992
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Ca
+_chemical_formula_sum   'Ba4 Ca2'
+_cell_volume   342.46482804
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.75000001  0.25000000  0.00000000  1
+  Ca  Ca1  1  0.25000000  0.74999999  -0.00000001  1
+  Ba  Ba2  1  0.24999996  0.25000004  0.30316776  1
+  Ba  Ba3  1  0.25000004  0.24999995  0.69683225  1
+  Ba  Ba4  1  0.75000003  0.74999997  0.69683227  1
+  Ba  Ba5  1  0.74999995  0.75000005  0.30316778  1

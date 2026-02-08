@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Li6Mg5Al3Zn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.15786469
+_cell_length_b   9.15785700
+_cell_length_c   5.32016974
+_cell_angle_alpha   90.00051737
+_cell_angle_beta   89.99979840
+_cell_angle_gamma   120.00002136
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li6Mg5Al3Zn2
+_chemical_formula_sum   'Li6 Mg5 Al3 Zn2'
+_cell_volume   386.40621886
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.00000013  0.00000025  -0.00000001  1
+  Zn  Zn1  1  0.33333332  0.66666669  0.00000000  1
+  Mg  Mg2  1  0.66666656  0.33333308  -0.00000006  1
+  Mg  Mg3  1  0.66666669  0.33333335  0.50000006  1
+  Mg  Mg4  1  0.83248319  0.16751663  0.00000000  1
+  Mg  Mg5  1  0.83248323  0.66496651  0.00000001  1
+  Mg  Mg6  1  0.33503347  0.16751669  0.00000002  1
+  Al  Al7  1  0.20909692  0.79090334  0.50000019  1
+  Al  Al8  1  0.20909690  0.41819374  0.49999974  1
+  Al  Al9  1  0.58180646  0.79090335  0.50000006  1
+  Li  Li10  1  0.49540292  0.50459710  0.28231947  1
+  Li  Li11  1  0.49540290  0.99080582  0.28231943  1
+  Li  Li12  1  0.00919420  0.50459711  0.28231945  1
+  Li  Li13  1  0.49540290  0.50459697  0.71768054  1
+  Li  Li14  1  0.49540283  0.99080567  0.71768054  1
+  Li  Li15  1  0.00919412  0.50459698  0.71768056  1

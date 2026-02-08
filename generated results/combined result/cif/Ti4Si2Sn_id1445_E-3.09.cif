@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ti4Si2Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.93147945
+_cell_length_b   10.91365047
+_cell_length_c   4.46829117
+_cell_angle_alpha   90.14409220
+_cell_angle_beta   90.21451627
+_cell_angle_gamma   120.19245405
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti4Si2Sn
+_chemical_formula_sum   'Ti8 Si4 Sn2'
+_cell_volume   460.75167147
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.00000126  0.00000089  0.00000067  1
+  Ti  Ti1  1  0.00000120  0.00000088  0.49999916  1
+  Sn  Sn2  1  0.33394747  0.66770748  0.73829619  1
+  Sn  Sn3  1  0.66773848  0.33377564  0.24132229  1
+  Si  Si4  1  0.33306348  0.66613472  0.84137576  1
+  Si  Si5  1  0.66592162  0.33301072  0.34467411  1
+  Si  Si6  1  0.66655242  0.33326610  0.16381515  1
+  Si  Si7  1  0.33319448  0.66643821  0.67014982  1
+  Ti  Ti8  1  0.52902863  0.05805271  0.25007116  1
+  Ti  Ti9  1  0.94178438  0.47088410  0.25005715  1
+  Ti  Ti10  1  0.52896958  0.47101900  0.25006707  1
+  Ti  Ti11  1  0.47056234  0.94113478  0.75004609  1
+  Ti  Ti12  1  0.05853899  0.52927345  0.75006311  1
+  Ti  Ti13  1  0.47069577  0.52930140  0.75006233  1

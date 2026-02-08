@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KIn2Sb6As
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.88055432
+_cell_length_b   7.88055541
+_cell_length_c   6.92697763
+_cell_angle_alpha   90.00000119
+_cell_angle_beta   89.99998094
+_cell_angle_gamma   120.00000816
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KIn2Sb6As
+_chemical_formula_sum   'K1 In2 Sb6 As1'
+_cell_volume   372.55292294
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.00000001  0.00000001  0.50000000  1
+  In  In1  1  0.33333334  0.66666669  0.49999999  1
+  In  In2  1  0.66666668  0.33333337  0.00000001  1
+  As  As3  1  0.66666668  0.33333335  0.50000001  1
+  Sb  Sb4  1  0.38231615  0.35618631  0.29601412  1
+  Sb  Sb5  1  0.64381361  0.02612979  0.29601414  1
+  Sb  Sb6  1  0.97387020  0.61768385  0.29601411  1
+  Sb  Sb7  1  0.64381366  0.61768384  0.70398588  1
+  Sb  Sb8  1  0.97387021  0.35618633  0.70398586  1
+  Sb  Sb9  1  0.38231616  0.02612983  0.70398588  1

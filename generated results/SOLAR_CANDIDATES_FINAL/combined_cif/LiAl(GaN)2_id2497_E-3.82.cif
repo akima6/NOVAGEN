@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_LiAl(GaN)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.56321995
+_cell_length_b   4.41653247
+_cell_length_c   15.59497397
+_cell_angle_alpha   90.00200386
+_cell_angle_beta   89.99229068
+_cell_angle_gamma   119.59722697
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiAl(GaN)2
+_chemical_formula_sum   'Li3 Al3 Ga6 N6'
+_cell_volume   273.28542721
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  -0.00000000  -0.00000003  -0.00001918  1
+  Li  Li1  1  -0.00000004  -0.00000006  0.66665731  1
+  Li  Li2  1  0.00000006  0.00000003  0.33335950  1
+  Al  Al3  1  -0.00000111  -0.00000152  0.49992698  1
+  Al  Al4  1  -0.00000003  -0.00000002  0.16661502  1
+  Al  Al5  1  -0.00000004  0.00000000  0.83341565  1
+  N  N6  1  0.50000003  0.00000012  0.19642433  1
+  N  N7  1  0.00000015  0.50000015  0.85979014  1
+  N  N8  1  0.50029840  0.49992366  0.52646419  1
+  N  N9  1  -0.00000523  0.49999889  0.47357110  1
+  N  N10  1  0.50000155  0.00000148  0.80361307  1
+  N  N11  1  0.50000003  0.50000006  0.13692257  1
+  Ga  Ga12  1  0.49999995  -0.00000042  0.18440896  1
+  Ga  Ga13  1  -0.00000012  0.49999990  0.85412625  1
+  Ga  Ga14  1  0.49969589  0.50007767  0.52091470  1
+  Ga  Ga15  1  0.00001204  0.50000134  0.47910286  1
+  Ga  Ga16  1  0.49999848  -0.00000149  0.81575267  1
+  Ga  Ga17  1  0.49999999  0.50000025  0.14895403  1

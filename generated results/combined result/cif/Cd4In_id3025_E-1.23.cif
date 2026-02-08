@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cd4In
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.78057308
+_cell_length_b   6.78056542
+_cell_length_c   5.42452200
+_cell_angle_alpha   90.00026715
+_cell_angle_beta   90.00026369
+_cell_angle_gamma   90.00010272
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cd4In
+_chemical_formula_sum   'Cd8 In2'
+_cell_volume   249.39847109
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  -0.00000001  -0.00000001  -0.00000002  1
+  In  In1  1  0.50000000  0.50000001  0.50000001  1
+  Cd  Cd2  1  0.62186328  0.78409929  -0.00000001  1
+  Cd  Cd3  1  0.37813672  0.21590071  -0.00000001  1
+  Cd  Cd4  1  0.21590071  0.62186328  -0.00000003  1
+  Cd  Cd5  1  0.78409929  0.37813672  -0.00000001  1
+  Cd  Cd6  1  0.12186327  0.28409930  0.50000004  1
+  Cd  Cd7  1  0.87813673  0.71590071  0.50000001  1
+  Cd  Cd8  1  0.71590072  0.12186328  0.50000001  1
+  Cd  Cd9  1  0.28409929  0.87813672  0.50000001  1

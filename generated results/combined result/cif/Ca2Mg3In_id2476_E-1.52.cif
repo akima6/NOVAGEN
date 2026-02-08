@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ca2Mg3In
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.02961616
+_cell_length_b   5.02961639
+_cell_length_c   17.57464764
+_cell_angle_alpha   89.99985308
+_cell_angle_beta   90.00008298
+_cell_angle_gamma   89.99999856
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2Mg3In
+_chemical_formula_sum   'Ca4 Mg6 In2'
+_cell_volume   444.58656154
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.74999999  0.24999999  0.50000006  1
+  Mg  Mg1  1  0.25000000  0.75000001  0.50000005  1
+  In  In2  1  0.25000001  0.24999999  0.16246680  1
+  In  In3  1  0.75000001  0.75000001  0.83753326  1
+  Ca  Ca4  1  0.25000000  0.25000000  0.87337661  1
+  Ca  Ca5  1  0.75000000  0.75000000  0.12662343  1
+  Mg  Mg6  1  0.25000000  0.25000000  0.35071880  1
+  Mg  Mg7  1  0.75000000  0.75000001  0.64928109  1
+  Mg  Mg8  1  0.25000001  0.24999999  0.51660579  1
+  Mg  Mg9  1  0.75000000  0.75000001  0.48339381  1
+  Ca  Ca10  1  0.25000000  0.24999999  0.68295834  1
+  Ca  Ca11  1  0.74999999  0.75000001  0.31704196  1

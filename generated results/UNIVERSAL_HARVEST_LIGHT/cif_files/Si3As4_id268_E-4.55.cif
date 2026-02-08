@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Si3As4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.97918560
+_cell_length_b   7.97919391
+_cell_length_c   7.97919360
+_cell_angle_alpha   89.99977627
+_cell_angle_beta   89.99995021
+_cell_angle_gamma   89.99983950
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Si3As4
+_chemical_formula_sum   'Si12 As16'
+_cell_volume   508.01506228
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.37499997  -0.00000000  0.24999998  1
+  Si  Si1  1  0.12499999  0.00000000  0.74999999  1
+  Si  Si2  1  0.24999999  0.37500000  -0.00000001  1
+  Si  Si3  1  0.75000000  0.12500000  -0.00000001  1
+  Si  Si4  1  -0.00000001  0.25000000  0.37499998  1
+  Si  Si5  1  -0.00000000  0.74999998  0.12499998  1
+  Si  Si6  1  0.87499997  0.49999998  0.75000000  1
+  Si  Si7  1  0.62499998  0.50000002  0.24999999  1
+  Si  Si8  1  0.75000000  0.87500000  0.49999999  1
+  Si  Si9  1  0.24999999  0.62499999  0.50000000  1
+  Si  Si10  1  0.50000000  0.75000000  0.87500001  1
+  Si  Si11  1  0.50000000  0.25000000  0.62499998  1
+  As  As12  1  0.83873256  0.83873255  0.83873257  1
+  As  As13  1  0.66126746  0.16126742  0.33873250  1
+  As  As14  1  0.16126744  0.33873251  0.66126747  1
+  As  As15  1  0.33873250  0.66126746  0.16126745  1
+  As  As16  1  0.08873249  0.08873249  0.08873252  1
+  As  As17  1  0.41126744  0.91126746  0.58873252  1
+  As  As18  1  0.58873252  0.41126746  0.91126743  1
+  As  As19  1  0.91126745  0.58873252  0.41126746  1
+  As  As20  1  0.33873250  0.33873250  0.33873250  1
+  As  As21  1  0.16126745  0.66126744  0.83873251  1
+  As  As22  1  0.66126745  0.83873247  0.16126743  1
+  As  As23  1  0.83873251  0.16126747  0.66126745  1
+  As  As24  1  0.58873251  0.58873249  0.58873251  1
+  As  As25  1  0.91126745  0.41126744  0.08873249  1
+  As  As26  1  0.08873251  0.91126745  0.41126746  1
+  As  As27  1  0.41126745  0.08873250  0.91126746  1

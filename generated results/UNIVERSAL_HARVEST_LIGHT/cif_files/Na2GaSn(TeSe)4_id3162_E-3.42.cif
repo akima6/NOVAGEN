@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Na2GaSn(TeSe)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.12932598
+_cell_length_b   8.12932663
+_cell_length_c   12.01534388
+_cell_angle_alpha   89.99999482
+_cell_angle_beta   90.00005400
+_cell_angle_gamma   90.00001890
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2GaSn(TeSe)4
+_chemical_formula_sum   'Na4 Ga2 Sn2 Te8 Se8'
+_cell_volume   794.04536903
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  -0.00000000  -0.00000000  -0.00000000  1
+  Sn  Sn1  1  0.50000000  0.50000000  0.50000000  1
+  Ga  Ga2  1  0.00000001  -0.00000001  0.50000000  1
+  Ga  Ga3  1  0.49999999  0.49999998  0.00000002  1
+  Na  Na4  1  -0.00000000  0.50000001  0.24999999  1
+  Na  Na5  1  -0.00000000  0.50000001  0.74999999  1
+  Na  Na6  1  0.50000000  0.00000001  0.74999999  1
+  Na  Na7  1  0.50000000  0.00000000  0.24999999  1
+  Se  Se8  1  0.82781676  0.82781676  0.62646967  1
+  Se  Se9  1  0.17218321  0.17218321  0.62646962  1
+  Se  Se10  1  0.82781679  0.17218321  0.37353034  1
+  Se  Se11  1  0.17218321  0.82781678  0.37353036  1
+  Se  Se12  1  0.32781680  0.32781679  0.12646967  1
+  Se  Se13  1  0.67218323  0.67218323  0.12646966  1
+  Se  Se14  1  0.32781680  0.67218319  0.87353032  1
+  Se  Se15  1  0.67218322  0.32781678  0.87353034  1
+  Te  Te16  1  0.21756912  0.21756912  0.31845398  1
+  Te  Te17  1  0.78243093  0.78243092  0.31845403  1
+  Te  Te18  1  0.21756908  0.78243094  0.68154599  1
+  Te  Te19  1  0.78243092  0.21756910  0.68154606  1
+  Te  Te20  1  0.71756908  0.71756908  0.81845395  1
+  Te  Te21  1  0.28243091  0.28243090  0.81845401  1
+  Te  Te22  1  0.71756905  0.28243092  0.18154599  1
+  Te  Te23  1  0.28243090  0.71756907  0.18154606  1

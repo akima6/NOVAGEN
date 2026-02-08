@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Ba2Mg2Cd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.87641123
+_cell_length_b   5.87640702
+_cell_length_c   18.69084186
+_cell_angle_alpha   89.99999995
+_cell_angle_beta   89.99999121
+_cell_angle_gamma   120.00017418
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Mg2Cd
+_chemical_formula_sum   'Ba6 Mg6 Cd3'
+_cell_volume   558.96263949
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  -0.00000000  0.00000000  0.00000002  1
+  Cd  Cd1  1  0.66666669  0.33333334  0.33333335  1
+  Cd  Cd2  1  0.33333334  0.66666669  0.66666668  1
+  Mg  Mg3  1  0.00000001  0.00000000  0.15426247  1
+  Mg  Mg4  1  -0.00000000  -0.00000000  0.84573755  1
+  Mg  Mg5  1  0.66666669  0.33333335  0.48759582  1
+  Mg  Mg6  1  0.66666668  0.33333334  0.17907088  1
+  Mg  Mg7  1  0.33333335  0.66666669  0.82092916  1
+  Mg  Mg8  1  0.33333334  0.66666668  0.51240422  1
+  Ba  Ba9  1  0.00000000  -0.00000000  0.61269884  1
+  Ba  Ba10  1  0.00000000  0.00000000  0.38730114  1
+  Ba  Ba11  1  0.66666669  0.33333334  0.94603224  1
+  Ba  Ba12  1  0.66666668  0.33333335  0.72063448  1
+  Ba  Ba13  1  0.33333334  0.66666668  0.27936550  1
+  Ba  Ba14  1  0.33333334  0.66666669  0.05396781  1

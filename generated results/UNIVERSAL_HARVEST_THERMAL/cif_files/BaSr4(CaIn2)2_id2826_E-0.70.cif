@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_BaSr4(CaIn2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   26.62558657
+_cell_length_b   26.62540104
+_cell_length_c   17.36434678
+_cell_angle_alpha   89.99996963
+_cell_angle_beta   90.00008012
+_cell_angle_gamma   89.99999648
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaSr4(CaIn2)2
+_chemical_formula_sum   'Ba2 Sr8 Ca4 In8'
+_cell_volume   12309.87924429
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.75000002  0.25000012  -0.00000003  1
+  Ba  Ba1  1  0.24999996  0.75000015  0.00000000  1
+  Ca  Ca2  1  0.25000000  0.25000000  0.33737100  1
+  Ca  Ca3  1  0.25000000  0.25000000  0.66262900  1
+  Ca  Ca4  1  0.75000000  0.75000000  0.66262900  1
+  Ca  Ca5  1  0.75000000  0.75000000  0.33737100  1
+  Sr  Sr6  1  0.14103545  0.85896450  0.96762171  1
+  Sr  Sr7  1  0.35896465  0.64103538  0.96762157  1
+  Sr  Sr8  1  0.64103494  0.14103504  0.96762136  1
+  Sr  Sr9  1  0.85896504  0.35896488  0.96762142  1
+  Sr  Sr10  1  0.35896458  0.85896457  0.03237836  1
+  Sr  Sr11  1  0.14103538  0.64103543  0.03237839  1
+  Sr  Sr12  1  0.85896504  0.14103507  0.03237868  1
+  Sr  Sr13  1  0.64103501  0.35896490  0.03237864  1
+  In  In14  1  0.39849543  0.60150460  0.13766737  1
+  In  In15  1  0.10150456  0.89849539  0.13766734  1
+  In  In16  1  0.89849539  0.39849541  0.13766738  1
+  In  In17  1  0.60150459  0.10150458  0.13766742  1
+  In  In18  1  0.10150454  0.60150459  0.86233262  1
+  In  In19  1  0.39849544  0.89849540  0.86233261  1
+  In  In20  1  0.60150458  0.39849542  0.86233258  1
+  In  In21  1  0.89849541  0.10150458  0.86233252  1

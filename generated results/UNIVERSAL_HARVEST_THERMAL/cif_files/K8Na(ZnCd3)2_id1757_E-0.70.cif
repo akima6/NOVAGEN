@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_K8Na(ZnCd3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.36158504
+_cell_length_b   7.36157508
+_cell_length_c   29.42932759
+_cell_angle_alpha   89.99970092
+_cell_angle_beta   90.00046171
+_cell_angle_gamma   119.99997082
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K8Na(ZnCd3)2
+_chemical_formula_sum   'K8 Na1 Zn2 Cd6'
+_cell_volume   1381.18921314
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  -0.00000000  -0.00000000  0.50000000  1
+  Zn  Zn1  1  0.33333335  0.66666669  0.50000000  1
+  Zn  Zn2  1  0.66666668  0.33333334  0.50000000  1
+  K  K3  1  -0.00000000  -0.00000000  0.24769159  1
+  K  K4  1  0.00000003  0.00000003  0.75230832  1
+  Cd  Cd5  1  0.50000002  0.00000001  0.17912518  1
+  Cd  Cd6  1  -0.00000001  0.50000001  0.17912524  1
+  Cd  Cd7  1  0.49999998  0.49999999  0.17912521  1
+  Cd  Cd8  1  0.49999999  -0.00000001  0.82087485  1
+  Cd  Cd9  1  0.00000001  0.50000000  0.82087483  1
+  Cd  Cd10  1  0.49999999  0.49999997  0.82087484  1
+  K  K11  1  0.50000000  0.00000000  0.06615301  1
+  K  K12  1  -0.00000000  0.49999999  0.06615297  1
+  K  K13  1  0.50000000  0.50000001  0.06615299  1
+  K  K14  1  0.50000000  0.00000000  0.93384701  1
+  K  K15  1  -0.00000000  0.49999999  0.93384700  1
+  K  K16  1  0.49999999  0.50000000  0.93384701  1

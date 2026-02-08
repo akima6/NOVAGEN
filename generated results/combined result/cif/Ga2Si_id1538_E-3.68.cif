@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ga2Si
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.08566098
+_cell_length_b   6.08566322
+_cell_length_c   6.08565735
+_cell_angle_alpha   89.99998574
+_cell_angle_beta   89.99996614
+_cell_angle_gamma   89.99985820
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ga2Si
+_chemical_formula_sum   'Ga8 Si4'
+_cell_volume   225.38404345
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.00000001  -0.00000002  -0.00000002  1
+  Si  Si1  1  0.49999995  -0.00000008  0.50000005  1
+  Si  Si2  1  -0.00000005  0.50000003  0.49999996  1
+  Si  Si3  1  0.49999997  0.49999996  -0.00000005  1
+  Ga  Ga4  1  0.36121699  0.36121696  0.36121702  1
+  Ga  Ga5  1  0.13878310  0.63878298  0.86121702  1
+  Ga  Ga6  1  0.63878302  0.86121700  0.13878304  1
+  Ga  Ga7  1  0.86121701  0.13878308  0.63878301  1
+  Ga  Ga8  1  0.63878300  0.63878305  0.63878296  1
+  Ga  Ga9  1  0.86121696  0.36121700  0.13878305  1
+  Ga  Ga10  1  0.36121697  0.13878307  0.86121697  1
+  Ga  Ga11  1  0.13878306  0.86121698  0.36121697  1

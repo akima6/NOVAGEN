@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Na3Mg2Cd2In
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.08847628
+_cell_length_b   5.08848970
+_cell_length_c   12.51121428
+_cell_angle_alpha   89.99982761
+_cell_angle_beta   90.00052260
+_cell_angle_gamma   120.00020089
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3Mg2Cd2In
+_chemical_formula_sum   'Na3 Mg2 Cd2 In1'
+_cell_volume   280.54715468
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  -0.00000002  -0.00000002  -0.00000002  1
+  In  In1  1  0.00000001  -0.00000001  0.50000000  1
+  Na  Na2  1  0.00000001  0.00000000  0.26510979  1
+  Na  Na3  1  -0.00000002  0.00000001  0.73489021  1
+  Cd  Cd4  1  0.33333336  0.66666671  0.31355482  1
+  Cd  Cd5  1  0.66666668  0.33333335  0.68644519  1
+  Mg  Mg6  1  0.33333335  0.66666668  0.81095536  1
+  Mg  Mg7  1  0.66666668  0.33333335  0.18904465  1

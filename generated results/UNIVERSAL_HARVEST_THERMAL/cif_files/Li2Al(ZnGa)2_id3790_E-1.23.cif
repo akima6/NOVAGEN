@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Li2Al(ZnGa)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.77328725
+_cell_length_b   11.46505079
+_cell_length_c   6.74007013
+_cell_angle_alpha   90.00003099
+_cell_angle_beta   89.99995498
+_cell_angle_gamma   90.00026776
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2Al(ZnGa)2
+_chemical_formula_sum   'Li8 Al4 Zn8 Ga8'
+_cell_volume   677.95793416
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  -0.00000000  0.00000000  0.24999998  1
+  Al  Al1  1  -0.00000000  0.00000000  0.75000002  1
+  Al  Al2  1  0.50000000  0.50000000  0.24999999  1
+  Al  Al3  1  0.50000000  0.50000000  0.75000001  1
+  Zn  Zn4  1  0.20435299  0.56673173  0.00000001  1
+  Zn  Zn5  1  0.79564702  0.43326825  -0.00000001  1
+  Zn  Zn6  1  0.79564698  0.56673168  0.50000000  1
+  Zn  Zn7  1  0.20435305  0.43326832  0.50000000  1
+  Zn  Zn8  1  0.70435298  0.06673176  0.00000001  1
+  Zn  Zn9  1  0.29564702  0.93326825  -0.00000001  1
+  Zn  Zn10  1  0.29564698  0.06673168  0.50000000  1
+  Zn  Zn11  1  0.70435304  0.93326838  0.50000000  1
+  Li  Li12  1  0.59491625  0.85100472  -0.00000000  1
+  Li  Li13  1  0.40508377  0.14899527  -0.00000000  1
+  Li  Li14  1  0.40508370  0.85100477  0.50000000  1
+  Li  Li15  1  0.59491627  0.14899522  0.50000000  1
+  Li  Li16  1  0.09491623  0.35100473  0.00000000  1
+  Li  Li17  1  0.90508376  0.64899528  -0.00000000  1
+  Li  Li18  1  0.90508374  0.35100476  0.50000000  1
+  Li  Li19  1  0.09491630  0.64899522  0.50000000  1
+  Ga  Ga20  1  0.36900116  0.77773061  0.00000002  1
+  Ga  Ga21  1  0.63099885  0.22226941  -0.00000001  1
+  Ga  Ga22  1  0.63099857  0.77773055  0.50000000  1
+  Ga  Ga23  1  0.36900142  0.22226947  0.50000000  1
+  Ga  Ga24  1  0.86900117  0.27773058  0.00000001  1
+  Ga  Ga25  1  0.13099882  0.72226941  -0.00000001  1
+  Ga  Ga26  1  0.13099857  0.27773054  0.50000000  1
+  Ga  Ga27  1  0.86900140  0.72226940  0.49999999  1

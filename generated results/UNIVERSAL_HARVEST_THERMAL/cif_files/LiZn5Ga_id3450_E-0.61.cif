@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_LiZn5Ga
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.72562898
+_cell_length_b   9.69642721
+_cell_length_c   16.53518574
+_cell_angle_alpha   89.99994982
+_cell_angle_beta   89.99997846
+_cell_angle_gamma   89.99992121
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiZn5Ga
+_chemical_formula_sum   'Li2 Zn10 Ga2'
+_cell_volume   1719.66395758
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00000002  0.00000002  0.55139208  1
+  Li  Li1  1  0.50000000  0.00000001  0.55139209  1
+  Ga  Ga2  1  0.00000004  0.50000003  0.04762963  1
+  Ga  Ga3  1  0.50000002  0.50000000  0.04762918  1
+  Zn  Zn4  1  0.00000003  0.50000000  0.35678611  1
+  Zn  Zn5  1  0.50000001  0.49999998  0.35678588  1
+  Zn  Zn6  1  -0.00000005  0.49999996  0.21203449  1
+  Zn  Zn7  1  0.49999996  0.50000005  0.21203485  1
+  Zn  Zn8  1  0.25000001  0.14293143  0.07452476  1
+  Zn  Zn9  1  0.74999999  0.85706855  0.07452477  1
+  Zn  Zn10  1  0.35998179  0.65581066  0.13959696  1
+  Zn  Zn11  1  0.64001819  0.34418928  0.13959692  1
+  Zn  Zn12  1  0.85998177  0.34418929  0.13959681  1
+  Zn  Zn13  1  0.14001822  0.65581071  0.13959681  1

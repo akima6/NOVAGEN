@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_AlIn5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.75871516
+_cell_length_b   7.05012024
+_cell_length_c   11.34723891
+_cell_angle_alpha   89.99998950
+_cell_angle_beta   90.00008380
+_cell_angle_gamma   89.99999993
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlIn5
+_chemical_formula_sum   'Al2 In10'
+_cell_volume   380.69435127
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  -0.00000000  -0.00000000  0.00000000  1
+  Al  Al1  1  0.50000000  0.50000001  0.50000000  1
+  In  In2  1  0.50000000  0.00000000  0.50000002  1
+  In  In3  1  -0.00000000  0.50000000  -0.00000003  1
+  In  In4  1  0.00000001  0.70744857  0.49999999  1
+  In  In5  1  -0.00000001  0.29255142  0.50000001  1
+  In  In6  1  0.50000000  0.20744850  -0.00000001  1
+  In  In7  1  0.50000001  0.79255148  0.00000002  1
+  In  In8  1  0.50000000  0.00000002  0.77449093  1
+  In  In9  1  0.50000000  -0.00000000  0.22550904  1
+  In  In10  1  -0.00000001  0.50000001  0.27449095  1
+  In  In11  1  -0.00000000  0.50000001  0.72550909  1

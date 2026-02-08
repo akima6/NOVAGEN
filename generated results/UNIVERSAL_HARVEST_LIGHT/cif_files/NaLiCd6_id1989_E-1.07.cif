@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_NaLiCd6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.31814605
+_cell_length_b   9.31814781
+_cell_length_c   5.89811807
+_cell_angle_alpha   90.00006303
+_cell_angle_beta   89.99995438
+_cell_angle_gamma   119.99999577
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLiCd6
+_chemical_formula_sum   'Na2 Li2 Cd12'
+_cell_volume   443.50980029
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  -0.00000000  -0.00000000  0.00000000  1
+  Na  Na1  1  0.00000000  -0.00000000  0.50000000  1
+  Li  Li2  1  0.33333335  0.66666667  0.25000000  1
+  Li  Li3  1  0.66666673  0.33333336  0.75000000  1
+  Cd  Cd4  1  0.36518400  0.34578389  0.72237625  1
+  Cd  Cd5  1  0.65421613  0.01940013  0.72237626  1
+  Cd  Cd6  1  0.98059990  0.63481602  0.72237624  1
+  Cd  Cd7  1  0.65421614  0.63481599  0.77762376  1
+  Cd  Cd8  1  0.98059987  0.34578383  0.77762376  1
+  Cd  Cd9  1  0.36518403  0.01940012  0.77762375  1
+  Cd  Cd10  1  0.63481599  0.65421615  0.27762375  1
+  Cd  Cd11  1  0.34578390  0.98059991  0.27762374  1
+  Cd  Cd12  1  0.01940011  0.36518399  0.27762376  1
+  Cd  Cd13  1  0.34578387  0.36518400  0.22237624  1
+  Cd  Cd14  1  0.01940014  0.65421616  0.22237624  1
+  Cd  Cd15  1  0.63481599  0.98059993  0.22237625  1

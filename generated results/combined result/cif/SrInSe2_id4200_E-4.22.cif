@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SrInSe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.45654276
+_cell_length_b   5.45655015
+_cell_length_c   12.42023426
+_cell_angle_alpha   89.99999399
+_cell_angle_beta   90.00008594
+_cell_angle_gamma   120.00005034
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrInSe2
+_chemical_formula_sum   'Sr3 In3 Se6'
+_cell_volume   320.25499503
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.00000000  0.00000000  0.00000007  1
+  Sr  Sr1  1  0.66666669  0.33333335  0.33333337  1
+  Sr  Sr2  1  0.33333335  0.66666669  0.66666677  1
+  In  In3  1  0.00000000  -0.00000000  0.50000015  1
+  In  In4  1  0.66666669  0.33333334  0.83333335  1
+  In  In5  1  0.33333334  0.66666669  0.16666679  1
+  Se  Se6  1  -0.00000001  -0.00000001  0.25934212  1
+  Se  Se7  1  0.00000000  0.00000000  0.74065766  1
+  Se  Se8  1  0.66666667  0.33333334  0.59267528  1
+  Se  Se9  1  0.66666670  0.33333335  0.07399132  1
+  Se  Se10  1  0.33333334  0.66666668  0.92600839  1
+  Se  Se11  1  0.33333335  0.66666669  0.40732472  1

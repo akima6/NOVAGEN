@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CaZn3GaGe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.32608385
+_cell_length_b   5.12661907
+_cell_length_c   8.50854371
+_cell_angle_alpha   88.50438068
+_cell_angle_beta   90.00002541
+_cell_angle_gamma   90.00098116
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaZn3GaGe
+_chemical_formula_sum   'Ca2 Zn6 Ga2 Ge2'
+_cell_volume   188.63976092
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.00000003  0.99950942  0.13460744  1
+  Ca  Ca1  1  0.00000001  0.50656580  0.64109771  1
+  Zn  Zn2  1  -0.00000001  -0.00000953  0.77174591  1
+  Zn  Zn3  1  0.00000000  0.49938218  0.27849457  1
+  Zn  Zn4  1  0.00000004  0.51797402  0.62573721  1
+  Zn  Zn5  1  -0.00000007  0.47574272  0.60888699  1
+  Zn  Zn6  1  0.00000001  0.02589703  0.12410046  1
+  Zn  Zn7  1  -0.00000003  0.97469476  0.12358189  1
+  Ga  Ga8  1  0.49999999  0.00000614  0.91525199  1
+  Ga  Ga9  1  0.50000002  0.50113439  0.41905080  1
+  Ge  Ge10  1  -0.00000000  -0.00124631  0.46711574  1
+  Ge  Ge11  1  -0.00000000  0.50034945  0.96905284  1

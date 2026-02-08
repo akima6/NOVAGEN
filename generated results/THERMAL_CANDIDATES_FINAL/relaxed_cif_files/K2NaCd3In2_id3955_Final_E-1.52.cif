@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_K2NaCd3In2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.53852441
+_cell_length_b   6.55541566
+_cell_length_c   14.65715440
+_cell_angle_alpha   89.54016440
+_cell_angle_beta   89.96803754
+_cell_angle_gamma   119.89671760
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2NaCd3In2
+_chemical_formula_sum   'K4 Na2 Cd6 In4'
+_cell_volume   544.61717885
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.33372094  0.66826164  0.90160555  1
+  K  K1  1  0.66491179  0.33225447  0.59838905  1
+  K  K2  1  0.66627893  0.33173829  0.09839453  1
+  K  K3  1  0.33508836  0.66774543  0.40161100  1
+  Na  Na4  1  0.00000003  0.00000003  0.00000002  1
+  Na  Na5  1  1.00000016  -0.00000000  0.49999990  1
+  Cd  Cd6  1  0.25472024  0.00010096  0.25039013  1
+  Cd  Cd7  1  -0.00048959  0.25392952  0.25163299  1
+  Cd  Cd8  1  0.74559393  0.74619498  0.24797501  1
+  Cd  Cd9  1  0.74527960  0.99989876  0.74960996  1
+  Cd  Cd10  1  0.00048973  0.74607079  0.74836701  1
+  Cd  Cd11  1  0.25440609  0.25380515  0.75202493  1
+  In  In12  1  0.33212993  0.66611932  0.13542995  1
+  In  In13  1  0.66673813  0.33412485  0.36455883  1
+  In  In14  1  0.66787002  0.33388076  0.86457003  1
+  In  In15  1  0.33326180  0.66587516  0.63544116  1

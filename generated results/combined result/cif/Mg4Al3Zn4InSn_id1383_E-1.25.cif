@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Mg4Al3Zn4InSn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.92192053
+_cell_length_b   10.65691211
+_cell_length_c   20.20784659
+_cell_angle_alpha   89.99987410
+_cell_angle_beta   110.31948747
+_cell_angle_gamma   90.00000814
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg4Al3Zn4InSn
+_chemical_formula_sum   'Mg8 Al6 Zn8 In2 Sn2'
+_cell_volume   2003.75171585
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.12360885  0.65230030  0.87988432  1
+  Mg  Mg1  1  0.12360895  0.34769977  0.37988429  1
+  Mg  Mg2  1  0.15431087  0.64312593  0.74638131  1
+  Mg  Mg3  1  0.15431087  0.35687409  0.24638137  1
+  Sn  Sn4  1  0.21967731  0.27047754  0.75545704  1
+  Sn  Sn5  1  0.21967726  0.72952249  0.25545707  1
+  Mg  Mg6  1  0.20386387  0.19830598  0.62447276  1
+  Mg  Mg7  1  0.20386396  0.80169397  0.12447267  1
+  Mg  Mg8  1  0.65681530  0.85318286  0.66854637  1
+  Mg  Mg9  1  0.65681522  0.14681713  0.16854617  1
+  In  In10  1  0.61131411  0.94099961  0.06902537  1
+  In  In11  1  0.61131416  0.05900033  0.56902537  1
+  Zn  Zn12  1  0.95251598  0.86403671  0.72085838  1
+  Zn  Zn13  1  0.95251602  0.13596321  0.22085858  1
+  Al  Al14  1  0.76505962  0.45012107  0.86935897  1
+  Al  Al15  1  0.76505966  0.54987889  0.36935906  1
+  Al  Al16  1  0.80791805  0.88845429  0.57692012  1
+  Al  Al17  1  0.80791815  0.11154592  0.07692013  1
+  Zn  Zn18  1  0.89708199  0.51101494  0.77690151  1
+  Zn  Zn19  1  0.89708197  0.48898503  0.27690162  1
+  Zn  Zn20  1  0.88471146  0.67651211  0.65133606  1
+  Zn  Zn21  1  0.88471140  0.32348779  0.15133593  1
+  Al  Al22  1  0.84026542  0.26813157  0.29044192  1
+  Al  Al23  1  0.84026553  0.73186839  0.79044192  1
+  Zn  Zn24  1  0.91438144  0.54177408  0.00533800  1
+  Zn  Zn25  1  0.91438142  0.45822594  0.50533794  1

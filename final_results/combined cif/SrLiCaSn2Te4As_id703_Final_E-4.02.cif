@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_SrLiCaSn2Te4As
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.22266566
+_cell_length_b   7.22455171
+_cell_length_c   13.53786418
+_cell_angle_alpha   89.99940480
+_cell_angle_beta   90.00753927
+_cell_angle_gamma   89.99962698
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrLiCaSn2Te4As
+_chemical_formula_sum   'Sr2 Li2 Ca2 Sn4 Te8 As2'
+_cell_volume   706.41280752
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.99999952  0.00000326  -0.00000007  1
+  Sr  Sr1  1  0.49999962  0.49999967  0.49999937  1
+  Li  Li2  1  0.00000024  0.49999728  1.00000016  1
+  Li  Li3  1  0.50000023  -0.00000135  0.49999987  1
+  Ca  Ca4  1  -0.00000020  0.00001373  0.49999921  1
+  Ca  Ca5  1  0.49999988  0.50000553  -0.00000048  1
+  Sn  Sn6  1  -0.00000404  0.50015339  0.29655174  1
+  Sn  Sn7  1  0.99999554  0.50015386  0.70344789  1
+  Sn  Sn8  1  0.49999365  1.00005658  0.79655039  1
+  Sn  Sn9  1  0.49999348  1.00005683  0.20344675  1
+  Te  Te10  1  0.28572508  0.18850484  0.36198675  1
+  Te  Te11  1  0.71427277  0.81150388  0.36198983  1
+  Te  Te12  1  0.71427461  0.18850327  0.63801307  1
+  Te  Te13  1  0.28572729  0.81150297  0.63801017  1
+  Te  Te14  1  0.78572470  0.68850323  0.86198957  1
+  Te  Te15  1  0.21427282  0.31150086  0.86198739  1
+  Te  Te16  1  0.21427460  0.68850040  0.13801038  1
+  Te  Te17  1  0.78572757  0.31150125  0.13801319  1
+  As  As18  1  0.50001379  -0.00011294  0.00000469  1
+  As  As19  1  0.00000884  0.49965343  0.50000012  1

@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_ScAl4Ga9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.55574423
+_cell_length_b   10.55592225
+_cell_length_c   17.22166840
+_cell_angle_alpha   90.00001460
+_cell_angle_beta   89.99999661
+_cell_angle_gamma   90.00000258
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScAl4Ga9
+_chemical_formula_sum   'Sc2 Al8 Ga18'
+_cell_volume   1918.93500003
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  -0.00000000  0.00000000  0.74767701  1
+  Sc  Sc1  1  0.50000000  0.50000000  0.24767735  1
+  Ga  Ga2  1  0.00000000  -0.00000000  0.84981058  1
+  Ga  Ga3  1  0.50000000  0.50000000  0.34981090  1
+  Ga  Ga4  1  -0.00000001  0.49999999  0.37708210  1
+  Ga  Ga5  1  0.50000000  -0.00000000  0.37707053  1
+  Ga  Ga6  1  0.50000000  -0.00000000  0.87676904  1
+  Ga  Ga7  1  0.00000000  0.49999999  0.87687357  1
+  Al  Al8  1  -0.00000000  0.50000000  0.10425474  1
+  Al  Al9  1  0.50000000  0.00000000  0.10425378  1
+  Al  Al10  1  0.50000000  -0.00000000  0.60425122  1
+  Al  Al11  1  0.00000000  0.50000000  0.60424919  1
+  Ga  Ga12  1  0.00000013  0.50000022  0.26481345  1
+  Ga  Ga13  1  0.50000001  -0.00000001  0.26485647  1
+  Ga  Ga14  1  0.50000000  0.00000003  0.76484859  1
+  Ga  Ga15  1  -0.00000003  0.50000001  0.76483042  1
+  Ga  Ga16  1  -0.00000013  0.49999979  0.26035177  1
+  Ga  Ga17  1  0.49999999  0.00000001  0.26030572  1
+  Ga  Ga18  1  0.50000000  -0.00000002  0.76019265  1
+  Ga  Ga19  1  0.00000002  0.49999999  0.76020671  1
+  Ga  Ga20  1  0.00000000  0.50000000  0.40030042  1
+  Ga  Ga21  1  0.50000000  -0.00000000  0.40027596  1
+  Ga  Ga22  1  0.50000000  -0.00000000  0.90011921  1
+  Ga  Ga23  1  0.00000000  0.50000002  0.90000806  1
+  Al  Al24  1  0.00000000  0.50000000  0.45089182  1
+  Al  Al25  1  0.50000000  0.00000000  0.45092860  1
+  Al  Al26  1  0.50000000  0.00000000  0.95151069  1
+  Al  Al27  1  -0.00000000  0.49999999  0.95152036  1

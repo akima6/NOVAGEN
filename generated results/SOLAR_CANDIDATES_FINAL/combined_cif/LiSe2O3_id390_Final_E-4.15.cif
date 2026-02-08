@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_LiSe2O3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.31053177
+_cell_length_b   8.19015946
+_cell_length_c   9.38935306
+_cell_angle_alpha   111.56213803
+_cell_angle_beta   94.75101878
+_cell_angle_gamma   92.61100205
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiSe2O3
+_chemical_formula_sum   'Li4 Se8 O12'
+_cell_volume   306.19023816
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.99721135  0.99960010  0.99919210  1.0
+  Li  Li1  1  0.49497083  0.49975905  0.00093897  1.0
+  Li  Li2  1  0.99978955  0.49983275  0.49873046  1.0
+  Li  Li3  1  0.49693672  0.99888112  0.49783589  1.0
+  Se  Se4  1  0.53850021  0.99696811  0.77233451  1.0
+  Se  Se5  1  0.50232620  0.49914710  0.23279910  1.0
+  Se  Se6  1  0.01267624  0.05674534  0.28303017  1.0
+  Se  Se7  1  0.95523079  0.45308416  0.73543697  1.0
+  Se  Se8  1  0.46207575  0.00102834  0.22437615  1.0
+  Se  Se9  1  0.50216881  0.49889433  0.76394494  1.0
+  Se  Se10  1  0.99538392  0.95094155  0.72396878  1.0
+  Se  Se11  1  0.04074391  0.55088173  0.27042410  1.0
+  O  O12  1  0.99916103  0.00279797  0.49219904  1.0
+  O  O13  1  0.50312480  0.49854815  0.50250578  1.0
+  O  O14  1  0.99870096  0.49907078  0.99045465  1.0
+  O  O15  1  0.50425026  0.99919649  0.00284987  1.0
+  O  O16  1  0.55209743  0.99712316  0.76957104  1.0
+  O  O17  1  0.48579013  0.50142561  0.23032115  1.0
+  O  O18  1  0.98137424  0.04165316  0.27755485  1.0
+  O  O19  1  0.95282512  0.45038796  0.73394987  1.0
+  O  O20  1  0.45029790  0.00173833  0.22990612  1.0
+  O  O21  1  0.49186537  0.49912699  0.76748636  1.0
+  O  O22  1  0.00868782  0.95249764  0.72609958  1.0
+  O  O23  1  0.07381075  0.55067008  0.27408960  1.0

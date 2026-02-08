@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Li2ScCdGa5Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.38529512
+_cell_length_b   8.38529631
+_cell_length_c   8.29549620
+_cell_angle_alpha   90.00222447
+_cell_angle_beta   90.00174426
+_cell_angle_gamma   90.00002080
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2ScCdGa5Sn
+_chemical_formula_sum   'Li4 Sc2 Cd2 Ga10 Sn2'
+_cell_volume   583.28275199
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.00000021  0.00000018  0.96722717  1
+  Sc  Sc1  1  0.50000015  0.50000022  0.96722716  1
+  Ga  Ga2  1  0.50000026  0.00000043  0.37584488  1
+  Ga  Ga3  1  0.00000069  0.50000074  0.37584492  1
+  Sn  Sn4  1  0.49999954  -0.00000070  1.00545117  1
+  Sn  Sn5  1  -0.00000114  0.49999875  1.00545121  1
+  Cd  Cd6  1  0.50000000  0.00000001  0.68049672  1
+  Cd  Cd7  1  -0.00000023  0.49999977  0.68049672  1
+  Li  Li8  1  0.24168268  0.74168271  0.13858611  1
+  Li  Li9  1  0.75831775  0.25831778  0.13858599  1
+  Li  Li10  1  0.25831780  0.24168277  0.13858608  1
+  Li  Li11  1  0.74168274  0.75831786  0.13858604  1
+  Ga  Ga12  1  0.39141070  0.32112151  0.70396672  1
+  Ga  Ga13  1  0.60858893  0.67887803  0.70396841  1
+  Ga  Ga14  1  0.67887830  0.39141090  0.70396799  1
+  Ga  Ga15  1  0.32112189  0.60858928  0.70396699  1
+  Ga  Ga16  1  0.89141096  0.17887822  0.70396800  1
+  Ga  Ga17  1  0.10858924  0.82112177  0.70396699  1
+  Ga  Ga18  1  0.17887807  0.10858905  0.70396829  1
+  Ga  Ga19  1  0.82112146  0.89141072  0.70396678  1

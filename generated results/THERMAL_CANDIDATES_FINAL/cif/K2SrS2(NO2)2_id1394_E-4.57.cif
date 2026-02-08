@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_K2SrS2(NO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.06301288
+_cell_length_b   4.06301749
+_cell_length_c   13.02556371
+_cell_angle_alpha   90.00006828
+_cell_angle_beta   90.00009614
+_cell_angle_gamma   119.99999769
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2SrS2(NO2)2
+_chemical_formula_sum   'K2 Sr1 S2 N2 O4'
+_cell_volume   186.21903004
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  -0.00000001  -0.00000003  0.00000005  1
+  N  N1  1  -0.00000001  -0.00000000  0.26314883  1
+  N  N2  1  0.00000001  0.00000001  0.73685113  1
+  O  O3  1  0.33333334  0.66666669  0.05717528  1
+  O  O4  1  0.66666668  0.33333334  0.94282487  1
+  S  S5  1  0.33333337  0.66666671  0.17729886  1
+  S  S6  1  0.66666666  0.33333332  0.82270121  1
+  K  K7  1  0.33333331  0.66666666  0.39222241  1
+  K  K8  1  0.66666671  0.33333337  0.60777741  1
+  O  O9  1  0.33333335  0.66666669  0.73209978  1
+  O  O10  1  0.66666669  0.33333335  0.26790017  1

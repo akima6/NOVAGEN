@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_BaZnCd6Te
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.79043123
+_cell_length_b   8.79044480
+_cell_length_c   4.11193059
+_cell_angle_alpha   89.99984368
+_cell_angle_beta   90.00006330
+_cell_angle_gamma   120.00007276
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaZnCd6Te
+_chemical_formula_sum   'Ba1 Zn1 Cd6 Te1'
+_cell_volume   275.16748852
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  -0.00000004  0.00000013  0.50000000  1
+  Ba  Ba1  1  0.33333339  0.66666669  0.00000000  1
+  Zn  Zn2  1  0.66666659  0.33333338  0.50000002  1
+  Cd  Cd3  1  0.35190329  0.33194840  0.33744095  1
+  Cd  Cd4  1  0.66805167  0.01995495  0.33744097  1
+  Cd  Cd5  1  0.98004520  0.64809678  0.33744093  1
+  Cd  Cd6  1  0.66805155  0.64809656  0.66255903  1
+  Cd  Cd7  1  0.98004516  0.33194831  0.66255906  1
+  Cd  Cd8  1  0.35190328  0.01995489  0.66255904  1

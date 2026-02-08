@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_AlGa
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.13859352
+_cell_length_b   4.13859379
+_cell_length_c   10.01934134
+_cell_angle_alpha   90.00004810
+_cell_angle_beta   89.99998361
+_cell_angle_gamma   120.00000733
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlGa
+_chemical_formula_sum   'Al4 Ga4'
+_cell_volume   148.61934631
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.00000000  0.00000001  0.00000001  1
+  Al  Al1  1  -0.00000001  -0.00000001  0.50000000  1
+  Al  Al2  1  0.33333334  0.66666668  0.24999998  1
+  Al  Al3  1  0.66666669  0.33333334  0.75000001  1
+  Ga  Ga4  1  0.33333334  0.66666669  0.87325368  1
+  Ga  Ga5  1  0.66666668  0.33333334  0.37325369  1
+  Ga  Ga6  1  0.66666669  0.33333334  0.12674628  1
+  Ga  Ga7  1  0.33333335  0.66666670  0.62674629  1

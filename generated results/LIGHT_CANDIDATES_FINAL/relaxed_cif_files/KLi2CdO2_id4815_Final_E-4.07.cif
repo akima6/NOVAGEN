@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_KLi2CdO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.46174281
+_cell_length_b   10.92363171
+_cell_length_c   9.86658100
+_cell_angle_alpha   142.48207630
+_cell_angle_beta   71.18521188
+_cell_angle_gamma   94.18882532
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLi2CdO2
+_chemical_formula_sum   'K4 Li8 Cd4 O8'
+_cell_volume   439.69067733
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.93730675  0.18667312  0.53543747  1
+  K  K1  1  0.06207922  0.81336351  0.46529974  1
+  K  K2  1  0.43723231  0.68660119  0.53552807  1
+  K  K3  1  0.56197620  0.31330101  0.46538511  1
+  Li  Li4  1  0.33110023  0.08390258  0.59349670  1
+  Li  Li5  1  0.66791262  -0.08360372  0.40671586  1
+  Li  Li6  1  0.83103878  0.58382094  0.59346168  1
+  Li  Li7  1  0.16785807  0.41631646  0.40665440  1
+  Li  Li8  1  1.00239181  -0.00053319  0.99976116  1
+  Li  Li9  1  1.00547773  0.49942168  0.99823659  1
+  Li  Li10  1  0.50265539  0.49941769  -0.00015796  1
+  Li  Li11  1  0.50572032  -0.00064050  0.99821285  1
+  Cd  Cd12  1  1.01303325  0.27568027  0.05425980  1
+  Cd  Cd13  1  -0.01651066  0.72409700  0.94601200  1
+  Cd  Cd14  1  0.51301544  0.77556565  0.05422924  1
+  Cd  Cd15  1  0.48347464  0.22396918  0.94595042  1
+  O  O16  1  0.96397401  0.27504031  0.28909009  1
+  O  O17  1  1.03447651  0.72573433  0.71072300  1
+  O  O18  1  0.46403609  0.77509749  0.28910911  1
+  O  O19  1  0.53456706  0.22577504  0.71072588  1
+  O  O20  1  0.04848492  0.22149700  0.78584680  1
+  O  O21  1  0.95017194  0.77902796  0.21501095  1
+  O  O22  1  0.54841757  0.72146961  0.78593713  1
+  O  O23  1  0.45010977  0.27900541  0.21507387  1

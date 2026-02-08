@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_In
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.09583299
+_cell_length_b   10.09582812
+_cell_length_c   9.64733655
+_cell_angle_alpha   90.00012686
+_cell_angle_beta   89.99993389
+_cell_angle_gamma   90.00126283
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In
+_chemical_formula_sum   In22
+_cell_volume   983.31244379
+_cell_formula_units_Z   22
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.00000002  0.50000005  0.99061379  1
+  In  In1  1  0.50000000  -0.00000001  0.49061378  1
+  In  In2  1  0.30298860  0.00000000  0.98158004  1
+  In  In3  1  0.69701141  -0.00000003  0.98158003  1
+  In  In4  1  0.00000002  0.30298859  0.48158013  1
+  In  In5  1  -0.00000001  0.69701142  0.48158010  1
+  In  In6  1  0.31682652  0.00000002  0.26764329  1
+  In  In7  1  0.68317345  -0.00000008  0.26764330  1
+  In  In8  1  0.00000005  0.31682649  0.76764333  1
+  In  In9  1  -0.00000003  0.68317341  0.76764334  1
+  In  In10  1  0.31621878  0.50000019  0.42748868  1
+  In  In11  1  0.68378122  0.50000019  0.42748875  1
+  In  In12  1  0.49999993  0.31621872  0.92748876  1
+  In  In13  1  0.49999992  0.68378119  0.92748874  1
+  In  In14  1  0.27452197  0.30994448  0.76593114  1
+  In  In15  1  0.72547807  0.69005563  0.76593108  1
+  In  In16  1  0.69005566  0.27452190  0.26593104  1
+  In  In17  1  0.30994439  0.72547796  0.26593113  1
+  In  In18  1  0.27452200  0.69005567  0.76593119  1
+  In  In19  1  0.72547804  0.30994440  0.76593113  1
+  In  In20  1  0.69005558  0.72547797  0.26593107  1
+  In  In21  1  0.30994443  0.27452188  0.26593097  1

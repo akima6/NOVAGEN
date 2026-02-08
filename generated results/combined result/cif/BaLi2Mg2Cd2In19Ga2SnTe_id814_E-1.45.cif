@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_BaLi2Mg2Cd2In19Ga2SnTe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.81186674
+_cell_length_b   20.98830247
+_cell_length_c   12.66970398
+_cell_angle_alpha   90.00847568
+_cell_angle_beta   101.21319929
+_cell_angle_gamma   89.99375632
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaLi2Mg2Cd2In19Ga2SnTe
+_chemical_formula_sum   'Ba1 Li2 Mg2 Cd2 In19 Ga2 Sn1 Te1'
+_cell_volume   3080.99963263
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.00000000  0.83504015  -0.00000001  1
+  Sn  Sn1  1  0.00000000  0.92870958  0.50000000  1
+  Ga  Ga2  1  0.49999991  0.79489040  0.00000024  1
+  Te  Te3  1  0.49999935  0.47255972  0.00000178  1
+  In  In4  1  0.50000076  0.26689135  -0.00000145  1
+  Ba  Ba5  1  0.50000564  1.00786945  -0.00001349  1
+  In  In6  1  0.49999916  0.25351837  0.00000185  1
+  In  In7  1  0.49999933  0.47742320  0.00000182  1
+  In  In8  1  0.49991900  0.09466593  0.00019476  1
+  In  In9  1  0.50007821  0.10909116  -0.00018748  1
+  In  In10  1  0.49999738  0.90311496  0.00000559  1
+  In  In11  1  0.49999998  0.71383402  0.49999920  1
+  In  In12  1  0.10862727  0.07669830  0.96716599  1
+  In  In13  1  0.89137279  0.07669822  0.03283387  1
+  In  In14  1  0.47762376  0.39546693  0.19298858  1
+  In  In15  1  0.52237598  0.39546276  0.80701185  1
+  In  In16  1  0.56418209  0.56215711  0.74291077  1
+  In  In17  1  0.43578654  0.56208296  0.25710249  1
+  In  In18  1  0.44918015  0.57485797  0.25335961  1
+  In  In19  1  0.55085351  0.57479392  0.74662440  1
+  In  In20  1  0.77137587  0.50663479  0.28538538  1
+  In  In21  1  0.22862273  0.50663389  0.71461478  1
+  Li  Li22  1  0.55189459  0.00203428  0.24487197  1
+  Li  Li23  1  0.44810539  0.00203446  0.75512804  1
+  Cd  Cd24  1  0.14552424  0.22746146  0.91969971  1
+  Cd  Cd25  1  0.85447574  0.22746138  0.08030033  1
+  Mg  Mg26  1  0.66102663  0.43153532  0.65572454  1
+  Mg  Mg27  1  0.33897404  0.43153851  0.34427481  1
+  In  In28  1  0.23914530  0.11671961  0.82551620  1
+  In  In29  1  0.76085463  0.11671977  0.17448387  1

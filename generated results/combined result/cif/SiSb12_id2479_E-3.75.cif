@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_SiSb12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.91286471
+_cell_length_b   9.91286323
+_cell_length_c   9.91286444
+_cell_angle_alpha   90.00007835
+_cell_angle_beta   89.99996004
+_cell_angle_gamma   89.99993636
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SiSb12
+_chemical_formula_sum   'Si2 Sb24'
+_cell_volume   974.08635605
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.00000000  -0.00000000  0.00000000  1
+  Si  Si1  1  0.50000000  0.50000000  0.50000000  1
+  Sb  Sb2  1  0.24999998  0.61064819  0.88935177  1
+  Sb  Sb3  1  0.75000000  0.38935179  0.88935179  1
+  Sb  Sb4  1  0.75000000  0.61064821  0.11064821  1
+  Sb  Sb5  1  0.25000000  0.38935180  0.11064821  1
+  Sb  Sb6  1  0.88935180  0.25000000  0.61064822  1
+  Sb  Sb7  1  0.88935180  0.74999999  0.38935178  1
+  Sb  Sb8  1  0.11064821  0.75000000  0.61064822  1
+  Sb  Sb9  1  0.11064822  0.24999999  0.38935181  1
+  Sb  Sb10  1  0.61064820  0.88935178  0.24999999  1
+  Sb  Sb11  1  0.38935179  0.88935179  0.75000000  1
+  Sb  Sb12  1  0.61064821  0.11064821  0.75000000  1
+  Sb  Sb13  1  0.38935178  0.11064821  0.25000000  1
+  Sb  Sb14  1  0.75000000  0.11064821  0.38935178  1
+  Sb  Sb15  1  0.25000000  0.88935179  0.38935179  1
+  Sb  Sb16  1  0.25000000  0.11064821  0.61064820  1
+  Sb  Sb17  1  0.75000000  0.88935179  0.61064820  1
+  Sb  Sb18  1  0.38935180  0.75000001  0.11064822  1
+  Sb  Sb19  1  0.38935178  0.25000001  0.88935180  1
+  Sb  Sb20  1  0.61064822  0.25000000  0.11064821  1
+  Sb  Sb21  1  0.61064821  0.75000000  0.88935179  1
+  Sb  Sb22  1  0.11064822  0.38935181  0.75000001  1
+  Sb  Sb23  1  0.88935178  0.38935180  0.24999999  1
+  Sb  Sb24  1  0.11064820  0.61064820  0.25000000  1
+  Sb  Sb25  1  0.88935179  0.61064822  0.75000000  1

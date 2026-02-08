@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ca2ScAlCd4In
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.28229252
+_cell_length_b   11.88696819
+_cell_length_c   14.69256148
+_cell_angle_alpha   89.99998178
+_cell_angle_beta   90.00014819
+_cell_angle_gamma   90.00001943
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2ScAlCd4In
+_chemical_formula_sum   'Ca4 Sc2 Al2 Cd8 In2'
+_cell_volume   1097.20245684
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.00000000  -0.00000001  0.54674504  1
+  Al  Al1  1  -0.00000000  0.50000000  0.04674496  1
+  Ca  Ca2  1  0.00000001  0.00000000  0.14031855  1
+  Ca  Ca3  1  0.00000000  0.50000000  0.64031857  1
+  Sc  Sc4  1  -0.00000000  0.00000000  0.35914173  1
+  Sc  Sc5  1  -0.00000000  0.50000000  0.85914172  1
+  Cd  Cd6  1  -0.00000000  0.00000000  0.72828597  1
+  Cd  Cd7  1  -0.00000000  0.50000000  0.22828584  1
+  In  In8  1  0.00000001  -0.00000000  0.92399112  1
+  In  In9  1  0.00000001  0.50000000  0.42399124  1
+  Ca  Ca10  1  0.50000000  0.00000000  0.35437453  1
+  Ca  Ca11  1  0.50000001  0.50000000  0.85437452  1
+  Cd  Cd12  1  0.49999999  -0.00000000  0.10426236  1
+  Cd  Cd13  1  0.49999999  0.50000000  0.60426239  1
+  Cd  Cd14  1  -0.00000000  0.21291686  0.43327101  1
+  Cd  Cd15  1  -0.00000000  0.78708312  0.43327101  1
+  Cd  Cd16  1  -0.00000000  0.71291688  0.93327098  1
+  Cd  Cd17  1  -0.00000000  0.28708312  0.93327098  1

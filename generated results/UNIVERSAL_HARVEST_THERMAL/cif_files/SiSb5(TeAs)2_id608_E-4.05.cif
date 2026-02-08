@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_SiSb5(TeAs)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.12427572
+_cell_length_b   5.88199439
+_cell_length_c   8.68864602
+_cell_angle_alpha   90.00014797
+_cell_angle_beta   81.90612038
+_cell_angle_gamma   90.00003033
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SiSb5(TeAs)2
+_chemical_formula_sum   'Si1 Sb5 Te2 As2'
+_cell_volume   309.87291472
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.00000004  0.00000000  0.00000017  1
+  Si  Si1  1  0.49999935  0.50000000  0.00000010  1
+  Te  Te2  1  0.00000020  0.49999999  0.49999991  1
+  Sb  Sb3  1  0.50000006  0.00000000  0.50000008  1
+  Sb  Sb4  1  0.85749205  0.00000001  0.68924894  1
+  Sb  Sb5  1  0.14250784  -0.00000001  0.31075081  1
+  Sb  Sb6  1  0.64736279  0.50000001  0.29620918  1
+  Sb  Sb7  1  0.35263719  0.49999999  0.70379065  1
+  As  As8  1  0.91376135  0.50000001  0.87984837  1
+  As  As9  1  0.08623913  0.50000000  0.12015180  1

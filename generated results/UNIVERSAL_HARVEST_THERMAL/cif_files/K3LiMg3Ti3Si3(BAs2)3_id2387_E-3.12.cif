@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_K3LiMg3Ti3Si3(BAs2)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   16.69243928
+_cell_length_b   16.69244301
+_cell_length_c   5.92821841
+_cell_angle_alpha   89.99994749
+_cell_angle_beta   90.00005491
+_cell_angle_gamma   120.00002251
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3LiMg3Ti3Si3(BAs2)3
+_chemical_formula_sum   'K3 Li1 Mg3 Ti3 Si3 B3 As6'
+_cell_volume   1430.52165395
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00000001  -0.00000000  0.49854994  1
+  Si  Si1  1  0.17620339  0.63004244  0.48492395  1
+  Si  Si2  1  0.36995756  0.54616094  0.48492395  1
+  Si  Si3  1  0.45383902  0.82379663  0.48492395  1
+  K  K4  1  0.12169982  0.76769768  0.49763648  1
+  K  K5  1  0.23230227  0.35400214  0.49763646  1
+  K  K6  1  0.64599786  0.87830016  0.49763647  1
+  Mg  Mg7  1  0.30664655  0.80754747  0.51263261  1
+  Mg  Mg8  1  0.19245256  0.49909907  0.51263262  1
+  Mg  Mg9  1  0.50090095  0.69335348  0.51263262  1
+  Ti  Ti10  1  0.12343233  0.43042002  0.94863492  1
+  Ti  Ti11  1  0.56957995  0.69301232  0.94863492  1
+  Ti  Ti12  1  0.30698767  0.87656762  0.94863492  1
+  B  B13  1  0.38179798  0.12413605  0.22225466  1
+  B  B14  1  0.87586395  0.25766194  0.22225465  1
+  B  B15  1  0.74233806  0.61820200  0.22225464  1
+  As  As16  1  0.59643619  0.86438610  0.01832721  1
+  As  As17  1  0.13561389  0.73205008  0.01832721  1
+  As  As18  1  0.26794995  0.40356380  0.01832721  1
+  As  As19  1  0.36354372  0.03577587  0.92076573  1
+  As  As20  1  0.96422412  0.32776788  0.92076574  1
+  As  As21  1  0.67223210  0.63645629  0.92076574  1

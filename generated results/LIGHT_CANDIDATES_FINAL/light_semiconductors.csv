@@ -1,0 +1,1419 @@
+file_name,formula,energy,bandgap,Application_Class,type,space_group_symbol,space_group_number,num_atoms
+BaTiO3_id3706_E-8.38.cif,BaTiO3,-8.3803,1.188,Solar / Visible,Semiconductor,Fm-3m,225,40
+Ti3SO3_id1431_E-8.37.cif,Ti3SO3,-8.3746,1.26,Solar / Visible,Semiconductor,R-3c,167,42
+Ti9GaO6_id4084_E-7.92.cif,Ti9GaO6,-7.9201,0.302,IR / Narrow-Gap,Semiconductor,Pm-3,200,16
+Ti2C3_id2550_E-7.92.cif,Ti2C3,-7.9162,1.069,Solar / Visible,Semiconductor,P4_22_12,94,20
+ScN4_id2605_E-7.84.cif,ScN4,-7.837,1.006,Solar / Visible,Semiconductor,I4_1/a,88,20
+Sc3ZnO4_id4739_E-7.81.cif,Sc3ZnO4,-7.8129,1.147,Solar / Visible,Semiconductor,Pm-3m,221,8
+Ti6O7_id1624_E-7.77.cif,Ti6O7,-7.7652,1.835,Solar / Visible,Semiconductor,C2/m,12,26
+TiPO2_id228_E-7.72.cif,TiPO2,-7.7207,1.683,Solar / Visible,Semiconductor,Pbca,61,32
+Ti2N15_id4140_E-7.64.cif,Ti2N15,-7.6436,0.38,IR / Narrow-Gap,Semiconductor,C2/m,12,34
+Ti2N2O3_id1284_E-7.62.cif,Ti2N2O3,-7.6236,1.434,Solar / Visible,Semiconductor,P6_222,180,21
+Sc4N5_id3478_E-7.56.cif,Sc4N5,-7.5576,0.805,IR / Narrow-Gap,Semiconductor,F-43m,216,36
+CaC2NO2_id686_E-7.54.cif,CaC2NO2,-7.5395,1.731,Solar / Visible,Semiconductor,Pnma,62,24
+KSc3O7_id4652_E-7.44.cif,KSc3O7,-7.4444,0.456,IR / Narrow-Gap,Semiconductor,Pm-3n,223,22
+Ti6GeO12_id3181_E-7.42.cif,Ti6GeO12,-7.4167,2.337,Wide-Gap Power/LED,Semiconductor,Im-3,204,38
+TiN3_id4774_E-7.35.cif,TiN3,-7.3482,0.294,IR / Narrow-Gap,Semiconductor,Cmcm,63,32
+Ti5Sn2O5_id272_E-7.34.cif,Ti5Sn2O5,-7.3362,0.849,IR / Narrow-Gap,Semiconductor,P4/mnc,128,24
+Sc2BC4_id1080_E-7.31.cif,Sc2BC4,-7.3106,2.233,Wide-Gap Power/LED,Semiconductor,P2_1/m,11,14
+C_id1257_E-7.29.cif,C,-7.2931,0.435,IR / Narrow-Gap,Semiconductor,C2/c,15,60
+Sc5O4_id403_E-7.17.cif,Sc5O4,-7.1687,1.257,Solar / Visible,Semiconductor,P4_2/n,86,18
+C2N5_id372_E-7.14.cif,C2N5,-7.1415,2.55,Wide-Gap Power/LED,Semiconductor,Pbcn,60,28
+KSc3N7_id4195_E-7.01.cif,KSc3N7,-7.0102,0.482,IR / Narrow-Gap,Semiconductor,Pm-3n,223,22
+Ti3O10_id3682_E-6.99.cif,Ti3O10,-6.993,0.741,IR / Narrow-Gap,Semiconductor,P31c,159,26
+ZnN8_id49_E-6.91.cif,ZnN8,-6.9054,1.505,Solar / Visible,Semiconductor,Ccce,68,36
+C2N3O5_id3634_E-6.88.cif,C2N3O5,-6.8784,1.796,Solar / Visible,Semiconductor,C222_1,20,40
+Sc2P_id1371_E-6.86.cif,Sc2P,-6.8644,0.652,IR / Narrow-Gap,Semiconductor,Pa-3,205,12
+Sc2Ti2Ga2O5_id3_E-6.86.cif,Sc2Ti2Ga2O5,-6.8571,0.124,IR / Narrow-Gap,Semiconductor,P321,150,33
+Sc3AlGa3N8_id2978_E-6.85.cif,Sc3AlGa3N8,-6.8483,0.17,IR / Narrow-Gap,Semiconductor,Pm-3m,221,15
+LiTiN2O_id3427_E-6.82.cif,LiTiN2O,-6.824,1.956,Solar / Visible,Semiconductor,C2/m,12,20
+MgTi3O5_id3516_E-6.76.cif,MgTi3O5,-6.7552,1.579,Solar / Visible,Semiconductor,Cccm,66,36
+TiO2_id1620_E-6.69.cif,TiO2,-6.6927,1.01,Solar / Visible,Semiconductor,Pcca,54,24
+InN4_id1482_E-6.69.cif,InN4,-6.6888,0.82,IR / Narrow-Gap,Semiconductor,Ccce,68,20
+Sc2NO5_id3840_E-6.68.cif,Sc2NO5,-6.6809,0.094,IR / Narrow-Gap,Semiconductor,I4_122,98,32
+SrBN2_id1247_E-6.64.cif,SrBN2,-6.6374,1.858,Solar / Visible,Semiconductor,P6_222,180,12
+Sc5C2_id345_E-6.60.cif,Sc5C2,-6.5979,1.546,Solar / Visible,Semiconductor,P4_22_12,94,28
+Al2C7_id4879_E-6.59.cif,Al2C7,-6.5918,0.357,IR / Narrow-Gap,Semiconductor,Cmce,64,36
+AsPCNO2_id3195_E-6.43.cif,AsPCNO2,-6.428,2.64,Wide-Gap Power/LED,Semiconductor,C222_1,20,48
+TiCdO4_id3902_E-6.42.cif,TiCdO4,-6.4217,0.822,IR / Narrow-Gap,Semiconductor,P4/nbm,125,12
+Ca2Ti(NO)2_id624_E-6.40.cif,Ca2Ti(NO)2,-6.4047,1.411,Solar / Visible,Semiconductor,Cmce,64,28
+Ca4GaO6_id1810_E-6.40.cif,Ca4GaO6,-6.3981,1.061,Solar / Visible,Semiconductor,Im-3m,229,22
+Sc5N2O_id1302_E-6.37.cif,Sc5N2O,-6.3731,0.537,IR / Narrow-Gap,Semiconductor,Pn-3m,224,16
+KTi4Te3O4_id4010_E-6.37.cif,KTi4Te3O4,-6.3662,0.467,IR / Narrow-Gap,Semiconductor,I4_1/a,88,48
+Ca(SiO2)4_id3268_E-6.29.cif,Ca(SiO2)4,-6.2858,1.607,Solar / Visible,Semiconductor,P-42_1c,114,26
+ScGa3O4_id1667_E-6.28.cif,ScGa3O4,-6.2827,1.065,Solar / Visible,Semiconductor,P-6,174,8
+Ca4N9_id166_E-6.26.cif,Ca4N9,-6.2589,0.289,IR / Narrow-Gap,Semiconductor,I4/m,87,26
+ScPN_id2157_E-6.24.cif,ScPN,-6.2391,0.488,IR / Narrow-Gap,Semiconductor,Pca2_1,29,12
+Sc2GaN_id2232_E-6.23.cif,Sc2GaN,-6.2294,0.45,IR / Narrow-Gap,Semiconductor,I4_122,98,16
+MgTiO6_id3948_E-6.23.cif,MgTiO6,-6.2287,2.482,Wide-Gap Power/LED,Semiconductor,P-31c,163,16
+Sr2TiPO2_id3092_E-6.22.cif,Sr2TiPO2,-6.223,0.929,IR / Narrow-Gap,Semiconductor,P3_221,154,18
+K2Ti3O6_id1770_E-6.20.cif,K2Ti3O6,-6.1962,0.469,IR / Narrow-Gap,Semiconductor,Im-3,204,44
+BaCaTi2(PO)2_id288_E-6.14.cif,BaCaTi2(PO)2,-6.1449,1.036,Solar / Visible,Semiconductor,P-3m1,164,8
+ScCdO4_id1141_E-6.14.cif,ScCdO4,-6.141,0.285,IR / Narrow-Gap,Semiconductor,P4/nbm,125,12
+BaPN2_id736_E-6.12.cif,BaPN2,-6.1185,1.345,Solar / Visible,Semiconductor,I4_122,98,16
+Ca2Si2C17S2(N2O)2_id3958_E-6.06.cif,Ca2Si2C17S2(N2O)2,-6.0558,0.979,IR / Narrow-Gap,Semiconductor,P2/c,13,58
+BaBN2_id2382_E-6.04.cif,BaBN2,-6.0355,2.05,Solar / Visible,Semiconductor,P6_222,180,12
+ZnIn(N4O3)3_id484_E-6.02.cif,ZnIn(N4O3)3,-6.0218,2.166,Solar / Visible,Semiconductor,P6_322,182,46
+Li2Be(N3O)2_id2105_E-6.01.cif,Li2Be(N3O)2,-6.0137,2.598,Wide-Gap Power/LED,Semiconductor,Pbcn,60,44
+KScGaO6_id3451_E-5.97.cif,KScGaO6,-5.9653,3.494,Wide-Gap Power/LED,Semiconductor,P-31c,163,18
+Ge3N3O_id1218_E-5.96.cif,Ge3N3O,-5.9599,1.318,Solar / Visible,Semiconductor,P6_3mc,186,14
+Ca2TiO6_id401_E-5.93.cif,Ca2TiO6,-5.9339,1.87,Solar / Visible,Semiconductor,Cmce,64,36
+Ti2Si7_id1510_E-5.92.cif,Ti2Si7,-5.9241,0.344,IR / Narrow-Gap,Semiconductor,Immm,71,18
+As2SeN4_id4118_E-5.92.cif,As2SeN4,-5.9189,1.527,Solar / Visible,Semiconductor,Pbcn,60,28
+TiP6N_id1868_E-5.90.cif,TiP6N,-5.9048,1.05,Solar / Visible,Semiconductor,R-3,148,48
+SeN_id173_E-5.90.cif,SeN,-5.8989,1.354,Solar / Visible,Semiconductor,P4/m,83,8
+LiGeO2_id3932_E-5.88.cif,LiGeO2,-5.8822,3.239,Wide-Gap Power/LED,Semiconductor,I4_122,98,16
+BaSbO4_id1182_E-5.85.cif,BaSbO4,-5.8543,0.342,IR / Narrow-Gap,Semiconductor,P4/nbm,125,12
+LiGeO2_id3436_E-5.83.cif,LiGeO2,-5.834,2.551,Wide-Gap Power/LED,Semiconductor,I4_122,98,16
+Ti(GaO)4_id4003_E-5.82.cif,Ti(GaO)4,-5.8175,0.266,IR / Narrow-Gap,Semiconductor,P-43m,215,9
+KMgScO6_id3869_E-5.81.cif,KMgScO6,-5.8148,1.019,Solar / Visible,Semiconductor,P-31c,163,18
+Al2SnB2O5_id1937_E-5.79.cif,Al2SnB2O5,-5.7886,1.721,Solar / Visible,Semiconductor,C2/c,15,40
+GaSiO2_id4361_E-5.79.cif,GaSiO2,-5.7881,2.788,Wide-Gap Power/LED,Semiconductor,I4_122,98,16
+AsO3_id2126_E-5.78.cif,AsO3,-5.7816,2.482,Wide-Gap Power/LED,Semiconductor,R-3c,167,24
+TiSeSN_id3126_E-5.78.cif,TiSeSN,-5.7779,0.711,IR / Narrow-Gap,Semiconductor,P6_522,179,24
+Ti4O15_id1212_E-5.78.cif,Ti4O15,-5.7766,1.837,Solar / Visible,Semiconductor,P4/n,85,38
+NaMgScO6_id706_E-5.76.cif,NaMgScO6,-5.7642,2.558,Wide-Gap Power/LED,Semiconductor,P-31c,163,18
+SrCa2O4_id2386_E-5.75.cif,SrCa2O4,-5.7493,0.269,IR / Narrow-Gap,Semiconductor,Pban,50,14
+LiGeO2_id258_E-5.75.cif,LiGeO2,-5.7492,2.88,Wide-Gap Power/LED,Semiconductor,I4_122,98,16
+Sc3B2_id4874_E-5.74.cif,Sc3B2,-5.7365,1.494,Solar / Visible,Semiconductor,I23,197,60
+BaGe3O8_id2290_E-5.73.cif,BaGe3O8,-5.734,2.28,Wide-Gap Power/LED,Semiconductor,I222,23,24
+SrSnGeO3_id2810_E-5.73.cif,SrSnGeO3,-5.7338,1.446,Solar / Visible,Semiconductor,P-6m2,187,6
+BeO2_id37_E-5.72.cif,BeO2,-5.7204,3.126,Wide-Gap Power/LED,Semiconductor,Pbca,61,24
+Ba2NaTi2O3_id843_E-5.72.cif,Ba2NaTi2O3,-5.7153,2.283,Wide-Gap Power/LED,Semiconductor,I4_122,98,32
+NaTiO4_id817_E-5.71.cif,NaTiO4,-5.7122,0.983,IR / Narrow-Gap,Semiconductor,I-42m,121,24
+Ca3CNO3_id1304_E-5.71.cif,Ca3CNO3,-5.7096,2.504,Wide-Gap Power/LED,Semiconductor,R32,155,24
+LiAsO2_id4071_E-5.69.cif,LiAsO2,-5.6892,2.572,Wide-Gap Power/LED,Semiconductor,I4_122,98,16
+SrCaO4_id163_E-5.66.cif,SrCaO4,-5.6556,0.86,IR / Narrow-Gap,Semiconductor,P4/nbm,125,12
+KLi3(SnO3)4_id670_E-5.66.cif,KLi3(SnO3)4,-5.6554,0.481,IR / Narrow-Gap,Semiconductor,Im-3,204,40
+CaAl(Si3O2)2_id1118_E-5.65.cif,CaAl(Si3O2)2,-5.6525,2.605,Wide-Gap Power/LED,Semiconductor,I-42m,121,24
+SrCaO4_id2752_E-5.65.cif,SrCaO4,-5.6517,1.864,Solar / Visible,Semiconductor,P4/nbm,125,12
+KNa2C2NO2_id738_E-5.65.cif,KNa2C2NO2,-5.6459,0.646,IR / Narrow-Gap,Semiconductor,Aea2,41,32
+Mg3InO4_id252_E-5.64.cif,Mg3InO4,-5.6386,0.075,IR / Narrow-Gap,Semiconductor,Pm-3n,223,16
+Si4O11_id565_E-5.60.cif,Si4O11,-5.6015,1.402,Solar / Visible,Semiconductor,Pba2,32,30
+SrCaO4_id3030_E-5.59.cif,SrCaO4,-5.5946,3.289,Wide-Gap Power/LED,Semiconductor,P4/nbm,125,12
+ScAs(PO)4_id2767_E-5.59.cif,ScAs(PO)4,-5.5917,0.948,IR / Narrow-Gap,Semiconductor,I4_1/a,88,40
+ScInPSO2_id4698_E-5.59.cif,ScInPSO2,-5.5909,1.558,Solar / Visible,Semiconductor,P2_1/m,11,12
+BaLiCa8B12(NO2)6_id3556_E-5.59.cif,BaLiCa8B12(NO2)6,-5.5857,1.123,Solar / Visible,Semiconductor,P321,150,40
+KCaB6Sb(TeO2)3_id3007_E-5.58.cif,KCaB6Sb(TeO2)3,-5.5847,1.986,Solar / Visible,Semiconductor,P-31c,163,36
+GaO2_id2892_E-5.57.cif,GaO2,-5.566,1.358,Solar / Visible,Semiconductor,I4_122,98,12
+ScAlO2_id587_E-5.57.cif,ScAlO2,-5.5656,1.167,Solar / Visible,Semiconductor,P3_221,154,12
+Sc9Se2_id61_E-5.56.cif,Sc9Se2,-5.558,1.962,Solar / Visible,Semiconductor,Cmce,64,44
+Be2AsN8_id2490_E-5.55.cif,Be2AsN8,-5.5546,1.7,Solar / Visible,Semiconductor,I422,97,22
+Si2GeN2_id3062_E-5.55.cif,Si2GeN2,-5.5491,0.183,IR / Narrow-Gap,Semiconductor,P4_12_12,92,20
+BN24_id2321_E-5.54.cif,BN24,-5.5435,2.652,Wide-Gap Power/LED,Semiconductor,I432,211,50
+P3S2N4O11_id4333_E-5.54.cif,P3S2N4O11,-5.541,2.944,Wide-Gap Power/LED,Semiconductor,P2/c,13,40
+BaSrO4_id4881_E-5.54.cif,BaSrO4,-5.5388,0.326,IR / Narrow-Gap,Semiconductor,P4/nbm,125,12
+LiSc3TeS3_id4932_E-5.52.cif,LiSc3TeS3,-5.5179,0.173,IR / Narrow-Gap,Semiconductor,Pm-3m,221,8
+GeO_id913_E-5.51.cif,GeO,-5.5142,2.937,Wide-Gap Power/LED,Semiconductor,Pbca,61,16
+GaO_id3674_E-5.49.cif,GaO,-5.489,1.517,Solar / Visible,Semiconductor,Aea2,41,16
+BaO2_id3006_E-5.48.cif,BaO2,-5.4794,3.171,Wide-Gap Power/LED,Semiconductor,P4_2/ncm,138,12
+Ca3Sn2(NO2)4_id2650_E-5.47.cif,Ca3Sn2(NO2)4,-5.4664,1.477,Solar / Visible,Semiconductor,Pban,50,34
+MgSbO2_id2354_E-5.46.cif,MgSbO2,-5.4564,1.375,Solar / Visible,Semiconductor,P3_221,154,12
+LiMg(PN)4_id4177_E-5.43.cif,LiMg(PN)4,-5.4339,1.387,Solar / Visible,Semiconductor,I4_1/a,88,40
+Li4AsO4_id1753_E-5.43.cif,Li4AsO4,-5.4253,3.447,Wide-Gap Power/LED,Semiconductor,P-42_1c,114,18
+K(PN)4_id3335_E-5.42.cif,K(PN)4,-5.4191,1.343,Solar / Visible,Semiconductor,Ccce,68,36
+CN2_id30_E-5.40.cif,CN2,-5.4049,1.723,Solar / Visible,Semiconductor,C2,5,24
+ScBeGa2SnPO9_id883_E-5.40.cif,ScBeGa2SnPO9,-5.4047,2.342,Wide-Gap Power/LED,Semiconductor,Cc,9,60
+Ga2Si2P2N2O_id4936_E-5.40.cif,Ga2Si2P2N2O,-5.4022,1.315,Solar / Visible,Semiconductor,Pbcn,60,36
+P2O_id1773_E-5.40.cif,P2O,-5.3992,1.434,Solar / Visible,Semiconductor,Aea2,41,12
+Ge2N_id2_E-5.39.cif,Ge2N,-5.3871,0.71,IR / Narrow-Gap,Semiconductor,Pbcn,60,12
+NaSn(N2O)2_id2056_E-5.38.cif,NaSn(N2O)2,-5.3756,0.967,IR / Narrow-Gap,Semiconductor,Pc,7,32
+SrCS2(NO)2_id342_E-5.37.cif,SrCS2(NO)2,-5.3746,2.406,Wide-Gap Power/LED,Semiconductor,P6_3cm,185,48
+Be2InPN4_id535_E-5.37.cif,Be2InPN4,-5.3711,0.491,IR / Narrow-Gap,Semiconductor,P4bm,100,32
+Ti2(GaO)3_id4412_E-5.36.cif,Ti2(GaO)3,-5.3562,0.061,IR / Narrow-Gap,Semiconductor,Pn-3m,224,16
+Ca4ScO4_id2246_E-5.35.cif,Ca4ScO4,-5.348,0.652,IR / Narrow-Gap,Semiconductor,Cmce,64,36
+Be6Sn4O9_id3383_E-5.34.cif,Be6Sn4O9,-5.338,1.83,Solar / Visible,Semiconductor,P6_322,182,38
+K3Ga2(BO2)6_id2776_E-5.34.cif,K3Ga2(BO2)6,-5.3353,2.576,Wide-Gap Power/LED,Semiconductor,P4_232,208,46
+LiPO2_id2453_E-5.33.cif,LiPO2,-5.3266,1.769,Solar / Visible,Semiconductor,I4_122,98,16
+SrCaO8_id3713_E-5.32.cif,SrCaO8,-5.3201,1.721,Solar / Visible,Semiconductor,P4/nbm,125,20
+ScZnO3_id310_E-5.32.cif,ScZnO3,-5.3181,1.223,Solar / Visible,Semiconductor,Cmcm,63,20
+Sc2BTe2_id4844_E-5.32.cif,Sc2BTe2,-5.3173,0.115,IR / Narrow-Gap,Semiconductor,I4/mmm,139,10
+KBa4SnO8_id1719_E-5.32.cif,KBa4SnO8,-5.3162,1.014,Solar / Visible,Semiconductor,P4/mcc,124,28
+Ca6Mg2(NO)3_id1976_E-5.31.cif,Ca6Mg2(NO)3,-5.3123,1.018,Solar / Visible,Semiconductor,P321,150,14
+BaSnO6_id4044_E-5.31.cif,BaSnO6,-5.3116,0.855,IR / Narrow-Gap,Semiconductor,P6_322,182,16
+ScTeO2_id79_E-5.30.cif,ScTeO2,-5.2995,1.167,Solar / Visible,Semiconductor,P-6m2,187,8
+Be2O3_id1457_E-5.28.cif,Be2O3,-5.2819,1.059,Solar / Visible,Semiconductor,Pbcn,60,20
+MgZnO2_id4207_E-5.28.cif,MgZnO2,-5.2776,1.136,Solar / Visible,Semiconductor,I4_122,98,16
+SrNO5_id2426_E-5.28.cif,SrNO5,-5.2775,2.497,Wide-Gap Power/LED,Semiconductor,C2/m,12,14
+B(PO)12_id763_E-5.27.cif,B(PO)12,-5.274,1.935,Solar / Visible,Semiconductor,I432,211,50
+Ba4AlO4_id2830_E-5.27.cif,Ba4AlO4,-5.2711,1.608,Solar / Visible,Semiconductor,I4_1/a,88,36
+Ba4Mg3GaO6_id1464_E-5.26.cif,Ba4Mg3GaO6,-5.2598,2.322,Wide-Gap Power/LED,Semiconductor,Im-3m,229,28
+BaO3_id2802_E-5.25.cif,BaO3,-5.2481,1.269,Solar / Visible,Semiconductor,P6_522,179,24
+AsPO_id399_E-5.25.cif,AsPO,-5.2469,1.635,Solar / Visible,Semiconductor,Pbca,61,24
+TiO8_id2596_E-5.24.cif,TiO8,-5.2396,0.951,IR / Narrow-Gap,Semiconductor,Aea2,41,36
+BPCS3NO2_id1616_E-5.23.cif,BPCS3NO2,-5.2327,1.809,Solar / Visible,Semiconductor,P2/c,13,36
+NaAsO2_id3307_E-5.23.cif,NaAsO2,-5.2281,2.179,Solar / Visible,Semiconductor,I4_122,98,16
+NaPO2_id4919_E-5.23.cif,NaPO2,-5.2258,2.258,Wide-Gap Power/LED,Semiconductor,I4_122,98,16
+K2PN2_id4509_E-5.22.cif,K2PN2,-5.2221,1.386,Solar / Visible,Semiconductor,Iba2,45,20
+LiSiGeO6_id3197_E-5.22.cif,LiSiGeO6,-5.221,3.34,Wide-Gap Power/LED,Semiconductor,P2_12_12_1,19,36
+TiInO8_id2862_E-5.21.cif,TiInO8,-5.2115,1.936,Solar / Visible,Semiconductor,P4/nbm,125,20
+Ge3S2(NO)2_id3626_E-5.21.cif,Ge3S2(NO)2,-5.2103,1.427,Solar / Visible,Semiconductor,Pnn2,34,18
+SrSnO8_id934_E-5.21.cif,SrSnO8,-5.2057,2.448,Wide-Gap Power/LED,Semiconductor,P4/nbm,125,20
+BAs3P12N5_id1527_E-5.20.cif,BAs3P12N5,-5.1998,1.168,Solar / Visible,Semiconductor,P2_1,4,42
+TiIn2(S3N2)3_id1901_E-5.20.cif,TiIn2(S3N2)3,-5.1961,1.283,Solar / Visible,Semiconductor,P6/mmm,191,18
+PO10_id434_E-5.20.cif,PO10,-5.1958,1.329,Solar / Visible,Semiconductor,Pcca,54,44
+K2Sr(NO2)3_id1995_E-5.19.cif,K2Sr(NO2)3,-5.193,0.29,IR / Narrow-Gap,Semiconductor,P-3c1,165,48
+BaNO7_id1706_E-5.19.cif,BaNO7,-5.1885,0.369,IR / Narrow-Gap,Semiconductor,Pba2,32,36
+KSrLiSb2Te4(AsO6)2_id902_E-5.18.cif,KSrLiSb2Te4(AsO6)2,-5.1843,1.156,Solar / Visible,Semiconductor,I222,23,46
+CdAsN2_id4675_E-5.18.cif,CdAsN2,-5.1838,0.73,IR / Narrow-Gap,Semiconductor,I4_122,98,16
+BaSn4GeO4_id644_E-5.17.cif,BaSn4GeO4,-5.174,0.453,IR / Narrow-Gap,Semiconductor,I4/m,87,20
+NaSiBSb4As2N5O6_id2749_E-5.17.cif,NaSiBSb4As2N5O6,-5.1724,2.237,Wide-Gap Power/LED,Semiconductor,P3_121,152,60
+ZnSNO_id2920_E-5.17.cif,ZnSNO,-5.1702,1.868,Solar / Visible,Semiconductor,Pca2_1,29,16
+SNO_id2112_E-5.15.cif,SNO,-5.154,0.953,IR / Narrow-Gap,Semiconductor,P6_522,179,18
+GaO3_id4288_E-5.15.cif,GaO3,-5.1536,1.466,Solar / Visible,Semiconductor,Im-3m,229,8
+Sr2P4O3_id1556_E-5.15.cif,Sr2P4O3,-5.151,1.544,Solar / Visible,Semiconductor,P4_32_12,96,36
+CaAlTeO4_id4111_E-5.15.cif,CaAlTeO4,-5.1509,2.03,Solar / Visible,Semiconductor,P4/mmm,123,28
+GaPO_id3339_E-5.15.cif,GaPO,-5.1486,0.494,IR / Narrow-Gap,Semiconductor,P3_212,153,9
+SrAs4PO4_id1613_E-5.11.cif,SrAs4PO4,-5.1137,1.376,Solar / Visible,Semiconductor,P-4n2,118,20
+NaAsO2_id4507_E-5.11.cif,NaAsO2,-5.1133,2.045,Solar / Visible,Semiconductor,I4_122,98,16
+BaCa2SbO10_id930_E-5.11.cif,BaCa2SbO10,-5.1112,3.292,Wide-Gap Power/LED,Semiconductor,I4_1/a,88,56
+BaIn3N7_id2516_E-5.11.cif,BaIn3N7,-5.1093,0.815,IR / Narrow-Gap,Semiconductor,Pm-3n,223,22
+Sc37Ti2O2_id168_E-5.11.cif,Sc37Ti2O2,-5.1084,1.58,Solar / Visible,Semiconductor,P-1,2,41
+Ti3As2_id3047_E-5.09.cif,Ti3As2,-5.0929,0.092,IR / Narrow-Gap,Semiconductor,P4_122,91,20
+NaGaTe(NO4)3_id3194_E-5.09.cif,NaGaTe(NO4)3,-5.0903,2.703,Wide-Gap Power/LED,Semiconductor,P-31c,163,36
+KSe6(SN3)3_id2757_E-5.07.cif,KSe6(SN3)3,-5.0738,0.795,IR / Narrow-Gap,Semiconductor,P6_3,173,38
+MgTi2Cd3O3_id3463_E-5.07.cif,MgTi2Cd3O3,-5.0687,0.437,IR / Narrow-Gap,Semiconductor,P4_322,95,36
+Ba5(AsO)6_id1943_E-5.06.cif,Ba5(AsO)6,-5.0646,1.085,Solar / Visible,Semiconductor,P6/mmm,191,17
+Sn2O_id3962_E-5.06.cif,Sn2O,-5.0598,0.272,IR / Narrow-Gap,Semiconductor,Immm,71,12
+BaN4O5_id3473_E-5.06.cif,BaN4O5,-5.0568,1.369,Solar / Visible,Semiconductor,C222,21,20
+NaCa(BS)6_id2191_E-5.04.cif,NaCa(BS)6,-5.0445,2.879,Wide-Gap Power/LED,Semiconductor,R-3,148,42
+NaSrO6_id4401_E-5.04.cif,NaSrO6,-5.041,2.815,Wide-Gap Power/LED,Semiconductor,P-31c,163,16
+Li(CdN2)2_id41_E-5.04.cif,Li(CdN2)2,-5.0398,1.619,Solar / Visible,Semiconductor,I-42d,122,28
+BAs3PN_id2758_E-5.04.cif,BAs3PN,-5.0387,1.245,Solar / Visible,Semiconductor,Pca2_1,29,24
+Mg4InO4_id1060_E-5.01.cif,Mg4InO4,-5.0125,0.089,IR / Narrow-Gap,Semiconductor,P4_2/n,86,18
+CaO4_id3224_E-5.01.cif,CaO4,-5.0096,1.921,Solar / Visible,Semiconductor,I4_1/a,88,20
+Li4CaO6_id508_E-5.00.cif,Li4CaO6,-4.9994,3.214,Wide-Gap Power/LED,Semiconductor,Im-3m,229,22
+TeN_id4620_E-5.00.cif,TeN,-4.9969,1.998,Solar / Visible,Semiconductor,C222_1,20,16
+Mg3NO_id1016_E-5.00.cif,Mg3NO,-4.9967,2.153,Solar / Visible,Semiconductor,R-3c,167,30
+ZnInC2SN2_id1982_E-5.00.cif,ZnInC2SN2,-4.9955,0.156,IR / Narrow-Gap,Semiconductor,P3_1,144,21
+KSrO6_id2075_E-4.99.cif,KSrO6,-4.9933,3.377,Wide-Gap Power/LED,Semiconductor,P-31c,163,16
+Sc_id3178_E-4.99.cif,Sc,-4.9918,0.276,IR / Narrow-Gap,Semiconductor,P4/mmm,123,12
+ScSi4Sn_id2393_E-4.98.cif,ScSi4Sn,-4.9841,1.122,Solar / Visible,Semiconductor,P-4n2,118,12
+NaGeO4_id3882_E-4.98.cif,NaGeO4,-4.9804,2.564,Wide-Gap Power/LED,Semiconductor,I4_122,98,24
+Li(GeO)2_id3295_E-4.98.cif,Li(GeO)2,-4.9751,0.695,IR / Narrow-Gap,Semiconductor,Ibam,72,40
+GaTeO2_id1286_E-4.97.cif,GaTeO2,-4.971,1.578,Solar / Visible,Semiconductor,C2/m,12,8
+BaIn3GaB2O5_id370_E-4.96.cif,BaIn3GaB2O5,-4.964,1.943,Solar / Visible,Semiconductor,R32,155,36
+SnSb7O8_id4511_E-4.96.cif,SnSb7O8,-4.9611,0.82,IR / Narrow-Gap,Semiconductor,P2_12_12,18,32
+Si_id311_E-4.96.cif,Si,-4.9552,1.178,Solar / Visible,Semiconductor,Ccce,68,20
+Na3Sr3O8_id4344_E-4.95.cif,Na3Sr3O8,-4.9541,1.694,Solar / Visible,Semiconductor,I-43d,220,56
+Si_id3173_E-4.95.cif,Si,-4.9515,0.066,IR / Narrow-Gap,Semiconductor,Ccce,68,20
+Li3TiO8_id1100_E-4.95.cif,Li3TiO8,-4.9487,1.524,Solar / Visible,Semiconductor,I-42d,122,48
+Sb3(TeO3)2_id1295_E-4.95.cif,Sb3(TeO3)2,-4.9459,0.915,IR / Narrow-Gap,Semiconductor,P2,3,11
+B2NO_id3919_E-4.94.cif,B2NO,-4.9448,2.789,Wide-Gap Power/LED,Semiconductor,Fm-3m,225,16
+SrNO3_id4156_E-4.94.cif,SrNO3,-4.9413,1.327,Solar / Visible,Semiconductor,C222_1,20,20
+SrLiSiSbO2_id460_E-4.93.cif,SrLiSiSbO2,-4.9329,0.86,IR / Narrow-Gap,Semiconductor,P4/nmm,129,12
+KTi2Si6SbO50_id4235_E-4.93.cif,KTi2Si6SbO50,-4.9258,1.608,Solar / Visible,Semiconductor,P-3,147,60
+Li3SO6_id2006_E-4.92.cif,Li3SO6,-4.9201,2.348,Wide-Gap Power/LED,Semiconductor,P2_1/c,14,40
+Si_id727_E-4.92.cif,Si,-4.9197,0.217,IR / Narrow-Gap,Semiconductor,I-42d,122,28
+Li2As3O2_id398_E-4.92.cif,Li2As3O2,-4.9162,1.441,Solar / Visible,Semiconductor,P4,75,14
+Si3P_id4260_E-4.92.cif,Si3P,-4.9158,0.668,IR / Narrow-Gap,Semiconductor,P4_32_12,96,16
+SN12_id262_E-4.91.cif,SN12,-4.9127,1.864,Solar / Visible,Semiconductor,Fmmm,69,52
+NaLiMgPCNO2_id772_E-4.91.cif,NaLiMgPCNO2,-4.9106,2.188,Solar / Visible,Semiconductor,Pca2_1,29,32
+Li2Si2S2N3_id2446_E-4.90.cif,Li2Si2S2N3,-4.9028,2.039,Solar / Visible,Semiconductor,P6_2,171,27
+O2_id1236_E-4.90.cif,O2,-4.9027,1.214,Solar / Visible,Semiconductor,Pbca,61,16
+Be2Cd2O3_id4913_E-4.90.cif,Be2Cd2O3,-4.9016,2.667,Wide-Gap Power/LED,Semiconductor,P4_2/mcm,132,14
+LiAlGeO8_id1008_E-4.90.cif,LiAlGeO8,-4.901,1.862,Solar / Visible,Semiconductor,Pban,50,22
+Ba12SrO32_id3079_E-4.90.cif,Ba12SrO32,-4.9009,1.633,Solar / Visible,Semiconductor,P-3,147,45
+CaGaO10_id4441_E-4.90.cif,CaGaO10,-4.8995,1.651,Solar / Visible,Semiconductor,R32,155,36
+SrLiIn2Ga2(SO2)6_id652_E-4.90.cif,SrLiIn2Ga2(SO2)6,-4.8984,2.451,Wide-Gap Power/LED,Semiconductor,P321,150,24
+P_id2114_E-4.89.cif,P,-4.8943,0.594,IR / Narrow-Gap,Semiconductor,P2_12_12_1,19,12
+AsP2_id2742_E-4.89.cif,AsP2,-4.8929,1.168,Solar / Visible,Semiconductor,Pbcn,60,12
+Ti2TeSe4_id612_E-4.89.cif,Ti2TeSe4,-4.8899,2.113,Solar / Visible,Semiconductor,P6/mcc,192,42
+BaSrO6_id948_E-4.88.cif,BaSrO6,-4.8836,0.057,IR / Narrow-Gap,Semiconductor,R-3,148,24
+P3S4_id4872_E-4.88.cif,P3S4,-4.8795,1.895,Solar / Visible,Semiconductor,Fm-3m,225,56
+AsPO9_id4549_E-4.88.cif,AsPO9,-4.8769,1.338,Solar / Visible,Semiconductor,P2,3,11
+Na(CO2)3_id2546_E-4.88.cif,Na(CO2)3,-4.8765,2.134,Solar / Visible,Semiconductor,R-3c,167,60
+BaAl4O6_id1405_E-4.88.cif,BaAl4O6,-4.8753,2.931,Wide-Gap Power/LED,Semiconductor,Im-3m,229,22
+Li5O8_id477_E-4.87.cif,Li5O8,-4.8661,3.288,Wide-Gap Power/LED,Semiconductor,Ccce,68,52
+Ba2InO2_id4573_E-4.86.cif,Ba2InO2,-4.8635,0.068,IR / Narrow-Gap,Semiconductor,Ibca,73,40
+LiO8_id879_E-4.86.cif,LiO8,-4.8626,2.058,Solar / Visible,Semiconductor,Ccce,68,36
+SiAsS2_id2682_E-4.86.cif,SiAsS2,-4.8603,0.296,IR / Narrow-Gap,Semiconductor,I-42d,122,16
+Li4BeGa2Si3O11_id4012_E-4.86.cif,Li4BeGa2Si3O11,-4.8586,2.697,Wide-Gap Power/LED,Semiconductor,P1,1,42
+TiO6_id2073_E-4.85.cif,TiO6,-4.8519,3.392,Wide-Gap Power/LED,Semiconductor,P4/n,85,14
+Na4Ti(Si2O3)2_id1984_E-4.85.cif,Na4Ti(Si2O3)2,-4.8451,1.474,Solar / Visible,Semiconductor,I4/m,87,30
+MgSiP2_id827_E-4.84.cif,MgSiP2,-4.8431,1.4,Solar / Visible,Semiconductor,I-42d,122,16
+BaAl2SnGe2(SO)4_id4393_E-4.84.cif,BaAl2SnGe2(SO)4,-4.8418,2.044,Solar / Visible,Semiconductor,I222,23,28
+BaO4_id4405_E-4.84.cif,BaO4,-4.8418,0.328,IR / Narrow-Gap,Semiconductor,I4/mmm,139,10
+KBeO4_id1306_E-4.84.cif,KBeO4,-4.8365,3.348,Wide-Gap Power/LED,Semiconductor,I4_1/a,88,24
+BeB3N2O_id81_E-4.83.cif,BeB3N2O,-4.8298,2.809,Wide-Gap Power/LED,Semiconductor,Pca2_1,29,28
+Li3TiS3_id1230_E-4.83.cif,Li3TiS3,-4.8263,0.962,IR / Narrow-Gap,Semiconductor,R-3,148,42
+Zn2As2P2O5_id777_E-4.82.cif,Zn2As2P2O5,-4.8196,1.942,Solar / Visible,Semiconductor,Pbcn,60,44
+NaLi2GaGeB4(TeO)4_id4110_E-4.82.cif,NaLi2GaGeB4(TeO)4,-4.8177,1.786,Solar / Visible,Semiconductor,I222,23,34
+K2(GeO2)3_id676_E-4.81.cif,K2(GeO2)3,-4.8123,1.844,Solar / Visible,Semiconductor,R3m,160,33
+SiGe2BPO2_id3187_E-4.81.cif,SiGe2BPO2,-4.8098,0.788,IR / Narrow-Gap,Semiconductor,P1,1,56
+CaSe_id956_E-4.80.cif,CaSe,-4.8038,0.24,IR / Narrow-Gap,Semiconductor,Pm-3m,221,12
+Si2GeBSbAsPSeSO12_id4903_E-4.80.cif,Si2GeBSbAsPSeSO12,-4.8038,0.606,IR / Narrow-Gap,Semiconductor,P1,1,42
+BaSbO6_id4342_E-4.79.cif,BaSbO6,-4.7942,0.48,IR / Narrow-Gap,Semiconductor,I222,23,16
+Li3CaO4_id2636_E-4.79.cif,Li3CaO4,-4.7895,3.331,Wide-Gap Power/LED,Semiconductor,I-42d,122,32
+Ba(NO)6_id2724_E-4.79.cif,Ba(NO)6,-4.7881,2.956,Wide-Gap Power/LED,Semiconductor,P6/mmm,191,13
+SrO4_id559_E-4.79.cif,SrO4,-4.785,2.458,Wide-Gap Power/LED,Semiconductor,P4/nbm,125,30
+In2SnO6_id3382_E-4.78.cif,In2SnO6,-4.7843,0.243,IR / Narrow-Gap,Semiconductor,P-3c1,165,18
+BaNaO2_id1541_E-4.78.cif,BaNaO2,-4.7796,1.996,Solar / Visible,Semiconductor,Pca2_1,29,16
+NaCdAsPCSNO5_id4577_E-4.78.cif,NaCdAsPCSNO5,-4.7774,2.238,Wide-Gap Power/LED,Semiconductor,Pca2_1,29,48
+Na2Cd(NO)6_id1641_E-4.77.cif,Na2Cd(NO)6,-4.7718,1.847,Solar / Visible,Semiconductor,P6/mmm,191,15
+BP12_id2102_E-4.77.cif,BP12,-4.7717,0.777,IR / Narrow-Gap,Semiconductor,I432,211,26
+SrCaSe2_id275_E-4.76.cif,SrCaSe2,-4.7601,0.294,IR / Narrow-Gap,Semiconductor,R-3m,166,12
+C2SeO4_id305_E-4.75.cif,C2SeO4,-4.7548,2.302,Wide-Gap Power/LED,Semiconductor,Pmna,53,14
+Si4Sb_id1132_E-4.75.cif,Si4Sb,-4.7524,0.957,IR / Narrow-Gap,Semiconductor,P3_121,152,15
+Ba3Li3CaGeO6_id1857_E-4.75.cif,Ba3Li3CaGeO6,-4.75,0.998,IR / Narrow-Gap,Semiconductor,P-6,174,14
+Sr(S3O2)2_id2540_E-4.75.cif,Sr(S3O2)2,-4.7475,2.401,Wide-Gap Power/LED,Semiconductor,P4_22_12,94,44
+KBa(GaO24)2_id4090_E-4.74.cif,KBa(GaO24)2,-4.7416,1.984,Solar / Visible,Semiconductor,P-3,147,52
+BaCdSnO4_id2334_E-4.74.cif,BaCdSnO4,-4.7376,0.474,IR / Narrow-Gap,Semiconductor,I-4m2,119,14
+BP12_id1052_E-4.74.cif,BP12,-4.7372,0.608,IR / Narrow-Gap,Semiconductor,I432,211,26
+NaLiTe2AsO4_id452_E-4.74.cif,NaLiTe2AsO4,-4.7367,1.594,Solar / Visible,Semiconductor,I222,23,18
+Mg3O8_id1348_E-4.74.cif,Mg3O8,-4.7353,1.769,Solar / Visible,Semiconductor,Pnn2,34,22
+SrC2O_id3023_E-4.73.cif,SrC2O,-4.7346,0.945,IR / Narrow-Gap,Semiconductor,I4/mmm,139,8
+BaSr2O6_id1417_E-4.73.cif,BaSr2O6,-4.7342,0.106,IR / Narrow-Gap,Semiconductor,P31m,157,18
+Ca3As4N3_id2746_E-4.73.cif,Ca3As4N3,-4.7326,0.125,IR / Narrow-Gap,Semiconductor,P6_3mc,186,20
+KIn3(GaO3)2_id2198_E-4.73.cif,KIn3(GaO3)2,-4.7315,0.347,IR / Narrow-Gap,Semiconductor,P-3c1,165,24
+NaCaO6_id4462_E-4.73.cif,NaCaO6,-4.7265,1.44,Solar / Visible,Semiconductor,P-31c,163,16
+Ca3Se4N3_id2713_E-4.72.cif,Ca3Se4N3,-4.7233,0.22,IR / Narrow-Gap,Semiconductor,I-43d,220,40
+LiO4_id783_E-4.72.cif,LiO4,-4.7196,0.28,IR / Narrow-Gap,Semiconductor,Ccce,68,20
+Sc2InTe6_id1313_E-4.71.cif,Sc2InTe6,-4.7125,0.054,IR / Narrow-Gap,Semiconductor,P-31c,163,18
+LiScS7_id579_E-4.71.cif,LiScS7,-4.711,2.149,Solar / Visible,Semiconductor,Pnma,62,36
+AlGe3Se4(S2O)2_id2766_E-4.71.cif,AlGe3Se4(S2O)2,-4.7104,0.258,IR / Narrow-Gap,Semiconductor,Pnn2,34,28
+TiBe2BP_id2276_E-4.71.cif,TiBe2BP,-4.7089,0.137,IR / Narrow-Gap,Semiconductor,P3_112,151,15
+Ba3Sn2(BO10)2_id1547_E-4.71.cif,Ba3Sn2(BO10)2,-4.7056,0.18,IR / Narrow-Gap,Semiconductor,P-1,2,27
+KTiGaSiSnO16_id4453_E-4.70.cif,KTiGaSiSnO16,-4.6971,0.443,IR / Narrow-Gap,Semiconductor,P1,1,42
+NaCaCdO4_id3367_E-4.69.cif,NaCaCdO4,-4.6938,0.484,IR / Narrow-Gap,Semiconductor,P4/nbm,125,14
+LiBO19_id3536_E-4.69.cif,LiBO19,-4.6885,1.602,Solar / Visible,Semiconductor,P2_1,4,42
+BPSeO18_id4585_E-4.69.cif,BPSeO18,-4.6851,0.93,IR / Narrow-Gap,Semiconductor,P2_1,4,42
+BaCdSb2O11_id585_E-4.67.cif,BaCdSb2O11,-4.6733,0.979,IR / Narrow-Gap,Semiconductor,P-3m1,164,15
+Na2BSe4(SO3)2_id1623_E-4.67.cif,Na2BSe4(SO3)2,-4.669,2.709,Wide-Gap Power/LED,Semiconductor,Pcca,54,60
+SrSO6_id4159_E-4.67.cif,SrSO6,-4.6655,0.995,IR / Narrow-Gap,Semiconductor,P6_322,182,16
+AsP2_id45_E-4.66.cif,AsP2,-4.6636,1.27,Solar / Visible,Semiconductor,I4_1cd,110,48
+Sb3O7_id3584_E-4.66.cif,Sb3O7,-4.6635,1.775,Solar / Visible,Semiconductor,P6/mmm,191,10
+KNaAs2(SO)4_id2918_E-4.66.cif,KNaAs2(SO)4,-4.66,1.507,Solar / Visible,Semiconductor,I222,23,24
+MgTi2CdGaO6_id1852_E-4.66.cif,MgTi2CdGaO6,-4.6591,1.091,Solar / Visible,Semiconductor,P3_221,154,33
+Sc(SbTe)2_id1898_E-4.66.cif,Sc(SbTe)2,-4.6561,0.634,IR / Narrow-Gap,Semiconductor,I4_1/amd,141,20
+CaSeO_id2019_E-4.65.cif,CaSeO,-4.6539,2.053,Solar / Visible,Semiconductor,P4_2/mmc,131,12
+KAl6Zn(BO12)2_id215_E-4.65.cif,KAl6Zn(BO12)2,-4.6525,1.261,Solar / Visible,Semiconductor,P321,150,34
+K(SeO12)2_id1127_E-4.65.cif,K(SeO12)2,-4.6478,0.613,IR / Narrow-Gap,Semiconductor,P-3,147,27
+O2_id1126_E-4.65.cif,O2,-4.6461,3.468,Wide-Gap Power/LED,Semiconductor,Pba2,32,30
+SrC2_id3176_E-4.64.cif,SrC2,-4.6416,0.685,IR / Narrow-Gap,Semiconductor,I4/mcm,140,12
+Ga2O_id3304_E-4.64.cif,Ga2O,-4.641,0.104,IR / Narrow-Gap,Semiconductor,Pbcn,60,12
+SO5_id1752_E-4.64.cif,SO5,-4.6369,1.246,Solar / Visible,Semiconductor,P6_2,171,36
+KGa4TeO4_id330_E-4.64.cif,KGa4TeO4,-4.6359,1.046,Solar / Visible,Semiconductor,I222,23,20
+Ba3GeO3_id2784_E-4.63.cif,Ba3GeO3,-4.6324,1.313,Solar / Visible,Semiconductor,P6_3,173,14
+Na2Li3Mg2(SbO4)3_id4636_E-4.63.cif,Na2Li3Mg2(SbO4)3,-4.6299,2.001,Solar / Visible,Semiconductor,P31c,159,44
+LiSbO2_id919_E-4.63.cif,LiSbO2,-4.6296,2.173,Solar / Visible,Semiconductor,I4_122,98,16
+Li3GaB(PO7)2_id1117_E-4.63.cif,Li3GaB(PO7)2,-4.6292,2.796,Wide-Gap Power/LED,Semiconductor,P1,1,21
+NaSnO8_id1941_E-4.62.cif,NaSnO8,-4.6203,1.165,Solar / Visible,Semiconductor,P4/nbm,125,20
+BaCaGa2(SO27)2_id4645_E-4.62.cif,BaCaGa2(SO27)2,-4.6163,0.84,IR / Narrow-Gap,Semiconductor,P-3,147,60
+Ca2GaS3_id3391_E-4.62.cif,Ca2GaS3,-4.6158,2.127,Solar / Visible,Semiconductor,C2/m,12,12
+BaSn2Ge(SbO2)2_id4723_E-4.61.cif,BaSn2Ge(SbO2)2,-4.6105,2.389,Wide-Gap Power/LED,Semiconductor,I222,23,20
+O2_id1911_E-4.60.cif,O2,-4.6046,1.088,Solar / Visible,Semiconductor,Pba2,32,18
+BeS3O_id2835_E-4.60.cif,BeS3O,-4.6037,0.257,IR / Narrow-Gap,Semiconductor,Pna2_1,33,20
+KNaLi(TeO2)2_id1754_E-4.60.cif,KNaLi(TeO2)2,-4.6013,2.103,Solar / Visible,Semiconductor,I222,23,18
+Sr2Ca(AsO)2_id3053_E-4.60.cif,Sr2Ca(AsO)2,-4.6002,1.627,Solar / Visible,Semiconductor,C222,21,28
+MgSO_id1452_E-4.60.cif,MgSO,-4.5996,3.244,Wide-Gap Power/LED,Semiconductor,P4_2/ncm,138,12
+GeAsP_id635_E-4.59.cif,GeAsP,-4.5948,0.829,IR / Narrow-Gap,Semiconductor,Cmc2_1,36,12
+Li3TiNO8_id3246_E-4.59.cif,Li3TiNO8,-4.5937,0.89,IR / Narrow-Gap,Semiconductor,Cmcm,63,52
+Al2CdGa2SnO12_id3057_E-4.59.cif,Al2CdGa2SnO12,-4.5931,0.844,IR / Narrow-Gap,Semiconductor,Pnn2,34,36
+BaGe(AsO)2_id778_E-4.59.cif,BaGe(AsO)2,-4.5914,0.584,IR / Narrow-Gap,Semiconductor,Immm,71,12
+P_id4190_E-4.59.cif,P,-4.5911,1.267,Solar / Visible,Semiconductor,I2_12_12_1,24,32
+CaGeS6_id4295_E-4.59.cif,CaGeS6,-4.5903,1.831,Solar / Visible,Semiconductor,P-31c,163,16
+MgO13_id2643_E-4.59.cif,MgO13,-4.5875,1.052,Solar / Visible,Semiconductor,Pbam,55,28
+GaSi10_id1222_E-4.59.cif,GaSi10,-4.5874,0.792,IR / Narrow-Gap,Semiconductor,I2_12_12_1,24,44
+SiAsSe3N_id2048_E-4.59.cif,SiAsSe3N,-4.5872,1.259,Solar / Visible,Semiconductor,P2_1/m,11,12
+TeO_id3565_E-4.58.cif,TeO,-4.5837,0.893,IR / Narrow-Gap,Semiconductor,P6/mmm,191,12
+Na2Li2MgGa2(NO4)2_id949_E-4.58.cif,Na2Li2MgGa2(NO4)2,-4.5837,2.337,Wide-Gap Power/LED,Semiconductor,P4_2,77,34
+Na4Zn2SnGeO8_id767_E-4.58.cif,Na4Zn2SnGeO8,-4.5777,0.902,IR / Narrow-Gap,Semiconductor,I-42m,121,32
+Sr2SeN_id355_E-4.58.cif,Sr2SeN,-4.5753,1.423,Solar / Visible,Semiconductor,P6_3/mmc,194,8
+AsS2_id149_E-4.57.cif,AsS2,-4.5692,2.005,Solar / Visible,Semiconductor,I-42d,122,12
+Ba4N3_id910_E-4.57.cif,Ba4N3,-4.568,1.513,Solar / Visible,Semiconductor,P31c,159,14
+In2SnO9_id1776_E-4.57.cif,In2SnO9,-4.567,2.762,Wide-Gap Power/LED,Semiconductor,P31m,157,12
+KAlGeB5As4(SO)4_id3592_E-4.56.cif,KAlGeB5As4(SO)4,-4.5551,1.562,Solar / Visible,Semiconductor,P4,75,20
+Al2Si2O_id4240_E-4.55.cif,Al2Si2O,-4.5535,3.006,Wide-Gap Power/LED,Semiconductor,P1,1,20
+SrAs(P2O3)2_id820_E-4.55.cif,SrAs(P2O3)2,-4.5514,2.33,Wide-Gap Power/LED,Semiconductor,I222,23,24
+LiScO19_id1415_E-4.55.cif,LiScO19,-4.5485,0.88,IR / Narrow-Gap,Semiconductor,P1,1,42
+KC3N4O3_id2671_E-4.55.cif,KC3N4O3,-4.5479,0.906,IR / Narrow-Gap,Semiconductor,Pm-3n,223,22
+AlTeN4_id1380_E-4.55.cif,AlTeN4,-4.5475,2.392,Wide-Gap Power/LED,Semiconductor,P4_2/ncm,138,24
+As2P_id2906_E-4.54.cif,As2P,-4.5403,1.259,Solar / Visible,Semiconductor,Cmmm,65,6
+ScTe4_id4639_E-4.54.cif,ScTe4,-4.5376,0.892,IR / Narrow-Gap,Semiconductor,P3_112,151,15
+AlTeSeS3O4_id4115_E-4.54.cif,AlTeSeS3O4,-4.5367,2.05,Solar / Visible,Semiconductor,Pnna,52,40
+PSeSN2O_id969_E-4.54.cif,PSeSN2O,-4.5362,1.915,Solar / Visible,Semiconductor,P4_12_12,92,24
+BP24_id386_E-4.53.cif,BP24,-4.5337,0.664,IR / Narrow-Gap,Semiconductor,I432,211,50
+Na2LiO8_id1964_E-4.53.cif,Na2LiO8,-4.5276,1.299,Solar / Visible,Semiconductor,Pcca,54,44
+O2_id4334_E-4.53.cif,O2,-4.5276,0.968,IR / Narrow-Gap,Semiconductor,Pba2,32,24
+Ca2ZnGe2AsSeNO13_id2846_E-4.52.cif,Ca2ZnGe2AsSeNO13,-4.5198,0.735,IR / Narrow-Gap,Semiconductor,P1,1,42
+Al(AsP)3_id4618_E-4.52.cif,Al(AsP)3,-4.5189,0.613,IR / Narrow-Gap,Semiconductor,P31c,159,14
+GaGeBAsSe2S2N2O_id2481_E-4.52.cif,GaGeBAsSe2S2N2O,-4.5167,1.932,Solar / Visible,Semiconductor,Pcca,54,44
+Ca2N3_id3640_E-4.51.cif,Ca2N3,-4.5143,0.152,IR / Narrow-Gap,Semiconductor,P6_122,178,30
+NaTeSO2_id4559_E-4.51.cif,NaTeSO2,-4.5102,1.541,Solar / Visible,Semiconductor,Aea2,41,40
+SnSe(SO)2_id1894_E-4.50.cif,SnSe(SO)2,-4.5027,1.733,Solar / Visible,Semiconductor,P3_221,154,18
+LiO2_id2451_E-4.49.cif,LiO2,-4.4929,2.401,Wide-Gap Power/LED,Semiconductor,P4_12_12,92,24
+Na3Be4BN12_id521_E-4.49.cif,Na3Be4BN12,-4.4874,1.248,Solar / Visible,Semiconductor,I432,211,40
+Ca2ScS4_id2233_E-4.49.cif,Ca2ScS4,-4.486,0.496,IR / Narrow-Gap,Semiconductor,Cmme,67,28
+ScGa4S4O_id109_E-4.48.cif,ScGa4S4O,-4.4842,1.321,Solar / Visible,Semiconductor,P-1,2,20
+Ba2Be2SeS6_id643_E-4.48.cif,Ba2Be2SeS6,-4.4831,2.085,Solar / Visible,Semiconductor,P2/m,10,11
+Si2As4PS_id1334_E-4.48.cif,Si2As4PS,-4.4806,1.104,Solar / Visible,Semiconductor,P-4n2,118,16
+O2_id1086_E-4.48.cif,O2,-4.4791,1.023,Solar / Visible,Semiconductor,C222_1,20,28
+Li12C43_id1088_E-4.47.cif,Li12C43,-4.4702,0.237,IR / Narrow-Gap,Semiconductor,Pm-3m,221,55
+As_id1598_E-4.47.cif,As,-4.4698,0.478,IR / Narrow-Gap,Semiconductor,Pccm,49,10
+BaCd2O9_id3779_E-4.47.cif,BaCd2O9,-4.4686,1.997,Solar / Visible,Semiconductor,I-42d,122,48
+BaAsPSeO2_id2871_E-4.46.cif,BaAsPSeO2,-4.4648,2.181,Solar / Visible,Semiconductor,P1,1,36
+P2O15_id3743_E-4.46.cif,P2O15,-4.4645,0.426,IR / Narrow-Gap,Semiconductor,Pba2,32,34
+Zn(CO4)2_id2287_E-4.46.cif,Zn(CO4)2,-4.4626,2.816,Wide-Gap Power/LED,Semiconductor,P-42_1m,113,22
+CaBeSiAs_id654_E-4.46.cif,CaBeSiAs,-4.4618,0.754,IR / Narrow-Gap,Semiconductor,P4/nmm,129,8
+CaInO12_id65_E-4.45.cif,CaInO12,-4.4549,1.461,Solar / Visible,Semiconductor,P4_2/mcm,132,28
+Ca2S9N_id2738_E-4.45.cif,Ca2S9N,-4.4538,1.641,Solar / Visible,Semiconductor,C2/m,12,24
+Ba2Sr2In2TeAsP2Se2S8O7_id2419_E-4.45.cif,Ba2Sr2In2TeAsP2Se2S8O7,-4.4521,0.688,IR / Narrow-Gap,Semiconductor,Pnn2,34,54
+LiZn(GaO3)2_id3560_E-4.45.cif,LiZn(GaO3)2,-4.4514,2.42,Wide-Gap Power/LED,Semiconductor,C222,21,20
+K6MgTiAsO12_id4210_E-4.45.cif,K6MgTiAsO12,-4.4509,0.158,IR / Narrow-Gap,Semiconductor,P6_322,182,42
+P2S2N_id3847_E-4.45.cif,P2S2N,-4.4507,2.359,Wide-Gap Power/LED,Semiconductor,Aea2,41,20
+KNa2SnSb(SO)4_id3286_E-4.45.cif,KNa2SnSb(SO)4,-4.4475,1.278,Solar / Visible,Semiconductor,I222,23,26
+SrO4_id1399_E-4.44.cif,SrO4,-4.4443,2.899,Wide-Gap Power/LED,Semiconductor,Im-3m,229,10
+Li10GaO10_id1278_E-4.44.cif,Li10GaO10,-4.4394,2.433,Wide-Gap Power/LED,Semiconductor,P1,1,21
+AsS8N_id3209_E-4.44.cif,AsS8N,-4.4357,1.588,Solar / Visible,Semiconductor,P2/c,13,20
+Ba2P(SeS)3_id2272_E-4.44.cif,Ba2P(SeS)3,-4.4354,0.179,IR / Narrow-Gap,Semiconductor,P2/m,10,9
+KLiIn4O4_id3270_E-4.43.cif,KLiIn4O4,-4.4325,0.454,IR / Narrow-Gap,Semiconductor,P-42_1c,114,20
+NaSrGa2As2O13_id419_E-4.43.cif,NaSrGa2As2O13,-4.4318,2.899,Wide-Gap Power/LED,Semiconductor,P4bm,100,38
+Ti3Zn(GeO4)3_id1034_E-4.43.cif,Ti3Zn(GeO4)3,-4.431,1.271,Solar / Visible,Semiconductor,P-43m,215,19
+MgGaSi2SO16_id538_E-4.43.cif,MgGaSi2SO16,-4.4279,2.163,Solar / Visible,Semiconductor,Pc,7,42
+Li4O5_id2268_E-4.43.cif,Li4O5,-4.4258,2.76,Wide-Gap Power/LED,Semiconductor,Pbcn,60,36
+NaSnO_id1229_E-4.42.cif,NaSnO,-4.4241,1.769,Solar / Visible,Semiconductor,P6_522,179,18
+SrCaBeSiP14_id4477_E-4.42.cif,SrCaBeSiP14,-4.424,1.53,Solar / Visible,Semiconductor,P1,1,18
+Si3S4_id3490_E-4.42.cif,Si3S4,-4.42,0.215,IR / Narrow-Gap,Semiconductor,I-42d,122,28
+Na4MgSiSnO4_id2445_E-4.41.cif,Na4MgSiSnO4,-4.4087,1.713,Solar / Visible,Semiconductor,I222,23,22
+MgO9_id917_E-4.41.cif,MgO9,-4.4076,1.559,Solar / Visible,Semiconductor,Pba2,32,40
+Ba(AsS2)2_id1311_E-4.41.cif,Ba(AsS2)2,-4.4067,1.559,Solar / Visible,Semiconductor,P4_2/nnm,134,28
+KNaCdInGaSeO5_id1892_E-4.40.cif,KNaCdInGaSeO5,-4.4047,1.466,Solar / Visible,Semiconductor,Pmc2_1,26,22
+Ba2NaSnP2(SO4)2_id4624_E-4.40.cif,Ba2NaSnP2(SO4)2,-4.4034,2.71,Wide-Gap Power/LED,Semiconductor,P3_121,152,48
+BaSr(SeO15)2_id423_E-4.40.cif,BaSr(SeO15)2,-4.4017,2.206,Wide-Gap Power/LED,Semiconductor,P-3,147,34
+KO20_id497_E-4.39.cif,KO20,-4.3943,1.649,Solar / Visible,Semiconductor,Pc,7,42
+Li4Mg2As2P2CO8_id1139_E-4.39.cif,Li4Mg2As2P2CO8,-4.3918,0.69,IR / Narrow-Gap,Semiconductor,P2_1/c,14,38
+KScO8_id2926_E-4.39.cif,KScO8,-4.3898,1.769,Solar / Visible,Semiconductor,P4/mmm,123,20
+Li2AlAs3SO3_id2861_E-4.39.cif,Li2AlAs3SO3,-4.3882,1.977,Solar / Visible,Semiconductor,P321,150,20
+Ba2SeO10_id4390_E-4.38.cif,Ba2SeO10,-4.3847,1.518,Solar / Visible,Semiconductor,P3_2,145,39
+Li4AlGa4As2O5_id4269_E-4.38.cif,Li4AlGa4As2O5,-4.3833,0.369,IR / Narrow-Gap,Semiconductor,I4/m,87,32
+Li2MgZn4GaO8_id3198_E-4.38.cif,Li2MgZn4GaO8,-4.3814,2.622,Wide-Gap Power/LED,Semiconductor,C222,21,32
+KSbO20_id4488_E-4.38.cif,KSbO20,-4.3799,1.298,Solar / Visible,Semiconductor,P-3,147,22
+KS3O2_id1186_E-4.38.cif,KS3O2,-4.3773,2.096,Solar / Visible,Semiconductor,Cmmm,65,12
+Na2SrO2_id4125_E-4.38.cif,Na2SrO2,-4.3762,1.24,Solar / Visible,Semiconductor,Pca2_1,29,20
+Sn5S6_id2617_E-4.38.cif,Sn5S6,-4.3756,1.406,Solar / Visible,Semiconductor,C2/m,12,22
+BaCd4(BO)4_id3606_E-4.38.cif,BaCd4(BO)4,-4.3751,2.679,Wide-Gap Power/LED,Semiconductor,P4_2/n,86,26
+NaSiP2SeS2_id1112_E-4.37.cif,NaSiP2SeS2,-4.3719,0.054,IR / Narrow-Gap,Semiconductor,Pca2_1,29,28
+SrIn4(SnO2)2_id4237_E-4.37.cif,SrIn4(SnO2)2,-4.3716,0.451,IR / Narrow-Gap,Semiconductor,I-4m2,119,22
+Te3PN2_id4880_E-4.37.cif,Te3PN2,-4.3683,1.445,Solar / Visible,Semiconductor,C2/m,12,12
+Sb2Te2O5_id798_E-4.37.cif,Sb2Te2O5,-4.3657,2.428,Wide-Gap Power/LED,Semiconductor,P2_1/c,14,18
+As_id2318_E-4.37.cif,As,-4.3655,0.13,IR / Narrow-Gap,Semiconductor,I4_1/acd,142,16
+LiO5_id1856_E-4.37.cif,LiO5,-4.3655,2.356,Wide-Gap Power/LED,Semiconductor,I4_1/a,88,24
+CaCdO4_id2030_E-4.36.cif,CaCdO4,-4.3646,0.185,IR / Narrow-Gap,Semiconductor,I4_1/a,88,24
+Se3N2_id3045_E-4.35.cif,Se3N2,-4.3468,1.598,Solar / Visible,Semiconductor,R-3m,166,15
+SrS2_id3821_E-4.34.cif,SrS2,-4.3394,0.266,IR / Narrow-Gap,Semiconductor,P2/m,10,6
+MgInAsP6_id1293_E-4.34.cif,MgInAsP6,-4.3386,0.367,IR / Narrow-Gap,Semiconductor,Pccm,49,18
+Na2Sn2Sb(SeO)4_id3562_E-4.34.cif,Na2Sn2Sb(SeO)4,-4.3381,1.135,Solar / Visible,Semiconductor,Fmm2,42,52
+As_id1788_E-4.34.cif,As,-4.3358,0.104,IR / Narrow-Gap,Semiconductor,Ia-3,206,56
+K2TiIn(SeS5)2_id478_E-4.34.cif,K2TiIn(SeS5)2,-4.3358,0.191,IR / Narrow-Gap,Semiconductor,P-1,2,16
+K(GaS2)2_id3921_E-4.33.cif,K(GaS2)2,-4.3344,1.969,Solar / Visible,Semiconductor,I4_122,98,28
+SrO12_id2267_E-4.33.cif,SrO12,-4.3335,0.162,IR / Narrow-Gap,Semiconductor,P6/mmm,191,13
+K3TiO6_id3627_E-4.33.cif,K3TiO6,-4.3331,3.456,Wide-Gap Power/LED,Semiconductor,P6_3/m,176,20
+NaCdO6_id2379_E-4.33.cif,NaCdO6,-4.3324,2.599,Wide-Gap Power/LED,Semiconductor,P6_322,182,16
+Li2O7_id4635_E-4.33.cif,Li2O7,-4.3281,0.677,IR / Narrow-Gap,Semiconductor,Pbcn,60,36
+PSe_id1206_E-4.32.cif,PSe,-4.3237,1.289,Solar / Visible,Semiconductor,P6_522,179,12
+Li2SiSnAsSO15_id1956_E-4.32.cif,Li2SiSnAsSO15,-4.319,1.487,Solar / Visible,Semiconductor,P1,1,42
+As3SeS4_id2955_E-4.32.cif,As3SeS4,-4.3153,0.969,IR / Narrow-Gap,Semiconductor,Pnnm,58,16
+SiAs5P2_id2462_E-4.31.cif,SiAs5P2,-4.3106,0.922,IR / Narrow-Gap,Semiconductor,Pca2_1,29,32
+KLiO2_id4541_E-4.31.cif,KLiO2,-4.3102,1.742,Solar / Visible,Semiconductor,I4_122,98,16
+Na3Sc6CdTeS5_id690_E-4.31.cif,Na3Sc6CdTeS5,-4.3088,0.523,IR / Narrow-Gap,Semiconductor,R-3m,166,48
+As_id4789_E-4.31.cif,As,-4.3086,0.18,IR / Narrow-Gap,Semiconductor,I4_1/a,88,24
+NaSnO8_id2869_E-4.31.cif,NaSnO8,-4.3074,1.018,Solar / Visible,Semiconductor,Ibam,72,40
+SbO_id52_E-4.30.cif,SbO,-4.3019,0.919,IR / Narrow-Gap,Semiconductor,P6_222,180,12
+SbAs2PS4_id1971_E-4.30.cif,SbAs2PS4,-4.3001,0.724,IR / Narrow-Gap,Semiconductor,P4,75,8
+Cd(SiSe2)2_id835_E-4.30.cif,Cd(SiSe2)2,-4.2976,0.415,IR / Narrow-Gap,Semiconductor,P-42m,111,7
+Sb(AsSe)2_id2914_E-4.30.cif,Sb(AsSe)2,-4.2973,0.514,IR / Narrow-Gap,Semiconductor,Pcca,54,20
+LiZnGaP2(SeO)2_id1742_E-4.29.cif,LiZnGaP2(SeO)2,-4.2946,0.816,IR / Narrow-Gap,Semiconductor,P3_221,154,27
+K2TeO4_id3941_E-4.29.cif,K2TeO4,-4.2928,1.926,Solar / Visible,Semiconductor,Cmme,67,28
+SrO12_id1010_E-4.29.cif,SrO12,-4.2913,1.687,Solar / Visible,Semiconductor,P6/mmm,191,13
+Cd2GaAsO17_id838_E-4.29.cif,Cd2GaAsO17,-4.2912,2.243,Wide-Gap Power/LED,Semiconductor,P2_1,4,42
+SrGe(CO)2_id4181_E-4.29.cif,SrGe(CO)2,-4.29,0.257,IR / Narrow-Gap,Semiconductor,Immm,71,12
+KCaO6_id3077_E-4.28.cif,KCaO6,-4.2848,2.2,Solar / Visible,Semiconductor,P-31c,163,16
+Sc4(S3N)3_id2939_E-4.28.cif,Sc4(S3N)3,-4.2805,1.902,Solar / Visible,Semiconductor,R3m,160,48
+Li5As4(PO7)2_id4763_E-4.27.cif,Li5As4(PO7)2,-4.2702,0.149,IR / Narrow-Gap,Semiconductor,Pnn2,34,50
+O2_id4011_E-4.27.cif,O2,-4.2663,1.041,Solar / Visible,Semiconductor,Pba2,32,22
+GeS2_id1226_E-4.26.cif,GeS2,-4.2643,2.213,Wide-Gap Power/LED,Semiconductor,I4_1/amd,141,12
+LiCaS6_id1317_E-4.26.cif,LiCaS6,-4.2564,1.904,Solar / Visible,Semiconductor,P1,1,32
+Ga2Si6P_id1513_E-4.25.cif,Ga2Si6P,-4.2529,0.366,IR / Narrow-Gap,Semiconductor,Pnnn,48,18
+NaZnO2_id914_E-4.25.cif,NaZnO2,-4.2517,1.253,Solar / Visible,Semiconductor,I4_122,98,16
+PSe2_id64_E-4.25.cif,PSe2,-4.2458,0.913,IR / Narrow-Gap,Semiconductor,Pcca,54,12
+KLi(SnS2)2_id1455_E-4.24.cif,KLi(SnS2)2,-4.2421,0.453,IR / Narrow-Gap,Semiconductor,I-42d,122,32
+AsO5_id3885_E-4.24.cif,AsO5,-4.2404,0.913,IR / Narrow-Gap,Semiconductor,P2_12_12_1,19,24
+Te2O15_id3188_E-4.24.cif,Te2O15,-4.2392,0.9,IR / Narrow-Gap,Semiconductor,Pba2,32,34
+BeGaSi3SnGeS14_id406_E-4.23.cif,BeGaSi3SnGeS14,-4.2345,1.651,Solar / Visible,Semiconductor,Pc,7,42
+NaMg2Si2Te2AsO4_id4_E-4.23.cif,NaMg2Si2Te2AsO4,-4.2337,2.147,Solar / Visible,Semiconductor,I222,23,24
+Ga6NO6_id4448_E-4.22.cif,Ga6NO6,-4.2245,0.394,IR / Narrow-Gap,Semiconductor,P6_322,182,26
+KNa2Se3(SO)3_id4409_E-4.22.cif,KNa2Se3(SO)3,-4.2215,0.693,IR / Narrow-Gap,Semiconductor,P31m,157,12
+K3MgB2(NO)4_id2789_E-4.22.cif,K3MgB2(NO)4,-4.217,0.096,IR / Narrow-Gap,Semiconductor,P4/n,85,28
+KLi2(TeO)4_id412_E-4.21.cif,KLi2(TeO)4,-4.2136,1.869,Solar / Visible,Semiconductor,I222,23,22
+GeP_id3032_E-4.21.cif,GeP,-4.2125,0.518,IR / Narrow-Gap,Semiconductor,P4_32_12,96,8
+SbS3_id514_E-4.21.cif,SbS3,-4.2108,1.883,Solar / Visible,Semiconductor,P-1,2,8
+SiAs_id1657_E-4.21.cif,SiAs,-4.2062,1.304,Solar / Visible,Semiconductor,P4_32_12,96,8
+Sn2Te(P3S)2_id554_E-4.21.cif,Sn2Te(P3S)2,-4.2061,2.224,Wide-Gap Power/LED,Semiconductor,P2,3,33
+Sb3S2_id2690_E-4.20.cif,Sb3S2,-4.2033,0.989,IR / Narrow-Gap,Semiconductor,P-42_1m,113,10
+GeS4_id793_E-4.20.cif,GeS4,-4.2017,0.863,IR / Narrow-Gap,Semiconductor,C222_1,20,20
+Li5O4_id3834_E-4.20.cif,Li5O4,-4.1976,0.055,IR / Narrow-Gap,Semiconductor,P4/mnc,128,36
+LiO20_id534_E-4.19.cif,LiO20,-4.1943,0.666,IR / Narrow-Gap,Semiconductor,Pc,7,42
+KSbS12_id1668_E-4.19.cif,KSbS12,-4.1939,0.645,IR / Narrow-Gap,Semiconductor,I4_1/a,88,56
+MgZn2SiO12_id4147_E-4.19.cif,MgZn2SiO12,-4.1927,1.158,Solar / Visible,Semiconductor,I-42m,121,32
+Mg2NO_id1703_E-4.19.cif,Mg2NO,-4.1917,2.763,Wide-Gap Power/LED,Semiconductor,P4_2cm,101,32
+KZn3O7_id2798_E-4.19.cif,KZn3O7,-4.1911,1.897,Solar / Visible,Semiconductor,Pm-3n,223,22
+Se2S_id3894_E-4.19.cif,Se2S,-4.1897,1.465,Solar / Visible,Semiconductor,I4_1/amd,141,48
+LiSeO_id4072_E-4.19.cif,LiSeO,-4.1887,2.571,Wide-Gap Power/LED,Semiconductor,P4_2/ncm,138,12
+TeAs3PSe_id4744_E-4.18.cif,TeAs3PSe,-4.1848,0.823,IR / Narrow-Gap,Semiconductor,Pca2_1,29,24
+Ti12B_id4664_E-4.18.cif,Ti12B,-4.182,2.468,Wide-Gap Power/LED,Semiconductor,I432,211,26
+MgS_id1153_E-4.18.cif,MgS,-4.1774,2.805,Wide-Gap Power/LED,Semiconductor,Aea2,41,16
+B2Sb3P2_id3904_E-4.17.cif,B2Sb3P2,-4.1734,0.9,IR / Narrow-Gap,Semiconductor,P4_12_12,92,28
+LiAl2Si(TeS)2_id3041_E-4.17.cif,LiAl2Si(TeS)2,-4.1716,0.294,IR / Narrow-Gap,Semiconductor,Pcca,54,32
+O2_id2146_E-4.17.cif,O2,-4.1709,1.118,Solar / Visible,Semiconductor,Pba2,32,28
+Ca3AsS3_id1384_E-4.17.cif,Ca3AsS3,-4.1699,0.808,IR / Narrow-Gap,Semiconductor,P6_3,173,14
+LiMg3Se3O4_id1379_E-4.17.cif,LiMg3Se3O4,-4.1697,1.235,Solar / Visible,Semiconductor,Pm-3n,223,22
+Li2ZnO6_id218_E-4.17.cif,Li2ZnO6,-4.1695,1.656,Solar / Visible,Semiconductor,C2/m,12,18
+SrLiP2(SeS)4_id4336_E-4.17.cif,SrLiP2(SeS)4,-4.1692,1.223,Solar / Visible,Semiconductor,I-42d,122,48
+CaZn3C4O3_id4317_E-4.17.cif,CaZn3C4O3,-4.1674,0.672,IR / Narrow-Gap,Semiconductor,Pm-3n,223,22
+Al2ZnSiSe4_id830_E-4.17.cif,Al2ZnSiSe4,-4.166,1.853,Solar / Visible,Semiconductor,I-42m,121,16
+LiMg(InS2)2_id2685_E-4.16.cif,LiMg(InS2)2,-4.1635,1.538,Solar / Visible,Semiconductor,I-42m,121,16
+Cd2(SO)3_id1761_E-4.16.cif,Cd2(SO)3,-4.1612,1.218,Solar / Visible,Semiconductor,P6_3/mcm,193,16
+Ga2Sb(SeO)6_id4130_E-4.16.cif,Ga2Sb(SeO)6,-4.1593,2.06,Solar / Visible,Semiconductor,R-3,148,45
+Ca2NO18_id3655_E-4.16.cif,Ca2NO18,-4.1557,0.163,IR / Narrow-Gap,Semiconductor,P1,1,21
+CaSbO19_id4732_E-4.15.cif,CaSbO19,-4.1541,2.4,Wide-Gap Power/LED,Semiconductor,Pc,7,42
+AlSe_id4734_E-4.15.cif,AlSe,-4.1528,1.637,Solar / Visible,Semiconductor,Pca2_1,29,8
+BAs12_id2172_E-4.15.cif,BAs12,-4.151,0.081,IR / Narrow-Gap,Semiconductor,I432,211,26
+GeAs2S_id1388_E-4.15.cif,GeAs2S,-4.1477,0.254,IR / Narrow-Gap,Semiconductor,P2/m,10,4
+LiSi2Ge_id1468_E-4.15.cif,LiSi2Ge,-4.1476,0.169,IR / Narrow-Gap,Semiconductor,P4_2/m,84,16
+InAs6_id28_E-4.15.cif,InAs6,-4.1458,0.226,IR / Narrow-Gap,Semiconductor,P-42m,111,7
+ZnSiBAsP7S_id4523_E-4.14.cif,ZnSiBAsP7S,-4.141,0.59,IR / Narrow-Gap,Semiconductor,P2_1,4,24
+Ba3P(SeO2)4_id4079_E-4.14.cif,Ba3P(SeO2)4,-4.1396,1.274,Solar / Visible,Semiconductor,I222,23,32
+In6Sn(TeO)4_id2506_E-4.13.cif,In6Sn(TeO)4,-4.1325,0.527,IR / Narrow-Gap,Semiconductor,I-42m,121,30
+BaLi2B4As2O11_id405_E-4.13.cif,BaLi2B4As2O11,-4.1309,0.929,IR / Narrow-Gap,Semiconductor,C2,5,40
+LiMgZnGeO17_id3987_E-4.13.cif,LiMgZnGeO17,-4.1302,1.44,Solar / Visible,Semiconductor,Pc,7,42
+K2Na3O8_id2368_E-4.12.cif,K2Na3O8,-4.1187,0.074,IR / Narrow-Gap,Semiconductor,Pmna,53,26
+SrZn2(SbO3)2_id483_E-4.12.cif,SrZn2(SbO3)2,-4.1171,2.006,Solar / Visible,Semiconductor,P6_3/mmc,194,22
+O2_id2408_E-4.12.cif,O2,-4.117,0.941,IR / Narrow-Gap,Semiconductor,P1,1,34
+KSn(PO10)2_id2583_E-4.12.cif,KSn(PO10)2,-4.1163,1.892,Solar / Visible,Semiconductor,P-3,147,24
+Li(MgP2)2_id541_E-4.12.cif,Li(MgP2)2,-4.1162,2.255,Wide-Gap Power/LED,Semiconductor,I4_1/a,88,28
+MgS4_id614_E-4.12.cif,MgS4,-4.1155,2.228,Wide-Gap Power/LED,Semiconductor,P3_221,154,15
+S_id1821_E-4.11.cif,S,-4.1134,1.267,Solar / Visible,Semiconductor,P6/mmm,191,12
+S_id1029_E-4.11.cif,S,-4.1132,0.144,IR / Narrow-Gap,Semiconductor,Pm-3m,221,12
+S_id454_E-4.11.cif,S,-4.1129,1.25,Solar / Visible,Semiconductor,Pbca,61,16
+BaO7_id2074_E-4.11.cif,BaO7,-4.1093,1.4,Solar / Visible,Semiconductor,P6_322,182,16
+GeAs7Se4_id2499_E-4.11.cif,GeAs7Se4,-4.1052,1.158,Solar / Visible,Semiconductor,I-42d,122,48
+CaGe2Sb2AsSe_id2549_E-4.10.cif,CaGe2Sb2AsSe,-4.1005,0.601,IR / Narrow-Gap,Semiconductor,Cmcm,63,28
+Na2SbO5_id795_E-4.10.cif,Na2SbO5,-4.0966,1.33,Solar / Visible,Semiconductor,P6/mmm,191,16
+S_id1676_E-4.10.cif,S,-4.0963,1.766,Solar / Visible,Semiconductor,Pbca,61,16
+SrLi4O11_id1740_E-4.10.cif,SrLi4O11,-4.096,0.881,IR / Narrow-Gap,Semiconductor,P4/n,85,32
+BePSe_id1377_E-4.10.cif,BePSe,-4.0957,1.516,Solar / Visible,Semiconductor,Pca2_1,29,12
+LiInGeSe4_id1472_E-4.09.cif,LiInGeSe4,-4.0918,0.939,IR / Narrow-Gap,Semiconductor,P-42m,111,7
+As_id3954_E-4.09.cif,As,-4.0893,0.956,IR / Narrow-Gap,Semiconductor,P2_12_12,18,8
+LiGa(BO4)2_id4917_E-4.09.cif,LiGa(BO4)2,-4.0887,2.561,Wide-Gap Power/LED,Semiconductor,P-42_1c,114,24
+Li4Ti4AsO2_id3081_E-4.08.cif,Li4Ti4AsO2,-4.0827,1.368,Solar / Visible,Semiconductor,P4mm,99,11
+KCdO4_id2148_E-4.08.cif,KCdO4,-4.0799,2.649,Wide-Gap Power/LED,Semiconductor,P4/mmm,123,12
+S_id4042_E-4.08.cif,S,-4.0796,1.388,Solar / Visible,Semiconductor,Pbca,61,32
+BAs12_id2362_E-4.08.cif,BAs12,-4.0792,0.074,IR / Narrow-Gap,Semiconductor,I432,211,26
+LiSbO_id4801_E-4.08.cif,LiSbO,-4.0751,1.582,Solar / Visible,Semiconductor,P-42_1m,113,12
+Mg4Be4B2P4NO9_id3969_E-4.07.cif,Mg4Be4B2P4NO9,-4.0747,2.436,Wide-Gap Power/LED,Semiconductor,P4bm,100,48
+KGaPS2_id3589_E-4.07.cif,KGaPS2,-4.0743,2.019,Solar / Visible,Semiconductor,P3_221,154,15
+S_id2518_E-4.07.cif,S,-4.073,0.72,IR / Narrow-Gap,Semiconductor,Pbca,61,16
+Li6AsP(SO2)2_id2065_E-4.07.cif,Li6AsP(SO2)2,-4.0716,2.08,Solar / Visible,Semiconductor,Pnn2,34,56
+As2PS8_id2071_E-4.07.cif,As2PS8,-4.0684,1.867,Solar / Visible,Semiconductor,Pmna,53,22
+PS9_id3430_E-4.06.cif,PS9,-4.0644,0.666,IR / Narrow-Gap,Semiconductor,Pccn,56,40
+CaZnO2_id329_E-4.06.cif,CaZnO2,-4.0637,2.091,Solar / Visible,Semiconductor,I4/mcm,140,16
+GaO26_id4353_E-4.06.cif,GaO26,-4.062,0.775,IR / Narrow-Gap,Semiconductor,P1,1,27
+ZnO_id4296_E-4.06.cif,ZnO,-4.061,2.706,Wide-Gap Power/LED,Semiconductor,I4_1/amd,141,16
+AsSe_id926_E-4.06.cif,AsSe,-4.0595,1.264,Solar / Visible,Semiconductor,I-42d,122,16
+LiAs3_id839_E-4.06.cif,LiAs3,-4.0588,0.117,IR / Narrow-Gap,Semiconductor,P-4n2,118,8
+S_id4176_E-4.06.cif,S,-4.0576,1.349,Solar / Visible,Semiconductor,Pbca,61,24
+SbAsS18O_id2721_E-4.06.cif,SbAsS18O,-4.0566,1.877,Solar / Visible,Semiconductor,P1,1,21
+Ca2SiTeC(SeS)2_id3123_E-4.06.cif,Ca2SiTeC(SeS)2,-4.0563,1.39,Solar / Visible,Semiconductor,P2/m,10,9
+Cd(GeSe2)2_id4422_E-4.06.cif,Cd(GeSe2)2,-4.0557,1.054,Solar / Visible,Semiconductor,P-42m,111,7
+KNa2Ca(AsO)4_id4910_E-4.05.cif,KNa2Ca(AsO)4,-4.0533,0.948,IR / Narrow-Gap,Semiconductor,I4_1/a,88,48
+Al2ZnAs8(PS2)2_id1569_E-4.05.cif,Al2ZnAs8(PS2)2,-4.0532,0.589,IR / Narrow-Gap,Semiconductor,P-42m,111,17
+S_id451_E-4.05.cif,S,-4.0527,2.207,Wide-Gap Power/LED,Semiconductor,Pbca,61,24
+BaO15_id2786_E-4.05.cif,BaO15,-4.0526,2.164,Solar / Visible,Semiconductor,P6/mmm,191,16
+BAs12_id2285_E-4.05.cif,BAs12,-4.0513,0.577,IR / Narrow-Gap,Semiconductor,I432,211,26
+ScSe_id3525_E-4.05.cif,ScSe,-4.0493,0.259,IR / Narrow-Gap,Semiconductor,P4_232,208,24
+K2TiTe4_id157_E-4.05.cif,K2TiTe4,-4.0488,0.098,IR / Narrow-Gap,Semiconductor,P4_2/mcm,132,14
+BaO9_id4600_E-4.05.cif,BaO9,-4.0487,1.118,Solar / Visible,Semiconductor,I4_1/a,88,40
+MgAlZn2O4_id2210_E-4.05.cif,MgAlZn2O4,-4.0486,0.094,IR / Narrow-Gap,Semiconductor,P-42c,112,16
+GeS6_id2263_E-4.05.cif,GeS6,-4.0471,1.186,Solar / Visible,Semiconductor,I-42d,122,28
+Li2Be2Sb2Se2S7_id595_E-4.05.cif,Li2Be2Sb2Se2S7,-4.0459,1.67,Solar / Visible,Semiconductor,P4nc,104,60
+KGaO_id3292_E-4.05.cif,KGaO,-4.0454,0.835,IR / Narrow-Gap,Semiconductor,Cmme,67,12
+Na2Li2Zn2GeO18_id4574_E-4.04.cif,Na2Li2Zn2GeO18,-4.0437,1.465,Solar / Visible,Semiconductor,Pnn2,34,50
+NaGeS24_id3401_E-4.04.cif,NaGeS24,-4.0416,0.146,IR / Narrow-Gap,Semiconductor,P4/n,85,52
+SbTeAs3_id923_E-4.04.cif,SbTeAs3,-4.0408,0.812,IR / Narrow-Gap,Semiconductor,Pnn2,34,10
+K3NaScO18_id2189_E-4.04.cif,K3NaScO18,-4.04,1.439,Solar / Visible,Semiconductor,P-31c,163,46
+Ca3PSe2_id922_E-4.04.cif,Ca3PSe2,-4.0383,0.936,IR / Narrow-Gap,Semiconductor,Pn-3m,224,12
+O2_id2207_E-4.04.cif,O2,-4.0383,2.09,Solar / Visible,Semiconductor,Pba2,32,26
+Li2AlInSe4_id2801_E-4.04.cif,Li2AlInSe4,-4.0376,0.929,IR / Narrow-Gap,Semiconductor,I-42d,122,32
+LiSi2As_id3798_E-4.03.cif,LiSi2As,-4.0348,1.306,Solar / Visible,Semiconductor,P4_32_12,96,16
+KMg(GaS2)2_id3845_E-4.03.cif,KMg(GaS2)2,-4.0324,2.04,Solar / Visible,Semiconductor,I-42d,122,32
+Ga2SiS2_id1089_E-4.03.cif,Ga2SiS2,-4.0313,1.465,Solar / Visible,Semiconductor,Pa-3,205,20
+S_id71_E-4.03.cif,S,-4.0289,2.523,Wide-Gap Power/LED,Semiconductor,Cc,9,12
+O2_id4162_E-4.03.cif,O2,-4.0261,1.073,Solar / Visible,Semiconductor,Pba2,32,28
+GeSbTeAsSe_id1688_E-4.03.cif,GeSbTeAsSe,-4.026,0.87,IR / Narrow-Gap,Semiconductor,Pmmm,47,5
+S_id1593_E-4.03.cif,S,-4.0259,1.511,Solar / Visible,Semiconductor,Pbca,61,8
+ScS15_id1180_E-4.02.cif,ScS15,-4.0248,1.435,Solar / Visible,Semiconductor,P6_3mc,186,32
+PS4_id1947_E-4.02.cif,PS4,-4.0246,2.334,Wide-Gap Power/LED,Semiconductor,R-3m,166,15
+AlZnP4_id24_E-4.02.cif,AlZnP4,-4.0179,1.286,Solar / Visible,Semiconductor,I4_1/a,88,24
+Al2Zn2InO10_id990_E-4.02.cif,Al2Zn2InO10,-4.0167,1.522,Solar / Visible,Semiconductor,Cccm,66,60
+CaAs4_id2244_E-4.01.cif,CaAs4,-4.0133,0.423,IR / Narrow-Gap,Semiconductor,I4_1/a,88,20
+KSn(SO2)4_id4134_E-4.01.cif,KSn(SO2)4,-4.0119,1.846,Solar / Visible,Semiconductor,P4/nbm,125,28
+S_id3084_E-4.01.cif,S,-4.0104,0.265,IR / Narrow-Gap,Semiconductor,Pbca,61,8
+KNaCdSbAs2PSNO_id3789_E-4.01.cif,KNaCdSbAs2PSNO,-4.009,1.221,Solar / Visible,Semiconductor,Cc,9,40
+S_id3501_E-4.00.cif,S,-4.0036,2.047,Solar / Visible,Semiconductor,Pbca,61,16
+Mg2CdIn4GaO8_id2171_E-4.00.cif,Mg2CdIn4GaO8,-4.0035,1.237,Solar / Visible,Semiconductor,P-42c,112,32
+Al(TeS3)2_id811_E-4.00.cif,Al(TeS3)2,-4.002,0.788,IR / Narrow-Gap,Semiconductor,P321,150,9
+TeAs6Se_id2010_E-4.00.cif,TeAs6Se,-4.0019,1.21,Solar / Visible,Semiconductor,P2/c,13,16
+KLi2GaO4_id2245_E-4.00.cif,KLi2GaO4,-3.9991,2.334,Wide-Gap Power/LED,Semiconductor,C222,21,32
+KLi4Ga6AsPO8_id3658_E-4.00.cif,KLi4Ga6AsPO8,-3.999,0.636,IR / Narrow-Gap,Semiconductor,I222,23,42
+GeAs3Se4_id2495_E-4.00.cif,GeAs3Se4,-3.999,0.95,IR / Narrow-Gap,Semiconductor,P2/m,10,8
+O2_id3167_E-4.00.cif,O2,-3.9986,0.813,IR / Narrow-Gap,Semiconductor,Pnma,62,24
+Cd(P2O)2_id2187_E-4.00.cif,Cd(P2O)2,-3.9973,2.509,Wide-Gap Power/LED,Semiconductor,Amm2,38,14
+S_id586_E-4.00.cif,S,-3.9972,0.27,IR / Narrow-Gap,Semiconductor,Pbca,61,16
+S_id2979_E-4.00.cif,S,-3.9964,2.423,Wide-Gap Power/LED,Semiconductor,Pbca,61,16
+Li4GeB7_id292_E-4.00.cif,Li4GeB7,-3.9956,2.234,Wide-Gap Power/LED,Semiconductor,P42_12,90,24
+S_id2913_E-3.99.cif,S,-3.9935,1.043,Solar / Visible,Semiconductor,Pbca,61,16
+GeSeS2_id3373_E-3.99.cif,GeSeS2,-3.9934,1.256,Solar / Visible,Semiconductor,I-42d,122,16
+K4Sn2GeO3_id1871_E-3.99.cif,K4Sn2GeO3,-3.9879,2.098,Solar / Visible,Semiconductor,P6mm,183,20
+BaNaLi8Mg6Be6Zn6Si6(NO2)6_id853_E-3.99.cif,BaNaLi8Mg6Be6Zn6Si6(NO2)6,-3.9852,1.031,Solar / Visible,Semiconductor,P321,150,52
+CdO_id2494_E-3.98.cif,CdO,-3.9802,0.76,IR / Narrow-Gap,Semiconductor,P4_2/ncm,138,8
+TiZnO13_id4700_E-3.98.cif,TiZnO13,-3.9792,1.083,Solar / Visible,Semiconductor,P4bm,100,30
+K2InNO2_id4568_E-3.98.cif,K2InNO2,-3.979,0.917,IR / Narrow-Gap,Semiconductor,Pa-3,205,24
+Li2AsP2_id3764_E-3.97.cif,Li2AsP2,-3.9735,1.203,Solar / Visible,Semiconductor,Cc,9,20
+CaSeS_id3465_E-3.97.cif,CaSeS,-3.9704,1.308,Solar / Visible,Semiconductor,Pbca,61,24
+K(GaSe2)2_id2588_E-3.97.cif,K(GaSe2)2,-3.969,0.632,IR / Narrow-Gap,Semiconductor,P-42m,111,7
+KS7_id751_E-3.97.cif,KS7,-3.9682,1.326,Solar / Visible,Semiconductor,R32,155,24
+Ge2Sb2Te4AsP(SeS)2_id564_E-3.97.cif,Ge2Sb2Te4AsP(SeS)2,-3.9672,1.538,Solar / Visible,Semiconductor,P6_4,172,42
+K6SrGa6AsO6_id438_E-3.96.cif,K6SrGa6AsO6,-3.9612,1.655,Solar / Visible,Semiconductor,R-3,148,60
+As_id3968_E-3.96.cif,As,-3.9589,2.075,Solar / Visible,Semiconductor,Pnn2,34,10
+KSrCdO9_id242_E-3.96.cif,KSrCdO9,-3.9564,0.753,IR / Narrow-Gap,Semiconductor,P6_322,182,24
+TeS5_id3231_E-3.95.cif,TeS5,-3.9536,1.086,Solar / Visible,Semiconductor,C2/m,12,12
+GeSe3_id97_E-3.95.cif,GeSe3,-3.9498,1.314,Solar / Visible,Semiconductor,Pna2_1,33,16
+BaAsS2NO_id3692_E-3.94.cif,BaAsS2NO,-3.9438,2.431,Wide-Gap Power/LED,Semiconductor,C2,5,36
+Sc2Ti2GeN2_id1563_E-3.94.cif,Sc2Ti2GeN2,-3.9431,1.558,Solar / Visible,Semiconductor,Pa-3,205,28
+Na2CdSe3(S4O)3_id4385_E-3.94.cif,Na2CdSe3(S4O)3,-3.943,1.82,Solar / Visible,Semiconductor,P31m,157,21
+CaTe_id3086_E-3.94.cif,CaTe,-3.9426,0.178,IR / Narrow-Gap,Semiconductor,P3_221,154,6
+Ca2Si2Ge2CN2_id4340_E-3.94.cif,Ca2Si2Ge2CN2,-3.9394,0.353,IR / Narrow-Gap,Semiconductor,Cm,8,18
+Li3InS4_id1270_E-3.93.cif,Li3InS4,-3.9336,2.228,Wide-Gap Power/LED,Semiconductor,I-42d,122,32
+S_id3646_E-3.93.cif,S,-3.9325,0.185,IR / Narrow-Gap,Semiconductor,P6_4,172,30
+As_id4814_E-3.93.cif,As,-3.9252,0.409,IR / Narrow-Gap,Semiconductor,P4_2/mmc,131,6
+Na4Li4GeO20_id3171_E-3.92.cif,Na4Li4GeO20,-3.9237,2.211,Wide-Gap Power/LED,Semiconductor,P-4,81,29
+Na(SeS)2_id2188_E-3.92.cif,Na(SeS)2,-3.9235,0.919,IR / Narrow-Gap,Semiconductor,Cccm,66,20
+In2SiGe2SbAs2P2SeS10_id3816_E-3.92.cif,In2SiGe2SbAs2P2SeS10,-3.9235,0.891,IR / Narrow-Gap,Semiconductor,P1,1,21
+TiAlO7_id710_E-3.92.cif,TiAlO7,-3.9212,0.175,IR / Narrow-Gap,Semiconductor,Ama2,40,36
+Ga3N_id394_E-3.92.cif,Ga3N,-3.9163,0.153,IR / Narrow-Gap,Semiconductor,Im-3m,229,8
+KIn4O8_id2336_E-3.91.cif,KIn4O8,-3.9146,0.54,IR / Narrow-Gap,Semiconductor,P4_2/n,86,26
+K2P3_id3529_E-3.91.cif,K2P3,-3.9124,1.481,Solar / Visible,Semiconductor,I4mm,107,20
+Ba2Ca2AsSeO8_id2087_E-3.91.cif,Ba2Ca2AsSeO8,-3.912,1.602,Solar / Visible,Semiconductor,P3_221,154,42
+BaLiSe4(S4O)2_id2371_E-3.91.cif,BaLiSe4(S4O)2,-3.9119,0.648,IR / Narrow-Gap,Semiconductor,P-1,2,32
+K(GaS2)2_id440_E-3.91.cif,K(GaS2)2,-3.9114,2.82,Wide-Gap Power/LED,Semiconductor,P4/nbm,125,14
+NaLi2AlGeP2O_id4719_E-3.91.cif,NaLi2AlGeP2O,-3.9101,0.06,IR / Narrow-Gap,Semiconductor,P4_322,95,32
+KAs3_id4141_E-3.91.cif,KAs3,-3.9088,0.971,IR / Narrow-Gap,Semiconductor,Immm,71,8
+InS2_id2050_E-3.91.cif,InS2,-3.9077,1.953,Solar / Visible,Semiconductor,Aea2,41,24
+Mg4Te4S5O4_id2563_E-3.90.cif,Mg4Te4S5O4,-3.9024,1.354,Solar / Visible,Semiconductor,P-42_1c,114,34
+K(GeSe2)2_id3177_E-3.90.cif,K(GeSe2)2,-3.9015,0.874,IR / Narrow-Gap,Semiconductor,P4/mmm,123,7
+K4Na(GeO)3_id1249_E-3.90.cif,K4Na(GeO)3,-3.9014,0.517,IR / Narrow-Gap,Semiconductor,P31c,159,22
+NaO5_id2435_E-3.90.cif,NaO5,-3.8982,2.167,Solar / Visible,Semiconductor,I4_1/a,88,24
+CaIn4GaS8_id2340_E-3.90.cif,CaIn4GaS8,-3.8979,1.938,Solar / Visible,Semiconductor,I4/m,87,28
+BeAs_id1897_E-3.89.cif,BeAs,-3.8915,0.547,IR / Narrow-Gap,Semiconductor,C222_1,20,16
+S_id4313_E-3.89.cif,S,-3.8913,2.199,Solar / Visible,Semiconductor,Pba2,32,20
+CaZn4O6_id1355_E-3.88.cif,CaZn4O6,-3.8829,1.798,Solar / Visible,Semiconductor,I4/m,87,22
+GeSb(AsP2)2_id2420_E-3.88.cif,GeSb(AsP2)2,-3.8828,0.954,IR / Narrow-Gap,Semiconductor,Pccm,49,16
+BaSi2_id3363_E-3.88.cif,BaSi2,-3.8809,0.155,IR / Narrow-Gap,Semiconductor,Ibam,72,24
+CaSnSb2AsS16_id4971_E-3.88.cif,CaSnSb2AsS16,-3.8789,2.01,Solar / Visible,Semiconductor,P1,1,42
+GeS4_id3257_E-3.88.cif,GeS4,-3.8775,1.211,Solar / Visible,Semiconductor,Pn-3,201,30
+K2O2_id3908_E-3.88.cif,K2O2,-3.8768,1.803,Solar / Visible,Semiconductor,I-43d,220,24
+O2_id3917_E-3.87.cif,O2,-3.8748,0.619,IR / Narrow-Gap,Semiconductor,Pc,7,42
+Ga4GeO16_id4604_E-3.87.cif,Ga4GeO16,-3.8734,0.877,IR / Narrow-Gap,Semiconductor,P-43m,215,21
+KAs3_id2567_E-3.87.cif,KAs3,-3.8728,1.083,Solar / Visible,Semiconductor,Immm,71,8
+Ba(SbTe)4_id1967_E-3.87.cif,Ba(SbTe)4,-3.8685,0.219,IR / Narrow-Gap,Semiconductor,I4/m,87,18
+SbPSeS6_id1630_E-3.87.cif,SbPSeS6,-3.867,1.34,Solar / Visible,Semiconductor,Pmmm,47,9
+O2_id102_E-3.86.cif,O2,-3.862,2.156,Solar / Visible,Semiconductor,Pba2,32,22
+LiP5_id3214_E-3.86.cif,LiP5,-3.8569,1.353,Solar / Visible,Semiconductor,I422,97,24
+BaTiO4_id4077_E-3.86.cif,BaTiO4,-3.8566,2.723,Wide-Gap Power/LED,Semiconductor,Ibam,72,48
+CdO2_id870_E-3.86.cif,CdO2,-3.8564,1.28,Solar / Visible,Semiconductor,I4_122,98,12
+LiSnSbAs3_id3735_E-3.85.cif,LiSnSbAs3,-3.8545,0.051,IR / Narrow-Gap,Semiconductor,Pmmm,47,6
+GeAs5_id4751_E-3.85.cif,GeAs5,-3.8469,1.066,Solar / Visible,Semiconductor,Pmmm,47,6
+S_id1215_E-3.84.cif,S,-3.8445,1.156,Solar / Visible,Semiconductor,P-1,2,24
+CaP_id3101_E-3.84.cif,CaP,-3.844,0.321,IR / Narrow-Gap,Semiconductor,P4/nmm,129,16
+SeS_id2998_E-3.84.cif,SeS,-3.8431,1.505,Solar / Visible,Semiconductor,P4/m,83,8
+Ga3N4_id1109_E-3.84.cif,Ga3N4,-3.8425,1.354,Solar / Visible,Semiconductor,R-3c,167,42
+K4BeAl(AsO)4_id2763_E-3.84.cif,K4BeAl(AsO)4,-3.8404,1.676,Solar / Visible,Semiconductor,P4/mcc,124,28
+GeAs6Se_id1064_E-3.84.cif,GeAs6Se,-3.8372,0.974,IR / Narrow-Gap,Semiconductor,I-42d,122,32
+TeAsSe_id4497_E-3.84.cif,TeAsSe,-3.8363,0.533,IR / Narrow-Gap,Semiconductor,Pca2_1,29,12
+SeS_id4927_E-3.84.cif,SeS,-3.836,1.357,Solar / Visible,Semiconductor,P4/m,83,8
+GeSb2Se7_id2205_E-3.84.cif,GeSb2Se7,-3.8356,0.604,IR / Narrow-Gap,Semiconductor,C2/m,12,20
+KSb(SO13)2_id2874_E-3.83.cif,KSb(SO13)2,-3.8345,1.421,Solar / Visible,Semiconductor,P-3,147,30
+InS5_id875_E-3.83.cif,InS5,-3.8344,0.444,IR / Narrow-Gap,Semiconductor,Aea2,41,24
+InS3O_id3415_E-3.83.cif,InS3O,-3.8342,1.835,Solar / Visible,Semiconductor,P4/nmm,129,10
+NaSnS_id1225_E-3.83.cif,NaSnS,-3.8336,2.019,Solar / Visible,Semiconductor,P4_32_12,96,12
+BS12_id2011_E-3.83.cif,BS12,-3.8333,1.39,Solar / Visible,Semiconductor,I432,211,26
+KSnO14_id1007_E-3.83.cif,KSnO14,-3.8287,0.808,IR / Narrow-Gap,Semiconductor,P321,150,16
+TiZn4SnS8_id1908_E-3.82.cif,TiZn4SnS8,-3.8228,1.316,Solar / Visible,Semiconductor,P4/mmm,123,28
+In4S7_id3982_E-3.82.cif,In4S7,-3.8214,0.233,IR / Narrow-Gap,Semiconductor,Im-3m,229,22
+Ge(Te3S4)2_id1330_E-3.82.cif,Ge(Te3S4)2,-3.8202,0.064,IR / Narrow-Gap,Semiconductor,P6_3/mcm,193,30
+CdS4_id2123_E-3.82.cif,CdS4,-3.8177,1.483,Solar / Visible,Semiconductor,I4_1/a,88,20
+BaSnTe5S4N4O_id747_E-3.81.cif,BaSnTe5S4N4O,-3.8146,0.941,IR / Narrow-Gap,Semiconductor,P2_1/m,11,32
+KTe(PO)2_id3370_E-3.81.cif,KTe(PO)2,-3.8142,2.021,Solar / Visible,Semiconductor,P3_221,154,18
+SiS_id1321_E-3.81.cif,SiS,-3.8136,0.137,IR / Narrow-Gap,Semiconductor,P6_522,179,12
+TeP2(Se2S)4_id2674_E-3.81.cif,TeP2(Se2S)4,-3.8129,0.141,IR / Narrow-Gap,Semiconductor,I-42d,122,60
+SrO20_id677_E-3.81.cif,SrO20,-3.8107,1.222,Solar / Visible,Semiconductor,P4/n,85,42
+In2O_id2762_E-3.81.cif,In2O,-3.8092,0.701,IR / Narrow-Gap,Semiconductor,Cmmm,65,12
+ZnSiGe(SeS2)2_id392_E-3.81.cif,ZnSiGe(SeS2)2,-3.8091,1.535,Solar / Visible,Semiconductor,P-42_1m,113,18
+LiSb5As3P_id4506_E-3.81.cif,LiSb5As3P,-3.8077,0.138,IR / Narrow-Gap,Semiconductor,P2_1,4,20
+Ba(PO5)4_id1224_E-3.79.cif,Ba(PO5)4,-3.7947,0.19,IR / Narrow-Gap,Semiconductor,P6/mmm,191,25
+Ga4Si3_id294_E-3.79.cif,Ga4Si3,-3.7928,0.1,IR / Narrow-Gap,Semiconductor,I-43d,220,28
+S_id3579_E-3.79.cif,S,-3.7922,2.555,Wide-Gap Power/LED,Semiconductor,Cmmm,65,16
+LiS6_id1689_E-3.79.cif,LiS6,-3.7912,1.036,Solar / Visible,Semiconductor,P6/mmm,191,14
+LiCaZnO12_id878_E-3.79.cif,LiCaZnO12,-3.7864,0.392,IR / Narrow-Gap,Semiconductor,Cm,8,30
+NaLiTiZnO4_id3783_E-3.78.cif,NaLiTiZnO4,-3.7839,2.021,Solar / Visible,Semiconductor,P4_322,95,32
+BeZnSn2As2(SeO)2_id681_E-3.78.cif,BeZnSn2As2(SeO)2,-3.7834,1.413,Solar / Visible,Semiconductor,P-42_1m,113,20
+Na5O4_id4716_E-3.78.cif,Na5O4,-3.7814,1.559,Solar / Visible,Semiconductor,Cmce,64,36
+BO12_id3854_E-3.78.cif,BO12,-3.7805,1.321,Solar / Visible,Semiconductor,I432,211,26
+BaTiAs_id2119_E-3.78.cif,BaTiAs,-3.7787,1.124,Solar / Visible,Semiconductor,I-43d,220,48
+BaNa2Cd2SiTeO3_id1781_E-3.78.cif,BaNa2Cd2SiTeO3,-3.7768,1.33,Solar / Visible,Semiconductor,P-6m2,187,10
+Zn2Si3O2_id4737_E-3.78.cif,Zn2Si3O2,-3.7751,1.277,Solar / Visible,Semiconductor,I-43d,220,56
+Na(GeTe2)2_id2790_E-3.77.cif,Na(GeTe2)2,-3.7701,0.698,IR / Narrow-Gap,Semiconductor,P-42m,111,7
+Ba4CaTeO4_id2066_E-3.77.cif,Ba4CaTeO4,-3.769,0.089,IR / Narrow-Gap,Semiconductor,P42_12,90,20
+Li2Sn5(GeSe2)2_id1867_E-3.77.cif,Li2Sn5(GeSe2)2,-3.7671,0.932,IR / Narrow-Gap,Semiconductor,P-42m,111,13
+Ga3Se2S5_id1031_E-3.77.cif,Ga3Se2S5,-3.7669,1.891,Solar / Visible,Semiconductor,P2_1,4,20
+ZnSiAs6_id1231_E-3.77.cif,ZnSiAs6,-3.7667,0.702,IR / Narrow-Gap,Semiconductor,I-42d,122,32
+K2NaSbS6_id4081_E-3.77.cif,K2NaSbS6,-3.7659,0.877,IR / Narrow-Gap,Semiconductor,R-3,148,30
+Se2S3_id2768_E-3.77.cif,Se2S3,-3.765,1.592,Solar / Visible,Semiconductor,P2_12_12_1,19,20
+Ba2As2PSe5_id1854_E-3.76.cif,Ba2As2PSe5,-3.7625,1.409,Solar / Visible,Semiconductor,P4_2/m,84,20
+Li3(TeS2)2_id2497_E-3.76.cif,Li3(TeS2)2,-3.762,1.466,Solar / Visible,Semiconductor,Pnn2,34,18
+Te3S4_id4609_E-3.76.cif,Te3S4,-3.7579,0.805,IR / Narrow-Gap,Semiconductor,P6_3/m,176,14
+BaO16_id2140_E-3.76.cif,BaO16,-3.7555,1.494,Solar / Visible,Semiconductor,P6/mmm,191,17
+BaLi2CaMg2Cd6(PN2)6_id619_E-3.75.cif,BaLi2CaMg2Cd6(PN2)6,-3.7471,0.598,IR / Narrow-Gap,Semiconductor,P321,150,30
+In2SnTe2Se5_id3870_E-3.74.cif,In2SnTe2Se5,-3.7446,0.953,IR / Narrow-Gap,Semiconductor,Pbam,55,20
+SeS_id1874_E-3.74.cif,SeS,-3.7412,1.801,Solar / Visible,Semiconductor,Pbca,61,16
+SiAs2PSeS16_id786_E-3.74.cif,SiAs2PSeS16,-3.7408,1.775,Solar / Visible,Semiconductor,P2_1,4,42
+Li(AlTe)4_id1681_E-3.74.cif,Li(AlTe)4,-3.7385,0.927,IR / Narrow-Gap,Semiconductor,P-42m,111,9
+SeS_id221_E-3.74.cif,SeS,-3.7379,1.509,Solar / Visible,Semiconductor,Pbca,61,16
+SrAl3O16_id2569_E-3.74.cif,SrAl3O16,-3.7353,0.16,IR / Narrow-Gap,Semiconductor,Im-3,204,40
+BaCaAs2O11_id270_E-3.73.cif,BaCaAs2O11,-3.735,3.159,Wide-Gap Power/LED,Semiconductor,P-3m1,164,15
+TeAs3SO_id2987_E-3.73.cif,TeAs3SO,-3.7336,0.094,IR / Narrow-Gap,Semiconductor,Cmc2_1,36,24
+ZnN_id1045_E-3.73.cif,ZnN,-3.729,0.513,IR / Narrow-Gap,Semiconductor,Pbca,61,16
+Si2Ge2As5P2_id235_E-3.73.cif,Si2Ge2As5P2,-3.7288,0.873,IR / Narrow-Gap,Semiconductor,P4_2mc,105,22
+K2Te4SeS4_id4748_E-3.73.cif,K2Te4SeS4,-3.7277,0.818,IR / Narrow-Gap,Semiconductor,Cccm,66,44
+MgSeS_id3249_E-3.73.cif,MgSeS,-3.7276,0.725,IR / Narrow-Gap,Semiconductor,Pca2_1,29,12
+Al3ZnGa2O7_id509_E-3.73.cif,Al3ZnGa2O7,-3.7263,2.986,Wide-Gap Power/LED,Semiconductor,Ima2,46,52
+MgS8_id932_E-3.72.cif,MgS8,-3.7243,0.084,IR / Narrow-Gap,Semiconductor,P-42_1m,113,18
+K2NaS10_id4043_E-3.72.cif,K2NaS10,-3.7225,1.264,Solar / Visible,Semiconductor,P-1,2,26
+LiSe_id1243_E-3.72.cif,LiSe,-3.722,0.694,IR / Narrow-Gap,Semiconductor,I-42d,122,16
+Li(TeAs)2_id1435_E-3.72.cif,Li(TeAs)2,-3.7216,0.746,IR / Narrow-Gap,Semiconductor,C2/c,15,20
+K2Na3O6_id3943_E-3.72.cif,K2Na3O6,-3.7208,1.944,Solar / Visible,Semiconductor,Cmce,64,44
+KO4_id172_E-3.72.cif,KO4,-3.7202,0.68,IR / Narrow-Gap,Semiconductor,P4nc,104,40
+Al2GaGeTe6_id647_E-3.72.cif,Al2GaGeTe6,-3.719,1.198,Solar / Visible,Semiconductor,P2_12_12,18,20
+CdSbSeS_id391_E-3.72.cif,CdSbSeS,-3.7159,1.11,Solar / Visible,Semiconductor,P4/nmm,129,8
+CaSi_id3851_E-3.72.cif,CaSi,-3.7154,0.491,IR / Narrow-Gap,Semiconductor,P6_3/mmc,194,8
+SO13_id4934_E-3.71.cif,SO13,-3.7133,0.93,IR / Narrow-Gap,Semiconductor,Pba2,32,28
+SbAsS13_id3628_E-3.71.cif,SbAsS13,-3.7121,1.662,Solar / Visible,Semiconductor,P2/m,10,15
+Cd(GeSe4)2_id2270_E-3.71.cif,Cd(GeSe4)2,-3.7108,0.646,IR / Narrow-Gap,Semiconductor,P-42m,111,11
+K2InSnSe4_id4438_E-3.71.cif,K2InSnSe4,-3.7105,0.709,IR / Narrow-Gap,Semiconductor,I-42d,122,32
+K4Li3O4_id2903_E-3.71.cif,K4Li3O4,-3.7083,1.807,Solar / Visible,Semiconductor,Pm-3n,223,22
+LiTeAsS_id246_E-3.71.cif,LiTeAsS,-3.7066,0.731,IR / Narrow-Gap,Semiconductor,Cmc2_1,36,16
+Se2S19_id1246_E-3.70.cif,Se2S19,-3.6983,1.56,Solar / Visible,Semiconductor,Pc,7,42
+Al4InTe4_id4628_E-3.70.cif,Al4InTe4,-3.6979,0.369,IR / Narrow-Gap,Semiconductor,P-42m,111,9
+Sb2TeSeS3_id631_E-3.70.cif,Sb2TeSeS3,-3.6977,0.123,IR / Narrow-Gap,Semiconductor,P2_1/c,14,28
+Li3Ca2Sn2(GeO)2_id3186_E-3.70.cif,Li3Ca2Sn2(GeO)2,-3.6965,0.307,IR / Narrow-Gap,Semiconductor,P4/mnc,128,44
+ZnO3_id4725_E-3.70.cif,ZnO3,-3.6953,3.388,Wide-Gap Power/LED,Semiconductor,P-42_1m,113,16
+Li2CdGeSe4_id389_E-3.69.cif,Li2CdGeSe4,-3.6913,1.297,Solar / Visible,Semiconductor,I-42d,122,32
+LiSn2BSb4Te4As5SeS_id642_E-3.69.cif,LiSn2BSb4Te4As5SeS,-3.6889,0.088,IR / Narrow-Gap,Semiconductor,P2_1,4,38
+S_id3059_E-3.69.cif,S,-3.6877,2.29,Wide-Gap Power/LED,Semiconductor,Pc,7,42
+AlZn5Ga2(S3O7)2_id2265_E-3.69.cif,AlZn5Ga2(S3O7)2,-3.6854,0.284,IR / Narrow-Gap,Semiconductor,Pnn2,34,56
+BeZn(SeO)2_id251_E-3.68.cif,BeZn(SeO)2,-3.6848,0.58,IR / Narrow-Gap,Semiconductor,P3_221,154,18
+SeO_id2792_E-3.68.cif,SeO,-3.6842,2.098,Solar / Visible,Semiconductor,P4_12_12,92,16
+CaZnCd2O2_id4378_E-3.68.cif,CaZnCd2O2,-3.6805,0.842,IR / Narrow-Gap,Semiconductor,P4_2/mmc,131,12
+AsSe2_id418_E-3.68.cif,AsSe2,-3.6798,1.883,Solar / Visible,Semiconductor,P4_2mc,105,6
+NaIn2GaSnSeO4_id321_E-3.68.cif,NaIn2GaSnSeO4,-3.6774,1.227,Solar / Visible,Semiconductor,Pm,6,20
+Na4Li2Zn(SbO6)2_id2993_E-3.68.cif,Na4Li2Zn(SbO6)2,-3.6761,0.212,IR / Narrow-Gap,Semiconductor,I222,23,42
+SrLiSb4_id1691_E-3.67.cif,SrLiSb4,-3.673,0.286,IR / Narrow-Gap,Semiconductor,I4_1/a,88,24
+Cd(AsSe2)2_id2350_E-3.67.cif,Cd(AsSe2)2,-3.6729,0.159,IR / Narrow-Gap,Semiconductor,P-42m,111,7
+NaMgSc3InSn2Te_id4015_E-3.67.cif,NaMgSc3InSn2Te,-3.6727,0.24,IR / Narrow-Gap,Semiconductor,P2_1/m,11,18
+Ga2Te2As_id2641_E-3.67.cif,Ga2Te2As,-3.6725,1.035,Solar / Visible,Semiconductor,P3_221,154,15
+S(NO2)2_id4335_E-3.67.cif,S(NO2)2,-3.6678,1.276,Solar / Visible,Semiconductor,Fd-3m,227,56
+ScZn2Te2S4(NO2)2_id1337_E-3.67.cif,ScZn2Te2S4(NO2)2,-3.6655,1.961,Solar / Visible,Semiconductor,Pccn,56,60
+AlCd2Ge(AsS)4_id4909_E-3.66.cif,AlCd2Ge(AsS)4,-3.6645,1.694,Solar / Visible,Semiconductor,I-42m,121,24
+Na5LiIn(Te2O)4_id1575_E-3.66.cif,Na5LiIn(Te2O)4,-3.6644,0.206,IR / Narrow-Gap,Semiconductor,I222,23,38
+AlGa3Te4(Se5S2)2_id4211_E-3.66.cif,AlGa3Te4(Se5S2)2,-3.662,0.903,IR / Narrow-Gap,Semiconductor,C2,5,44
+MgGeTeS2_id3129_E-3.66.cif,MgGeTeS2,-3.661,1.446,Solar / Visible,Semiconductor,Aea2,41,40
+TeS_id1869_E-3.66.cif,TeS,-3.6609,0.926,IR / Narrow-Gap,Semiconductor,Pbca,61,16
+NaS2_id3998_E-3.66.cif,NaS2,-3.6594,2.393,Wide-Gap Power/LED,Semiconductor,P6/mcc,192,36
+Li2Zn3O8_id1738_E-3.66.cif,Li2Zn3O8,-3.6569,2.223,Wide-Gap Power/LED,Semiconductor,Cccm,66,52
+SrLiCaSn2Te4As_id703_E-3.66.cif,SrLiCaSn2Te4As,-3.6564,0.828,IR / Narrow-Gap,Semiconductor,I222,23,20
+LiGaTe4PS2_id4542_E-3.66.cif,LiGaTe4PS2,-3.6562,0.446,IR / Narrow-Gap,Semiconductor,Pcca,54,36
+TeS_id3762_E-3.65.cif,TeS,-3.6546,0.628,IR / Narrow-Gap,Semiconductor,Pbca,61,16
+Mg2SeS2_id4108_E-3.65.cif,Mg2SeS2,-3.654,2.051,Solar / Visible,Semiconductor,Pn-3m,224,10
+Li10Ga(PO2)2_id3508_E-3.65.cif,Li10Ga(PO2)2,-3.6536,2.245,Wide-Gap Power/LED,Semiconductor,P2/c,13,34
+K2Ge(Se3S)4_id223_E-3.65.cif,K2Ge(Se3S)4,-3.6527,0.526,IR / Narrow-Gap,Semiconductor,P-42m,111,19
+MgAl3(SeS2)2_id2159_E-3.65.cif,MgAl3(SeS2)2,-3.6515,0.091,IR / Narrow-Gap,Semiconductor,P-42_1m,113,20
+In6Sn7O12_id1601_E-3.65.cif,In6Sn7O12,-3.6505,1.338,Solar / Visible,Semiconductor,I23,197,50
+Li2GaS4_id700_E-3.65.cif,Li2GaS4,-3.6502,3.187,Wide-Gap Power/LED,Semiconductor,P1,1,28
+SrLi2PO_id1483_E-3.64.cif,SrLi2PO,-3.6442,1.266,Solar / Visible,Semiconductor,P4_2/mmc,131,10
+KLi4SbAsS4_id1496_E-3.64.cif,KLi4SbAsS4,-3.644,1.53,Solar / Visible,Semiconductor,I222,23,22
+LiSiSnGeAsP2(Se3S4)2_id4717_E-3.64.cif,LiSiSnGeAsP2(Se3S4)2,-3.6434,0.59,IR / Narrow-Gap,Semiconductor,P2_1,4,42
+TiZn4GaO4_id4544_E-3.64.cif,TiZn4GaO4,-3.6405,0.966,IR / Narrow-Gap,Semiconductor,Cmmm,65,20
+GaO6_id2804_E-3.64.cif,GaO6,-3.6369,0.137,IR / Narrow-Gap,Semiconductor,P6_3/m,176,14
+ZnTePS_id785_E-3.64.cif,ZnTePS,-3.6358,0.92,IR / Narrow-Gap,Semiconductor,P6_4,172,24
+Mg2ScTe6O_id3310_E-3.64.cif,Mg2ScTe6O,-3.6354,0.682,IR / Narrow-Gap,Semiconductor,P1,1,40
+MgScIn(SiS2)3_id1955_E-3.63.cif,MgScIn(SiS2)3,-3.6335,0.535,IR / Narrow-Gap,Semiconductor,P-31c,163,24
+KNa2Sr2Ca2B2SbO30_id4282_E-3.63.cif,KNa2Sr2Ca2B2SbO30,-3.6322,2.11,Solar / Visible,Semiconductor,P-1,2,40
+NaZn(AsS)2_id659_E-3.63.cif,NaZn(AsS)2,-3.6308,1.389,Solar / Visible,Semiconductor,I4_122,98,24
+Sn(Te2Se)2_id3160_E-3.63.cif,Sn(Te2Se)2,-3.6294,0.307,IR / Narrow-Gap,Semiconductor,I-42d,122,28
+K2ZnSi2TeAs4_id1839_E-3.62.cif,K2ZnSi2TeAs4,-3.6181,0.531,IR / Narrow-Gap,Semiconductor,I4_1/a,88,40
+Ca4CN2_id1310_E-3.61.cif,Ca4CN2,-3.613,1.027,Solar / Visible,Semiconductor,P4/mnc,128,28
+S_id3890_E-3.61.cif,S,-3.6097,1.118,Solar / Visible,Semiconductor,Pccn,56,12
+KAs3O2_id4359_E-3.61.cif,KAs3O2,-3.6087,0.625,IR / Narrow-Gap,Semiconductor,I4_1/amd,141,24
+LiZnS2_id4948_E-3.61.cif,LiZnS2,-3.6082,0.383,IR / Narrow-Gap,Semiconductor,P3_221,154,12
+Ba(LiS)4_id3225_E-3.61.cif,Ba(LiS)4,-3.6073,3.247,Wide-Gap Power/LED,Semiconductor,I-4c2,120,36
+Ga2SnTe4_id2342_E-3.61.cif,Ga2SnTe4,-3.6071,0.094,IR / Narrow-Gap,Semiconductor,P-42m,111,7
+TeSe2S_id1394_E-3.61.cif,TeSe2S,-3.6059,0.674,IR / Narrow-Gap,Semiconductor,P4/m,83,16
+Li2As(PSe)2_id1942_E-3.60.cif,Li2As(PSe)2,-3.6012,2.503,Wide-Gap Power/LED,Semiconductor,P-42_1m,113,14
+Li4Sn2Sb2O3_id2027_E-3.60.cif,Li4Sn2Sb2O3,-3.6005,1.01,Solar / Visible,Semiconductor,Pccn,56,44
+GaSbTeSe7S2_id1538_E-3.60.cif,GaSbTeSe7S2,-3.6,0.963,IR / Narrow-Gap,Semiconductor,P2_1,4,24
+Al2Cd(GaSe2)2_id1825_E-3.60.cif,Al2Cd(GaSe2)2,-3.5974,1.603,Solar / Visible,Semiconductor,P-42m,111,9
+O2_id2628_E-3.60.cif,O2,-3.5974,1.375,Solar / Visible,Semiconductor,P1,1,48
+K2Te2AsP3S2_id2206_E-3.60.cif,K2Te2AsP3S2,-3.5953,1.11,Solar / Visible,Semiconductor,Pcca,54,40
+K2NaB6_id7_E-3.59.cif,K2NaB6,-3.5894,1.546,Solar / Visible,Semiconductor,P-3c1,165,36
+KTiBeAl_id3193_E-3.59.cif,KTiBeAl,-3.5879,2.375,Wide-Gap Power/LED,Semiconductor,Cmme,67,16
+AlSiGePSe_id4731_E-3.58.cif,AlSiGePSe,-3.5824,1.07,Solar / Visible,Semiconductor,P6_522,179,30
+BeZn2SiO8_id4514_E-3.57.cif,BeZn2SiO8,-3.573,2.497,Wide-Gap Power/LED,Semiconductor,P-42c,112,24
+AlZnSi2Ge_id1711_E-3.57.cif,AlZnSi2Ge,-3.5675,0.415,IR / Narrow-Gap,Semiconductor,P-62m,189,15
+K9Na5LiCa2O22_id4129_E-3.57.cif,K9Na5LiCa2O22,-3.5659,2.212,Wide-Gap Power/LED,Semiconductor,P1,1,39
+Li4TeSeS_id4588_E-3.56.cif,Li4TeSeS,-3.5635,1.697,Solar / Visible,Semiconductor,Aea2,41,56
+GeSe4_id1157_E-3.56.cif,GeSe4,-3.5621,0.681,IR / Narrow-Gap,Semiconductor,P-42_1c,114,10
+MgInSn(TeSe)4_id4192_E-3.56.cif,MgInSn(TeSe)4,-3.5593,1.201,Solar / Visible,Semiconductor,I222,23,22
+Be4Sb3_id4500_E-3.56.cif,Be4Sb3,-3.5581,0.095,IR / Narrow-Gap,Semiconductor,I-43d,220,28
+LiSbTe_id705_E-3.56.cif,LiSbTe,-3.5567,0.821,IR / Narrow-Gap,Semiconductor,Ibca,73,24
+NaAs2_id297_E-3.56.cif,NaAs2,-3.5566,1.172,Solar / Visible,Semiconductor,P4_2/m,84,18
+Sn(BS5)2_id3526_E-3.56.cif,Sn(BS5)2,-3.5562,0.312,IR / Narrow-Gap,Semiconductor,Cccm,66,52
+InSn2(TeSe2)3_id1422_E-3.56.cif,InSn2(TeSe2)3,-3.5561,0.138,IR / Narrow-Gap,Semiconductor,P6mm,183,12
+Sn2Se19S2_id1305_E-3.55.cif,Sn2Se19S2,-3.5522,1.187,Solar / Visible,Semiconductor,Pba2,32,46
+Sn5Ge2_id1092_E-3.55.cif,Sn5Ge2,-3.5499,1.656,Solar / Visible,Semiconductor,P1,1,42
+ZnGaP2_id2168_E-3.55.cif,ZnGaP2,-3.5484,1.761,Solar / Visible,Semiconductor,Pca2_1,29,16
+AlSbTe2_id954_E-3.55.cif,AlSbTe2,-3.5477,1.112,Solar / Visible,Semiconductor,Aea2,41,32
+K6Li6PO6_id442_E-3.54.cif,K6Li6PO6,-3.5439,2.555,Wide-Gap Power/LED,Semiconductor,Pm-3,200,19
+Na4Li3TeO4_id4657_E-3.54.cif,Na4Li3TeO4,-3.5418,1.532,Solar / Visible,Semiconductor,P4_2/mcm,132,24
+KS_id1087_E-3.54.cif,KS,-3.5381,1.851,Solar / Visible,Semiconductor,Pnma,62,24
+KInO50_id1458_E-3.53.cif,KInO50,-3.5348,1.722,Solar / Visible,Semiconductor,P-3,147,52
+K2Na7Ga2TeO28_id2708_E-3.53.cif,K2Na7Ga2TeO28,-3.5342,1.025,Solar / Visible,Semiconductor,P-1,2,40
+Ba4Ca4ScO4_id3716_E-3.53.cif,Ba4Ca4ScO4,-3.5267,0.283,IR / Narrow-Gap,Semiconductor,P-42_1c,114,26
+Sb2AsP(SeS)6_id4627_E-3.52.cif,Sb2AsP(SeS)6,-3.5227,2.198,Solar / Visible,Semiconductor,C2,5,32
+Li4MgAl2Ga2(TeS)4_id3299_E-3.52.cif,Li4MgAl2Ga2(TeS)4,-3.5214,1.3,Solar / Visible,Semiconductor,P-42m,111,17
+LiSn5_id4331_E-3.52.cif,LiSn5,-3.5173,0.071,IR / Narrow-Gap,Semiconductor,P4/mmm,123,6
+Li3ZnIn4O8_id4292_E-3.52.cif,Li3ZnIn4O8,-3.5171,1.475,Solar / Visible,Semiconductor,P1,1,16
+Be2ZnTe4_id3972_E-3.52.cif,Be2ZnTe4,-3.5158,1.734,Solar / Visible,Semiconductor,P-42m,111,7
+Mg2Zn2CdIn2Ga2(SN3)2_id3872_E-3.51.cif,Mg2Zn2CdIn2Ga2(SN3)2,-3.5146,1.013,Solar / Visible,Semiconductor,P3_121,152,51
+Si2O5_id794_E-3.51.cif,Si2O5,-3.5135,2.128,Solar / Visible,Semiconductor,P6_122,178,42
+As_id608_E-3.51.cif,As,-3.5095,1.928,Solar / Visible,Semiconductor,I4/mmm,139,4
+MgAlPS_id3826_E-3.51.cif,MgAlPS,-3.5094,0.681,IR / Narrow-Gap,Semiconductor,P6_522,179,24
+Al2Zn2Sn(SeS)4_id4753_E-3.51.cif,Al2Zn2Sn(SeS)4,-3.5085,1.429,Solar / Visible,Semiconductor,P-42m,111,13
+ZnSiTe2(SeS)2_id185_E-3.50.cif,ZnSiTe2(SeS)2,-3.5036,1.231,Solar / Visible,Semiconductor,Pnn2,34,16
+Ca(GaN)3_id1413_E-3.50.cif,Ca(GaN)3,-3.5004,2.047,Solar / Visible,Semiconductor,P6_3/m,176,14
+LiSi2SnGeSb2PSe6S5_id4747_E-3.50.cif,LiSi2SnGeSb2PSe6S5,-3.4996,0.828,IR / Narrow-Gap,Semiconductor,P1,1,38
+Al2ZnTe4_id3920_E-3.50.cif,Al2ZnTe4,-3.4991,0.274,IR / Narrow-Gap,Semiconductor,P-42m,111,7
+K2BaZn2CdO20_id1886_E-3.50.cif,K2BaZn2CdO20,-3.4978,2.731,Wide-Gap Power/LED,Semiconductor,P-3,147,26
+KSe8_id2163_E-3.49.cif,KSe8,-3.4904,1.347,Solar / Visible,Semiconductor,Cccm,66,36
+Si2SnGeS_id4047_E-3.49.cif,Si2SnGeS,-3.4888,0.543,IR / Narrow-Gap,Semiconductor,P6_522,179,30
+LiBP2Se14S3_id663_E-3.49.cif,LiBP2Se14S3,-3.4888,1.708,Solar / Visible,Semiconductor,P1,1,21
+Mg2AlS4_id2307_E-3.49.cif,Mg2AlS4,-3.4877,2.448,Wide-Gap Power/LED,Semiconductor,Aea2,41,28
+Ti2Zn3O_id1356_E-3.49.cif,Ti2Zn3O,-3.4866,0.944,IR / Narrow-Gap,Semiconductor,P3_221,154,18
+Be2Sb_id1658_E-3.49.cif,Be2Sb,-3.4854,0.505,IR / Narrow-Gap,Semiconductor,Pbcn,60,12
+Na2AsSe2_id485_E-3.48.cif,Na2AsSe2,-3.4841,0.393,IR / Narrow-Gap,Semiconductor,Cmmm,65,10
+K3Zn2Ge(Te2O7)2_id548_E-3.48.cif,K3Zn2Ge(Te2O7)2,-3.4828,1.786,Solar / Visible,Semiconductor,P2_12_12,18,48
+K2Ba3O3_id3849_E-3.48.cif,K2Ba3O3,-3.4799,0.261,IR / Narrow-Gap,Semiconductor,Pn-3m,224,16
+Se_id2574_E-3.48.cif,Se,-3.4773,0.832,IR / Narrow-Gap,Semiconductor,C2,5,8
+MgGa4Si2(GeS2)2_id2211_E-3.48.cif,MgGa4Si2(GeS2)2,-3.4772,1.672,Solar / Visible,Semiconductor,P-42m,111,13
+ZnTeSe3S16_id2633_E-3.48.cif,ZnTeSe3S16,-3.4754,1.396,Solar / Visible,Semiconductor,Pc,7,42
+ZnN_id4087_E-3.47.cif,ZnN,-3.4743,0.164,IR / Narrow-Gap,Semiconductor,P6_222,180,12
+GaTe_id3748_E-3.47.cif,GaTe,-3.472,0.775,IR / Narrow-Gap,Semiconductor,Aea2,41,16
+SnSe3_id4123_E-3.47.cif,SnSe3,-3.4719,1.227,Solar / Visible,Semiconductor,Iba2,45,16
+Se_id2999_E-3.46.cif,Se,-3.4632,1.068,Solar / Visible,Semiconductor,Pbca,61,16
+Li13(GaO12)3_id2970_E-3.46.cif,Li13(GaO12)3,-3.4622,1.653,Solar / Visible,Semiconductor,P1,1,52
+ZnGeO_id203_E-3.46.cif,ZnGeO,-3.4597,0.991,IR / Narrow-Gap,Semiconductor,P4_2/mmc,131,12
+TeSe3_id4537_E-3.46.cif,TeSe3,-3.4592,1.001,Solar / Visible,Semiconductor,Aem2,39,16
+KNaCaTe6_id2033_E-3.46.cif,KNaCaTe6,-3.4579,0.559,IR / Narrow-Gap,Semiconductor,P312,149,9
+Na2LiCd5In4(SnO4)2_id4777_E-3.46.cif,Na2LiCd5In4(SnO4)2,-3.456,0.227,IR / Narrow-Gap,Semiconductor,P-42_1c,114,44
+Mg3Zn4In2GaTe4(S4N)2_id3685_E-3.45.cif,Mg3Zn4In2GaTe4(S4N)2,-3.4538,1.334,Solar / Visible,Semiconductor,C2,5,48
+Li4SnTeSe2_id4773_E-3.45.cif,Li4SnTeSe2,-3.4523,0.084,IR / Narrow-Gap,Semiconductor,Cmcm,63,32
+ZnGa2SiTe4_id4533_E-3.45.cif,ZnGa2SiTe4,-3.4522,0.089,IR / Narrow-Gap,Semiconductor,I-42m,121,16
+KSnS3_id2981_E-3.45.cif,KSnS3,-3.4467,1.032,Solar / Visible,Semiconductor,Cmc2_1,36,20
+Ca2Sn3(Te2S)2_id3587_E-3.44.cif,Ca2Sn3(Te2S)2,-3.4433,0.868,IR / Narrow-Gap,Semiconductor,C2/m,12,22
+BaO12_id1873_E-3.44.cif,BaO12,-3.4429,0.901,IR / Narrow-Gap,Semiconductor,Im-3,204,26
+Li3(Te3S2)2_id1651_E-3.44.cif,Li3(Te3S2)2,-3.4416,0.78,IR / Narrow-Gap,Semiconductor,P-42m,111,13
+Li5(SeS2)2_id1704_E-3.44.cif,Li5(SeS2)2,-3.4411,2.147,Solar / Visible,Semiconductor,P-42_1m,113,22
+Zn2InSe4_id1628_E-3.44.cif,Zn2InSe4,-3.4403,1.133,Solar / Visible,Semiconductor,P-42m,111,7
+KSnSbTe_id4966_E-3.43.cif,KSnSbTe,-3.4343,0.339,IR / Narrow-Gap,Semiconductor,Pcc2,27,16
+PS8_id725_E-3.43.cif,PS8,-3.433,1.877,Solar / Visible,Semiconductor,P1,1,18
+K2ScCd6O12_id716_E-3.43.cif,K2ScCd6O12,-3.4302,1.323,Solar / Visible,Semiconductor,P-3c1,165,42
+LiZnGeAs4_id2795_E-3.43.cif,LiZnGeAs4,-3.4283,0.96,IR / Narrow-Gap,Semiconductor,Pccm,49,14
+CSe5S2_id2454_E-3.42.cif,CSe5S2,-3.4215,1.563,Solar / Visible,Semiconductor,C2/m,12,16
+MgCdTeSe6_id3880_E-3.42.cif,MgCdTeSe6,-3.4157,0.313,IR / Narrow-Gap,Semiconductor,P-31c,163,18
+KMg4Sb2As4(Se2S)2_id1486_E-3.41.cif,KMg4Sb2As4(Se2S)2,-3.4112,0.185,IR / Narrow-Gap,Semiconductor,Pm,6,17
+AsS8_id3245_E-3.41.cif,AsS8,-3.4097,2.513,Wide-Gap Power/LED,Semiconductor,Fm-3m,225,36
+MgTiN2O_id3067_E-3.41.cif,MgTiN2O,-3.4077,1.72,Solar / Visible,Semiconductor,Pca2_1,29,20
+Se2S_id1830_E-3.40.cif,Se2S,-3.3998,1.577,Solar / Visible,Semiconductor,Pbcn,60,12
+NaTe2S_id1170_E-3.40.cif,NaTe2S,-3.3971,0.53,IR / Narrow-Gap,Semiconductor,P4_32_12,96,32
+KLi7B6Sb_id3352_E-3.39.cif,KLi7B6Sb,-3.3875,2.212,Wide-Gap Power/LED,Semiconductor,P312,149,15
+ScTi3In3SnGeTe8_id3761_E-3.38.cif,ScTi3In3SnGeTe8,-3.3844,0.217,IR / Narrow-Gap,Semiconductor,P31m,157,17
+BSe12_id3732_E-3.38.cif,BSe12,-3.3841,2.064,Solar / Visible,Semiconductor,I432,211,26
+O2_id2775_E-3.38.cif,O2,-3.3838,1.433,Solar / Visible,Semiconductor,Pba2,32,22
+KNaMg6Zn6Ga6(SO6)2_id2773_E-3.38.cif,KNaMg6Zn6Ga6(SO6)2,-3.3836,0.233,IR / Narrow-Gap,Semiconductor,P1,1,34
+Te4AsSe2_id2598_E-3.38.cif,Te4AsSe2,-3.3831,0.054,IR / Narrow-Gap,Semiconductor,I-42d,122,28
+K4SrCd5(S3O)4_id1763_E-3.38.cif,K4SrCd5(S3O)4,-3.3815,2.066,Solar / Visible,Semiconductor,P4_2/n,86,52
+LiAs_id3899_E-3.38.cif,LiAs,-3.3801,1.32,Solar / Visible,Semiconductor,P4_222,93,16
+KIn2(TeSe2)4_id3025_E-3.37.cif,KIn2(TeSe2)4,-3.375,0.773,IR / Narrow-Gap,Semiconductor,I222,23,30
+LiInSe2_id291_E-3.37.cif,LiInSe2,-3.3746,0.403,IR / Narrow-Gap,Semiconductor,I-42d,122,32
+Mg7ZnNO6_id1121_E-3.37.cif,Mg7ZnNO6,-3.3709,2.744,Wide-Gap Power/LED,Semiconductor,P6_322,182,30
+ZnGa2SbO8_id2092_E-3.37.cif,ZnGa2SbO8,-3.3663,2.911,Wide-Gap Power/LED,Semiconductor,Pba2,32,48
+K2Be3Cd3Ga3B3(N2O)3_id4049_E-3.37.cif,K2Be3Cd3Ga3B3(N2O)3,-3.3659,1.106,Solar / Visible,Semiconductor,P321,150,46
+CaO6_id254_E-3.36.cif,CaO6,-3.3647,3.257,Wide-Gap Power/LED,Semiconductor,Pm,6,14
+CaIn3(Se2S)2_id4197_E-3.36.cif,CaIn3(Se2S)2,-3.3644,1.359,Solar / Visible,Semiconductor,Cmme,67,40
+Sn(SbTe)3_id974_E-3.36.cif,Sn(SbTe)3,-3.361,0.416,IR / Narrow-Gap,Semiconductor,Pmmm,47,7
+KSrGe(Te2Se)2_id2759_E-3.36.cif,KSrGe(Te2Se)2,-3.3567,0.469,IR / Narrow-Gap,Semiconductor,I222,23,18
+BeSe_id4570_E-3.36.cif,BeSe,-3.3557,2.224,Wide-Gap Power/LED,Semiconductor,P6_522,179,12
+K2BaLi2InO2_id2750_E-3.35.cif,K2BaLi2InO2,-3.3507,0.611,IR / Narrow-Gap,Semiconductor,P-3m1,164,8
+TiGa2Sb_id3966_E-3.35.cif,TiGa2Sb,-3.3505,0.105,IR / Narrow-Gap,Semiconductor,P4_2/mmc,131,8
+NaCa3Mg3Zn2O6_id994_E-3.35.cif,NaCa3Mg3Zn2O6,-3.3481,2.378,Wide-Gap Power/LED,Semiconductor,P-3c1,165,30
+Na2Li4SbO2_id3024_E-3.34.cif,Na2Li4SbO2,-3.3431,1.939,Solar / Visible,Semiconductor,C222,21,18
+Na3(TeO5)2_id63_E-3.34.cif,Na3(TeO5)2,-3.3427,0.443,IR / Narrow-Gap,Semiconductor,C222_1,20,60
+CdTeSeS2_id3913_E-3.34.cif,CdTeSeS2,-3.342,1.677,Solar / Visible,Semiconductor,P622,177,30
+Se13S4_id2224_E-3.34.cif,Se13S4,-3.3368,0.587,IR / Narrow-Gap,Semiconductor,Pba2,32,34
+Na2Si7Ge_id2629_E-3.33.cif,Na2Si7Ge,-3.3344,0.984,IR / Narrow-Gap,Semiconductor,Pmmm,47,10
+Ga2Sb_id417_E-3.33.cif,Ga2Sb,-3.334,0.242,IR / Narrow-Gap,Semiconductor,P4_2/nmc,137,12
+K6NaGaO6_id3276_E-3.33.cif,K6NaGaO6,-3.3334,2.134,Solar / Visible,Semiconductor,P-31c,163,28
+Sr4(CaS)3_id379_E-3.33.cif,Sr4(CaS)3,-3.3334,0.111,IR / Narrow-Gap,Semiconductor,I-43d,220,40
+GaSn2Te3S4_id4066_E-3.33.cif,GaSn2Te3S4,-3.3324,0.157,IR / Narrow-Gap,Semiconductor,C2/m,12,20
+BaLi2CaSi2_id4267_E-3.33.cif,BaLi2CaSi2,-3.3301,0.16,IR / Narrow-Gap,Semiconductor,P-3m1,164,6
+Ca4Al4O_id3976_E-3.32.cif,Ca4Al4O,-3.3246,0.089,IR / Narrow-Gap,Semiconductor,I4/m,87,18
+KZn2InS4_id4648_E-3.32.cif,KZn2InS4,-3.3215,2.03,Solar / Visible,Semiconductor,I-42d,122,32
+Li2Zn2Sb2O3_id2390_E-3.32.cif,Li2Zn2Sb2O3,-3.3214,0.456,IR / Narrow-Gap,Semiconductor,Pccn,56,36
+CaZnGaSbO17_id2396_E-3.32.cif,CaZnGaSbO17,-3.3198,1.364,Solar / Visible,Semiconductor,Pc,7,42
+SbSe20_id2199_E-3.32.cif,SbSe20,-3.3171,1.383,Solar / Visible,Semiconductor,P2_1,4,42
+K2O_id1577_E-3.32.cif,K2O,-3.3155,1.333,Solar / Visible,Semiconductor,Pbca,61,12
+Se_id3136_E-3.31.cif,Se,-3.3149,0.109,IR / Narrow-Gap,Semiconductor,Pba2,32,26
+Li2Zn2Sn3S2_id4058_E-3.31.cif,Li2Zn2Sn3S2,-3.3103,0.264,IR / Narrow-Gap,Semiconductor,C222,21,18
+NaO2_id4418_E-3.31.cif,NaO2,-3.3102,0.483,IR / Narrow-Gap,Semiconductor,I4_1/a,88,24
+BO12_id3486_E-3.31.cif,BO12,-3.3101,1.733,Solar / Visible,Semiconductor,I432,211,26
+Li15(TeO2)2_id2020_E-3.31.cif,Li15(TeO2)2,-3.3083,3.022,Wide-Gap Power/LED,Semiconductor,Pnn2,34,42
+LiSe_id3860_E-3.31.cif,LiSe,-3.3075,2.002,Solar / Visible,Semiconductor,P4_32_12,96,8
+In2(SeS)3_id4638_E-3.31.cif,In2(SeS)3,-3.3073,1.651,Solar / Visible,Semiconductor,P6/mmm,191,16
+Sc2Ti2NO_id975_E-3.30.cif,Sc2Ti2NO,-3.3019,0.845,IR / Narrow-Gap,Semiconductor,I4/mmm,139,24
+GaTePSe2S_id1981_E-3.30.cif,GaTePSe2S,-3.3008,2.286,Wide-Gap Power/LED,Semiconductor,P6_5,170,36
+LiGaTe_id4398_E-3.30.cif,LiGaTe,-3.296,0.987,IR / Narrow-Gap,Semiconductor,P6_3/mmc,194,6
+K7As5(PO3)4_id2432_E-3.29.cif,K7As5(PO3)4,-3.2932,1.794,Solar / Visible,Semiconductor,I222,23,56
+MgTe4_id2378_E-3.29.cif,MgTe4,-3.2916,1.234,Solar / Visible,Semiconductor,Pccm,49,10
+SrLi2(GaSi2)2_id4388_E-3.29.cif,SrLi2(GaSi2)2,-3.2902,0.369,IR / Narrow-Gap,Semiconductor,Amm2,38,18
+Be(GaSi)2_id3901_E-3.29.cif,Be(GaSi)2,-3.2884,0.489,IR / Narrow-Gap,Semiconductor,Cmme,67,20
+K2SO2_id360_E-3.29.cif,K2SO2,-3.2865,1.866,Solar / Visible,Semiconductor,P4_2/nmc,137,20
+GeTeAsSeS4_id4021_E-3.28.cif,GeTeAsSeS4,-3.2848,0.163,IR / Narrow-Gap,Semiconductor,I-4m2,119,16
+Li3ZnAsP2_id1075_E-3.28.cif,Li3ZnAsP2,-3.2777,0.112,IR / Narrow-Gap,Semiconductor,Pccm,49,14
+K4O3_id4859_E-3.27.cif,K4O3,-3.2738,1.218,Solar / Visible,Semiconductor,P-31c,163,28
+Na(TeSe)2_id841_E-3.27.cif,Na(TeSe)2,-3.2685,1.105,Solar / Visible,Semiconductor,Cc,9,20
+Be2GaTe2_id2714_E-3.27.cif,Be2GaTe2,-3.2672,1.356,Solar / Visible,Semiconductor,Cccm,66,20
+BSe12_id1192_E-3.26.cif,BSe12,-3.2631,0.066,IR / Narrow-Gap,Semiconductor,I432,211,26
+ZnPS_id2930_E-3.26.cif,ZnPS,-3.2595,1.505,Solar / Visible,Semiconductor,P4_32_12,96,24
+Cd3Ga4Sn(TeS)4_id3222_E-3.26.cif,Cd3Ga4Sn(TeS)4,-3.2578,0.926,IR / Narrow-Gap,Semiconductor,I-42m,121,32
+ZnSe2_id1470_E-3.26.cif,ZnSe2,-3.2551,1.044,Solar / Visible,Semiconductor,Pccn,56,12
+Na2AlTe8AsS4_id1107_E-3.24.cif,Na2AlTe8AsS4,-3.2405,0.238,IR / Narrow-Gap,Semiconductor,P4_2/mcm,132,32
+Li4Ti3AsS8_id761_E-3.24.cif,Li4Ti3AsS8,-3.2404,1.156,Solar / Visible,Semiconductor,I4/m,87,32
+K3O4_id3771_E-3.23.cif,K3O4,-3.2343,1.301,Solar / Visible,Semiconductor,P23,195,21
+Ca2Sn_id699_E-3.23.cif,Ca2Sn,-3.227,0.103,IR / Narrow-Gap,Semiconductor,P4/mmm,123,12
+MgAl2(TeS3)2_id2468_E-3.22.cif,MgAl2(TeS3)2,-3.2236,1.819,Solar / Visible,Semiconductor,P-42_1m,113,22
+Ba5Na2ZnCd2SnP2(NO)2_id613_E-3.22.cif,Ba5Na2ZnCd2SnP2(NO)2,-3.2215,1.394,Solar / Visible,Semiconductor,P1,1,51
+LiZnS_id668_E-3.22.cif,LiZnS,-3.2205,2.173,Solar / Visible,Semiconductor,P4_2/ncm,138,12
+KZnSnO_id1926_E-3.21.cif,KZnSnO,-3.2134,0.959,IR / Narrow-Gap,Semiconductor,Pnnm,58,16
+Al3CdTe3_id592_E-3.21.cif,Al3CdTe3,-3.2097,1.182,Solar / Visible,Semiconductor,Pm-3n,223,14
+In3Ga2O_id2184_E-3.21.cif,In3Ga2O,-3.2055,0.215,IR / Narrow-Gap,Semiconductor,Pn-3m,224,12
+Sr2SnTe2_id2925_E-3.20.cif,Sr2SnTe2,-3.1969,1.007,Solar / Visible,Semiconductor,R-3,148,45
+KNa6SnAs7_id987_E-3.20.cif,KNa6SnAs7,-3.1964,0.8,IR / Narrow-Gap,Semiconductor,P312,149,15
+MgBe3(AlB3)2_id2625_E-3.19.cif,MgBe3(AlB3)2,-3.1948,2.278,Wide-Gap Power/LED,Semiconductor,P4_3,78,48
+GaSnAsSe2S_id2016_E-3.19.cif,GaSnAsSe2S,-3.1926,1.602,Solar / Visible,Semiconductor,P-4m2,115,12
+K3(Se3S)2_id225_E-3.19.cif,K3(Se3S)2,-3.1886,1.473,Solar / Visible,Semiconductor,P6/mmm,191,11
+ZnGa2Te8(Se2S)4_id208_E-3.18.cif,ZnGa2Te8(Se2S)4,-3.1836,0.579,IR / Narrow-Gap,Semiconductor,P-42m,111,23
+K3NaO6_id4503_E-3.18.cif,K3NaO6,-3.1831,0.878,IR / Narrow-Gap,Semiconductor,P23,195,40
+Li4BP10(NO)4_id4404_E-3.18.cif,Li4BP10(NO)4,-3.1786,1.254,Solar / Visible,Semiconductor,P4/n,85,46
+Na3Sr2O6_id4965_E-3.17.cif,Na3Sr2O6,-3.1749,2.326,Wide-Gap Power/LED,Semiconductor,P-6,174,11
+Li2GaTe4_id2079_E-3.17.cif,Li2GaTe4,-3.1727,0.961,IR / Narrow-Gap,Semiconductor,Pcca,54,28
+B4O15_id3574_E-3.17.cif,B4O15,-3.1703,0.959,IR / Narrow-Gap,Semiconductor,P4/n,85,38
+KNaO_id4708_E-3.17.cif,KNaO,-3.1663,2.317,Wide-Gap Power/LED,Semiconductor,C222,21,12
+Te_id1835_E-3.16.cif,Te,-3.1613,0.514,IR / Narrow-Gap,Semiconductor,Pbca,61,8
+LiSb4As5_id821_E-3.16.cif,LiSb4As5,-3.161,1.544,Solar / Visible,Semiconductor,Pbcm,57,40
+Te_id4765_E-3.16.cif,Te,-3.1603,1.268,Solar / Visible,Semiconductor,P4/m,83,8
+Li2ZnSe4_id2608_E-3.16.cif,Li2ZnSe4,-3.1571,1.256,Solar / Visible,Semiconductor,Pnma,62,28
+CdS_id1113_E-3.15.cif,CdS,-3.154,1.508,Solar / Visible,Semiconductor,P4_2/ncm,138,8
+BaNa4(SnO)4_id1083_E-3.15.cif,BaNa4(SnO)4,-3.1464,1.769,Solar / Visible,Semiconductor,P4_2/n,86,26
+Sb(SeS)2_id1209_E-3.14.cif,Sb(SeS)2,-3.1438,2.34,Wide-Gap Power/LED,Semiconductor,P4_2/nmc,137,10
+KLiInTe4_id3970_E-3.14.cif,KLiInTe4,-3.1385,0.132,IR / Narrow-Gap,Semiconductor,I222,23,14
+LiCdO6_id4942_E-3.14.cif,LiCdO6,-3.1382,2.338,Wide-Gap Power/LED,Semiconductor,P-31c,163,16
+Li(InTe)3_id3997_E-3.14.cif,Li(InTe)3,-3.1381,0.063,IR / Narrow-Gap,Semiconductor,Pm-3n,223,14
+Te_id2358_E-3.13.cif,Te,-3.1333,0.757,IR / Narrow-Gap,Semiconductor,P6/mmm,191,18
+Te_id3219_E-3.13.cif,Te,-3.1258,0.147,IR / Narrow-Gap,Semiconductor,Pccn,56,12
+Na2Li2Zn2Ga2Ge2Sb2AsSe2_id237_E-3.12.cif,Na2Li2Zn2Ga2Ge2Sb2AsSe2,-3.1216,0.682,IR / Narrow-Gap,Semiconductor,Ccc2,37,60
+CdP4_id3619_E-3.12.cif,CdP4,-3.1213,0.149,IR / Narrow-Gap,Semiconductor,Pccm,49,10
+SrTe_id349_E-3.11.cif,SrTe,-3.1145,0.373,IR / Narrow-Gap,Semiconductor,P4/m,83,8
+Na3Mg3SbTe4_id531_E-3.11.cif,Na3Mg3SbTe4,-3.113,1.801,Solar / Visible,Semiconductor,P-43m,215,11
+KLi2CdO2_id4815_E-3.11.cif,KLi2CdO2,-3.1129,1.76,Solar / Visible,Semiconductor,Cmme,67,24
+LiTe2_id3988_E-3.11.cif,LiTe2,-3.1111,0.86,IR / Narrow-Gap,Semiconductor,P4/m,83,12
+KCd4Ga(SnO2)2_id402_E-3.11.cif,KCd4Ga(SnO2)2,-3.1104,1.23,Solar / Visible,Semiconductor,P-42c,112,24
+InS5_id1587_E-3.11.cif,InS5,-3.1079,1.826,Solar / Visible,Semiconductor,Pcc2,27,12
+AlCd(GeTe2)2_id4994_E-3.11.cif,AlCd(GeTe2)2,-3.1066,0.904,IR / Narrow-Gap,Semiconductor,I-42d,122,32
+LiSe2N5O3_id2196_E-3.10.cif,LiSe2N5O3,-3.0951,2.54,Wide-Gap Power/LED,Semiconductor,Pmmn,59,22
+Li6CdTe4_id4004_E-3.09.cif,Li6CdTe4,-3.0929,0.062,IR / Narrow-Gap,Semiconductor,Im-3m,229,22
+KSn3O2_id1591_E-3.09.cif,KSn3O2,-3.0916,0.621,IR / Narrow-Gap,Semiconductor,Pmmm,47,6
+NaZnO2_id1290_E-3.09.cif,NaZnO2,-3.089,1.045,Solar / Visible,Semiconductor,I4_122,98,16
+NaSn3(SbTe3)4_id1366_E-3.09.cif,NaSn3(SbTe3)4,-3.0869,0.41,IR / Narrow-Gap,Semiconductor,P1,1,20
+Li5SnSbAs_id1492_E-3.09.cif,Li5SnSbAs,-3.0864,0.494,IR / Narrow-Gap,Semiconductor,Pnma,62,32
+TiAlZnGaGeTe16_id4318_E-3.08.cif,TiAlZnGaGeTe16,-3.0837,0.273,IR / Narrow-Gap,Semiconductor,Pc,7,42
+ZnAs2(SeS)8_id898_E-3.08.cif,ZnAs2(SeS)8,-3.0833,1.567,Solar / Visible,Semiconductor,P4/n,85,38
+BaO18_id3730_E-3.08.cif,BaO18,-3.0809,0.51,IR / Narrow-Gap,Semiconductor,Cm,8,38
+K2Te7_id1025_E-3.08.cif,K2Te7,-3.0799,0.494,IR / Narrow-Gap,Semiconductor,I4/mcm,140,36
+Te_id3937_E-3.08.cif,Te,-3.0798,0.231,IR / Narrow-Gap,Semiconductor,P2_12_12_1,19,32
+K2ZnS5O2_id4400_E-3.08.cif,K2ZnS5O2,-3.0752,1.747,Solar / Visible,Semiconductor,Pbam,55,20
+SnAs5P2Se_id2785_E-3.07.cif,SnAs5P2Se,-3.0672,0.657,IR / Narrow-Gap,Semiconductor,P2/m,10,9
+NaAl4Zn2(GaTe4)2_id2741_E-3.07.cif,NaAl4Zn2(GaTe4)2,-3.0653,1.281,Solar / Visible,Semiconductor,I422,97,34
+MgBeTeAs2_id4274_E-3.06.cif,MgBeTeAs2,-3.0649,0.861,IR / Narrow-Gap,Semiconductor,P1,1,20
+O2_id4174_E-3.06.cif,O2,-3.0619,0.847,IR / Narrow-Gap,Semiconductor,R-3c,167,24
+KIn2GaTe8_id1382_E-3.06.cif,KIn2GaTe8,-3.0616,0.11,IR / Narrow-Gap,Semiconductor,I422,97,24
+Mg2CdS4_id400_E-3.06.cif,Mg2CdS4,-3.0598,2.052,Solar / Visible,Semiconductor,Cccm,66,28
+LiSi_id2611_E-3.06.cif,LiSi,-3.0565,0.944,IR / Narrow-Gap,Semiconductor,I4_1/acd,142,32
+Na4CaZn4O4_id332_E-3.06.cif,Na4CaZn4O4,-3.0556,2.847,Wide-Gap Power/LED,Semiconductor,P4_2/n,86,26
+Li5(ZnN)2_id3147_E-3.05.cif,Li5(ZnN)2,-3.0503,2.69,Wide-Gap Power/LED,Semiconductor,Pbcn,60,36
+GaS2_id224_E-3.05.cif,GaS2,-3.0468,1.962,Solar / Visible,Semiconductor,Pnnn,48,12
+KLi2SiSbAs_id4557_E-3.04.cif,KLi2SiSbAs,-3.0442,0.918,IR / Narrow-Gap,Semiconductor,P-4n2,118,12
+AsS38_id4539_E-3.04.cif,AsS38,-3.0429,0.588,IR / Narrow-Gap,Semiconductor,Pm-3m,221,39
+Te_id4413_E-3.03.cif,Te,-3.0337,0.233,IR / Narrow-Gap,Semiconductor,P2_12_12_1,19,12
+Na3Li3S4O3_id3375_E-3.03.cif,Na3Li3S4O3,-3.0328,3.346,Wide-Gap Power/LED,Semiconductor,Pm-3m,221,26
+KLiAl3Zn2InGe(TeS)2_id1282_E-3.03.cif,KLiAl3Zn2InGe(TeS)2,-3.029,1.335,Solar / Visible,Semiconductor,Pmmn,59,26
+KLiZnInGaSN_id4444_E-3.03.cif,KLiZnInGaSN,-3.0271,0.202,IR / Narrow-Gap,Semiconductor,P2_1/m,11,14
+Te_id4581_E-3.03.cif,Te,-3.0254,0.182,IR / Narrow-Gap,Semiconductor,P3_2,145,6
+Li2S_id3912_E-3.02.cif,Li2S,-3.0161,3.294,Wide-Gap Power/LED,Semiconductor,P3_112,151,18
+AlZn2GaAs2_id656_E-3.01.cif,AlZn2GaAs2,-3.0137,0.526,IR / Narrow-Gap,Semiconductor,I4/mmm,139,12
+Mg(ZnTe2)2_id4778_E-3.01.cif,Mg(ZnTe2)2,-3.0077,1.564,Solar / Visible,Semiconductor,P-42m,111,7
+NaTeSe3_id1530_E-3.00.cif,NaTeSe3,-2.9958,0.14,IR / Narrow-Gap,Semiconductor,Cc,9,20
+BaNa2Li2Cd2Te(Se2N)4_id4845_E-2.99.cif,BaNa2Li2Cd2Te(Se2N)4,-2.9896,2.157,Solar / Visible,Semiconductor,P-42_1c,114,40
+Ba3Sb_id2727_E-2.99.cif,Ba3Sb,-2.9882,0.127,IR / Narrow-Gap,Semiconductor,R-3,148,24
+SeS9_id4257_E-2.99.cif,SeS9,-2.9875,2.271,Wide-Gap Power/LED,Semiconductor,Pm-3m,221,10
+BeZn2(GeTe2)2_id1287_E-2.98.cif,BeZn2(GeTe2)2,-2.9825,0.174,IR / Narrow-Gap,Semiconductor,P-42m,111,9
+K2BaLiTeO_id3567_E-2.98.cif,K2BaLiTeO,-2.9809,2.022,Solar / Visible,Semiconductor,Pmc2_1,26,12
+SeS8_id146_E-2.98.cif,SeS8,-2.9806,1.724,Solar / Visible,Semiconductor,Fm-3m,225,36
+Na3Li4Cd4O12_id366_E-2.98.cif,Na3Li4Cd4O12,-2.9792,1.792,Solar / Visible,Semiconductor,I23,197,46
+InGaSe_id542_E-2.98.cif,InGaSe,-2.9761,0.444,IR / Narrow-Gap,Semiconductor,Pbca,61,24
+CdGa2(SO)2_id4899_E-2.97.cif,CdGa2(SO)2,-2.9712,0.215,IR / Narrow-Gap,Semiconductor,Pa-3,205,28
+K2Na2Ga3O8_id4055_E-2.97.cif,K2Na2Ga3O8,-2.9674,3.49,Wide-Gap Power/LED,Semiconductor,P-42_1m,113,30
+LiSe2S_id233_E-2.96.cif,LiSe2S,-2.9621,1.779,Solar / Visible,Semiconductor,P6_122,178,24
+LiAlCd2In4(TeSe)4_id504_E-2.96.cif,LiAlCd2In4(TeSe)4,-2.956,0.438,IR / Narrow-Gap,Semiconductor,P-42c,112,32
+LiZn2GaO_id3521_E-2.95.cif,LiZn2GaO,-2.9548,0.151,IR / Narrow-Gap,Semiconductor,Ibca,73,40
+Al3Ga_id1102_E-2.95.cif,Al3Ga,-2.9462,0.231,IR / Narrow-Gap,Semiconductor,P6_122,178,48
+CdSiTe2_id4106_E-2.95.cif,CdSiTe2,-2.9453,1.0,Solar / Visible,Semiconductor,I4_122,98,16
+Al2Sn(Te3Se)4_id2423_E-2.94.cif,Al2Sn(Te3Se)4,-2.9403,1.528,Solar / Visible,Semiconductor,P-42m,111,19
+Li2SnSb_id4556_E-2.93.cif,Li2SnSb,-2.9323,1.056,Solar / Visible,Semiconductor,Imma,74,16
+KMg(TiIn)2_id1877_E-2.92.cif,KMg(TiIn)2,-2.924,0.385,IR / Narrow-Gap,Semiconductor,P4_122,91,24
+KNa2O_id2217_E-2.92.cif,KNa2O,-2.9229,1.282,Solar / Visible,Semiconductor,P-4m2,115,16
+Li(MgSb)3_id3360_E-2.92.cif,Li(MgSb)3,-2.9224,1.109,Solar / Visible,Semiconductor,Pm-3n,223,14
+KNa4Te2As(SO)4_id2389_E-2.92.cif,KNa4Te2As(SO)4,-2.9159,1.209,Solar / Visible,Semiconductor,I222,23,32
+Sb5Te7_id2469_E-2.91.cif,Sb5Te7,-2.9148,0.326,IR / Narrow-Gap,Semiconductor,P-43n,218,24
+In3P5S19_id4847_E-2.91.cif,In3P5S19,-2.9134,1.686,Solar / Visible,Semiconductor,P31m,157,27
+Si2O3_id3273_E-2.91.cif,Si2O3,-2.9128,3.47,Wide-Gap Power/LED,Semiconductor,Pbcn,60,20
+K3SrTe6_id3216_E-2.91.cif,K3SrTe6,-2.9069,1.323,Solar / Visible,Semiconductor,Fm-3m,225,40
+Li3Te2_id1416_E-2.91.cif,Li3Te2,-2.9067,0.87,IR / Narrow-Gap,Semiconductor,P-42_1m,113,10
+Mg2P_id2656_E-2.90.cif,Mg2P,-2.9046,0.161,IR / Narrow-Gap,Semiconductor,I4_1/acd,142,48
+K2BO_id3426_E-2.90.cif,K2BO,-2.9042,1.276,Solar / Visible,Semiconductor,P6_422,181,12
+LiZnGe3As2_id4690_E-2.90.cif,LiZnGe3As2,-2.901,1.791,Solar / Visible,Semiconductor,P2_1/m,11,14
+Li2CaZnTe2_id2229_E-2.89.cif,Li2CaZnTe2,-2.894,1.301,Solar / Visible,Semiconductor,P-3m1,164,6
+MgAl2ZnTe8_id2843_E-2.89.cif,MgAl2ZnTe8,-2.8866,0.066,IR / Narrow-Gap,Semiconductor,P-42c,112,24
+NaTe7Se2_id3866_E-2.88.cif,NaTe7Se2,-2.8843,1.651,Solar / Visible,Semiconductor,Pbam,55,20
+KNaS_id238_E-2.88.cif,KNaS,-2.8837,1.714,Solar / Visible,Semiconductor,C222,21,12
+K2Na2Si3_id4169_E-2.88.cif,K2Na2Si3,-2.8818,0.476,IR / Narrow-Gap,Semiconductor,Cccm,66,28
+BaSbP2(Se3O)2_id4653_E-2.88.cif,BaSbP2(Se3O)2,-2.8807,0.805,IR / Narrow-Gap,Semiconductor,P1,1,36
+Na4SbO2_id4213_E-2.88.cif,Na4SbO2,-2.8782,0.544,IR / Narrow-Gap,Semiconductor,P4,75,7
+KNa2In(NO6)2_id2203_E-2.88.cif,KNa2In(NO6)2,-2.876,1.271,Solar / Visible,Semiconductor,P3_121,152,54
+Li3Al7Ga4_id2606_E-2.87.cif,Li3Al7Ga4,-2.8729,0.411,IR / Narrow-Gap,Semiconductor,P1,1,28
+Na2Mg3In7Te2(Se3S)2_id35_E-2.87.cif,Na2Mg3In7Te2(Se3S)2,-2.8699,0.592,IR / Narrow-Gap,Semiconductor,C2,5,44
+Na6As3(PSe)2_id927_E-2.87.cif,Na6As3(PSe)2,-2.8698,2.014,Solar / Visible,Semiconductor,P1,1,26
+KCdO6_id3208_E-2.86.cif,KCdO6,-2.8647,3.007,Wide-Gap Power/LED,Semiconductor,I4mm,107,16
+Ga3Si_id1973_E-2.86.cif,Ga3Si,-2.8622,1.074,Solar / Visible,Semiconductor,P4_132,213,32
+K3GaO_id861_E-2.86.cif,K3GaO,-2.8593,0.329,IR / Narrow-Gap,Semiconductor,Cc,9,20
+K3Na2Li2O3_id4160_E-2.86.cif,K3Na2Li2O3,-2.8587,1.177,Solar / Visible,Semiconductor,I4cm,108,40
+NaMg(AlTe2)2_id3135_E-2.86.cif,NaMg(AlTe2)2,-2.8556,1.276,Solar / Visible,Semiconductor,Pbcm,57,32
+KScZnSb_id1122_E-2.86.cif,KScZnSb,-2.8554,0.242,IR / Narrow-Gap,Semiconductor,P4_122,91,16
+BeC3O14_id4551_E-2.85.cif,BeC3O14,-2.8549,0.775,IR / Narrow-Gap,Semiconductor,R32,155,54
+Mg7N2_id202_E-2.84.cif,Mg7N2,-2.8395,0.46,IR / Narrow-Gap,Semiconductor,P-4c2,116,18
+NaLi6(GeAs)7_id4891_E-2.83.cif,NaLi6(GeAs)7,-2.8316,0.672,IR / Narrow-Gap,Semiconductor,P6_322,182,42
+Te_id3843_E-2.83.cif,Te,-2.8295,0.569,IR / Narrow-Gap,Semiconductor,Pba2,32,14
+BaLi2ZnSi2_id3061_E-2.82.cif,BaLi2ZnSi2,-2.8167,0.611,IR / Narrow-Gap,Semiconductor,P4/mmm,123,24
+Te4PSe_id3125_E-2.81.cif,Te4PSe,-2.8108,0.734,IR / Narrow-Gap,Semiconductor,P2/m,10,6
+KBa2O_id1463_E-2.81.cif,KBa2O,-2.8086,1.001,Solar / Visible,Semiconductor,Pa-3,205,16
+Zn3CdInSnP2(SO)2_id1961_E-2.81.cif,Zn3CdInSnP2(SO)2,-2.8083,1.386,Solar / Visible,Semiconductor,Cmme,67,48
+CaCdSbTe_id600_E-2.80.cif,CaCdSbTe,-2.8032,0.936,IR / Narrow-Gap,Semiconductor,P4_122,91,16
+Sr2MgSc2Si2(TeP)2_id4145_E-2.80.cif,Sr2MgSc2Si2(TeP)2,-2.8031,3.212,Wide-Gap Power/LED,Semiconductor,Pm,6,44
+KInTe2_id2317_E-2.80.cif,KInTe2,-2.8002,0.084,IR / Narrow-Gap,Semiconductor,Pcc2,27,32
+LiTe_id106_E-2.80.cif,LiTe,-2.7988,0.426,IR / Narrow-Gap,Semiconductor,I4_132,214,16
+Zn4Si(SO)2_id882_E-2.80.cif,Zn4Si(SO)2,-2.7986,0.236,IR / Narrow-Gap,Semiconductor,P4_2mc,105,18
+KBa2NaSn3Sb_id4843_E-2.80.cif,KBa2NaSn3Sb,-2.7979,0.615,IR / Narrow-Gap,Semiconductor,P3,143,8
+BaLi6TeO_id4100_E-2.80.cif,BaLi6TeO,-2.7964,0.234,IR / Narrow-Gap,Semiconductor,P4/mmm,123,9
+Na8LiCd2Sn4(SO)4_id14_E-2.80.cif,Na8LiCd2Sn4(SO)4,-2.7963,0.165,IR / Narrow-Gap,Semiconductor,P4_2/n,86,46
+Li4ScZnGeTe8_id2082_E-2.79.cif,Li4ScZnGeTe8,-2.7893,2.588,Wide-Gap Power/LED,Semiconductor,I222,23,30
+NaSbTe_id889_E-2.79.cif,NaSbTe,-2.7884,0.935,IR / Narrow-Gap,Semiconductor,P3_221,154,18
+K3NaLi4Zn4P(S2O)2_id4754_E-2.79.cif,K3NaLi4Zn4P(S2O)2,-2.7879,0.084,IR / Narrow-Gap,Semiconductor,I222,23,38
+Ca5GeN8_id2337_E-2.79.cif,Ca5GeN8,-2.7877,1.366,Solar / Visible,Semiconductor,P2_1/m,11,28
+Na3As2_id2519_E-2.78.cif,Na3As2,-2.78,0.859,IR / Narrow-Gap,Semiconductor,C2/c,15,20
+KBe(InS)2_id1148_E-2.78.cif,KBe(InS)2,-2.7766,1.555,Solar / Visible,Semiconductor,P3_121,152,18
+Li5(GaTe2)2_id2373_E-2.77.cif,Li5(GaTe2)2,-2.7735,1.393,Solar / Visible,Semiconductor,P-42m,111,11
+KNa2Cd2Te4As_id4811_E-2.77.cif,KNa2Cd2Te4As,-2.7717,1.194,Solar / Visible,Semiconductor,I222,23,20
+ZnSb(TeSe)2_id2324_E-2.76.cif,ZnSb(TeSe)2,-2.7635,0.995,IR / Narrow-Gap,Semiconductor,P3_221,154,18
+K4Ba3Na4Sr2ZnO4_id2349_E-2.74.cif,K4Ba3Na4Sr2ZnO4,-2.7388,2.151,Solar / Visible,Semiconductor,P2_1/c,14,36
+Ba7P3_id3883_E-2.74.cif,Ba7P3,-2.7375,0.298,IR / Narrow-Gap,Semiconductor,R-3,148,60
+Cd4InO2_id2374_E-2.73.cif,Cd4InO2,-2.7341,0.083,IR / Narrow-Gap,Semiconductor,P4_2/mnm,136,14
+GaSb2_id2072_E-2.73.cif,GaSb2,-2.7257,0.397,IR / Narrow-Gap,Semiconductor,Pnn2,34,6
+ZnTe2_id1768_E-2.72.cif,ZnTe2,-2.7206,0.839,IR / Narrow-Gap,Semiconductor,P3_221,154,9
+Li2Zn2Ga3Se4_id4323_E-2.72.cif,Li2Zn2Ga3Se4,-2.7187,1.344,Solar / Visible,Semiconductor,Pmmm,47,11
+SrZn(Te2S)2_id4233_E-2.72.cif,SrZn(Te2S)2,-2.716,1.335,Solar / Visible,Semiconductor,P3_221,154,24
+K4Na6Si2SbS4_id704_E-2.71.cif,K4Na6Si2SbS4,-2.7119,2.313,Wide-Gap Power/LED,Semiconductor,I-42m,121,34
+ZnIn7Ga6Sn12Sb_id2077_E-2.71.cif,ZnIn7Ga6Sn12Sb,-2.71,0.127,IR / Narrow-Gap,Semiconductor,P6_322,182,54
+TeSeS_id135_E-2.71.cif,TeSeS,-2.7067,0.154,IR / Narrow-Gap,Semiconductor,P4/m,83,12
+K2GeAs_id3016_E-2.70.cif,K2GeAs,-2.7028,1.054,Solar / Visible,Semiconductor,P2_12_12_1,19,16
+LiZn2Cd4Ga(SeS)4_id850_E-2.70.cif,LiZn2Cd4Ga(SeS)4,-2.7002,0.792,IR / Narrow-Gap,Semiconductor,P-42c,112,32
+Ge2TeAsSe2_id860_E-2.69.cif,Ge2TeAsSe2,-2.6925,0.743,IR / Narrow-Gap,Semiconductor,P4/mmm,123,6
+Li7Mg2Cd(TeSe3)2_id4799_E-2.68.cif,Li7Mg2Cd(TeSe3)2,-2.6812,0.342,IR / Narrow-Gap,Semiconductor,P2_1/c,14,36
+SrLiMg7AlSiTePS3O_id4565_E-2.68.cif,SrLiMg7AlSiTePS3O,-2.6811,1.527,Solar / Visible,Semiconductor,P2_1,4,34
+Ba3(CaTe)2_id733_E-2.68.cif,Ba3(CaTe)2,-2.6806,0.477,IR / Narrow-Gap,Semiconductor,P4/mmm,123,14
+K2Ba4NaLi8B4Sb4PO5_id1634_E-2.68.cif,K2Ba4NaLi8B4Sb4PO5,-2.6798,1.11,Solar / Visible,Semiconductor,P4,75,29
+Ba7O3_id1819_E-2.68.cif,Ba7O3,-2.6778,2.87,Wide-Gap Power/LED,Semiconductor,Cmc2_1,36,20
+KIn2(GaTe2)2_id1514_E-2.67.cif,KIn2(GaTe2)2,-2.6748,1.026,Solar / Visible,Semiconductor,I422,97,18
+KNa2Ge2As_id4807_E-2.67.cif,KNa2Ge2As,-2.669,0.379,IR / Narrow-Gap,Semiconductor,P-4n2,118,12
+Li8Te4As_id3389_E-2.66.cif,Li8Te4As,-2.6647,0.421,IR / Narrow-Gap,Semiconductor,Ccc2,37,52
+LiBeAsSeSN_id582_E-2.66.cif,LiBeAsSeSN,-2.6642,2.502,Wide-Gap Power/LED,Semiconductor,Pca2_1,29,24
+KCa4GeAs4_id2448_E-2.66.cif,KCa4GeAs4,-2.6635,0.773,IR / Narrow-Gap,Semiconductor,I4_1/a,88,40
+K4TeSe2_id3019_E-2.65.cif,K4TeSe2,-2.649,1.656,Solar / Visible,Semiconductor,P-42_1m,113,14
+Na(ZnSb)2_id1944_E-2.64.cif,Na(ZnSb)2,-2.6401,2.546,Wide-Gap Power/LED,Semiconductor,P3_121,152,15
+Na2As_id4993_E-2.63.cif,Na2As,-2.6322,0.785,IR / Narrow-Gap,Semiconductor,Pa-3,205,12
+K2P_id1175_E-2.63.cif,K2P,-2.6287,0.139,IR / Narrow-Gap,Semiconductor,Pa-3,205,12
+ZnGaS_id1965_E-2.62.cif,ZnGaS,-2.6211,1.932,Solar / Visible,Semiconductor,P6_522,179,18
+KBaNaSb2_id844_E-2.62.cif,KBaNaSb2,-2.6169,0.184,IR / Narrow-Gap,Semiconductor,Pcc2,27,20
+KGeS8_id2745_E-2.62.cif,KGeS8,-2.615,2.081,Solar / Visible,Semiconductor,Cmc2_1,36,40
+K5(LiTe2)2_id3477_E-2.61.cif,K5(LiTe2)2,-2.6122,1.666,Solar / Visible,Semiconductor,I222,23,22
+Li4Mg3(S4N)2_id4309_E-2.61.cif,Li4Mg3(S4N)2,-2.61,2.838,Wide-Gap Power/LED,Semiconductor,P2_1/c,14,34
+Cd4SbTe8Se_id3113_E-2.61.cif,Cd4SbTe8Se,-2.6077,1.129,Solar / Visible,Semiconductor,I4,79,28
+Zn5Ga2B(SeS)8_id3992_E-2.59.cif,Zn5Ga2B(SeS)8,-2.5863,1.597,Solar / Visible,Semiconductor,P-42c,112,48
+CdTe2_id1280_E-2.59.cif,CdTe2,-2.5853,0.699,IR / Narrow-Gap,Semiconductor,Pca2_1,29,12
+Zn2Cd(GaO2)2_id2312_E-2.57.cif,Zn2Cd(GaO2)2,-2.5713,0.062,IR / Narrow-Gap,Semiconductor,P4_2/m,84,18
+K3Ba2LiO2_id1774_E-2.57.cif,K3Ba2LiO2,-2.5688,2.822,Wide-Gap Power/LED,Semiconductor,P2/m,10,8
+BaSr2O_id3346_E-2.56.cif,BaSr2O,-2.5609,0.614,IR / Narrow-Gap,Semiconductor,P4_2/mmc,131,8
+CaCd2Ga4Si(GeSe2)4_id3624_E-2.56.cif,CaCd2Ga4Si(GeSe2)4,-2.5568,1.551,Solar / Visible,Semiconductor,I422,97,40
+NaCd(NO8)2_id1360_E-2.55.cif,NaCd(NO8)2,-2.5543,1.346,Solar / Visible,Semiconductor,P3_121,152,60
+Al2Zn2Ga3Si2_id3052_E-2.55.cif,Al2Zn2Ga3Si2,-2.5506,0.617,IR / Narrow-Gap,Semiconductor,P4_12_12,92,36
+AlGeS_id1769_E-2.53.cif,AlGeS,-2.5349,0.227,IR / Narrow-Gap,Semiconductor,P6_522,179,18
+Na4Ca4TiZn4Se4(SO)4_id4364_E-2.53.cif,Na4Ca4TiZn4Se4(SO)4,-2.5342,2.353,Wide-Gap Power/LED,Semiconductor,P2,3,50
+Na5SrCa4N2_id2961_E-2.52.cif,Na5SrCa4N2,-2.5235,0.605,IR / Narrow-Gap,Semiconductor,I4/mmm,139,24
+K4NaZn3O3_id3342_E-2.52.cif,K4NaZn3O3,-2.5175,1.065,Solar / Visible,Semiconductor,Pm-3n,223,22
+KBaNa2Zn2(InGe)2_id4086_E-2.52.cif,KBaNa2Zn2(InGe)2,-2.5151,2.103,Solar / Visible,Semiconductor,P-3m1,164,10
+KSn(AsS)2_id944_E-2.51.cif,KSn(AsS)2,-2.5101,0.076,IR / Narrow-Gap,Semiconductor,Pmmn,59,12
+MgZnSe_id3492_E-2.51.cif,MgZnSe,-2.5061,1.521,Solar / Visible,Semiconductor,Aea2,41,24
+KSn_id4591_E-2.50.cif,KSn,-2.502,0.446,IR / Narrow-Gap,Semiconductor,P3m1,156,4
+ZnCdS2O_id2227_E-2.50.cif,ZnCdS2O,-2.4961,1.645,Solar / Visible,Semiconductor,P4mm,99,5
+Na3CdSn4_id2997_E-2.49.cif,Na3CdSn4,-2.4907,0.178,IR / Narrow-Gap,Semiconductor,P4/mmm,123,8
+CdO_id3739_E-2.49.cif,CdO,-2.4896,0.152,IR / Narrow-Gap,Semiconductor,P4_2/mcm,132,16
+Na6Sn2Ge2AsSe_id1292_E-2.48.cif,Na6Sn2Ge2AsSe,-2.4799,0.129,IR / Narrow-Gap,Semiconductor,P-4m2,115,12
+KZn7O3_id609_E-2.48.cif,KZn7O3,-2.4787,0.355,IR / Narrow-Gap,Semiconductor,Pm-3n,223,22
+Li2Ti_id2725_E-2.47.cif,Li2Ti,-2.4728,0.729,IR / Narrow-Gap,Semiconductor,Cmme,67,24
+Ba2SrLi4Ga4Ge_id2422_E-2.47.cif,Ba2SrLi4Ga4Ge,-2.4696,0.413,IR / Narrow-Gap,Semiconductor,C222,21,24
+KNa6Li7(GaO2)3_id3466_E-2.47.cif,KNa6Li7(GaO2)3,-2.467,0.687,IR / Narrow-Gap,Semiconductor,P-31c,163,46
+Al3Te_id4961_E-2.46.cif,Al3Te,-2.4641,1.329,Solar / Visible,Semiconductor,P3c1,158,8
+Li5PO3_id3282_E-2.46.cif,Li5PO3,-2.4572,3.339,Wide-Gap Power/LED,Semiconductor,P-42_1m,113,36
+Ba3Se4_id3416_E-2.46.cif,Ba3Se4,-2.4565,0.467,IR / Narrow-Gap,Semiconductor,P6_3/m,176,14
+Li3Ga2_id1517_E-2.45.cif,Li3Ga2,-2.4514,0.288,IR / Narrow-Gap,Semiconductor,Cmce,64,20
+Na5Li2Cd2(TeS)2_id1205_E-2.45.cif,Na5Li2Cd2(TeS)2,-2.4474,1.838,Solar / Visible,Semiconductor,P4_22_12,94,52
+Zn3GaSi2_id937_E-2.45.cif,Zn3GaSi2,-2.4452,0.423,IR / Narrow-Gap,Semiconductor,I4_1,80,24
+Cd2In3O_id116_E-2.45.cif,Cd2In3O,-2.445,0.225,IR / Narrow-Gap,Semiconductor,Pn-3m,224,12
+K4Na3GaSb3AsP3_id3850_E-2.44.cif,K4Na3GaSb3AsP3,-2.4438,0.947,IR / Narrow-Gap,Semiconductor,P3,143,15
+KCdSb_id3054_E-2.44.cif,KCdSb,-2.4437,0.334,IR / Narrow-Gap,Semiconductor,Pmmm,47,6
+ZnTe_id1747_E-2.44.cif,ZnTe,-2.4394,0.301,IR / Narrow-Gap,Semiconductor,Pca2_1,29,8
+LiCd5(InSe2)2_id3795_E-2.43.cif,LiCd5(InSe2)2,-2.4253,2.074,Solar / Visible,Semiconductor,I-42d,122,48
+LiMg2As_id105_E-2.41.cif,LiMg2As,-2.4135,0.984,IR / Narrow-Gap,Semiconductor,P3_121,152,12
+AlZn3Ga2Te2Se10(SO2)2_id3842_E-2.41.cif,AlZn3Ga2Te2Se10(SO2)2,-2.4095,1.779,Solar / Visible,Semiconductor,Pnn2,34,48
+K4MgP4_id4930_E-2.41.cif,K4MgP4,-2.4054,1.455,Solar / Visible,Semiconductor,I4_1/a,88,36
+Te_id3575_E-2.41.cif,Te,-2.405,0.583,IR / Narrow-Gap,Semiconductor,P6_3/m,176,8
+Na3Te_id2259_E-2.41.cif,Na3Te,-2.405,0.195,IR / Narrow-Gap,Semiconductor,R-3,148,24
+LiCdIn2TeS2_id606_E-2.40.cif,LiCdIn2TeS2,-2.4046,1.122,Solar / Visible,Semiconductor,P4_22_12,94,28
+Al3ZnO4_id556_E-2.40.cif,Al3ZnO4,-2.4033,0.245,IR / Narrow-Gap,Semiconductor,P-42c,112,16
+Na4LiO_id3211_E-2.39.cif,Na4LiO,-2.3913,0.415,IR / Narrow-Gap,Semiconductor,C2/c,15,48
+K9CaIn6GaSbSe6_id773_E-2.39.cif,K9CaIn6GaSbSe6,-2.3872,1.467,Solar / Visible,Semiconductor,P-31c,163,48
+KCaZnS2_id4893_E-2.39.cif,KCaZnS2,-2.3868,2.826,Wide-Gap Power/LED,Semiconductor,P-42_1m,113,10
+Al9InGaTe3_id4492_E-2.38.cif,Al9InGaTe3,-2.3825,0.357,IR / Narrow-Gap,Semiconductor,P2_12_12,18,56
+Li2Si2Ge2As_id2730_E-2.38.cif,Li2Si2Ge2As,-2.3777,0.563,IR / Narrow-Gap,Semiconductor,P-4n2,118,14
+Ga3Ge2_id4407_E-2.36.cif,Ga3Ge2,-2.3613,2.021,Solar / Visible,Semiconductor,P4_132,213,20
+CdN_id433_E-2.36.cif,CdN,-2.3605,0.51,IR / Narrow-Gap,Semiconductor,P4/mmm,123,8
+K2Ba2ZnO_id2480_E-2.35.cif,K2Ba2ZnO,-2.3523,0.124,IR / Narrow-Gap,Semiconductor,Pa-3,205,24
+Li2ZnSb_id2100_E-2.35.cif,Li2ZnSb,-2.3519,0.744,IR / Narrow-Gap,Semiconductor,Iba2,45,32
+NaIn2_id1948_E-2.35.cif,NaIn2,-2.3494,0.419,IR / Narrow-Gap,Semiconductor,Pmma,51,6
+ZnCdP(NO)2_id4540_E-2.34.cif,ZnCdP(NO)2,-2.343,0.747,IR / Narrow-Gap,Semiconductor,Pccm,49,14
+KBaLi2Sb(SO2)4_id1561_E-2.34.cif,KBaLi2Sb(SO2)4,-2.3402,2.314,Wide-Gap Power/LED,Semiconductor,I222,23,34
+KNa2AlZn2AsS2_id3787_E-2.34.cif,KNa2AlZn2AsS2,-2.3378,0.688,IR / Narrow-Gap,Semiconductor,Imm2,44,18
+LiMg4Ti_id1235_E-2.33.cif,LiMg4Ti,-2.3348,2.26,Wide-Gap Power/LED,Semiconductor,I4_1/amd,141,24
+BaNaZnSn_id3215_E-2.33.cif,BaNaZnSn,-2.3328,0.532,IR / Narrow-Gap,Semiconductor,P4/nmm,129,8
+Na(Li2Ga)6_id3829_E-2.31.cif,Na(Li2Ga)6,-2.3134,0.622,IR / Narrow-Gap,Semiconductor,Im-3,204,38
+Ba2CaB4_id1584_E-2.31.cif,Ba2CaB4,-2.312,0.617,IR / Narrow-Gap,Semiconductor,P4_332,212,28
+NaLiInGa_id4546_E-2.31.cif,NaLiInGa,-2.3076,2.456,Wide-Gap Power/LED,Semiconductor,P4/nmm,129,8
+MgBeZn3O8_id3691_E-2.31.cif,MgBeZn3O8,-2.3064,3.233,Wide-Gap Power/LED,Semiconductor,P-43m,215,13
+Na2MgInSnGe2_id3075_E-2.30.cif,Na2MgInSnGe2,-2.3024,0.463,IR / Narrow-Gap,Semiconductor,P-4m2,115,7
+K2NaAs_id1631_E-2.30.cif,K2NaAs,-2.2951,0.349,IR / Narrow-Gap,Semiconductor,Fm-3m,225,16
+K4Li8Cd4In4GeAs(SeO)4_id3288_E-2.26.cif,K4Li8Cd4In4GeAs(SeO)4,-2.2606,0.218,IR / Narrow-Gap,Semiconductor,P4,75,30
+Na5Cd(PO)4_id1727_E-2.26.cif,Na5Cd(PO)4,-2.2569,1.207,Solar / Visible,Semiconductor,I4_1/a,88,56
+Ba2NaSrIn2_id3380_E-2.26.cif,Ba2NaSrIn2,-2.2566,0.052,IR / Narrow-Gap,Semiconductor,P-1,2,6
+Zn(Ga2Te)2_id3564_E-2.25.cif,Zn(Ga2Te)2,-2.2516,0.938,IR / Narrow-Gap,Semiconductor,P3_221,154,21
+K2Ba2Na2Sr2GaAs2Se3_id3686_E-2.24.cif,K2Ba2Na2Sr2GaAs2Se3,-2.2393,0.36,IR / Narrow-Gap,Semiconductor,Pbam,55,28
+BeAlZnGa_id1882_E-2.24.cif,BeAlZnGa,-2.2376,1.373,Solar / Visible,Semiconductor,P6_222,180,24
+KNa4GeS4_id2533_E-2.24.cif,KNa4GeS4,-2.236,1.465,Solar / Visible,Semiconductor,I222,23,20
+Ba4Sr3(ZnP2)3_id96_E-2.23.cif,Ba4Sr3(ZnP2)3,-2.2315,2.161,Solar / Visible,Semiconductor,P31m,157,16
+BaLi2PO_id2166_E-2.23.cif,BaLi2PO,-2.2263,0.351,IR / Narrow-Gap,Semiconductor,Pmmn,59,20
+K4NaAs4_id3548_E-2.21.cif,K4NaAs4,-2.2099,0.074,IR / Narrow-Gap,Semiconductor,P3,143,9
+Li3Mg5InTe12_id1619_E-2.21.cif,Li3Mg5InTe12,-2.2076,1.119,Solar / Visible,Semiconductor,P1,1,21
+Na6SbAs_id1152_E-2.21.cif,Na6SbAs,-2.207,1.342,Solar / Visible,Semiconductor,R-3,148,24
+Li3Cd7O2_id1077_E-2.20.cif,Li3Cd7O2,-2.2029,0.276,IR / Narrow-Gap,Semiconductor,C222,21,24
+NaMgIn6_id1603_E-2.20.cif,NaMgIn6,-2.2025,0.17,IR / Narrow-Gap,Semiconductor,P-31c,163,16
+Li14AlCd4GeAs4_id3931_E-2.20.cif,Li14AlCd4GeAs4,-2.1983,1.005,Solar / Visible,Semiconductor,I222,23,48
+Na2GaSb_id4924_E-2.19.cif,Na2GaSb,-2.1862,0.977,IR / Narrow-Gap,Semiconductor,P4_32_12,96,16
+KZn(CdTe)2_id1055_E-2.18.cif,KZn(CdTe)2,-2.1815,0.339,IR / Narrow-Gap,Semiconductor,P4_2/mmc,131,12
+K(InS)2_id1314_E-2.18.cif,K(InS)2,-2.1804,2.427,Wide-Gap Power/LED,Semiconductor,P3m1,156,5
+Zn4In2GaTe2_id2081_E-2.18.cif,Zn4In2GaTe2,-2.1774,1.365,Solar / Visible,Semiconductor,Pnn2,34,18
+LiMgS4_id1655_E-2.17.cif,LiMgS4,-2.1735,0.161,IR / Narrow-Gap,Semiconductor,Fd-3m,227,48
+Na7Li2GeSe2_id2313_E-2.16.cif,Na7Li2GeSe2,-2.1627,2.846,Wide-Gap Power/LED,Semiconductor,C222,21,24
+K7PO_id4781_E-2.16.cif,K7PO,-2.1615,1.195,Solar / Visible,Semiconductor,P6_322,182,18
+SrZn4(SiSn2)2_id1772_E-2.16.cif,SrZn4(SiSn2)2,-2.1561,0.766,IR / Narrow-Gap,Semiconductor,I-4c2,120,44
+K2GaGe_id1478_E-2.15.cif,K2GaGe,-2.1465,0.897,IR / Narrow-Gap,Semiconductor,Fm-3m,225,16
+NaIn_id4762_E-2.14.cif,NaIn,-2.1385,0.479,IR / Narrow-Gap,Semiconductor,I4_1/amd,141,8
+Mg2B_id2164_E-2.12.cif,Mg2B,-2.124,0.525,IR / Narrow-Gap,Semiconductor,P4_2cm,101,24
+Li2Ga4B_id3991_E-2.12.cif,Li2Ga4B,-2.1212,0.052,IR / Narrow-Gap,Semiconductor,P6_422,181,21
+K(ZnTe)2_id1444_E-2.11.cif,K(ZnTe)2,-2.105,0.255,IR / Narrow-Gap,Semiconductor,P4_122,91,20
+LiZnGeP_id2314_E-2.10.cif,LiZnGeP,-2.1042,0.776,IR / Narrow-Gap,Semiconductor,P6_222,180,24
+ZnGa_id2413_E-2.09.cif,ZnGa,-2.0893,2.354,Wide-Gap Power/LED,Semiconductor,Ibca,73,32
+K4NaIn4Ge_id4355_E-2.09.cif,K4NaIn4Ge,-2.0876,0.613,IR / Narrow-Gap,Semiconductor,P4nc,104,20
+AsO8_id1315_E-2.09.cif,AsO8,-2.0873,0.568,IR / Narrow-Gap,Semiconductor,P1,1,36
+Li2Ca5ZnPO_id1469_E-2.08.cif,Li2Ca5ZnPO,-2.085,1.701,Solar / Visible,Semiconductor,Pcc2,27,40
+K2Ba2NaSr(CdAs)2_id138_E-2.06.cif,K2Ba2NaSr(CdAs)2,-2.0649,0.283,IR / Narrow-Gap,Semiconductor,Pm,6,10
+GaGe(SO2)2_id788_E-2.06.cif,GaGe(SO2)2,-2.0644,2.43,Wide-Gap Power/LED,Semiconductor,P1,1,16
+KNa6ZnSbAs_id3819_E-2.06.cif,KNa6ZnSbAs,-2.0615,0.176,IR / Narrow-Gap,Semiconductor,P312,149,10
+Sc(ZnIn)2_id3765_E-2.05.cif,Sc(ZnIn)2,-2.047,1.658,Solar / Visible,Semiconductor,C222,21,20
+Na2Li16ScZnO3_id4475_E-2.05.cif,Na2Li16ScZnO3,-2.0452,1.418,Solar / Visible,Semiconductor,P312,149,46
+Ca(Ga2Si)6_id4702_E-2.04.cif,Ca(Ga2Si)6,-2.0441,0.377,IR / Narrow-Gap,Semiconductor,Im-3,204,38
+Sr3Zn2O_id4065_E-2.04.cif,Sr3Zn2O,-2.0407,0.517,IR / Narrow-Gap,Semiconductor,Pn-3m,224,12
+Ca3(MgIn3)2_id3414_E-2.04.cif,Ca3(MgIn3)2,-2.0398,0.063,IR / Narrow-Gap,Semiconductor,Cmce,64,44
+Na3In3Sn2_id2500_E-2.03.cif,Na3In3Sn2,-2.0311,0.868,IR / Narrow-Gap,Semiconductor,P-1,2,16
+AlZn3Se2_id2809_E-2.02.cif,AlZn3Se2,-2.0222,1.915,Solar / Visible,Semiconductor,I4/mmm,139,12
+Ba4Na4ZnSb_id4590_E-2.02.cif,Ba4Na4ZnSb,-2.0183,0.546,IR / Narrow-Gap,Semiconductor,P4/mcc,124,20
+Sr2Al4Cd(NO)4_id3431_E-2.01.cif,Sr2Al4Cd(NO)4,-2.0066,1.74,Solar / Visible,Semiconductor,I4_1/a,88,60
+KLiGe_id968_E-2.00.cif,KLiGe,-2.0033,0.316,IR / Narrow-Gap,Semiconductor,P6_1,169,18
+CaIn4Sb_id3303_E-2.00.cif,CaIn4Sb,-2.0,0.071,IR / Narrow-Gap,Semiconductor,I4/mmm,139,12
+Sb3Te2(Se2S)2_id1474_E-2.00.cif,Sb3Te2(Se2S)2,-1.9958,2.496,Wide-Gap Power/LED,Semiconductor,Iba2,45,44
+GaTe2_id3776_E-2.00.cif,GaTe2,-1.9954,2.674,Wide-Gap Power/LED,Semiconductor,P432,207,36
+K2Ge_id1951_E-1.99.cif,K2Ge,-1.9883,0.167,IR / Narrow-Gap,Semiconductor,Pa-3,205,12
+Ca3Sc3CdIn2Ga_id4092_E-1.99.cif,Ca3Sc3CdIn2Ga,-1.9854,0.35,IR / Narrow-Gap,Semiconductor,P1,1,60
+ZnTe3S_id3050_E-1.98.cif,ZnTe3S,-1.9797,0.918,IR / Narrow-Gap,Semiconductor,Pn-3,201,40
+K4Ba4P3_id47_E-1.98.cif,K4Ba4P3,-1.9776,0.609,IR / Narrow-Gap,Semiconductor,I-43d,220,44
+AlZn11S4_id3063_E-1.96.cif,AlZn11S4,-1.9645,1.862,Solar / Visible,Semiconductor,P-42c,112,32
+NaIn2_id1017_E-1.96.cif,NaIn2,-1.9568,0.073,IR / Narrow-Gap,Semiconductor,P4_2cm,101,24
+NaLi3Sn3Sb3Te2_id4024_E-1.95.cif,NaLi3Sn3Sb3Te2,-1.9462,0.982,IR / Narrow-Gap,Semiconductor,P3c1,158,24
+Li2TiBeZn3InGaSn2SbTe7PSe_id992_E-1.94.cif,Li2TiBeZn3InGaSn2SbTe7PSe,-1.9443,1.409,Solar / Visible,Semiconductor,P1,1,21
+In11Ga_id4326_E-1.94.cif,In11Ga,-1.9403,0.529,IR / Narrow-Gap,Semiconductor,P2/m,10,12
+TiZn2_id2107_E-1.94.cif,TiZn2,-1.9373,1.945,Solar / Visible,Semiconductor,P4/nmm,129,12
+Na5Cd2(InTe)2_id3285_E-1.92.cif,Na5Cd2(InTe)2,-1.9218,0.184,IR / Narrow-Gap,Semiconductor,P3_112,151,33
+CaMg4Te_id876_E-1.92.cif,CaMg4Te,-1.9212,0.083,IR / Narrow-Gap,Semiconductor,I4_1/a,88,24
+Na2Li2Te3_id4945_E-1.91.cif,Na2Li2Te3,-1.9117,0.052,IR / Narrow-Gap,Semiconductor,I4_132,214,28
+Li4Ga_id3144_E-1.91.cif,Li4Ga,-1.9061,0.103,IR / Narrow-Gap,Semiconductor,Pn-3n,222,60
+KBe2BAs2_id1119_E-1.90.cif,KBe2BAs2,-1.9031,0.395,IR / Narrow-Gap,Semiconductor,P6_422,181,18
+Ba2P2O3_id3229_E-1.89.cif,Ba2P2O3,-1.8881,2.679,Wide-Gap Power/LED,Semiconductor,P-42_1m,113,14
+Cd2Te_id1475_E-1.89.cif,Cd2Te,-1.886,0.242,IR / Narrow-Gap,Semiconductor,P2_12_12_1,19,12
+K4Sb3(Te3Se2)2_id637_E-1.85.cif,K4Sb3(Te3Se2)2,-1.8486,0.365,IR / Narrow-Gap,Semiconductor,C2,5,34
+Na2CaSc2InGa_id2193_E-1.84.cif,Na2CaSc2InGa,-1.835,0.4,IR / Narrow-Gap,Semiconductor,P4/nmm,129,14
+Li6Zn_id103_E-1.83.cif,Li6Zn,-1.8332,0.065,IR / Narrow-Gap,Semiconductor,Fm-3m,225,28
+KGa_id3918_E-1.81.cif,KGa,-1.8111,0.232,IR / Narrow-Gap,Semiconductor,Pcc2,27,8
+Li4Mg4Cd2GaGe_id2237_E-1.81.cif,Li4Mg4Cd2GaGe,-1.8073,2.679,Wide-Gap Power/LED,Semiconductor,Amm2,38,24
+Cd(In3Sn)3_id491_E-1.79.cif,Cd(In3Sn)3,-1.7881,0.051,IR / Narrow-Gap,Semiconductor,P-6m2,187,13
+Ba4Mg2CdIn2_id2414_E-1.77.cif,Ba4Mg2CdIn2,-1.7694,2.242,Wide-Gap Power/LED,Semiconductor,P4_22_12,94,18
+K7Na3Li6Cd2Ga2Sn2(SeS3)2_id4173_E-1.77.cif,K7Na3Li6Cd2Ga2Sn2(SeS3)2,-1.7672,2.861,Wide-Gap Power/LED,Semiconductor,P1,1,60
+Li(MgSn)2_id4440_E-1.76.cif,Li(MgSn)2,-1.7573,0.207,IR / Narrow-Gap,Semiconductor,P6_222,180,15
+Na7Mg3Cd2SnGeAs_id3034_E-1.75.cif,Na7Mg3Cd2SnGeAs,-1.751,0.094,IR / Narrow-Gap,Semiconductor,P2_12_12_1,19,60
+ZnCdO30_id1128_E-1.74.cif,ZnCdO30,-1.7406,1.185,Solar / Visible,Semiconductor,P23,195,32
+MgAlIn_id3274_E-1.74.cif,MgAlIn,-1.7404,0.179,IR / Narrow-Gap,Semiconductor,P4/mmm,123,12
+Li4Mg4Al(Zn2Ga)4_id2626_E-1.73.cif,Li4Mg4Al(Zn2Ga)4,-1.7259,0.219,IR / Narrow-Gap,Semiconductor,P-42_1c,114,42
+LiBeZn4Ga10Si_id336_E-1.72.cif,LiBeZn4Ga10Si,-1.7175,0.074,IR / Narrow-Gap,Semiconductor,P1,1,34
+NaGa_id4720_E-1.70.cif,NaGa,-1.7048,0.077,IR / Narrow-Gap,Semiconductor,P4_122,91,8
+LiGeBO4_id3248_E-1.70.cif,LiGeBO4,-1.7015,0.776,IR / Narrow-Gap,Semiconductor,Pca2_1,29,28
+K11O2_id4538_E-1.68.cif,K11O2,-1.6836,1.476,Solar / Visible,Semiconductor,P6/mmm,191,13
+CaMg3(TeSe3)2_id4771_E-1.68.cif,CaMg3(TeSe3)2,-1.6773,1.396,Solar / Visible,Semiconductor,Iba2,45,48
+SbAs13Se(SO3)2_id3817_E-1.67.cif,SbAs13Se(SO3)2,-1.6739,0.078,IR / Narrow-Gap,Semiconductor,P2,3,23
+Ca4Sb2P2O9_id3116_E-1.67.cif,Ca4Sb2P2O9,-1.6699,0.087,IR / Narrow-Gap,Semiconductor,P4/n,85,34
+KSnSb2_id3468_E-1.67.cif,KSnSb2,-1.6674,2.758,Wide-Gap Power/LED,Semiconductor,P4_2bc,106,32
+Na2In_id156_E-1.66.cif,Na2In,-1.6599,0.354,IR / Narrow-Gap,Semiconductor,P6mm,183,9
+K3Na2O_id1409_E-1.66.cif,K3Na2O,-1.6593,1.319,Solar / Visible,Semiconductor,C2,5,12
+Ga2TeAsPS_id3169_E-1.65.cif,Ga2TeAsPS,-1.6545,0.362,IR / Narrow-Gap,Semiconductor,P4/nmm,129,12
+K2(NaIn)3_id1675_E-1.64.cif,K2(NaIn)3,-1.6438,0.17,IR / Narrow-Gap,Semiconductor,P-3c1,165,32
+Na4In3_id3984_E-1.63.cif,Na4In3,-1.6343,0.195,IR / Narrow-Gap,Semiconductor,P4/mmm,123,7
+K8Ge2Sb_id3212_E-1.63.cif,K8Ge2Sb,-1.6251,1.163,Solar / Visible,Semiconductor,P4_2nm,102,22
+K4Sn_id1240_E-1.62.cif,K4Sn,-1.6235,0.194,IR / Narrow-Gap,Semiconductor,P6/mmm,191,20
+K4Sr4Li6Be8Al4Si_id3613_E-1.62.cif,K4Sr4Li6Be8Al4Si,-1.6212,2.532,Wide-Gap Power/LED,Semiconductor,P4,75,27
+KCdGa_id2621_E-1.61.cif,KCdGa,-1.6137,0.198,IR / Narrow-Gap,Semiconductor,P4_2/mmc,131,12
+K5BaSrInGaSb6_id1040_E-1.60.cif,K5BaSrInGaSb6,-1.6043,2.987,Wide-Gap Power/LED,Semiconductor,P3,143,15
+K7ScAlSi_id2323_E-1.60.cif,K7ScAlSi,-1.5999,0.822,IR / Narrow-Gap,Semiconductor,P312,149,10
+Ti2Sn2Sb_id2057_E-1.59.cif,Ti2Sn2Sb,-1.5937,0.821,IR / Narrow-Gap,Semiconductor,Pm,6,20
+Li(ZnGa)2_id4666_E-1.59.cif,Li(ZnGa)2,-1.5928,0.214,IR / Narrow-Gap,Semiconductor,P4_2/nmc,137,10
+K2NaBePO_id4133_E-1.59.cif,K2NaBePO,-1.5919,1.746,Solar / Visible,Semiconductor,P1,1,18
+Li5AlSn_id2084_E-1.59.cif,Li5AlSn,-1.5863,0.352,IR / Narrow-Gap,Semiconductor,I4_1md,109,28
+K11GaPO2_id2428_E-1.58.cif,K11GaPO2,-1.5819,0.93,IR / Narrow-Gap,Semiconductor,Pm,6,15
+Ba_id2948_E-1.57.cif,Ba,-1.5714,0.054,IR / Narrow-Gap,Semiconductor,P-6m2,187,5
+K3Na4In7Ga9_id2803_E-1.57.cif,K3Na4In7Ga9,-1.5674,0.255,IR / Narrow-Gap,Semiconductor,P-62m,189,23
+K3Sb_id4676_E-1.56.cif,K3Sb,-1.5639,1.513,Solar / Visible,Semiconductor,P4_132,213,16
+AlIn4O16_id3471_E-1.55.cif,AlIn4O16,-1.5459,0.674,IR / Narrow-Gap,Semiconductor,P-43m,215,21
+K2In_id2058_E-1.55.cif,K2In,-1.5459,0.096,IR / Narrow-Gap,Semiconductor,Ibca,73,24
+K3CaScZn3O6_id3124_E-1.52.cif,K3CaScZn3O6,-1.5225,0.086,IR / Narrow-Gap,Semiconductor,P6_3cm,185,56
+K3LiGa3_id4630_E-1.52.cif,K3LiGa3,-1.52,0.061,IR / Narrow-Gap,Semiconductor,Pm-3,200,14
+Si_id3133_E-1.51.cif,Si,-1.5127,0.205,IR / Narrow-Gap,Semiconductor,Amm2,38,16
+TiAl4Zn_id2121_E-1.51.cif,TiAl4Zn,-1.5095,2.05,Solar / Visible,Semiconductor,P4mm,99,12
+K6NaSrO4_id2070_E-1.50.cif,K6NaSrO4,-1.504,0.088,IR / Narrow-Gap,Semiconductor,P-4c2,116,24
+KZn4Si_id4983_E-1.50.cif,KZn4Si,-1.5006,0.383,IR / Narrow-Gap,Semiconductor,I4_1/a,88,24
+Na7Cd7SnSb_id742_E-1.49.cif,Na7Cd7SnSb,-1.4936,1.263,Solar / Visible,Semiconductor,P312,149,16
+K6NaLiAlCd3In9Ga3SnTe(AsSe)3_id3326_E-1.49.cif,K6NaLiAlCd3In9Ga3SnTe(AsSe)3,-1.4865,0.111,IR / Narrow-Gap,Semiconductor,P3,143,32
+Ge_id735_E-1.47.cif,Ge,-1.4668,0.495,IR / Narrow-Gap,Semiconductor,P6/mmm,191,7
+Li5Mg2GeO12_id177_E-1.46.cif,Li5Mg2GeO12,-1.457,2.906,Wide-Gap Power/LED,Semiconductor,I-42m,121,40
+KScTi2ZnCN_id3533_E-1.44.cif,KScTi2ZnCN,-1.4419,0.991,IR / Narrow-Gap,Semiconductor,P3_1,144,21
+Ba4Na2In_id2346_E-1.42.cif,Ba4Na2In,-1.4233,0.172,IR / Narrow-Gap,Semiconductor,C2/m,12,14
+Li2Mg2CdTe2_id3770_E-1.41.cif,Li2Mg2CdTe2,-1.4144,3.178,Wide-Gap Power/LED,Semiconductor,P3m1,156,7
+O2_id3494_E-1.41.cif,O2,-1.4131,1.149,Solar / Visible,Semiconductor,Pba2,32,18
+Ba_id80_E-1.41.cif,Ba,-1.4112,0.127,IR / Narrow-Gap,Semiconductor,P-4c2,116,16
+K2LiCd(InSn)2_id2909_E-1.40.cif,K2LiCd(InSn)2,-1.3971,0.174,IR / Narrow-Gap,Semiconductor,R-3m,166,24
+Na3Sr2Li7Sc(TeAs)2_id4354_E-1.40.cif,Na3Sr2Li7Sc(TeAs)2,-1.3955,2.083,Solar / Visible,Semiconductor,P4_2nm,102,34
+Li2Al4Zn7Ga_id2940_E-1.39.cif,Li2Al4Zn7Ga,-1.3914,2.352,Wide-Gap Power/LED,Semiconductor,Pbam,55,28
+K5Sb_id1187_E-1.39.cif,K5Sb,-1.3855,0.067,IR / Narrow-Gap,Semiconductor,P3m1,156,6
+K2Ga3_id4951_E-1.38.cif,K2Ga3,-1.3818,0.219,IR / Narrow-Gap,Semiconductor,P4/nnc,126,40
+Na2Li(MgIn)3_id632_E-1.38.cif,Na2Li(MgIn)3,-1.3791,2.508,Wide-Gap Power/LED,Semiconductor,P-3c1,165,36
+K2AlCd4_id881_E-1.37.cif,K2AlCd4,-1.368,0.08,IR / Narrow-Gap,Semiconductor,I4_1/a,88,28
+Li3Be3Al2In4(GaAs)3_id385_E-1.36.cif,Li3Be3Al2In4(GaAs)3,-1.3609,0.275,IR / Narrow-Gap,Semiconductor,P6mm,183,18
+K4Li3Mg(CdIn)2_id335_E-1.36.cif,K4Li3Mg(CdIn)2,-1.3607,0.168,IR / Narrow-Gap,Semiconductor,P-42_1c,114,24
+KZn2In2P_id3320_E-1.36.cif,KZn2In2P,-1.3563,0.169,IR / Narrow-Gap,Semiconductor,P4_32_12,96,24
+Na6Ga2Ge_id1790_E-1.35.cif,Na6Ga2Ge,-1.3526,0.052,IR / Narrow-Gap,Semiconductor,Cccm,66,36
+Na2TiBO10_id1211_E-1.35.cif,Na2TiBO10,-1.3503,2.629,Wide-Gap Power/LED,Semiconductor,P2/c,13,28
+Ba3Ti6Sb2Te3As6(SO)3_id1389_E-1.35.cif,Ba3Ti6Sb2Te3As6(SO)3,-1.3467,0.708,IR / Narrow-Gap,Semiconductor,P6mm,183,26
+Li4Ca4MgCd2O4_id3330_E-1.33.cif,Li4Ca4MgCd2O4,-1.326,0.062,IR / Narrow-Gap,Semiconductor,P4_2/n,86,30
+Li7S2_id2642_E-1.32.cif,Li7S2,-1.3236,1.942,Solar / Visible,Semiconductor,I4/mmm,139,36
+Ba2NaSr3Ca2MgSn_id2951_E-1.32.cif,Ba2NaSr3Ca2MgSn,-1.3226,0.134,IR / Narrow-Gap,Semiconductor,Pm,6,40
+K2CdGa_id1461_E-1.31.cif,K2CdGa,-1.3135,0.293,IR / Narrow-Gap,Semiconductor,P4/mmm,123,8
+K6BaNaIn3_id395_E-1.31.cif,K6BaNaIn3,-1.3052,0.076,IR / Narrow-Gap,Semiconductor,P-31c,163,22
+NaMg2Cd4Ga_id2415_E-1.30.cif,NaMg2Cd4Ga,-1.2995,0.08,IR / Narrow-Gap,Semiconductor,C2/m,12,16
+TiSbTe10Se8S_id4382_E-1.29.cif,TiSbTe10Se8S,-1.2859,0.561,IR / Narrow-Gap,Semiconductor,P2_1,4,42
+BaNa6SrMgTi_id3237_E-1.28.cif,BaNa6SrMgTi,-1.2819,0.111,IR / Narrow-Gap,Semiconductor,P312,149,10
+Na3Al3Zn3Cd4_id3605_E-1.28.cif,Na3Al3Zn3Cd4,-1.2762,2.865,Wide-Gap Power/LED,Semiconductor,Pm,6,26
+Li3Ti2ZnIn2_id4775_E-1.26.cif,Li3Ti2ZnIn2,-1.2599,1.596,Solar / Visible,Semiconductor,P4_2mc,105,16
+BaSrGaGe2_id2755_E-1.25.cif,BaSrGaGe2,-1.2483,0.063,IR / Narrow-Gap,Semiconductor,P3_221,154,15
+Ba3NaZn_id1526_E-1.23.cif,Ba3NaZn,-1.232,0.476,IR / Narrow-Gap,Semiconductor,Pm-3m,221,5
+LiMg4Sb_id4718_E-1.23.cif,LiMg4Sb,-1.2313,1.68,Solar / Visible,Semiconductor,I4_1/amd,141,24
+K4Ba4Sr4LiMg4CdSn4_id1555_E-1.22.cif,K4Ba4Sr4LiMg4CdSn4,-1.2202,0.113,IR / Narrow-Gap,Semiconductor,P4nc,104,44
+Na2SrCa4GaSiO_id2554_E-1.22.cif,Na2SrCa4GaSiO,-1.2192,1.263,Solar / Visible,Semiconductor,P4/nmm,129,20
+Na4SrZn2_id3175_E-1.22.cif,Na4SrZn2,-1.2165,0.904,IR / Narrow-Gap,Semiconductor,Pban,50,14
+NaZn_id3085_E-1.20.cif,NaZn,-1.1981,0.099,IR / Narrow-Gap,Semiconductor,I4_1/acd,142,32
+K2Ca2O7_id3201_E-1.20.cif,K2Ca2O7,-1.1965,1.503,Solar / Visible,Semiconductor,P31m,157,33
+KNa6LiGa2_id1275_E-1.19.cif,KNa6LiGa2,-1.1939,0.637,IR / Narrow-Gap,Semiconductor,P321,150,10
+Ba(SnTe3)2_id912_E-1.19.cif,Ba(SnTe3)2,-1.1902,0.858,IR / Narrow-Gap,Semiconductor,I4/mmm,139,18
+Ca3TeO3_id2357_E-1.18.cif,Ca3TeO3,-1.1775,1.668,Solar / Visible,Semiconductor,R-3,148,42
+Li4Ca4Mg4Zn4Cd4Ga9_id4998_E-1.17.cif,Li4Ca4Mg4Zn4Cd4Ga9,-1.1696,1.411,Solar / Visible,Semiconductor,P4_2/n,86,58
+Na3Cd_id3887_E-1.16.cif,Na3Cd,-1.1566,0.616,IR / Narrow-Gap,Semiconductor,Im-3m,229,8
+Na7Zn3_id1250_E-1.15.cif,Na7Zn3,-1.149,0.321,IR / Narrow-Gap,Semiconductor,I-43d,220,40
+K2ZnGa_id3772_E-1.12.cif,K2ZnGa,-1.1209,0.204,IR / Narrow-Gap,Semiconductor,P4_2/m,84,16
+Na4Zn3_id1269_E-1.10.cif,Na4Zn3,-1.1009,0.103,IR / Narrow-Gap,Semiconductor,I-43d,220,28
+KZnCd_id1440_E-1.10.cif,KZnCd,-1.0987,0.06,IR / Narrow-Gap,Semiconductor,Cmcm,63,12
+Mg5Zn6Cd4Ga_id1927_E-1.08.cif,Mg5Zn6Cd4Ga,-1.0784,1.221,Solar / Visible,Semiconductor,P-6m2,187,16
+Ca_id4535_E-1.07.cif,Ca,-1.0737,0.055,IR / Narrow-Gap,Semiconductor,P-1,2,15
+Na_id222_E-1.05.cif,Na,-1.0521,0.242,IR / Narrow-Gap,Semiconductor,I4/mmm,139,10
+Ca4Si_id2684_E-1.05.cif,Ca4Si,-1.052,0.476,IR / Narrow-Gap,Semiconductor,Ccce,68,20
+KCd4In_id557_E-1.03.cif,KCd4In,-1.0324,0.566,IR / Narrow-Gap,Semiconductor,P-4c2,116,12
+MgZn5Cd2Te8(SeS)4_id1558_E-1.03.cif,MgZn5Cd2Te8(SeS)4,-1.0284,1.04,Solar / Visible,Semiconductor,P-42c,112,48
+K4SiAs4(Se2S)2_id2818_E-0.98.cif,K4SiAs4(Se2S)2,-0.9826,0.292,IR / Narrow-Gap,Semiconductor,Pn-3m,224,30
+CaNO13_id4414_E-0.98.cif,CaNO13,-0.9814,1.841,Solar / Visible,Semiconductor,P31c,159,30
+BaNa(LiMg)3_id4952_E-0.98.cif,BaNa(LiMg)3,-0.9794,3.216,Wide-Gap Power/LED,Semiconductor,C2,5,48
+K5NaZnIn_id407_E-0.97.cif,K5NaZnIn,-0.9717,0.303,IR / Narrow-Gap,Semiconductor,Pcc2,27,32
+Na8LiMg3_id4840_E-0.95.cif,Na8LiMg3,-0.9512,0.938,IR / Narrow-Gap,Semiconductor,P2/c,13,24
+K5(NaGa)2_id3509_E-0.94.cif,K5(NaGa)2,-0.939,0.052,IR / Narrow-Gap,Semiconductor,Pcc2,27,36
+Na2MgCd3_id3459_E-0.93.cif,Na2MgCd3,-0.9265,0.054,IR / Narrow-Gap,Semiconductor,Pbam,55,12
+Mg2ZnGaSi2P_id1803_E-0.92.cif,Mg2ZnGaSi2P,-0.9224,0.854,IR / Narrow-Gap,Semiconductor,Pnma,62,28
+BeZn4Cd(Ga3O8)2_id4337_E-0.92.cif,BeZn4Cd(Ga3O8)2,-0.9218,2.727,Wide-Gap Power/LED,Semiconductor,P-42c,112,56
+KGa3SiSn_id83_E-0.92.cif,KGa3SiSn,-0.9204,0.177,IR / Narrow-Gap,Semiconductor,P-6m2,187,6
+KCd2_id4203_E-0.92.cif,KCd2,-0.9185,0.384,IR / Narrow-Gap,Semiconductor,P-4c2,116,18
+Na2LiMgCd6In3O9_id4276_E-0.92.cif,Na2LiMgCd6In3O9,-0.918,2.491,Wide-Gap Power/LED,Semiconductor,P31m,157,22
+K4NaCd2In_id2240_E-0.92.cif,K4NaCd2In,-0.9175,0.519,IR / Narrow-Gap,Semiconductor,Pbam,55,16
+K_id724_E-0.92.cif,K,-0.9171,0.268,IR / Narrow-Gap,Semiconductor,P2_12_12,18,40
+K(NaCd2)2_id1907_E-0.91.cif,K(NaCd2)2,-0.9128,0.314,IR / Narrow-Gap,Semiconductor,P4_22_12,94,28
+KCd_id2673_E-0.91.cif,KCd,-0.9116,0.287,IR / Narrow-Gap,Semiconductor,P4/mmm,123,8
+KNa6LiGa6_id2894_E-0.91.cif,KNa6LiGa6,-0.9115,0.46,IR / Narrow-Gap,Semiconductor,P-31c,163,28
+LiZn2_id3185_E-0.91.cif,LiZn2,-0.9058,0.088,IR / Narrow-Gap,Semiconductor,Pn-3m,224,6
+KNa6(CaCd3)2_id4307_E-0.90.cif,KNa6(CaCd3)2,-0.901,0.107,IR / Narrow-Gap,Semiconductor,P-3c1,165,30
+Na_id4146_E-0.90.cif,Na,-0.8997,0.083,IR / Narrow-Gap,Semiconductor,Im-3m,229,26
+LiCd_id3888_E-0.90.cif,LiCd,-0.8956,2.181,Solar / Visible,Semiconductor,P6_2,171,24
+KNaMg_id133_E-0.87.cif,KNaMg,-0.8686,2.757,Wide-Gap Power/LED,Semiconductor,I4/mcm,140,24
+Li6Ga_id583_E-0.86.cif,Li6Ga,-0.8632,0.184,IR / Narrow-Gap,Semiconductor,R-3m,166,21
+BaO22_id265_E-0.86.cif,BaO22,-0.8626,1.279,Solar / Visible,Semiconductor,P6/mmm,191,23
+NaSr2_id662_E-0.84.cif,NaSr2,-0.8386,1.025,Solar / Visible,Semiconductor,P-3c1,165,24
+Na_id354_E-0.84.cif,Na,-0.8379,0.863,IR / Narrow-Gap,Semiconductor,P2,3,37
+AlSi3SnTe5S4_id2646_E-0.83.cif,AlSi3SnTe5S4,-0.828,1.46,Solar / Visible,Semiconductor,P2_12_12_1,19,56
+Ca4Mg11_id1832_E-0.83.cif,Ca4Mg11,-0.827,0.115,IR / Narrow-Gap,Semiconductor,P-6m2,187,15
+Cd4Ga_id594_E-0.81.cif,Cd4Ga,-0.8099,0.155,IR / Narrow-Gap,Semiconductor,P6/mmm,191,5
+Ba2Na3Ca4_id4009_E-0.80.cif,Ba2Na3Ca4,-0.8024,0.756,IR / Narrow-Gap,Semiconductor,P6/mmm,191,9
+K6LiMgAl6(Te4O15)2_id2439_E-0.79.cif,K6LiMgAl6(Te4O15)2,-0.7865,1.303,Solar / Visible,Semiconductor,P321,150,52
+K4Na_id3405_E-0.78.cif,K4Na,-0.7796,0.338,IR / Narrow-Gap,Semiconductor,P-31m,162,15
+BaSr2Ca_id1223_E-0.75.cif,BaSr2Ca,-0.7525,0.341,IR / Narrow-Gap,Semiconductor,Pmma,51,8
+AsPS19_id967_E-0.75.cif,AsPS19,-0.752,2.124,Solar / Visible,Semiconductor,P1,1,42
+Na4Li5Cd2Sn5_id1420_E-0.74.cif,Na4Li5Cd2Sn5,-0.743,3.207,Wide-Gap Power/LED,Semiconductor,Pmm2,25,16
+K_id1487_E-0.73.cif,K,-0.7332,0.056,IR / Narrow-Gap,Semiconductor,Pm,6,14
+Zn_id4455_E-0.73.cif,Zn,-0.7301,1.77,Solar / Visible,Semiconductor,P2_12_12_1,19,28
+Mg5Zn2In_id1515_E-0.69.cif,Mg5Zn2In,-0.6937,2.667,Wide-Gap Power/LED,Semiconductor,P1,1,16
+KNa2LiCd2Sn_id639_E-0.69.cif,KNa2LiCd2Sn,-0.6862,0.261,IR / Narrow-Gap,Semiconductor,P2_1,4,28
+K2NaCd_id1570_E-0.68.cif,K2NaCd,-0.679,0.472,IR / Narrow-Gap,Semiconductor,Cmme,67,16
+K4BaNa4_id90_E-0.65.cif,K4BaNa4,-0.6515,0.806,IR / Narrow-Gap,Semiconductor,P4_2/n,86,18
+KIn2GaSn6Se4(S2O3)2_id154_E-0.65.cif,KIn2GaSn6Se4(S2O3)2,-0.6504,1.064,Solar / Visible,Semiconductor,P-1,2,24
+Zn_id4291_E-0.64.cif,Zn,-0.6399,1.631,Solar / Visible,Semiconductor,Pmma,51,18
+Mg6Cd_id1273_E-0.64.cif,Mg6Cd,-0.639,0.477,IR / Narrow-Gap,Semiconductor,P4_2/nnm,134,14
+K3AlCd_id408_E-0.64.cif,K3AlCd,-0.6372,1.264,Solar / Visible,Semiconductor,P4_2mc,105,10
+Cd2Sn_id39_E-0.63.cif,Cd2Sn,-0.6254,0.128,IR / Narrow-Gap,Semiconductor,P4mm,99,12
+K5Zn2Cd3_id130_E-0.59.cif,K5Zn2Cd3,-0.5895,0.121,IR / Narrow-Gap,Semiconductor,C222,21,20
+CdO12_id1265_E-0.58.cif,CdO12,-0.5797,1.323,Solar / Visible,Semiconductor,R-3,148,39
+KLi2As4O3_id4853_E-0.58.cif,KLi2As4O3,-0.5778,2.238,Wide-Gap Power/LED,Semiconductor,C222,21,20
+KBeZn(PO5)3_id4518_E-0.57.cif,KBeZn(PO5)3,-0.5705,2.866,Wide-Gap Power/LED,Semiconductor,P-6,174,21
+K3Zn2_id2883_E-0.56.cif,K3Zn2,-0.5643,0.09,IR / Narrow-Gap,Semiconductor,I4/mcm,140,20
+Li24Mg12ZnCd3_id4179_E-0.55.cif,Li24Mg12ZnCd3,-0.5547,0.2,IR / Narrow-Gap,Semiconductor,Pm-3m,221,40
+Mg6ZnCd_id3357_E-0.53.cif,Mg6ZnCd,-0.5286,0.058,IR / Narrow-Gap,Semiconductor,Pmmm,47,8
+Ba15In_id1879_E-0.53.cif,Ba15In,-0.5267,0.763,IR / Narrow-Gap,Semiconductor,I4mm,107,32
+K5(SeS)4_id1659_E-0.53.cif,K5(SeS)4,-0.5263,0.68,IR / Narrow-Gap,Semiconductor,P4_2/m,84,52
+Li2Mg6Zn2Si_id3453_E-0.50.cif,Li2Mg6Zn2Si,-0.4979,1.167,Solar / Visible,Semiconductor,P4_2/m,84,22
+LiCd5Sn2_id3542_E-0.50.cif,LiCd5Sn2,-0.4955,0.267,IR / Narrow-Gap,Semiconductor,P4/mmm,123,16
+Mg2Cd2InGa_id895_E-0.49.cif,Mg2Cd2InGa,-0.4901,0.153,IR / Narrow-Gap,Semiconductor,P4mm,99,6
+Li12MgAlZn5Cd2_id4193_E-0.43.cif,Li12MgAlZn5Cd2,-0.4348,0.329,IR / Narrow-Gap,Semiconductor,P2_1,4,42
+K2Zn2SnGeSb2(AsO3)2_id1840_E-0.41.cif,K2Zn2SnGeSb2(AsO3)2,-0.4087,1.424,Solar / Visible,Semiconductor,Pnn2,34,32
+Na2Sr2Ca4Cd_id4865_E-0.39.cif,Na2Sr2Ca4Cd,-0.3877,0.095,IR / Narrow-Gap,Semiconductor,P422,89,18
+Li(CaMg11)3_id1191_E-0.38.cif,Li(CaMg11)3,-0.3803,0.564,IR / Narrow-Gap,Semiconductor,Pm,6,37
+Ba2Na4Li2Mg_id1217_E-0.37.cif,Ba2Na4Li2Mg,-0.3701,0.163,IR / Narrow-Gap,Semiconductor,P1,1,36
+CaSc9_id110_E-0.34.cif,CaSc9,-0.344,0.446,IR / Narrow-Gap,Semiconductor,I4_1/amd,141,40
+Ca_id388_E-0.34.cif,Ca,-0.3423,0.607,IR / Narrow-Gap,Semiconductor,Amm2,38,16
+Ca_id4032_E-0.33.cif,Ca,-0.332,1.376,Solar / Visible,Semiconductor,P4_2/nnm,134,20
+Na3Li10Ca2SnGeTe4(SO)4_id4094_E-0.32.cif,Na3Li10Ca2SnGeTe4(SO)4,-0.3205,2.1,Solar / Visible,Semiconductor,P-4,81,29
+LiMg3In_id1716_E-0.30.cif,LiMg3In,-0.3021,2.857,Wide-Gap Power/LED,Semiconductor,Imm2,44,10
+LiTiZn2O8_id3693_E-0.29.cif,LiTiZn2O8,-0.2932,0.156,IR / Narrow-Gap,Semiconductor,Pnnn,48,48
+Li(Zn2Ga)3_id4584_E-0.28.cif,Li(Zn2Ga)3,-0.2842,3.345,Wide-Gap Power/LED,Semiconductor,Pc,7,20
+Ga(TeS3)2_id3493_E-0.28.cif,Ga(TeS3)2,-0.2809,1.395,Solar / Visible,Semiconductor,Cccm,66,36
+MgAl2In3_id3462_E-0.25.cif,MgAl2In3,-0.2476,0.628,IR / Narrow-Gap,Semiconductor,P4/mmm,123,12
+Na2Li2Zn4Cd2Ga3Te2_id591_E-0.23.cif,Na2Li2Zn4Cd2Ga3Te2,-0.2319,2.086,Solar / Visible,Semiconductor,Fmm2,42,60
+Ca7Mg7Te3(SeS)3_id1015_E-0.22.cif,Ca7Mg7Te3(SeS)3,-0.2233,0.056,IR / Narrow-Gap,Semiconductor,P-6,174,23
+KBaSrNO_id3232_E-0.21.cif,KBaSrNO,-0.2121,0.51,IR / Narrow-Gap,Semiconductor,P3m1,156,10
+KZn2Ga_id3138_E-0.21.cif,KZn2Ga,-0.2117,0.305,IR / Narrow-Gap,Semiconductor,P3m1,156,8
+Sb14As6Se_id664_E-0.20.cif,Sb14As6Se,-0.1966,1.184,Solar / Visible,Semiconductor,P2/c,13,42
+K6Na8Li_id3629_E-0.17.cif,K6Na8Li,-0.1703,3.3,Wide-Gap Power/LED,Semiconductor,P1,1,30
+KBa4NaCdInGa_id3864_E-0.17.cif,KBa4NaCdInGa,-0.1662,0.157,IR / Narrow-Gap,Semiconductor,P4mm,99,9
+MgCd3Sn2_id4484_E-0.15.cif,MgCd3Sn2,-0.1479,2.129,Solar / Visible,Semiconductor,I-4m2,119,12
+Mg4CdInSn2_id4459_E-0.14.cif,Mg4CdInSn2,-0.1372,0.363,IR / Narrow-Gap,Semiconductor,Pm,6,8
+LiZnSe14(S2O)4_id2921_E-0.11.cif,LiZnSe14(S2O)4,-0.1121,1.817,Solar / Visible,Semiconductor,P-42c,112,56
+K2CaTe_id846_E-0.11.cif,K2CaTe,-0.1088,0.1,IR / Narrow-Gap,Semiconductor,P-6m2,187,8
+KLiSiSn2Sb2TeP2Se5S6_id3688_E-0.09.cif,KLiSiSn2Sb2TeP2Se5S6,-0.0858,1.436,Solar / Visible,Semiconductor,P1,1,42
+Mg3Sn_id1705_E-0.07.cif,Mg3Sn,-0.0739,0.659,IR / Narrow-Gap,Semiconductor,P4/mmm,123,16
+BaSr2Ca15_id3720_E-0.07.cif,BaSr2Ca15,-0.0703,1.697,Solar / Visible,Semiconductor,P-31m,162,18
+Al(CdS4)2_id4045_E-0.04.cif,Al(CdS4)2,-0.0401,3.027,Wide-Gap Power/LED,Semiconductor,Pm,6,22
+Ba4Na8BeBAsP4_id4599_E-0.01.cif,Ba4Na8BeBAsP4,-0.012,0.14,IR / Narrow-Gap,Semiconductor,P4/mcc,124,38
+Zn_id3361_E-0.00.cif,Zn,-0.0027,2.316,Wide-Gap Power/LED,Semiconductor,P4/nmm,129,8

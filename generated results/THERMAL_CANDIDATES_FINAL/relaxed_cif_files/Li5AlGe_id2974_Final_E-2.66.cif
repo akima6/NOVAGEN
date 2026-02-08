@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Li5AlGe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.55859896
+_cell_length_b   5.55859958
+_cell_length_c   16.15413053
+_cell_angle_alpha   89.99999653
+_cell_angle_beta   89.99999612
+_cell_angle_gamma   89.99994105
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li5AlGe
+_chemical_formula_sum   'Li20 Al4 Ge4'
+_cell_volume   499.13074238
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  1.00000014  0.49999982  0.99999998  1
+  Li  Li1  1  0.49999989  0.00000005  0.99999997  1
+  Li  Li2  1  0.49999969  0.00000016  0.50000000  1
+  Li  Li3  1  0.00000009  0.49999995  0.50000002  1
+  Li  Li4  1  0.78206971  0.28206913  0.37742443  1
+  Li  Li5  1  0.21793036  0.71793042  0.37742402  1
+  Li  Li6  1  0.71793014  0.78206948  0.37742399  1
+  Li  Li7  1  0.28206942  0.21793022  0.37742402  1
+  Li  Li8  1  0.21793052  0.28206989  0.12257608  1
+  Li  Li9  1  0.78206973  0.71793046  0.12257596  1
+  Li  Li10  1  0.28206977  0.78206955  0.12257602  1
+  Li  Li11  1  0.71793051  0.21793044  0.12257559  1
+  Li  Li12  1  0.28206954  0.78206969  0.87742409  1
+  Li  Li13  1  0.71793023  0.21793045  0.87742417  1
+  Li  Li14  1  0.21793025  0.28206979  0.87742362  1
+  Li  Li15  1  0.78206963  0.71793021  0.87742419  1
+  Li  Li16  1  0.71793019  0.78206945  0.62257582  1
+  Li  Li17  1  0.28206980  0.21793029  0.62257628  1
+  Li  Li18  1  0.78206972  0.28206943  0.62257577  1
+  Li  Li19  1  0.21793052  0.71793031  0.62257586  1
+  Al  Al20  1  -0.00000161  0.00000140  0.25000001  1
+  Al  Al21  1  -0.00000181  -0.00000158  0.75000004  1
+  Al  Al22  1  0.50000193  0.50000175  0.74999994  1
+  Al  Al23  1  0.50000124  0.49999894  0.24999990  1
+  Ge  Ge24  1  0.00000003  1.00000017  1.00000007  1
+  Ge  Ge25  1  1.00000012  0.99999999  0.50000001  1
+  Ge  Ge26  1  0.49999985  0.49999973  0.50000009  1
+  Ge  Ge27  1  0.50000000  0.50000006  0.00000009  1

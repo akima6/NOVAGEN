@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_K2NaGaSnSb3As4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.21307390
+_cell_length_b   14.21312759
+_cell_length_c   16.81579054
+_cell_angle_alpha   90.00020551
+_cell_angle_beta   89.99999279
+_cell_angle_gamma   119.99990792
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2NaGaSnSb3As4
+_chemical_formula_sum   'K2 Na1 Ga1 Sn1 Sb3 As4'
+_cell_volume   2941.88703631
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.00000000  0.00000000  0.08210886  1
+  Na  Na1  1  0.33333331  0.66666672  0.47758522  1
+  As  As2  1  0.33333341  0.66666678  0.81896895  1
+  K  K3  1  0.66666669  0.33333335  0.90829232  1
+  K  K4  1  0.66666669  0.33333334  0.67693930  1
+  Sn  Sn5  1  0.66666671  0.33333332  0.33123103  1
+  As  As6  1  0.25866903  0.99385811  0.39870037  1
+  As  As7  1  0.00614183  0.26481087  0.39870035  1
+  As  As8  1  0.73518916  0.74133102  0.39870035  1
+  Sb  Sb9  1  0.47166898  0.76083504  0.70223235  1
+  Sb  Sb10  1  0.23916499  0.71083402  0.70223231  1
+  Sb  Sb11  1  0.28916596  0.52833078  0.70223267  1

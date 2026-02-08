@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_BaCd3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.54863262
+_cell_length_b   9.45351311
+_cell_length_c   7.89315490
+_cell_angle_alpha   89.99999401
+_cell_angle_beta   90.00000207
+_cell_angle_gamma   90.00000248
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaCd3
+_chemical_formula_sum   'Ba1 Cd3'
+_cell_volume   712.50028297
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.00000000  -0.00000000  0.14919536  1
+  Cd  Cd1  1  0.00000000  -0.00000000  0.70433520  1
+  Cd  Cd2  1  -0.00000000  0.50000000  0.63792608  1
+  Cd  Cd3  1  -0.00000000  0.50000000  0.60210349  1

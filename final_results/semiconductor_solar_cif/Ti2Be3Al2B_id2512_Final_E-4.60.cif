@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ti2Be3Al2B
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.85358501
+_cell_length_b   10.64274277
+_cell_length_c   4.49050956
+_cell_angle_alpha   61.37609795
+_cell_angle_beta   137.31792753
+_cell_angle_gamma   130.81660717
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti2Be3Al2B
+_chemical_formula_sum   'Ti6 Be9 Al6 B3'
+_cell_volume   339.68677267
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.71953375  0.99219086  0.43671066  1
+  Ti  Ti1  1  0.99571822  0.72413157  0.86555981  1
+  Ti  Ti2  1  0.28302697  0.28082626  0.20354124  1
+  Ti  Ti3  1  0.27238578  0.99151120  0.55385274  1
+  Ti  Ti4  1  1.00441273  0.27933289  0.81299164  1
+  Ti  Ti5  1  0.72065730  0.72114627  0.12951401  1
+  Be  Be6  1  0.50032783  -0.00021415  0.50097063  1
+  Be  Be7  1  -0.00028862  0.50087843  0.83456364  1
+  Be  Be8  1  0.49989731  0.49943441  0.16531404  1
+  Be  Be9  1  0.76749686  0.00756383  1.02719400  1
+  Be  Be10  1  -0.00461742  0.76159351  0.32671769  1
+  Be  Be11  1  0.23520065  0.23282306  0.64583184  1
+  Be  Be12  1  0.24337230  0.01237018  -0.03208238  1
+  Be  Be13  1  -0.00398234  0.23139527  0.34974964  1
+  Be  Be14  1  0.76590283  0.76154358  0.68074643  1
+  Al  Al15  1  0.00101240  0.00280052  0.12225550  1
+  Al  Al16  1  -0.00200789  0.99498366  0.45469800  1
+  Al  Al17  1  0.00101589  0.00184196  0.78558115  1
+  Al  Al18  1  0.99943617  1.00050675  0.21290604  1
+  Al  Al19  1  1.00199091  1.00306366  0.87831335  1
+  Al  Al20  1  0.99821516  -0.00422063  0.54564179  1
+  B  B21  1  0.49900761  0.00010745  -0.00017194  1
+  B  B22  1  -0.00040476  0.50189335  0.33387126  1
+  B  B23  1  0.50269038  0.50249607  0.66572926  1

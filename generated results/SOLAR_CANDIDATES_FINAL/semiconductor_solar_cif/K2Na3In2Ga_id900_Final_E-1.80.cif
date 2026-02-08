@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_K2Na3In2Ga
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   15.18058204
+_cell_length_b   7.58827301
+_cell_length_c   10.59497129
+_cell_angle_alpha   91.46610079
+_cell_angle_beta   144.38646783
+_cell_angle_gamma   75.77725720
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Na3In2Ga
+_chemical_formula_sum   'K4 Na6 In4 Ga2'
+_cell_volume   655.31134704
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.00000316  -0.00006364  1.00004592  1
+  K  K1  1  0.50007250  0.49995582  0.50006906  1
+  K  K2  1  0.22998909  0.35045925  -0.05831763  1
+  K  K3  1  0.77005726  0.64945654  1.05868411  1
+  Na  Na4  1  0.34187343  0.95061252  0.84500584  1
+  Na  Na5  1  0.65795185  0.04938794  0.15474641  1
+  Na  Na6  1  0.45577205  0.14558468  0.56583070  1
+  Na  Na7  1  0.54430792  0.85453686  0.43441075  1
+  Na  Na8  1  0.38468990  0.48757084  0.74992999  1
+  Na  Na9  1  0.61497507  0.51296434  0.24976515  1
+  In  In10  1  0.40676639  0.49629352  0.77343714  1
+  In  In11  1  0.59351829  0.50302682  0.22647157  1
+  In  In12  1  0.81003077  0.75921133  0.54635822  1
+  In  In13  1  0.18993980  0.24088783  0.45362096  1
+  Ga  Ga14  1  0.37752553  0.84231349  0.60839970  1
+  Ga  Ga15  1  0.62252695  0.15780181  0.39154212  1

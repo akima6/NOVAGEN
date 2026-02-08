@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiMg3CdGa
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.99955857
+_cell_length_b   3.99955929
+_cell_length_c   18.30073620
+_cell_angle_alpha   89.99998522
+_cell_angle_beta   89.99994209
+_cell_angle_gamma   89.99997841
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiMg3CdGa
+_chemical_formula_sum   'Li2 Mg6 Cd2 Ga2'
+_cell_volume   292.74720746
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  -0.00000001  0.00000000  -0.00328550  1
+  Cd  Cd1  1  0.49999999  0.49999998  0.49671451  1
+  Mg  Mg2  1  -0.00000000  0.00000000  0.14358511  1
+  Mg  Mg3  1  0.49999999  0.50000000  0.64358511  1
+  Mg  Mg4  1  -0.00000001  -0.00000001  0.29937230  1
+  Mg  Mg5  1  0.50000001  0.50000000  0.79937229  1
+  Mg  Mg6  1  0.00000002  0.00000003  0.48024002  1
+  Mg  Mg7  1  0.50000001  0.49999997  0.98024007  1
+  Ga  Ga8  1  0.00000000  0.00000001  0.66690351  1
+  Ga  Ga9  1  0.50000000  0.50000000  0.16690355  1
+  Li  Li10  1  -0.00000001  0.00000003  0.85449612  1
+  Li  Li11  1  0.50000001  0.49999999  0.35449612  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_BaSr3CaGaSn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.48073207
+_cell_length_b   5.28214622
+_cell_length_c   10.21455590
+_cell_angle_alpha   90.00001628
+_cell_angle_beta   89.99997924
+_cell_angle_gamma   90.00002119
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaSr3CaGaSn2
+_chemical_formula_sum   'Ba2 Sr6 Ca2 Ga2 Sn4'
+_cell_volume   727.34990451
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.00000001  0.00000000  0.56296579  1
+  Ga  Ga1  1  -0.00000001  0.50000000  0.06296576  1
+  Ca  Ca2  1  0.00000002  -0.00000000  0.19845590  1
+  Ca  Ca3  1  0.00000001  0.50000001  0.69845584  1
+  Sr  Sr4  1  -0.00000002  -0.00000000  0.89584444  1
+  Sr  Sr5  1  -0.00000000  0.50000000  0.39584442  1
+  Ba  Ba6  1  0.50000000  0.00000000  0.30142051  1
+  Ba  Ba7  1  0.49999998  0.50000000  0.80142052  1
+  Sr  Sr8  1  0.68318418  0.00000000  0.96296662  1
+  Sr  Sr9  1  0.31681584  -0.00000000  0.96296663  1
+  Sr  Sr10  1  0.68318420  0.50000000  0.46296663  1
+  Sr  Sr11  1  0.31681580  0.49999999  0.46296662  1
+  Sn  Sn12  1  0.19845263  0.00000000  0.25682152  1
+  Sn  Sn13  1  0.80154733  0.00000001  0.25682146  1
+  Sn  Sn14  1  0.19845265  0.50000000  0.75682154  1
+  Sn  Sn15  1  0.80154735  0.50000000  0.75682152  1

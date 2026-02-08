@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_K2Sc9Zn4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.14390559
+_cell_length_b   11.50275780
+_cell_length_c   11.59257799
+_cell_angle_alpha   38.95682858
+_cell_angle_beta   120.24358698
+_cell_angle_gamma   102.74395752
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Sc9Zn4
+_chemical_formula_sum   'K2 Sc9 Zn4'
+_cell_volume   697.31300806
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.49999999  -0.00000001  -0.00000001  1
+  Zn  Zn1  1  0.05329598  0.14606811  0.41565384  1
+  Zn  Zn2  1  0.94670403  0.85393191  0.58434616  1
+  Zn  Zn3  1  0.18028482  0.02943815  0.84969050  1
+  Zn  Zn4  1  0.81971516  0.97056189  0.15030949  1
+  Sc  Sc5  1  0.37581491  0.32038088  0.25176460  1
+  Sc  Sc6  1  0.62418508  0.67961914  0.74823539  1
+  Sc  Sc7  1  0.49390302  0.78486142  0.32909669  1
+  Sc  Sc8  1  0.50609702  0.21513860  0.67090328  1
+  Sc  Sc9  1  0.80369263  0.58325736  0.67910228  1
+  Sc  Sc10  1  0.19630738  0.41674259  0.32089771  1
+  Sc  Sc11  1  0.36474662  0.66352725  0.15722181  1
+  Sc  Sc12  1  0.63525333  0.33647280  0.84277822  1
+  K  K13  1  0.83809389  0.40500146  0.54388449  1
+  K  K14  1  0.16190611  0.59499847  0.45611552  1

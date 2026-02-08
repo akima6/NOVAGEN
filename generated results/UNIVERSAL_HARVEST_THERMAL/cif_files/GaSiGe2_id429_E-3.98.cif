@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GaSiGe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.56328190
+_cell_length_b   6.56328018
+_cell_length_c   7.43717287
+_cell_angle_alpha   89.99914998
+_cell_angle_beta   90.00018951
+_cell_angle_gamma   119.99975792
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaSiGe2
+_chemical_formula_sum   'Ga3 Si3 Ge6'
+_cell_volume   277.44798182
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.00575631  -0.00000012  0.33333290  1
+  Ga  Ga1  1  -0.00000001  0.00575613  0.66666678  1
+  Ga  Ga2  1  0.99424380  0.99424371  0.00000037  1
+  Si  Si3  1  0.37212588  -0.00000017  0.33333357  1
+  Si  Si4  1  0.00000004  0.37212627  0.66666663  1
+  Si  Si5  1  0.62787392  0.62787399  -0.00000023  1
+  Ge  Ge6  1  0.82566169  0.39634526  0.07966426  1
+  Ge  Ge7  1  0.60365455  0.42931546  0.41299821  1
+  Ge  Ge8  1  0.57068415  0.17433951  0.74633000  1
+  Ge  Ge9  1  0.39634521  0.82566125  0.92033577  1
+  Ge  Ge10  1  0.42931574  0.60365477  0.58700233  1
+  Ge  Ge11  1  0.17433873  0.57068392  0.25366954  1

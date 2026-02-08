@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_NaCa3In2Te3(SeS)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.55595292
+_cell_length_b   8.55596834
+_cell_length_c   17.55758672
+_cell_angle_alpha   89.99995697
+_cell_angle_beta   90.00004415
+_cell_angle_gamma   120.00005064
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCa3In2Te3(SeS)3
+_chemical_formula_sum   'Na1 Ca3 In2 Te3 Se3 S3'
+_cell_volume   1113.09642380
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  -0.00000002  0.00000000  0.02685956  1
+  In  In1  1  0.33333335  0.66666669  0.60968409  1
+  In  In2  1  0.66666668  0.33333335  0.60968410  1
+  Te  Te3  1  0.19936437  -0.00000005  0.18627547  1
+  Te  Te4  1  -0.00000002  0.19936445  0.18627543  1
+  Te  Te5  1  0.80063560  0.80063557  0.18627546  1
+  S  S6  1  0.31972771  -0.00000000  0.07176921  1
+  S  S7  1  0.00000000  0.31972767  0.07176924  1
+  S  S8  1  0.68027231  0.68027231  0.07176924  1
+  Ca  Ca9  1  0.32306727  0.00000000  0.55629478  1
+  Ca  Ca10  1  0.00000001  0.32306728  0.55629479  1
+  Ca  Ca11  1  0.67693272  0.67693271  0.55629477  1
+  Se  Se12  1  0.33238467  0.00000001  0.30624225  1
+  Se  Se13  1  0.00000001  0.33238467  0.30624225  1
+  Se  Se14  1  0.66761531  0.66761531  0.30624225  1

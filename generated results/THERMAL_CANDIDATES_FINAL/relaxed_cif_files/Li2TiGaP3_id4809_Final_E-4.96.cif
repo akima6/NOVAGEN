@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Li2TiGaP3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.08303081
+_cell_length_b   4.85158174
+_cell_length_c   6.08558127
+_cell_angle_alpha   89.98001066
+_cell_angle_beta   76.15650712
+_cell_angle_gamma   90.05156334
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2TiGaP3
+_chemical_formula_sum   'Li4 Ti2 Ga2 P6'
+_cell_volume   260.38390430
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.68640044  0.84681387  0.97495174  1
+  Li  Li1  1  0.30078161  0.21206288  -0.00937265  1
+  Li  Li2  1  0.31284155  0.85041321  0.52583273  1
+  Li  Li3  1  0.69870040  0.21096899  0.51029939  1
+  Ti  Ti4  1  0.00016381  0.52284544  0.25025300  1
+  Ti  Ti5  1  1.00013204  0.51332290  0.75017449  1
+  Ga  Ga6  1  -0.00851043  1.01510979  0.00000963  1
+  Ga  Ga7  1  0.00818185  1.01562979  0.49965564  1
+  P  P8  1  0.55842599  0.34332758  0.06958580  1
+  P  P9  1  0.44241393  0.34881365  0.42709196  1
+  P  P10  1  0.80215418  0.35062290  1.07272023  1
+  P  P11  1  0.19046825  0.70988884  -0.06585836  1
+  P  P12  1  0.19810692  0.35112958  0.42820366  1
+  P  P13  1  0.80973947  0.70905055  0.56645274  1

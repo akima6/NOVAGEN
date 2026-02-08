@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Mg4GaSi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.94978856
+_cell_length_b   8.94978129
+_cell_length_c   8.27117826
+_cell_angle_alpha   89.99998283
+_cell_angle_beta   89.99998533
+_cell_angle_gamma   89.99996968
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg4GaSi
+_chemical_formula_sum   'Mg16 Ga4 Si4'
+_cell_volume   662.51021430
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  -0.00000001  0.24999999  0.12500000  1
+  Ga  Ga1  1  0.50000002  0.25000001  0.37500000  1
+  Ga  Ga2  1  0.50000001  0.75000001  0.62499999  1
+  Ga  Ga3  1  -0.00000000  0.75000000  0.87500001  1
+  Si  Si4  1  -0.00000000  0.24999999  0.62500000  1
+  Si  Si5  1  0.50000001  0.25000000  0.87500000  1
+  Si  Si6  1  0.49999999  0.75000000  0.12500000  1
+  Si  Si7  1  0.00000000  0.75000000  0.37500000  1
+  Mg  Mg8  1  0.27491216  0.35009465  0.12461915  1
+  Mg  Mg9  1  0.22508783  0.64990533  0.62461918  1
+  Mg  Mg10  1  0.39990532  0.52491221  0.37461914  1
+  Mg  Mg11  1  0.10009468  0.47508782  0.87461918  1
+  Mg  Mg12  1  0.72508780  0.64990536  0.87538081  1
+  Mg  Mg13  1  0.77491218  0.35009466  0.37538085  1
+  Mg  Mg14  1  0.60009467  0.47508782  0.62538083  1
+  Mg  Mg15  1  0.89990534  0.52491219  0.12538088  1
+  Mg  Mg16  1  0.77491219  0.85009464  0.62461918  1
+  Mg  Mg17  1  0.72508779  0.14990534  0.12461919  1
+  Mg  Mg18  1  0.89990534  0.02491219  0.87461916  1
+  Mg  Mg19  1  0.60009465  0.97508781  0.37461917  1
+  Mg  Mg20  1  0.22508782  0.14990537  0.37538082  1
+  Mg  Mg21  1  0.27491219  0.85009465  0.87538084  1
+  Mg  Mg22  1  0.10009467  0.97508780  0.12538084  1
+  Mg  Mg23  1  0.39990537  0.02491220  0.62538083  1

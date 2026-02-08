@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_NaCaMg2CdInGaSbTe12S
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.88228992
+_cell_length_b   11.36367891
+_cell_length_c   11.26959651
+_cell_angle_alpha   89.27766572
+_cell_angle_beta   86.78083612
+_cell_angle_gamma   64.03475776
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCaMg2CdInGaSbTe12S
+_chemical_formula_sum   'Na1 Ca1 Mg2 Cd1 In1 Ga1 Sb1 Te12 S1'
+_cell_volume   1595.70459829
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.06557752  0.03346710  0.50292759  1
+  Mg  Mg1  1  0.14544406  0.02060613  0.72829429  1
+  Mg  Mg2  1  0.18016517  0.33872388  0.47210444  1
+  Te  Te3  1  0.39617486  0.19909744  0.18702527  1
+  Sb  Sb4  1  0.28052293  0.07733457  0.55327342  1
+  Ca  Ca5  1  0.33233255  -0.01904523  0.27864260  1
+  Te  Te6  1  0.28485241  0.72639891  0.09518834  1
+  Te  Te7  1  0.57868859  0.31993623  0.83372023  1
+  Te  Te8  1  0.60626227  0.78511905  0.68381640  1
+  Te  Te9  1  0.67834086  0.86151068  0.23367598  1
+  Te  Te10  1  0.77825518  0.08846446  0.49928834  1
+  Te  Te11  1  0.74647788  0.07478758  0.19933368  1
+  S  S12  1  0.69919119  0.88358374  0.77250804  1
+  Te  Te13  1  0.64486636  0.31800640  0.57247753  1
+  Na  Na14  1  0.86234519  0.80260418  0.64922462  1
+  Ga  Ga15  1  0.72671324  0.70769753  0.05567857  1
+  Te  Te16  1  0.76629515  0.82668091  0.44695896  1
+  Te  Te17  1  0.66676867  0.66395953  0.46323768  1
+  In  In18  1  0.85794305  0.57174139  0.31997417  1
+  Cd  Cd19  1  0.76344853  0.59423381  0.82275422  1
+  Te  Te20  1  0.64678817  0.31937164  0.57471373  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Na2LiSn2Te
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.40330381
+_cell_length_b   9.81368846
+_cell_length_c   9.12724840
+_cell_angle_alpha   98.83487155
+_cell_angle_beta   50.88877690
+_cell_angle_gamma   55.01602609
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2LiSn2Te
+_chemical_formula_sum   'Na4 Li2 Sn4 Te2'
+_cell_volume   346.96684325
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.35246905  0.24960704  0.10461813  1
+  Na  Na1  1  0.64753103  0.75039302  0.89538153  1
+  Na  Na2  1  0.89627091  0.39610545  0.13131109  1
+  Na  Na3  1  0.10372924  0.60389424  0.86868896  1
+  Li  Li4  1  0.84282334  0.32136588  0.81290405  1
+  Li  Li5  1  0.15717685  0.67863442  0.18709607  1
+  Sn  Sn6  1  0.66111992  0.23842027  0.15060417  1
+  Sn  Sn7  1  0.33888004  0.76157952  0.84939582  1
+  Sn  Sn8  1  0.85358377  0.18331005  0.49659217  1
+  Sn  Sn9  1  0.14641637  0.81668958  0.50340771  1
+  Te  Te10  1  0.30520524  0.19995627  0.46726484  1
+  Te  Te11  1  0.69479426  0.80004425  0.53273547  1

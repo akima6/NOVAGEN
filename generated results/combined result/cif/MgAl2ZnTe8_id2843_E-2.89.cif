@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_MgAl2ZnTe8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.47344957
+_cell_length_b   14.47345071
+_cell_length_c   12.96577323
+_cell_angle_alpha   89.99999047
+_cell_angle_beta   90.00000750
+_cell_angle_gamma   89.99998950
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgAl2ZnTe8
+_chemical_formula_sum   'Mg2 Al4 Zn2 Te16'
+_cell_volume   2716.08001767
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  -0.00000001  0.50000000  0.25000000  1
+  Zn  Zn1  1  0.50000000  -0.00000000  0.75000000  1
+  Mg  Mg2  1  0.00000000  0.00000000  0.00000000  1
+  Mg  Mg3  1  0.00000000  0.00000000  0.50000000  1
+  Al  Al4  1  0.50000001  0.40817422  0.25000003  1
+  Al  Al5  1  0.49999997  0.59182576  0.25000000  1
+  Al  Al6  1  0.40817426  0.49999997  0.75000001  1
+  Al  Al7  1  0.59182577  0.49999998  0.75000002  1
+  Te  Te8  1  0.33134692  0.37649708  0.16977647  1
+  Te  Te9  1  0.66865305  0.62350292  0.16977654  1
+  Te  Te10  1  0.37649711  0.66865306  0.83022354  1
+  Te  Te11  1  0.62350288  0.33134692  0.83022352  1
+  Te  Te12  1  0.66865301  0.37649712  0.33022349  1
+  Te  Te13  1  0.33134694  0.62350288  0.33022352  1
+  Te  Te14  1  0.62350290  0.66865307  0.66977648  1
+  Te  Te15  1  0.37649706  0.33134696  0.66977648  1
+  Te  Te16  1  0.69358032  0.62009409  0.85669554  1
+  Te  Te17  1  0.30641966  0.37990591  0.85669557  1
+  Te  Te18  1  0.62009411  0.30641963  0.14330444  1
+  Te  Te19  1  0.37990589  0.69358037  0.14330443  1
+  Te  Te20  1  0.30641962  0.62009409  0.64330441  1
+  Te  Te21  1  0.69358038  0.37990590  0.64330445  1
+  Te  Te22  1  0.37990592  0.30641965  0.35669563  1
+  Te  Te23  1  0.62009412  0.69358033  0.35669559  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KTiCdTe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.04254409
+_cell_length_b   13.04262291
+_cell_length_c   7.43703653
+_cell_angle_alpha   89.99953538
+_cell_angle_beta   90.00328915
+_cell_angle_gamma   120.00024011
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KTiCdTe
+_chemical_formula_sum   'K3 Ti3 Cd3 Te3'
+_cell_volume   1095.61191386
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.24459470  -0.00000058  0.66666626  1
+  Te  Te1  1  -0.00000017  0.24459479  0.33333344  1
+  Te  Te2  1  0.75540537  0.75540484  0.00000036  1
+  Ti  Ti3  1  0.81976964  0.00000024  0.66666652  1
+  Ti  Ti4  1  0.00000003  0.81976995  0.33333338  1
+  Ti  Ti5  1  0.18023037  0.18023056  0.00000014  1
+  Cd  Cd6  1  1.04163825  -0.00000012  0.66666704  1
+  Cd  Cd7  1  0.00000001  1.04163894  0.33333330  1
+  Cd  Cd8  1  -0.04163823  -0.04163836  -0.00000032  1
+  K  K9  1  0.57697315  -0.00000007  0.66666691  1
+  K  K10  1  -0.00000001  0.57697307  0.33333331  1
+  K  K11  1  0.42302691  0.42302678  -0.00000022  1

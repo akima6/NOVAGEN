@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_K3Ge(Se4S3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.38493247
+_cell_length_b   8.66734370
+_cell_length_c   10.84012400
+_cell_angle_alpha   67.39283689
+_cell_angle_beta   73.44777152
+_cell_angle_gamma   67.12831297
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3Ge(Se4S3)2
+_chemical_formula_sum   'K3 Ge1 Se8 S6'
+_cell_volume   582.64264851
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.98244928  0.03966361  0.00186574  1.0
+  K  K1  1  0.75731199  0.66356305  0.68271698  1.0
+  K  K2  1  0.44264978  0.34594748  0.34613148  1.0
+  Ge  Ge3  1  0.48755436  0.05283217  0.96665279  1.0
+  Se  Se4  1  0.27275581  0.68398841  0.65591789  1.0
+  Se  Se5  1  0.92444625  0.36997554  0.29703755  1.0
+  Se  Se6  1  0.90668962  0.02070393  0.32458761  1.0
+  Se  Se7  1  0.23084130  0.33933566  0.69599801  1.0
+  Se  Se8  1  0.62718530  0.67898584  0.03986144  1.0
+  Se  Se9  1  0.04707168  0.06433762  0.63886523  1.0
+  Se  Se10  1  0.71428060  0.69799922  0.36366115  1.0
+  Se  Se11  1  0.35978133  0.38223328  0.00378180  1.0
+  S  S12  1  0.41502298  0.11416951  0.17136018  1.0
+  S  S13  1  0.33716827  0.07902002  0.66889124  1.0
+  S  S14  1  0.88092039  0.63416741  0.13839428  1.0
+  S  S15  1  0.61087995  0.29750741  0.84092780  1.0
+  S  S16  1  0.99979644  0.73885802  0.35365121  1.0
+  S  S17  1  0.05899861  0.79671183  0.80969762  1.0

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CaZn2In
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.37571489
+_cell_length_b   6.76665960
+_cell_length_c   4.85097108
+_cell_angle_alpha   90.00004949
+_cell_angle_beta   90.00005859
+_cell_angle_gamma   90.00001105
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaZn2In
+_chemical_formula_sum   'Ca2 Zn4 In2'
+_cell_volume   176.45714230
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.00000000  -0.00000001  0.00000000  1
+  In  In1  1  0.49999999  0.49999999  0.49999999  1
+  Ca  Ca2  1  0.50000000  0.00000000  0.49999999  1
+  Ca  Ca3  1  -0.00000000  0.49999999  -0.00000001  1
+  Zn  Zn4  1  -0.00000002  0.21836769  0.49999999  1
+  Zn  Zn5  1  0.00000002  0.78163232  0.50000000  1
+  Zn  Zn6  1  0.50000000  0.71836769  -0.00000000  1
+  Zn  Zn7  1  0.50000000  0.28163232  0.00000003  1

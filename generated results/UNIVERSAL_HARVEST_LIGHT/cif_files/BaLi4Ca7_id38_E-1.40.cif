@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_BaLi4Ca7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.11530386
+_cell_length_b   11.11527420
+_cell_length_c   6.14889078
+_cell_angle_alpha   90.00025766
+_cell_angle_beta   89.99982103
+_cell_angle_gamma   119.99979848
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaLi4Ca7
+_chemical_formula_sum   'Ba1 Li4 Ca7'
+_cell_volume   657.91503680
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00000010  0.00000007  -0.00000000  1
+  Ca  Ca1  1  0.33333322  0.66666662  0.50000000  1
+  Ba  Ba2  1  0.66666668  0.33333330  0.50000001  1
+  Ca  Ca3  1  0.83935678  0.16064311  -0.00000001  1
+  Ca  Ca4  1  0.83935674  0.67871368  0.00000001  1
+  Ca  Ca5  1  0.32128620  0.16064307  0.00000001  1
+  Ca  Ca6  1  0.45812600  0.54187411  -0.00000006  1
+  Ca  Ca7  1  0.45812607  0.91625190  0.00000004  1
+  Ca  Ca8  1  0.08374828  0.54187413  0.00000000  1
+  Li  Li9  1  0.49086598  0.50913399  0.50000000  1
+  Li  Li10  1  0.49086600  0.98173199  0.50000001  1
+  Li  Li11  1  0.01826798  0.50913394  0.50000000  1

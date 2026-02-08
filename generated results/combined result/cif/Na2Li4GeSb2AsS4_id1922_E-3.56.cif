@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Na2Li4GeSb2AsS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.85637603
+_cell_length_b   8.01392919
+_cell_length_c   9.76739663
+_cell_angle_alpha   70.92107340
+_cell_angle_beta   122.44434645
+_cell_angle_gamma   128.81314532
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Li4GeSb2AsS4
+_chemical_formula_sum   'Na2 Li4 Ge1 Sb2 As1 S4'
+_cell_volume   558.73812577
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  -0.00000001  0.00000001  0.00000000  1
+  As  As1  1  0.49999997  0.50000004  0.50000001  1
+  Sb  Sb2  1  0.21897834  0.56302815  0.16107479  1
+  Sb  Sb3  1  0.78102165  0.43697182  0.83892519  1
+  Li  Li4  1  0.22242820  0.23259212  0.33136315  1
+  Li  Li5  1  0.77757182  0.76740790  0.66863686  1
+  Na  Na6  1  0.24113764  0.78753798  0.38276082  1
+  Na  Na7  1  0.75886233  0.21246201  0.61723915  1
+  Li  Li8  1  0.40242719  0.60310327  0.89911504  1
+  Li  Li9  1  0.59757283  0.39689674  0.10088492  1
+  S  S10  1  0.54629327  0.78825531  0.58135239  1
+  S  S11  1  0.45370674  0.21174467  0.41864762  1
+  S  S12  1  0.76578642  0.33665919  0.08641450  1
+  S  S13  1  0.23421360  0.66334077  0.91358553  1

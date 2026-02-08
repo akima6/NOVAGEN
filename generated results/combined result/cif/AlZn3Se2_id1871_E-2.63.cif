@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_AlZn3Se2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.17311081
+_cell_length_b   5.17311095
+_cell_length_c   10.87025810
+_cell_angle_alpha   90.00003295
+_cell_angle_beta   89.99996776
+_cell_angle_gamma   90.00000046
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlZn3Se2
+_chemical_formula_sum   'Al2 Zn6 Se4'
+_cell_volume   290.89980545
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.00000001  -0.00000001  0.00000030  1
+  Zn  Zn1  1  0.49999999  0.50000000  0.49999980  1
+  Al  Al2  1  0.00000001  -0.00000001  0.49999809  1
+  Al  Al3  1  0.49999999  0.50000000  0.00000121  1
+  Zn  Zn4  1  0.00000000  0.50000000  0.25000001  1
+  Zn  Zn5  1  0.50000000  0.00000000  0.25000001  1
+  Zn  Zn6  1  0.50000000  0.00000000  0.74999999  1
+  Zn  Zn7  1  0.00000000  0.50000000  0.74999999  1
+  Se  Se8  1  -0.00000000  -0.00000000  0.77112290  1
+  Se  Se9  1  -0.00000000  0.00000001  0.22887879  1
+  Se  Se10  1  0.49999999  0.50000000  0.27112095  1
+  Se  Se11  1  0.50000000  0.50000000  0.72887790  1

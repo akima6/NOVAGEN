@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_MgAl2(TeS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.23874334
+_cell_length_b   11.23875278
+_cell_length_c   7.81148382
+_cell_angle_alpha   90.00010564
+_cell_angle_beta   90.00007602
+_cell_angle_gamma   90.10904330
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgAl2(TeS3)2
+_chemical_formula_sum   'Mg2 Al4 Te4 S12'
+_cell_volume   986.66250043
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  -0.00000000  0.00000000  -0.00000017  1
+  Mg  Mg1  1  0.50000000  0.50000000  -0.00000017  1
+  Al  Al2  1  0.36305276  0.86305279  0.56692187  1
+  Al  Al3  1  0.63694721  0.13694724  0.56692187  1
+  Al  Al4  1  0.86305531  0.63694470  0.43308152  1
+  Al  Al5  1  0.13694472  0.36305527  0.43308152  1
+  Te  Te6  1  0.15096397  0.65096396  0.50502817  1
+  Te  Te7  1  0.84903604  0.34903605  0.50502817  1
+  Te  Te8  1  0.65097232  0.84902768  0.49497828  1
+  Te  Te9  1  0.34902768  0.15097234  0.49497827  1
+  S  S10  1  0.56801930  0.06801934  0.18749542  1
+  S  S11  1  0.43198069  0.93198068  0.18749544  1
+  S  S12  1  0.06808671  0.43191321  0.81240896  1
+  S  S13  1  0.93191323  0.56808673  0.81240896  1
+  S  S14  1  0.67935905  0.17935911  0.80676421  1
+  S  S15  1  0.32064095  0.82064095  0.80676421  1
+  S  S16  1  0.17936106  0.32063899  0.19323599  1
+  S  S17  1  0.82063899  0.67936100  0.19323599  1
+  S  S18  1  0.98598232  0.48598239  0.69239861  1
+  S  S19  1  0.01401774  0.51401773  0.69239817  1
+  S  S20  1  0.48588212  0.01411801  0.30768730  1
+  S  S21  1  0.51411795  0.98588197  0.30768741  1

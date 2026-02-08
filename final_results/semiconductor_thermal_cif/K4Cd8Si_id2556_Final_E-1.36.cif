@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_K4Cd8Si
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.54766326
+_cell_length_b   11.54761057
+_cell_length_c   6.40075206
+_cell_angle_alpha   89.99999062
+_cell_angle_beta   89.99998802
+_cell_angle_gamma   89.99999404
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K4Cd8Si
+_chemical_formula_sum   'K8 Cd16 Si2'
+_cell_volume   853.52696329
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.26441724  0.35375120  0.34461479  1
+  K  K1  1  0.73558273  0.64624880  0.34461482  1
+  K  K2  1  0.35375115  0.73558295  0.65538536  1
+  K  K3  1  0.64624887  0.26441701  0.65538538  1
+  K  K4  1  0.23558280  0.85375121  0.15538528  1
+  K  K5  1  0.76441718  0.14624882  0.15538522  1
+  K  K6  1  0.14624884  0.23558296  0.84461462  1
+  K  K7  1  0.85375116  0.76441707  0.84461460  1
+  Cd  Cd8  1  0.08990627  0.09742515  0.33589461  1
+  Cd  Cd9  1  0.91009369  0.90257485  0.33589460  1
+  Cd  Cd10  1  0.09742470  0.91009350  0.66410557  1
+  Cd  Cd11  1  0.90257536  0.08990652  0.66410553  1
+  Cd  Cd12  1  0.41009407  0.59742489  0.16410550  1
+  Cd  Cd13  1  0.58990599  0.40257512  0.16410547  1
+  Cd  Cd14  1  0.40257537  0.41009346  0.83589423  1
+  Cd  Cd15  1  0.59742468  0.58990646  0.83589422  1
+  Cd  Cd16  1  0.59172848  0.91410806  0.50047315  1
+  Cd  Cd17  1  0.40827143  0.08589194  0.50047314  1
+  Cd  Cd18  1  0.91410823  0.40827117  0.49952748  1
+  Cd  Cd19  1  0.08589178  0.59172884  0.49952747  1
+  Cd  Cd20  1  0.90827150  0.41410807  -0.00047320  1
+  Cd  Cd21  1  0.09172850  0.58589193  -0.00047317  1
+  Cd  Cd22  1  0.58589179  0.90827115  1.00047255  1
+  Cd  Cd23  1  0.41410818  0.09172890  1.00047251  1
+  Si  Si24  1  -0.00000001  0.00000001  1.00000020  1
+  Si  Si25  1  0.50000001  0.49999998  0.50000008  1

@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_LiZn4Cd(In2Ga)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.21382993
+_cell_length_b   7.21383294
+_cell_length_c   12.50010640
+_cell_angle_alpha   89.99996395
+_cell_angle_beta   89.99990753
+_cell_angle_gamma   89.99997133
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiZn4Cd(In2Ga)2
+_chemical_formula_sum   'Li2 Zn8 Cd2 In8 Ga4'
+_cell_volume   650.49758648
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  -0.00000001  0.49999997  0.24999997  1
+  Li  Li1  1  0.50000006  0.00000003  0.74999997  1
+  Cd  Cd2  1  -0.00000008  0.00000002  -0.00000010  1
+  Cd  Cd3  1  -0.00000003  0.00000001  0.50000000  1
+  Ga  Ga4  1  0.50000002  0.16323336  0.25000003  1
+  Ga  Ga5  1  0.50000011  0.83676655  0.25000002  1
+  Ga  Ga6  1  0.16323335  0.50000001  0.75000000  1
+  Ga  Ga7  1  0.83676667  0.49999998  0.75000002  1
+  In  In8  1  0.22828348  0.15948296  0.84461682  1
+  In  In9  1  0.77171656  0.84051699  0.84461686  1
+  In  In10  1  0.15948286  0.77171650  0.15538317  1
+  In  In11  1  0.84051715  0.22828352  0.15538321  1
+  In  In12  1  0.77171646  0.15948296  0.65538340  1
+  In  In13  1  0.22828350  0.84051697  0.65538318  1
+  In  In14  1  0.84051699  0.77171656  0.34461682  1
+  In  In15  1  0.15948291  0.22828354  0.34461678  1
+  Zn  Zn16  1  0.71755003  0.74915614  0.61866739  1
+  Zn  Zn17  1  0.28244993  0.25084390  0.61866734  1
+  Zn  Zn18  1  0.74915614  0.28244995  0.38133256  1
+  Zn  Zn19  1  0.25084390  0.71755007  0.38133265  1
+  Zn  Zn20  1  0.28244993  0.74915611  0.88133257  1
+  Zn  Zn21  1  0.71755008  0.25084388  0.88133244  1
+  Zn  Zn22  1  0.25084385  0.28244995  0.11866744  1
+  Zn  Zn23  1  0.74915612  0.71755007  0.11866732  1

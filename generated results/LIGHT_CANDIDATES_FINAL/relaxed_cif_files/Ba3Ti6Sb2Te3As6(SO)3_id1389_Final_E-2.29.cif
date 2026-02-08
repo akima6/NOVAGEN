@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Ba3Ti6Sb2Te3As6(SO)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.09731963
+_cell_length_b   8.02928054
+_cell_length_c   19.13352312
+_cell_angle_alpha   89.99988034
+_cell_angle_beta   90.00009967
+_cell_angle_gamma   117.58633370
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3Ti6Sb2Te3As6(SO)3
+_chemical_formula_sum   'Ba3 Ti6 Sb2 Te3 As6 S3 O3'
+_cell_volume   1102.55559964
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.49999973  -0.00000030  0.75386851  1
+  Ba  Ba1  1  -0.00000044  0.49999980  0.75112069  1
+  Ba  Ba2  1  0.49999980  0.49999993  0.74565264  1
+  Ti  Ti3  1  0.22912755  0.77079519  0.27451924  1
+  Ti  Ti4  1  0.23097884  0.45882928  0.27633695  1
+  Ti  Ti5  1  0.54124555  0.76903257  0.27641444  1
+  Ti  Ti6  1  0.77087335  0.22920570  0.27451911  1
+  Ti  Ti7  1  0.76902147  0.54117075  0.27633634  1
+  Ti  Ti8  1  0.45875454  0.23096753  0.27641493  1
+  Sb  Sb9  1  0.00000063  0.00000040  0.04828227  1
+  Sb  Sb10  1  -0.00000085  -0.00000041  0.49337208  1
+  Te  Te11  1  0.50000000  0.00000016  0.79949788  1
+  Te  Te12  1  0.00000034  0.50000011  0.80359413  1
+  Te  Te13  1  0.50000014  0.50000001  0.81308485  1
+  As  As14  1  0.17321005  0.82669679  0.40804820  1
+  As  As15  1  0.17286160  0.34623066  0.40971362  1
+  As  As16  1  0.65382157  0.82710730  0.40976552  1
+  As  As17  1  0.82679144  0.17330452  0.40804827  1
+  As  As18  1  0.82713929  0.65376934  0.40971358  1
+  As  As19  1  0.34617875  0.17289292  0.40976510  1
+  S  S20  1  0.49999952  -0.00000007  0.21000017  1
+  S  S21  1  -0.00000019  0.49999984  0.20999750  1
+  S  S22  1  0.49999890  0.49999899  0.20714889  1
+  O  O23  1  0.49999937  -0.00000075  0.32710430  1
+  O  O24  1  -0.00000073  0.49999919  0.32712032  1
+  O  O25  1  0.49999970  0.50000046  0.32857748  1

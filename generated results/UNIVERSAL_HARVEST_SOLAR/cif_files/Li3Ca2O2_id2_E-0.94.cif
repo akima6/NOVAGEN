@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Li3Ca2O2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.40849975
+_cell_length_b   8.66429643
+_cell_length_c   10.08001496
+_cell_angle_alpha   90.00001068
+_cell_angle_beta   89.99999891
+_cell_angle_gamma   90.00001339
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3Ca2O2
+_chemical_formula_sum   'Li6 Ca4 O4'
+_cell_volume   647.03049429
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.00000000  -0.00000000  -0.00000001  1
+  O  O1  1  0.50000000  0.50000000  0.49999999  1
+  Li  Li2  1  0.00000000  0.50000000  0.49995136  1
+  Li  Li3  1  0.49999999  0.00000000  -0.00007268  1
+  O  O4  1  0.50000000  0.00000000  0.49999333  1
+  O  O5  1  0.00000000  0.50000000  -0.00000837  1
+  Ca  Ca6  1  0.50000001  0.00000000  0.19666610  1
+  Ca  Ca7  1  0.50000000  0.00000000  0.80338477  1
+  Ca  Ca8  1  0.00000000  0.50000000  0.69662516  1
+  Ca  Ca9  1  0.00000000  0.50000001  0.30340562  1
+  Li  Li10  1  0.49999999  0.00000000  0.16024289  1
+  Li  Li11  1  0.50000001  -0.00000000  0.83978553  1
+  Li  Li12  1  -0.00000000  0.50000000  0.66021116  1
+  Li  Li13  1  0.00000000  0.49999999  0.33981518  1

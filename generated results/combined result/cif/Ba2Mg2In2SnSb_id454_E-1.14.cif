@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ba2Mg2In2SnSb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   17.55213504
+_cell_length_b   17.55213717
+_cell_length_c   14.30494703
+_cell_angle_alpha   90.00000852
+_cell_angle_beta   90.00000076
+_cell_angle_gamma   90.00000424
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Mg2In2SnSb
+_chemical_formula_sum   'Ba4 Mg4 In4 Sn2 Sb2'
+_cell_volume   4407.03206093
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  -0.00000000  -0.00000000  -0.00289819  1
+  Ba  Ba1  1  0.50000000  0.50000000  -0.00289818  1
+  Sb  Sb2  1  -0.00000000  -0.00000000  0.19937290  1
+  Sb  Sb3  1  0.50000000  0.50000000  0.19937293  1
+  Sn  Sn4  1  -0.00000000  -0.00000000  0.62879927  1
+  Sn  Sn5  1  0.50000000  0.50000000  0.62879922  1
+  Ba  Ba6  1  0.50000000  0.00000000  0.33502211  1
+  Ba  Ba7  1  -0.00000002  0.50000003  0.33502209  1
+  In  In8  1  0.10988764  0.60988760  0.46307150  1
+  In  In9  1  0.89011241  0.39011236  0.46307149  1
+  In  In10  1  0.39011237  0.10988763  0.46307148  1
+  In  In11  1  0.60988760  0.89011240  0.46307148  1
+  Mg  Mg12  1  0.78046376  0.28046376  0.39806995  1
+  Mg  Mg13  1  0.21953624  0.71953623  0.39806994  1
+  Mg  Mg14  1  0.71953624  0.78046376  0.39806995  1
+  Mg  Mg15  1  0.28046377  0.21953624  0.39806995  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_MgCd3P4(SO)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.84151781
+_cell_length_b   8.84150400
+_cell_length_c   8.84151167
+_cell_angle_alpha   90.00014566
+_cell_angle_beta   90.00009449
+_cell_angle_gamma   90.00005435
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgCd3P4(SO)4
+_chemical_formula_sum   'Mg1 Cd3 P4 S4 O4'
+_cell_volume   691.16143606
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.00000007  0.00000008  0.00000006  1
+  Cd  Cd1  1  0.49999997  -0.00000003  -0.00000001  1
+  Cd  Cd2  1  -0.00000001  0.49999999  0.00000001  1
+  Cd  Cd3  1  -0.00000003  -0.00000004  0.49999999  1
+  S  S4  1  0.32143149  0.32143147  0.32143147  1
+  S  S5  1  0.67856865  0.67856867  0.32143137  1
+  S  S6  1  0.67856855  0.32143142  0.67856855  1
+  S  S7  1  0.32143136  0.67856869  0.67856866  1
+  P  P8  1  0.19687889  0.19687893  0.19687891  1
+  P  P9  1  0.80312094  0.80312091  0.19687910  1
+  P  P10  1  0.80312105  0.19687901  0.80312102  1
+  P  P11  1  0.19687911  0.80312088  0.80312091  1
+  O  O12  1  0.88917170  0.88917174  0.88917171  1
+  O  O13  1  0.11082821  0.11082826  0.88917178  1
+  O  O14  1  0.11082825  0.88917177  0.11082826  1
+  O  O15  1  0.88917179  0.11082825  0.11082823  1

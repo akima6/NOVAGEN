@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KBaSrNO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.29339828
+_cell_length_b   10.29339770
+_cell_length_c   12.31621008
+_cell_angle_alpha   90.00001783
+_cell_angle_beta   90.00000382
+_cell_angle_gamma   120.00000553
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KBaSrNO
+_chemical_formula_sum   'K2 Ba2 Sr2 N2 O2'
+_cell_volume   1130.12172940
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.33333334  0.66666668  0.16732350  1
+  N  N1  1  0.33333335  0.66666669  0.66732344  1
+  Ba  Ba2  1  0.33333335  0.66666669  0.19766273  1
+  Ba  Ba3  1  0.33333334  0.66666668  0.69766264  1
+  K  K4  1  0.33333334  0.66666669  0.50220998  1
+  K  K5  1  0.33333334  0.66666669  1.00220998  1
+  Sr  Sr6  1  0.33333334  0.66666669  0.35867484  1
+  Sr  Sr7  1  0.33333334  0.66666669  0.85867500  1
+  O  O8  1  0.66666669  0.33333334  0.58667707  1
+  O  O9  1  0.66666669  0.33333334  0.08667707  1

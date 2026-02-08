@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_MgBeTeAs2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.05504539
+_cell_length_b   7.64585004
+_cell_length_c   17.41718457
+_cell_angle_alpha   89.83739163
+_cell_angle_beta   90.68536125
+_cell_angle_gamma   89.77705975
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgBeTeAs2
+_chemical_formula_sum   'Mg4 Be4 Te4 As8'
+_cell_volume   539.96210745
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.16174448  0.59282142  0.59873940  1
+  Mg  Mg1  1  0.83824818  0.40720947  0.09871464  1
+  Mg  Mg2  1  0.66174262  0.40719439  0.59871431  1
+  Mg  Mg3  1  0.33825478  0.59280209  0.09875232  1
+  As  As4  1  0.18153165  0.10164582  0.00169536  1
+  As  As5  1  0.81847103  0.89834787  0.50161198  1
+  As  As6  1  0.68153404  0.89834425  0.00165321  1
+  As  As7  1  0.31847380  0.10164470  0.50163407  1
+  Be  Be8  1  0.37788257  0.60846065  0.35630668  1
+  Be  Be9  1  0.62224677  0.39131916  0.85391322  1
+  Be  Be10  1  0.87758818  0.39140065  0.35305476  1
+  Be  Be11  1  0.12085407  0.60928639  0.85868688  1
+  As  As12  1  0.85466194  0.39441437  0.36406689  1
+  As  As13  1  0.14689728  0.60481238  0.85838412  1
+  As  As14  1  0.35441111  0.60572543  0.36077588  1
+  As  As15  1  0.64545901  0.39458936  0.86321178  1
+  Te  Te16  1  0.86838841  0.87603452  0.65726187  1
+  Te  Te17  1  0.13161636  0.12393980  0.15723436  1
+  Te  Te18  1  0.36838707  0.12395231  0.65725854  1
+  Te  Te19  1  0.63160668  0.87605496  0.15725194  1

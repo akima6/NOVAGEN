@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_NaCd(SbN2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.14131225
+_cell_length_b   5.14133491
+_cell_length_c   8.42716367
+_cell_angle_alpha   89.99913911
+_cell_angle_beta   90.00000604
+_cell_angle_gamma   90.00029864
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCd(SbN2)2
+_chemical_formula_sum   'Na2 Cd2 Sb4 N8'
+_cell_volume   222.75697144
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  -0.00000001  0.00000011  0.25000002  1
+  Na  Na1  1  -0.00000004  -0.00000008  0.75000004  1
+  Cd  Cd2  1  0.50000004  0.49999997  0.24999999  1
+  Cd  Cd3  1  0.49999999  0.49999998  0.75000000  1
+  Sb  Sb4  1  0.26285182  0.10792295  0.00000006  1
+  Sb  Sb5  1  0.73715046  0.89207609  -0.00000037  1
+  Sb  Sb6  1  0.89207660  0.26285080  0.49999970  1
+  Sb  Sb7  1  0.10792352  0.73714945  0.50000007  1
+  N  N8  1  0.01316147  0.51443770  0.29570983  1
+  N  N9  1  0.98683840  0.48556208  0.29570753  1
+  N  N10  1  0.48556130  0.01316213  0.79570633  1
+  N  N11  1  0.51443772  0.98683828  0.79571089  1
+  N  N12  1  0.98683821  0.48556247  0.70429095  1
+  N  N13  1  0.01316179  0.51443759  0.70429185  1
+  N  N14  1  0.51443794  0.98683733  0.20428747  1
+  N  N15  1  0.48556078  0.01316318  0.20429567  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_KAlGeB5As4(SO)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.26980159
+_cell_length_b   7.04159711
+_cell_length_c   27.12230696
+_cell_angle_alpha   90.00473038
+_cell_angle_beta   90.31215306
+_cell_angle_gamma   99.37526777
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KAlGeB5As4(SO)4
+_chemical_formula_sum   'K1 Al1 Ge1 B5 As4 S4 O4'
+_cell_volume   1369.85170005
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.99980725  1.00067777  0.07210539  1
+  Al  Al1  1  0.99913502  -0.00098501  0.93564699  1
+  Ge  Ge2  1  0.00117573  0.00111902  0.84489226  1
+  B  B3  1  0.50000000  0.50000000  0.59652760  1
+  B  B4  1  0.07609399  0.10664852  0.22140618  1
+  B  B5  1  0.92425263  0.89321453  0.22169749  1
+  B  B6  1  0.84523518  0.10004709  0.22307069  1
+  B  B7  1  0.15537035  0.90012741  0.22257254  1
+  As  As8  1  0.17141749  0.37627310  0.22912012  1
+  As  As9  1  0.82847251  0.62373056  0.22905359  1
+  As  As10  1  0.63191667  0.20876018  0.21657060  1
+  As  As11  1  0.36843275  0.79130933  0.21688045  1
+  S  S12  1  0.70867051  0.31292777  0.13441214  1
+  S  S13  1  0.29141929  0.68700075  0.13454369  1
+  S  S14  1  0.76838443  0.61220781  0.14438181  1
+  S  S15  1  0.23071149  0.38788255  0.14455049  1
+  O  O16  1  0.11700302  0.12396873  0.98616250  1
+  O  O17  1  0.88275138  0.87545362  0.98603277  1
+  O  O18  1  0.88654591  0.12342757  0.88880402  1
+  O  O19  1  0.11320442  0.87620870  0.88912161  1

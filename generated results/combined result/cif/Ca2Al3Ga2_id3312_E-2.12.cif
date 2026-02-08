@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Ca2Al3Ga2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.97987234
+_cell_length_b   19.57617226
+_cell_length_c   9.77581551
+_cell_angle_alpha   89.99999031
+_cell_angle_beta   89.99997789
+_cell_angle_gamma   90.00002637
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2Al3Ga2
+_chemical_formula_sum   'Ca8 Al12 Ga8'
+_cell_volume   1718.50554342
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  -0.00000000  0.00000001  0.50000000  1
+  Al  Al1  1  -0.00000000  0.49999999  0.00000000  1
+  Al  Al2  1  0.50000000  0.00000001  0.00000000  1
+  Al  Al3  1  0.50000000  0.49999999  0.50000000  1
+  Al  Al4  1  0.25000000  0.25000000  -0.00000000  1
+  Al  Al5  1  0.75000000  0.25000001  0.00000000  1
+  Al  Al6  1  0.25000000  0.74999999  0.50000000  1
+  Al  Al7  1  0.75000000  0.75000000  0.50000000  1
+  Al  Al8  1  0.74999999  0.25000001  0.50000000  1
+  Al  Al9  1  0.25000000  0.25000000  0.50000000  1
+  Al  Al10  1  0.75000000  0.75000000  -0.00000000  1
+  Al  Al11  1  0.25000000  0.75000000  -0.00000000  1
+  Ga  Ga12  1  0.25000000  0.25000000  0.25000000  1
+  Ga  Ga13  1  0.75000000  0.75000000  0.75000000  1
+  Ga  Ga14  1  0.25000000  0.75000000  0.75000000  1
+  Ga  Ga15  1  0.75000000  0.25000000  0.25000000  1
+  Ga  Ga16  1  0.75000000  0.25000001  0.75000000  1
+  Ga  Ga17  1  0.25000000  0.75000000  0.25000000  1
+  Ga  Ga18  1  0.75000000  0.75000000  0.25000000  1
+  Ga  Ga19  1  0.25000000  0.25000000  0.75000000  1
+  Ca  Ca20  1  0.00000000  0.34293980  -0.00000000  1
+  Ca  Ca21  1  0.00000000  0.65706021  -0.00000000  1
+  Ca  Ca22  1  -0.00000001  0.84293984  0.50000000  1
+  Ca  Ca23  1  0.00000001  0.15706018  0.50000000  1
+  Ca  Ca24  1  0.50000000  0.34293977  0.50000000  1
+  Ca  Ca25  1  0.50000000  0.65706020  0.50000000  1
+  Ca  Ca26  1  0.50000000  0.84293982  0.00000000  1
+  Ca  Ca27  1  0.50000000  0.15706017  -0.00000000  1

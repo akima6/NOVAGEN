@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_BaSrMg3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.92858470
+_cell_length_b   10.92755218
+_cell_length_c   7.67642766
+_cell_angle_alpha   90.00600220
+_cell_angle_beta   90.00039656
+_cell_angle_gamma   120.00276521
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaSrMg3
+_chemical_formula_sum   'Ba3 Sr3 Mg9'
+_cell_volume   793.89761944
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.00000080  0.00000147  0.12537851  1
+  Ba  Ba1  1  0.66666747  0.33333479  0.45871185  1
+  Ba  Ba2  1  0.33333412  0.66666812  0.79204521  1
+  Sr  Sr3  1  -0.00000178  -0.00000318  0.64179040  1
+  Sr  Sr4  1  0.66666501  0.33333023  0.97512375  1
+  Sr  Sr5  1  0.33333160  0.66666354  0.30845709  1
+  Mg  Mg6  1  0.49608042  0.50391918  0.58534821  1
+  Mg  Mg7  1  0.49608169  -0.00783660  0.58535067  1
+  Mg  Mg8  1  1.00783890  0.50391919  0.58534806  1
+  Mg  Mg9  1  0.16274708  0.83725249  0.91868152  1
+  Mg  Mg10  1  0.16274825  0.32549674  0.91868400  1
+  Mg  Mg11  1  0.67450553  0.83725254  0.91868137  1
+  Mg  Mg12  1  0.82941380  0.17058585  0.25201488  1
+  Mg  Mg13  1  0.82941502  0.65883010  0.25201734  1
+  Mg  Mg14  1  0.34117223  0.17058584  0.25201471  1

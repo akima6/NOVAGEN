@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_Ba2Li(Mg2Sn)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.13314538
+_cell_length_b   11.13317265
+_cell_length_c   10.85690199
+_cell_angle_alpha   90.00012511
+_cell_angle_beta   89.99973713
+_cell_angle_gamma   119.99990591
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Li(Mg2Sn)2
+_chemical_formula_sum   'Ba6 Li3 Mg12 Sn6'
+_cell_volume   1165.39670296
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.50000001  0.50000024  0.76673960  1
+  Li  Li1  1  0.50000001  -0.00000002  0.43340615  1
+  Li  Li2  1  -0.00000038  0.49999989  0.10007271  1
+  Mg  Mg3  1  0.50935574  0.66123609  0.59390541  1
+  Mg  Mg4  1  0.33876411  0.84811981  0.26057227  1
+  Mg  Mg5  1  0.15188030  0.49064416  0.92723872  1
+  Mg  Mg6  1  0.49064462  0.33876413  0.59390524  1
+  Mg  Mg7  1  0.66123647  0.15188018  0.26057203  1
+  Mg  Mg8  1  0.84812019  0.50935638  0.92723862  1
+  Mg  Mg9  1  0.17278238  0.03855990  0.74331538  1
+  Mg  Mg10  1  0.96143982  0.13422283  0.40998124  1
+  Mg  Mg11  1  0.86577692  0.82721734  0.07664821  1
+  Mg  Mg12  1  0.82721748  0.96144026  0.74331484  1
+  Mg  Mg13  1  0.03855997  0.86577728  0.40998141  1
+  Mg  Mg14  1  0.13422265  0.17278271  0.07664843  1
+  Sn  Sn15  1  0.34029485  0.38533438  0.95413994  1
+  Sn  Sn16  1  0.61466555  0.95496033  0.62080677  1
+  Sn  Sn17  1  0.04503974  0.65970489  0.28747349  1
+  Sn  Sn18  1  0.65970474  0.61466527  0.95413994  1
+  Sn  Sn19  1  0.38533427  0.04503979  0.62080687  1
+  Sn  Sn20  1  0.95496019  0.34029454  0.28747280  1
+  Ba  Ba21  1  0.15325530  0.34403828  0.65882302  1
+  Ba  Ba22  1  0.65596153  0.80921645  0.32548980  1
+  Ba  Ba23  1  0.19078383  0.84674488  -0.00784309  1
+  Ba  Ba24  1  0.84674458  0.65596119  0.65882266  1
+  Ba  Ba25  1  0.34403819  0.19078334  0.32549014  1
+  Ba  Ba26  1  0.80921698  0.15325551  -0.00784427  1

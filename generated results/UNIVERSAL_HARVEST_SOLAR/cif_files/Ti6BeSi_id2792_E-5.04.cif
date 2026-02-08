@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ti6BeSi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.65239615
+_cell_length_b   12.65240010
+_cell_length_c   5.68061291
+_cell_angle_alpha   90.00004640
+_cell_angle_beta   90.00003824
+_cell_angle_gamma   120.00000816
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti6BeSi
+_chemical_formula_sum   'Ti12 Be2 Si2'
+_cell_volume   787.53794883
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Be  Be0  1  -0.00000001  -0.00000001  0.25000000  1
+  Be  Be1  1  -0.00000001  0.00000000  0.75000000  1
+  Si  Si2  1  0.33333335  0.66666669  0.25000000  1
+  Si  Si3  1  0.66666667  0.33333333  0.75000000  1
+  Ti  Ti4  1  0.20640538  0.19544372  0.30319911  1
+  Ti  Ti5  1  0.80455633  0.01096168  0.30319911  1
+  Ti  Ti6  1  0.98903837  0.79359465  0.30319910  1
+  Ti  Ti7  1  0.79359464  0.80455633  0.80319913  1
+  Ti  Ti8  1  0.19544372  0.98903840  0.80319915  1
+  Ti  Ti9  1  0.01096168  0.20640538  0.80319914  1
+  Ti  Ti10  1  0.19544370  0.20640535  0.69680086  1
+  Ti  Ti11  1  0.01096164  0.80455630  0.69680087  1
+  Ti  Ti12  1  0.79359461  0.98903835  0.69680087  1
+  Ti  Ti13  1  0.80455633  0.79359463  0.19680089  1
+  Ti  Ti14  1  0.98903835  0.19544368  0.19680089  1
+  Ti  Ti15  1  0.20640536  0.01096164  0.19680087  1

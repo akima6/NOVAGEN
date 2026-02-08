@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_NaAl2(GeP)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.39919636
+_cell_length_b   7.39918481
+_cell_length_c   13.76912400
+_cell_angle_alpha   90.00012149
+_cell_angle_beta   90.00001336
+_cell_angle_gamma   119.99998022
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaAl2(GeP)2
+_chemical_formula_sum   'Na3 Al6 Ge6 P6'
+_cell_volume   652.83804713
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.39132728  0.00000002  0.83333330  1
+  Na  Na1  1  0.00000002  0.39132728  0.16666667  1
+  Na  Na2  1  0.60867276  0.60867277  0.50000001  1
+  Al  Al3  1  0.47818882  0.14871636  0.27433292  1
+  Al  Al4  1  0.85128364  0.32947248  0.60766632  1
+  Al  Al5  1  0.67052751  0.52181120  0.94099965  1
+  Al  Al6  1  0.14871634  0.47818877  0.72566711  1
+  Al  Al7  1  0.32947245  0.85128363  0.39233375  1
+  Al  Al8  1  0.52181120  0.67052748  0.05900037  1
+  Ge  Ge9  1  0.34811761  0.63015199  0.21728156  1
+  Ge  Ge10  1  0.36984797  0.71796561  0.55061489  1
+  Ge  Ge11  1  0.28203440  0.65188239  0.88394826  1
+  Ge  Ge12  1  0.63015200  0.34811763  0.78271847  1
+  Ge  Ge13  1  0.71796561  0.36984794  0.44938510  1
+  Ge  Ge14  1  0.65188235  0.28203438  0.11605180  1
+  P  P15  1  0.66096645  0.91545546  0.26514148  1
+  P  P16  1  0.08454463  0.74551104  0.59847475  1
+  P  P17  1  0.25448903  0.33903355  0.93180816  1
+  P  P18  1  0.91545539  0.66096642  0.73485850  1
+  P  P19  1  0.74551100  0.08454458  0.40152522  1
+  P  P20  1  0.33903359  0.25448905  0.06819186  1

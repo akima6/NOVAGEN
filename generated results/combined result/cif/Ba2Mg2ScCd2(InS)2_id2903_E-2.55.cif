@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Ba2Mg2ScCd2(InS)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.50276029
+_cell_length_b   6.04483938
+_cell_length_c   11.85837969
+_cell_angle_alpha   107.69162023
+_cell_angle_beta   66.25863349
+_cell_angle_gamma   98.25394491
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Mg2ScCd2(InS)2
+_chemical_formula_sum   'Ba2 Mg2 Sc1 Cd2 In2 S2'
+_cell_volume   656.35930983
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  -0.00000000  -0.00000000  0.00000001  1
+  Cd  Cd1  1  0.00000001  -0.00000001  0.50000000  1
+  Cd  Cd2  1  0.49999999  -0.00000000  0.50000001  1
+  Mg  Mg3  1  0.30487812  0.85092332  0.85318537  1
+  Mg  Mg4  1  0.69512192  0.14907669  0.14681464  1
+  Ba  Ba5  1  0.20959336  0.44353801  0.52464591  1
+  Ba  Ba6  1  0.79040661  0.55646203  0.47535411  1
+  In  In7  1  0.16889594  0.67377639  0.29974647  1
+  In  In8  1  0.83110402  0.32622362  0.70025352  1
+  S  S9  1  0.75773157  0.12304580  0.30271562  1
+  S  S10  1  0.24226843  0.87695418  0.69728440  1

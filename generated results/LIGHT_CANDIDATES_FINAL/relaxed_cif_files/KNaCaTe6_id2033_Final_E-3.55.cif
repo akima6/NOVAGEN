@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_KNaCaTe6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.57378260
+_cell_length_b   9.57383545
+_cell_length_c   4.02370638
+_cell_angle_alpha   89.99968314
+_cell_angle_beta   90.00072218
+_cell_angle_gamma   119.99979070
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNaCaTe6
+_chemical_formula_sum   'K1 Na1 Ca1 Te6'
+_cell_volume   319.39443846
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.33333340  0.66666673  -0.00000003  1
+  Na  Na1  1  -0.00000001  -0.00000003  0.50000004  1
+  Ca  Ca2  1  0.66666670  0.33333333  0.49999997  1
+  Te  Te3  1  0.36489673  0.31762843  0.86745939  1
+  Te  Te4  1  0.68237150  0.04726817  0.86745950  1
+  Te  Te5  1  0.95273162  0.63510339  0.86745964  1
+  Te  Te6  1  0.68237176  0.63510334  0.13254045  1
+  Te  Te7  1  0.95273171  0.31762848  0.13254062  1
+  Te  Te8  1  0.36489659  0.04726816  0.13254041  1

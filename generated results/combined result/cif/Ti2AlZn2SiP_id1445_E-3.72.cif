@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Ti2AlZn2SiP
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.82097932
+_cell_length_b   10.82098509
+_cell_length_c   8.39858292
+_cell_angle_alpha   90.00002297
+_cell_angle_beta   90.00005719
+_cell_angle_gamma   120.00001064
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti2AlZn2SiP
+_chemical_formula_sum   'Ti6 Al3 Zn6 Si3 P3'
+_cell_volume   851.66728527
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.34418329  0.09991240  0.99842093  1
+  Zn  Zn1  1  0.90008752  0.24427091  0.33175422  1
+  Zn  Zn2  1  0.75572920  0.65581662  0.66508754  1
+  Al  Al3  1  0.62035683  0.09042246  0.26917495  1
+  Al  Al4  1  0.90957737  0.52993437  0.60250839  1
+  Al  Al5  1  0.47006565  0.37964314  0.93584168  1
+  Zn  Zn6  1  0.14010119  0.35817946  0.61829941  1
+  Zn  Zn7  1  0.64182057  0.78192153  0.95163262  1
+  Zn  Zn8  1  0.21807825  0.85989865  0.28496600  1
+  Si  Si9  1  0.34258273  0.30094525  0.71205653  1
+  Si  Si10  1  0.69905499  1.04163791  0.04539002  1
+  Si  Si11  1  -0.04163753  0.65741742  0.37872318  1
+  P  P12  1  0.88846426  0.31485932  0.63340407  1
+  P  P13  1  0.68514066  0.57360490  0.96673755  1
+  P  P14  1  0.42639520  0.11153593  0.30007099  1
+  Ti  Ti15  1  0.77597359  0.72632218  0.29458862  1
+  Ti  Ti16  1  0.27367784  0.04965133  0.62792197  1
+  Ti  Ti17  1  0.95034853  0.22402636  0.96125531  1
+  Ti  Ti18  1  0.81541604  0.08730111  0.77743867  1
+  Ti  Ti19  1  0.91269888  0.72811497  0.11077190  1
+  Ti  Ti20  1  0.27188501  0.18458377  0.44410514  1

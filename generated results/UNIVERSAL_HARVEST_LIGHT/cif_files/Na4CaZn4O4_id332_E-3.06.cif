@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Na4CaZn4O4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.85446538
+_cell_length_b   7.85372860
+_cell_length_c   7.40743370
+_cell_angle_alpha   89.99999627
+_cell_angle_beta   90.00007456
+_cell_angle_gamma   89.97309315
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na4CaZn4O4
+_chemical_formula_sum   'Na8 Ca2 Zn8 O8'
+_cell_volume   456.94112202
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.25000003  0.24999999  0.24999874  1
+  Ca  Ca1  1  0.74999997  0.75000000  0.75000122  1
+  Zn  Zn2  1  0.27003039  0.10333614  0.55626828  1
+  Zn  Zn3  1  0.22996960  0.39666389  0.55626835  1
+  Zn  Zn4  1  0.89666163  0.77003078  0.05626720  1
+  Zn  Zn5  1  0.60333844  0.72996923  0.05626709  1
+  Zn  Zn6  1  0.72996988  0.89666307  0.44373250  1
+  Zn  Zn7  1  0.77003013  0.60333696  0.44373251  1
+  Zn  Zn8  1  0.10333722  0.22996922  0.94373193  1
+  Zn  Zn9  1  0.39666275  0.27003075  0.94373202  1
+  O  O10  1  0.71772112  0.07958852  0.15874807  1
+  O  O11  1  0.78227887  0.42041144  0.15874806  1
+  O  O12  1  0.92041300  0.21772338  0.65873804  1
+  O  O13  1  0.57958698  0.28227657  0.65873794  1
+  O  O14  1  0.28227835  0.92041473  0.84125703  1
+  O  O15  1  0.21772160  0.57958527  0.84125693  1
+  O  O16  1  0.07958627  0.78227687  0.34125893  1
+  O  O17  1  0.42041374  0.71772313  0.34125901  1
+  Na  Na18  1  0.23165468  0.74432545  0.62198213  1
+  Na  Na19  1  0.26834532  0.75567454  0.62198213  1
+  Na  Na20  1  0.25565986  0.73168046  0.12198248  1
+  Na  Na21  1  0.24434011  0.76831955  0.12198247  1
+  Na  Na22  1  0.76841169  0.25570910  0.37801608  1
+  Na  Na23  1  0.73158831  0.24429093  0.37801610  1
+  Na  Na24  1  0.74434610  0.26831460  0.87801732  1
+  Na  Na25  1  0.75565393  0.23168541  0.87801734  1

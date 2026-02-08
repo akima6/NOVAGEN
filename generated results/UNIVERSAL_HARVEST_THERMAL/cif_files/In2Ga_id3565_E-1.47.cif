@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_In2Ga
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.29018992
+_cell_length_b   12.29019765
+_cell_length_c   16.25498945
+_cell_angle_alpha   90.00002722
+_cell_angle_beta   89.99999576
+_cell_angle_gamma   120.00000525
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In2Ga
+_chemical_formula_sum   'In6 Ga3'
+_cell_volume   2126.35005150
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.16265074  0.83734924  0.16666668  1
+  Ga  Ga1  1  0.16265078  0.32530149  0.83333332  1
+  Ga  Ga2  1  0.67469849  0.83734924  0.50000000  1
+  In  In3  1  0.61513615  0.91478296  0.62559168  1
+  In  In4  1  0.08521703  0.70035319  0.29225831  1
+  In  In5  1  0.29964678  0.38486384  0.95892505  1
+  In  In6  1  0.08521703  0.38486386  0.70774169  1
+  In  In7  1  0.29964681  0.91478296  0.04107500  1
+  In  In8  1  0.61513616  0.70035319  0.37440832  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ZnGeP
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.33558791
+_cell_length_b   11.14593231
+_cell_length_c   6.96714277
+_cell_angle_alpha   90.00000013
+_cell_angle_beta   90.00003627
+_cell_angle_gamma   89.99997196
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnGeP
+_chemical_formula_sum   'Zn4 Ge4 P4'
+_cell_volume   414.33668841
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.02359299  0.55913366  0.17908058  1
+  Zn  Zn1  1  0.97640693  0.44086630  0.67908064  1
+  Zn  Zn2  1  0.52359305  0.44086629  0.17908067  1
+  Zn  Zn3  1  0.47640700  0.55913376  0.67908064  1
+  Ge  Ge4  1  0.61298957  0.67271590  0.22130196  1
+  Ge  Ge5  1  0.38701046  0.32728410  0.72130194  1
+  Ge  Ge6  1  0.11298956  0.32728410  0.22130197  1
+  Ge  Ge7  1  0.88701044  0.67271590  0.72130194  1
+  P  P8  1  0.63866869  0.35787367  0.47273668  1
+  P  P9  1  0.36133127  0.64212627  0.97273669  1
+  P  P10  1  0.13866867  0.64212623  0.47273674  1
+  P  P11  1  0.86133132  0.35787376  0.97273672  1

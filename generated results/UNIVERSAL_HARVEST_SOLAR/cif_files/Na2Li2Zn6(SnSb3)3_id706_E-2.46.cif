@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Na2Li2Zn6(SnSb3)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.39351510
+_cell_length_b   11.39350718
+_cell_length_c   12.52683922
+_cell_angle_alpha   89.99994371
+_cell_angle_beta   90.00012611
+_cell_angle_gamma   119.99991870
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Li2Zn6(SnSb3)3
+_chemical_formula_sum   'Na2 Li2 Zn6 Sn3 Sb9'
+_cell_volume   1408.27559647
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  -0.00000002  -0.00000004  0.42818820  1
+  Na  Na1  1  0.33333335  0.66666662  0.06810606  1
+  Na  Na2  1  0.66666672  0.33333338  0.47306906  1
+  Li  Li3  1  0.66666670  0.33333335  0.91671911  1
+  Sb  Sb4  1  0.32500537  0.08418710  0.45686553  1
+  Sb  Sb5  1  0.91581285  0.24081830  0.45686548  1
+  Sb  Sb6  1  0.75918189  0.67499451  0.45686549  1
+  Sb  Sb7  1  0.42252138  0.91038471  0.94423863  1
+  Sb  Sb8  1  0.08961511  0.51213665  0.94423864  1
+  Sb  Sb9  1  0.48786319  0.57747857  0.94423826  1
+  Sn  Sn10  1  0.37571521  0.31290105  0.36098958  1
+  Sn  Sn11  1  0.68709900  0.06281418  0.36098960  1
+  Sn  Sn12  1  0.93718574  0.62428487  0.36098963  1
+  Sb  Sb13  1  0.48865597  0.68968845  0.27942340  1
+  Sb  Sb14  1  0.31031158  0.79896755  0.27942334  1
+  Sb  Sb15  1  0.20103246  0.51134398  0.27942334  1
+  Zn  Zn16  1  0.33363021  0.54309717  0.75771678  1
+  Zn  Zn17  1  0.45690292  0.79053289  0.75771646  1
+  Zn  Zn18  1  0.20946713  0.66636994  0.75771664  1
+  Zn  Zn19  1  0.18354701  0.75500491  0.94383793  1
+  Zn  Zn20  1  0.24499492  0.42854199  0.94383800  1
+  Zn  Zn21  1  0.57145804  0.81645316  0.94383806  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_NaMgSe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.91933513
+_cell_length_b   4.91934033
+_cell_length_c   21.57294822
+_cell_angle_alpha   90.00007723
+_cell_angle_beta   90.00003158
+_cell_angle_gamma   120.00002182
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaMgSe4
+_chemical_formula_sum   'Na3 Mg3 Se12'
+_cell_volume   452.11957992
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.00000000  -0.00000000  0.00000001  1
+  Na  Na1  1  0.66666669  0.33333334  0.33333333  1
+  Na  Na2  1  0.33333334  0.66666669  0.66666668  1
+  Mg  Mg3  1  -0.00000000  -0.00000000  0.49999999  1
+  Mg  Mg4  1  0.66666669  0.33333334  0.83333334  1
+  Mg  Mg5  1  0.33333334  0.66666669  0.16666669  1
+  Se  Se6  1  0.00000000  0.00000000  0.16043257  1
+  Se  Se7  1  -0.00000001  -0.00000001  0.83956743  1
+  Se  Se8  1  0.66666669  0.33333335  0.49376590  1
+  Se  Se9  1  0.66666669  0.33333334  0.17290080  1
+  Se  Se10  1  0.33333335  0.66666669  0.82709926  1
+  Se  Se11  1  0.33333334  0.66666668  0.50623411  1
+  Se  Se12  1  0.00000001  0.00000001  0.62276867  1
+  Se  Se13  1  -0.00000001  -0.00000001  0.37723134  1
+  Se  Se14  1  0.66666669  0.33333335  0.95610200  1
+  Se  Se15  1  0.66666668  0.33333334  0.71056471  1
+  Se  Se16  1  0.33333334  0.66666669  0.28943534  1
+  Se  Se17  1  0.33333334  0.66666668  0.04389802  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_InGaTe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.80812578
+_cell_length_b   7.80817685
+_cell_length_c   9.07263145
+_cell_angle_alpha   89.99993963
+_cell_angle_beta   89.99969197
+_cell_angle_gamma   89.99990808
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InGaTe2
+_chemical_formula_sum   'In4 Ga4 Te8'
+_cell_volume   553.13318065
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  -0.00000003  -0.00000018  -0.00000000  1
+  Ga  Ga1  1  0.49999988  0.49999993  0.49999994  1
+  Ga  Ga2  1  -0.00000003  0.00000000  0.50000004  1
+  Ga  Ga3  1  0.49999999  0.50000006  0.00000004  1
+  In  In4  1  0.00000016  0.49999988  0.25000000  1
+  In  In5  1  0.00000009  0.50000010  0.75000006  1
+  In  In6  1  0.49999996  0.00000011  0.75000025  1
+  In  In7  1  0.50000010  0.00000045  0.24999969  1
+  Te  Te8  1  0.78435089  0.78435081  0.85527515  1
+  Te  Te9  1  0.21564910  0.21564910  0.85527515  1
+  Te  Te10  1  0.78435065  0.21564895  0.14472502  1
+  Te  Te11  1  0.21564921  0.78435090  0.14472487  1
+  Te  Te12  1  0.28435090  0.28435094  0.35527513  1
+  Te  Te13  1  0.71564918  0.71564911  0.35527536  1
+  Te  Te14  1  0.28435075  0.71564900  0.64472469  1
+  Te  Te15  1  0.71564933  0.28435094  0.64472472  1

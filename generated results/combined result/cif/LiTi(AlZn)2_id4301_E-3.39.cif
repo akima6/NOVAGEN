@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_LiTi(AlZn)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.68545397
+_cell_length_b   4.68545368
+_cell_length_c   17.93271649
+_cell_angle_alpha   90.00000106
+_cell_angle_beta   90.00000832
+_cell_angle_gamma   89.99983881
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiTi(AlZn)2
+_chemical_formula_sum   'Li4 Ti4 Al8 Zn8'
+_cell_volume   393.68548887
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00000000  0.74999999  0.12500001  1
+  Li  Li1  1  0.50000000  0.75000000  0.37499999  1
+  Li  Li2  1  0.50000000  0.25000000  0.62500000  1
+  Li  Li3  1  -0.00000001  0.25000000  0.87500002  1
+  Ti  Ti4  1  0.00000000  0.25000000  0.37500000  1
+  Ti  Ti5  1  0.00000000  0.75000000  0.62500000  1
+  Ti  Ti6  1  0.50000000  0.75000000  0.87500004  1
+  Ti  Ti7  1  0.50000000  0.25000000  0.12500001  1
+  Zn  Zn8  1  0.00000001  0.25000000  0.02619944  1
+  Zn  Zn9  1  0.00000000  0.75000001  0.27619943  1
+  Zn  Zn10  1  0.49999999  0.24999999  0.47380056  1
+  Zn  Zn11  1  0.50000000  0.75000002  0.22380057  1
+  Zn  Zn12  1  0.49999999  0.75000001  0.52619944  1
+  Zn  Zn13  1  0.50000000  0.25000002  0.77619944  1
+  Zn  Zn14  1  -0.00000002  0.75000000  0.97380054  1
+  Zn  Zn15  1  0.00000000  0.25000001  0.72380056  1
+  Al  Al16  1  0.00000000  0.25000000  0.52987748  1
+  Al  Al17  1  0.00000000  0.74999999  0.77987747  1
+  Al  Al18  1  0.49999999  0.25000001  0.97012250  1
+  Al  Al19  1  0.50000000  0.74999998  0.72012251  1
+  Al  Al20  1  0.50000001  0.74999999  0.02987746  1
+  Al  Al21  1  0.50000000  0.24999999  0.27987748  1
+  Al  Al22  1  0.00000001  0.74999999  0.47012252  1
+  Al  Al23  1  -0.00000000  0.24999999  0.22012251  1

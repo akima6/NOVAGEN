@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Li4In2Ga
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.20264577
+_cell_length_b   5.20272763
+_cell_length_c   8.79672765
+_cell_angle_alpha   90.00486967
+_cell_angle_beta   89.99929189
+_cell_angle_gamma   89.99711719
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li4In2Ga
+_chemical_formula_sum   'Li8 In4 Ga2'
+_cell_volume   238.10937343
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  -0.00000001  -0.00000003  0.50000169  1
+  Li  Li1  1  0.49999997  0.49999999  0.00000008  1
+  Li  Li2  1  -0.00002274  0.50030982  0.75000299  1
+  Li  Li3  1  0.49971317  0.00006738  0.24995484  1
+  Li  Li4  1  0.00001026  0.49984601  0.76416751  1
+  Li  Li5  1  0.50013286  -0.00003076  0.23586645  1
+  Li  Li6  1  0.50015358  -0.00003653  0.26417523  1
+  Li  Li7  1  0.00001237  0.49984453  0.73582772  1
+  In  In8  1  -0.00000016  0.49999938  0.08391935  1
+  In  In9  1  0.50000066  -0.00000034  0.91604483  1
+  In  In10  1  0.49999955  0.00000032  0.58396045  1
+  In  In11  1  0.00000013  0.50000035  0.41608534  1
+  Ga  Ga12  1  0.00000021  -0.00000007  -0.00001027  1
+  Ga  Ga13  1  0.50000016  0.49999996  0.50000379  1

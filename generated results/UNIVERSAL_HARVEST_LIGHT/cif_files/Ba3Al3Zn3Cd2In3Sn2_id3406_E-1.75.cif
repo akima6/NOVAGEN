@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ba3Al3Zn3Cd2In3Sn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.96211532
+_cell_length_b   14.96210190
+_cell_length_c   5.45427534
+_cell_angle_alpha   90.00004531
+_cell_angle_beta   89.99990964
+_cell_angle_gamma   120.00002154
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3Al3Zn3Cd2In3Sn2
+_chemical_formula_sum   'Ba3 Al3 Zn3 Cd2 In3 Sn2'
+_cell_volume   1057.43383169
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.00000002  0.00000001  -0.00000000  1
+  Sn  Sn1  1  0.33333348  0.66666680  -0.00000000  1
+  Cd  Cd2  1  0.66666686  0.33333353  0.00000000  1
+  Sn  Sn3  1  0.66666660  0.33333328  0.50000002  1
+  In  In4  1  0.56321191  0.43678780  -0.00000001  1
+  In  In5  1  0.56321206  0.12642422  -0.00000004  1
+  In  In6  1  0.87357595  0.43678787  0.00000002  1
+  Ba  Ba7  1  0.20725567  0.79274440  -0.00000001  1
+  Ba  Ba8  1  0.20725564  0.41451131  0.00000000  1
+  Ba  Ba9  1  0.58548870  0.79274439  0.00000000  1
+  Al  Al10  1  0.45742979  0.54257010  -0.00000000  1
+  Al  Al11  1  0.45742976  0.91485961  -0.00000000  1
+  Al  Al12  1  0.08514021  0.54257011  0.00000001  1
+  Zn  Zn13  1  0.77199461  0.22800538  0.50000002  1
+  Zn  Zn14  1  0.77199464  0.54398925  0.49999999  1
+  Zn  Zn15  1  0.45601080  0.22800537  0.50000001  1

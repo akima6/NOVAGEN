@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Na4Li(ZnSn)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.15527681
+_cell_length_b   8.15525255
+_cell_length_c   8.45845560
+_cell_angle_alpha   89.99947511
+_cell_angle_beta   89.99951011
+_cell_angle_gamma   89.99999523
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na4Li(ZnSn)2
+_chemical_formula_sum   'Na8 Li2 Zn4 Sn4'
+_cell_volume   562.55785789
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.49999999  0.50000015  0.24999999  1
+  Li  Li1  1  0.49999995  0.49999996  0.75000001  1
+  Sn  Sn2  1  0.00000003  0.50000011  0.24999982  1
+  Sn  Sn3  1  0.50000018  0.00000025  0.75000009  1
+  Sn  Sn4  1  0.00000017  0.50000015  0.75000016  1
+  Sn  Sn5  1  0.49999985  -0.00000033  0.24999996  1
+  Zn  Zn6  1  0.12239675  0.12239646  -0.00000016  1
+  Zn  Zn7  1  0.87760313  0.87760294  0.00000014  1
+  Zn  Zn8  1  0.87760335  0.12239663  0.50000023  1
+  Zn  Zn9  1  0.12239650  0.87760332  0.49999968  1
+  Na  Na10  1  0.19905579  0.19905612  0.32261252  1
+  Na  Na11  1  0.80094396  0.80094432  0.32261304  1
+  Na  Na12  1  0.80094407  0.19905555  0.82261337  1
+  Na  Na13  1  0.19905574  0.80094403  0.82261245  1
+  Na  Na14  1  0.80094425  0.19905617  0.17738765  1
+  Na  Na15  1  0.19905594  0.80094458  0.17738678  1
+  Na  Na16  1  0.19905601  0.19905556  0.67738702  1
+  Na  Na17  1  0.80094437  0.80094405  0.67738726  1

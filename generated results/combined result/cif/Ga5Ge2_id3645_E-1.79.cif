@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Ga5Ge2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.10799164
+_cell_length_b   10.94082146
+_cell_length_c   10.33339598
+_cell_angle_alpha   90.00000443
+_cell_angle_beta   89.97990837
+_cell_angle_gamma   89.99999644
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ga5Ge2
+_chemical_formula_sum   'Ga20 Ge8'
+_cell_volume   1255.82325397
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.39006778  0.00000059  0.25000015  1
+  Ge  Ge1  1  0.10993222  0.00000059  0.74999985  1
+  Ge  Ge2  1  0.89008727  0.50001203  0.75000646  1
+  Ge  Ge3  1  0.60991273  0.50001203  0.24999354  1
+  Ge  Ge4  1  0.25000000  0.14501938  -0.00000000  1
+  Ge  Ge5  1  0.25000000  0.85497653  0.50000000  1
+  Ge  Ge6  1  0.75000000  0.64497901  0.50000000  1
+  Ge  Ge7  1  0.75000000  0.35497669  -0.00000000  1
+  Ga  Ga8  1  0.25000001  0.92523727  -0.00000000  1
+  Ga  Ga9  1  0.25000000  0.07473945  0.50000000  1
+  Ga  Ga10  1  0.74999999  0.42490049  0.50000002  1
+  Ga  Ga11  1  0.74999997  0.57480079  0.00000000  1
+  Ga  Ga12  1  0.25000000  0.83245294  0.00000000  1
+  Ga  Ga13  1  0.25000000  0.16757764  0.50000000  1
+  Ga  Ga14  1  0.75000000  0.33331044  0.49999999  1
+  Ga  Ga15  1  0.75000001  0.66748559  0.00000000  1
+  Ga  Ga16  1  0.24999999  0.96198485  0.00000000  1
+  Ga  Ga17  1  0.25000000  0.03800897  0.50000000  1
+  Ga  Ga18  1  0.75000001  0.46146465  0.49999999  1
+  Ga  Ga19  1  0.75000002  0.53804860  0.00000000  1
+  Ga  Ga20  1  0.71328595  0.35270559  0.29468004  1
+  Ga  Ga21  1  0.78672069  0.64729922  0.79467792  1
+  Ga  Ga22  1  0.28672485  0.85270520  0.20531585  1
+  Ga  Ga23  1  0.21327503  0.14729569  0.70531670  1
+  Ga  Ga24  1  0.21327515  0.85270520  0.79468418  1
+  Ga  Ga25  1  0.28672497  0.14729569  0.29468330  1
+  Ga  Ga26  1  0.78671405  0.35270562  0.70531993  1
+  Ga  Ga27  1  0.71327931  0.64729923  0.20532211  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Mg3Be(GaO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.77859857
+_cell_length_b   12.77861548
+_cell_length_c   4.90043100
+_cell_angle_alpha   89.99976930
+_cell_angle_beta   90.00539734
+_cell_angle_gamma   90.00005235
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg3Be(GaO)2
+_chemical_formula_sum   'Mg6 Be2 Ga4 O4'
+_cell_volume   800.20508220
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.00000002  0.49999999  0.24999999  1
+  Mg  Mg1  1  0.49999992  -0.00000001  0.75000002  1
+  Be  Be2  1  0.00000000  -0.00000000  -0.00000000  1
+  Be  Be3  1  0.00000000  -0.00000000  0.50000000  1
+  Ga  Ga4  1  0.49999995  0.68525485  0.25000002  1
+  Ga  Ga5  1  0.50000000  0.31474523  0.24999995  1
+  Ga  Ga6  1  0.68525477  0.49999997  0.74999999  1
+  Ga  Ga7  1  0.31474527  0.49999997  0.75000006  1
+  Mg  Mg8  1  0.19584283  0.49999999  0.24999959  1
+  Mg  Mg9  1  0.80415718  0.49999999  0.25000038  1
+  Mg  Mg10  1  0.50000000  0.80415720  0.74999996  1
+  Mg  Mg11  1  0.49999999  0.19584282  0.75000003  1
+  O  O12  1  0.00001153  0.50000015  0.60669648  1
+  O  O13  1  0.49999690  0.00000040  0.39330352  1
+  O  O14  1  -0.00001155  0.49999985  0.89330354  1
+  O  O15  1  0.50000316  -0.00000041  0.10669647  1

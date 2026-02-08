@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KNa6LiGa2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.49165893
+_cell_length_b   6.49164640
+_cell_length_c   8.68629411
+_cell_angle_alpha   89.99996350
+_cell_angle_beta   90.00005137
+_cell_angle_gamma   120.00004622
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNa6LiGa2
+_chemical_formula_sum   'K1 Na6 Li1 Ga2'
+_cell_volume   317.01185928
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.00000005  -0.00000009  1.00000007  1
+  Na  Na1  1  0.41663503  1.00056893  0.70586311  1
+  Na  Na2  1  -0.00056868  0.41606743  0.70586334  1
+  Na  Na3  1  0.58393277  0.58336491  0.70586349  1
+  Na  Na4  1  1.00056911  0.41663556  0.29413646  1
+  Na  Na5  1  0.41606789  -0.00056866  0.29413730  1
+  Na  Na6  1  0.58336437  0.58393245  0.29413652  1
+  Li  Li7  1  0.99999972  -0.00000020  0.49999966  1
+  Ga  Ga8  1  0.33333369  0.66666754  -0.00291915  1
+  Ga  Ga9  1  0.66666619  0.33333229  1.00291921  1

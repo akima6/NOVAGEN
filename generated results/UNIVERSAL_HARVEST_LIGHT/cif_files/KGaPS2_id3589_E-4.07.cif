@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_KGaPS2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.11129719
+_cell_length_b   6.11129710
+_cell_length_c   12.52552724
+_cell_angle_alpha   89.99997463
+_cell_angle_beta   90.00001806
+_cell_angle_gamma   119.99997712
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KGaPS2
+_chemical_formula_sum   'K3 Ga3 P3 S6'
+_cell_volume   405.12920190
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.06643537  -0.00000001  0.66666669  1
+  K  K1  1  -0.00000001  0.06643537  0.33333334  1
+  K  K2  1  0.93356465  0.93356465  0.00000001  1
+  P  P3  1  0.53974976  -0.00000002  0.66666668  1
+  P  P4  1  -0.00000001  0.53974976  0.33333335  1
+  P  P5  1  0.46025024  0.46025021  0.00000001  1
+  Ga  Ga6  1  0.49805810  0.00000000  0.16666670  1
+  Ga  Ga7  1  0.00000003  0.49805811  0.83333333  1
+  Ga  Ga8  1  0.50194187  0.50194187  0.50000002  1
+  S  S9  1  0.37369701  0.90293099  0.34010303  1
+  S  S10  1  0.09706899  0.47076603  1.00676973  1
+  S  S11  1  0.52923398  0.62630301  0.67343635  1
+  S  S12  1  0.90293098  0.37369700  0.65989698  1
+  S  S13  1  0.47076602  0.09706903  -0.00676971  1
+  S  S14  1  0.62630300  0.52923398  0.32656365  1

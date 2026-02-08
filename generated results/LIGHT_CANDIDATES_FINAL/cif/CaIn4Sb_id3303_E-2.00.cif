@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CaIn4Sb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.46498203
+_cell_length_b   9.46498203
+_cell_length_c   10.03910306
+_cell_angle_alpha   90.00000696
+_cell_angle_beta   90.00000696
+_cell_angle_gamma   90.00000250
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaIn4Sb
+_chemical_formula_sum   'Ca2 In8 Sb2'
+_cell_volume   899.36193093
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.00000000  0.00000000  0.00000002  1
+  Ca  Ca1  1  0.50000000  0.50000000  0.49999995  1
+  Sb  Sb2  1  0.00000000  0.00000000  0.49999980  1
+  Sb  Sb3  1  0.50000000  0.50000000  0.00000051  1
+  In  In4  1  0.00000000  0.00000000  0.28559033  1
+  In  In5  1  0.49999999  0.49999999  0.78559046  1
+  In  In6  1  0.50000000  0.50000000  0.21440957  1
+  In  In7  1  -0.00000000  -0.00000000  0.71440965  1
+  In  In8  1  0.00000000  0.00000000  0.75353239  1
+  In  In9  1  0.50000000  0.50000000  0.25353246  1
+  In  In10  1  0.50000001  0.50000001  0.74646705  1
+  In  In11  1  -0.00000000  -0.00000000  0.24646780  1

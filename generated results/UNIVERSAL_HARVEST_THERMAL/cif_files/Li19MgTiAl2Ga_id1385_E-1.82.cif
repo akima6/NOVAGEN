@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Li19MgTiAl2Ga
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.87319307
+_cell_length_b   13.64599414
+_cell_length_c   10.50701978
+_cell_angle_alpha   89.99997041
+_cell_angle_beta   119.22602466
+_cell_angle_gamma   89.99994950
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li19MgTiAl2Ga
+_chemical_formula_sum   'Li19 Mg1 Ti1 Al2 Ga1'
+_cell_volume   734.89311754
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.00000001  0.00418772  0.50000000  1
+  Mg  Mg1  1  -0.00000001  0.25392922  0.49999998  1
+  Li  Li2  1  0.49999998  0.21388479  -0.00000001  1
+  Ga  Ga3  1  0.50000001  0.25151504  0.49999999  1
+  Li  Li4  1  0.19915236  0.37816959  0.23240269  1
+  Li  Li5  1  0.80084761  0.37816968  0.76759732  1
+  Li  Li6  1  0.73760491  0.13571336  0.24705054  1
+  Li  Li7  1  0.26239512  0.13571332  0.75294948  1
+  Li  Li8  1  0.26017333  0.33166783  0.03333879  1
+  Li  Li9  1  0.73982667  0.33166769  0.96666117  1
+  Li  Li10  1  0.67486779  0.54616493  -0.01139263  1
+  Li  Li11  1  0.32513220  0.54616483  1.01139267  1
+  Li  Li12  1  0.67089886  0.40021783  0.14943208  1
+  Li  Li13  1  0.32910119  0.40021782  0.85056789  1
+  Al  Al14  1  0.77615728  0.64858928  0.56410378  1
+  Al  Al15  1  0.22384272  0.64858927  0.43589623  1
+  Li  Li16  1  0.85908781  0.17124788  0.86053891  1
+  Li  Li17  1  0.14091220  0.17124797  0.13946111  1
+  Li  Li18  1  0.75936376  0.43146583  0.47661433  1
+  Li  Li19  1  0.24063624  0.43146583  0.52338569  1
+  Li  Li20  1  0.68507482  -0.02798809  0.11837348  1
+  Li  Li21  1  0.31492515  -0.02798809  0.88162648  1
+  Li  Li22  1  0.76219965  0.86456671  0.64399557  1
+  Li  Li23  1  0.23780035  0.86456674  0.35600442  1

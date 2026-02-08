@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Be2CdGa3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.06616251
+_cell_length_b   13.06616779
+_cell_length_c   2.71461364
+_cell_angle_alpha   90.00003249
+_cell_angle_beta   89.99998023
+_cell_angle_gamma   120.00000409
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Be2CdGa3
+_chemical_formula_sum   'Be6 Cd3 Ga9'
+_cell_volume   401.36077630
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.19585093  0.80414909  0.16666667  1
+  Ga  Ga1  1  0.19585094  0.39170180  0.83333332  1
+  Ga  Ga2  1  0.60829830  0.80414914  0.49999999  1
+  Cd  Cd3  1  0.46798535  0.53201463  0.16666666  1
+  Cd  Cd4  1  0.46798537  0.93597062  0.83333332  1
+  Cd  Cd5  1  0.06402924  0.53201458  0.50000000  1
+  Be  Be6  1  0.65976073  0.61951687  0.45085677  1
+  Be  Be7  1  0.38048309  0.04024389  0.11752346  1
+  Be  Be8  1  0.95975616  0.34023931  0.78419008  1
+  Be  Be9  1  0.38048312  0.34023926  0.88247655  1
+  Be  Be10  1  0.95975615  0.61951686  0.21580992  1
+  Be  Be11  1  0.65976075  0.04024388  0.54914323  1
+  Ga  Ga12  1  -0.01402388  0.78278381  0.68023570  1
+  Ga  Ga13  1  0.21721620  0.20319232  0.34690232  1
+  Ga  Ga14  1  0.79680764  1.01402382  0.01356907  1
+  Ga  Ga15  1  0.21721620  1.01402392  0.65309767  1
+  Ga  Ga16  1  0.79680757  0.78278381  0.98643100  1
+  Ga  Ga17  1  -0.01402388  0.20319235  0.31976430  1

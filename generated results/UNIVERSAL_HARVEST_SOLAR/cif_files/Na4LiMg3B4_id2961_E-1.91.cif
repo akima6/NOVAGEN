@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Na4LiMg3B4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.88032010
+_cell_length_b   11.88017557
+_cell_length_c   8.58737610
+_cell_angle_alpha   90.00001027
+_cell_angle_beta   90.00001257
+_cell_angle_gamma   90.00051917
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na4LiMg3B4
+_chemical_formula_sum   'Na8 Li2 Mg6 B8'
+_cell_volume   1212.02474021
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.00001148  -0.00000177  0.00000001  1
+  Mg  Mg1  1  0.00000063  0.00000423  0.49999999  1
+  Li  Li2  1  0.50000000  0.50000000  0.25000000  1
+  Li  Li3  1  0.50000000  0.50000000  0.75000000  1
+  Mg  Mg4  1  0.23053758  0.73160538  0.00000000  1
+  Mg  Mg5  1  0.76946221  0.26839505  0.00000000  1
+  Mg  Mg6  1  0.26839460  0.23053760  0.50000000  1
+  Mg  Mg7  1  0.73160533  0.76946238  0.50000000  1
+  Na  Na8  1  0.20920249  0.58047154  0.69413677  1
+  Na  Na9  1  0.79079751  0.41952844  0.69413678  1
+  Na  Na10  1  0.41952848  0.20920250  0.19413679  1
+  Na  Na11  1  0.58047155  0.79079750  0.19413678  1
+  Na  Na12  1  0.79079751  0.41952844  0.30586322  1
+  Na  Na13  1  0.20920249  0.58047154  0.30586323  1
+  Na  Na14  1  0.58047155  0.79079750  0.80586322  1
+  Na  Na15  1  0.41952848  0.20920250  0.80586322  1
+  B  B16  1  0.02047511  0.13526018  0.46917688  1
+  B  B17  1  0.97952461  0.86473772  0.46918326  1
+  B  B18  1  0.86473545  0.02047558  0.96919631  1
+  B  B19  1  0.13525887  0.97952511  0.96918390  1
+  B  B20  1  0.97952462  0.86473770  0.53081671  1
+  B  B21  1  0.02047511  0.13526019  0.53082310  1
+  B  B22  1  0.13525886  0.97952511  0.03081612  1
+  B  B23  1  0.86473546  0.02047558  0.03080372  1

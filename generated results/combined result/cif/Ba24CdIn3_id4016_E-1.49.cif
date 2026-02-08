@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Ba24CdIn3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.47081822
+_cell_length_b   14.47082702
+_cell_length_c   14.47081772
+_cell_angle_alpha   90.00003981
+_cell_angle_beta   90.00005347
+_cell_angle_gamma   89.99991961
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba24CdIn3
+_chemical_formula_sum   'Ba24 Cd1 In3'
+_cell_volume   3030.25734847
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  -0.00000000  -0.00000000  -0.00000000  1
+  In  In1  1  0.50000000  -0.00000002  -0.00000003  1
+  In  In2  1  -0.00000001  0.50000000  -0.00000003  1
+  In  In3  1  -0.00000001  0.00000001  0.50000000  1
+  Ba  Ba4  1  0.22339364  0.49999994  -0.00000000  1
+  Ba  Ba5  1  0.77660630  0.50000009  -0.00000000  1
+  Ba  Ba6  1  -0.00000001  0.22339363  0.50000005  1
+  Ba  Ba7  1  0.00000000  0.77660639  0.50000004  1
+  Ba  Ba8  1  0.50000003  0.00000000  0.22339357  1
+  Ba  Ba9  1  0.50000000  -0.00000000  0.77660639  1
+  Ba  Ba10  1  0.49999996  0.22339364  0.00000001  1
+  Ba  Ba11  1  0.50000010  0.77660632  -0.00000000  1
+  Ba  Ba12  1  0.22339360  -0.00000000  0.50000003  1
+  Ba  Ba13  1  0.77660636  0.00000001  0.50000000  1
+  Ba  Ba14  1  -0.00000002  0.49999996  0.77660637  1
+  Ba  Ba15  1  0.00000001  0.49999998  0.22339355  1
+  Ba  Ba16  1  0.50000002  0.28999929  0.28999929  1
+  Ba  Ba17  1  0.49999999  0.71000068  0.28999928  1
+  Ba  Ba18  1  0.50000001  0.28999929  0.71000070  1
+  Ba  Ba19  1  0.49999998  0.71000067  0.71000068  1
+  Ba  Ba20  1  0.28999927  0.50000000  0.28999927  1
+  Ba  Ba21  1  0.28999927  0.50000003  0.71000071  1
+  Ba  Ba22  1  0.71000070  0.49999997  0.28999928  1
+  Ba  Ba23  1  0.71000071  0.50000001  0.71000070  1
+  Ba  Ba24  1  0.28999930  0.28999929  0.49999999  1
+  Ba  Ba25  1  0.71000066  0.28999930  0.49999998  1
+  Ba  Ba26  1  0.28999930  0.71000067  0.50000002  1
+  Ba  Ba27  1  0.71000068  0.71000068  0.50000002  1

@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_AlSi2Ge3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.15294741
+_cell_length_b   8.15293577
+_cell_length_c   9.54874070
+_cell_angle_alpha   89.99983732
+_cell_angle_beta   90.00013097
+_cell_angle_gamma   89.99997121
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlSi2Ge3
+_chemical_formula_sum   'Al4 Si8 Ge12'
+_cell_volume   634.70915366
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.00000002  0.00000006  0.12577416  1
+  Ge  Ge1  1  -0.00000001  0.49999988  0.37577425  1
+  Ge  Ge2  1  0.50000001  0.50000007  0.62577518  1
+  Ge  Ge3  1  0.49999999  -0.00000012  0.87577422  1
+  Al  Al4  1  -0.00000010  0.00000006  0.82188422  1
+  Al  Al5  1  0.00000004  0.50000006  0.07188354  1
+  Al  Al6  1  0.50000001  0.49999991  0.32188283  1
+  Al  Al7  1  0.49999998  -0.00000007  0.57188360  1
+  Si  Si8  1  0.00000002  0.63386951  0.61714125  1
+  Si  Si9  1  0.50000000  0.86613049  0.11714140  1
+  Si  Si10  1  0.36613037  0.49999996  0.86714121  1
+  Si  Si11  1  0.13386964  -0.00000003  0.36714119  1
+  Si  Si12  1  0.50000001  0.13386973  0.11714124  1
+  Si  Si13  1  -0.00000001  0.36613047  0.61714119  1
+  Si  Si14  1  0.86613034  -0.00000005  0.36714114  1
+  Si  Si15  1  0.63386959  0.49999998  0.86714123  1
+  Ge  Ge16  1  0.00000002  0.28747087  0.84396836  1
+  Ge  Ge17  1  0.49999999  0.21252910  0.34396849  1
+  Ge  Ge18  1  0.71252921  0.49999998  0.09396844  1
+  Ge  Ge19  1  0.78747084  0.00000003  0.59396839  1
+  Ge  Ge20  1  0.49999999  0.78747091  0.34396845  1
+  Ge  Ge21  1  0.00000001  0.71252921  0.84396852  1
+  Ge  Ge22  1  0.21252925  0.00000003  0.59396832  1
+  Ge  Ge23  1  0.28747079  0.49999998  0.09396840  1

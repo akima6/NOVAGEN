@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_MgTiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.49553797
+_cell_length_b   5.49554010
+_cell_length_c   8.92996381
+_cell_angle_alpha   90.00025714
+_cell_angle_beta   89.99996089
+_cell_angle_gamma   120.00004221
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTiO6
+_chemical_formula_sum   'Mg2 Ti2 O12'
+_cell_volume   233.56122260
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.99999965  0.99999949  -0.00001320  1
+  Mg  Mg1  1  0.00000019  0.00000034  0.49998672  1
+  Ti  Ti2  1  0.33333129  0.66666659  0.25003332  1
+  Ti  Ti3  1  0.66666857  0.33333380  0.75003136  1
+  O  O4  1  0.24763413  0.33791221  0.36473646  1
+  O  O5  1  0.66208766  0.90972072  0.36473635  1
+  O  O6  1  0.09027846  0.75236636  0.36473629  1
+  O  O7  1  0.66207832  0.75236145  0.13525725  1
+  O  O8  1  0.09028371  0.33792188  0.13525711  1
+  O  O9  1  0.24763941  0.90971742  0.13525685  1
+  O  O10  1  0.75236106  0.66207908  0.63525743  1
+  O  O11  1  0.33792116  0.09028339  0.63525728  1
+  O  O12  1  0.90971729  0.24763864  0.63525730  1
+  O  O13  1  0.33791260  0.24763357  0.86473650  1
+  O  O14  1  0.90972102  0.66208701  0.86473644  1
+  O  O15  1  0.75236550  0.09027803  0.86473656  1

@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_KMg8ZnCd3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.66483992
+_cell_length_b   17.17302659
+_cell_length_c   12.33014092
+_cell_angle_alpha   89.99999454
+_cell_angle_beta   107.97083916
+_cell_angle_gamma   90.00000301
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KMg8ZnCd3
+_chemical_formula_sum   'K2 Mg16 Zn2 Cd6'
+_cell_volume   2148.06444013
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.02965525  0.07556248  0.44290973  1
+  Mg  Mg1  1  0.02965517  0.92443758  0.94290977  1
+  Mg  Mg2  1  0.22503749  0.03080204  0.33887591  1
+  Mg  Mg3  1  0.22503675  0.96919822  0.83887505  1
+  Mg  Mg4  1  0.21804468  0.02793168  0.33631575  1
+  Mg  Mg5  1  0.21804546  0.97206809  0.83631651  1
+  Mg  Mg6  1  0.77341304  0.44530499  0.44254180  1
+  Mg  Mg7  1  0.77341303  0.55469502  0.94254178  1
+  Cd  Cd8  1  0.66939107  0.67447916  0.73365811  1
+  Cd  Cd9  1  0.66939106  0.32552085  0.23365811  1
+  Cd  Cd10  1  0.58333523  0.67891109  0.94074839  1
+  Cd  Cd11  1  0.58333522  0.32108890  0.44074835  1
+  Mg  Mg12  1  0.74784906  0.01766800  0.71458265  1
+  Mg  Mg13  1  0.74784909  0.98233201  0.21458262  1
+  Cd  Cd14  1  0.76476395  0.93604209  0.91002599  1
+  Cd  Cd15  1  0.76476394  0.06395792  0.41002601  1
+  Zn  Zn16  1  0.93463766  0.92437215  0.37938745  1
+  Zn  Zn17  1  0.93463768  0.07562779  0.87938748  1
+  Mg  Mg18  1  0.73481823  0.48530364  0.72836453  1
+  Mg  Mg19  1  0.73481824  0.51469634  0.22836448  1
+  Mg  Mg20  1  0.72433709  0.17339312  0.54799247  1
+  Mg  Mg21  1  0.72433710  0.82660685  0.04799250  1
+  K  K22  1  0.76373420  0.70632202  0.24704489  1
+  K  K23  1  0.76373420  0.29367796  0.74704487  1
+  Mg  Mg24  1  0.92426371  0.42147991  0.20894178  1
+  Mg  Mg25  1  0.92426371  0.57852012  0.70894175  1

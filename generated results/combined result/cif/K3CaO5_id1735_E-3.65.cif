@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_K3CaO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.83328199
+_cell_length_b   5.83332376
+_cell_length_c   10.17348408
+_cell_angle_alpha   90.00090391
+_cell_angle_beta   89.99912077
+_cell_angle_gamma   120.00259699
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3CaO5
+_chemical_formula_sum   'K3 Ca1 O5'
+_cell_volume   299.79061179
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  -0.00000003  0.00000015  -0.00000022  1
+  Ca  Ca1  1  0.00000000  -0.00000001  0.49999894  1
+  O  O2  1  0.33333491  0.66666929  -0.04806805  1
+  O  O3  1  0.66666954  0.33333512  1.04836783  1
+  K  K4  1  0.33333309  0.66666645  0.19595328  1
+  K  K5  1  0.66666639  0.33333317  0.80405088  1
+  O  O6  1  0.50001573  0.00003256  -0.00009136  1
+  O  O7  1  -0.00003544  0.49998138  -0.00011223  1
+  O  O8  1  0.50001586  0.49998195  -0.00009906  1

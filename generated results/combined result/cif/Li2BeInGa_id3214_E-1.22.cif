@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Li2BeInGa
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.79424764
+_cell_length_b   12.79423902
+_cell_length_c   10.05640224
+_cell_angle_alpha   90.00003782
+_cell_angle_beta   89.99992645
+_cell_angle_gamma   120.00003408
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2BeInGa
+_chemical_formula_sum   'Li6 Be3 In3 Ga3'
+_cell_volume   1425.61524587
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.07987519  0.67904965  0.38518640  1
+  In  In1  1  0.32095041  0.40082556  0.71851979  1
+  In  In2  1  0.59917451  0.92012485  0.05185317  1
+  Li  Li3  1  0.15294948  0.87440036  0.92206514  1
+  Li  Li4  1  0.12559958  0.27854910  0.25539853  1
+  Li  Li5  1  0.72145090  0.84705050  0.58873177  1
+  Ga  Ga6  1  0.82130400  0.09628025  0.65366830  1
+  Ga  Ga7  1  0.90371973  0.72502372  0.98700161  1
+  Ga  Ga8  1  0.27497618  0.17869604  0.32033506  1
+  Li  Li9  1  0.87405208  0.28553123  0.52648669  1
+  Li  Li10  1  0.71446867  0.58852096  0.85982015  1
+  Li  Li11  1  0.41147921  0.12594789  0.19315342  1
+  Be  Be12  1  0.50908397  0.49567736  0.79926049  1
+  Be  Be13  1  0.50432256  0.01340647  0.13259381  1
+  Be  Be14  1  0.98659349  0.49091611  0.46592722  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Mg2Al2Cd(InGa)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.31708142
+_cell_length_b   10.32823014
+_cell_length_c   9.00109144
+_cell_angle_alpha   90.00001020
+_cell_angle_beta   89.99988286
+_cell_angle_gamma   89.99993584
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg2Al2Cd(InGa)2
+_chemical_formula_sum   'Mg4 Al4 Cd2 In4 Ga4'
+_cell_volume   494.30430331
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  -0.00000001  0.49999999  0.00000003  1
+  Cd  Cd1  1  0.50000000  0.00000002  0.00000000  1
+  Mg  Mg2  1  0.00000001  0.78432159  -0.00000000  1
+  Mg  Mg3  1  -0.00000001  0.21567845  0.00000001  1
+  Mg  Mg4  1  0.50000001  0.28432156  -0.00000001  1
+  Mg  Mg5  1  0.49999999  0.71567840  0.00000001  1
+  Ga  Ga6  1  -0.00000002  -0.00000000  0.16309068  1
+  Ga  Ga7  1  0.00000001  -0.00000002  0.83690935  1
+  Ga  Ga8  1  0.50000001  0.50000002  0.16309066  1
+  Ga  Ga9  1  0.50000001  0.49999999  0.83690935  1
+  In  In10  1  0.00000000  0.49999999  0.30607342  1
+  In  In11  1  -0.00000001  0.50000000  0.69392660  1
+  In  In12  1  0.50000002  -0.00000003  0.30607344  1
+  In  In13  1  0.49999999  -0.00000002  0.69392657  1
+  Al  Al14  1  0.24999999  0.25000002  0.32803319  1
+  Al  Al15  1  0.75000001  0.25000001  0.67196678  1
+  Al  Al16  1  0.74999999  0.75000002  0.32803318  1
+  Al  Al17  1  0.25000000  0.75000001  0.67196678  1

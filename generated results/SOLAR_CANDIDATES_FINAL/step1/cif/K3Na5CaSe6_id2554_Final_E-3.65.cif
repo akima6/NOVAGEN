@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_K3Na5CaSe6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.32329590
+_cell_length_b   8.65438942
+_cell_length_c   9.25924122
+_cell_angle_alpha   63.24690080
+_cell_angle_beta   82.92676350
+_cell_angle_gamma   83.60370013
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3Na5CaSe6
+_chemical_formula_sum   'K3 Na5 Ca1 Se6'
+_cell_volume   448.12459421
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.98655513  0.98014719  0.01469380  1.0
+  K  K1  1  0.26799207  0.83154144  0.39363171  1.0
+  K  K2  1  0.73835327  0.18467442  0.60375607  1.0
+  Na  Na3  1  0.90620393  0.60378809  0.72281200  1.0
+  Na  Na4  1  0.09889408  0.33554120  0.28420263  1.0
+  Na  Na5  1  0.49063296  0.51822604  0.32614914  1.0
+  Na  Na6  1  0.48702646  0.16801419  0.99875294  1.0
+  Na  Na7  1  0.50901558  0.84911705  0.66745417  1.0
+  Ca  Ca8  1  0.49305046  0.50349122  0.00316263  1.0
+  Se  Se9  1  0.48194223  0.49462167  0.67284038  1.0
+  Se  Se10  1  0.50210411  0.85910753  0.99736350  1.0
+  Se  Se11  1  0.52154727  0.15793202  0.32155321  1.0
+  Se  Se12  1  0.49129365  0.49478180  0.69540527  1.0
+  Se  Se13  1  0.50335818  0.83328449  0.99725173  1.0
+  Se  Se14  1  0.52203009  0.18573155  0.30097114  1.0

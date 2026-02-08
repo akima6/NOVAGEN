@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_K3In(GeSe)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.18344561
+_cell_length_b   8.18344308
+_cell_length_c   8.18344202
+_cell_angle_alpha   90.00001901
+_cell_angle_beta   90.00004516
+_cell_angle_gamma   89.99999628
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3In(GeSe)4
+_chemical_formula_sum   'K3 In1 Ge4 Se4'
+_cell_volume   548.03497542
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  -0.00000001  -0.00000000  0.00000001  1
+  K  K1  1  0.00000000  0.50000001  0.49999999  1
+  K  K2  1  0.50000000  -0.00000000  0.50000000  1
+  K  K3  1  0.50000000  0.50000000  0.00000000  1
+  Ge  Ge4  1  0.34094181  0.34094180  0.34094180  1
+  Ge  Ge5  1  0.65905820  0.65905819  0.34094180  1
+  Ge  Ge6  1  0.65905819  0.34094182  0.65905820  1
+  Ge  Ge7  1  0.34094180  0.65905818  0.65905818  1
+  Se  Se8  1  0.66398666  0.66398665  0.66398666  1
+  Se  Se9  1  0.33601335  0.33601336  0.66398665  1
+  Se  Se10  1  0.33601334  0.66398665  0.33601336  1
+  Se  Se11  1  0.66398665  0.33601335  0.33601335  1

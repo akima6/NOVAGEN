@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiBe2GaGe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.92205486
+_cell_length_b   4.13898502
+_cell_length_c   4.84555362
+_cell_angle_alpha   90.00000604
+_cell_angle_beta   90.00001690
+_cell_angle_gamma   90.00002436
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiBe2GaGe
+_chemical_formula_sum   'Li2 Be4 Ga2 Ge2'
+_cell_volume   259.16051774
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  -0.00000001  -0.00000002  -0.00000004  1
+  Ga  Ga1  1  0.00000002  -0.00000008  0.49999999  1
+  Ge  Ge2  1  0.49999982  0.50000001  0.00000000  1
+  Ge  Ge3  1  0.50000025  0.49999999  0.50000000  1
+  Li  Li4  1  -0.00000004  0.50000000  0.24999999  1
+  Li  Li5  1  -0.00000003  0.50000000  0.75000000  1
+  Be  Be6  1  0.17205939  0.83787332  0.00000001  1
+  Be  Be7  1  0.82794057  0.16212673  -0.00000000  1
+  Be  Be8  1  0.82794061  0.83787331  0.50000003  1
+  Be  Be9  1  0.17205939  0.16212674  0.50000002  1

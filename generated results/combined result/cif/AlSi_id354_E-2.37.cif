@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_AlSi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.05882237
+_cell_length_b   11.05882400
+_cell_length_c   11.05882519
+_cell_angle_alpha   89.99999740
+_cell_angle_beta   90.00001799
+_cell_angle_gamma   90.00000251
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlSi
+_chemical_formula_sum   'Al8 Si8'
+_cell_volume   1352.46744950
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.11609786  0.11609787  0.11609786  1
+  Si  Si1  1  0.38390214  0.88390213  0.61609786  1
+  Si  Si2  1  0.88390214  0.61609786  0.38390214  1
+  Si  Si3  1  0.61609786  0.38390214  0.88390214  1
+  Si  Si4  1  0.86609787  0.36609786  0.13390213  1
+  Si  Si5  1  0.63390213  0.63390214  0.63390214  1
+  Si  Si6  1  0.36609786  0.13390215  0.86609786  1
+  Si  Si7  1  0.13390214  0.86609786  0.36609786  1
+  Al  Al8  1  0.23049828  0.23049828  0.23049828  1
+  Al  Al9  1  0.26950172  0.76950172  0.73049828  1
+  Al  Al10  1  0.76950171  0.73049829  0.26950171  1
+  Al  Al11  1  0.73049828  0.26950172  0.76950172  1
+  Al  Al12  1  0.98049828  0.48049828  0.01950172  1
+  Al  Al13  1  0.51950172  0.51950171  0.51950171  1
+  Al  Al14  1  0.48049829  0.01950171  0.98049829  1
+  Al  Al15  1  0.01950172  0.98049828  0.48049828  1

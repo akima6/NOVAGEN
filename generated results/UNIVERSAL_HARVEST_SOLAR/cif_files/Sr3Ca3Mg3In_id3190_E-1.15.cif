@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Sr3Ca3Mg3In
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   22.07798177
+_cell_length_b   22.07798696
+_cell_length_c   5.62792713
+_cell_angle_alpha   90.00005282
+_cell_angle_beta   89.99984546
+_cell_angle_gamma   120.00001404
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr3Ca3Mg3In
+_chemical_formula_sum   'Sr6 Ca6 Mg6 In2'
+_cell_volume   2375.73435767
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.33333328  0.66666664  0.25000000  1
+  In  In1  1  0.66666665  0.33333330  0.75000000  1
+  Ca  Ca2  1  0.44347251  0.62893853  0.25000001  1
+  Ca  Ca3  1  0.37106144  0.81453398  0.25000000  1
+  Ca  Ca4  1  0.18546611  0.55652753  0.24999999  1
+  Ca  Ca5  1  0.55652753  0.37106149  0.75000000  1
+  Ca  Ca6  1  0.62893859  0.18546608  0.75000000  1
+  Ca  Ca7  1  0.81453392  0.44347250  0.75000000  1
+  Sr  Sr8  1  0.97629599  0.43565171  0.25000001  1
+  Sr  Sr9  1  0.56434833  0.54064429  0.25000007  1
+  Sr  Sr10  1  0.45935569  0.02370402  0.24999995  1
+  Sr  Sr11  1  0.02370402  0.56434830  0.74999999  1
+  Sr  Sr12  1  0.43565167  0.45935570  0.74999993  1
+  Sr  Sr13  1  0.54064432  0.97629600  0.75000006  1
+  Mg  Mg14  1  0.62791338  0.04668091  0.24999999  1
+  Mg  Mg15  1  0.95331908  0.58123245  0.25000002  1
+  Mg  Mg16  1  0.41876755  0.37208661  0.25000000  1
+  Mg  Mg17  1  0.37208660  0.95331905  0.75000000  1
+  Mg  Mg18  1  0.04668092  0.41876754  0.74999999  1
+  Mg  Mg19  1  0.58123245  0.62791337  0.74999999  1

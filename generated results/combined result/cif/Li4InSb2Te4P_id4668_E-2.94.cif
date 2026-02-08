@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Li4InSb2Te4P
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.24002734
+_cell_length_b   12.24002802
+_cell_length_c   8.52947749
+_cell_angle_alpha   89.99997877
+_cell_angle_beta   90.00001304
+_cell_angle_gamma   90.00007721
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li4InSb2Te4P
+_chemical_formula_sum   'Li8 In2 Sb4 Te8 P2'
+_cell_volume   1277.87162659
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  -0.00000010  0.00000009  -0.00000003  1
+  In  In1  1  0.00000003  0.00000003  0.50000001  1
+  P  P2  1  0.50000000  0.50000000  0.25000000  1
+  P  P3  1  0.50000000  0.50000000  0.75000000  1
+  Sb  Sb4  1  0.00000000  0.50000001  0.00000000  1
+  Sb  Sb5  1  0.49999999  0.00000001  0.50000000  1
+  Sb  Sb6  1  -0.00000000  0.49999998  0.50000000  1
+  Sb  Sb7  1  0.50000001  -0.00000000  -0.00000000  1
+  Li  Li8  1  0.15081102  0.65558414  0.00000000  1
+  Li  Li9  1  0.84918900  0.34441584  0.00000001  1
+  Li  Li10  1  0.34441589  0.15081099  0.50000000  1
+  Li  Li11  1  0.65558412  0.84918903  0.49999999  1
+  Li  Li12  1  0.84918902  0.65558414  0.50000000  1
+  Li  Li13  1  0.15081102  0.34441586  0.49999999  1
+  Li  Li14  1  0.65558415  0.15081101  0.00000000  1
+  Li  Li15  1  0.34441589  0.84918902  0.00000001  1
+  Te  Te16  1  0.14797854  0.14797855  0.34210389  1
+  Te  Te17  1  0.85202147  0.85202147  0.34210384  1
+  Te  Te18  1  0.85202153  0.14797849  0.84210396  1
+  Te  Te19  1  0.14797852  0.85202149  0.84210395  1
+  Te  Te20  1  0.85202150  0.14797853  0.15789604  1
+  Te  Te21  1  0.14797857  0.85202146  0.15789606  1
+  Te  Te22  1  0.14797852  0.14797853  0.65789611  1
+  Te  Te23  1  0.85202150  0.85202150  0.65789616  1

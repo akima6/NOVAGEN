@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Mg9Cd2In
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.09493843
+_cell_length_b   7.09493847
+_cell_length_c   14.30132117
+_cell_angle_alpha   89.99996639
+_cell_angle_beta   89.99998782
+_cell_angle_gamma   89.99995429
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg9Cd2In
+_chemical_formula_sum   'Mg18 Cd4 In2'
+_cell_volume   719.90207413
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.00000000  -0.00000000  0.00000002  1
+  Mg  Mg1  1  0.49999999  0.50000001  0.49999999  1
+  In  In2  1  -0.00000000  0.00000000  0.50000000  1
+  In  In3  1  0.49999999  0.50000000  -0.00000001  1
+  Cd  Cd4  1  0.00000000  0.00000000  0.79886182  1
+  Cd  Cd5  1  0.00000001  0.00000003  0.20113821  1
+  Cd  Cd6  1  0.50000002  0.50000000  0.29886179  1
+  Cd  Cd7  1  0.50000002  0.50000000  0.70113819  1
+  Mg  Mg8  1  0.28854311  0.28854311  0.14843045  1
+  Mg  Mg9  1  0.71145685  0.71145684  0.14843047  1
+  Mg  Mg10  1  0.71145686  0.28854312  0.14843054  1
+  Mg  Mg11  1  0.28854313  0.71145684  0.14843054  1
+  Mg  Mg12  1  0.71145689  0.28854308  0.85156951  1
+  Mg  Mg13  1  0.28854311  0.71145686  0.85156951  1
+  Mg  Mg14  1  0.28854315  0.28854316  0.85156945  1
+  Mg  Mg15  1  0.71145683  0.71145684  0.85156944  1
+  Mg  Mg16  1  0.78854313  0.78854314  0.64843050  1
+  Mg  Mg17  1  0.21145686  0.21145686  0.64843054  1
+  Mg  Mg18  1  0.21145690  0.78854315  0.64843050  1
+  Mg  Mg19  1  0.78854311  0.21145691  0.64843054  1
+  Mg  Mg20  1  0.21145690  0.78854314  0.35156946  1
+  Mg  Mg21  1  0.78854314  0.21145691  0.35156950  1
+  Mg  Mg22  1  0.78854316  0.78854316  0.35156951  1
+  Mg  Mg23  1  0.21145684  0.21145685  0.35156947  1

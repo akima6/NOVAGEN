@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cd2Te
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.99110664
+_cell_length_b   4.32604543
+_cell_length_c   9.23377342
+_cell_angle_alpha   90.00000723
+_cell_angle_beta   89.99998013
+_cell_angle_gamma   89.99999008
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cd2Te
+_chemical_formula_sum   'Cd8 Te4'
+_cell_volume   478.99342755
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.79562865  0.98827176  0.42551231  1
+  Te  Te1  1  0.70437133  0.01172821  0.92551229  1
+  Te  Te2  1  0.20437137  0.48827170  0.07448769  1
+  Te  Te3  1  0.29562865  0.51172821  0.57448769  1
+  Cd  Cd4  1  0.89185140  0.66836425  0.98269935  1
+  Cd  Cd5  1  0.60814855  0.33163576  0.48269935  1
+  Cd  Cd6  1  0.10814855  0.16836434  0.51730068  1
+  Cd  Cd7  1  0.39185145  0.83163576  0.01730063  1
+  Cd  Cd8  1  0.85658559  0.42600195  0.61416205  1
+  Cd  Cd9  1  0.64341444  0.57399807  0.11416210  1
+  Cd  Cd10  1  0.14341440  0.92600195  0.88583796  1
+  Cd  Cd11  1  0.35658555  0.07399806  0.38583796  1

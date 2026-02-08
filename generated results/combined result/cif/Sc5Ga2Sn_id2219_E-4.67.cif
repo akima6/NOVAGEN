@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Sc5Ga2Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.01483687
+_cell_length_b   5.66924305
+_cell_length_c   16.97925913
+_cell_angle_alpha   90.00000803
+_cell_angle_beta   90.00001989
+_cell_angle_gamma   89.99995572
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc5Ga2Sn
+_chemical_formula_sum   'Sc10 Ga4 Sn2'
+_cell_volume   482.72592448
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.00000000  0.50000000  0.50000001  1
+  Sn  Sn1  1  0.50000000  -0.00000000  0.00000001  1
+  Sc  Sc2  1  0.50000000  0.50000000  -0.00000000  1
+  Sc  Sc3  1  0.00000000  -0.00000000  0.50000000  1
+  Sc  Sc4  1  -0.00000000  -0.00000001  0.33085396  1
+  Sc  Sc5  1  0.00000000  0.00000000  0.66914613  1
+  Sc  Sc6  1  0.49999999  0.50000000  0.83085393  1
+  Sc  Sc7  1  0.50000000  0.50000001  0.16914603  1
+  Sc  Sc8  1  0.00000001  0.00000000  0.17196978  1
+  Sc  Sc9  1  -0.00000000  -0.00000000  0.82803015  1
+  Sc  Sc10  1  0.50000001  0.50000000  0.67196981  1
+  Sc  Sc11  1  0.49999999  0.49999999  0.32803023  1
+  Ga  Ga12  1  0.50000000  0.00000000  0.64849963  1
+  Ga  Ga13  1  0.50000000  -0.00000000  0.35150037  1
+  Ga  Ga14  1  0.00000000  0.50000000  0.14849962  1
+  Ga  Ga15  1  -0.00000000  0.50000000  0.85150036  1

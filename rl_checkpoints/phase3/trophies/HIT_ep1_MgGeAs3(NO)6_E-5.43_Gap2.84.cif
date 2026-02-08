@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_MgGeAs3(NO)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.15612939
+_cell_length_b   9.15612975
+_cell_length_c   6.57638434
+_cell_angle_alpha   90.00000888
+_cell_angle_beta   89.99998867
+_cell_angle_gamma   120.00001316
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgGeAs3(NO)6
+_chemical_formula_sum   'Mg1 Ge1 As3 N6 O6'
+_cell_volume   477.46508673
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  -0.00000000  -0.00000001  0.00000001  1
+  Ge  Ge1  1  -0.00000000  -0.00000000  0.50000000  1
+  As  As2  1  0.27099921  -0.00000001  0.00000000  1
+  As  As3  1  -0.00000001  0.27099923  -0.00000001  1
+  As  As4  1  0.72900077  0.72900075  -0.00000001  1
+  O  O5  1  0.22848881  0.48489970  0.29872044  1
+  O  O6  1  0.51510031  0.74358911  0.29872044  1
+  O  O7  1  0.25641089  0.77151120  0.29872045  1
+  O  O8  1  0.48489970  0.22848883  0.70127956  1
+  O  O9  1  0.74358912  0.51510030  0.70127955  1
+  O  O10  1  0.77151119  0.25641089  0.70127955  1
+  N  N11  1  0.10873225  0.69043242  0.27821474  1
+  N  N12  1  0.30956756  0.41829979  0.27821475  1
+  N  N13  1  0.58170020  0.89126778  0.27821475  1
+  N  N14  1  0.69043245  0.10873225  0.72178527  1
+  N  N15  1  0.41829979  0.30956754  0.72178526  1
+  N  N16  1  0.89126775  0.58170020  0.72178527  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_In3Sn7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.15825703
+_cell_length_b   7.99987239
+_cell_length_c   11.38427814
+_cell_angle_alpha   90.00004625
+_cell_angle_beta   90.00000878
+_cell_angle_gamma   119.46356804
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In3Sn7
+_chemical_formula_sum   'In3 Sn7'
+_cell_volume   646.90251411
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  -0.00001308  -0.00000348  -0.00000001  1
+  Sn  Sn1  1  0.33336613  0.66667525  -0.00000000  1
+  In  In2  1  0.00001498  0.00002953  0.24612785  1
+  In  In3  1  0.00001497  0.00002954  0.75387215  1
+  Sn  Sn4  1  0.11654057  0.24814265  0.49999999  1
+  Sn  Sn5  1  0.74863561  0.86684943  0.50000001  1
+  Sn  Sn6  1  0.13376723  0.87985941  0.50000000  1
+  Sn  Sn7  1  0.75028958  0.88258166  0.50000001  1
+  Sn  Sn8  1  0.13394475  0.25205204  0.49999998  1
+  Sn  Sn9  1  0.11677258  0.87045064  0.50000000  1

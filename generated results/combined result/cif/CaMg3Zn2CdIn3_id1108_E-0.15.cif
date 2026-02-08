@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CaMg3Zn2CdIn3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.83656942
+_cell_length_b   8.83656938
+_cell_length_c   22.07552127
+_cell_angle_alpha   90.02480451
+_cell_angle_beta   90.02480353
+_cell_angle_gamma   89.98427789
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaMg3Zn2CdIn3
+_chemical_formula_sum   'Ca1 Mg3 Zn2 Cd1 In3'
+_cell_volume   1723.76578068
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.00000000  0.00000000  0.00000000  1
+  Mg  Mg1  1  -0.00000000  -0.00000000  0.50000000  1
+  In  In2  1  0.49999955  0.49999955  -0.00000466  1
+  Cd  Cd3  1  0.50274471  0.50274472  0.49882390  1
+  Zn  Zn4  1  0.49747310  0.49747305  0.49891883  1
+  Zn  Zn5  1  0.49985515  0.49985520  0.50225046  1
+  Mg  Mg6  1  0.49999843  0.49999843  0.13765347  1
+  Mg  Mg7  1  0.49999837  0.49999837  0.86233540  1
+  In  In8  1  0.49996526  0.49996526  0.32217451  1
+  In  In9  1  0.49996543  0.49996543  0.67784811  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_K6Ga3Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.45222341
+_cell_length_b   8.45219582
+_cell_length_c   8.45220298
+_cell_angle_alpha   89.99985661
+_cell_angle_beta   90.00004273
+_cell_angle_gamma   89.99991633
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K6Ga3Sn
+_chemical_formula_sum   'K6 Ga3 Sn1'
+_cell_volume   603.82409104
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  -0.00000004  0.00000004  0.00000007  1
+  Ga  Ga1  1  0.00000005  0.49999999  0.49999998  1
+  Ga  Ga2  1  0.50000003  0.00000000  0.49999997  1
+  Ga  Ga3  1  0.49999996  0.50000000  -0.00000001  1
+  K  K4  1  0.83048229  0.50000005  0.00000001  1
+  K  K5  1  0.16951759  0.49999997  -0.00000002  1
+  K  K6  1  -0.00000003  0.83048226  0.49999985  1
+  K  K7  1  0.00000007  0.16951771  0.50000021  1
+  K  K8  1  0.50000008  0.00000002  0.83048237  1
+  K  K9  1  0.50000000  -0.00000006  0.16951755  1

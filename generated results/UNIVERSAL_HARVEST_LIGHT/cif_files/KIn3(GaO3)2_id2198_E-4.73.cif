@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_KIn3(GaO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.14503456
+_cell_length_b   9.14698587
+_cell_length_c   4.84420200
+_cell_angle_alpha   89.99336227
+_cell_angle_beta   90.03773143
+_cell_angle_gamma   119.97131683
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KIn3(GaO3)2
+_chemical_formula_sum   'K2 In6 Ga4 O12'
+_cell_volume   351.02785485
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.00000004  0.00000012  0.00000001  1
+  K  K1  1  -0.00000001  0.00000002  0.49999999  1
+  Ga  Ga2  1  0.33335734  0.66661264  0.50463688  1
+  Ga  Ga3  1  0.66668123  0.33324307  0.99536681  1
+  Ga  Ga4  1  0.66664211  0.33338729  0.49536308  1
+  Ga  Ga5  1  0.33331896  0.66675656  0.00463303  1
+  In  In6  1  0.28234098  0.00000301  0.25000470  1
+  In  In7  1  0.00000183  0.28231961  0.24999682  1
+  In  In8  1  0.71765407  0.71765123  0.24999649  1
+  In  In9  1  0.71765838  -0.00000440  0.74999567  1
+  In  In10  1  -0.00000235  0.71768025  0.75000300  1
+  In  In11  1  0.28234632  0.28234853  0.75000343  1
+  O  O12  1  0.30551657  0.83023845  0.83248827  1
+  O  O13  1  0.16970955  0.47525990  0.83248003  1
+  O  O14  1  0.52471881  0.69442255  0.83242399  1
+  O  O15  1  0.83032072  0.30557081  0.66757870  1
+  O  O16  1  0.47525580  0.16974526  0.66753241  1
+  O  O17  1  0.69443427  0.52468004  0.66749806  1
+  O  O18  1  0.69448368  0.16976124  0.16751156  1
+  O  O19  1  0.83028959  0.52474006  0.16752027  1
+  O  O20  1  0.47528204  0.30557886  0.16757617  1
+  O  O21  1  0.16967953  0.69443038  0.33242145  1
+  O  O22  1  0.52474390  0.83025445  0.33246731  1
+  O  O23  1  0.30556689  0.47532032  0.33250192  1

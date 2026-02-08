@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_NaSr4Ca2Zn5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   15.44388386
+_cell_length_b   15.44388559
+_cell_length_c   18.89046203
+_cell_angle_alpha   89.99998988
+_cell_angle_beta   89.99993317
+_cell_angle_gamma   90.00008138
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaSr4Ca2Zn5
+_chemical_formula_sum   'Na2 Sr8 Ca4 Zn10'
+_cell_volume   4505.63163740
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  -0.00000003  -0.00000006  0.00000000  1
+  Na  Na1  1  0.50000002  0.50000000  -0.00000000  1
+  Zn  Zn2  1  0.00000002  -0.00000001  0.50000001  1
+  Zn  Zn3  1  0.50000002  0.50000002  0.49999998  1
+  Ca  Ca4  1  0.32467320  0.32467324  0.00000001  1
+  Ca  Ca5  1  0.67532675  0.67532673  -0.00000001  1
+  Ca  Ca6  1  0.17532682  0.82467328  -0.00000001  1
+  Ca  Ca7  1  0.82467323  0.17532681  0.00000001  1
+  Sr  Sr8  1  0.21954621  0.95786636  0.52799408  1
+  Sr  Sr9  1  0.78045376  0.04213365  0.52799407  1
+  Sr  Sr10  1  0.54213366  0.71954618  0.52799409  1
+  Sr  Sr11  1  0.45786633  0.28045378  0.52799410  1
+  Sr  Sr12  1  0.28045380  0.45786634  0.47200590  1
+  Sr  Sr13  1  0.71954621  0.54213368  0.47200593  1
+  Sr  Sr14  1  0.95786637  0.21954625  0.47200590  1
+  Sr  Sr15  1  0.04213365  0.78045378  0.47200590  1
+  Zn  Zn16  1  0.87052908  0.08035396  0.37201206  1
+  Zn  Zn17  1  0.12947091  0.91964606  0.37201210  1
+  Zn  Zn18  1  0.41964600  0.37052898  0.37201207  1
+  Zn  Zn19  1  0.58035392  0.62947091  0.37201207  1
+  Zn  Zn20  1  0.62947093  0.58035396  0.62798794  1
+  Zn  Zn21  1  0.37052898  0.41964598  0.62798791  1
+  Zn  Zn22  1  0.08035397  0.87052904  0.62798794  1
+  Zn  Zn23  1  0.91964605  0.12947094  0.62798795  1

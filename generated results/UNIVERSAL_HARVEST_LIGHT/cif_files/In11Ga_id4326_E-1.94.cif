@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_In11Ga
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   18.32342546
+_cell_length_b   8.63311438
+_cell_length_c   9.79674071
+_cell_angle_alpha   90.00000564
+_cell_angle_beta   108.94317213
+_cell_angle_gamma   90.00001085
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In11Ga
+_chemical_formula_sum   'In11 Ga1'
+_cell_volume   1465.79730564
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  -0.00000000  0.00000000  -0.00000000  1
+  Ga  Ga1  1  -0.00000000  0.50000000  0.00000000  1
+  In  In2  1  0.54567937  0.00000000  0.15918762  1
+  In  In3  1  0.45432134  -0.00000000  0.84081196  1
+  In  In4  1  0.57982755  0.00000000  0.70935080  1
+  In  In5  1  0.42017249  -0.00000000  0.29065012  1
+  In  In6  1  0.42784086  0.00000000  0.31863726  1
+  In  In7  1  0.57215860  -0.00000000  0.68136216  1
+  In  In8  1  0.28382490  0.00000000  0.69733405  1
+  In  In9  1  0.71617511  -0.00000000  0.30266594  1
+  In  In10  1  0.73405539  0.00000000  0.60654332  1
+  In  In11  1  0.26594445  -0.00000000  0.39345674  1

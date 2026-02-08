@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_BaLiO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.25494514
+_cell_length_b   7.57320832
+_cell_length_c   4.36910216
+_cell_angle_alpha   90.00000005
+_cell_angle_beta   90.00005920
+_cell_angle_gamma   90.00447597
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaLiO4
+_chemical_formula_sum   'Ba2 Li2 O8'
+_cell_volume   206.96438006
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.74999998  0.25000007  0.49999822  1
+  Ba  Ba1  1  0.25000002  0.75000000  0.50000190  1
+  Li  Li2  1  0.25000000  0.25000001  0.00000178  1
+  Li  Li3  1  0.75000000  0.74999995  0.99999821  1
+  O  O4  1  0.20512727  0.47249021  0.15093446  1
+  O  O5  1  0.29487324  0.02750975  0.15093415  1
+  O  O6  1  0.29487113  0.47249118  0.84906417  1
+  O  O7  1  0.20512862  0.02750880  0.84906421  1
+  O  O8  1  0.79487281  0.52750985  0.84906554  1
+  O  O9  1  0.70512698  0.97249020  0.84906562  1
+  O  O10  1  0.70512882  0.52750873  0.15093574  1
+  O  O11  1  0.79487112  0.97249125  0.15093587  1

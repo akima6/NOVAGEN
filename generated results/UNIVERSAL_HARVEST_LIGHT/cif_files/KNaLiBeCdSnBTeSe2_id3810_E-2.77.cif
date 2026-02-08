@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_KNaLiBeCdSnBTeSe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.02368150
+_cell_length_b   13.02348123
+_cell_length_c   7.27967598
+_cell_angle_alpha   90.00140514
+_cell_angle_beta   89.99882777
+_cell_angle_gamma   119.99985171
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNaLiBeCdSnBTeSe2
+_chemical_formula_sum   'K3 Na3 Li3 Be3 Cd3 Sn3 B3 Te3 Se6'
+_cell_volume   1069.31137050
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.11477260  0.07547083  0.52338889  1
+  Sn  Sn1  1  0.92452943  1.03930163  0.85672236  1
+  Sn  Sn2  1  -0.03930167  0.88522764  0.19005551  1
+  Li  Li3  1  0.89438749  0.47943172  0.80976703  1
+  Li  Li4  1  0.52056827  0.41495588  0.14310045  1
+  Li  Li5  1  0.58504416  0.10561248  0.47643381  1
+  K  K6  1  0.35602323  0.85772037  0.53219772  1
+  K  K7  1  0.14227960  0.49830280  0.86553112  1
+  K  K8  1  0.50169715  0.64397679  0.19886444  1
+  Na  Na9  1  0.35390583  0.88698479  0.04465302  1
+  Na  Na10  1  0.11301518  0.46692098  0.37798636  1
+  Na  Na11  1  0.53307910  0.64609421  0.71131973  1
+  Cd  Cd12  1  0.18609448  0.25401637  0.78791331  1
+  Cd  Cd13  1  0.74598366  0.93207814  0.12124664  1
+  Cd  Cd14  1  0.06792190  0.81390588  0.45457998  1
+  Be  Be15  1  0.55215091  0.31623233  0.89931856  1
+  Be  Be16  1  0.68376772  0.23591859  0.23265194  1
+  Be  Be17  1  0.76408155  0.44784898  0.56598536  1
+  B  B18  1  0.31655758  0.60822254  0.62671301  1
+  B  B19  1  0.39177745  0.70833509  0.96004644  1
+  B  B20  1  0.29166496  0.68344247  0.29337970  1
+  Se  Se21  1  0.82295475  0.25557197  0.33442834  1
+  Se  Se22  1  0.74442791  0.56738439  0.66776229  1
+  Se  Se23  1  0.43261707  0.17704498  0.00109505  1
+  Se  Se24  1  0.89627333  0.65884621  0.15642071  1
+  Se  Se25  1  0.34115336  0.23742677  0.48975407  1
+  Se  Se26  1  0.76257298  0.10372680  0.82308735  1
+  Te  Te27  1  0.75837517  0.76874834  0.88376206  1
+  Te  Te28  1  0.23125030  0.98962539  0.21709606  1
+  Te  Te29  1  0.01037458  0.24162452  0.55042945  1

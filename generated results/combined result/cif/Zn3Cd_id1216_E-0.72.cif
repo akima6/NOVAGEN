@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Zn3Cd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.36041776
+_cell_length_b   5.36040723
+_cell_length_c   7.92812408
+_cell_angle_alpha   89.99907046
+_cell_angle_beta   90.00023342
+_cell_angle_gamma   90.00017930
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn3Cd
+_chemical_formula_sum   'Zn6 Cd2'
+_cell_volume   227.80689281
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.00000001  0.49999989  0.29943059  1
+  Zn  Zn1  1  0.50000003  -0.00000002  0.79943062  1
+  Cd  Cd2  1  -0.00000012  0.50000006  0.63448667  1
+  Cd  Cd3  1  0.49999997  0.00000037  0.13448671  1
+  Zn  Zn4  1  0.70421752  0.49999994  0.87676189  1
+  Zn  Zn5  1  0.29578256  0.49999999  0.87676219  1
+  Zn  Zn6  1  0.49999999  0.70421777  0.37676239  1
+  Zn  Zn7  1  0.50000003  0.29578200  0.37676142  1

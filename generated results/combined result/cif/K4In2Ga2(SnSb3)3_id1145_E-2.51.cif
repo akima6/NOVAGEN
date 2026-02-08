@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_K4In2Ga2(SnSb3)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.46845109
+_cell_length_b   13.46846568
+_cell_length_c   7.23893114
+_cell_angle_alpha   89.99871767
+_cell_angle_beta   89.99840226
+_cell_angle_gamma   119.99980029
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K4In2Ga2(SnSb3)3
+_chemical_formula_sum   'K4 In2 Ga2 Sn3 Sb9'
+_cell_volume   1137.21276981
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  -0.00000002  0.00000008  0.46883344  1
+  In  In1  1  0.33333273  0.66666633  0.50094109  1
+  K  K2  1  0.66666617  0.33333235  0.32256577  1
+  In  In3  1  0.66666791  0.33333447  0.64590742  1
+  Ga  Ga4  1  0.66666679  0.33333347  0.94746301  1
+  Sb  Sb5  1  0.64015011  0.67596686  0.76872966  1
+  Sb  Sb6  1  0.32403303  0.96418310  0.76872942  1
+  Sb  Sb7  1  0.03581677  0.35984985  0.76872961  1
+  Sn  Sn8  1  0.52559925  0.42378662  0.32668067  1
+  Sn  Sn9  1  0.57621420  0.10181307  0.32668070  1
+  Sn  Sn10  1  0.89818707  0.47440078  0.32668077  1
+  K  K11  1  0.13829695  0.65351640  0.28462425  1
+  K  K12  1  0.34648266  0.48478022  0.28462357  1
+  K  K13  1  0.51521990  0.86170341  0.28462370  1
+  Sb  Sb14  1  0.38452823  0.15911253  0.35563566  1
+  Sb  Sb15  1  0.84088724  0.22541559  0.35563546  1
+  Sb  Sb16  1  0.77458424  0.61547154  0.35563555  1
+  Sb  Sb17  1  0.28072238  0.52759833  0.89446995  1
+  Sb  Sb18  1  0.47240168  0.75312358  0.89446980  1
+  Sb  Sb19  1  0.24687610  0.71927821  0.89446988  1

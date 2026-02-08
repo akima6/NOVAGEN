@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_InGe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.12731148
+_cell_length_b   5.86451493
+_cell_length_c   4.12731130
+_cell_angle_alpha   89.99995937
+_cell_angle_beta   89.99982221
+_cell_angle_gamma   89.99996998
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InGe
+_chemical_formula_sum   'In2 Ge2'
+_cell_volume   99.90024843
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.74999997  0.25000004  0.25000014  1
+  Ge  Ge1  1  0.25000001  0.75000025  0.75000012  1
+  In  In2  1  0.24999992  0.24999976  0.74999998  1
+  In  In3  1  0.75000009  0.74999995  0.24999977  1

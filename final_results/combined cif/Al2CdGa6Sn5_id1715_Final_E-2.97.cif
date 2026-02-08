@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Al2CdGa6Sn5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.98654228
+_cell_length_b   7.71535021
+_cell_length_c   11.31812250
+_cell_angle_alpha   91.78837053
+_cell_angle_beta   90.26282069
+_cell_angle_gamma   119.67040411
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al2CdGa6Sn5
+_chemical_formula_sum   'Al4 Cd2 Ga12 Sn10'
+_cell_volume   605.51527365
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.99598799  0.97017143  0.25322387  1
+  Al  Al1  1  0.00370049  0.02766371  0.24636247  1
+  Al  Al2  1  0.02120013  0.00018655  0.74574307  1
+  Al  Al3  1  -0.01016924  0.00061862  0.74382759  1
+  Cd  Cd4  1  0.00034776  0.99998084  0.99958041  1
+  Cd  Cd5  1  0.99970969  0.99991772  0.50115217  1
+  Ga  Ga6  1  0.59266621  0.82852088  0.73903525  1
+  Ga  Ga7  1  0.17040648  0.76386321  0.73907749  1
+  Ga  Ga8  1  0.23590012  0.40674548  0.73894494  1
+  Ga  Ga9  1  0.82980682  0.59355973  0.76092211  1
+  Ga  Ga10  1  0.76446481  0.17133019  0.76079700  1
+  Ga  Ga11  1  0.40662924  0.23568782  0.76096186  1
+  Ga  Ga12  1  0.40928852  0.17215453  0.26096204  1
+  Ga  Ga13  1  0.82888472  0.23753860  0.26093349  1
+  Ga  Ga14  1  0.76312452  0.59151565  0.26115944  1
+  Ga  Ga15  1  0.17117629  0.40873768  0.23883897  1
+  Ga  Ga16  1  0.23670047  0.82803489  0.23914566  1
+  Ga  Ga17  1  0.59101498  0.76277872  0.23898321  1
+  Sn  Sn18  1  0.98199709  0.99902172  0.76597256  1
+  Sn  Sn19  1  1.00712683  1.00042155  0.74449184  1
+  Sn  Sn20  1  0.00148832  0.01670820  0.25654021  1
+  Sn  Sn21  1  0.99860633  0.98475819  0.24322258  1
+  Sn  Sn22  1  0.49994781  0.99999300  0.99996663  1
+  Sn  Sn23  1  0.00001270  0.50000144  1.00003740  1
+  Sn  Sn24  1  0.50001007  0.50004920  1.00000701  1
+  Sn  Sn25  1  0.99996382  0.49998447  0.50002103  1
+  Sn  Sn26  1  0.49997079  0.00002729  0.50005869  1
+  Sn  Sn27  1  0.50003622  0.50002871  0.50003106  1

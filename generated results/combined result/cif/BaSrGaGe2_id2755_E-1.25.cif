@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_BaSrGaGe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   23.63226210
+_cell_length_b   23.63601735
+_cell_length_c   10.60931416
+_cell_angle_alpha   89.99995133
+_cell_angle_beta   90.00035636
+_cell_angle_gamma   120.00109374
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaSrGaGe2
+_chemical_formula_sum   'Ba3 Sr3 Ga3 Ge6'
+_cell_volume   5132.07210590
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.05542400  -0.00000024  0.66666660  1
+  Sr  Sr1  1  -0.00000032  0.05541950  0.33333350  1
+  Sr  Sr2  1  0.94457804  0.94457812  -0.00000007  1
+  Ge  Ge3  1  0.22739774  0.00000084  0.66666668  1
+  Ge  Ge4  1  -0.00000017  0.22740185  0.33333332  1
+  Ge  Ge5  1  0.77259921  0.77260022  0.00000003  1
+  Ge  Ge6  1  0.69910977  0.00000779  0.66666669  1
+  Ge  Ge7  1  -0.00001646  0.69910499  0.33333333  1
+  Ge  Ge8  1  0.30089690  0.30092094  0.00000001  1
+  Ba  Ba9  1  0.57624716  -0.00000912  0.66666669  1
+  Ba  Ba10  1  0.00001693  0.57624130  0.33333336  1
+  Ba  Ba11  1  0.42375644  0.42373069  -0.00000002  1
+  Ga  Ga12  1  0.45180454  0.00000126  0.66666668  1
+  Ga  Ga13  1  -0.00000029  0.45181389  0.33333333  1
+  Ga  Ga14  1  0.54818659  0.54818804  0.00000001  1

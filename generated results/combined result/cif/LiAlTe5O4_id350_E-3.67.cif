@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_LiAlTe5O4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.62681505
+_cell_length_b   8.62681334
+_cell_length_c   8.23367497
+_cell_angle_alpha   89.99999730
+_cell_angle_beta   90.00001503
+_cell_angle_gamma   90.00000509
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiAlTe5O4
+_chemical_formula_sum   'Li1 Al1 Te5 O4'
+_cell_volume   612.76592560
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00000000  -0.00000000  0.00000000  1
+  Te  Te1  1  0.50000000  0.50000000  0.50000000  1
+  Al  Al2  1  0.00000000  -0.00000000  0.50000000  1
+  Te  Te3  1  0.75059643  0.75059643  0.05685963  1
+  Te  Te4  1  0.24940357  0.24940357  0.05685963  1
+  Te  Te5  1  0.75059643  0.24940357  0.94314037  1
+  Te  Te6  1  0.24940357  0.75059643  0.94314037  1
+  O  O7  1  0.75526781  0.75526781  0.27595771  1
+  O  O8  1  0.24473219  0.24473219  0.27595771  1
+  O  O9  1  0.75526781  0.24473219  0.72404231  1
+  O  O10  1  0.24473219  0.75526781  0.72404231  1

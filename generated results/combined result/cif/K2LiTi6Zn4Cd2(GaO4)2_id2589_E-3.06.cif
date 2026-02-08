@@ -1,0 +1,51 @@
+# generated using pymatgen
+data_K2LiTi6Zn4Cd2(GaO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.34999177
+_cell_length_b   9.41458483
+_cell_length_c   7.19300931
+_cell_angle_alpha   93.51325710
+_cell_angle_beta   108.06382938
+_cell_angle_gamma   90.03619984
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2LiTi6Zn4Cd2(GaO4)2
+_chemical_formula_sum   'K2 Li1 Ti6 Zn4 Cd2 Ga2 O8'
+_cell_volume   472.21256458
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.00836540  0.62709057  0.01323902  1
+  Ti  Ti1  1  -0.00107922  0.60152180  -0.00049185  1
+  Ti  Ti2  1  -0.00014463  0.84289294  -0.00034719  1
+  Ti  Ti3  1  -0.00697870  0.62166139  -0.01244210  1
+  Ti  Ti4  1  -0.00009846  0.53988504  0.49991445  1
+  K  K5  1  0.49939356  0.29084845  0.00005757  1
+  K  K6  1  0.49559429  0.13883996  0.00301139  1
+  Zn  Zn7  1  0.50001398  0.84917141  0.00014339  1
+  Cd  Cd8  1  0.51094734  0.18263031  -0.00599410  1
+  Ga  Ga9  1  0.49996313  0.97980823  0.00006961  1
+  Zn  Zn10  1  0.50000426  0.80059123  -0.00020168  1
+  Cd  Cd11  1  0.49998645  0.33340680  0.00011185  1
+  Zn  Zn12  1  0.50006603  0.93662322  0.00007556  1
+  Ga  Ga13  1  0.50001042  0.52478227  -0.00014816  1
+  Li  Li14  1  0.49998405  0.74029341  -0.00004200  1
+  Zn  Zn15  1  0.49403817  0.20926686  0.00296541  1
+  Ti  Ti16  1  0.50010965  0.03171051  0.49992130  1
+  O  O17  1  0.17641972  0.39355269  0.77041173  1
+  O  O18  1  0.82353172  0.39350011  0.22977683  1
+  O  O19  1  0.46140388  0.21223882  0.57269863  1
+  O  O20  1  0.53848377  0.21191942  0.42737091  1
+  O  O21  1  0.18683491  0.58820128  0.26452159  1
+  O  O22  1  0.81312897  0.58798947  0.73542596  1
+  O  O23  1  0.55185919  0.74188394  0.69692965  1
+  O  O24  1  0.44816216  0.74194607  0.30302222  1

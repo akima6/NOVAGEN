@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaSnP3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.01499651
+_cell_length_b   4.94166363
+_cell_length_c   13.54902553
+_cell_angle_alpha   89.99987373
+_cell_angle_beta   90.00013663
+_cell_angle_gamma   89.99992662
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaSnP3
+_chemical_formula_sum   'Na2 Sn2 P6'
+_cell_volume   469.68717451
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.00000002  0.00000000  0.37413153  1
+  P  P1  1  0.00000005  0.50000000  0.87413149  1
+  Sn  Sn2  1  -0.00000001  -0.00000003  0.56229596  1
+  Sn  Sn3  1  0.00000000  0.49999998  0.06229593  1
+  Na  Na4  1  0.49999998  0.00000001  0.17446683  1
+  Na  Na5  1  0.50000021  0.50000002  0.67446678  1
+  P  P6  1  0.15387303  0.00000001  0.24057929  1
+  P  P7  1  0.84612698  0.00000000  0.24057938  1
+  P  P8  1  0.15387278  0.50000001  0.74057957  1
+  P  P9  1  0.84612698  0.50000000  0.74057939  1

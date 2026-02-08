@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_BaInO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.42914527
+_cell_length_b   6.42914532
+_cell_length_c   6.91040667
+_cell_angle_alpha   89.99993299
+_cell_angle_beta   89.99999089
+_cell_angle_gamma   120.00008747
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaInO6
+_chemical_formula_sum   'Ba2 In2 O12'
+_cell_volume   247.36618782
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.33333342  0.66666698  0.25000007  1
+  Ba  Ba1  1  0.66666675  0.33333353  0.74999994  1
+  In  In2  1  0.00000005  1.00000002  1.00000006  1
+  In  In3  1  -0.00000004  -0.00000001  0.49999997  1
+  O  O4  1  0.67511142  0.77184469  0.66523506  1
+  O  O5  1  0.22815503  0.90326646  0.66523511  1
+  O  O6  1  0.09673361  0.32488852  0.66523505  1
+  O  O7  1  0.32488831  0.22815509  0.16523516  1
+  O  O8  1  0.77184503  0.09673372  0.16523505  1
+  O  O9  1  0.90326652  0.67511145  0.16523508  1
+  O  O10  1  0.77184473  0.67511150  0.33476506  1
+  O  O11  1  0.90326656  0.22815526  0.33476494  1
+  O  O12  1  0.32488852  0.09673303  0.33476478  1
+  O  O13  1  0.22815544  0.32488844  0.83476468  1
+  O  O14  1  0.09673316  0.77184465  0.83476496  1
+  O  O15  1  0.67511151  0.90326649  0.83476485  1

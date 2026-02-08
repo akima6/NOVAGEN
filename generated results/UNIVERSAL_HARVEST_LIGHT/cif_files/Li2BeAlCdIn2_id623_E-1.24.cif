@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Li2BeAlCdIn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.07776204
+_cell_length_b   10.07332625
+_cell_length_c   21.36894823
+_cell_angle_alpha   90.15348165
+_cell_angle_beta   89.99995598
+_cell_angle_gamma   120.01652144
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2BeAlCdIn2
+_chemical_formula_sum   'Li6 Be3 Al3 Cd3 In6'
+_cell_volume   1878.34937218
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.77389265  0.78300039  0.88683469  1
+  Li  Li1  1  0.21699946  0.99089184  0.22016830  1
+  Li  Li2  1  0.00910784  0.22610745  0.55350093  1
+  Li  Li3  1  0.25972259  0.78095852  0.75305341  1
+  Li  Li4  1  0.21905862  0.47878554  0.08645610  1
+  Li  Li5  1  0.52125366  0.74028321  0.41978230  1
+  In  In6  1  0.27301182  0.01094535  0.10199248  1
+  In  In7  1  0.98905603  0.26206778  0.43532498  1
+  In  In8  1  0.73793361  0.72698855  0.76865633  1
+  Be  Be9  1  0.98870770  0.92612520  0.65523510  1
+  Be  Be10  1  0.07387460  0.06258219  0.98856843  1
+  Be  Be11  1  0.93741772  0.01129246  0.32190194  1
+  In  In12  1  0.25782905  0.65909125  0.17345009  1
+  In  In13  1  0.34091187  0.59874609  0.50678173  1
+  In  In14  1  0.40127653  0.74219662  0.84001415  1
+  Cd  Cd15  1  0.30468188  0.70164863  0.63382777  1
+  Cd  Cd16  1  0.29791442  0.60240909  0.96646379  1
+  Cd  Cd17  1  0.39691388  0.69530119  0.30050396  1
+  Al  Al18  1  0.40539132  0.69742066  0.29051155  1
+  Al  Al19  1  0.30259189  0.70794233  0.62389643  1
+  Al  Al20  1  0.29245289  0.59521567  0.95793594  1

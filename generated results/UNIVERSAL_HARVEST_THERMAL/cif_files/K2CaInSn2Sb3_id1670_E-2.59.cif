@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_K2CaInSn2Sb3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.81854577
+_cell_length_b   10.99992192
+_cell_length_c   14.48566171
+_cell_angle_alpha   89.99999911
+_cell_angle_beta   90.00018188
+_cell_angle_gamma   89.99998776
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2CaInSn2Sb3
+_chemical_formula_sum   'K4 Ca2 In2 Sn4 Sb6'
+_cell_volume   1086.47490858
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  -0.00000000  0.00000000  0.00000001  1
+  In  In1  1  0.50000000  0.50000000  0.50000000  1
+  Sb  Sb2  1  -0.00000001  0.49999999  -0.00000001  1
+  Sb  Sb3  1  0.50000001  0.00000001  0.50000000  1
+  Ca  Ca4  1  -0.00000001  0.49999999  0.50000000  1
+  Ca  Ca5  1  0.50000000  0.00000000  0.00000000  1
+  Sn  Sn6  1  -0.00000001  -0.00000000  0.18056198  1
+  Sn  Sn7  1  0.50000001  0.49999999  0.31943802  1
+  Sn  Sn8  1  0.00000001  0.00000001  0.81943802  1
+  Sn  Sn9  1  0.49999999  0.50000001  0.68056197  1
+  Sb  Sb10  1  0.70443089  0.66425466  -0.00000000  1
+  Sb  Sb11  1  0.29556911  0.33574534  0.00000000  1
+  Sb  Sb12  1  0.79556911  0.16425466  0.50000000  1
+  Sb  Sb13  1  0.20443094  0.83574533  0.49999999  1
+  K  K14  1  0.23797022  0.73267883  -0.00000001  1
+  K  K15  1  0.76202976  0.26732118  0.00000000  1
+  K  K16  1  0.26202978  0.23267882  0.50000000  1
+  K  K17  1  0.73797025  0.76732118  0.50000000  1

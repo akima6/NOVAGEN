@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KZn6Cd3In2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.15605366
+_cell_length_b   8.15605464
+_cell_length_c   12.22802938
+_cell_angle_alpha   90.00003876
+_cell_angle_beta   89.99994471
+_cell_angle_gamma   120.00003967
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KZn6Cd3In2
+_chemical_formula_sum   'K1 Zn6 Cd3 In2'
+_cell_volume   704.44506746
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.00000000  -0.00000001  -0.00000000  1
+  Cd  Cd1  1  -0.00000003  -0.00000001  0.49999999  1
+  In  In2  1  0.33333335  0.66666669  0.31938954  1
+  In  In3  1  0.66666670  0.33333338  0.68061043  1
+  Cd  Cd4  1  0.33333334  0.66666669  0.09832977  1
+  Cd  Cd5  1  0.66666669  0.33333334  0.90167029  1
+  Zn  Zn6  1  0.31527993  0.18439578  0.59760134  1
+  Zn  Zn7  1  0.81560418  0.13088413  0.59760132  1
+  Zn  Zn8  1  0.86911590  0.68472007  0.59760135  1
+  Zn  Zn9  1  0.18439579  0.31527996  0.40239864  1
+  Zn  Zn10  1  0.13088415  0.81560418  0.40239867  1
+  Zn  Zn11  1  0.68472005  0.86911587  0.40239865  1

@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Sc(Ga2Si)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.17653713
+_cell_length_b   5.17653947
+_cell_length_c   23.11849676
+_cell_angle_alpha   89.99979470
+_cell_angle_beta   89.99994282
+_cell_angle_gamma   90.00007165
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc(Ga2Si)2
+_chemical_formula_sum   'Sc4 Ga16 Si8'
+_cell_volume   619.49592599
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  -0.00000037  -0.03275495  -0.00000016  1
+  Sc  Sc1  1  -0.00000017  1.03275525  0.50000003  1
+  Sc  Sc2  1  1.03275461  1.00000032  0.75000011  1
+  Sc  Sc3  1  -0.03275507  0.99999998  0.25000000  1
+  Ga  Ga4  1  0.15223130  0.50985669  0.18842374  1
+  Ga  Ga5  1  0.84776948  0.49014481  0.68842371  1
+  Ga  Ga6  1  0.49014411  0.15223140  0.93842363  1
+  Ga  Ga7  1  0.50985595  0.84776918  0.43842356  1
+  Ga  Ga8  1  0.84776853  0.50985576  0.81157629  1
+  Ga  Ga9  1  0.15223090  0.49014378  0.31157622  1
+  Ga  Ga10  1  0.50985508  0.15223050  0.06157644  1
+  Ga  Ga11  1  0.49014361  0.84776871  0.56157634  1
+  Ga  Ga12  1  0.40348912  0.31206607  0.57343004  1
+  Ga  Ga13  1  0.59651139  0.68793319  0.07343016  1
+  Ga  Ga14  1  0.68793301  0.40348867  0.32343011  1
+  Ga  Ga15  1  0.31206671  0.59651106  0.82343005  1
+  Ga  Ga16  1  0.59651139  0.31206670  0.42656991  1
+  Ga  Ga17  1  0.40348930  0.68793374  0.92656986  1
+  Ga  Ga18  1  0.31206737  0.40348844  0.67656983  1
+  Ga  Ga19  1  0.68793319  0.59651095  0.17656988  1
+  Si  Si20  1  0.46327442  0.77877553  0.26250695  1
+  Si  Si21  1  0.53672581  0.22122387  0.76250703  1
+  Si  Si22  1  0.22122519  0.46327442  1.01250689  1
+  Si  Si23  1  0.77877539  0.53672570  0.51250693  1
+  Si  Si24  1  0.53672534  0.77877595  0.73749289  1
+  Si  Si25  1  0.46327453  0.22122441  0.23749312  1
+  Si  Si26  1  0.77877518  0.46327396  -0.01250679  1
+  Si  Si27  1  0.22122466  0.53672591  0.48749308  1

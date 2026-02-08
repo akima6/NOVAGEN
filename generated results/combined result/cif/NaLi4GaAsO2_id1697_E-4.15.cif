@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_NaLi4GaAsO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.75386463
+_cell_length_b   11.35823996
+_cell_length_c   5.36159504
+_cell_angle_alpha   90.00001344
+_cell_angle_beta   89.99999754
+_cell_angle_gamma   89.99995486
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLi4GaAsO2
+_chemical_formula_sum   'Na2 Li8 Ga2 As2 O4'
+_cell_volume   289.50219352
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  -0.00000000  -0.00000001  0.00000000  1
+  Na  Na1  1  0.50000001  0.49999999  0.50000000  1
+  Ga  Ga2  1  -0.00000000  -0.00000004  0.49999999  1
+  Ga  Ga3  1  0.49999999  0.50000013  -0.00000001  1
+  As  As4  1  -0.00000000  0.49999991  0.00000000  1
+  As  As5  1  0.50000000  0.00000002  0.50000000  1
+  O  O6  1  0.00000000  0.20200992  -0.00000001  1
+  O  O7  1  -0.00000001  0.79799005  -0.00000001  1
+  O  O8  1  0.49999999  0.70200994  0.49999999  1
+  O  O9  1  0.50000000  0.29799006  0.50000001  1
+  Li  Li10  1  0.26558132  0.28497987  0.19037930  1
+  Li  Li11  1  0.73441868  0.71502013  0.19037932  1
+  Li  Li12  1  0.73441869  0.28497989  0.80962067  1
+  Li  Li13  1  0.26558133  0.71502010  0.80962068  1
+  Li  Li14  1  0.76558133  0.78497986  0.69037935  1
+  Li  Li15  1  0.23441869  0.21502015  0.69037932  1
+  Li  Li16  1  0.23441868  0.78497988  0.30962067  1
+  Li  Li17  1  0.76558132  0.21502013  0.30962068  1

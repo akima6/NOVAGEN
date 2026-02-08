@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KZnInSn6Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.66184632
+_cell_length_b   8.66185321
+_cell_length_c   6.37949934
+_cell_angle_alpha   90.00004059
+_cell_angle_beta   89.99993148
+_cell_angle_gamma   119.99997705
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KZnInSn6Ge
+_chemical_formula_sum   'K1 Zn1 In1 Sn6 Ge1'
+_cell_volume   414.51344582
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  -0.00000001  -0.00000001  0.49999999  1
+  Zn  Zn1  1  0.33333334  0.66666668  0.50000000  1
+  In  In2  1  0.66666669  0.33333334  0.00000000  1
+  Ge  Ge3  1  0.66666667  0.33333335  0.50000002  1
+  Sn  Sn4  1  0.35234468  0.34099250  0.38121293  1
+  Sn  Sn5  1  0.65900748  0.01135220  0.38121293  1
+  Sn  Sn6  1  0.98864781  0.64765532  0.38121293  1
+  Sn  Sn7  1  0.65900748  0.64765531  0.61878708  1
+  Sn  Sn8  1  0.98864782  0.34099253  0.61878709  1
+  Sn  Sn9  1  0.35234471  0.01135221  0.61878711  1

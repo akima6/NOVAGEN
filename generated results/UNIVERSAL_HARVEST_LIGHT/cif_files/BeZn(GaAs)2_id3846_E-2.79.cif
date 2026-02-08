@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_BeZn(GaAs)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.79119407
+_cell_length_b   7.79109246
+_cell_length_c   10.83798850
+_cell_angle_alpha   89.99998368
+_cell_angle_beta   90.00000570
+_cell_angle_gamma   90.00002085
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BeZn(GaAs)2
+_chemical_formula_sum   'Be4 Zn4 Ga8 As8'
+_cell_volume   657.88663926
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  -0.00000000  -0.00000000  -0.00000003  1
+  Zn  Zn1  1  0.50000000  0.50000000  0.00000003  1
+  Zn  Zn2  1  0.00000002  0.49999998  0.23880620  1
+  Zn  Zn3  1  0.49999997  0.00000001  0.76119382  1
+  Be  Be4  1  0.00000000  -0.00000001  0.31693541  1
+  Be  Be5  1  -0.00000001  -0.00000000  0.68306458  1
+  Be  Be6  1  0.50000000  0.49999999  0.68306459  1
+  Be  Be7  1  0.50000001  0.49999999  0.31693543  1
+  Ga  Ga8  1  0.36178893  0.86178874  0.58057988  1
+  Ga  Ga9  1  0.63821112  0.13821128  0.58057981  1
+  Ga  Ga10  1  0.86178888  0.63821128  0.41942018  1
+  Ga  Ga11  1  0.13821112  0.36178874  0.41942017  1
+  Ga  Ga12  1  0.15365388  0.65365389  0.84566668  1
+  Ga  Ga13  1  0.84634615  0.34634612  0.84566670  1
+  Ga  Ga14  1  0.65365386  0.84634611  0.15433331  1
+  Ga  Ga15  1  0.34634614  0.15365391  0.15433331  1
+  As  As16  1  0.17070624  0.67070646  0.61919889  1
+  As  As17  1  0.82929366  0.32929349  0.61919893  1
+  As  As18  1  0.67070631  0.82929349  0.38080108  1
+  As  As19  1  0.32929376  0.17070644  0.38080109  1
+  As  As20  1  0.18371457  0.68371457  0.31315915  1
+  As  As21  1  0.81628538  0.31628547  0.31315912  1
+  As  As22  1  0.68371456  0.81628549  0.68684083  1
+  As  As23  1  0.31628546  0.18371458  0.68684084  1

@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Mg5In8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.91727912
+_cell_length_b   8.91826770
+_cell_length_c   13.58912084
+_cell_angle_alpha   89.99995720
+_cell_angle_beta   89.99998886
+_cell_angle_gamma   90.00221074
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg5In8
+_chemical_formula_sum   'Mg10 In16'
+_cell_volume   1080.69769633
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  -0.00000002  0.00000000  0.00000000  1
+  Mg  Mg1  1  0.49999999  0.49999999  0.50000000  1
+  Mg  Mg2  1  0.90429918  0.37125517  -0.00000004  1
+  Mg  Mg3  1  0.09570082  0.62874472  0.00000004  1
+  Mg  Mg4  1  0.62874580  0.90429921  0.00000008  1
+  Mg  Mg5  1  0.37125427  0.09570084  -0.00000002  1
+  Mg  Mg6  1  0.40429920  0.87125518  0.49999997  1
+  Mg  Mg7  1  0.59570082  0.12874487  0.50000000  1
+  Mg  Mg8  1  0.12874568  0.40429912  0.50000002  1
+  Mg  Mg9  1  0.87125434  0.59570080  0.49999995  1
+  In  In10  1  0.67224039  0.76888474  0.38888382  1
+  In  In11  1  0.32775958  0.23111526  0.38888389  1
+  In  In12  1  0.23111446  0.67223975  0.38888423  1
+  In  In13  1  0.76888554  0.32776025  0.38888418  1
+  In  In14  1  0.32775965  0.23111525  0.61111615  1
+  In  In15  1  0.67224034  0.76888478  0.61111611  1
+  In  In16  1  0.76888550  0.32776024  0.61111582  1
+  In  In17  1  0.23111449  0.67223973  0.61111576  1
+  In  In18  1  0.17224032  0.26888471  0.88888384  1
+  In  In19  1  0.82775967  0.73111534  0.88888392  1
+  In  In20  1  0.73111451  0.17223978  0.88888418  1
+  In  In21  1  0.26888543  0.82776023  0.88888418  1
+  In  In22  1  0.82775967  0.73111522  0.11111613  1
+  In  In23  1  0.17224027  0.26888474  0.11111615  1
+  In  In24  1  0.26888547  0.82776018  0.11111578  1
+  In  In25  1  0.73111451  0.17223978  0.11111584  1

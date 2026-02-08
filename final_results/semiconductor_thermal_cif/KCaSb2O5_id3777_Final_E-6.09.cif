@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_KCaSb2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   19.25875534
+_cell_length_b   14.63263585
+_cell_length_c   18.24382992
+_cell_angle_alpha   158.49450042
+_cell_angle_beta   10.14992589
+_cell_angle_gamma   165.53107276
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KCaSb2O5
+_chemical_formula_sum   'K1 Ca1 Sb2 O5'
+_cell_volume   193.82172006
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  -0.02180063  -0.00378593  -0.02989876  1
+  Ca  Ca1  1  0.08895890  0.13707755  0.56714489  1
+  Sb  Sb2  1  0.38414312  0.79083410  0.22517450  1
+  Sb  Sb3  1  0.66413022  0.06982534  0.75300523  1
+  O  O4  1  0.33795960  0.64550960  0.06476287  1
+  O  O5  1  0.61511679  0.40389523  1.01083254  1
+  O  O6  1  0.48057640  -0.02378072  0.97870669  1
+  O  O7  1  1.02263308  0.53148640  0.96520698  1
+  O  O8  1  0.42828235  0.44893841  0.96506509  1

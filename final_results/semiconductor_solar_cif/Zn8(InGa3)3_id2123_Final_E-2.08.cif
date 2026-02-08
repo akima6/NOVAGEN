@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Zn8(InGa3)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.31971815
+_cell_length_b   6.33484217
+_cell_length_c   17.67966119
+_cell_angle_alpha   81.37998215
+_cell_angle_beta   87.32571036
+_cell_angle_gamma   80.24198169
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn8(InGa3)3
+_chemical_formula_sum   'Zn8 In3 Ga9'
+_cell_volume   689.51116678
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.22926925  0.19534961  0.31285003  1
+  Zn  Zn1  1  0.77885083  0.77504033  0.31245509  1
+  Zn  Zn2  1  0.79608306  0.20387418  0.31515710  1
+  Zn  Zn3  1  0.20924155  0.77247846  0.31410790  1
+  Zn  Zn4  1  0.20017049  0.81449651  0.30830325  1
+  Zn  Zn5  1  0.77578890  0.21682056  0.30927293  1
+  Zn  Zn6  1  0.80467586  0.80430793  0.31033564  1
+  Zn  Zn7  1  0.19448737  0.22489607  0.31073207  1
+  In  In8  1  -0.00030274  0.00043533  0.90983628  1
+  In  In9  1  0.50004727  0.00019579  0.67514931  1
+  In  In10  1  -0.00014030  0.49998820  0.67510362  1
+  Ga  Ga11  1  0.00766941  0.99721986  0.42619657  1
+  Ga  Ga12  1  0.22407467  0.20178280  0.16342170  1
+  Ga  Ga13  1  0.77710517  0.79553188  0.16427781  1
+  Ga  Ga14  1  0.79491525  0.22288882  0.16059067  1
+  Ga  Ga15  1  0.20627571  0.77689727  0.16568135  1
+  Ga  Ga16  1  0.22182657  0.79488947  0.16066349  1
+  Ga  Ga17  1  0.77845333  0.20512787  0.16551917  1
+  Ga  Ga18  1  0.79787390  0.77578045  0.16227853  1
+  Ga  Ga19  1  0.20363448  0.22199866  0.16545645  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Sc2Ti2Al2Si
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.94635582
+_cell_length_b   10.53735288
+_cell_length_c   9.96138522
+_cell_angle_alpha   90.00018576
+_cell_angle_beta   90.00000279
+_cell_angle_gamma   90.00000295
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc2Ti2Al2Si
+_chemical_formula_sum   'Sc4 Ti4 Al4 Si2'
+_cell_volume   939.06883177
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.00000000  -0.00000000  0.50587276  1
+  Si  Si1  1  0.00000000  0.50000002  0.00587263  1
+  Sc  Sc2  1  -0.00000000  -0.00000001  0.20400884  1
+  Sc  Sc3  1  0.00000000  0.49999998  0.70400883  1
+  Sc  Sc4  1  -0.00000000  -0.00000003  0.81178764  1
+  Sc  Sc5  1  -0.00000000  0.49999994  0.31178763  1
+  Ti  Ti6  1  0.00000000  0.79205749  0.66228873  1
+  Ti  Ti7  1  0.00000000  0.20794249  0.66228871  1
+  Ti  Ti8  1  -0.00000000  0.29205748  0.16228870  1
+  Ti  Ti9  1  -0.00000000  0.70794250  0.16228864  1
+  Al  Al10  1  0.00000000  0.23082571  0.92307790  1
+  Al  Al11  1  -0.00000000  0.76917446  0.92307796  1
+  Al  Al12  1  0.00000000  0.73082553  0.42307792  1
+  Al  Al13  1  0.00000000  0.26917450  0.42307796  1

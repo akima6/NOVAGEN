@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GeTeP
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.25848137
+_cell_length_b   15.19745552
+_cell_length_c   6.66817108
+_cell_angle_alpha   72.22244309
+_cell_angle_beta   90.28112699
+_cell_angle_gamma   73.15500552
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GeTeP
+_chemical_formula_sum   'Ge4 Te4 P4'
+_cell_volume   1218.10274657
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.11127594  0.67508140  0.08193634  1
+  Ge  Ge1  1  0.88872255  0.32492139  0.91806356  1
+  Ge  Ge2  1  0.89780546  0.67538118  0.58644732  1
+  Ge  Ge3  1  0.10219427  0.32461670  0.41355252  1
+  Te  Te4  1  -0.09223628  0.69663771  0.17554963  1
+  Te  Te5  1  -0.08837580  0.30311003  0.32218048  1
+  Te  Te6  1  0.09223497  0.30336030  0.82445168  1
+  Te  Te7  1  0.08837450  0.69688935  0.67782011  1
+  P  P8  1  0.16561727  0.50173438  0.25255385  1
+  P  P9  1  1.01065014  0.49227506  0.24731721  1
+  P  P10  1  0.83438392  0.49826837  0.74744502  1
+  P  P11  1  -0.01064691  0.50772413  0.75268228  1

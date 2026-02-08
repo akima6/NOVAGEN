@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Zn2CdTe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.32217260
+_cell_length_b   6.32217565
+_cell_length_c   6.29943306
+_cell_angle_alpha   89.99998559
+_cell_angle_beta   90.00000312
+_cell_angle_gamma   90.00000249
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn2CdTe4
+_chemical_formula_sum   'Zn2 Cd1 Te4'
+_cell_volume   251.78761904
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.00000004  0.00000001  0.00000002  1
+  Zn  Zn1  1  0.49999998  0.00000001  0.49999999  1
+  Zn  Zn2  1  -0.00000001  0.50000000  0.50000000  1
+  Te  Te3  1  0.71517192  0.71517189  0.69512317  1
+  Te  Te4  1  0.28482807  0.28482806  0.69512320  1
+  Te  Te5  1  0.71517192  0.28482809  0.30487682  1
+  Te  Te6  1  0.28482808  0.71517195  0.30487681  1

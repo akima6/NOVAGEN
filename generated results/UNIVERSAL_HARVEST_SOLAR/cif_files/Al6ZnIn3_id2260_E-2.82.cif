@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Al6ZnIn3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.19746309
+_cell_length_b   6.18512309
+_cell_length_c   6.17001501
+_cell_angle_alpha   90.05390975
+_cell_angle_beta   90.00119745
+_cell_angle_gamma   89.99696005
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al6ZnIn3
+_chemical_formula_sum   'Al12 Zn2 In6'
+_cell_volume   236.50935470
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.00000024  -0.00000081  0.00000061  1
+  Zn  Zn1  1  0.50000006  0.49999998  0.50000028  1
+  In  In2  1  0.00000073  0.50005526  0.49834461  1
+  In  In3  1  0.49999225  -0.00000135  0.50002449  1
+  In  In4  1  0.50000175  0.49999095  0.00000064  1
+  In  In5  1  0.49999965  0.00454127  -0.00364433  1
+  In  In6  1  -0.00138402  0.50000087  -0.00003543  1
+  In  In7  1  0.00000578  -0.00000054  0.49999960  1
+  Al  Al8  1  0.49122794  -0.00227820  0.00182667  1
+  Al  Al9  1  0.50877165  -0.00227836  0.00182692  1
+  Al  Al10  1  0.00069406  0.49061658  0.00001488  1
+  Al  Al11  1  0.00069424  0.50938492  0.00001384  1
+  Al  Al12  1  -0.00000191  0.00000010  0.49116739  1
+  Al  Al13  1  -0.00000171  0.00000054  0.50883239  1
+  Al  Al14  1  0.99060021  0.49997230  0.50083038  1
+  Al  Al15  1  0.00940004  0.49997231  0.50083131  1
+  Al  Al16  1  0.50000259  0.99184981  0.49998251  1
+  Al  Al17  1  0.50000277  0.00814823  0.49998220  1
+  Al  Al18  1  0.49999682  0.50001346  0.99178518  1
+  Al  Al19  1  0.49999686  0.50001267  0.00821584  1

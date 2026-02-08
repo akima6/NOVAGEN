@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_NaLiGaSb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.23755480
+_cell_length_b   5.23755203
+_cell_length_c   3.08477608
+_cell_angle_alpha   90.00007947
+_cell_angle_beta   89.99996793
+_cell_angle_gamma   120.00004847
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLiGaSb
+_chemical_formula_sum   'Na1 Li1 Ga1 Sb1'
+_cell_volume   73.28430851
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.00000002  0.00000014  0.04828626  1
+  Li  Li1  1  0.66666669  0.33333341  0.44663861  1
+  Ga  Ga2  1  0.33333327  0.66666644  0.65362942  1
+  Sb  Sb3  1  0.66666671  0.33333341  0.53907863  1

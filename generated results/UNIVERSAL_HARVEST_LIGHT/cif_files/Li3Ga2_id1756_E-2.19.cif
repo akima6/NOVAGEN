@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Li3Ga2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.84616983
+_cell_length_b   4.38364340
+_cell_length_c   12.52539657
+_cell_angle_alpha   89.99999094
+_cell_angle_beta   89.99996022
+_cell_angle_gamma   89.99982697
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3Ga2
+_chemical_formula_sum   'Li12 Ga8'
+_cell_volume   540.62238619
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  -0.00000001  0.00000000  0.00000001  1
+  Li  Li1  1  0.00000000  0.50000000  0.50000003  1
+  Li  Li2  1  0.49999999  0.50000001  -0.00000001  1
+  Li  Li3  1  0.50000001  0.00000002  0.50000003  1
+  Li  Li4  1  0.25000002  0.82063191  0.25000001  1
+  Li  Li5  1  0.75000001  0.67936809  0.74999997  1
+  Li  Li6  1  0.75000000  0.17936809  0.74999999  1
+  Li  Li7  1  0.25000000  0.32063196  0.25000000  1
+  Li  Li8  1  0.75000001  0.32063197  0.25000001  1
+  Li  Li9  1  0.25000000  0.17936809  0.75000000  1
+  Li  Li10  1  0.24999999  0.67936810  0.74999997  1
+  Li  Li11  1  0.74999998  0.82063197  0.25000001  1
+  Ga  Ga12  1  -0.00000004  0.17967709  0.80881937  1
+  Ga  Ga13  1  -0.00000006  0.32032295  0.30881945  1
+  Ga  Ga14  1  0.00000006  0.67967706  0.69118058  1
+  Ga  Ga15  1  0.00000005  0.82032292  0.19118065  1
+  Ga  Ga16  1  0.49999995  0.67967708  0.80881937  1
+  Ga  Ga17  1  0.49999994  0.82032291  0.30881943  1
+  Ga  Ga18  1  0.50000005  0.17967714  0.69118061  1
+  Ga  Ga19  1  0.50000006  0.32032289  0.19118063  1

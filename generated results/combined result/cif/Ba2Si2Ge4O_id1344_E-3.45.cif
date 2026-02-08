@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ba2Si2Ge4O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   16.12678713
+_cell_length_b   12.95976262
+_cell_length_c   9.60649693
+_cell_angle_alpha   90.02254350
+_cell_angle_beta   90.00001960
+_cell_angle_gamma   90.00000833
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Si2Ge4O
+_chemical_formula_sum   'Ba4 Si4 Ge8 O2'
+_cell_volume   2007.75129566
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.25002006  0.25000000  -0.00000000  1
+  O  O1  1  0.74997956  0.75000000  -0.00000000  1
+  Ba  Ba2  1  0.00000083  -0.00000168  -0.00000002  1
+  Ba  Ba3  1  0.49999869  0.50000294  -0.00000000  1
+  Ba  Ba4  1  0.49999869  -0.00000293  0.00000000  1
+  Ba  Ba5  1  0.00000083  0.50000169  0.00000002  1
+  Si  Si6  1  0.40207256  0.25000000  -0.00000000  1
+  Si  Si7  1  0.09825198  0.25000000  -0.00000000  1
+  Si  Si8  1  0.59794230  0.75000000  -0.00000000  1
+  Si  Si9  1  0.90176772  0.75000000  0.00000000  1
+  Ge  Ge10  1  0.46119589  0.75029451  0.99262554  1
+  Ge  Ge11  1  0.03896816  0.74976610  0.99346426  1
+  Ge  Ge12  1  0.03896816  0.75023391  0.00653574  1
+  Ge  Ge13  1  0.46119574  0.74970549  0.00737446  1
+  Ge  Ge14  1  0.53879752  0.24970573  0.00735874  1
+  Ge  Ge15  1  0.96102188  0.25023162  0.00649553  1
+  Ge  Ge16  1  0.96102189  0.24976843  0.99350447  1
+  Ge  Ge17  1  0.53879752  0.25029431  0.99264126  1

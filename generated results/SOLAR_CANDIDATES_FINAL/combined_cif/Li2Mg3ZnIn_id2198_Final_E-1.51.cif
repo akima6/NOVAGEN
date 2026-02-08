@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Li2Mg3ZnIn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.22512155
+_cell_length_b   4.22645321
+_cell_length_c   9.33968913
+_cell_angle_alpha   90.27870153
+_cell_angle_beta   89.99198529
+_cell_angle_gamma   119.98817627
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2Mg3ZnIn
+_chemical_formula_sum   'Li2 Mg3 Zn1 In1'
+_cell_volume   144.45194631
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.33330900  0.66661546  0.19697081  1
+  Li  Li1  1  0.33371233  0.66746394  0.24062543  1
+  Mg  Mg2  1  0.00001634  0.00003354  0.55108660  1
+  Mg  Mg3  1  -0.00000581  -0.00001214  0.91353242  1
+  Mg  Mg4  1  0.66659061  0.33317575  0.37470153  1
+  Zn  Zn5  1  0.66673208  0.33347020  0.09618311  1
+  In  In6  1  0.33297878  0.66591991  0.23638836  1

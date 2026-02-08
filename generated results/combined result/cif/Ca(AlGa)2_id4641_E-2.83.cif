@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ca(AlGa)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.77894579
+_cell_length_b   6.77894020
+_cell_length_c   13.15286490
+_cell_angle_alpha   90.00002593
+_cell_angle_beta   90.00000574
+_cell_angle_gamma   90.00005289
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca(AlGa)2
+_chemical_formula_sum   'Ca4 Al8 Ga8'
+_cell_volume   604.42764934
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.00000002  0.11109224  -0.00000001  1
+  Ca  Ca1  1  -0.00000002  0.88890776  0.49999998  1
+  Ca  Ca2  1  0.88890774  0.00000004  0.74999997  1
+  Ca  Ca3  1  0.11109223  -0.00000000  0.24999999  1
+  Al  Al4  1  0.21681742  0.26297632  0.72574462  1
+  Al  Al5  1  0.78318259  0.73702371  0.22574454  1
+  Al  Al6  1  0.73702370  0.21681739  0.47574462  1
+  Al  Al7  1  0.26297630  0.78318260  0.97574459  1
+  Al  Al8  1  0.78318256  0.26297631  0.27425544  1
+  Al  Al9  1  0.21681748  0.73702364  0.77425547  1
+  Al  Al10  1  0.26297636  0.21681741  0.52425543  1
+  Al  Al11  1  0.73702364  0.78318255  0.02425536  1
+  Ga  Ga12  1  0.68130283  0.58185360  0.39640945  1
+  Ga  Ga13  1  0.31869715  0.41814639  0.89640947  1
+  Ga  Ga14  1  0.41814639  0.68130283  0.14640946  1
+  Ga  Ga15  1  0.58185358  0.31869716  0.64640945  1
+  Ga  Ga16  1  0.31869713  0.58185363  0.60359056  1
+  Ga  Ga17  1  0.68130284  0.41814637  0.10359058  1
+  Ga  Ga18  1  0.58185362  0.68130284  0.85359054  1
+  Ga  Ga19  1  0.41814640  0.31869717  0.35359051  1

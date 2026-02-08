@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_KNa2LiCdSb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.77345501
+_cell_length_b   32.36363302
+_cell_length_c   4.82806634
+_cell_angle_alpha   145.88947378
+_cell_angle_beta   115.43035541
+_cell_angle_gamma   82.31816606
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNa2LiCdSb
+_chemical_formula_sum   'K4 Na8 Li4 Cd4 Sb4'
+_cell_volume   908.67812292
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.06148554  0.17034027  0.33200835  1
+  K  K1  1  0.00157731  0.82920194  0.74111039  1
+  K  K2  1  0.56148405  0.67033984  0.33201248  1
+  K  K3  1  0.50157904  0.32920380  0.74111215  1
+  Na  Na4  1  0.71635021  0.10576694  0.53020016  1
+  Na  Na5  1  0.36722140  0.92144879  0.04080050  1
+  Na  Na6  1  0.30779733  0.11877750  0.89633594  1
+  Na  Na7  1  0.70150064  0.90084369  0.33871424  1
+  Na  Na8  1  0.21635179  0.60576839  0.53019431  1
+  Na  Na9  1  0.86722343  0.42144886  0.04080215  1
+  Na  Na10  1  0.80779862  0.61877666  0.89634104  1
+  Na  Na11  1  0.20150179  0.40084296  0.33871065  1
+  Li  Li12  1  0.00461334  -0.02123223  1.05203113  1
+  Li  Li13  1  0.81756158  0.00076636  0.52409826  1
+  Li  Li14  1  0.50461317  0.47876998  1.05203250  1
+  Li  Li15  1  0.31755496  0.50076631  0.52408878  1
+  Cd  Cd16  1  -0.08375296  0.26562235  0.24883428  1
+  Cd  Cd17  1  0.11069684  0.71846738  0.76947311  1
+  Cd  Cd18  1  0.41624813  0.76562307  0.24883856  1
+  Cd  Cd19  1  0.61069951  0.21846705  0.76946797  1
+  Sb  Sb20  1  -0.00039951  0.35237437  0.31728110  1
+  Sb  Sb21  1  -0.00465074  0.63761957  0.70911603  1
+  Sb  Sb22  1  0.49959757  0.85237443  0.31727775  1
+  Sb  Sb23  1  0.49534710  0.13762174  0.70911828  1

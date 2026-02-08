@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_LiZnSnS
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.11711038
+_cell_length_b   6.30653026
+_cell_length_c   7.33120489
+_cell_angle_alpha   90.00003949
+_cell_angle_beta   90.00002548
+_cell_angle_gamma   90.00002811
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiZnSnS
+_chemical_formula_sum   'Li4 Zn4 Sn4 S4'
+_cell_volume   421.52472515
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.27383004  0.46844354  0.25250318  1
+  Zn  Zn1  1  0.72617001  0.53155663  0.75250326  1
+  Zn  Zn2  1  0.77382997  0.53155651  0.25250307  1
+  Zn  Zn3  1  0.22616998  0.46844350  0.75250312  1
+  Sn  Sn4  1  0.54346846  0.62788478  0.02154551  1
+  Sn  Sn5  1  0.45653158  0.37211519  0.52154548  1
+  Sn  Sn6  1  0.04346849  0.37211519  0.02154549  1
+  Sn  Sn7  1  0.95653159  0.62788481  0.52154552  1
+  S  S8  1  0.72923097  0.84584453  0.52055273  1
+  S  S9  1  0.27076906  0.15415532  0.02055286  1
+  S  S10  1  0.22923087  0.15415543  0.52055281  1
+  S  S11  1  0.77076905  0.84584446  0.02055270  1
+  Li  Li12  1  0.68107854  0.10431802  0.71166038  1
+  Li  Li13  1  0.31892139  0.89568214  0.21166036  1
+  Li  Li14  1  0.18107857  0.89568205  0.71166033  1
+  Li  Li15  1  0.81892142  0.10431792  0.21166041  1

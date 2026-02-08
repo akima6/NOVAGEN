@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LiAl5(ZnGa)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.32248106
+_cell_length_b   13.54183163
+_cell_length_c   9.44102424
+_cell_angle_alpha   89.99998395
+_cell_angle_beta   122.53274065
+_cell_angle_gamma   90.00002779
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiAl5(ZnGa)2
+_chemical_formula_sum   'Li2 Al10 Zn4 Ga4'
+_cell_volume   897.05759703
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.11000038  0.66059843  0.71441359  1
+  Al  Al1  1  0.11000046  0.33940159  0.21441348  1
+  Al  Al2  1  0.17880952  0.12485828  0.62944186  1
+  Al  Al3  1  0.17880951  0.87514169  0.12944181  1
+  Al  Al4  1  0.41158237  0.71059504  0.94112715  1
+  Al  Al5  1  0.41158230  0.28940498  0.44112715  1
+  Al  Al6  1  0.70888200  0.10417941  0.92570726  1
+  Al  Al7  1  0.70888190  0.89582050  0.42570742  1
+  Al  Al8  1  0.45189565  0.14683160  0.61491940  1
+  Al  Al9  1  0.45189561  0.85316831  0.11491923  1
+  Ga  Ga10  1  0.74829049  0.25836161  0.10091868  1
+  Ga  Ga11  1  0.74829051  0.74163844  0.60091867  1
+  Zn  Zn12  1  0.74037365  0.99967330  0.66017324  1
+  Zn  Zn13  1  0.74037371  0.00032679  0.16017308  1
+  Zn  Zn14  1  0.84976415  0.07146589  0.46493370  1
+  Zn  Zn15  1  0.84976412  0.92853403  0.96493370  1
+  Li  Li16  1  0.82191332  0.76536911  0.32913665  1
+  Li  Li17  1  0.82191323  0.23463086  0.82913672  1
+  Ga  Ga18  1  0.86618986  0.76808778  0.88465441  1
+  Ga  Ga19  1  0.86618985  0.23191231  0.38465445  1

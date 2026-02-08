@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Na2Li4Zn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.57757116
+_cell_length_b   6.57757184
+_cell_length_c   17.27773347
+_cell_angle_alpha   89.99819435
+_cell_angle_beta   89.99058401
+_cell_angle_gamma   89.99999764
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Li4Zn
+_chemical_formula_sum   'Na8 Li16 Zn4'
+_cell_volume   747.51157141
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  -0.00000002  -0.00000010  0.25000008  1
+  Zn  Zn1  1  0.00000002  0.00000014  0.75000000  1
+  Zn  Zn2  1  0.50000000  0.49999984  0.74999996  1
+  Zn  Zn3  1  0.50000004  0.50000014  0.25000009  1
+  Na  Na4  1  0.66246557  0.16246574  0.00000292  1
+  Na  Na5  1  0.33753446  0.83753433  -0.00000301  1
+  Na  Na6  1  0.83753428  0.66246580  -0.00000198  1
+  Na  Na7  1  0.16246576  0.33753423  0.00000219  1
+  Na  Na8  1  0.16246559  0.66246572  0.50000347  1
+  Na  Na9  1  0.83753448  0.33753436  0.49999624  1
+  Na  Na10  1  0.33753437  0.16246581  0.49999843  1
+  Na  Na11  1  0.66246573  0.83753428  0.50000146  1
+  Li  Li12  1  0.82182672  0.32182583  0.68006643  1
+  Li  Li13  1  0.17817454  0.67817373  0.68006813  1
+  Li  Li14  1  0.67817465  0.82182655  0.68006761  1
+  Li  Li15  1  0.32182676  0.17817435  0.68006645  1
+  Li  Li16  1  0.17817317  0.32182555  0.81993329  1
+  Li  Li17  1  0.82182532  0.67817344  0.81993203  1
+  Li  Li18  1  0.32182539  0.82182632  0.81993192  1
+  Li  Li19  1  0.67817331  0.17817411  0.81993373  1
+  Li  Li20  1  0.32182665  0.82182581  0.18006648  1
+  Li  Li21  1  0.67817458  0.17817370  0.18006806  1
+  Li  Li22  1  0.17817466  0.32182646  0.18006785  1
+  Li  Li23  1  0.82182675  0.67817437  0.18006673  1
+  Li  Li24  1  0.67817316  0.82182553  0.31993361  1
+  Li  Li25  1  0.32182529  0.17817345  0.31993231  1
+  Li  Li26  1  0.82182534  0.32182622  0.31993198  1
+  Li  Li27  1  0.17817326  0.67817411  0.31993355  1

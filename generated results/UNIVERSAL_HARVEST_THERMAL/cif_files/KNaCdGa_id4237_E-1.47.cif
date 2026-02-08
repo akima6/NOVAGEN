@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_KNaCdGa
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.87692725
+_cell_length_b   8.87694499
+_cell_length_c   7.00685867
+_cell_angle_alpha   90.00023062
+_cell_angle_beta   90.00001129
+_cell_angle_gamma   90.00008570
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNaCdGa
+_chemical_formula_sum   'K4 Na4 Cd4 Ga4'
+_cell_volume   552.14042763
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.49999998  0.99529665  0.00000003  1
+  Na  Na1  1  0.50000010  0.00470299  0.50000000  1
+  Na  Na2  1  0.00470326  0.49999999  0.25000000  1
+  Na  Na3  1  0.99529693  0.50000005  0.75000001  1
+  Cd  Cd4  1  0.49999978  0.68129913  0.00000007  1
+  Cd  Cd5  1  0.49999988  0.31870099  0.49999997  1
+  Cd  Cd6  1  0.31870086  0.49999993  0.24999997  1
+  Cd  Cd7  1  0.68129904  0.49999986  0.74999996  1
+  Ga  Ga8  1  0.20992876  0.20992884  0.37500001  1
+  Ga  Ga9  1  0.79007142  0.79007152  0.87499999  1
+  Ga  Ga10  1  0.79007119  0.20992864  0.62500004  1
+  Ga  Ga11  1  0.20992874  0.79007140  0.12499997  1
+  K  K12  1  0.73364355  0.73364354  0.37499998  1
+  K  K13  1  0.26635649  0.26635645  0.87499998  1
+  K  K14  1  0.26635647  0.73364354  0.62500000  1
+  K  K15  1  0.73364352  0.26635646  0.12500003  1

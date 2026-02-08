@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_LiTi2Be2ZnBAs2S5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.19162701
+_cell_length_b   3.34939133
+_cell_length_c   39.57442418
+_cell_angle_alpha   89.98278981
+_cell_angle_beta   132.90049593
+_cell_angle_gamma   89.99338508
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiTi2Be2ZnBAs2S5
+_chemical_formula_sum   'Li2 Ti4 Be4 Zn2 B2 As4 S10'
+_cell_volume   1086.68389990
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  1.06452126  0.25038719  0.88238040  1
+  Li  Li1  1  -0.06452126  0.74961282  0.11761977  1
+  Ti  Ti2  1  0.89166071  0.25012180  0.45608625  1
+  Ti  Ti3  1  0.10833936  0.74987816  0.54391374  1
+  Ti  Ti4  1  0.76859010  0.25006403  0.86954829  1
+  Ti  Ti5  1  0.23141002  0.74993594  0.13045181  1
+  Be  Be6  1  0.50593709  0.24975042  0.76874799  1
+  Be  Be7  1  0.49406276  0.75024959  0.23125198  1
+  Be  Be8  1  0.88618338  0.24995722  0.52781034  1
+  Be  Be9  1  0.11381654  0.75004273  0.47218962  1
+  Zn  Zn10  1  0.34798797  0.25006835  0.89998078  1
+  Zn  Zn11  1  0.65201208  0.74993168  0.10001926  1
+  B  B12  1  0.71670642  0.24994759  0.25079607  1
+  B  B13  1  0.28329382  0.75005246  0.74920400  1
+  As  As14  1  0.56632572  0.24995670  0.49426651  1
+  As  As15  1  0.43367430  0.75004337  0.50573342  1
+  As  As16  1  0.77025186  0.24953809  0.80987363  1
+  As  As17  1  0.22974806  0.75046188  0.19012640  1
+  S  S18  1  0.18543987  0.24989171  0.51578116  1
+  S  S19  1  0.81456019  0.75010823  0.48421875  1
+  S  S20  1  0.62440709  0.25008312  0.27366827  1
+  S  S21  1  0.37559296  0.74991691  0.72633169  1
+  S  S22  1  0.37010128  0.24971229  0.13119229  1
+  S  S23  1  0.62989871  0.75028766  0.86880773  1
+  S  S24  1  0.82142759  0.24978468  0.56391616  1
+  S  S25  1  0.17857232  0.75021529  0.43608375  1
+  S  S26  1  0.71898139  0.25039147  0.38282571  1
+  S  S27  1  0.28101844  0.74960863  0.61717422  1

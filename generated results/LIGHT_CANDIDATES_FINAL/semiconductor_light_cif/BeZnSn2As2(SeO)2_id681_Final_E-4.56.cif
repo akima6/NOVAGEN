@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_BeZnSn2As2(SeO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.60044152
+_cell_length_b   7.51042350
+_cell_length_c   17.36516621
+_cell_angle_alpha   85.42927909
+_cell_angle_beta   90.00008406
+_cell_angle_gamma   90.00662446
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BeZnSn2As2(SeO)2
+_chemical_formula_sum   'Be2 Zn2 Sn4 As4 Se4 O4'
+_cell_volume   468.07533378
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Be  Be0  1  1.00822577  0.49935104  0.39783367  1
+  Be  Be1  1  0.50810259  1.00051359  0.60214534  1
+  Zn  Zn2  1  -0.00484106  0.50063515  0.64563245  1
+  Zn  Zn3  1  0.49509791  0.99918884  0.35436691  1
+  Sn  Sn4  1  0.99825438  0.02506457  0.95337625  1
+  Sn  Sn5  1  0.49822428  0.47512492  1.04666394  1
+  Sn  Sn6  1  0.95571597  0.52644502  0.19411558  1
+  Sn  Sn7  1  0.45586218  0.97364017  0.80592158  1
+  As  As8  1  0.22596988  0.62585937  0.51080544  1
+  As  As9  1  0.76419759  0.36750755  0.50877441  1
+  As  As10  1  0.72599411  0.87421445  0.48919499  1
+  As  As11  1  0.26420097  0.13261653  0.49122017  1
+  Se  Se12  1  0.35047915  0.76475568  0.67722395  1
+  Se  Se13  1  0.65226518  0.21022912  0.67613863  1
+  Se  Se14  1  0.85058087  0.73514387  0.32275819  1
+  Se  Se15  1  0.15240149  0.28962698  0.32386721  1
+  O  O16  1  0.45178507  0.66603735  0.16367460  1
+  O  O17  1  0.59788546  0.32935068  0.15004164  1
+  O  O18  1  0.95186165  0.83398644  0.83628106  1
+  O  O19  1  0.09773655  0.17070870  0.84996397  1

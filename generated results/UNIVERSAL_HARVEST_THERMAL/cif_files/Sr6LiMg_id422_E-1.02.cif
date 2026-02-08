@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Sr6LiMg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.46295950
+_cell_length_b   8.46320156
+_cell_length_c   25.10744339
+_cell_angle_alpha   89.99348358
+_cell_angle_beta   90.00971043
+_cell_angle_gamma   119.99938131
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr6LiMg
+_chemical_formula_sum   'Sr12 Li2 Mg2'
+_cell_volume   1557.37346731
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00000000  -0.00000001  -0.00000002  1
+  Li  Li1  1  0.00000008  -0.00000001  0.50000027  1
+  Mg  Mg2  1  0.33333350  0.66666691  0.24999997  1
+  Mg  Mg3  1  0.66666647  0.33333307  0.75000005  1
+  Sr  Sr4  1  0.49733905  0.48193008  0.33795241  1
+  Sr  Sr5  1  0.51807001  0.01540876  0.33794956  1
+  Sr  Sr6  1  0.98459126  0.50266104  0.33794686  1
+  Sr  Sr7  1  0.51806984  0.50266106  0.16205370  1
+  Sr  Sr8  1  0.98459100  0.48193003  0.16204847  1
+  Sr  Sr9  1  0.49733872  0.01540871  0.16204878  1
+  Sr  Sr10  1  0.50266086  0.51806993  0.66204749  1
+  Sr  Sr11  1  0.48192997  0.98459127  0.66205037  1
+  Sr  Sr12  1  0.01540897  0.49733913  0.66205331  1
+  Sr  Sr13  1  0.48193015  0.49733897  0.83794626  1
+  Sr  Sr14  1  0.01540912  0.51806999  0.83795141  1
+  Sr  Sr15  1  0.50266115  0.98459121  0.83795111  1

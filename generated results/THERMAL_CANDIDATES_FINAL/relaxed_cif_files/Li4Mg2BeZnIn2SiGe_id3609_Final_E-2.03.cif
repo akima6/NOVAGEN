@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Li4Mg2BeZnIn2SiGe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   15.13528006
+_cell_length_b   9.54718922
+_cell_length_c   8.81196626
+_cell_angle_alpha   89.60476386
+_cell_angle_beta   90.00043255
+_cell_angle_gamma   89.97945530
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li4Mg2BeZnIn2SiGe
+_chemical_formula_sum   'Li8 Mg4 Be2 Zn2 In4 Si2 Ge2'
+_cell_volume   1273.29330674
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  -0.00000006  0.74744106  0.69532865  1
+  Li  Li1  1  -0.00000049  0.25168437  0.69912882  1
+  Li  Li2  1  0.00000059  0.24825517  0.19917303  1
+  Li  Li3  1  0.00000059  0.75251095  0.19511191  1
+  Li  Li4  1  0.50000036  0.36469918  0.65591640  1
+  Li  Li5  1  0.49999966  0.63591421  0.65598278  1
+  Li  Li6  1  0.50000037  0.86469915  0.15591643  1
+  Li  Li7  1  0.49999966  0.13591411  0.15598284  1
+  Mg  Mg8  1  0.49999994  0.34854677  0.34215008  1
+  Mg  Mg9  1  0.50000000  0.65102899  0.34290587  1
+  Mg  Mg10  1  0.49999992  0.84854687  0.84215009  1
+  Mg  Mg11  1  0.50000002  0.15102907  0.84290597  1
+  Be  Be12  1  -0.00001052  -0.00276748  0.34532550  1
+  Be  Be13  1  -0.00004516  0.50182524  0.84527315  1
+  Zn  Zn14  1  0.99998508  0.99686800  0.83673832  1
+  Zn  Zn15  1  0.99994026  0.50211857  0.33673526  1
+  In  In16  1  0.59064659  0.99990699  0.43883822  1
+  In  In17  1  0.40935343  -0.00009618  0.43883854  1
+  In  In18  1  0.59064658  0.49990697  0.93883839  1
+  In  In19  1  0.40935344  0.49990384  0.93883845  1
+  Si  Si20  1  1.00001133  0.00230370  0.57836260  1
+  Si  Si21  1  1.00004754  0.49878347  0.07857478  1
+  Ge  Ge22  1  0.00001398  1.00205149  0.09748314  1
+  Ge  Ge23  1  0.00005689  0.49892546  0.59761561  1

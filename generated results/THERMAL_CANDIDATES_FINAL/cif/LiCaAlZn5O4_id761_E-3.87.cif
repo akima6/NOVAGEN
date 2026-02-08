@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_LiCaAlZn5O4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.56237750
+_cell_length_b   8.56237553
+_cell_length_c   5.98208529
+_cell_angle_alpha   90.00134387
+_cell_angle_beta   89.99916780
+_cell_angle_gamma   90.00001781
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCaAlZn5O4
+_chemical_formula_sum   'Li2 Ca2 Al2 Zn10 O8'
+_cell_volume   438.57234464
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.00000016  0.00000024  0.00000000  1
+  Zn  Zn1  1  0.50000010  0.50000020  0.49999999  1
+  Ca  Ca2  1  -0.00000011  -0.00000027  0.50000000  1
+  Ca  Ca3  1  0.50000003  0.50000005  0.00000001  1
+  Li  Li4  1  -0.00000005  0.50000018  0.24999981  1
+  Li  Li5  1  0.50000002  -0.00000019  0.74999990  1
+  Al  Al6  1  0.00000023  0.50000015  0.74999985  1
+  Al  Al7  1  0.50000008  0.00000011  0.24999996  1
+  Zn  Zn8  1  0.27890798  0.27890780  0.00000018  1
+  Zn  Zn9  1  0.72109208  0.72109194  -0.00000018  1
+  Zn  Zn10  1  0.27890759  0.72109173  -0.00000066  1
+  Zn  Zn11  1  0.72109175  0.27890756  0.00000070  1
+  Zn  Zn12  1  0.77890808  0.77890791  0.50000019  1
+  Zn  Zn13  1  0.22109211  0.22109191  0.49999981  1
+  Zn  Zn14  1  0.77890752  0.22109171  0.49999931  1
+  Zn  Zn15  1  0.22109168  0.77890756  0.50000069  1
+  O  O16  1  0.65620007  0.15620020  0.24999998  1
+  O  O17  1  0.34380016  0.84380031  0.25000017  1
+  O  O18  1  0.15619991  0.34380016  0.75000040  1
+  O  O19  1  0.84380008  0.65619988  0.74999967  1
+  O  O20  1  0.15620008  0.65620022  0.75000006  1
+  O  O21  1  0.84380030  0.34380037  0.75000021  1
+  O  O22  1  0.65620007  0.84380028  0.25000035  1
+  O  O23  1  0.34380026  0.15620017  0.24999959  1

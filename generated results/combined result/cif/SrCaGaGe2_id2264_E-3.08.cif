@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_SrCaGaGe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.40297096
+_cell_length_b   5.63836713
+_cell_length_c   8.31426705
+_cell_angle_alpha   89.99997847
+_cell_angle_beta   90.00088019
+_cell_angle_gamma   90.00039935
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCaGaGe2
+_chemical_formula_sum   'Sr2 Ca2 Ga2 Ge4'
+_cell_volume   300.16417173
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.00000003  0.00000002  0.31643835  1
+  Ge  Ge1  1  0.00000003  0.50000001  0.81643837  1
+  Ga  Ga2  1  0.00000001  -0.00000001  0.61027043  1
+  Ga  Ga3  1  0.00000001  0.49999999  0.11027046  1
+  Ca  Ca4  1  -0.00000006  0.00000000  0.93554586  1
+  Ca  Ca5  1  -0.00000006  0.49999998  0.43554593  1
+  Ge  Ge6  1  0.49999998  -0.00000000  0.56796631  1
+  Ge  Ge7  1  0.49999998  0.50000000  0.06796632  1
+  Sr  Sr8  1  0.50000003  0.00000001  0.96110162  1
+  Sr  Sr9  1  0.50000003  0.49999999  0.46110162  1

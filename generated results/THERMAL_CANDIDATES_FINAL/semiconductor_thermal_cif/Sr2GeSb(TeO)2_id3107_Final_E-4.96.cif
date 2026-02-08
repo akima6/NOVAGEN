@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Sr2GeSb(TeO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.36047781
+_cell_length_b   9.35768466
+_cell_length_c   11.87105269
+_cell_angle_alpha   89.99420919
+_cell_angle_beta   89.99369119
+_cell_angle_gamma   120.00055000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2GeSb(TeO)2
+_chemical_formula_sum   'Sr6 Ge3 Sb3 Te6 O6'
+_cell_volume   900.50032002
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.60565049  0.25249941  0.23175800  1
+  Sr  Sr1  1  0.74752340  0.35313919  0.89841734  1
+  Sr  Sr2  1  0.64683281  0.39436410  0.56508103  1
+  Sr  Sr3  1  0.25246241  0.60561857  0.76825567  1
+  Sr  Sr4  1  0.35316963  0.74751651  0.10158192  1
+  Sr  Sr5  1  0.39436468  0.64685666  0.43491102  1
+  Ge  Ge6  1  0.29370859  -0.00000858  0.66665408  1
+  Ge  Ge7  1  0.00000812  0.29370161  0.33332148  1
+  Ge  Ge8  1  0.70630829  0.70628328  0.00003659  1
+  Sb  Sb9  1  0.58204689  0.99998589  0.66671433  1
+  Sb  Sb10  1  1.00001446  0.58206804  0.33338638  1
+  Sb  Sb11  1  0.41796094  0.41792421  0.99986215  1
+  Te  Te12  1  0.64415491  0.67273939  0.22420496  1
+  Te  Te13  1  0.32731197  0.97144609  0.89086584  1
+  Te  Te14  1  0.02857386  0.35589944  0.55752862  1
+  Te  Te15  1  0.67265955  0.64410193  0.77580936  1
+  Te  Te16  1  0.97141176  0.32729459  0.10913663  1
+  Te  Te17  1  0.35584525  0.02856767  0.44246434  1
+  O  O18  1  0.75921606  0.40567944  0.38669071  1
+  O  O19  1  0.59431949  0.35355791  0.05337287  1
+  O  O20  1  0.64648886  0.24079318  0.72003027  1
+  O  O21  1  0.40568997  0.75921931  0.61329872  1
+  O  O22  1  0.35350825  0.59431006  0.94664772  1
+  O  O23  1  0.24076928  0.64644197  0.27997027  1

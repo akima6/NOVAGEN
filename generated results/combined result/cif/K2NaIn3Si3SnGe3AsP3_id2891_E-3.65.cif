@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_K2NaIn3Si3SnGe3AsP3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.73085770
+_cell_length_b   7.73090331
+_cell_length_c   13.67770423
+_cell_angle_alpha   89.99975666
+_cell_angle_beta   89.99997026
+_cell_angle_gamma   120.00002620
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2NaIn3Si3SnGe3AsP3
+_chemical_formula_sum   'K2 Na1 In3 Si3 Sn1 Ge3 As1 P3'
+_cell_volume   707.94846843
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.00000000  -0.00000001  0.11781634  1
+  Na  Na1  1  0.33333329  0.66666662  0.67210582  1
+  As  As2  1  0.66666664  0.33333354  0.29273663  1
+  K  K3  1  0.66666665  0.33333333  0.70984028  1
+  K  K4  1  0.66666666  0.33333334  0.04654997  1
+  Ge  Ge5  1  0.14300130  0.68334113  0.46229372  1
+  Ge  Ge6  1  0.31665930  0.45966045  0.46229321  1
+  Ge  Ge7  1  0.54033948  0.85699838  0.46229384  1
+  Si  Si8  1  0.13344227  0.56266421  0.18228369  1
+  Si  Si9  1  0.43733573  0.57077834  0.18228394  1
+  Si  Si10  1  0.42922179  0.86655704  0.18228395  1
+  In  In11  1  0.20909286  0.23538957  0.29792584  1
+  In  In12  1  0.76461036  0.97370336  0.29792555  1
+  In  In13  1  0.02629704  0.79090740  0.29792559  1
+  P  P14  1  0.60112828  0.63850437  0.53976472  1
+  P  P15  1  0.36149547  0.96262372  0.53976471  1
+  P  P16  1  0.03737623  0.39887194  0.53976490  1

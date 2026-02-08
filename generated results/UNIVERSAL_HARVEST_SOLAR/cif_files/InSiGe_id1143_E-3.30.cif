@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_InSiGe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.60042465
+_cell_length_b   8.60043000
+_cell_length_c   8.60042567
+_cell_angle_alpha   89.98009898
+_cell_angle_beta   89.98572000
+_cell_angle_gamma   89.98027325
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InSiGe
+_chemical_formula_sum   'In8 Si8 Ge8'
+_cell_volume   636.15060076
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.30047281  0.30047224  0.30047198  1
+  Ge  Ge1  1  0.19952318  0.69952750  0.80047484  1
+  Ge  Ge2  1  0.69952611  0.80047540  0.19952207  1
+  Ge  Ge3  1  0.80047410  0.19952255  0.69952714  1
+  Ge  Ge4  1  0.05047271  0.55047738  0.94952599  1
+  Ge  Ge5  1  0.44952802  0.44952776  0.44952720  1
+  Ge  Ge6  1  0.55047793  0.94952461  0.05047382  1
+  Ge  Ge7  1  0.94952506  0.05047250  0.55047691  1
+  Si  Si8  1  0.71880953  0.71880929  0.71880926  1
+  Si  Si9  1  0.78119413  0.28119555  0.21880713  1
+  Si  Si10  1  0.28119631  0.21880611  0.78119491  1
+  Si  Si11  1  0.21880686  0.78119394  0.28119554  1
+  Si  Si12  1  0.46880452  0.96880611  0.53119309  1
+  Si  Si13  1  0.03119071  0.03119070  0.03119048  1
+  Si  Si14  1  0.96880507  0.53119390  0.46880368  1
+  Si  Si15  1  0.53119292  0.46880440  0.96880583  1
+  In  In16  1  0.86493769  0.86493774  0.86493781  1
+  In  In17  1  0.63490961  0.13491090  0.36508952  1
+  In  In18  1  0.13489242  0.36510804  0.63489111  1
+  In  In19  1  0.36508917  0.63491007  0.13491141  1
+  In  In20  1  0.61508901  0.11509037  0.38491043  1
+  In  In21  1  0.88506223  0.88506228  0.88506229  1
+  In  In22  1  0.11510895  0.38489194  0.61510753  1
+  In  In23  1  0.38491090  0.61508866  0.11508999  1

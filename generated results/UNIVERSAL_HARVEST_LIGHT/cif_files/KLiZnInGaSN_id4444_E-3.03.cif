@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_KLiZnInGaSN
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   16.74762000
+_cell_length_b   8.51152814
+_cell_length_c   10.42383948
+_cell_angle_alpha   90.00004181
+_cell_angle_beta   123.51015171
+_cell_angle_gamma   89.99998278
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLiZnInGaSN
+_chemical_formula_sum   'K2 Li2 Zn2 In2 Ga2 S2 N2'
+_cell_volume   1238.92210457
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.00838220  0.25000000  0.20220521  1
+  Zn  Zn1  1  0.99161779  0.75000000  0.79779477  1
+  Ga  Ga2  1  0.18311839  0.25000000  0.53305863  1
+  Ga  Ga3  1  0.81688159  0.75000000  0.46694138  1
+  K  K4  1  0.32594045  0.25000000  0.41761611  1
+  K  K5  1  0.67405955  0.75000000  0.58238387  1
+  Li  Li6  1  0.43316410  0.25000000  0.95097044  1
+  Li  Li7  1  0.56683588  0.75000000  0.04902957  1
+  In  In8  1  0.77763383  0.25000000  0.88818886  1
+  In  In9  1  0.22236620  0.75000001  0.11181112  1
+  S  S10  1  0.86735123  0.25000000  0.16054446  1
+  S  S11  1  0.13264878  0.75000000  0.83945555  1
+  N  N12  1  0.13848481  0.24999999  0.32856738  1
+  N  N13  1  0.86151519  0.75000000  0.67143264  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ba2CaCd6Ga
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.32608484
+_cell_length_b   10.99131434
+_cell_length_c   5.96915822
+_cell_angle_alpha   90.00126466
+_cell_angle_beta   90.00096653
+_cell_angle_gamma   89.99999983
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2CaCd6Ga
+_chemical_formula_sum   'Ba4 Ca2 Cd12 Ga2'
+_cell_volume   874.30969206
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  -0.00000003  -0.00000004  -0.00000001  1
+  Ga  Ga1  1  0.50000004  0.50000002  0.00000001  1
+  Ca  Ca2  1  -0.00000000  0.50000002  -0.00000001  1
+  Ca  Ca3  1  0.50000002  0.00000001  -0.00000000  1
+  Cd  Cd4  1  0.31952573  0.40147162  0.00000034  1
+  Cd  Cd5  1  0.68047431  0.59852834  -0.00000034  1
+  Cd  Cd6  1  0.18047428  0.90147159  0.00000021  1
+  Cd  Cd7  1  0.81952575  0.09852840  -0.00000021  1
+  Cd  Cd8  1  0.49090424  0.74565839  -0.00000012  1
+  Cd  Cd9  1  0.50909572  0.25434159  0.00000011  1
+  Cd  Cd10  1  1.00909571  0.24565833  0.00000037  1
+  Cd  Cd11  1  -0.00909579  0.75434163  -0.00000036  1
+  Cd  Cd12  1  0.88153353  0.72091809  0.50000003  1
+  Cd  Cd13  1  0.11846644  0.27908190  0.49999997  1
+  Cd  Cd14  1  0.61846647  0.22091809  0.49999991  1
+  Cd  Cd15  1  0.38153353  0.77908193  0.50000009  1
+  Ba  Ba16  1  0.88301482  0.17205464  0.50000007  1
+  Ba  Ba17  1  0.11698519  0.82794538  0.49999993  1
+  Ba  Ba18  1  0.61698525  0.67205472  0.50000034  1
+  Ba  Ba19  1  0.38301475  0.32794529  0.49999966  1

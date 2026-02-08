@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ba2LiCaAlZn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.02176621
+_cell_length_b   6.72875867
+_cell_length_c   19.33826423
+_cell_angle_alpha   90.00002060
+_cell_angle_beta   90.00003699
+_cell_angle_gamma   90.00002588
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2LiCaAlZn
+_chemical_formula_sum   'Ba8 Li4 Ca4 Al4 Zn4'
+_cell_volume   1824.54745751
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.08221793  0.25000000  0.91503190  1
+  Zn  Zn1  1  0.41778209  0.75000000  0.41503196  1
+  Zn  Zn2  1  0.91778209  0.75000000  0.08496814  1
+  Zn  Zn3  1  0.58221791  0.25000000  0.58496807  1
+  Li  Li4  1  0.56874908  0.25000000  0.74933902  1
+  Li  Li5  1  0.93125090  0.74999999  0.24933910  1
+  Li  Li6  1  0.43125094  0.75000000  0.25066098  1
+  Li  Li7  1  0.06874910  0.25000000  0.75066089  1
+  Ca  Ca8  1  0.74361322  0.25000000  0.38245486  1
+  Ca  Ca9  1  0.75638679  0.75000000  0.88245492  1
+  Ca  Ca10  1  0.25638676  0.75000000  0.61754515  1
+  Ca  Ca11  1  0.24361327  0.25000000  0.11754513  1
+  Ba  Ba12  1  0.79195783  0.25000001  0.11089684  1
+  Ba  Ba13  1  0.70804236  0.75000000  0.61089689  1
+  Ba  Ba14  1  0.20804200  0.75000000  0.88910314  1
+  Ba  Ba15  1  0.29195761  0.25000001  0.38910315  1
+  Ba  Ba16  1  0.73427281  0.25000001  0.96452658  1
+  Ba  Ba17  1  0.76572695  0.75000000  0.46452656  1
+  Ba  Ba18  1  0.26572737  0.75000000  0.03547342  1
+  Ba  Ba19  1  0.23427308  0.25000000  0.53547345  1
+  Al  Al20  1  0.76320465  0.25000000  0.58414505  1
+  Al  Al21  1  0.73679532  0.75000000  0.08414509  1
+  Al  Al22  1  0.23679533  0.75000000  0.41585495  1
+  Al  Al23  1  0.26320471  0.25000000  0.91585497  1

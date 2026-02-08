@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Na3Li3Be2Zn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.22139540
+_cell_length_b   5.22139608
+_cell_length_c   21.06825915
+_cell_angle_alpha   89.99998813
+_cell_angle_beta   89.99996473
+_cell_angle_gamma   120.00001390
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3Li3Be2Zn
+_chemical_formula_sum   'Na6 Li6 Be4 Zn2'
+_cell_volume   497.43053731
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  -0.00000000  -0.00000000  0.00000002  1
+  Zn  Zn1  1  0.00000000  -0.00000000  0.49999999  1
+  Na  Na2  1  0.66666667  0.33333334  -0.00000001  1
+  Na  Na3  1  0.66666668  0.33333335  0.50000001  1
+  Na  Na4  1  0.33333335  0.66666669  0.37849712  1
+  Na  Na5  1  0.33333335  0.66666669  0.12150293  1
+  Na  Na6  1  0.33333335  0.66666668  0.87849706  1
+  Na  Na7  1  0.33333334  0.66666667  0.62150298  1
+  Be  Be8  1  0.66666669  0.33333335  0.18430487  1
+  Be  Be9  1  0.66666668  0.33333333  0.31569512  1
+  Be  Be10  1  0.66666668  0.33333333  0.68430489  1
+  Be  Be11  1  0.66666670  0.33333335  0.81569511  1
+  Li  Li12  1  0.09993193  0.69762334  0.25000002  1
+  Li  Li13  1  0.30237667  0.40230858  0.24999999  1
+  Li  Li14  1  0.59769142  0.90006808  0.24999992  1
+  Li  Li15  1  0.30237666  0.90006809  0.74999997  1
+  Li  Li16  1  0.59769142  0.69762335  0.75000011  1
+  Li  Li17  1  0.09993192  0.40230858  0.74999989  1

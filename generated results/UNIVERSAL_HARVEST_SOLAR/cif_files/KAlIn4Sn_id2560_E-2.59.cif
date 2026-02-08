@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_KAlIn4Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.71537149
+_cell_length_b   6.26185050
+_cell_length_c   14.91053578
+_cell_angle_alpha   89.99998921
+_cell_angle_beta   90.00007067
+_cell_angle_gamma   90.00003979
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KAlIn4Sn
+_chemical_formula_sum   'K2 Al2 In8 Sn2'
+_cell_volume   533.63021009
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.00000000  -0.00000000  0.00000002  1
+  Al  Al1  1  0.50000000  -0.00000000  -0.00000001  1
+  K  K2  1  0.00000000  0.50000000  -0.00000000  1
+  K  K3  1  0.50000000  0.50000000  0.00000000  1
+  Sn  Sn4  1  0.25000000  0.00000000  0.33773071  1
+  Sn  Sn5  1  0.75000000  -0.00000000  0.66226930  1
+  In  In6  1  0.25000000  0.00000000  0.16114043  1
+  In  In7  1  0.75000000  0.00000000  0.83885955  1
+  In  In8  1  0.25000000  -0.00000000  0.78454672  1
+  In  In9  1  0.75000000  0.00000000  0.21545328  1
+  In  In10  1  0.00000000  0.74335198  0.50000000  1
+  In  In11  1  0.50000000  0.25664803  0.50000000  1
+  In  In12  1  0.00000000  0.25664802  0.50000000  1
+  In  In13  1  0.50000000  0.74335197  0.50000000  1

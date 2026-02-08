@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_K4NaLi2AlZn3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.38472146
+_cell_length_b   11.37971240
+_cell_length_c   17.88525148
+_cell_angle_alpha   89.99998300
+_cell_angle_beta   90.00068409
+_cell_angle_gamma   89.99995799
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K4NaLi2AlZn3
+_chemical_formula_sum   'K8 Na2 Li4 Al2 Zn6'
+_cell_volume   1706.53412544
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.50000001  -0.00000003  -0.00000001  1
+  Na  Na1  1  -0.00000001  0.49999997  0.49999999  1
+  Zn  Zn2  1  -0.00000000  -0.00000000  0.50000002  1
+  Zn  Zn3  1  0.50000000  0.50000002  -0.00000002  1
+  Al  Al4  1  -0.00000000  0.49999999  0.00000000  1
+  Al  Al5  1  0.49999999  -0.00000000  0.50000000  1
+  Li  Li6  1  0.17889711  0.00000001  0.00000000  1
+  Li  Li7  1  0.82110303  0.00000000  -0.00000004  1
+  Li  Li8  1  0.67889722  0.50000000  0.50000005  1
+  Li  Li9  1  0.32110285  0.50000001  0.49999997  1
+  Zn  Zn10  1  0.50000001  0.71123681  0.00000004  1
+  Zn  Zn11  1  0.50000001  0.28876316  -0.00000001  1
+  Zn  Zn12  1  0.00000000  0.21123680  0.50000005  1
+  Zn  Zn13  1  0.00000000  0.78876314  0.50000001  1
+  K  K14  1  0.29774463  0.57377420  0.68780995  1
+  K  K15  1  0.70225535  0.42622582  0.68780980  1
+  K  K16  1  0.70225533  0.57377420  0.31218998  1
+  K  K17  1  0.29774463  0.42622580  0.31219026  1
+  K  K18  1  0.79774453  0.07377420  0.18780993  1
+  K  K19  1  0.20225537  0.92622583  0.18780966  1
+  K  K20  1  0.20225538  0.07377420  0.81218997  1
+  K  K21  1  0.79774454  0.92622582  0.81219027  1

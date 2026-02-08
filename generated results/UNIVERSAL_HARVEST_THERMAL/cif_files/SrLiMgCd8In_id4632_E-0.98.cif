@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SrLiMgCd8In
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.58764326
+_cell_length_b   6.58766805
+_cell_length_c   15.98890706
+_cell_angle_alpha   89.99926090
+_cell_angle_beta   90.00021734
+_cell_angle_gamma   89.99999736
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrLiMgCd8In
+_chemical_formula_sum   'Sr1 Li1 Mg1 Cd8 In1'
+_cell_volume   693.87390948
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.00000001  0.00000006  0.13850334  1
+  Li  Li1  1  0.00000001  0.00000015  0.67977505  1
+  In  In2  1  0.49999995  0.49999996  0.37304697  1
+  Mg  Mg3  1  0.50000000  0.49999997  0.15053579  1
+  Cd  Cd4  1  0.49999999  -0.00000001  0.17226327  1
+  Cd  Cd5  1  0.00000001  0.49999989  0.17226392  1
+  Cd  Cd6  1  0.49999982  -0.00000000  0.33548427  1
+  Cd  Cd7  1  0.00000002  0.50000026  0.33548463  1
+  Cd  Cd8  1  0.70516492  -0.00000001  0.50731568  1
+  Cd  Cd9  1  0.29483531  0.00000003  0.50731528  1
+  Cd  Cd10  1  -0.00000005  0.70516409  0.50731508  1
+  Cd  Cd11  1  0.00000001  0.29483562  0.50731671  1

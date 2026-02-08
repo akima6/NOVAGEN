@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KLiAs3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.62880395
+_cell_length_b   7.96637554
+_cell_length_c   8.77980473
+_cell_angle_alpha   113.35658149
+_cell_angle_beta   68.79083465
+_cell_angle_gamma   124.39520705
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLiAs3
+_chemical_formula_sum   'K2 Li2 As6'
+_cell_volume   293.26512267
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  -0.00182616  -0.00032573  -0.00040023  1
+  K  K1  1  0.49817175  0.49968589  0.49971074  1
+  Li  Li2  1  0.00258751  0.50025710  0.99862952  1
+  Li  Li3  1  0.50207972  0.00024306  0.49879204  1
+  As  As4  1  0.00188104  0.00030664  0.50159138  1
+  As  As5  1  0.50197207  0.50029164  0.00172132  1
+  As  As6  1  0.20394241  0.58505121  0.26489951  1
+  As  As7  1  0.79364854  0.41475641  0.73513608  1
+  As  As8  1  0.70393117  0.08499879  0.76485140  1
+  As  As9  1  0.29361197  -0.08526501  0.23506820  1

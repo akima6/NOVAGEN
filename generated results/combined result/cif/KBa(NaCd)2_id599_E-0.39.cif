@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_KBa(NaCd)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.41243698
+_cell_length_b   8.41243698
+_cell_length_c   18.40623811
+_cell_angle_alpha   89.99997957
+_cell_angle_beta   89.99999195
+_cell_angle_gamma   89.99956344
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KBa(NaCd)2
+_chemical_formula_sum   'K1 Ba1 Na2 Cd2'
+_cell_volume   1302.59283158
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  -0.00000004  -0.00000004  0.06484267  1
+  Cd  Cd1  1  -0.00000001  0.00000001  0.40888463  1
+  Ba  Ba2  1  0.50000001  0.49999999  0.31967341  1
+  Na  Na3  1  0.50000004  0.50000004  0.10077422  1
+  Na  Na4  1  0.50000000  0.50000000  0.53635518  1
+  K  K5  1  0.50000000  0.50000000  0.75509025  1

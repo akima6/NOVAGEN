@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_AlZn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.20300850
+_cell_length_b   12.40735870
+_cell_length_c   4.71671645
+_cell_angle_alpha   89.99998829
+_cell_angle_beta   89.99987402
+_cell_angle_gamma   90.00000180
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlZn2
+_chemical_formula_sum   'Al4 Zn8'
+_cell_volume   245.96843347
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  -0.00000001  0.00000001  0.00000001  1
+  Zn  Zn1  1  0.50000001  0.50000000  0.00000000  1
+  Zn  Zn2  1  0.00000000  -0.00000000  0.50000000  1
+  Zn  Zn3  1  0.50000001  0.50000000  0.50000000  1
+  Zn  Zn4  1  0.00000000  0.79929784  -0.00000000  1
+  Zn  Zn5  1  -0.00000002  0.20070215  0.00000000  1
+  Zn  Zn6  1  0.50000001  0.29929785  -0.00000000  1
+  Zn  Zn7  1  0.49999999  0.70070216  0.00000000  1
+  Al  Al8  1  -0.00000001  0.37743288  0.50000000  1
+  Al  Al9  1  0.00000000  0.62256709  0.50000000  1
+  Al  Al10  1  0.49999999  0.87743307  0.50000000  1
+  Al  Al11  1  0.50000001  0.12256696  0.50000000  1

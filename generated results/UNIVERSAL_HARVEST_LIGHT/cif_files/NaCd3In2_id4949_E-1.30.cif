@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_NaCd3In2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.51980414
+_cell_length_b   7.51981792
+_cell_length_c   16.24570668
+_cell_angle_alpha   89.99991584
+_cell_angle_beta   90.00003987
+_cell_angle_gamma   89.99999319
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCd3In2
+_chemical_formula_sum   'Na4 Cd12 In8'
+_cell_volume   918.65503982
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.17937964  0.93666730  0.75643283  1
+  Cd  Cd1  1  0.82062041  0.06333274  0.25643282  1
+  Cd  Cd2  1  0.06333274  0.17937953  0.50643288  1
+  Cd  Cd3  1  0.93666728  0.82062043  0.00643289  1
+  Na  Na4  1  0.28535536  0.74846890  0.48321936  1
+  Na  Na5  1  0.71464462  0.25153107  -0.01678062  1
+  Na  Na6  1  0.25153102  0.28535539  0.23321950  1
+  Na  Na7  1  0.74846897  0.71464456  0.73321943  1
+  In  In8  1  0.55796141  0.88454503  0.60661166  1
+  In  In9  1  0.44203859  0.11545499  0.10661161  1
+  In  In10  1  0.11545508  0.55796143  0.35661158  1
+  In  In11  1  0.88454492  0.44203857  0.85661151  1
+  Cd  Cd12  1  0.59775389  0.85406820  0.34141612  1
+  Cd  Cd13  1  0.40224607  0.14593177  0.84141604  1
+  Cd  Cd14  1  0.14593175  0.59775388  0.09141621  1
+  Cd  Cd15  1  0.85406820  0.40224613  0.59141617  1
+  In  In16  1  0.81908935  0.82556193  0.48767700  1
+  In  In17  1  0.18091062  0.17443805  0.98767703  1
+  In  In18  1  0.17443805  0.81908941  0.23767701  1
+  In  In19  1  0.82556196  0.18091064  0.73767702  1
+  Cd  Cd20  1  0.66829843  0.63745883  0.95932423  1
+  Cd  Cd21  1  0.33170161  0.36254120  0.45932411  1
+  Cd  Cd22  1  0.36254119  0.66829833  0.70932417  1
+  Cd  Cd23  1  0.63745881  0.33170166  0.20932420  1

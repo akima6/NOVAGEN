@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Na5Ti2In
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.48250305
+_cell_length_b   3.14250020
+_cell_length_c   22.86112117
+_cell_angle_alpha   89.73945522
+_cell_angle_beta   153.36467868
+_cell_angle_gamma   96.50530187
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na5Ti2In
+_chemical_formula_sum   'Na10 Ti4 In2'
+_cell_volume   421.14129961
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.03081098  0.41886472  0.19789588  1
+  Na  Na1  1  -0.03081114  0.58113519  0.80210405  1
+  Na  Na2  1  0.16213147  0.60372793  0.65591798  1
+  Na  Na3  1  0.80276850  0.89379598  0.83860367  1
+  Na  Na4  1  0.83786857  0.39627218  0.34408209  1
+  Na  Na5  1  0.19723155  0.10620406  0.16139639  1
+  Na  Na6  1  0.64737067  0.27617039  0.89483215  1
+  Na  Na7  1  0.31496570  0.14407473  0.57162148  1
+  Na  Na8  1  0.35262928  0.72382972  0.10516784  1
+  Na  Na9  1  0.68503440  0.85592533  0.42837853  1
+  Ti  Ti10  1  0.40934845  0.70568619  0.49500835  1
+  Ti  Ti11  1  0.50662972  0.75490906  -0.04374515  1
+  Ti  Ti12  1  0.59065149  0.29431391  0.50499162  1
+  Ti  Ti13  1  0.49337021  0.24509081  1.04374515  1
+  In  In14  1  -0.06242299  0.92147209  0.26814783  1
+  In  In15  1  1.06242307  0.07852775  0.73185220  1

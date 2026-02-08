@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_LiMgTiAlZn9(CdGa)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.42257858
+_cell_length_b   14.06241456
+_cell_length_c   10.50480821
+_cell_angle_alpha   107.05638298
+_cell_angle_beta   121.40001345
+_cell_angle_gamma   69.03208808
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiMgTiAlZn9(CdGa)4
+_chemical_formula_sum   'Li1 Mg1 Ti1 Al1 Zn9 Cd4 Ga4'
+_cell_volume   1449.42045361
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.15415562  0.40697642  0.21993353  1
+  Ga  Ga1  1  0.17737232  0.75669498  0.68590532  1
+  Zn  Zn2  1  0.33633072  0.68088921  0.92767964  1
+  Zn  Zn3  1  0.21238845  0.92668531  0.68987796  1
+  Zn  Zn4  1  0.75927972  0.88927752  0.61553754  1
+  Zn  Zn5  1  0.32580430  0.01582809  0.61312330  1
+  Zn  Zn6  1  0.82161331  0.95820652  0.96874898  1
+  Zn  Zn7  1  0.86908291  0.52497069  0.53638203  1
+  Cd  Cd8  1  0.30246353  0.29010681  0.06841503  1
+  Cd  Cd9  1  0.24757025  0.13427078  0.15878779  1
+  Zn  Zn10  1  0.30633993  0.16776090  0.83916288  1
+  Mg  Mg11  1  0.64784070  0.25056719  0.50173467  1
+  Ga  Ga12  1  0.83023753  0.19301795  0.35075681  1
+  Ti  Ti13  1  0.35241458  0.76547825  0.60423493  1
+  Cd  Cd14  1  0.41484119  0.30480985  0.36935378  1
+  Ga  Ga15  1  0.54315232  0.81440203  0.97815212  1
+  Zn  Zn16  1  0.93160819  0.97907077  0.38543997  1
+  Cd  Cd17  1  0.75912253  0.02837529  0.50918622  1
+  Ga  Ga18  1  0.67190235  0.11045796  0.27378858  1
+  Li  Li19  1  0.94515987  0.62084242  0.37072745  1
+  Zn  Zn20  1  0.76801249  0.91447092  0.24706290  1

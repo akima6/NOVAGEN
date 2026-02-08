@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Li3Al7Ga4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   18.69238465
+_cell_length_b   6.18627313
+_cell_length_c   5.23390856
+_cell_angle_alpha   89.96728604
+_cell_angle_beta   89.90169814
+_cell_angle_gamma   89.78722636
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3Al7Ga4
+_chemical_formula_sum   'Li6 Al14 Ga8'
+_cell_volume   605.22412001
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.00000456  0.49999970  0.51335622  1
+  Ga  Ga1  1  0.00000547  0.50000025  0.01335760  1
+  Al  Al2  1  0.50080834  -0.00079370  0.21267604  1
+  Al  Al3  1  0.50248688  -0.00015468  0.71402390  1
+  Li  Li4  1  0.49694514  0.00011089  0.71624123  1
+  Li  Li5  1  0.49874670  0.00089164  0.21783779  1
+  Ga  Ga6  1  0.49999917  0.50000816  0.61448230  1
+  Ga  Ga7  1  0.49998284  0.49999402  0.11444695  1
+  Al  Al8  1  0.78751672  0.80027171  0.20757940  1
+  Al  Al9  1  0.21254783  0.19971613  0.20758300  1
+  Al  Al10  1  0.78751601  0.19973491  0.70757862  1
+  Al  Al11  1  0.21252864  0.80027176  0.70758150  1
+  Al  Al12  1  0.60287685  0.38375985  0.37342607  1
+  Al  Al13  1  0.39709556  0.61622083  0.37343475  1
+  Al  Al14  1  0.60274915  0.61624917  0.87343490  1
+  Al  Al15  1  0.39721416  0.38376148  0.87343567  1
+  Ga  Ga16  1  0.65300197  0.05811183  0.75771408  1
+  Ga  Ga17  1  0.34732031  0.94192440  0.75767140  1
+  Ga  Ga18  1  0.65286532  0.94192721  0.25767930  1
+  Ga  Ga19  1  0.34779011  0.05799270  0.25766702  1
+  Al  Al20  1  0.14548019  0.55518126  0.20132663  1
+  Al  Al21  1  0.85451042  0.44481584  0.20132963  1
+  Al  Al22  1  0.14549971  0.44482592  0.70132996  1
+  Al  Al23  1  0.85449217  0.55517499  0.70132993  1
+  Li  Li24  1  0.68287752  0.38477322  0.00378787  1
+  Li  Li25  1  0.31713368  0.61522574  0.00379185  1
+  Li  Li26  1  0.68287054  0.61521590  0.50377711  1
+  Li  Li27  1  0.31713410  0.38478881  0.50378206  1

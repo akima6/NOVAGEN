@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_SrZn(Te2S)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.73540992
+_cell_length_b   13.73538758
+_cell_length_c   8.20314889
+_cell_angle_alpha   89.99994916
+_cell_angle_beta   89.99997451
+_cell_angle_gamma   119.99997437
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrZn(Te2S)2
+_chemical_formula_sum   'Sr3 Zn3 Te12 S6'
+_cell_volume   1340.27489092
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.43831773  0.00000007  0.66666665  1
+  Sr  Sr1  1  -0.00000005  0.43831831  0.33333332  1
+  Sr  Sr2  1  0.56168195  0.56168206  0.00000005  1
+  Zn  Zn3  1  0.24578170  0.00000006  0.66666666  1
+  Zn  Zn4  1  0.00000000  0.24578148  0.33333332  1
+  Zn  Zn5  1  0.75421838  0.75421845  0.00000006  1
+  S  S6  1  0.91177621  0.06183367  0.23812187  1
+  S  S7  1  0.93816612  0.84994250  0.90478866  1
+  S  S8  1  0.15005739  0.08822365  0.57145532  1
+  S  S9  1  0.06183378  0.91177637  0.76187802  1
+  S  S10  1  0.84994262  0.93816638  0.09521146  1
+  S  S11  1  0.08822371  0.15005751  0.42854478  1
+  Te  Te12  1  0.56080636  0.00001100  0.16796867  1
+  Te  Te13  1  0.99998802  0.56079565  0.83467636  1
+  Te  Te14  1  0.43920440  0.43919305  0.50131922  1
+  Te  Te15  1  0.00001195  0.56080760  0.83199034  1
+  Te  Te16  1  0.56079543  0.99998907  0.16536470  1
+  Te  Te17  1  0.43919306  0.43920451  0.49868081  1
+  Te  Te18  1  0.62889604  0.79909756  0.19004230  1
+  Te  Te19  1  0.20090101  0.82979653  0.85670903  1
+  Te  Te20  1  0.17020250  0.37110420  0.52337568  1
+  Te  Te21  1  0.79909902  0.62889548  0.80995760  1
+  Te  Te22  1  0.82979842  0.20090238  0.14329102  1
+  Te  Te23  1  0.37110421  0.17020243  0.47662437  1

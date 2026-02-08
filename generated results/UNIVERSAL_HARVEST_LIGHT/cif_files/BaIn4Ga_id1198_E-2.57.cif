@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_BaIn4Ga
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.14752615
+_cell_length_b   13.14752595
+_cell_length_c   6.38812622
+_cell_angle_alpha   90.00001023
+_cell_angle_beta   89.99999681
+_cell_angle_gamma   89.99993696
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaIn4Ga
+_chemical_formula_sum   'Ba4 In16 Ga4'
+_cell_volume   1104.23515314
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  -0.00000001  0.75000000  0.12500000  1
+  Ga  Ga1  1  0.50000001  0.75000000  0.37500001  1
+  Ga  Ga2  1  0.49999999  0.24999999  0.62500001  1
+  Ga  Ga3  1  -0.00000000  0.25000000  0.87500001  1
+  Ba  Ba4  1  -0.00000000  0.25000000  0.37500001  1
+  Ba  Ba5  1  0.00000000  0.75000001  0.62500001  1
+  Ba  Ba6  1  0.49999999  0.75000001  0.87500002  1
+  Ba  Ba7  1  0.50000001  0.25000000  0.12499999  1
+  In  In8  1  -0.00000001  0.06167359  0.76388036  1
+  In  In9  1  0.50000001  0.93832641  0.26388041  1
+  In  In10  1  0.18832641  0.75000001  0.01388042  1
+  In  In11  1  0.31167360  0.24999999  0.51388042  1
+  In  In12  1  0.49999999  0.06167360  0.73611964  1
+  In  In13  1  0.00000001  0.93832639  0.23611963  1
+  In  In14  1  0.31167360  0.74999999  0.48611963  1
+  In  In15  1  0.18832640  0.25000001  0.98611964  1
+  In  In16  1  0.49999999  0.56167359  0.26388041  1
+  In  In17  1  0.00000000  0.43832640  0.76388042  1
+  In  In18  1  0.68832640  0.25000001  0.51388043  1
+  In  In19  1  0.81167359  0.74999999  0.01388042  1
+  In  In20  1  -0.00000001  0.56167360  0.23611964  1
+  In  In21  1  0.50000001  0.43832640  0.73611964  1
+  In  In22  1  0.81167361  0.24999999  0.98611963  1
+  In  In23  1  0.68832640  0.75000001  0.48611963  1

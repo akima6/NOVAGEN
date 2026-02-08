@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_K2Li(TiBe)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.25636802
+_cell_length_b   5.25891869
+_cell_length_c   19.72552971
+_cell_angle_alpha   124.33657472
+_cell_angle_beta   55.60476917
+_cell_angle_gamma   118.78454221
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Li(TiBe)2
+_chemical_formula_sum   'K6 Li3 Ti6 Be6'
+_cell_volume   360.75610169
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.50503993  0.99982941  0.38365862  1
+  K  K1  1  0.00134552  0.49757694  0.38416615  1
+  K  K2  1  0.49561177  0.50632037  0.38933096  1
+  K  K3  1  0.99865773  0.50242442  0.61583329  1
+  K  K4  1  0.49496257  1.00017288  0.61634051  1
+  K  K5  1  0.50438927  0.49369024  0.61067267  1
+  Li  Li6  1  0.50000296  0.00000494  0.99999571  1
+  Li  Li7  1  -0.00000323  0.50000071  0.99999537  1
+  Li  Li8  1  0.49999383  0.50000810  0.99999995  1
+  Ti  Ti9  1  0.51252192  -0.01275696  0.81322333  1
+  Ti  Ti10  1  1.01407823  0.48862695  0.81379106  1
+  Ti  Ti11  1  0.51736420  0.48620002  0.81384762  1
+  Ti  Ti12  1  0.98590027  0.51130350  0.18628205  1
+  Ti  Ti13  1  0.48745161  0.01275962  0.18678160  1
+  Ti  Ti14  1  0.48264381  0.51380737  0.18615066  1
+  Be  Be15  1  0.49453605  0.97841549  0.16633417  1
+  Be  Be16  1  0.02082520  0.50436757  0.16566061  1
+  Be  Be17  1  0.51427622  0.48449289  0.16432352  1
+  Be  Be18  1  0.97920809  0.49566419  0.83427101  1
+  Be  Be19  1  0.50545131  1.02158592  0.83367301  1
+  Be  Be20  1  0.48574271  0.51550541  0.83566814  1

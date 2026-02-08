@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_ZnSn2Ge4Te3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.64541837
+_cell_length_b   7.64535733
+_cell_length_c   6.41109074
+_cell_angle_alpha   89.99934216
+_cell_angle_beta   90.00200353
+_cell_angle_gamma   120.00025697
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnSn2Ge4Te3
+_chemical_formula_sum   'Zn1 Sn2 Ge4 Te3'
+_cell_volume   324.53420340
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.00000023  -0.00000003  -0.01443996  1
+  Sn  Sn1  1  0.33333387  0.66666698  0.56560543  1
+  Ge  Ge2  1  0.33333391  0.66666678  0.05358286  1
+  Sn  Sn3  1  0.66666644  0.33333292  0.49830122  1
+  Ge  Ge4  1  0.29298364  0.33831665  0.87622936  1
+  Ge  Ge5  1  0.66168316  0.95466756  0.87622886  1
+  Ge  Ge6  1  0.04533184  0.70701564  0.87622913  1
+  Te  Te7  1  0.74105369  1.00416122  0.44917710  1
+  Te  Te8  1  -0.00416131  0.73689282  0.44917669  1
+  Te  Te9  1  0.26310793  0.25894618  0.44917672  1

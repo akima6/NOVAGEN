@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Sc7(TeO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.66038512
+_cell_length_b   7.30729533
+_cell_length_c   9.04853599
+_cell_angle_alpha   90.00016002
+_cell_angle_beta   62.54513425
+_cell_angle_gamma   90.00020805
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc7(TeO2)2
+_chemical_formula_sum   'Sc14 Te4 O8'
+_cell_volume   566.80838139
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.49999952  -0.00000058  0.50000002  1
+  Sc  Sc1  1  0.49999985  0.50000005  -0.00000008  1
+  Sc  Sc2  1  0.21352639  0.38686691  0.27529161  1
+  Sc  Sc3  1  0.78647377  0.88686680  0.22470917  1
+  Sc  Sc4  1  0.78647354  0.61313318  0.72470868  1
+  Sc  Sc5  1  0.21352627  0.11313320  0.77529096  1
+  Te  Te6  1  0.19508426  0.40837534  -0.03415120  1
+  Te  Te7  1  0.80491563  0.90837555  0.53415156  1
+  Te  Te8  1  0.80491557  0.59162481  1.03415115  1
+  Te  Te9  1  0.19508419  0.09162440  0.46584838  1
+  O  O10  1  0.12758143  0.51193617  0.57086644  1
+  O  O11  1  0.87241807  0.01193699  0.92913330  1
+  O  O12  1  0.87241868  0.48806396  0.42913307  1
+  O  O13  1  0.12758170  0.98806353  0.07086647  1
+  O  O14  1  0.34004487  0.77655880  1.00833256  1
+  O  O15  1  0.65995520  0.27655876  0.49166789  1
+  O  O16  1  0.65995563  0.22344092  -0.00833252  1
+  O  O17  1  0.34004572  0.72344175  0.50833272  1
+  Sc  Sc18  1  0.32690095  0.43260167  0.52703267  1
+  Sc  Sc19  1  0.67309907  0.93260104  0.97296742  1
+  Sc  Sc20  1  0.67309892  0.56739853  0.47296727  1
+  Sc  Sc21  1  0.32690102  0.06739853  0.02703269  1
+  Sc  Sc22  1  0.39758894  0.73366694  0.77552095  1
+  Sc  Sc23  1  0.60241072  0.23366683  0.72447902  1
+  Sc  Sc24  1  0.60241089  0.26633317  0.22447905  1
+  Sc  Sc25  1  0.39758909  0.76633290  0.27552085  1

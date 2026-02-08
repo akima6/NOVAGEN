@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_AlCd7In2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.22900470
+_cell_length_b   8.23041711
+_cell_length_c   10.86082019
+_cell_angle_alpha   89.99936281
+_cell_angle_beta   90.00190980
+_cell_angle_gamma   89.99988962
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlCd7In2
+_chemical_formula_sum   'Al2 Cd14 In4'
+_cell_volume   735.58316241
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  -0.00000009  0.00000002  -0.00000005  1
+  Cd  Cd1  1  0.50000002  0.49999991  0.50000003  1
+  Al  Al2  1  -0.00000011  0.00000001  0.50000001  1
+  Al  Al3  1  0.49999996  0.49999993  -0.00000002  1
+  Cd  Cd4  1  0.00000012  0.50000002  0.25000007  1
+  Cd  Cd5  1  0.50000003  0.00000002  0.24999994  1
+  Cd  Cd6  1  0.50000000  0.00000000  0.75000006  1
+  Cd  Cd7  1  0.00000006  0.50000002  0.74999993  1
+  In  In8  1  -0.00000020  0.00000013  0.74568547  1
+  In  In9  1  0.00000023  0.00000000  0.25431458  1
+  In  In10  1  0.49999983  0.50000006  0.24568540  1
+  In  In11  1  0.50000005  0.50000012  0.75431466  1
+  Cd  Cd12  1  0.75173818  0.25173759  0.24999997  1
+  Cd  Cd13  1  0.24826177  0.74826237  0.24999989  1
+  Cd  Cd14  1  0.74826173  0.75173756  0.24999998  1
+  Cd  Cd15  1  0.25173820  0.24826238  0.25000003  1
+  Cd  Cd16  1  0.25173837  0.75173743  0.75000006  1
+  Cd  Cd17  1  0.74826182  0.24826241  0.75000003  1
+  Cd  Cd18  1  0.24826183  0.25173768  0.74999998  1
+  Cd  Cd19  1  0.75173819  0.74826234  0.75000005  1

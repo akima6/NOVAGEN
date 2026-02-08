@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_BaNaSrLiCaMg2(CdIn)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.93516603
+_cell_length_b   10.07801538
+_cell_length_c   16.06756038
+_cell_angle_alpha   90.00003144
+_cell_angle_beta   113.06354901
+_cell_angle_gamma   89.99999475
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaNaSrLiCaMg2(CdIn)2
+_chemical_formula_sum   'Ba2 Na2 Sr2 Li2 Ca2 Mg4 Cd4 In4'
+_cell_volume   2225.13473332
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.16765227  0.25000000  0.51831364  1
+  Ca  Ca1  1  0.83234439  0.74999999  0.48168913  1
+  Ba  Ba2  1  0.23581018  0.25000000  0.03198447  1
+  Ba  Ba3  1  0.76418953  0.75000000  0.96801527  1
+  Sr  Sr4  1  0.33140719  0.24999999  0.31993443  1
+  Sr  Sr5  1  0.66859280  0.75000000  0.68006561  1
+  In  In6  1  0.60807251  0.25000000  0.79364310  1
+  In  In7  1  0.39192626  0.75000001  0.20635796  1
+  In  In8  1  0.50365355  0.25000000  0.62707889  1
+  In  In9  1  0.49634636  0.75000000  0.37292105  1
+  Na  Na10  1  0.75721025  0.25000000  0.73464271  1
+  Na  Na11  1  0.24279241  0.75000000  0.26535452  1
+  Cd  Cd12  1  0.87991768  0.25000000  0.36110445  1
+  Cd  Cd13  1  0.12008200  0.75000000  0.63889661  1
+  Li  Li14  1  0.75562418  0.25000000  0.99016545  1
+  Li  Li15  1  0.24437570  0.75000000  0.00983466  1
+  Mg  Mg16  1  0.92847189  0.25000002  0.65899115  1
+  Mg  Mg17  1  0.07162909  0.75000001  0.34103710  1
+  Mg  Mg18  1  0.92567866  0.25000000  0.64252269  1
+  Mg  Mg19  1  0.07421300  0.74999998  0.35747381  1
+  Cd  Cd20  1  0.94720443  0.25000000  0.81225246  1
+  Cd  Cd21  1  0.05280572  0.75000000  0.18772084  1

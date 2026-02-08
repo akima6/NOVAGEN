@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_K9Na4Li(AsO)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.49166332
+_cell_length_b   11.49165759
+_cell_length_c   14.23580556
+_cell_angle_alpha   89.99997219
+_cell_angle_beta   90.00011166
+_cell_angle_gamma   120.00001044
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K9Na4Li(AsO)3
+_chemical_formula_sum   'K9 Na4 Li1 As3 O3'
+_cell_volume   1628.08923321
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  -0.00000001  0.00000001  -0.00754521  1
+  Li  Li1  1  0.00000002  0.00000001  0.24747217  1
+  K  K2  1  0.33333341  0.66666678  0.80474659  1
+  K  K3  1  0.66666668  0.33333332  0.80474657  1
+  Na  Na4  1  0.33333335  0.66666673  0.36750112  1
+  Na  Na5  1  0.66666667  0.33333333  0.36750111  1
+  Na  Na6  1  0.33333337  0.66666673  0.09796592  1
+  Na  Na7  1  0.66666667  0.33333328  0.09796591  1
+  O  O8  1  0.52695015  -0.00000005  0.82006093  1
+  O  O9  1  -0.00000002  0.52695018  0.82006099  1
+  O  O10  1  0.47304982  0.47304983  0.82006100  1
+  As  As11  1  0.12055284  0.00000001  0.76046051  1
+  As  As12  1  0.00000006  0.12055289  0.76046039  1
+  As  As13  1  0.87944714  0.87944710  0.76046040  1
+  K  K14  1  0.62327118  0.78835675  0.20822624  1
+  K  K15  1  0.21164312  0.83491435  0.20822622  1
+  K  K16  1  0.16508559  0.37672873  0.20822617  1
+  K  K17  1  0.78835679  0.62327127  0.20822616  1
+  K  K18  1  0.83491445  0.21164324  0.20822636  1
+  K  K19  1  0.37672881  0.16508562  0.20822626  1

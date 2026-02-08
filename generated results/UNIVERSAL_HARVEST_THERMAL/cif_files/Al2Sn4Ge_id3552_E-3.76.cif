@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Al2Sn4Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.60465766
+_cell_length_b   5.60468934
+_cell_length_c   6.65747887
+_cell_angle_alpha   90.00011974
+_cell_angle_beta   89.99989427
+_cell_angle_gamma   89.99995247
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al2Sn4Ge
+_chemical_formula_sum   'Al2 Sn4 Ge1'
+_cell_volume   209.12715655
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.00000012  0.00000002  -0.00000005  1
+  Al  Al1  1  0.49999995  -0.00000003  0.50000006  1
+  Al  Al2  1  -0.00000007  0.49999997  0.50000001  1
+  Sn  Sn3  1  0.27995307  0.27995304  0.24054596  1
+  Sn  Sn4  1  0.72004693  0.72004691  0.24054602  1
+  Sn  Sn5  1  0.27995310  0.72004706  0.75945405  1
+  Sn  Sn6  1  0.72004697  0.27995308  0.75945400  1

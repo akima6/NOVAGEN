@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CdSi3(AsS)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.73942570
+_cell_length_b   8.73943038
+_cell_length_c   9.32329422
+_cell_angle_alpha   89.99988127
+_cell_angle_beta   90.00001829
+_cell_angle_gamma   119.99997679
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CdSi3(AsS)3
+_chemical_formula_sum   'Cd2 Si6 As6 S6'
+_cell_volume   616.68891837
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.33333336  0.66666670  0.09405737  1
+  Cd  Cd1  1  0.66666658  0.33333331  0.59405735  1
+  S  S2  1  0.50774687  0.49225310  0.52603921  1
+  S  S3  1  0.50774689  0.01549383  0.52603919  1
+  S  S4  1  0.98450618  0.49225320  0.52603912  1
+  S  S5  1  0.49225322  0.50774697  0.02603917  1
+  S  S6  1  0.49225307  0.98450616  0.02603919  1
+  S  S7  1  0.01549382  0.50774688  0.02603912  1
+  As  As8  1  0.15251568  0.84748444  0.17755757  1
+  As  As9  1  0.15251561  0.30503125  0.17755759  1
+  As  As10  1  0.69496862  0.84748430  0.17755752  1
+  As  As11  1  0.84748429  0.15251558  0.67755755  1
+  As  As12  1  0.84748434  0.69496864  0.67755747  1
+  As  As13  1  0.30503139  0.15251570  0.67755746  1
+  Si  Si14  1  0.16476767  0.83523234  0.93655211  1
+  Si  Si15  1  0.16476762  0.32953530  0.93655208  1
+  Si  Si16  1  0.67046468  0.83523234  0.93655208  1
+  Si  Si17  1  0.83523240  0.16476768  0.43655202  1
+  Si  Si18  1  0.83523238  0.67046464  0.43655209  1
+  Si  Si19  1  0.32953538  0.16476766  0.43655209  1

@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Ca4Zn3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   16.35423124
+_cell_length_b   16.35422431
+_cell_length_c   6.72977629
+_cell_angle_alpha   89.99998981
+_cell_angle_beta   90.00000627
+_cell_angle_gamma   89.99998500
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca4Zn3
+_chemical_formula_sum   'Ca16 Zn12'
+_cell_volume   1799.95112147
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  -0.00000001  0.25000000  0.12500000  1
+  Zn  Zn1  1  0.50000000  0.24999999  0.37500000  1
+  Zn  Zn2  1  0.50000000  0.75000000  0.62500000  1
+  Zn  Zn3  1  -0.00000000  0.75000000  0.87500000  1
+  Zn  Zn4  1  0.00000005  0.00000005  -0.00000001  1
+  Zn  Zn5  1  0.50000003  0.00000001  0.49999999  1
+  Zn  Zn6  1  0.74999998  0.25000001  0.24999999  1
+  Zn  Zn7  1  0.75000001  0.74999998  0.74999999  1
+  Zn  Zn8  1  0.50000000  0.49999999  0.50000000  1
+  Zn  Zn9  1  0.00000000  0.50000000  -0.00000001  1
+  Zn  Zn10  1  0.25000001  0.74999997  0.75000000  1
+  Zn  Zn11  1  0.25000002  0.24999996  0.24999999  1
+  Ca  Ca12  1  0.37465107  0.60612355  0.52828573  1
+  Ca  Ca13  1  0.12534892  0.39387647  0.02828579  1
+  Ca  Ca14  1  0.14387645  0.62465106  0.77828573  1
+  Ca  Ca15  1  0.35612348  0.37534894  0.27828580  1
+  Ca  Ca16  1  0.62534896  0.39387647  0.47171427  1
+  Ca  Ca17  1  0.87465106  0.60612354  0.97171428  1
+  Ca  Ca18  1  0.85612356  0.37534891  0.22171427  1
+  Ca  Ca19  1  0.64387645  0.62465106  0.72171427  1
+  Ca  Ca20  1  0.87465101  0.10612345  0.02828580  1
+  Ca  Ca21  1  0.62534895  0.89387646  0.52828579  1
+  Ca  Ca22  1  0.64387646  0.12465105  0.27828580  1
+  Ca  Ca23  1  0.85612348  0.87534896  0.77828580  1
+  Ca  Ca24  1  0.12534890  0.89387643  0.97171427  1
+  Ca  Ca25  1  0.37465102  0.10612349  0.47171427  1
+  Ca  Ca26  1  0.35612348  0.87534896  0.72171427  1
+  Ca  Ca27  1  0.14387645  0.12465107  0.22171428  1

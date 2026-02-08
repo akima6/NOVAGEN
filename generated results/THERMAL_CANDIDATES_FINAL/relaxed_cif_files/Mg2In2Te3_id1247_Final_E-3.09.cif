@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Mg2In2Te3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.63461336
+_cell_length_b   9.42839646
+_cell_length_c   10.72679889
+_cell_angle_alpha   68.05596110
+_cell_angle_beta   129.48993056
+_cell_angle_gamma   90.74127976
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg2In2Te3
+_chemical_formula_sum   'Mg8 In8 Te12'
+_cell_volume   1005.92656975
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.98501386  1.03366025  0.22334679  1
+  Mg  Mg1  1  0.00611571  0.95939077  0.76738116  1
+  Mg  Mg2  1  0.48797796  0.53593039  0.72648336  1
+  Mg  Mg3  1  0.51011545  0.46215035  0.27085819  1
+  Mg  Mg4  1  -0.00031291  0.50031288  0.00249405  1
+  Mg  Mg5  1  0.49942713  -0.00026173  0.00053092  1
+  Mg  Mg6  1  0.49932694  0.99962531  0.49675710  1
+  Mg  Mg7  1  0.00040957  0.49954084  0.49934995  1
+  In  In8  1  0.68063585  0.17909033  0.04391682  1
+  In  In9  1  0.31667049  0.82243181  0.95847814  1
+  In  In10  1  0.83604115  0.67974442  0.02038240  1
+  In  In11  1  0.15711508  0.31111970  0.98087270  1
+  In  In12  1  0.18224974  0.67853640  0.54402285  1
+  In  In13  1  0.81855396  0.32178022  0.45863489  1
+  In  In14  1  0.34004249  0.18374895  0.51949629  1
+  In  In15  1  0.66049300  0.81490814  0.47993445  1
+  Te  Te16  1  0.00864916  0.01488238  -0.00176888  1
+  Te  Te17  1  0.00491195  0.00104544  0.50194878  1
+  Te  Te18  1  0.50208335  0.50283784  0.49958275  1
+  Te  Te19  1  0.50118120  0.49908131  0.00041083  1
+  Te  Te20  1  0.83577113  0.36392673  0.00483204  1
+  Te  Te21  1  0.16291778  0.63433432  -0.00384023  1
+  Te  Te22  1  0.66347652  0.89916611  -0.02650946  1
+  Te  Te23  1  0.33770460  0.10253240  0.02948500  1
+  Te  Te24  1  0.33754029  0.86452491  0.50676525  1
+  Te  Te25  1  0.66480332  0.13476773  0.49788768  1
+  Te  Te26  1  0.16367405  0.39893092  0.47118990  1
+  Te  Te27  1  0.83741153  0.60226119  0.52707631  1

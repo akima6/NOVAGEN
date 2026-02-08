@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ba6CaGaSn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.80122342
+_cell_length_b   8.80127083
+_cell_length_c   8.02639484
+_cell_angle_alpha   90.00005957
+_cell_angle_beta   89.99994740
+_cell_angle_gamma   120.00008427
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba6CaGaSn
+_chemical_formula_sum   'Ba6 Ca1 Ga1 Sn1'
+_cell_volume   538.44235421
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.00000130  0.00000093  0.49999970  1
+  Ga  Ga1  1  0.33333343  0.66666673  -0.00000001  1
+  Sn  Sn2  1  0.66666479  0.33333190  0.50000021  1
+  Ba  Ba3  1  0.36127256  0.39374308  0.26719230  1
+  Ba  Ba4  1  0.60625817  -0.03246942  0.26719200  1
+  Ba  Ba5  1  1.03246923  0.63872752  0.26719260  1
+  Ba  Ba6  1  0.60625885  0.63872794  0.73280777  1
+  Ba  Ba7  1  1.03246975  0.39374184  0.73280753  1
+  Ba  Ba8  1  0.36127196  -0.03247050  0.73280801  1

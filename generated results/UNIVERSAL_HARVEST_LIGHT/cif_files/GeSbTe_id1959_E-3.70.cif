@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GeSbTe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.35886228
+_cell_length_b   11.49492097
+_cell_length_c   8.45329268
+_cell_angle_alpha   89.99995138
+_cell_angle_beta   84.07347439
+_cell_angle_gamma   90.00001344
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GeSbTe
+_chemical_formula_sum   'Ge4 Sb4 Te4'
+_cell_volume   904.53937282
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.17361769  0.81047218  0.94746074  1
+  Te  Te1  1  0.82638233  0.81047224  0.55253927  1
+  Te  Te2  1  0.82638233  0.18952774  0.05253927  1
+  Te  Te3  1  0.17361769  0.18952780  0.44746083  1
+  Ge  Ge4  1  0.32078636  0.80210348  0.66562943  1
+  Ge  Ge5  1  0.67921358  0.80210348  0.83437062  1
+  Ge  Ge6  1  0.67921360  0.19789653  0.33437059  1
+  Ge  Ge7  1  0.32078635  0.19789651  0.16562939  1
+  Sb  Sb8  1  0.87211269  0.96067708  0.84925389  1
+  Sb  Sb9  1  0.12788733  0.96067710  0.65074602  1
+  Sb  Sb10  1  0.12788731  0.03932294  0.15074604  1
+  Sb  Sb11  1  0.87211265  0.03932294  0.34925399  1

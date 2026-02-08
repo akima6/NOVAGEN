@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Sr2Li2Ga3O2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.00414990
+_cell_length_b   7.00414347
+_cell_length_c   11.57096246
+_cell_angle_alpha   90.00052997
+_cell_angle_beta   90.00140716
+_cell_angle_gamma   90.00743865
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2Li2Ga3O2
+_chemical_formula_sum   'Sr4 Li4 Ga6 O4'
+_cell_volume   567.64909035
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.24803676  0.50087887  0.28953424  1
+  Sr  Sr1  1  0.75195841  0.49912087  0.28954141  1
+  Sr  Sr2  1  0.50087766  0.24803870  0.78953677  1
+  Sr  Sr3  1  0.49912021  0.75196083  0.78953856  1
+  Li  Li4  1  0.18750292  0.50090590  0.95859508  1
+  Li  Li5  1  0.81249742  0.49909281  0.95859826  1
+  Li  Li6  1  0.50090465  0.18750315  0.45859598  1
+  Li  Li7  1  0.49909167  0.81249743  0.45859763  1
+  Ga  Ga8  1  0.99999860  0.50000021  0.74794991  1
+  Ga  Ga9  1  0.49999988  -0.00000036  0.24794951  1
+  Ga  Ga10  1  0.27757944  0.50033811  0.57838054  1
+  Ga  Ga11  1  0.72241849  0.49966237  0.57838389  1
+  Ga  Ga12  1  0.50033999  0.27757956  0.07838218  1
+  Ga  Ga13  1  0.49966511  0.72241951  0.07838275  1
+  O  O14  1  0.31975985  0.49891800  0.09357399  1
+  O  O15  1  0.68024677  0.50108271  0.09357640  1
+  O  O16  1  0.49891889  0.31975698  0.59357488  1
+  O  O17  1  0.50108326  0.68024433  0.59357539  1

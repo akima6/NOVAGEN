@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Li3ZnSn2Sb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.85854334
+_cell_length_b   6.32884217
+_cell_length_c   14.49901909
+_cell_angle_alpha   90.00002042
+_cell_angle_beta   90.00000554
+_cell_angle_gamma   90.01759050
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3ZnSn2Sb
+_chemical_formula_sum   'Li12 Zn4 Sn8 Sb4'
+_cell_volume   812.87764513
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  0.19958853  0.00000307  0.25000330  1
+  Sb  Sb1  1  0.30042347  0.00000006  0.75000059  1
+  Sb  Sb2  1  0.69957652  0.49999995  0.75000060  1
+  Sb  Sb3  1  0.80041152  0.49999692  0.25000332  1
+  Zn  Zn4  1  0.24999773  0.36526237  -0.00000222  1
+  Zn  Zn5  1  0.24999581  0.63473881  0.50000204  1
+  Zn  Zn6  1  0.75000418  0.86526120  0.50000203  1
+  Zn  Zn7  1  0.75000228  0.13473764  -0.00000222  1
+  Li  Li8  1  0.00000000  0.25000000  0.74969735  1
+  Li  Li9  1  -0.00000000  0.75000002  0.75030271  1
+  Li  Li10  1  0.50000006  0.74999998  0.24983165  1
+  Li  Li11  1  0.49999998  0.25000000  0.25078521  1
+  Li  Li12  1  -0.00000001  0.25000000  0.11896749  1
+  Li  Li13  1  0.00000000  0.75000001  0.38103400  1
+  Li  Li14  1  0.50000001  0.74999999  0.61897290  1
+  Li  Li15  1  0.50000000  0.25000000  0.88102611  1
+  Sn  Sn16  1  0.00000001  0.24999999  0.72972053  1
+  Sn  Sn17  1  0.00000001  0.74999998  0.77027774  1
+  Sn  Sn18  1  0.49999995  0.75000003  0.22956754  1
+  Sn  Sn19  1  0.50000001  0.25000000  0.26983095  1
+  Li  Li20  1  -0.00000001  0.25000000  0.36184139  1
+  Li  Li21  1  0.00000000  0.75000000  0.13815736  1
+  Li  Li22  1  0.50000000  0.75000000  0.86184080  1
+  Li  Li23  1  0.50000000  0.25000000  0.63815760  1
+  Sn  Sn24  1  -0.00000001  0.25000000  0.94352499  1
+  Sn  Sn25  1  -0.00000000  0.74999999  0.55647300  1
+  Sn  Sn26  1  0.49999999  0.75000001  0.44353830  1
+  Sn  Sn27  1  0.50000000  0.24999999  0.05644493  1

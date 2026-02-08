@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LiGa2Sb(AsN2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.97309942
+_cell_length_b   4.81880426
+_cell_length_c   13.19038418
+_cell_angle_alpha   94.16263792
+_cell_angle_beta   89.05175191
+_cell_angle_gamma   88.59110507
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiGa2Sb(AsN2)2
+_chemical_formula_sum   'Li2 Ga4 Sb2 As4 N8'
+_cell_volume   315.11708559
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  -0.00000923  0.00000682  0.00005673  1
+  Sb  Sb1  1  0.50000143  0.49999711  0.50002693  1
+  Li  Li2  1  0.00005586  -0.00011844  0.49981021  1
+  Li  Li3  1  0.50021655  0.49960743  -0.00251316  1
+  As  As4  1  -0.00001304  0.50004206  0.25029693  1
+  As  As5  1  0.50000400  0.00010160  0.25031714  1
+  As  As6  1  0.50000146  0.00006320  0.74992117  1
+  As  As7  1  0.00000588  0.49998120  0.74981281  1
+  Ga  Ga8  1  -0.00228574  0.00181953  0.33644383  1
+  Ga  Ga9  1  0.00047242  -0.00463157  0.66318558  1
+  Ga  Ga10  1  0.50302596  0.50676532  0.83471652  1
+  Ga  Ga11  1  0.49384899  0.51309399  0.15743907  1
+  N  N12  1  0.00223949  -0.00179445  0.34641080  1
+  N  N13  1  -0.00047599  0.00471499  0.65386622  1
+  N  N14  1  0.49693797  0.49315262  0.84369394  1
+  N  N15  1  0.50598256  0.48716526  0.16559061  1
+  N  N16  1  0.00000288  0.00000475  0.85793275  1
+  N  N17  1  -0.00000619  -0.00000424  0.14246674  1
+  N  N18  1  0.49998931  0.50003225  0.35897310  1
+  N  N19  1  0.50000543  0.50000057  0.64155209  1

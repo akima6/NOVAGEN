@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_MgGa
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.43672915
+_cell_length_b   10.43672923
+_cell_length_c   10.43672985
+_cell_angle_alpha   89.99996008
+_cell_angle_beta   90.00002369
+_cell_angle_gamma   90.00002261
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgGa
+_chemical_formula_sum   'Mg12 Ga12'
+_cell_volume   1136.82409931
+_cell_formula_units_Z   12
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.12662830  0.49999999  -0.00000001  1
+  Mg  Mg1  1  0.87337170  0.50000001  0.00000000  1
+  Mg  Mg2  1  0.00000000  0.12662835  0.50000001  1
+  Mg  Mg3  1  0.00000001  0.87337171  0.50000000  1
+  Mg  Mg4  1  0.50000001  -0.00000000  0.12662831  1
+  Mg  Mg5  1  0.50000000  -0.00000000  0.87337167  1
+  Mg  Mg6  1  -0.00000000  0.62662828  0.50000002  1
+  Mg  Mg7  1  -0.00000001  0.37337166  0.50000000  1
+  Mg  Mg8  1  0.62662829  0.50000000  0.00000000  1
+  Mg  Mg9  1  0.37337171  0.50000000  0.00000001  1
+  Mg  Mg10  1  0.50000000  -0.00000001  0.37337169  1
+  Mg  Mg11  1  0.49999999  0.00000001  0.62662833  1
+  Ga  Ga12  1  0.25000000  0.14993926  0.35006072  1
+  Ga  Ga13  1  0.75000000  0.85006072  0.35006072  1
+  Ga  Ga14  1  0.75000000  0.14993926  0.64993928  1
+  Ga  Ga15  1  0.24999999  0.85006073  0.64993927  1
+  Ga  Ga16  1  0.35006072  0.25000001  0.14993927  1
+  Ga  Ga17  1  0.35006072  0.74999999  0.85006072  1
+  Ga  Ga18  1  0.64993926  0.75000000  0.14993925  1
+  Ga  Ga19  1  0.64993928  0.24999999  0.85006070  1
+  Ga  Ga20  1  0.14993928  0.35006070  0.25000000  1
+  Ga  Ga21  1  0.85006073  0.35006072  0.74999999  1
+  Ga  Ga22  1  0.14993927  0.64993928  0.75000001  1
+  Ga  Ga23  1  0.85006071  0.64993930  0.25000000  1

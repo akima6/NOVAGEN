@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Zn4Ga5Ge3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.11353168
+_cell_length_b   7.11352548
+_cell_length_c   7.11354497
+_cell_angle_alpha   89.99992830
+_cell_angle_beta   89.99971508
+_cell_angle_gamma   89.99992232
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn4Ga5Ge3
+_chemical_formula_sum   'Zn4 Ga5 Ge3'
+_cell_volume   359.96165735
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.50000000  0.50000000  0.50000000  1
+  Ge  Ge1  1  0.49999996  0.00000020  0.00000001  1
+  Ge  Ge2  1  -0.00000006  0.49999970  0.00000025  1
+  Ge  Ge3  1  0.00000001  0.00000009  0.49999977  1
+  Ga  Ga4  1  0.17524013  0.17524009  0.17524006  1
+  Ga  Ga5  1  0.82475993  0.82475996  0.17524004  1
+  Ga  Ga6  1  0.82475984  0.17523995  0.82476000  1
+  Ga  Ga7  1  0.17524014  0.82476013  0.82475997  1
+  Zn  Zn8  1  0.82506013  0.82505998  0.82506008  1
+  Zn  Zn9  1  0.17494001  0.17493992  0.82506007  1
+  Zn  Zn10  1  0.17493988  0.82506000  0.17493993  1
+  Zn  Zn11  1  0.82506008  0.17494003  0.17493990  1

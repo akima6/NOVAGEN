@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_KNa6Li
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.49233754
+_cell_length_b   8.49234001
+_cell_length_c   14.23277193
+_cell_angle_alpha   90.00000177
+_cell_angle_beta   90.00014649
+_cell_angle_gamma   120.00021402
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNa6Li
+_chemical_formula_sum   'K2 Na12 Li2'
+_cell_volume   888.94277912
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  -0.00000012  -0.00000006  -0.00000003  1
+  K  K1  1  -0.00000021  -0.00000006  0.50000014  1
+  Li  Li2  1  0.33333321  0.66666641  0.25000009  1
+  Li  Li3  1  0.66666687  0.33333351  0.74999983  1
+  Na  Na4  1  0.54712556  0.60446368  0.39111700  1
+  Na  Na5  1  0.39553650  0.94266209  0.39111749  1
+  Na  Na6  1  0.05733813  0.45287449  0.39111719  1
+  Na  Na7  1  0.39553640  0.45287457  0.10888287  1
+  Na  Na8  1  0.05733814  0.60446379  0.10888264  1
+  Na  Na9  1  0.54712569  0.94266200  0.10888310  1
+  Na  Na10  1  0.45287469  0.39553651  0.60888282  1
+  Na  Na11  1  0.60446340  0.05733810  0.60888270  1
+  Na  Na12  1  0.94266200  0.54712548  0.60888266  1
+  Na  Na13  1  0.60446363  0.54712536  0.89111704  1
+  Na  Na14  1  0.94266189  0.39553637  0.89111740  1
+  Na  Na15  1  0.45287437  0.05733794  0.89111708  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ba6InGe(CO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.58488372
+_cell_length_b   9.55694442
+_cell_length_c   4.98271495
+_cell_angle_alpha   90.31399708
+_cell_angle_beta   89.98475656
+_cell_angle_gamma   120.13366090
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba6InGe(CO)2
+_chemical_formula_sum   'Ba6 In1 Ge1 C2 O2'
+_cell_volume   394.73693043
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.40238963  0.20126052  0.75815648  1
+  Ba  Ba1  1  0.79892576  0.20117437  0.75732377  1
+  Ba  Ba2  1  0.79864450  0.59731858  0.76527937  1
+  Ba  Ba3  1  0.20107466  0.40213388  0.23936528  1
+  Ba  Ba4  1  0.20141938  0.79857304  0.24042466  1
+  Ba  Ba5  1  0.59735439  0.79866743  0.24051336  1
+  In  In6  1  0.99802472  0.99448033  0.49985436  1
+  Ge  Ge7  1  0.00219081  0.00606182  0.00005414  1
+  C  C8  1  0.33290557  0.66570018  -0.17353229  1
+  C  C9  1  0.66710672  0.33406133  1.17306572  1
+  O  O10  1  0.33400539  0.66823530  0.57194075  1
+  O  O11  1  0.66595848  0.33233320  0.42755440  1

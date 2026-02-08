@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Ba3Ti3Ga8Si
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.57368972
+_cell_length_b   7.99083251
+_cell_length_c   8.00457643
+_cell_angle_alpha   67.76876025
+_cell_angle_beta   132.71685159
+_cell_angle_gamma   123.19980192
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3Ti3Ga8Si
+_chemical_formula_sum   'Ba3 Ti3 Ga8 Si1'
+_cell_volume   337.12731482
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.61762414  0.99960658  0.50713328  1
+  Ba  Ba1  1  1.00118688  0.60578869  0.49840756  1
+  Ba  Ba2  1  0.39580820  0.39371944  0.50105960  1
+  Ti  Ti3  1  0.63813305  -0.00146978  0.02864132  1
+  Ti  Ti4  1  -0.00481557  0.62700402  0.99683448  1
+  Ti  Ti5  1  0.37512569  0.37734282  0.00030098  1
+  Ga  Ga6  1  0.33762246  0.66217771  0.03456608  1
+  Ga  Ga7  1  0.67516091  0.32956693  0.04027692  1
+  Ga  Ga8  1  0.60438151  0.99891756  0.99504800  1
+  Ga  Ga9  1  0.99462968  0.59551303  0.00434464  1
+  Ga  Ga10  1  0.40395076  0.41014538  0.00545089  1
+  Ga  Ga11  1  0.23723547  0.00343025  -0.05934054  1
+  Ga  Ga12  1  -0.00199728  0.24558069  -0.00348420  1
+  Ga  Ga13  1  0.75669452  0.76268637  -0.00902098  1
+  Si  Si14  1  -0.03074032  0.98999044  0.45978196  1

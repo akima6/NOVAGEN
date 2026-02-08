@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_KBe(InS)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.66776351
+_cell_length_b   7.52180488
+_cell_length_c   10.46223361
+_cell_angle_alpha   107.90064125
+_cell_angle_beta   71.57914779
+_cell_angle_gamma   115.53146961
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KBe(InS)2
+_chemical_formula_sum   'K3 Be3 In6 S6'
+_cell_volume   506.15956968
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.18934219  -0.01014385  0.29119430  1
+  K  K1  1  0.99352546  0.19004118  0.70835267  1
+  K  K2  1  0.81281083  0.81100411  0.00506752  1
+  Be  Be3  1  0.38961798  0.93139254  0.79072404  1
+  Be  Be4  1  -0.06719026  0.39053547  0.20678947  1
+  Be  Be5  1  0.63848936  0.63749689  0.50177498  1
+  In  In6  1  0.78598590  0.51137424  0.64321287  1
+  In  In7  1  0.48773312  0.26739261  0.02644662  1
+  In  In8  1  0.74459587  0.19775258  0.40849119  1
+  In  In9  1  0.50723870  0.78321092  0.36213009  1
+  In  In10  1  0.26570937  0.48218654  0.96831604  1
+  In  In11  1  0.19337661  0.74093342  0.59459191  1
+  S  S12  1  0.16462037  0.38831025  0.25718918  1
+  S  S13  1  0.61803601  0.81871704  0.68787272  1
+  S  S14  1  0.23365285  0.84496442  0.97166925  1
+  S  S15  1  0.38396364  0.16206238  0.73474538  1
+  S  S16  1  0.81420512  0.61600325  0.31307750  1
+  S  S17  1  0.84428691  0.23676603  0.02835434  1

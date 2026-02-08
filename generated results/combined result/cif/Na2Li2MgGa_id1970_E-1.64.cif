@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Na2Li2MgGa
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.75448442
+_cell_length_b   6.75448429
+_cell_length_c   7.01698756
+_cell_angle_alpha   89.99999264
+_cell_angle_beta   90.00000817
+_cell_angle_gamma   90.00004594
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Li2MgGa
+_chemical_formula_sum   'Na4 Li4 Mg2 Ga2'
+_cell_volume   320.13643674
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  -0.00000000  -0.00000001  0.34681217  1
+  Ga  Ga1  1  0.50000001  0.50000002  0.84681218  1
+  Mg  Mg2  1  0.00000001  -0.00000000  0.97335905  1
+  Mg  Mg3  1  0.50000000  0.49999999  0.47335903  1
+  Na  Na4  1  -0.00000000  0.50000001  0.68753071  1
+  Na  Na5  1  0.00000001  0.49999999  0.18753072  1
+  Na  Na6  1  0.50000001  -0.00000001  0.18753073  1
+  Na  Na7  1  0.49999999  0.00000000  0.68753071  1
+  Li  Li8  1  0.33259163  0.33259162  0.13558139  1
+  Li  Li9  1  0.66740834  0.66740838  0.13558136  1
+  Li  Li10  1  0.16740836  0.83259161  0.63558144  1
+  Li  Li11  1  0.83259163  0.16740840  0.63558140  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Na3Ti6B
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.68261772
+_cell_length_b   6.68261610
+_cell_length_c   6.68261545
+_cell_angle_alpha   89.99971566
+_cell_angle_beta   89.99992292
+_cell_angle_gamma   90.00008442
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3Ti6B
+_chemical_formula_sum   'Na3 Ti6 B1'
+_cell_volume   298.42802242
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  B  B0  1  0.00000001  0.00000000  0.00000002  1
+  Na  Na1  1  -0.00000002  0.50000001  0.50000000  1
+  Na  Na2  1  0.50000002  -0.00000002  0.50000000  1
+  Na  Na3  1  0.50000000  0.50000000  -0.00000001  1
+  Ti  Ti4  1  0.31414870  -0.00000006  0.00000001  1
+  Ti  Ti5  1  0.68585128  0.00000003  0.00000007  1
+  Ti  Ti6  1  0.00000002  0.31414872  0.00000003  1
+  Ti  Ti7  1  0.00000004  0.68585139  0.00000006  1
+  Ti  Ti8  1  -0.00000006  -0.00000002  0.31414863  1
+  Ti  Ti9  1  0.00000003  -0.00000004  0.68585123  1

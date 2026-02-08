@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Na(GeTe2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.82793585
+_cell_length_b   5.82792901
+_cell_length_c   7.41974028
+_cell_angle_alpha   89.99989821
+_cell_angle_beta   89.99995737
+_cell_angle_gamma   89.99999278
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na(GeTe2)2
+_chemical_formula_sum   'Na1 Ge2 Te4'
+_cell_volume   252.00996808
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.99999991  0.00000010  0.00000008  1
+  Ge  Ge1  1  0.50000004  -0.00000012  0.50000009  1
+  Ge  Ge2  1  -0.00000003  0.49999992  0.49999995  1
+  Te  Te3  1  0.28748483  0.28748492  0.27362882  1
+  Te  Te4  1  0.71251510  0.71251509  0.27362888  1
+  Te  Te5  1  0.28748515  0.71251507  0.72637108  1
+  Te  Te6  1  0.71251501  0.28748501  0.72637115  1

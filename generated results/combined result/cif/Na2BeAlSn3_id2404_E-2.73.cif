@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Na2BeAlSn3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.03821584
+_cell_length_b   7.03820637
+_cell_length_c   8.41303625
+_cell_angle_alpha   89.99988022
+_cell_angle_beta   90.00002931
+_cell_angle_gamma   119.99976562
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2BeAlSn3
+_chemical_formula_sum   'Na2 Be1 Al1 Sn3'
+_cell_volume   360.91837655
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Be  Be0  1  0.00000057  0.00000035  0.49169890  1
+  Na  Na1  1  0.33333287  0.66666637  0.48658813  1
+  Na  Na2  1  0.66666665  0.33333323  0.84446683  1
+  Al  Al3  1  0.66666664  0.33333322  0.25854735  1
+  Sn  Sn4  1  0.70839942  0.60672379  0.50641460  1
+  Sn  Sn5  1  0.39327618  0.10167561  0.50641475  1
+  Sn  Sn6  1  0.89832439  0.29160080  0.50641449  1

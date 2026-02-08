@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Li(CdGa)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.37779374
+_cell_length_b   6.37779843
+_cell_length_c   15.78829074
+_cell_angle_alpha   89.99994300
+_cell_angle_beta   89.99995767
+_cell_angle_gamma   119.99999308
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li(CdGa)2
+_chemical_formula_sum   'Li3 Cd6 Ga6'
+_cell_volume   556.16933003
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.25506752  0.39744487  0.83245998  1
+  Ga  Ga1  1  0.60255510  0.85762265  0.16579340  1
+  Ga  Ga2  1  0.14237739  0.74493251  0.49912667  1
+  Ga  Ga3  1  0.17025793  0.89168836  0.92943571  1
+  Ga  Ga4  1  0.10831168  0.27856956  0.26276901  1
+  Ga  Ga5  1  0.72143042  0.82974206  0.59610241  1
+  Cd  Cd6  1  0.68637778  0.46759811  0.62786024  1
+  Cd  Cd7  1  0.53240189  0.21877968  0.96119366  1
+  Cd  Cd8  1  0.78122026  0.31362223  0.29452695  1
+  Cd  Cd9  1  0.65130304  0.31513796  0.46121960  1
+  Cd  Cd10  1  0.68486200  0.33616509  0.79455291  1
+  Cd  Cd11  1  0.66383493  0.34869695  0.12788623  1
+  Li  Li12  1  0.79613525  0.79837617  0.76900319  1
+  Li  Li13  1  0.20162382  0.99775907  0.10233653  1
+  Li  Li14  1  0.00224095  0.20386476  0.43566990  1

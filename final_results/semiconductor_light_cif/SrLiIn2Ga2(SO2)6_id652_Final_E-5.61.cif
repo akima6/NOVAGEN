@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_SrLiIn2Ga2(SO2)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.72128536
+_cell_length_b   5.71992834
+_cell_length_c   15.30386334
+_cell_angle_alpha   89.95855553
+_cell_angle_beta   89.99930811
+_cell_angle_gamma   120.01048103
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrLiIn2Ga2(SO2)6
+_chemical_formula_sum   'Sr1 Li1 In2 Ga2 S6 O12'
+_cell_volume   433.68048206
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.99995817  0.99999677  0.00000030  1
+  Li  Li1  1  -0.00009924  -0.00000965  0.49999974  1
+  In  In2  1  0.33337316  0.66666286  0.84381361  1
+  In  In3  1  0.66670967  0.33335326  0.15618540  1
+  Ga  Ga4  1  0.33340013  0.66665240  0.10692649  1
+  Ga  Ga5  1  0.66675279  0.33337017  0.89307373  1
+  S  S6  1  0.08906741  0.62328469  0.35573527  1
+  S  S7  1  0.37649545  0.46511840  0.35572647  1
+  S  S8  1  0.53455288  0.91176370  0.35584656  1
+  S  S9  1  0.62276166  0.08826375  0.64415193  1
+  S  S10  1  0.46577278  0.37665529  0.64427588  1
+  S  S11  1  0.91144962  0.53491313  0.64426713  1
+  O  O12  1  -0.04085292  0.63788027  0.27188636  1
+  O  O13  1  0.36182839  0.32095215  0.27184712  1
+  O  O14  1  0.67894497  1.04093329  0.27185938  1
+  O  O15  1  0.63797533  -0.04093607  0.72813582  1
+  O  O16  1  0.32124437  0.36210132  0.72811876  1
+  O  O17  1  1.04089005  0.67908306  0.72815065  1
+  O  O18  1  -0.01361948  0.34482099  0.89689039  1
+  O  O19  1  0.65515848  0.64163052  0.89688802  1
+  O  O20  1  0.35836228  1.01357079  0.89692480  1
+  O  O21  1  0.34478820  -0.01358253  0.10307683  1
+  O  O22  1  0.64155678  0.65516374  0.10311470  1
+  O  O23  1  1.01352888  0.35835765  0.10310474  1

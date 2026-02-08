@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Li(AlTe)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.22244467
+_cell_length_b   7.22244407
+_cell_length_c   5.38201822
+_cell_angle_alpha   89.99983768
+_cell_angle_beta   90.00017720
+_cell_angle_gamma   90.00039313
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li(AlTe)4
+_chemical_formula_sum   'Li1 Al4 Te4'
+_cell_volume   280.74599788
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  -0.00000001  -0.00000000  -0.00000000  1
+  Al  Al1  1  0.50000011  -0.00000003  -0.00000002  1
+  Al  Al2  1  -0.00000000  0.49999999  -0.00000005  1
+  Al  Al3  1  0.50000002  0.00000008  0.50000008  1
+  Al  Al4  1  -0.00000005  0.49999998  0.50000004  1
+  Te  Te5  1  0.76416042  0.76416051  0.24992895  1
+  Te  Te6  1  0.23583958  0.23583952  0.24992901  1
+  Te  Te7  1  0.76416042  0.23583955  0.75007100  1
+  Te  Te8  1  0.23583952  0.76416041  0.75007103  1

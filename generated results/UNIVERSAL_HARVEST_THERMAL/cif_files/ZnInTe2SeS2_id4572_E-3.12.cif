@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_ZnInTe2SeS2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.99458808
+_cell_length_b   14.99458920
+_cell_length_c   12.49189469
+_cell_angle_alpha   90.00003591
+_cell_angle_beta   89.99999855
+_cell_angle_gamma   90.00000753
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnInTe2SeS2
+_chemical_formula_sum   'Zn4 In4 Te8 Se4 S8'
+_cell_volume   2808.64872856
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.00000000  0.50000000  0.25000000  1
+  Zn  Zn1  1  0.50000000  0.00000000  0.75000000  1
+  Zn  Zn2  1  -0.00000000  -0.00000000  -0.00000000  1
+  Zn  Zn3  1  0.00000000  -0.00000000  0.50000000  1
+  In  In4  1  0.29556928  0.50000000  0.25000000  1
+  In  In5  1  0.70443070  0.50000001  0.24999999  1
+  In  In6  1  0.49999997  0.70443073  0.74999998  1
+  In  In7  1  0.49999996  0.29556927  0.74999999  1
+  Se  Se8  1  0.00000000  0.50000000  0.42956114  1
+  Se  Se9  1  0.50000000  0.00000000  0.57043886  1
+  Se  Se10  1  -0.00000000  0.50000000  0.07043885  1
+  Se  Se11  1  0.50000000  -0.00000000  0.92956115  1
+  Te  Te12  1  0.35572550  0.38366367  0.67640652  1
+  Te  Te13  1  0.64427454  0.61633636  0.67640653  1
+  Te  Te14  1  0.38366368  0.64427455  0.32359346  1
+  Te  Te15  1  0.61633635  0.35572548  0.32359347  1
+  Te  Te16  1  0.64427455  0.38366368  0.82359348  1
+  Te  Te17  1  0.35572549  0.61633635  0.82359347  1
+  Te  Te18  1  0.61633636  0.64427453  0.17640650  1
+  Te  Te19  1  0.38366368  0.35572548  0.17640649  1
+  S  S20  1  0.37118974  0.40672279  0.86355188  1
+  S  S21  1  0.62881027  0.59327721  0.86355187  1
+  S  S22  1  0.40672278  0.62881026  0.13644815  1
+  S  S23  1  0.59327723  0.37118975  0.13644815  1
+  S  S24  1  0.62881027  0.40672279  0.63644814  1
+  S  S25  1  0.37118974  0.59327722  0.63644814  1
+  S  S26  1  0.59327723  0.62881025  0.36355182  1
+  S  S27  1  0.40672278  0.37118974  0.36355183  1

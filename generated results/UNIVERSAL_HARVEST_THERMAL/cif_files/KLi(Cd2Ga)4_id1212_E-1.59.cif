@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_KLi(Cd2Ga)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.94007973
+_cell_length_b   8.94008009
+_cell_length_c   8.94217076
+_cell_angle_alpha   89.99998336
+_cell_angle_beta   90.00002112
+_cell_angle_gamma   89.99999302
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLi(Cd2Ga)4
+_chemical_formula_sum   'K2 Li2 Cd16 Ga8'
+_cell_volume   714.70325570
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  -0.00000000  0.00000000  -0.00000000  1
+  K  K1  1  0.50000000  0.50000000  0.50000000  1
+  Li  Li2  1  -0.00000000  -0.00000000  0.50000000  1
+  Li  Li3  1  0.50000000  0.50000000  -0.00000000  1
+  Ga  Ga4  1  0.61673710  0.11673717  0.25000001  1
+  Ga  Ga5  1  0.38326288  0.88326290  0.24999999  1
+  Ga  Ga6  1  0.88326293  0.61673707  0.25000000  1
+  Ga  Ga7  1  0.11673712  0.38326292  0.24999999  1
+  Ga  Ga8  1  0.11673716  0.61673715  0.75000000  1
+  Ga  Ga9  1  0.88326290  0.38326289  0.75000000  1
+  Ga  Ga10  1  0.38326290  0.11673715  0.75000000  1
+  Ga  Ga11  1  0.61673715  0.88326290  0.74999999  1
+  Cd  Cd12  1  0.14635896  0.32596099  0.91117186  1
+  Cd  Cd13  1  0.85364103  0.67403902  0.91117188  1
+  Cd  Cd14  1  0.67403901  0.14635896  0.91117186  1
+  Cd  Cd15  1  0.32596099  0.85364104  0.91117187  1
+  Cd  Cd16  1  0.85364106  0.32596100  0.08882814  1
+  Cd  Cd17  1  0.14635894  0.67403901  0.08882813  1
+  Cd  Cd18  1  0.32596100  0.14635896  0.08882813  1
+  Cd  Cd19  1  0.67403902  0.85364102  0.08882812  1
+  Cd  Cd20  1  0.64635898  0.82596098  0.41117182  1
+  Cd  Cd21  1  0.35364104  0.17403901  0.41117182  1
+  Cd  Cd22  1  0.17403902  0.64635895  0.41117182  1
+  Cd  Cd23  1  0.82596099  0.35364106  0.41117181  1
+  Cd  Cd24  1  0.35364104  0.82596099  0.58882813  1
+  Cd  Cd25  1  0.64635896  0.17403901  0.58882814  1
+  Cd  Cd26  1  0.82596098  0.64635897  0.58882812  1
+  Cd  Cd27  1  0.17403901  0.35364104  0.58882814  1

@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Sr(AlZn2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.40189355
+_cell_length_b   5.40189313
+_cell_length_c   19.68286849
+_cell_angle_alpha   89.99999146
+_cell_angle_beta   89.99997823
+_cell_angle_gamma   90.00002090
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr(AlZn2)2
+_chemical_formula_sum   'Sr4 Al8 Zn16'
+_cell_volume   574.35499234
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.00000000  -0.00000001  0.25000001  1
+  Al  Al1  1  -0.00000001  0.00000000  0.75000001  1
+  Al  Al2  1  0.50000001  0.49999999  0.75000000  1
+  Al  Al3  1  0.50000001  0.50000000  0.24999996  1
+  Al  Al4  1  -0.00000001  0.50000000  0.25000000  1
+  Al  Al5  1  0.50000002  -0.00000000  0.25000001  1
+  Al  Al6  1  0.49999999  0.00000001  0.75000000  1
+  Al  Al7  1  0.00000001  0.50000000  0.75000003  1
+  Sr  Sr8  1  0.00000000  0.00000000  -0.00000001  1
+  Sr  Sr9  1  -0.00000000  0.00000000  0.49999999  1
+  Sr  Sr10  1  0.50000000  0.50000000  0.50000000  1
+  Sr  Sr11  1  0.50000000  0.50000000  0.00000001  1
+  Zn  Zn12  1  0.82978163  0.32978170  0.36723004  1
+  Zn  Zn13  1  0.17021837  0.67021837  0.36723002  1
+  Zn  Zn14  1  0.67021837  0.82978164  0.36723002  1
+  Zn  Zn15  1  0.32978169  0.17021837  0.36723002  1
+  Zn  Zn16  1  0.17021836  0.32978168  0.13276997  1
+  Zn  Zn17  1  0.82978162  0.67021836  0.13276999  1
+  Zn  Zn18  1  0.32978168  0.82978163  0.13276998  1
+  Zn  Zn19  1  0.67021837  0.17021838  0.13276999  1
+  Zn  Zn20  1  0.32978169  0.82978169  0.86723004  1
+  Zn  Zn21  1  0.67021837  0.17021837  0.86723001  1
+  Zn  Zn22  1  0.17021838  0.32978170  0.86723001  1
+  Zn  Zn23  1  0.82978168  0.67021838  0.86723001  1
+  Zn  Zn24  1  0.67021836  0.82978169  0.63276997  1
+  Zn  Zn25  1  0.32978170  0.17021835  0.63276999  1
+  Zn  Zn26  1  0.82978169  0.32978169  0.63276998  1
+  Zn  Zn27  1  0.17021836  0.67021837  0.63276997  1

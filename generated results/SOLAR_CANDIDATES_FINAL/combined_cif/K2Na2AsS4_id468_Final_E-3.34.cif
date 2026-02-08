@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_K2Na2AsS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.32737089
+_cell_length_b   5.08143247
+_cell_length_c   9.33578571
+_cell_angle_alpha   79.34265245
+_cell_angle_beta   84.94948852
+_cell_angle_gamma   65.85565198
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Na2AsS4
+_chemical_formula_sum   'K2 Na2 As1 S4'
+_cell_volume   184.07908773
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.33388581  0.99194625  0.33714435  1.0
+  K  K1  1  0.66590552  0.13981164  0.53318167  1.0
+  Na  Na2  1  0.33396341  0.47416416  0.85054262  1.0
+  Na  Na3  1  0.66632662  0.51785643  0.14977657  1.0
+  As  As4  1  0.00307333  0.99459088  0.00329942  1.0
+  S  S5  1  0.33500747  0.09736883  0.23925821  1.0
+  S  S6  1  0.66509563  0.79710786  0.85836001  1.0
+  S  S7  1  0.33183503  0.13804832  0.18857719  1.0
+  S  S8  1  0.66491464  0.84910374  0.83985999  1.0

@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Li(Mg2Zn)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   18.38443221
+_cell_length_b   16.33758611
+_cell_length_c   10.56641871
+_cell_angle_alpha   90.79720379
+_cell_angle_beta   90.43712491
+_cell_angle_gamma   89.83944820
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li(Mg2Zn)2
+_chemical_formula_sum   'Li4 Mg16 Zn8'
+_cell_volume   3173.28931491
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00465860  0.25002971  0.75000731  1
+  Li  Li1  1  0.99930597  0.75518518  0.25062650  1
+  Li  Li2  1  0.49934031  0.74632068  0.76193999  1
+  Li  Li3  1  0.49990040  0.24674856  0.25127968  1
+  Mg  Mg4  1  0.13496317  0.17127547  0.68114477  1
+  Mg  Mg5  1  0.36522698  0.82865123  0.68127611  1
+  Mg  Mg6  1  0.86498409  0.17123777  0.81885422  1
+  Mg  Mg7  1  0.63477744  0.82870989  0.81877644  1
+  Mg  Mg8  1  0.86490194  0.82886719  0.31894434  1
+  Mg  Mg9  1  0.63507025  0.17114632  0.31893269  1
+  Mg  Mg10  1  0.13505544  0.82880003  0.18110801  1
+  Mg  Mg11  1  0.36483190  0.17106439  0.18100612  1
+  Mg  Mg12  1  0.63474702  0.67128746  0.68122884  1
+  Mg  Mg13  1  0.86497461  0.32877009  0.68113876  1
+  Mg  Mg14  1  0.36502113  0.67121150  0.81886674  1
+  Mg  Mg15  1  0.13496299  0.32872657  0.81885748  1
+  Mg  Mg16  1  0.36468009  0.32899714  0.31902403  1
+  Mg  Mg17  1  0.13517119  0.67112158  0.31894750  1
+  Mg  Mg18  1  0.63503929  0.32884758  0.18105028  1
+  Mg  Mg19  1  0.86482786  0.67108702  0.18103368  1
+  Zn  Zn20  1  0.99772792  0.24965204  0.74128446  1
+  Zn  Zn21  1  0.99772861  0.25030833  0.75871298  1
+  Zn  Zn22  1  0.00047141  0.74707252  0.25835883  1
+  Zn  Zn23  1  0.00026616  0.74786647  0.24098109  1
+  Zn  Zn24  1  0.50085893  0.75278168  0.73468060  1
+  Zn  Zn25  1  0.50002819  0.75103757  0.75323127  1
+  Zn  Zn26  1  0.50008367  0.24832825  0.25157699  1
+  Zn  Zn27  1  0.50039440  0.25486775  0.24713016  1

@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_BaSr2(CdIn)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.56369056
+_cell_length_b   10.56346422
+_cell_length_c   12.50945307
+_cell_angle_alpha   90.07163760
+_cell_angle_beta   90.08408693
+_cell_angle_gamma   90.00004283
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaSr2(CdIn)2
+_chemical_formula_sum   'Ba4 Sr8 Cd8 In8'
+_cell_volume   1395.91685595
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  -0.00000001  0.00000005  0.24999999  1
+  In  In1  1  0.00000001  -0.00000001  0.75000003  1
+  In  In2  1  0.50000001  0.50000003  0.74999997  1
+  In  In3  1  0.50000000  0.49999997  0.25000003  1
+  In  In4  1  0.00000012  0.50000017  0.24999995  1
+  In  In5  1  0.49999988  -0.00000020  0.24999997  1
+  In  In6  1  0.50000021  0.00000025  0.75000002  1
+  In  In7  1  -0.00000018  0.49999985  0.75000002  1
+  Ba  Ba8  1  0.00000000  -0.00000001  0.00000000  1
+  Ba  Ba9  1  0.00000000  0.00000001  0.50000000  1
+  Ba  Ba10  1  0.49999999  0.50000001  0.50000001  1
+  Ba  Ba11  1  0.50000000  0.50000000  -0.00000000  1
+  Sr  Sr12  1  0.69647886  0.19647909  0.00000344  1
+  Sr  Sr13  1  0.30352112  0.80352086  -0.00000347  1
+  Sr  Sr14  1  0.80352108  0.69647915  -0.00000027  1
+  Sr  Sr15  1  0.19647888  0.30352093  0.00000029  1
+  Sr  Sr16  1  0.19647883  0.69647904  0.50000342  1
+  Sr  Sr17  1  0.80352107  0.30352088  0.49999656  1
+  Sr  Sr18  1  0.30352118  0.19647910  0.49999972  1
+  Sr  Sr19  1  0.69647889  0.80352084  0.50000031  1
+  Cd  Cd20  1  0.90239150  0.40239087  -0.00000246  1
+  Cd  Cd21  1  0.09760852  0.59760909  0.00000246  1
+  Cd  Cd22  1  0.59760855  0.90239091  0.00000020  1
+  Cd  Cd23  1  0.40239139  0.09760908  -0.00000020  1
+  Cd  Cd24  1  0.40239147  0.90239090  0.49999755  1
+  Cd  Cd25  1  0.59760852  0.09760906  0.50000246  1
+  Cd  Cd26  1  0.09760853  0.40239086  0.50000021  1
+  Cd  Cd27  1  0.90239141  0.59760903  0.49999981  1

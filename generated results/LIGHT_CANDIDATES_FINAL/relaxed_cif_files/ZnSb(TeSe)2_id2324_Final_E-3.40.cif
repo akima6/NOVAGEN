@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_ZnSb(TeSe)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.84180424
+_cell_length_b   5.84183799
+_cell_length_c   19.43140117
+_cell_angle_alpha   89.99999437
+_cell_angle_beta   89.99954205
+_cell_angle_gamma   119.99979453
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnSb(TeSe)2
+_chemical_formula_sum   'Zn3 Sb3 Te6 Se6'
+_cell_volume   574.29119394
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.69850361  0.99999973  0.66666664  1
+  Zn  Zn1  1  0.99999920  0.69850346  0.33333337  1
+  Zn  Zn2  1  0.30149569  0.30149674  0.00000009  1
+  Sb  Sb3  1  0.21452394  -0.00000077  0.66666607  1
+  Sb  Sb4  1  -0.00000158  0.21452333  0.33333434  1
+  Sb  Sb5  1  0.78547456  0.78547744  -0.00000139  1
+  Te  Te6  1  0.50075899  0.45211073  0.26399417  1
+  Te  Te7  1  0.54789040  0.04864707  0.93066114  1
+  Te  Te8  1  0.95135258  0.49924231  0.59732754  1
+  Te  Te9  1  0.45211041  0.50075858  0.73600578  1
+  Te  Te10  1  0.04864868  0.54788867  0.06933957  1
+  Te  Te11  1  0.49924321  0.95135288  0.40267233  1
+  Se  Se12  1  0.05101726  0.75826763  0.20861660  1
+  Se  Se13  1  0.24173226  0.29274893  0.87528376  1
+  Se  Se14  1  0.70725041  0.94898323  0.54195053  1
+  Se  Se15  1  0.75826778  0.05101705  0.79138330  1
+  Se  Se16  1  0.29274950  0.24173230  0.12471656  1
+  Se  Se17  1  0.94898306  0.70725070  0.45804966  1

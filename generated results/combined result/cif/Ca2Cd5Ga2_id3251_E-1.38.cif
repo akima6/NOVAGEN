@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ca2Cd5Ga2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.18866716
+_cell_length_b   9.53619343
+_cell_length_c   7.67548220
+_cell_angle_alpha   56.95742132
+_cell_angle_beta   96.82141985
+_cell_angle_gamma   119.39655979
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2Cd5Ga2
+_chemical_formula_sum   'Ca2 Cd5 Ga2'
+_cell_volume   376.21421399
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  -0.00000000  -0.00000001  0.00000002  1
+  Cd  Cd1  1  0.20375956  0.36456609  0.68567872  1
+  Cd  Cd2  1  0.79624045  0.63543392  0.31432130  1
+  Cd  Cd3  1  0.23526025  0.73676454  0.48963906  1
+  Cd  Cd4  1  0.76473976  0.26323543  0.51036095  1
+  Ga  Ga5  1  0.42741656  0.20342321  0.69066984  1
+  Ga  Ga6  1  0.57258342  0.79657680  0.30933012  1
+  Ca  Ca7  1  0.78338604  0.39305412  0.85446126  1
+  Ca  Ca8  1  0.21661398  0.60694587  0.14553873  1

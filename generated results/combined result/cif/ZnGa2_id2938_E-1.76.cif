@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ZnGa2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.32068892
+_cell_length_b   17.27233979
+_cell_length_c   7.24777537
+_cell_angle_alpha   90.00005762
+_cell_angle_beta   89.99998802
+_cell_angle_gamma   90.00000233
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnGa2
+_chemical_formula_sum   'Zn4 Ga8'
+_cell_volume   540.88993231
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  -0.00000000  0.34683186  0.25000000  1
+  Ga  Ga1  1  -0.00000000  0.65316814  0.75000000  1
+  Ga  Ga2  1  0.50000001  0.84683186  0.25000000  1
+  Ga  Ga3  1  0.49999999  0.15316816  0.75000000  1
+  Zn  Zn4  1  -0.00000001  0.77959498  0.25000000  1
+  Zn  Zn5  1  0.00000001  0.22040505  0.75000000  1
+  Zn  Zn6  1  0.50000001  0.27959499  0.25000000  1
+  Zn  Zn7  1  0.50000000  0.72040504  0.75000000  1
+  Ga  Ga8  1  -0.00000000  0.93789653  0.25000000  1
+  Ga  Ga9  1  0.00000000  0.06210342  0.75000000  1
+  Ga  Ga10  1  0.50000000  0.43789659  0.25000000  1
+  Ga  Ga11  1  0.50000000  0.56210344  0.75000000  1

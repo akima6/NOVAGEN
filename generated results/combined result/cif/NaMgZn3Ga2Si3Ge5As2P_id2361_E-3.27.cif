@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_NaMgZn3Ga2Si3Ge5As2P
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.66084794
+_cell_length_b   8.66115058
+_cell_length_c   7.21720483
+_cell_angle_alpha   90.00107665
+_cell_angle_beta   90.00751880
+_cell_angle_gamma   119.99788364
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaMgZn3Ga2Si3Ge5As2P
+_chemical_formula_sum   'Na1 Mg1 Zn3 Ga2 Si3 Ge5 As2 P1'
+_cell_volume   468.86187646
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.00000101  0.00000049  0.00010626  1
+  Mg  Mg1  1  0.66666611  0.33333288  0.00001535  1
+  Na  Na2  1  0.66666641  0.33333317  0.49995855  1
+  As  As3  1  -0.00000290  -0.00000354  0.29913509  1
+  As  As4  1  0.00000189  0.00000272  0.70075261  1
+  Ga  Ga5  1  0.33334014  0.66662848  0.78226886  1
+  Ga  Ga6  1  0.33334143  0.66667362  0.22279431  1
+  Ge  Ge7  1  0.33332629  0.66666084  0.18701583  1
+  Ge  Ge8  1  0.33332599  0.66670691  0.80997007  1
+  Ge  Ge9  1  0.49415601  0.50584500  0.00009892  1
+  Ge  Ge10  1  0.49415601  -0.01168891  0.00010374  1
+  Ge  Ge11  1  1.01169122  0.50584565  0.00009820  1
+  Si  Si12  1  0.17718140  0.82281716  -0.00084086  1
+  Si  Si13  1  0.17718002  0.35436118  -0.00083947  1
+  Si  Si14  1  0.64563546  0.82281757  -0.00084171  1
+  Zn  Zn15  1  0.47061306  0.52938707  0.50006813  1
+  Zn  Zn16  1  0.47061310  0.94122612  0.50006779  1
+  Zn  Zn17  1  0.05877412  0.52938709  0.50006829  1

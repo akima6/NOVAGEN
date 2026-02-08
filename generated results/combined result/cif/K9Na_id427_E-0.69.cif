@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_K9Na
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   15.09648861
+_cell_length_b   15.09648777
+_cell_length_c   17.17865809
+_cell_angle_alpha   90.00002901
+_cell_angle_beta   89.99995958
+_cell_angle_gamma   90.00001021
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K9Na
+_chemical_formula_sum   'K9 Na1'
+_cell_volume   3915.08413120
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  -0.00000000  0.00000000  -0.00000001  1
+  Na  Na1  1  0.49999999  0.50000002  0.50000000  1
+  K  K2  1  0.00000001  0.50000000  0.28002617  1
+  K  K3  1  0.50000007  -0.00000000  0.28002616  1
+  K  K4  1  -0.00000000  0.49999999  0.71997386  1
+  K  K5  1  0.49999996  -0.00000000  0.71997380  1
+  K  K6  1  0.64295985  -0.00000001  0.49999996  1
+  K  K7  1  0.35704010  0.00000001  0.50000006  1
+  K  K8  1  -0.00000000  0.64295986  0.49999996  1
+  K  K9  1  0.00000002  0.35704013  0.49999997  1

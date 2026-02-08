@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ba3Ca8MgIn6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.40598547
+_cell_length_b   14.40597653
+_cell_length_c   13.19079326
+_cell_angle_alpha   90.00020105
+_cell_angle_beta   90.00000184
+_cell_angle_gamma   120.00011079
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3Ca8MgIn6
+_chemical_formula_sum   'Ba3 Ca8 Mg1 In6'
+_cell_volume   2370.75533127
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  -0.00000002  -0.00000009  -0.00000001  1
+  Mg  Mg1  1  0.33333334  0.66666677  0.50000000  1
+  Ca  Ca2  1  0.66666667  0.33333335  0.50000000  1
+  Ca  Ca3  1  0.45632397  0.54367607  0.00000001  1
+  Ca  Ca4  1  0.45632392  0.91264783  -0.00000001  1
+  Ca  Ca5  1  0.08735214  0.54367610  -0.00000000  1
+  Ba  Ba6  1  0.16828165  0.83171838  0.00000000  1
+  Ba  Ba7  1  0.16828178  0.33656359  0.00000000  1
+  Ba  Ba8  1  0.66343656  0.83171832  -0.00000000  1
+  Ca  Ca9  1  0.18350293  0.81649708  0.50000000  1
+  Ca  Ca10  1  0.18350290  0.36700575  0.50000000  1
+  Ca  Ca11  1  0.63299421  0.81649710  0.49999999  1
+  In  In12  1  0.18101172  0.81898827  0.73319667  1
+  In  In13  1  0.18101171  0.36202341  0.73319668  1
+  In  In14  1  0.63797656  0.81898828  0.73319669  1
+  In  In15  1  0.18101172  0.81898826  0.26680333  1
+  In  In16  1  0.18101171  0.36202341  0.26680333  1
+  In  In17  1  0.63797653  0.81898825  0.26680332  1

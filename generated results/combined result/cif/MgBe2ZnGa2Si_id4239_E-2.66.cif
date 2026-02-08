@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_MgBe2ZnGa2Si
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.15861758
+_cell_length_b   7.15821934
+_cell_length_c   4.71123967
+_cell_angle_alpha   89.99966770
+_cell_angle_beta   90.00035014
+_cell_angle_gamma   90.00018480
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgBe2ZnGa2Si
+_chemical_formula_sum   'Mg2 Be4 Zn2 Ga4 Si2'
+_cell_volume   241.41784130
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  -0.00002881  -0.00002040  0.00000004  1
+  Zn  Zn1  1  0.49996628  0.50001244  -0.00000000  1
+  Si  Si2  1  0.00004736  0.00003683  0.50000004  1
+  Si  Si3  1  0.50004959  0.49997102  0.50000003  1
+  Mg  Mg4  1  -0.00000125  0.50000045  0.21915319  1
+  Mg  Mg5  1  0.49999893  -0.00000041  0.78084678  1
+  Be  Be6  1  0.76933001  0.76932967  -0.00000002  1
+  Be  Be7  1  0.23066266  0.23066149  -0.00000010  1
+  Be  Be8  1  0.73066313  0.26933925  -0.00000034  1
+  Be  Be9  1  0.26933058  0.73067093  0.00000019  1
+  Ga  Ga10  1  0.25644009  0.25644965  0.50000024  1
+  Ga  Ga11  1  0.74355171  0.74356110  0.49999979  1
+  Ga  Ga12  1  0.24355075  0.75643845  0.50000011  1
+  Ga  Ga13  1  0.75643897  0.24354954  0.50000006  1

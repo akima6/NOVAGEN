@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_NaSrCd6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.98049504
+_cell_length_b   9.98048624
+_cell_length_c   5.74555565
+_cell_angle_alpha   90.00007391
+_cell_angle_beta   89.99987436
+_cell_angle_gamma   120.00003315
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaSrCd6
+_chemical_formula_sum   'Na2 Sr2 Cd12'
+_cell_volume   495.63995117
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  -0.00000000  -0.00000000  0.00000000  1
+  Na  Na1  1  0.00000002  0.00000001  0.49999999  1
+  Sr  Sr2  1  0.33333333  0.66666665  0.25000000  1
+  Sr  Sr3  1  0.66666668  0.33333337  0.75000000  1
+  Cd  Cd4  1  0.40827074  0.34054020  0.15160018  1
+  Cd  Cd5  1  0.65945989  0.06773056  0.15160017  1
+  Cd  Cd6  1  0.93226943  0.59172930  0.15160017  1
+  Cd  Cd7  1  0.65945987  0.59172925  0.34839981  1
+  Cd  Cd8  1  0.93226949  0.34054016  0.34839984  1
+  Cd  Cd9  1  0.40827071  0.06773057  0.34839984  1
+  Cd  Cd10  1  0.59172927  0.65945991  0.84839977  1
+  Cd  Cd11  1  0.34054014  0.93226944  0.84839979  1
+  Cd  Cd12  1  0.06773057  0.40827072  0.84839979  1
+  Cd  Cd13  1  0.34054017  0.40827074  0.65160021  1
+  Cd  Cd14  1  0.06773056  0.65945988  0.65160022  1
+  Cd  Cd15  1  0.59172927  0.93226940  0.65160022  1

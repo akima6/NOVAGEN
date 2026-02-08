@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_K2Ba2NaSr(CdAs)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.52803028
+_cell_length_b   12.32431471
+_cell_length_c   20.94875281
+_cell_angle_alpha   89.99995906
+_cell_angle_beta   126.72204179
+_cell_angle_gamma   90.00001918
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Ba2NaSr(CdAs)2
+_chemical_formula_sum   'K2 Ba2 Na1 Sr1 Cd2 As2'
+_cell_volume   937.04090847
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.84457268  0.00000002  0.58856318  1
+  Na  Na1  1  0.77269664  -0.00000000  0.17824436  1
+  K  K2  1  0.87704797  0.49999996  0.40848356  1
+  K  K3  1  0.77713993  0.49999997  0.76035020  1
+  As  As4  1  0.52107917  0.80491716  0.63634496  1
+  As  As5  1  0.52107917  0.19508284  0.63634492  1
+  Ba  Ba6  1  0.84909056  0.32341069  0.56814018  1
+  Ba  Ba7  1  0.84909058  0.67658939  0.56814012  1
+  Cd  Cd8  1  0.32639363  0.18808911  0.22600175  1
+  Cd  Cd9  1  0.32639363  0.81191087  0.22600175  1

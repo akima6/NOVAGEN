@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_KMg12Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.11858081
+_cell_length_b   10.11859301
+_cell_length_c   5.89182312
+_cell_angle_alpha   90.00006325
+_cell_angle_beta   89.99998859
+_cell_angle_gamma   89.99995559
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KMg12Sn
+_chemical_formula_sum   'K2 Mg24 Sn2'
+_cell_volume   603.23903063
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.00000000  -0.00000000  0.00000000  1
+  K  K1  1  0.50000000  0.50000000  0.50000000  1
+  Sn  Sn2  1  0.00000000  0.00000000  0.50000000  1
+  Sn  Sn3  1  0.50000000  0.50000000  0.00000000  1
+  Mg  Mg4  1  0.40478132  0.90478132  0.25000000  1
+  Mg  Mg5  1  0.59521866  0.09521868  0.25000001  1
+  Mg  Mg6  1  0.09521871  0.40478132  0.25000002  1
+  Mg  Mg7  1  0.90478132  0.59521869  0.25000001  1
+  Mg  Mg8  1  0.90478134  0.40478138  0.74999999  1
+  Mg  Mg9  1  0.09521867  0.59521872  0.75000000  1
+  Mg  Mg10  1  0.59521861  0.90478129  0.74999998  1
+  Mg  Mg11  1  0.40478133  0.09521869  0.75000000  1
+  Mg  Mg12  1  0.68246027  0.18196485  0.73392404  1
+  Mg  Mg13  1  0.31753967  0.81803501  0.73392405  1
+  Mg  Mg14  1  0.81803500  0.68246041  0.73392431  1
+  Mg  Mg15  1  0.18196492  0.31753954  0.73392399  1
+  Mg  Mg16  1  0.31753975  0.18196494  0.26607593  1
+  Mg  Mg17  1  0.68246033  0.81803497  0.26607590  1
+  Mg  Mg18  1  0.18196491  0.68246032  0.26607575  1
+  Mg  Mg19  1  0.81803513  0.31753982  0.26607592  1
+  Mg  Mg20  1  0.18246041  0.68196505  0.23392418  1
+  Mg  Mg21  1  0.81753945  0.31803477  0.23392402  1
+  Mg  Mg22  1  0.31803483  0.18246043  0.23392399  1
+  Mg  Mg23  1  0.68196510  0.81753961  0.23392406  1
+  Mg  Mg24  1  0.81753961  0.68196498  0.76607567  1
+  Mg  Mg25  1  0.18246044  0.31803498  0.76607600  1
+  Mg  Mg26  1  0.68196515  0.18246051  0.76607597  1
+  Mg  Mg27  1  0.31803495  0.81753959  0.76607596  1

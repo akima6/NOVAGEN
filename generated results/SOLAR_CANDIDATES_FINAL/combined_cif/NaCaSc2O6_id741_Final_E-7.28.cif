@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaCaSc2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.14865720
+_cell_length_b   5.57558961
+_cell_length_c   9.37981088
+_cell_angle_alpha   47.41176260
+_cell_angle_beta   63.76718777
+_cell_angle_gamma   90.00939382
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCaSc2O6
+_chemical_formula_sum   'Na1 Ca1 Sc2 O6'
+_cell_volume   127.72743124
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.50397322  0.50072111  -0.00040879  1
+  Ca  Ca1  1  0.00485095  0.49872618  0.50069511  1
+  Sc  Sc2  1  0.00009152  1.00012595  0.00008777  1
+  Sc  Sc3  1  0.50066243  0.00001106  0.49974274  1
+  O  O4  1  0.26937252  0.03041618  0.73540175  1
+  O  O5  1  0.71964039  -0.03045957  0.26472280  1
+  O  O6  1  1.01516414  0.49947798  0.24705080  1
+  O  O7  1  -0.01510116  0.50081325  0.75346179  1
+  O  O8  1  0.51164211  0.50110328  0.75263784  1
+  O  O9  1  0.48970382  0.49906459  0.24660817  1

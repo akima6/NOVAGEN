@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_LiAl6In4Ga4Si2P
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.08142975
+_cell_length_b   5.08144040
+_cell_length_c   21.34700853
+_cell_angle_alpha   90.00002171
+_cell_angle_beta   90.00007063
+_cell_angle_gamma   119.99994583
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiAl6In4Ga4Si2P
+_chemical_formula_sum   'Li1 Al6 In4 Ga4 Si2 P1'
+_cell_volume   477.35409664
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  -0.00000001  -0.00000001  0.29037632  1
+  Li  Li1  1  0.00000002  0.00000002  0.46701773  1
+  Ga  Ga2  1  0.00000001  -0.00000001  0.76375638  1
+  P  P3  1  -0.00000000  0.00000001  0.87433422  1
+  In  In4  1  0.33333336  0.66666669  0.94526316  1
+  In  In5  1  0.66666673  0.33333338  0.94526309  1
+  Si  Si6  1  0.33333334  0.66666667  0.32650741  1
+  Si  Si7  1  0.66666668  0.33333332  0.32650743  1
+  In  In8  1  0.33333330  0.66666669  0.18453152  1
+  In  In9  1  0.66666676  0.33333342  0.18453157  1
+  Ga  Ga10  1  0.33333330  0.66666665  0.67072563  1
+  Ga  Ga11  1  0.66666668  0.33333330  0.67072563  1
+  Al  Al12  1  0.49999997  -0.00000002  0.05419853  1
+  Al  Al13  1  -0.00000005  0.49999997  0.05419852  1
+  Al  Al14  1  0.50000000  0.49999998  0.05419853  1
+  Al  Al15  1  0.50000001  0.00000002  0.77612829  1
+  Al  Al16  1  0.00000003  0.50000001  0.77612831  1
+  Al  Al17  1  0.49999999  0.50000002  0.77612832  1

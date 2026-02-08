@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ba2InSiAs2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.23949631
+_cell_length_b   9.22236893
+_cell_length_c   8.58361596
+_cell_angle_alpha   90.00001677
+_cell_angle_beta   89.99938585
+_cell_angle_gamma   90.00000135
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2InSiAs2
+_chemical_formula_sum   'Ba4 In2 Si2 As4'
+_cell_volume   493.92647175
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.00000000  0.00000000  0.00000001  1
+  In  In1  1  0.50000000  0.49999999  0.49999999  1
+  Si  Si2  1  -0.00000001  0.50000001  0.49999999  1
+  Si  Si3  1  0.50000000  0.00000000  0.00000001  1
+  As  As4  1  0.00000010  0.50000001  0.76061505  1
+  As  As5  1  0.49999990  0.00000001  0.73938498  1
+  As  As6  1  -0.00000010  0.49999999  0.23938496  1
+  As  As7  1  0.50000010  -0.00000002  0.26061506  1
+  Ba  Ba8  1  0.26837259  0.69521947  -0.00000002  1
+  Ba  Ba9  1  0.73162742  0.30478053  0.00000011  1
+  Ba  Ba10  1  0.23162740  0.19521946  0.50000005  1
+  Ba  Ba11  1  0.76837257  0.80478053  0.49999987  1

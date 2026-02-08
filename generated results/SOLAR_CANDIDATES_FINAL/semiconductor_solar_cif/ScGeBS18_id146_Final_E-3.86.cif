@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_ScGeBS18
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.31146557
+_cell_length_b   14.68105007
+_cell_length_c   10.42037635
+_cell_angle_alpha   139.88536769
+_cell_angle_beta   51.90131262
+_cell_angle_gamma   107.80206338
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScGeBS18
+_chemical_formula_sum   'Sc1 Ge1 B1 S18'
+_cell_volume   755.69461732
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.93048064  0.95562068  0.59242715  1
+  Ge  Ge1  1  0.63832272  0.80883200  0.56426500  1
+  B  B2  1  0.84593453  0.65011515  0.18130323  1
+  S  S3  1  0.03351290  0.47898599  0.89809086  1
+  S  S4  1  0.01657987  0.93905754  0.27398155  1
+  S  S5  1  0.04541855  0.15542833  0.78888351  1
+  S  S6  1  0.43847401  0.93707977  0.27023928  1
+  S  S7  1  0.25296487  0.84399772  0.25003897  1
+  S  S8  1  0.18065697  0.53247715  0.24156751  1
+  S  S9  1  0.38439010  0.15180376  0.50196619  1
+  S  S10  1  0.52616338  0.58693243  0.26683017  1
+  S  S11  1  0.76255097  0.38356460  0.61346433  1
+  S  S12  1  0.79604741  0.61647576  0.54820155  1
+  S  S13  1  0.73313248  0.62339603  0.62225953  1
+  S  S14  1  0.66623266  0.20152599  0.27332074  1
+  S  S15  1  0.70220081  0.60818810  0.66951546  1
+  S  S16  1  0.69296567  0.67093536  0.15976683  1
+  S  S17  1  0.93514127  0.08214364  0.93911230  1
+  S  S18  1  0.03476293  0.55676971  0.20386614  1
+  S  S19  1  0.94215307  0.47401612  0.58404432  1
+  S  S20  1  0.76793309  0.93650950  0.45445557  1

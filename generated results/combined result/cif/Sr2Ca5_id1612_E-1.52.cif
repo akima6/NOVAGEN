@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Sr2Ca5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.75586965
+_cell_length_b   7.29230937
+_cell_length_c   14.25842127
+_cell_angle_alpha   90.00005875
+_cell_angle_beta   90.00044508
+_cell_angle_gamma   89.99998511
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2Ca5
+_chemical_formula_sum   'Sr8 Ca20'
+_cell_volume   1326.31475051
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  -0.00000002  -0.00000002  -0.00000001  1
+  Ca  Ca1  1  0.00000001  0.50000005  0.50000001  1
+  Ca  Ca2  1  0.50000000  0.50000004  -0.00000003  1
+  Ca  Ca3  1  0.50000003  -0.00000001  0.50000008  1
+  Ca  Ca4  1  0.64926541  0.00000002  -0.00000005  1
+  Ca  Ca5  1  0.35073457  0.50000001  0.50000009  1
+  Ca  Ca6  1  0.35073460  -0.00000001  0.00000007  1
+  Ca  Ca7  1  0.64926545  0.49999999  0.49999991  1
+  Ca  Ca8  1  0.14926544  0.49999999  -0.00000008  1
+  Ca  Ca9  1  0.85073455  0.00000002  0.50000010  1
+  Ca  Ca10  1  0.85073457  0.49999998  0.00000008  1
+  Ca  Ca11  1  0.14926544  -0.00000001  0.49999991  1
+  Ca  Ca12  1  0.25000002  0.79981838  0.24999999  1
+  Ca  Ca13  1  0.74999997  0.70018161  0.74999998  1
+  Ca  Ca14  1  0.74999998  0.20018162  0.74999998  1
+  Ca  Ca15  1  0.25000000  0.29981833  0.24999999  1
+  Ca  Ca16  1  0.75000001  0.29981832  0.25000001  1
+  Ca  Ca17  1  0.25000001  0.20018161  0.75000001  1
+  Ca  Ca18  1  0.24999999  0.70018161  0.74999999  1
+  Ca  Ca19  1  0.74999996  0.79981836  0.24999999  1
+  Sr  Sr20  1  0.00000021  0.66454664  0.31372595  1
+  Sr  Sr21  1  0.00000021  0.83545333  0.81372597  1
+  Sr  Sr22  1  -0.00000023  0.16454664  0.18627399  1
+  Sr  Sr23  1  -0.00000020  0.33545338  0.68627404  1
+  Sr  Sr24  1  0.50000023  0.16454661  0.31372597  1
+  Sr  Sr25  1  0.50000022  0.33545330  0.81372595  1
+  Sr  Sr26  1  0.49999978  0.66454666  0.18627402  1
+  Sr  Sr27  1  0.49999978  0.83545338  0.68627406  1

@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Zn2Cd6(InGa)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.26355673
+_cell_length_b   12.26355701
+_cell_length_c   13.47778729
+_cell_angle_alpha   90.00001907
+_cell_angle_beta   90.00002909
+_cell_angle_gamma   120.00000838
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn2Cd6(InGa)3
+_chemical_formula_sum   'Zn4 Cd12 In6 Ga6'
+_cell_volume   1755.42424290
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.33333337  0.66666670  0.38751389  1
+  Zn  Zn1  1  0.66666669  0.33333332  0.38751377  1
+  Zn  Zn2  1  0.33333333  0.66666669  0.88751383  1
+  Zn  Zn3  1  0.66666670  0.33333334  0.88751380  1
+  In  In4  1  0.50000002  0.00000004  0.40290998  1
+  In  In5  1  -0.00000001  0.50000000  0.40291000  1
+  In  In6  1  0.50000002  0.49999998  0.40290999  1
+  In  In7  1  -0.00000004  0.49999998  0.90290998  1
+  In  In8  1  0.50000002  0.00000006  0.90290995  1
+  In  In9  1  0.49999999  0.50000001  0.90290995  1
+  Ga  Ga10  1  0.50000001  0.00000000  0.69955131  1
+  Ga  Ga11  1  -0.00000002  0.49999999  0.69955134  1
+  Ga  Ga12  1  0.50000002  0.49999996  0.69955135  1
+  Ga  Ga13  1  -0.00000000  0.49999999  0.19955136  1
+  Ga  Ga14  1  0.49999999  -0.00000002  0.19955140  1
+  Ga  Ga15  1  0.50000002  0.49999998  0.19955135  1
+  Cd  Cd16  1  0.60417241  0.42398845  0.06083670  1
+  Cd  Cd17  1  0.57601157  0.18018399  0.06083663  1
+  Cd  Cd18  1  0.81981603  0.39582758  0.06083662  1
+  Cd  Cd19  1  0.39582753  0.57601152  0.06083663  1
+  Cd  Cd20  1  0.42398847  0.81981603  0.06083668  1
+  Cd  Cd21  1  0.18018401  0.60417244  0.06083666  1
+  Cd  Cd22  1  0.57601152  0.39582760  0.56083671  1
+  Cd  Cd23  1  0.81981603  0.42398846  0.56083669  1
+  Cd  Cd24  1  0.60417243  0.18018395  0.56083667  1
+  Cd  Cd25  1  0.42398839  0.60417247  0.56083664  1
+  Cd  Cd26  1  0.18018400  0.57601156  0.56083665  1
+  Cd  Cd27  1  0.39582758  0.81981601  0.56083666  1

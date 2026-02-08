@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Ba2LiCaMg2(CdIn)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.00576908
+_cell_length_b   8.00576854
+_cell_length_c   25.84610101
+_cell_angle_alpha   90.00054491
+_cell_angle_beta   89.97735507
+_cell_angle_gamma   90.00015351
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2LiCaMg2(CdIn)4
+_chemical_formula_sum   'Ba4 Li2 Ca2 Mg4 Cd8 In8'
+_cell_volume   1656.53681517
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  -0.00000002  -0.00000002  0.00000002  1
+  Li  Li1  1  0.49999998  0.49999999  0.50000002  1
+  Ca  Ca2  1  -0.00000002  -0.00000003  0.49999999  1
+  Ca  Ca3  1  0.50000001  0.50000002  -0.00000001  1
+  Mg  Mg4  1  -0.00000001  0.49999998  -0.00000001  1
+  Mg  Mg5  1  0.50000002  -0.00000001  0.00000010  1
+  Mg  Mg6  1  0.49999998  -0.00000002  0.50000005  1
+  Mg  Mg7  1  -0.00000003  0.49999998  0.50000008  1
+  Ba  Ba8  1  0.00000007  -0.00000001  0.11415431  1
+  Ba  Ba9  1  -0.00000008  0.00000001  0.88584571  1
+  Ba  Ba10  1  0.50000006  0.50000000  0.61415429  1
+  Ba  Ba11  1  0.49999993  0.50000000  0.38584569  1
+  In  In12  1  0.00000041  0.49999999  0.61672604  1
+  In  In13  1  0.50000053  -0.00000001  0.61672608  1
+  In  In14  1  -0.00000041  0.50000001  0.38327390  1
+  In  In15  1  0.49999947  0.00000001  0.38327391  1
+  In  In16  1  0.50000040  -0.00000002  0.11672609  1
+  In  In17  1  0.00000053  0.50000000  0.11672612  1
+  In  In18  1  0.49999960  0.00000002  0.88327386  1
+  In  In19  1  -0.00000053  0.49999999  0.88327389  1
+  Cd  Cd20  1  0.74205278  0.74205272  0.00000123  1
+  Cd  Cd21  1  0.25794722  0.25794731  -0.00000126  1
+  Cd  Cd22  1  0.25794723  0.74205268  -0.00000134  1
+  Cd  Cd23  1  0.74205277  0.25794732  0.00000130  1
+  Cd  Cd24  1  0.24205278  0.24205264  0.50000124  1
+  Cd  Cd25  1  0.75794721  0.75794733  0.49999874  1
+  Cd  Cd26  1  0.75794723  0.24205266  0.49999868  1
+  Cd  Cd27  1  0.24205275  0.75794732  0.50000131  1

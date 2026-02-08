@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Ti11Zn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.30703477
+_cell_length_b   6.31533658
+_cell_length_c   6.26962155
+_cell_angle_alpha   90.03303438
+_cell_angle_beta   89.94517535
+_cell_angle_gamma   90.01565980
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti11Zn2
+_chemical_formula_sum   'Ti22 Zn4'
+_cell_volume   249.72542763
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.26660288  0.25458834  0.24334912  1
+  Ti  Ti1  1  0.76538050  0.75526734  0.73077591  1
+  Zn  Zn2  1  0.00001563  0.00001214  -0.00000430  1
+  Zn  Zn3  1  0.50001102  0.50001068  -0.00000524  1
+  Zn  Zn4  1  0.50001329  0.00001276  0.50000266  1
+  Zn  Zn5  1  -0.00001965  0.50001361  0.50000350  1
+  Ti  Ti6  1  0.50001268  0.50002041  0.50003045  1
+  Ti  Ti7  1  -0.00008157  -0.00006753  0.50006846  1
+  Ti  Ti8  1  -0.00012929  0.50008864  -0.00008627  1
+  Ti  Ti9  1  0.50017716  -0.00015940  -0.00016187  1
+  Ti  Ti10  1  0.24908627  0.24994070  0.24624872  1
+  Ti  Ti11  1  0.24084715  0.24237579  0.25736070  1
+  Ti  Ti12  1  0.24938133  0.24594906  0.24784852  1
+  Ti  Ti13  1  0.24924354  0.25724165  0.25559404  1
+  Ti  Ti14  1  0.76010241  0.76227267  0.74930468  1
+  Ti  Ti15  1  0.73009757  0.73734974  0.74126953  1
+  Ti  Ti16  1  0.73921164  0.75183135  0.75781883  1
+  Ti  Ti17  1  0.76311399  0.74457117  0.76685944  1
+  Ti  Ti18  1  0.21741055  0.21799729  0.21682704  1
+  Ti  Ti19  1  0.28035798  0.28061777  0.21921798  1
+  Ti  Ti20  1  0.27969364  0.21923932  0.28123665  1
+  Ti  Ti21  1  0.21737385  0.28208601  0.28226491  1
+  Ti  Ti22  1  0.77897605  0.77879424  0.77934552  1
+  Ti  Ti23  1  0.71959836  0.71866033  0.78085899  1
+  Ti  Ti24  1  0.71753820  0.78199047  0.72159974  1
+  Ti  Ti25  1  0.77598477  0.71929540  0.72237222  1

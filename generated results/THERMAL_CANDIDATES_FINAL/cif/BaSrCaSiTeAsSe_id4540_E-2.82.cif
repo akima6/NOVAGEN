@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_BaSrCaSiTeAsSe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.66042267
+_cell_length_b   10.81862968
+_cell_length_c   13.44251885
+_cell_angle_alpha   89.99993124
+_cell_angle_beta   89.99999074
+_cell_angle_gamma   90.00000311
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaSrCaSiTeAsSe
+_chemical_formula_sum   'Ba4 Sr4 Ca4 Si4 Te4 As4 Se4'
+_cell_volume   1841.20062718
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.01836389  0.97530683  0.99052317  1
+  As  As1  1  0.98163609  0.02469316  0.49052317  1
+  As  As2  1  0.51836396  0.02469312  0.99052320  1
+  As  As3  1  0.48163609  0.97530685  0.49052317  1
+  Si  Si4  1  0.46826680  0.39263134  0.31563342  1
+  Si  Si5  1  0.53173317  0.60736872  0.81563339  1
+  Si  Si6  1  0.96826682  0.60736872  0.31563346  1
+  Si  Si7  1  0.03173311  0.39263129  0.81563341  1
+  Ca  Ca8  1  0.24487527  0.79715101  0.27660499  1
+  Ca  Ca9  1  0.75512476  0.20284900  0.77660494  1
+  Ca  Ca10  1  0.74487530  0.20284903  0.27660496  1
+  Ca  Ca11  1  0.25512470  0.79715096  0.77660497  1
+  Se  Se12  1  0.57911500  0.23540998  0.34686973  1
+  Se  Se13  1  0.42088510  0.76459000  0.84686973  1
+  Se  Se14  1  0.07911490  0.76458996  0.34686967  1
+  Se  Se15  1  0.92088510  0.23541005  0.84686974  1
+  Ba  Ba16  1  0.15883179  0.22259424  0.26154617  1
+  Ba  Ba17  1  0.84116817  0.77740579  0.76154616  1
+  Ba  Ba18  1  0.65883185  0.77740581  0.26154617  1
+  Ba  Ba19  1  0.34116806  0.22259427  0.76154621  1
+  Sr  Sr20  1  0.25622013  0.50799091  0.78639952  1
+  Sr  Sr21  1  0.74377994  0.49200902  0.28639953  1
+  Sr  Sr22  1  0.75621999  0.49200903  0.78639955  1
+  Sr  Sr23  1  0.24377999  0.50799094  0.28639953  1
+  Te  Te24  1  0.92014764  0.74513274  0.97746195  1
+  Te  Te25  1  0.07985237  0.25486726  0.47746184  1
+  Te  Te26  1  0.42014760  0.25486730  0.97746189  1
+  Te  Te27  1  0.57985240  0.74513273  0.47746186  1

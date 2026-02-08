@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_BaNa6SrMgTi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.10240684
+_cell_length_b   6.10240634
+_cell_length_c   22.53887192
+_cell_angle_alpha   90.00083066
+_cell_angle_beta   89.99983376
+_cell_angle_gamma   119.99999692
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaNa6SrMgTi
+_chemical_formula_sum   'Ba1 Na6 Sr1 Mg1 Ti1'
+_cell_volume   726.88398680
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.66666913  0.33333369  -0.00000000  1
+  Na  Na1  1  0.31845709  0.32800235  0.85438058  1
+  Na  Na2  1  0.67199727  0.99045544  0.85437698  1
+  Na  Na3  1  0.00954429  0.68154232  0.85437976  1
+  Na  Na4  1  0.67199727  0.68154243  0.14562229  1
+  Na  Na5  1  0.00954421  0.32800221  0.14562140  1
+  Na  Na6  1  0.31845747  0.99045513  0.14561901  1
+  Sr  Sr7  1  0.66666678  0.33333333  0.49999999  1
+  Mg  Mg8  1  0.33333364  0.66666695  0.50000000  1
+  Ti  Ti9  1  0.99999957  0.99999971  0.50000000  1

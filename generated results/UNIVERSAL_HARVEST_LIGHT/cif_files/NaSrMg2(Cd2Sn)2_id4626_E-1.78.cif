@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NaSrMg2(Cd2Sn)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.43380494
+_cell_length_b   5.43380273
+_cell_length_c   21.82459598
+_cell_angle_alpha   89.99997833
+_cell_angle_beta   89.99993443
+_cell_angle_gamma   89.99999269
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaSrMg2(Cd2Sn)2
+_chemical_formula_sum   'Na2 Sr2 Mg4 Cd8 Sn4'
+_cell_volume   644.39791199
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  -0.00000000  -0.00000000  0.00000000  1
+  Na  Na1  1  0.50000000  0.50000000  0.50000002  1
+  Sr  Sr2  1  0.00000000  -0.00000001  0.49999999  1
+  Sr  Sr3  1  0.50000000  0.50000000  -0.00000001  1
+  Mg  Mg4  1  -0.00000001  0.50000001  0.25000001  1
+  Mg  Mg5  1  0.50000000  -0.00000001  0.24999998  1
+  Mg  Mg6  1  0.49999999  -0.00000000  0.74999999  1
+  Mg  Mg7  1  0.00000000  0.50000000  0.74999997  1
+  Sn  Sn8  1  0.00000000  -0.00000001  0.13488262  1
+  Sn  Sn9  1  0.00000001  -0.00000000  0.86511739  1
+  Sn  Sn10  1  0.50000000  0.50000000  0.63488263  1
+  Sn  Sn11  1  0.50000000  0.50000001  0.36511738  1
+  Cd  Cd12  1  0.00000000  0.50000000  0.60866037  1
+  Cd  Cd13  1  0.50000000  0.00000000  0.60866038  1
+  Cd  Cd14  1  -0.00000000  0.50000001  0.39133962  1
+  Cd  Cd15  1  0.50000000  -0.00000000  0.39133963  1
+  Cd  Cd16  1  0.50000000  0.00000000  0.10866032  1
+  Cd  Cd17  1  0.00000000  0.50000000  0.10866031  1
+  Cd  Cd18  1  0.50000000  0.00000000  0.89133965  1
+  Cd  Cd19  1  0.00000000  0.50000000  0.89133964  1

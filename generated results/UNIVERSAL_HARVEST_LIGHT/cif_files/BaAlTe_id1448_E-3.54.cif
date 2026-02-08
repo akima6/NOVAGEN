@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_BaAlTe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.54740860
+_cell_length_b   12.50409536
+_cell_length_c   8.54226225
+_cell_angle_alpha   89.99999903
+_cell_angle_beta   90.00000307
+_cell_angle_gamma   89.99998587
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaAlTe
+_chemical_formula_sum   'Ba8 Al8 Te8'
+_cell_volume   1019.78985353
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.01023433  -0.00000001  0.00000001  1
+  Al  Al1  1  0.98976566  0.00000000  0.50000000  1
+  Al  Al2  1  0.51023435  0.49999999  0.00000000  1
+  Al  Al3  1  0.48976566  0.50000000  0.50000000  1
+  Al  Al4  1  0.00000000  0.82924444  0.25000000  1
+  Al  Al5  1  0.00000000  0.17075557  0.75000000  1
+  Al  Al6  1  0.50000000  0.32924440  0.25000000  1
+  Al  Al7  1  0.50000000  0.67075556  0.75000000  1
+  Ba  Ba8  1  0.24585573  0.61853470  0.17094944  1
+  Ba  Ba9  1  0.75414428  0.38146533  0.67094943  1
+  Ba  Ba10  1  0.75414428  0.61853468  0.32905055  1
+  Ba  Ba11  1  0.24585573  0.38146530  0.82905056  1
+  Ba  Ba12  1  0.74585572  0.11853467  0.17094946  1
+  Ba  Ba13  1  0.25414428  0.88146530  0.67094944  1
+  Ba  Ba14  1  0.25414428  0.11853467  0.32905054  1
+  Ba  Ba15  1  0.74585571  0.88146531  0.82905056  1
+  Te  Te16  1  0.74905353  0.87019806  0.45986070  1
+  Te  Te17  1  0.25094647  0.12980193  0.95986068  1
+  Te  Te18  1  0.25094647  0.87019808  0.04013930  1
+  Te  Te19  1  0.74905355  0.12980194  0.54013932  1
+  Te  Te20  1  0.24905352  0.37019804  0.45986071  1
+  Te  Te21  1  0.75094648  0.62980191  0.95986069  1
+  Te  Te22  1  0.75094646  0.37019804  0.04013929  1
+  Te  Te23  1  0.24905353  0.62980190  0.54013931  1

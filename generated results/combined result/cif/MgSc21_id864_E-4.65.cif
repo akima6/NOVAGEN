@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_MgSc21
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.03569370
+_cell_length_b   7.03569485
+_cell_length_c   17.89460451
+_cell_angle_alpha   89.99969428
+_cell_angle_beta   90.00324447
+_cell_angle_gamma   120.00001279
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgSc21
+_chemical_formula_sum   'Mg1 Sc21'
+_cell_volume   767.12581571
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  -0.00000000  -0.00000000  0.00000001  1
+  Sc  Sc1  1  0.00000001  0.00000000  0.49999999  1
+  Sc  Sc2  1  0.33333340  0.66666666  0.00000003  1
+  Sc  Sc3  1  0.66666661  0.33333334  -0.00000005  1
+  Sc  Sc4  1  0.50000001  0.00000001  -0.00000001  1
+  Sc  Sc5  1  0.00000000  0.50000000  -0.00000001  1
+  Sc  Sc6  1  0.50000000  0.50000000  -0.00000002  1
+  Sc  Sc7  1  0.50000000  -0.00000000  0.50000000  1
+  Sc  Sc8  1  -0.00000001  0.50000000  0.50000000  1
+  Sc  Sc9  1  0.50000000  0.50000000  0.49999997  1
+  Sc  Sc10  1  0.50000005  -0.00000006  0.84022506  1
+  Sc  Sc11  1  -0.00000015  0.49999991  0.84022507  1
+  Sc  Sc12  1  0.50000003  0.50000012  0.84022506  1
+  Sc  Sc13  1  0.00000016  0.50000008  0.15977493  1
+  Sc  Sc14  1  0.49999995  0.00000008  0.15977495  1
+  Sc  Sc15  1  0.49999998  0.49999989  0.15977493  1
+  Sc  Sc16  1  0.49999995  -0.00000006  0.31432333  1
+  Sc  Sc17  1  -0.00000014  0.49999993  0.31432334  1
+  Sc  Sc18  1  0.49999992  0.50000001  0.31432333  1
+  Sc  Sc19  1  0.00000014  0.50000006  0.68567673  1
+  Sc  Sc20  1  0.50000005  0.00000006  0.68567673  1
+  Sc  Sc21  1  0.50000007  0.49999998  0.68567673  1

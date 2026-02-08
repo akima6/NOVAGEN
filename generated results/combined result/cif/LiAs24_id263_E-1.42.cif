@@ -1,0 +1,51 @@
+# generated using pymatgen
+data_LiAs24
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.23810962
+_cell_length_b   10.76846490
+_cell_length_c   12.13292012
+_cell_angle_alpha   90.00276244
+_cell_angle_beta   89.95849221
+_cell_angle_gamma   90.11784693
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiAs24
+_chemical_formula_sum   'Li1 As24'
+_cell_volume   1337.63578036
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.00000002  -0.00000001  0.28144506  1
+  Li  Li1  1  -0.00000074  0.00000008  0.82702075  1
+  As  As2  1  -0.00005769  0.50002127  0.69894817  1
+  As  As3  1  -0.00014185  0.49994736  0.72412873  1
+  As  As4  1  0.00026794  0.50004972  0.68503667  1
+  As  As5  1  -0.00087440  0.49965145  0.54616402  1
+  As  As6  1  0.00261077  0.50096263  0.56555193  1
+  As  As7  1  0.00000093  0.49999866  0.14589916  1
+  As  As8  1  -0.00002805  0.49999182  0.36932204  1
+  As  As9  1  0.00001929  0.50001527  0.32721597  1
+  As  As10  1  -0.00264381  0.49908370  0.56452230  1
+  As  As11  1  0.00006569  0.50002417  0.79475739  1
+  As  As12  1  -0.00002956  0.50001694  0.66161712  1
+  As  As13  1  0.00080021  0.50023374  0.58725000  1
+  As  As14  1  0.50000072  -0.00000004  0.08967360  1
+  As  As15  1  0.49999347  0.49999832  0.30651579  1
+  As  As16  1  0.50000663  0.50000175  0.47977202  1
+  As  As17  1  -0.00001023  0.30715617  0.31309982  1
+  As  As18  1  -0.00001528  0.69283500  0.31309088  1
+  As  As19  1  0.00001432  0.34669464  0.45149477  1
+  As  As20  1  0.00001689  0.65331030  0.45149938  1
+  As  As21  1  -0.00000479  0.41259536  0.32295609  1
+  As  As22  1  0.00000107  0.58740968  0.32294852  1
+  As  As23  1  0.00000082  0.49155070  0.34982536  1
+  As  As24  1  0.00000764  0.50845130  0.34980315  1

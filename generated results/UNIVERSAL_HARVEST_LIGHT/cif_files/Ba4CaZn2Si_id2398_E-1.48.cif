@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ba4CaZn2Si
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.84223198
+_cell_length_b   12.84222817
+_cell_length_c   12.02848305
+_cell_angle_alpha   90.00027977
+_cell_angle_beta   90.00006113
+_cell_angle_gamma   90.00000182
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba4CaZn2Si
+_chemical_formula_sum   'Ba8 Ca2 Zn4 Si2'
+_cell_volume   1983.77198507
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.00000011  0.50000003  0.00000000  1
+  Ca  Ca1  1  0.50000004  -0.00000007  0.49999991  1
+  Si  Si2  1  0.49999995  0.50000003  0.24999998  1
+  Si  Si3  1  0.50000005  0.49999998  0.75000001  1
+  Zn  Zn4  1  0.31302956  0.80945454  0.00000006  1
+  Zn  Zn5  1  0.68697043  0.19054550  -0.00000006  1
+  Zn  Zn6  1  0.19054547  0.31302959  0.50000001  1
+  Zn  Zn7  1  0.80945452  0.68697042  0.50000000  1
+  Ba  Ba8  1  0.66547475  0.67403258  0.28335053  1
+  Ba  Ba9  1  0.33452520  0.32596754  0.28335034  1
+  Ba  Ba10  1  0.32596744  0.66547468  0.78335063  1
+  Ba  Ba11  1  0.67403248  0.33452524  0.78335041  1
+  Ba  Ba12  1  0.33452523  0.32596745  0.71664961  1
+  Ba  Ba13  1  0.66547479  0.67403248  0.71664954  1
+  Ba  Ba14  1  0.67403250  0.33452525  0.21664965  1
+  Ba  Ba15  1  0.32596748  0.66547475  0.21664937  1

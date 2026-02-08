@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GaSnAsSe2S
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.25516468
+_cell_length_b   8.82617233
+_cell_length_c   9.18679922
+_cell_angle_alpha   83.67366920
+_cell_angle_beta   159.34475230
+_cell_angle_gamma   92.90343999
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaSnAsSe2S
+_chemical_formula_sum   'Ga2 Sn2 As2 Se4 S2'
+_cell_volume   400.68190625
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.00059303  0.50176660  0.77981611  1
+  Ga  Ga1  1  0.43886232  -0.00516724  0.17599307  1
+  Sn  Sn2  1  0.08073210  0.48227460  0.45749847  1
+  Sn  Sn3  1  0.46219102  0.02738897  0.64978798  1
+  As  As4  1  0.06220992  0.97596297  0.89573727  1
+  As  As5  1  0.56235817  0.50333696  -0.03842420  1
+  Se  Se6  1  0.70830446  0.70932889  0.00431989  1
+  Se  Se7  1  0.24531417  0.20733867  0.02777672  1
+  Se  Se8  1  0.70587397  0.30706745  0.00496364  1
+  Se  Se9  1  0.24376916  0.77633285  0.01377776  1
+  S  S10  1  0.05040066  0.50639230  0.08932535  1
+  S  S11  1  0.43939102  0.00797698  0.93942793  1

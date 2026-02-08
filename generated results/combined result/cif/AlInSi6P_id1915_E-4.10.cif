@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_AlInSi6P
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.62342276
+_cell_length_b   6.62342304
+_cell_length_c   6.07596626
+_cell_angle_alpha   89.99986339
+_cell_angle_beta   90.00004603
+_cell_angle_gamma   120.00003777
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlInSi6P
+_chemical_formula_sum   'Al1 In1 Si6 P1'
+_cell_volume   230.83985362
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  -0.00000020  -0.00000018  0.50000003  1
+  In  In1  1  0.33333337  0.66666669  0.00000003  1
+  Al  Al2  1  0.66666672  0.33333341  0.49999998  1
+  Si  Si3  1  0.39276829  0.38988334  0.33989737  1
+  Si  Si4  1  0.61011670  0.00288486  0.33989737  1
+  Si  Si5  1  0.99711506  0.60723178  0.33989737  1
+  Si  Si6  1  0.61011678  0.60723187  0.66010260  1
+  Si  Si7  1  0.99711501  0.38988329  0.66010261  1
+  Si  Si8  1  0.39276825  0.00288490  0.66010263  1

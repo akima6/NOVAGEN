@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_KLiCaGeO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.60378096
+_cell_length_b   10.60378092
+_cell_length_c   9.44764268
+_cell_angle_alpha   90.00000987
+_cell_angle_beta   90.00001879
+_cell_angle_gamma   89.99999558
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLiCaGeO4
+_chemical_formula_sum   'K2 Li2 Ca2 Ge2 O8'
+_cell_volume   1062.29455088
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  -0.00000000  0.00000000  0.01395102  1
+  Ca  Ca1  1  0.49999999  0.50000000  0.01395101  1
+  K  K2  1  -0.00000001  0.00000000  0.47254441  1
+  K  K3  1  0.50000000  0.50000000  0.47254442  1
+  Ge  Ge4  1  0.50000000  -0.00000000  0.40236465  1
+  Ge  Ge5  1  -0.00000000  0.50000000  0.40236465  1
+  Li  Li6  1  0.50000000  -0.00000000  0.15497317  1
+  Li  Li7  1  0.00000000  0.50000000  0.15497317  1
+  O  O8  1  0.41259996  0.58426486  0.21354602  1
+  O  O9  1  0.58740004  0.41573512  0.21354602  1
+  O  O10  1  0.41573512  0.41259996  0.21354600  1
+  O  O11  1  0.58426486  0.58740003  0.21354601  1
+  O  O12  1  0.91260000  0.91573513  0.21354601  1
+  O  O13  1  0.08740005  0.08426491  0.21354599  1
+  O  O14  1  0.91573513  0.08740005  0.21354603  1
+  O  O15  1  0.08426492  0.91259999  0.21354602  1

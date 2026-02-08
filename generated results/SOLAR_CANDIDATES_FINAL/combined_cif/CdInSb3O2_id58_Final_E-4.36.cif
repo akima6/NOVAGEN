@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CdInSb3O2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.86861871
+_cell_length_b   11.40010311
+_cell_length_c   6.87632189
+_cell_angle_alpha   100.35831270
+_cell_angle_beta   68.04512590
+_cell_angle_gamma   83.03141750
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CdInSb3O2
+_chemical_formula_sum   'Cd2 In2 Sb6 O4'
+_cell_volume   410.66781455
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.73649448  0.27959503  0.00306703  1
+  Cd  Cd1  1  0.23758939  0.77384401  0.00179802  1
+  In  In2  1  0.22791773  0.23962955  0.50943933  1
+  In  In3  1  0.72936564  0.73886819  0.50907587  1
+  Sb  Sb4  1  0.19088437  0.16538721  -0.00564846  1
+  Sb  Sb5  1  0.69557478  0.66340982  -0.00872804  1
+  Sb  Sb6  1  -0.01672195  0.04002798  0.51253099  1
+  Sb  Sb7  1  0.48210230  0.54011025  0.51247132  1
+  Sb  Sb8  1  0.49834729  0.00249458  0.49589317  1
+  Sb  Sb9  1  -0.00198015  0.50170871  0.49412567  1
+  O  O10  1  0.35440137  0.24257240  0.17652087  1
+  O  O11  1  0.26045839  0.28325781  0.81012462  1
+  O  O12  1  0.75650325  0.78377294  0.81103420  1
+  O  O13  1  0.84906312  0.74532152  0.17829542  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Li2Mg3ZnIn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.23610161
+_cell_length_b   14.49192883
+_cell_length_c   5.31467131
+_cell_angle_alpha   90.00052558
+_cell_angle_beta   90.00026053
+_cell_angle_gamma   89.99997519
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2Mg3ZnIn2
+_chemical_formula_sum   'Li4 Mg6 Zn2 In4'
+_cell_volume   403.28369996
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.00000000  0.00000006  -0.00000001  1
+  Zn  Zn1  1  0.50000000  0.49999999  -0.00000001  1
+  Mg  Mg2  1  -0.00000001  0.50000009  0.00000001  1
+  Mg  Mg3  1  0.49999999  -0.00000004  0.00000000  1
+  Mg  Mg4  1  0.52741562  0.80231813  -0.00000000  1
+  Mg  Mg5  1  0.47258437  0.19768186  0.00000001  1
+  Mg  Mg6  1  0.97258434  0.30231809  0.00000004  1
+  Mg  Mg7  1  0.02741565  0.69768182  -0.00000006  1
+  Li  Li8  1  0.57500902  0.76280799  0.50000003  1
+  Li  Li9  1  0.42499098  0.23719194  0.49999997  1
+  Li  Li10  1  0.92499095  0.26280801  0.49999994  1
+  Li  Li11  1  0.07500905  0.73719203  0.50000006  1
+  In  In12  1  0.71239292  0.43431260  0.49999993  1
+  In  In13  1  0.28760711  0.56568740  0.50000007  1
+  In  In14  1  0.78760712  0.93431255  0.49999997  1
+  In  In15  1  0.21239288  0.06568742  0.50000005  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Sr2ZnGaSn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.62311977
+_cell_length_b   8.62311991
+_cell_length_c   13.51065412
+_cell_angle_alpha   89.99999722
+_cell_angle_beta   90.00000043
+_cell_angle_gamma   89.99998822
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2ZnGaSn2
+_chemical_formula_sum   'Sr4 Zn2 Ga2 Sn4'
+_cell_volume   1004.62786497
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.00000000  0.00000000  0.00000000  1
+  Ga  Ga1  1  0.50000000  0.50000000  -0.00000000  1
+  Zn  Zn2  1  -0.00000001  0.00000001  0.50000001  1
+  Zn  Zn3  1  0.50000000  0.50000001  0.50000001  1
+  Sn  Sn4  1  0.00000000  -0.00000000  0.32251119  1
+  Sn  Sn5  1  0.50000000  0.50000000  0.32251120  1
+  Sn  Sn6  1  0.50000000  0.50000000  0.67748879  1
+  Sn  Sn7  1  -0.00000000  -0.00000000  0.67748880  1
+  Sr  Sr8  1  0.26357832  0.26357832  0.50000000  1
+  Sr  Sr9  1  0.73642168  0.73642168  0.50000000  1
+  Sr  Sr10  1  0.23642168  0.76357832  0.50000000  1
+  Sr  Sr11  1  0.76357833  0.23642168  0.50000000  1

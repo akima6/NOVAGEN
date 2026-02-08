@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Al2Zn5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.63302128
+_cell_length_b   16.80223505
+_cell_length_c   11.34399538
+_cell_angle_alpha   90.00001512
+_cell_angle_beta   90.00000056
+_cell_angle_gamma   90.00011312
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al2Zn5
+_chemical_formula_sum   'Al8 Zn20'
+_cell_volume   1836.09698042
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.25000000  0.25000000  0.40264832  1
+  Zn  Zn1  1  0.25000000  0.75000000  0.90264832  1
+  Zn  Zn2  1  0.75000000  0.75000000  0.40264831  1
+  Zn  Zn3  1  0.75000000  0.25000000  0.90264832  1
+  Zn  Zn4  1  0.17800354  0.92614226  0.38002941  1
+  Zn  Zn5  1  0.82199647  0.07385776  0.38002941  1
+  Zn  Zn6  1  0.17800354  0.07385776  0.88002940  1
+  Zn  Zn7  1  0.82199646  0.92614224  0.88002941  1
+  Zn  Zn8  1  0.67800351  0.42614225  0.38002940  1
+  Zn  Zn9  1  0.32199647  0.57385775  0.38002942  1
+  Zn  Zn10  1  0.67800352  0.57385774  0.88002942  1
+  Zn  Zn11  1  0.32199646  0.42614226  0.88002942  1
+  Zn  Zn12  1  0.16111489  0.20885010  0.83814802  1
+  Zn  Zn13  1  0.83888512  0.79114991  0.83814802  1
+  Zn  Zn14  1  0.16111497  0.79114977  0.33814802  1
+  Zn  Zn15  1  0.83888504  0.20885023  0.33814802  1
+  Zn  Zn16  1  0.66111488  0.70885009  0.83814801  1
+  Zn  Zn17  1  0.33888512  0.29114990  0.83814800  1
+  Zn  Zn18  1  0.66111497  0.29114978  0.33814803  1
+  Zn  Zn19  1  0.33888503  0.70885024  0.33814802  1
+  Al  Al20  1  0.55735899  0.90507181  0.92102511  1
+  Al  Al21  1  0.44264102  0.09492819  0.92102511  1
+  Al  Al22  1  0.55735901  0.09492817  0.42102517  1
+  Al  Al23  1  0.44264099  0.90507181  0.42102517  1
+  Al  Al24  1  0.05735899  0.40507178  0.92102511  1
+  Al  Al25  1  0.94264102  0.59492822  0.92102512  1
+  Al  Al26  1  0.05735901  0.59492817  0.42102517  1
+  Al  Al27  1  0.94264099  0.40507181  0.42102517  1

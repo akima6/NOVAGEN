@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ca(ZnGa)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.05634252
+_cell_length_b   5.05635443
+_cell_length_c   19.32900792
+_cell_angle_alpha   89.99986530
+_cell_angle_beta   90.00000854
+_cell_angle_gamma   89.99991208
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca(ZnGa)4
+_chemical_formula_sum   'Ca2 Zn8 Ga8'
+_cell_volume   494.17817138
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.75000001  0.25000005  0.24999997  1
+  Ca  Ca1  1  0.25000001  0.75000000  0.74999996  1
+  Ga  Ga2  1  0.24999999  0.97627475  0.60364032  1
+  Ga  Ga3  1  0.24999997  0.52372526  0.60364022  1
+  Ga  Ga4  1  0.52372539  0.25000000  0.10364012  1
+  Ga  Ga5  1  0.97627459  0.25000002  0.10364038  1
+  Ga  Ga6  1  0.75000002  0.47627470  0.39635958  1
+  Ga  Ga7  1  0.75000001  0.02372532  0.39635988  1
+  Ga  Ga8  1  0.47627487  0.74999999  0.89635977  1
+  Ga  Ga9  1  0.02372520  0.75000000  0.89635966  1
+  Zn  Zn10  1  0.25000001  0.48943067  0.47046393  1
+  Zn  Zn11  1  0.24999999  0.01056932  0.47046382  1
+  Zn  Zn12  1  0.01056931  0.25000002  0.97046392  1
+  Zn  Zn13  1  0.48943069  0.25000001  0.97046374  1
+  Zn  Zn14  1  0.75000002  0.98943073  0.52953615  1
+  Zn  Zn15  1  0.75000000  0.51056928  0.52953610  1
+  Zn  Zn16  1  0.98943069  0.74999996  0.02953622  1
+  Zn  Zn17  1  0.51056930  0.74999999  0.02953626  1

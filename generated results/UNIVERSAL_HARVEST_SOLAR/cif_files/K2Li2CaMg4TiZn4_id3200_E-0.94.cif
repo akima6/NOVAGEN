@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_K2Li2CaMg4TiZn4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.65442012
+_cell_length_b   12.65441961
+_cell_length_c   9.69418080
+_cell_angle_alpha   89.99999680
+_cell_angle_beta   90.00002313
+_cell_angle_gamma   89.99999599
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Li2CaMg4TiZn4
+_chemical_formula_sum   'K4 Li4 Ca2 Mg8 Ti2 Zn8'
+_cell_volume   1552.37126412
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.00000000  0.00000000  0.00000000  1
+  Ca  Ca1  1  0.50000000  0.50000000  0.00000000  1
+  K  K2  1  0.00000000  -0.00000000  0.50000000  1
+  K  K3  1  0.50000000  0.50000000  0.50000000  1
+  K  K4  1  -0.00000000  0.49999999  0.19185596  1
+  K  K5  1  0.49999999  -0.00000002  0.80810182  1
+  Ti  Ti6  1  0.00000001  0.50000001  0.21855390  1
+  Ti  Ti7  1  0.50000001  0.00000002  0.78148735  1
+  Li  Li8  1  0.72729541  0.72729575  -0.00000005  1
+  Li  Li9  1  0.27270459  0.27270425  -0.00000005  1
+  Li  Li10  1  0.77270425  0.22729541  -0.00000005  1
+  Li  Li11  1  0.22729575  0.77270459  -0.00000005  1
+  Mg  Mg12  1  0.58227024  0.87715736  0.49439720  1
+  Mg  Mg13  1  0.41772977  0.12284263  0.49439722  1
+  Mg  Mg14  1  0.62284262  0.08227020  0.49439721  1
+  Mg  Mg15  1  0.37715736  0.91772976  0.49439721  1
+  Mg  Mg16  1  0.91772955  0.37715647  0.50560285  1
+  Mg  Mg17  1  0.08227039  0.62284351  0.50560285  1
+  Mg  Mg18  1  0.87715647  0.58227044  0.50560285  1
+  Mg  Mg19  1  0.12284352  0.41772956  0.50560284  1
+  Zn  Zn20  1  0.21075249  0.62298140  0.68073317  1
+  Zn  Zn21  1  0.78924751  0.37701860  0.68073317  1
+  Zn  Zn22  1  0.87701860  0.71075249  0.68073317  1
+  Zn  Zn23  1  0.12298139  0.28924751  0.68073318  1
+  Zn  Zn24  1  0.28924787  0.12298141  0.31926705  1
+  Zn  Zn25  1  0.71075211  0.87701859  0.31926707  1
+  Zn  Zn26  1  0.62298142  0.21075211  0.31926707  1
+  Zn  Zn27  1  0.37701859  0.78924789  0.31926706  1

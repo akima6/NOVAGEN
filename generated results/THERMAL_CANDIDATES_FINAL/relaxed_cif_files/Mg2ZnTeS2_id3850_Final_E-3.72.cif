@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Mg2ZnTeS2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.56459865
+_cell_length_b   6.51476191
+_cell_length_c   3.69409378
+_cell_angle_alpha   89.98009710
+_cell_angle_beta   89.99998806
+_cell_angle_gamma   90.00000734
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg2ZnTeS2
+_chemical_formula_sum   'Mg4 Zn2 Te2 S4'
+_cell_volume   254.24911030
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.24999833  0.25000037  0.50000009  1
+  Mg  Mg1  1  0.75000023  0.25000032  0.49999996  1
+  Mg  Mg2  1  0.74999876  0.75000044  0.49999999  1
+  Mg  Mg3  1  0.25000095  0.75000035  0.50000002  1
+  Zn  Zn4  1  -0.00000004  1.00000001  0.49999966  1
+  Zn  Zn5  1  0.49999994  0.50000000  0.50000016  1
+  Te  Te6  1  0.50000014  -0.00000020  0.49999999  1
+  Te  Te7  1  1.00000013  0.49999970  0.50000002  1
+  S  S8  1  0.16667411  0.99999970  0.00000015  1
+  S  S9  1  0.83332669  0.99999979  0.00000015  1
+  S  S10  1  0.66667419  0.49999976  0.00000014  1
+  S  S11  1  0.33332658  0.49999977  0.99999966  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Na2Sr2Ca4Cd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   31.54945605
+_cell_length_b   31.54944952
+_cell_length_c   13.51043030
+_cell_angle_alpha   90.00002850
+_cell_angle_beta   90.00003564
+_cell_angle_gamma   89.99989368
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Sr2Ca4Cd
+_chemical_formula_sum   'Na4 Sr4 Ca8 Cd2'
+_cell_volume   13447.84959790
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.50000000  0.00000000  0.00000000  1
+  Cd  Cd1  1  0.00000000  0.50000000  0.00000000  1
+  Na  Na2  1  0.00000000  0.50000000  0.23031699  1
+  Na  Na3  1  0.50000000  -0.00000001  0.23031699  1
+  Na  Na4  1  0.00000001  0.50000000  0.76968299  1
+  Na  Na5  1  0.50000000  0.00000000  0.76968299  1
+  Sr  Sr6  1  0.17232689  0.00000001  0.50000000  1
+  Sr  Sr7  1  0.82767311  0.00000000  0.50000000  1
+  Sr  Sr8  1  0.00000000  0.17232687  0.50000000  1
+  Sr  Sr9  1  -0.00000000  0.82767313  0.50000000  1
+  Ca  Ca10  1  0.43903785  0.64409743  0.00352553  1
+  Ca  Ca11  1  0.56096216  0.35590252  0.00352553  1
+  Ca  Ca12  1  0.35590246  0.43903785  0.00352555  1
+  Ca  Ca13  1  0.64409758  0.56096217  0.00352553  1
+  Ca  Ca14  1  0.56096217  0.64409756  0.99647448  1
+  Ca  Ca15  1  0.43903789  0.35590249  0.99647449  1
+  Ca  Ca16  1  0.64409739  0.43903787  0.99647448  1
+  Ca  Ca17  1  0.35590254  0.56096217  0.99647448  1

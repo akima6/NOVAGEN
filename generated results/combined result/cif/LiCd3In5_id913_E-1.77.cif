@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_LiCd3In5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.06376039
+_cell_length_b   9.56979828
+_cell_length_c   12.68603260
+_cell_angle_alpha   89.99998062
+_cell_angle_beta   90.00006529
+_cell_angle_gamma   89.99998526
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCd3In5
+_chemical_formula_sum   'Li2 Cd6 In10'
+_cell_volume   857.56009934
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.00000001  0.00000002  -0.00000001  1
+  Cd  Cd1  1  0.50000000  -0.00000001  0.49999999  1
+  Li  Li2  1  0.50000000  -0.00000000  -0.00000000  1
+  Li  Li3  1  0.00000000  0.00000000  0.50000000  1
+  In  In4  1  0.00000001  0.50000005  0.00000004  1
+  In  In5  1  0.50000001  0.49999998  0.50000003  1
+  Cd  Cd6  1  -0.00000001  0.42183020  0.76932488  1
+  Cd  Cd7  1  0.50000000  0.57816980  0.26932487  1
+  Cd  Cd8  1  0.50000001  0.42183021  0.73067514  1
+  Cd  Cd9  1  -0.00000000  0.57816982  0.23067508  1
+  In  In10  1  0.19619567  0.24316167  0.91546130  1
+  In  In11  1  0.30380433  0.75683835  0.41546130  1
+  In  In12  1  0.30380434  0.24316166  0.58453871  1
+  In  In13  1  0.19619566  0.75683832  0.08453872  1
+  In  In14  1  0.80380436  0.75683829  0.08453871  1
+  In  In15  1  0.69619565  0.24316169  0.58453871  1
+  In  In16  1  0.69619565  0.75683835  0.41546128  1
+  In  In17  1  0.80380430  0.24316167  0.91546126  1

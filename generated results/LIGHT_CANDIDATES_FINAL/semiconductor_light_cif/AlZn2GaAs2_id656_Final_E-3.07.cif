@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_AlZn2GaAs2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.10582555
+_cell_length_b   5.10354417
+_cell_length_c   10.69494807
+_cell_angle_alpha   90.00014069
+_cell_angle_beta   90.00002278
+_cell_angle_gamma   90.00226304
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlZn2GaAs2
+_chemical_formula_sum   'Al2 Zn4 Ga2 As4'
+_cell_volume   278.68688431
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  -0.00141135  -0.00019805  0.50000017  1
+  Al  Al1  1  0.49956884  0.50075137  -0.00000043  1
+  Zn  Zn2  1  -0.00002897  0.50007402  0.25000018  1
+  Zn  Zn3  1  0.50022587  -0.00012263  0.24999985  1
+  Zn  Zn4  1  0.50023099  -0.00011617  0.75000094  1
+  Zn  Zn5  1  -0.00002708  0.50007643  0.74999954  1
+  Ga  Ga6  1  -0.00090033  -0.00014498  1.00000014  1
+  Ga  Ga7  1  0.49980073  0.50042335  0.49999964  1
+  As  As8  1  0.00085505  0.00004494  0.72298541  1
+  As  As9  1  0.00084278  1.00002675  0.27701489  1
+  As  As10  1  0.50041530  0.49957990  0.22298382  1
+  As  As11  1  0.50042819  0.49960506  0.77701592  1

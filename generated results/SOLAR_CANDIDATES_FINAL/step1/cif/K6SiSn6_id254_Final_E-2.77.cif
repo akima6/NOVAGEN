@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_K6SiSn6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.59301412
+_cell_length_b   8.06023639
+_cell_length_c   11.67980223
+_cell_angle_alpha   96.25546426
+_cell_angle_beta   94.58976431
+_cell_angle_gamma   91.56202826
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K6SiSn6
+_chemical_formula_sum   'K6 Si1 Sn6'
+_cell_volume   707.81948586
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.44184898  0.03966821  0.45135118  1.0
+  K  K1  1  0.46740267  0.53836619  0.00634021  1.0
+  K  K2  1  0.98891100  0.42741387  0.00132153  1.0
+  K  K3  1  0.98863401  0.88782619  0.67950594  1.0
+  K  K4  1  0.43813280  0.11479148  0.89028734  1.0
+  K  K5  1  0.65439470  0.53816374  0.46008289  1.0
+  Si  Si6  1  0.03672629  0.00838947  0.96953556  1.0
+  Sn  Sn7  1  0.48424067  0.76697962  0.70951712  1.0
+  Sn  Sn8  1  0.56432433  0.25385376  0.20483311  1.0
+  Sn  Sn9  1  0.75890913  0.81404548  0.91544339  1.0
+  Sn  Sn10  1  0.19152863  0.13935740  0.17076685  1.0
+  Sn  Sn11  1  0.69827622  0.50261824  0.75665458  1.0
+  Sn  Sn12  1  0.28667059  0.46852634  0.28436025  1.0

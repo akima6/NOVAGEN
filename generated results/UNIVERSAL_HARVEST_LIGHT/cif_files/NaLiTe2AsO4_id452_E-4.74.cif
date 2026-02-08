@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_NaLiTe2AsO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.88832776
+_cell_length_b   4.91553681
+_cell_length_c   9.64105871
+_cell_angle_alpha   90.00002684
+_cell_angle_beta   90.00000203
+_cell_angle_gamma   89.99998486
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLiTe2AsO4
+_chemical_formula_sum   'Na2 Li2 Te4 As2 O8'
+_cell_volume   279.05361739
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  -0.00000002  0.00000002  -0.00000011  1
+  Na  Na1  1  0.49999997  0.50000002  0.50000000  1
+  As  As2  1  0.50000008  0.00000007  -0.00000005  1
+  As  As3  1  -0.00000005  0.50000001  0.50000007  1
+  Li  Li4  1  -0.00000001  0.49999999  -0.00000002  1
+  Li  Li5  1  0.49999999  0.00000000  0.50000002  1
+  Te  Te6  1  -0.00000002  -0.00000001  0.31499224  1
+  Te  Te7  1  -0.00000001  -0.00000001  0.68500766  1
+  Te  Te8  1  0.50000005  0.50000000  0.81499294  1
+  Te  Te9  1  0.50000009  0.49999998  0.18500703  1
+  O  O10  1  0.68920717  0.66648301  0.66430437  1
+  O  O11  1  0.31079285  0.33351697  0.66430428  1
+  O  O12  1  0.31079278  0.66648304  0.33569576  1
+  O  O13  1  0.68920721  0.33351693  0.33569562  1
+  O  O14  1  0.18920713  0.16648303  0.16430425  1
+  O  O15  1  0.81079291  0.83351695  0.16430422  1
+  O  O16  1  0.81079282  0.16648305  0.83569585  1
+  O  O17  1  0.18920719  0.83351695  0.83569576  1

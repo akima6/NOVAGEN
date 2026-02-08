@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Li4Mg2Sc2BeAl12(Zn3Ga)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.55508165
+_cell_length_b   11.03196062
+_cell_length_c   16.63647870
+_cell_angle_alpha   114.15877409
+_cell_angle_beta   64.62722569
+_cell_angle_gamma   114.84706948
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li4Mg2Sc2BeAl12(Zn3Ga)2
+_chemical_formula_sum   'Li4 Mg2 Sc2 Be1 Al12 Zn6 Ga2'
+_cell_volume   947.07211818
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Be  Be0  1  -0.00000000  -0.00000005  0.00000002  1
+  Zn  Zn1  1  0.04934945  0.40327397  0.82018238  1
+  Zn  Zn2  1  0.95065054  0.59672601  0.17981767  1
+  Ga  Ga3  1  0.33966899  1.00289745  0.66274076  1
+  Ga  Ga4  1  0.66033099  -0.00289740  0.33725914  1
+  Al  Al5  1  0.57125406  0.79995096  0.13370188  1
+  Al  Al6  1  0.42874595  0.20004906  0.86629815  1
+  Al  Al7  1  0.57586392  0.53915709  0.42094068  1
+  Al  Al8  1  0.42413608  0.46084296  0.57905928  1
+  Zn  Zn9  1  0.79334476  0.21903386  0.87284779  1
+  Zn  Zn10  1  0.20665530  0.78096611  0.12715217  1
+  Al  Al11  1  0.67582511  0.72669921  0.56065058  1
+  Al  Al12  1  0.32417488  0.27330069  0.43934950  1
+  Al  Al13  1  0.57119182  0.03792447  0.17896677  1
+  Al  Al14  1  0.42880818  0.96207549  0.82103332  1
+  Zn  Zn15  1  0.72889953  0.58917107  0.05570418  1
+  Zn  Zn16  1  0.27110051  0.41082896  0.94429580  1
+  Sc  Sc17  1  0.82354823  0.25324906  0.13077330  1
+  Sc  Sc18  1  0.17645178  0.74675092  0.86922676  1
+  Mg  Mg19  1  0.67576048  0.61891867  0.69166652  1
+  Mg  Mg20  1  0.32423954  0.38108140  0.30833344  1
+  Al  Al21  1  0.79761995  0.20736236  0.70490249  1
+  Al  Al22  1  0.20238000  0.79263769  0.29509746  1
+  Li  Li23  1  0.78613800  0.67374278  0.93280698  1
+  Li  Li24  1  0.21386200  0.32625733  0.06719296  1
+  Al  Al25  1  0.84279327  0.88410605  0.87636532  1
+  Al  Al26  1  0.15720668  0.11589391  0.12363465  1
+  Li  Li27  1  0.60521342  0.19872217  0.32144812  1
+  Li  Li28  1  0.39478660  0.80127777  0.67855195  1

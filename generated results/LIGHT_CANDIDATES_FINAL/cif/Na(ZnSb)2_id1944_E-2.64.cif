@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Na(ZnSb)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.38332977
+_cell_length_b   7.38333368
+_cell_length_c   8.52389858
+_cell_angle_alpha   89.99984713
+_cell_angle_beta   90.00015575
+_cell_angle_gamma   120.00103529
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na(ZnSb)2
+_chemical_formula_sum   'Na3 Zn6 Sb6'
+_cell_volume   402.41034519
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.24221930  0.00000017  0.33333329  1
+  Na  Na1  1  0.00000017  0.24221930  0.66666674  1
+  Na  Na2  1  0.75778071  0.75778071  -0.00000000  1
+  Zn  Zn3  1  0.99504139  0.45600159  0.17879244  1
+  Zn  Zn4  1  0.54400158  0.53903700  0.51213082  1
+  Zn  Zn5  1  0.46096010  0.00495894  0.84545924  1
+  Zn  Zn6  1  0.45600131  0.99504140  0.82120777  1
+  Zn  Zn7  1  0.53903707  0.54400168  0.48786921  1
+  Zn  Zn8  1  0.00495903  0.46095985  0.15454058  1
+  Sb  Sb9  1  0.35583821  0.46569938  0.22471630  1
+  Sb  Sb10  1  0.53429992  0.89013971  0.55804920  1
+  Sb  Sb11  1  0.10986106  0.64416096  0.89138287  1
+  Sb  Sb12  1  0.46569940  0.35583826  0.77528366  1
+  Sb  Sb13  1  0.89013972  0.53429990  0.44195083  1
+  Sb  Sb14  1  0.64416094  0.10986105  0.10861718  1

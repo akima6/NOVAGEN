@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Mg6Zn3Ga3SnSb2Te3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.92749221
+_cell_length_b   10.93086218
+_cell_length_c   6.71671307
+_cell_angle_alpha   90.40015413
+_cell_angle_beta   90.66310208
+_cell_angle_gamma   120.29993669
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg6Zn3Ga3SnSb2Te3
+_chemical_formula_sum   'Mg6 Zn3 Ga3 Sn1 Sb2 Te3'
+_cell_volume   692.57181437
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  -0.00008586  -0.00006878  0.91416099  1
+  Sb  Sb1  1  0.33335295  0.66667098  0.70448016  1
+  Sb  Sb2  1  0.66666745  0.33335290  0.70448022  1
+  Zn  Zn3  1  0.21687888  -0.00007155  0.25097147  1
+  Zn  Zn4  1  0.00000078  0.21800463  0.25026975  1
+  Zn  Zn5  1  0.77626766  0.77632327  0.24740075  1
+  Mg  Mg6  1  0.24446773  -0.00016165  0.21578073  1
+  Mg  Mg7  1  -0.00009663  0.24497157  0.21616428  1
+  Mg  Mg8  1  0.76046442  0.76049470  0.21738512  1
+  Ga  Ga9  1  0.63344998  0.00000483  0.28685312  1
+  Ga  Ga10  1  -0.00000716  0.63343656  0.28685300  1
+  Ga  Ga11  1  0.36659695  0.36660962  0.28685854  1
+  Mg  Mg12  1  0.83820141  0.00036927  0.15267900  1
+  Mg  Mg13  1  0.00046921  0.83818904  0.15265756  1
+  Mg  Mg14  1  0.16198140  0.16188835  0.15277895  1
+  Te  Te15  1  0.23768397  0.00027444  0.22592086  1
+  Te  Te16  1  0.00013958  0.23622248  0.22620247  1
+  Te  Te17  1  0.76356727  0.76348933  0.22806603  1

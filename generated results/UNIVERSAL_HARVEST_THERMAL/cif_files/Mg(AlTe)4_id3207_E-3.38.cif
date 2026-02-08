@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Mg(AlTe)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.48737321
+_cell_length_b   6.48741346
+_cell_length_c   6.14982758
+_cell_angle_alpha   89.99969741
+_cell_angle_beta   89.99987542
+_cell_angle_gamma   90.00052796
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg(AlTe)4
+_chemical_formula_sum   'Mg1 Al4 Te4'
+_cell_volume   258.82331771
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  -0.00000002  -0.00000005  0.00000004  1
+  Al  Al1  1  0.49999997  -0.00000003  0.00000008  1
+  Al  Al2  1  0.00000004  0.49999994  -0.00000000  1
+  Al  Al3  1  0.49999988  0.00000055  0.50000012  1
+  Al  Al4  1  0.00000015  0.49999990  0.50000013  1
+  Te  Te5  1  0.66530648  0.66530640  0.25897010  1
+  Te  Te6  1  0.33469347  0.33469330  0.25897033  1
+  Te  Te7  1  0.66530641  0.33469342  0.74102958  1
+  Te  Te8  1  0.33469361  0.66530656  0.74102962  1

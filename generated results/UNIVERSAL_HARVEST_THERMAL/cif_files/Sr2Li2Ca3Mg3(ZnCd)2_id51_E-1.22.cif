@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Sr2Li2Ca3Mg3(ZnCd)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.74835552
+_cell_length_b   5.58127702
+_cell_length_c   12.41083047
+_cell_angle_alpha   89.99834281
+_cell_angle_beta   74.76138147
+_cell_angle_gamma   90.00030362
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2Li2Ca3Mg3(ZnCd)2
+_chemical_formula_sum   'Sr4 Li4 Ca6 Mg6 Zn4 Cd4'
+_cell_volume   985.67358693
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.00000001  -0.00000000  -0.00000000  1
+  Mg  Mg1  1  0.50000000  0.50000000  0.00000001  1
+  Ca  Ca2  1  -0.00000001  0.50000001  0.49999999  1
+  Ca  Ca3  1  0.49999996  0.00000002  0.50000003  1
+  Zn  Zn4  1  0.60173852  -0.00000002  0.88290625  1
+  Zn  Zn5  1  0.39826147  0.00000003  0.11709371  1
+  Zn  Zn6  1  0.10173858  0.49999997  0.88290624  1
+  Zn  Zn7  1  0.89826146  0.50000002  0.11709374  1
+  Li  Li8  1  0.15367795  -0.00000000  0.86757894  1
+  Li  Li9  1  0.84632206  -0.00000000  0.13242104  1
+  Li  Li10  1  0.65367796  0.49999999  0.86757893  1
+  Li  Li11  1  0.34632201  0.50000000  0.13242107  1
+  Cd  Cd12  1  0.62194069  0.00000000  0.65746545  1
+  Cd  Cd13  1  0.37805934  -0.00000000  0.34253458  1
+  Cd  Cd14  1  0.12194064  0.50000000  0.65746544  1
+  Cd  Cd15  1  0.87805930  0.50000000  0.34253455  1
+  Sr  Sr16  1  0.62587432  0.00000005  0.10763020  1
+  Sr  Sr17  1  0.37412570  -0.00000005  0.89236983  1
+  Sr  Sr18  1  0.12587427  0.50000004  0.10763021  1
+  Sr  Sr19  1  0.87412566  0.49999996  0.89236981  1
+  Ca  Ca20  1  0.83690244  0.00000000  0.86034246  1
+  Ca  Ca21  1  0.16309761  -0.00000000  0.13965755  1
+  Ca  Ca22  1  0.33690244  0.49999999  0.86034239  1
+  Ca  Ca23  1  0.66309756  0.49999998  0.13965755  1
+  Mg  Mg24  1  0.73828981  0.00000003  0.34927760  1
+  Mg  Mg25  1  0.26171017  -0.00000003  0.65072240  1
+  Mg  Mg26  1  0.23828985  0.50000003  0.34927762  1
+  Mg  Mg27  1  0.76171018  0.49999997  0.65072240  1

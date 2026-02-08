@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KZn(CdTe)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.21584842
+_cell_length_b   6.21585393
+_cell_length_c   11.76253899
+_cell_angle_alpha   89.99991765
+_cell_angle_beta   89.99994796
+_cell_angle_gamma   89.99999630
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KZn(CdTe)2
+_chemical_formula_sum   'K2 Zn2 Cd4 Te4'
+_cell_volume   454.46693468
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.00000001  0.49999999  0.25000003  1
+  K  K1  1  0.49999999  0.00000000  0.74999997  1
+  Zn  Zn2  1  -0.00000017  0.00000006  0.00000001  1
+  Zn  Zn3  1  0.00000019  0.99999998  0.49999999  1
+  Cd  Cd4  1  0.49999999  0.23539833  0.25000001  1
+  Cd  Cd5  1  0.50000001  0.76460170  0.24999999  1
+  Cd  Cd6  1  0.23539847  0.49999999  0.75000002  1
+  Cd  Cd7  1  0.76460159  0.50000001  0.75000001  1
+  Te  Te8  1  0.99999994  0.49999999  0.54555564  1
+  Te  Te9  1  0.49999986  0.00000002  0.45444434  1
+  Te  Te10  1  0.00000002  0.49999998  0.95444434  1
+  Te  Te11  1  0.50000013  -0.00000003  0.04555559  1

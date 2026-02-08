@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_ScZnTeS
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.71642981
+_cell_length_b   7.87752296
+_cell_length_c   9.33166585
+_cell_angle_alpha   90.01031398
+_cell_angle_beta   89.99999678
+_cell_angle_gamma   90.00000263
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScZnTeS
+_chemical_formula_sum   'Sc4 Zn4 Te4 S4'
+_cell_volume   787.76915820
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  -0.00000000  0.05687672  0.19780437  1
+  Te  Te1  1  -0.00000000  0.94312089  0.69780561  1
+  Te  Te2  1  0.50000000  0.55687710  0.19780478  1
+  Te  Te3  1  0.50000000  0.44312148  0.69780660  1
+  Sc  Sc4  1  -0.00000000  0.38252006  0.99336157  1
+  Sc  Sc5  1  -0.00000000  0.61747968  0.49336162  1
+  Sc  Sc6  1  0.50000000  0.88251976  0.99336102  1
+  Sc  Sc7  1  0.50000000  0.11748001  0.49336142  1
+  S  S8  1  -0.00000000  0.87103595  0.38278538  1
+  S  S9  1  0.00000000  0.12896429  0.88278458  1
+  S  S10  1  0.50000000  0.37103511  0.38278640  1
+  S  S11  1  0.50000000  0.62896296  0.88278287  1
+  Zn  Zn12  1  0.00000000  0.91236898  0.71968887  1
+  Zn  Zn13  1  0.00000000  0.08763346  0.21969038  1
+  Zn  Zn14  1  0.50000000  0.41236998  0.71968977  1
+  Zn  Zn15  1  0.50000000  0.58763354  0.21968951  1

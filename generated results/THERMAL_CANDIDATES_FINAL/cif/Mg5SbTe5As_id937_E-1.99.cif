@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Mg5SbTe5As
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.47290878
+_cell_length_b   18.70265283
+_cell_length_c   16.85984956
+_cell_angle_alpha   90.00002148
+_cell_angle_beta   102.32621670
+_cell_angle_gamma   89.99997112
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg5SbTe5As
+_chemical_formula_sum   'Mg10 Sb2 Te10 As2'
+_cell_volume   1994.01233636
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.01975146  0.00000000  0.77766620  1
+  Te  Te1  1  0.51975143  0.50000000  0.77766615  1
+  Te  Te2  1  0.40239489  -0.00000001  0.83749163  1
+  Te  Te3  1  0.90239488  0.49999999  0.83749167  1
+  Sb  Sb4  1  0.61414342  0.00000002  0.71611245  1
+  Sb  Sb5  1  0.11414351  0.50000001  0.71611236  1
+  Te  Te6  1  0.88260843  -0.00000001  0.60725413  1
+  Te  Te7  1  0.38260833  0.49999999  0.60725431  1
+  As  As8  1  0.70721616  0.00000001  0.19973651  1
+  As  As9  1  0.20731813  0.50000001  0.19925595  1
+  Mg  Mg10  1  0.71039235  0.00000000  0.19420386  1
+  Mg  Mg11  1  0.21029047  0.50000000  0.19468536  1
+  Te  Te12  1  0.67449362  0.57110662  0.48681169  1
+  Te  Te13  1  0.67449363  0.42889340  0.48681172  1
+  Te  Te14  1  0.17449377  0.07110670  0.48681186  1
+  Te  Te15  1  0.17449378  0.92889333  0.48681189  1
+  Mg  Mg16  1  0.13532126  0.16766251  0.37512954  1
+  Mg  Mg17  1  0.13532125  0.83233743  0.37512951  1
+  Mg  Mg18  1  0.63532132  0.66766257  0.37512915  1
+  Mg  Mg19  1  0.63532131  0.33233744  0.37512913  1
+  Mg  Mg20  1  0.16065529  0.31279709  0.31502351  1
+  Mg  Mg21  1  0.16065529  0.68720288  0.31502351  1
+  Mg  Mg22  1  0.66065527  0.81279740  0.31502355  1
+  Mg  Mg23  1  0.66065527  0.18720261  0.31502353  1

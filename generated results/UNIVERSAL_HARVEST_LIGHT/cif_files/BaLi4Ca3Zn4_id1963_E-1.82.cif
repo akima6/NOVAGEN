@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_BaLi4Ca3Zn4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.97396017
+_cell_length_b   7.97395866
+_cell_length_c   7.97396002
+_cell_angle_alpha   90.00008399
+_cell_angle_beta   90.00013746
+_cell_angle_gamma   89.99993165
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaLi4Ca3Zn4
+_chemical_formula_sum   'Ba2 Li8 Ca6 Zn8'
+_cell_volume   507.01650304
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.00000004  0.00000008  -0.00000005  1
+  Ba  Ba1  1  0.50000004  0.50000006  0.49999999  1
+  Ca  Ca2  1  0.00000001  0.49999996  0.50000003  1
+  Ca  Ca3  1  0.49999999  0.00000002  0.50000002  1
+  Ca  Ca4  1  0.49999999  0.49999996  -0.00000001  1
+  Ca  Ca5  1  0.50000001  -0.00000002  0.00000001  1
+  Ca  Ca6  1  -0.00000001  0.50000001  0.00000001  1
+  Ca  Ca7  1  -0.00000002  -0.00000002  0.50000000  1
+  Li  Li8  1  0.22750120  0.22750123  0.22750111  1
+  Li  Li9  1  0.77249956  0.77249961  0.22750043  1
+  Li  Li10  1  0.77249888  0.22750127  0.77249879  1
+  Li  Li11  1  0.22750094  0.77249917  0.77249904  1
+  Li  Li12  1  0.72750133  0.72750132  0.72750120  1
+  Li  Li13  1  0.27249936  0.27249940  0.72750062  1
+  Li  Li14  1  0.27249891  0.72750121  0.27249882  1
+  Li  Li15  1  0.72750113  0.27249905  0.27249892  1
+  Zn  Zn16  1  0.23868144  0.23868141  0.23868151  1
+  Zn  Zn17  1  0.76131775  0.76131772  0.23868223  1
+  Zn  Zn18  1  0.76131849  0.23868136  0.76131857  1
+  Zn  Zn19  1  0.23868170  0.76131819  0.76131831  1
+  Zn  Zn20  1  0.73868131  0.73868132  0.73868143  1
+  Zn  Zn21  1  0.26131796  0.26131792  0.73868206  1
+  Zn  Zn22  1  0.26131844  0.73868144  0.26131852  1
+  Zn  Zn23  1  0.73868154  0.26131830  0.26131842  1

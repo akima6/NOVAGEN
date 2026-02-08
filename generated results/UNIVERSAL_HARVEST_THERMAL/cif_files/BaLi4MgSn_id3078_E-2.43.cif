@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_BaLi4MgSn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.31125120
+_cell_length_b   7.31125055
+_cell_length_c   6.23535122
+_cell_angle_alpha   89.99995485
+_cell_angle_beta   90.00000471
+_cell_angle_gamma   89.99998512
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaLi4MgSn
+_chemical_formula_sum   'Ba2 Li8 Mg2 Sn2'
+_cell_volume   333.30689180
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.00000001  0.00000001  0.00000001  1
+  Ba  Ba1  1  0.50000001  0.50000000  0.49999999  1
+  Sn  Sn2  1  0.00000000  0.50000001  0.25000001  1
+  Sn  Sn3  1  0.49999999  -0.00000001  0.75000002  1
+  Mg  Mg4  1  -0.00000000  0.50000000  0.74999998  1
+  Mg  Mg5  1  0.49999999  -0.00000000  0.25000000  1
+  Li  Li6  1  0.67261212  0.67261210  0.00000000  1
+  Li  Li7  1  0.32738788  0.32738789  -0.00000000  1
+  Li  Li8  1  0.67261207  0.32738794  0.00000000  1
+  Li  Li9  1  0.32738793  0.67261206  -0.00000000  1
+  Li  Li10  1  0.17261207  0.17261210  0.50000000  1
+  Li  Li11  1  0.82738793  0.82738791  0.50000000  1
+  Li  Li12  1  0.17261211  0.82738788  0.50000000  1
+  Li  Li13  1  0.82738789  0.17261211  0.50000000  1

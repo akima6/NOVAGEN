@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_BaLiAlCdIn5GaSn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.31705892
+_cell_length_b   8.72099190
+_cell_length_c   13.15494598
+_cell_angle_alpha   89.99999997
+_cell_angle_beta   94.07360928
+_cell_angle_gamma   90.00000797
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaLiAlCdIn5GaSn
+_chemical_formula_sum   'Ba1 Li1 Al1 Cd1 In5 Ga1 Sn1'
+_cell_volume   1180.62582044
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.15631011  0.00000000  0.46580077  1
+  In  In1  1  0.14427076  -0.00000000  0.22429838  1
+  In  In2  1  0.50253960  -0.00000000  0.60264836  1
+  In  In3  1  0.69654400  0.00000000  0.42931113  1
+  Sn  Sn4  1  0.81864673  0.00000000  0.99240496  1
+  Cd  Cd5  1  0.84570083  -0.00000000  0.98833568  1
+  In  In6  1  0.91186125  0.00000000  0.36691046  1
+  Al  Al7  1  0.88404794  -0.00000000  0.70161101  1
+  Li  Li8  1  0.82913587  0.00000000  0.97167933  1
+  Ga  Ga9  1  0.89639498  0.00000000  0.54972728  1
+  Ba  Ba10  1  0.99147076  0.50000000  0.23965013  1
