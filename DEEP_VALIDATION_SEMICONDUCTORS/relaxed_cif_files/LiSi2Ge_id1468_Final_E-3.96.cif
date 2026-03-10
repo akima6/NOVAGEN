@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiSiGe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.56165148
+_cell_length_b   5.71384987
+_cell_length_c   5.03721277
+_cell_angle_alpha   63.19402290
+_cell_angle_beta   89.91684011
+_cell_angle_gamma   89.97182919
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiSiGe
+_chemical_formula_sum   'Li4 Si4 Ge4'
+_cell_volume   219.93953125
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.74941294  0.24744474  0.24996387  1
+  Li  Li1  1  0.24942335  0.75174109  0.25039760  1
+  Li  Li2  1  0.25016481  0.25145616  0.75024701  1
+  Li  Li3  1  0.75030340  0.74779104  0.74975644  1
+  Si  Si4  1  0.99637369  0.50159539  0.25084676  1
+  Si  Si5  1  0.49841084  -0.00050032  0.74973785  1
+  Si  Si6  1  1.00354465  0.50175502  0.75049079  1
+  Si  Si7  1  0.50328105  0.99789041  0.24930670  1
+  Ge  Ge8  1  -0.05169558  1.00139165  0.99937276  1
+  Ge  Ge9  1  0.55094084  0.49923679  0.49965120  1
+  Ge  Ge10  1  0.05128419  1.00105430  0.50057506  1
+  Ge  Ge11  1  0.44826124  0.49944244  -0.00025546  1

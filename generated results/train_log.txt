@@ -1,0 +1,75 @@
+🚀 STARTING PHASE 1: THE CHEMIST
+   Goal: Enforce Spatial Density, Pauling Electronegativity, and Charge Neutrality
+   📁 Logs will be saved to: C:\Users\REHNA\NOVAGEN - Copy\reports
+📊 Ep 1 | Avg Reward: -4.15 | Avg Volume: 28.5 Å³ | Lattice Bias: 2.2000
+📊 Ep 2 | Avg Reward: -4.28 | Avg Volume: 27.2 Å³ | Lattice Bias: 2.2000
+📊 Ep 3 | Avg Reward: -4.59 | Avg Volume: 28.2 Å³ | Lattice Bias: 2.2000
+📊 Ep 4 | Avg Reward: -4.31 | Avg Volume: 28.8 Å³ | Lattice Bias: 2.2000
+📊 Ep 5 | Avg Reward: -4.19 | Avg Volume: 39.4 Å³ | Lattice Bias: 2.2000
+   💾 Checkpoint Saved: epoch_5
+📊 Ep 6 | Avg Reward: -4.01 | Avg Volume: 25.9 Å³ | Lattice Bias: 2.2000
+📊 Ep 7 | Avg Reward: -4.52 | Avg Volume: 28.6 Å³ | Lattice Bias: 2.2000
+📊 Ep 8 | Avg Reward: -4.22 | Avg Volume: 25.7 Å³ | Lattice Bias: 2.2000
+📊 Ep 9 | Avg Reward: -4.09 | Avg Volume: 33.3 Å³ | Lattice Bias: 2.2000
+📊 Ep 10 | Avg Reward: -4.05 | Avg Volume: 31.2 Å³ | Lattice Bias: 2.2000
+   💾 Checkpoint Saved: epoch_10
+📊 Ep 11 | Avg Reward: -3.98 | Avg Volume: 26.9 Å³ | Lattice Bias: 2.2000
+📊 Ep 12 | Avg Reward: -4.44 | Avg Volume: 32.1 Å³ | Lattice Bias: 2.2000
+📊 Ep 13 | Avg Reward: -4.56 | Avg Volume: 29.4 Å³ | Lattice Bias: 2.2000
+📊 Ep 14 | Avg Reward: -4.55 | Avg Volume: 24.2 Å³ | Lattice Bias: 2.2000
+📊 Ep 15 | Avg Reward: -4.00 | Avg Volume: 28.6 Å³ | Lattice Bias: 2.2000
+   💾 Checkpoint Saved: epoch_15
+📊 Ep 16 | Avg Reward: -3.93 | Avg Volume: 30.4 Å³ | Lattice Bias: 2.2000
+📊 Ep 17 | Avg Reward: -4.38 | Avg Volume: 32.2 Å³ | Lattice Bias: 2.2000
+📊 Ep 18 | Avg Reward: -3.80 | Avg Volume: 33.2 Å³ | Lattice Bias: 2.2000
+📊 Ep 19 | Avg Reward: -4.13 | Avg Volume: 30.1 Å³ | Lattice Bias: 2.2000
+📊 Ep 20 | Avg Reward: -4.47 | Avg Volume: 27.9 Å³ | Lattice Bias: 2.2000
+   💾 Checkpoint Saved: epoch_20
+📊 Ep 21 | Avg Reward: -4.05 | Avg Volume: 31.6 Å³ | Lattice Bias: 2.2000
+📊 Ep 22 | Avg Reward: -3.92 | Avg Volume: 29.6 Å³ | Lattice Bias: 2.2000
+📊 Ep 23 | Avg Reward: -4.37 | Avg Volume: 28.4 Å³ | Lattice Bias: 2.2000
+📊 Ep 24 | Avg Reward: -4.08 | Avg Volume: 29.4 Å³ | Lattice Bias: 2.2000
+📊 Ep 25 | Avg Reward: -4.21 | Avg Volume: 29.7 Å³ | Lattice Bias: 2.2000
+   💾 Checkpoint Saved: epoch_25
+📊 Ep 26 | Avg Reward: -3.88 | Avg Volume: 31.0 Å³ | Lattice Bias: 2.2000
+📊 Ep 27 | Avg Reward: -3.65 | Avg Volume: 25.5 Å³ | Lattice Bias: 2.2000
+📊 Ep 28 | Avg Reward: -4.09 | Avg Volume: 24.4 Å³ | Lattice Bias: 2.2000
+📊 Ep 29 | Avg Reward: -3.81 | Avg Volume: 28.8 Å³ | Lattice Bias: 2.2000
+📊 Ep 30 | Avg Reward: -4.77 | Avg Volume: 23.6 Å³ | Lattice Bias: 2.2000
+   💾 Checkpoint Saved: epoch_30
+📊 Ep 31 | Avg Reward: -4.51 | Avg Volume: 26.1 Å³ | Lattice Bias: 2.2000
+📊 Ep 32 | Avg Reward: -3.84 | Avg Volume: 30.8 Å³ | Lattice Bias: 2.1999
+📊 Ep 33 | Avg Reward: -4.24 | Avg Volume: 30.1 Å³ | Lattice Bias: 2.1999
+📊 Ep 34 | Avg Reward: -4.37 | Avg Volume: 27.5 Å³ | Lattice Bias: 2.1999
+📊 Ep 35 | Avg Reward: -4.56 | Avg Volume: 24.0 Å³ | Lattice Bias: 2.1999
+   💾 Checkpoint Saved: epoch_35
+📊 Ep 36 | Avg Reward: -4.31 | Avg Volume: 25.6 Å³ | Lattice Bias: 2.1999
+📊 Ep 37 | Avg Reward: -3.84 | Avg Volume: 37.8 Å³ | Lattice Bias: 2.1999
+📊 Ep 38 | Avg Reward: -3.77 | Avg Volume: 26.6 Å³ | Lattice Bias: 2.1999
+📊 Ep 39 | Avg Reward: -3.90 | Avg Volume: 30.4 Å³ | Lattice Bias: 2.1999
+📊 Ep 40 | Avg Reward: -4.45 | Avg Volume: 23.8 Å³ | Lattice Bias: 2.1999
+   💾 Checkpoint Saved: epoch_40
+📊 Ep 41 | Avg Reward: -3.51 | Avg Volume: 28.5 Å³ | Lattice Bias: 2.1999
+📊 Ep 42 | Avg Reward: -4.54 | Avg Volume: 31.6 Å³ | Lattice Bias: 2.1999
+📊 Ep 43 | Avg Reward: -3.89 | Avg Volume: 29.2 Å³ | Lattice Bias: 2.1999
+📊 Ep 44 | Avg Reward: -4.00 | Avg Volume: 25.5 Å³ | Lattice Bias: 2.1999
+📊 Ep 45 | Avg Reward: -3.93 | Avg Volume: 24.5 Å³ | Lattice Bias: 2.1999
+   💾 Checkpoint Saved: epoch_45
+📊 Ep 46 | Avg Reward: -4.24 | Avg Volume: 23.3 Å³ | Lattice Bias: 2.1999
+📊 Ep 47 | Avg Reward: -4.13 | Avg Volume: 25.8 Å³ | Lattice Bias: 2.1999
+📊 Ep 48 | Avg Reward: -4.15 | Avg Volume: 36.9 Å³ | Lattice Bias: 2.1999
+📊 Ep 49 | Avg Reward: -4.21 | Avg Volume: 27.9 Å³ | Lattice Bias: 2.1999
+📊 Ep 50 | Avg Reward: -3.96 | Avg Volume: 23.0 Å³ | Lattice Bias: 2.1999
+   💾 Checkpoint Saved: epoch_50
+📊 Ep 51 | Avg Reward: -4.33 | Avg Volume: 27.5 Å³ | Lattice Bias: 2.1999
+📊 Ep 52 | Avg Reward: -4.15 | Avg Volume: 25.2 Å³ | Lattice Bias: 2.1999
+📊 Ep 53 | Avg Reward: -3.97 | Avg Volume: 28.2 Å³ | Lattice Bias: 2.1999
+📊 Ep 54 | Avg Reward: -4.29 | Avg Volume: 25.0 Å³ | Lattice Bias: 2.1999
+📊 Ep 55 | Avg Reward: -4.03 | Avg Volume: 26.6 Å³ | Lattice Bias: 2.1999
+   💾 Checkpoint Saved: epoch_55
+📊 Ep 56 | Avg Reward: -4.49 | Avg Volume: 21.7 Å³ | Lattice Bias: 2.1999
+📊 Ep 57 | Avg Reward: -4.37 | Avg Volume: 30.0 Å³ | Lattice Bias: 2.1999
+📊 Ep 58 | Avg Reward: -3.87 | Avg Volume: 28.6 Å³ | Lattice Bias: 2.1999
+📊 Ep 59 | Avg Reward: -4.52 | Avg Volume: 34.7 Å³ | Lattice Bias: 2.1999
+📊 Ep 60 | Avg Reward: -4.39 | Avg Volume: 24.8 Å³ | Lattice Bias: 2.1999
+   💾 Checkpoint Saved: epoch_60

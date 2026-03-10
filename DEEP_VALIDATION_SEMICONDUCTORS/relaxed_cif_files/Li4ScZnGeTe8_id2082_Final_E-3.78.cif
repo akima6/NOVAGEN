@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Li4ScZnGeTe6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.70314678
+_cell_length_b   14.35768502
+_cell_length_c   10.63484693
+_cell_angle_alpha   90.00065724
+_cell_angle_beta   118.28424463
+_cell_angle_gamma   89.99881248
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li4ScZnGeTe6
+_chemical_formula_sum   'Li8 Sc2 Zn2 Ge2 Te12'
+_cell_volume   766.85399668
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.68889862  0.33944475  0.66852858  1
+  Li  Li1  1  0.33103476  0.68667559  0.70355400  1
+  Li  Li2  1  0.31109472  0.33944643  0.33147392  1
+  Li  Li3  1  0.66896883  0.68667192  0.29644947  1
+  Li  Li4  1  0.18889837  0.83944474  0.16852873  1
+  Li  Li5  1  0.83103425  0.18667532  0.20355419  1
+  Li  Li6  1  0.81109457  0.83944652  0.83147409  1
+  Li  Li7  1  0.16896941  0.18667203  0.79644996  1
+  Sc  Sc8  1  1.00000454  1.04917324  0.00000273  1
+  Sc  Sc9  1  0.50000434  0.54917316  0.50000211  1
+  Zn  Zn10  1  -0.00000081  0.55239388  -0.00000176  1
+  Zn  Zn11  1  0.49999901  0.05239372  0.49999819  1
+  Ge  Ge12  1  0.49998859  -0.00554348  -0.00001706  1
+  Ge  Ge13  1  -0.00000818  0.49445652  0.49998603  1
+  Te  Te14  1  0.02909140  -0.00551220  0.26223708  1
+  Te  Te15  1  -0.02907475  -0.00551494  0.73776418  1
+  Te  Te16  1  0.52908988  0.49448755  0.76223703  1
+  Te  Te17  1  0.47092363  0.49448516  0.23776404  1
+  Te  Te18  1  0.28371142  0.21126689  0.53751654  1
+  Te  Te19  1  0.78274669  0.72011583  0.59669375  1
+  Te  Te20  1  0.71628628  0.21126587  0.46248789  1
+  Te  Te21  1  0.21724968  0.72011641  0.40330937  1
+  Te  Te22  1  0.78371174  0.71126683  0.03751645  1
+  Te  Te23  1  0.28274738  0.22011583  0.09669383  1
+  Te  Te24  1  0.21628629  0.71126607  0.96248791  1
+  Te  Te25  1  0.71724934  0.22011639  0.90330899  1

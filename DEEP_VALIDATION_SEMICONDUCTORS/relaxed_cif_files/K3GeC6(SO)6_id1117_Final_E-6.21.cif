@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_K3GeC6(SO)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.69039334
+_cell_length_b   9.43605573
+_cell_length_c   8.02581608
+_cell_angle_alpha   89.68313106
+_cell_angle_beta   89.27552237
+_cell_angle_gamma   119.67168752
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3GeC6(SO)6
+_chemical_formula_sum   'K3 Ge1 C6 S6 O6'
+_cell_volume   637.53541825
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  1.00117823  0.99740911  0.49965500  1
+  K  K1  1  0.33668629  0.66954343  0.24685711  1
+  K  K2  1  0.66314651  0.33073673  0.75327935  1
+  Ge  Ge3  1  0.00125809  -0.00290104  0.99898546  1
+  C  C4  1  0.73128079  0.66510862  0.53996388  1
+  C  C5  1  0.33399672  0.06658513  0.54017430  1
+  C  C6  1  0.93388185  0.26874487  0.54009644  1
+  C  C7  1  0.66602357  0.73261308  0.46000043  1
+  C  C8  1  0.06606754  0.33503254  0.45994822  1
+  C  C9  1  0.26834280  0.93357928  0.45976057  1
+  S  S10  1  0.26657517  0.08275492  0.09782105  1
+  S  S11  1  0.91790487  0.18170753  0.09837201  1
+  S  S12  1  0.81781492  0.74026512  0.09753709  1
+  S  S13  1  0.07964790  0.26001476  0.90221310  1
+  S  S14  1  0.18244741  0.92151958  0.90307601  1
+  S  S15  1  0.73390460  0.81704090  0.90204378  1
+  O  O16  1  0.38774526  0.20387554  0.59342095  1
+  O  O17  1  0.79906747  0.18361811  0.59341544  1
+  O  O18  1  0.81872812  0.61729464  0.59213372  1
+  O  O19  1  0.20041254  0.38288298  0.40717524  1
+  O  O20  1  0.18163309  0.79715169  0.40773105  1
+  O  O21  1  0.61225629  0.81542255  0.40633977  1

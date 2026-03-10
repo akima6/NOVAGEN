@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_SiAsP2S7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.10894190
+_cell_length_b   7.56033952
+_cell_length_c   19.82594748
+_cell_angle_alpha   68.55442677
+_cell_angle_beta   39.39893943
+_cell_angle_gamma   37.99770451
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SiAsP2S7
+_chemical_formula_sum   'Si1 As1 P2 S7'
+_cell_volume   371.60904473
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.03987205  0.00267255  -0.01473413  1
+  As  As1  1  0.97373779  0.50707098  0.52537139  1
+  P  P2  1  0.42538690  -0.05165381  0.48243304  1
+  P  P3  1  0.62762919  0.00379746  0.50545750  1
+  S  S4  1  0.52939153  0.55939221  0.96918723  1
+  S  S5  1  0.96527312  0.02768161  0.63529575  1
+  S  S6  1  0.05109061  -0.03979376  0.36042297  1
+  S  S7  1  0.88699495  0.58745596  0.65440392  1
+  S  S8  1  0.09818865  0.45954646  0.28415936  1
+  S  S9  1  0.35582137  0.52094481  0.94207292  1
+  S  S10  1  0.54661385  0.42288553  0.15593005  1

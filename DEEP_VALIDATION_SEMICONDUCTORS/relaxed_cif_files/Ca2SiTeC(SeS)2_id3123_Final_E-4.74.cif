@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Ca2SiTeCSe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.09980853
+_cell_length_b   3.85134686
+_cell_length_c   5.57911209
+_cell_angle_alpha   90.00005316
+_cell_angle_beta   70.59102640
+_cell_angle_gamma   89.99994598
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2SiTeCSe2
+_chemical_formula_sum   'Ca2 Si1 Te1 C1 Se2'
+_cell_volume   184.41669744
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.34708079  0.00000050  0.25132161  1
+  Ca  Ca1  1  0.65144613  0.99999900  0.67527731  1
+  Si  Si2  1  -0.00358056  -0.00000013  0.17177816  1
+  Te  Te3  1  0.00062385  0.50000022  0.50223837  1
+  C  C4  1  0.49974974  0.49999932  -0.03041460  1
+  Se  Se5  1  0.63865617  0.50000050  0.13426807  1
+  Se  Se6  1  0.36602389  0.50000059  0.79553118  1

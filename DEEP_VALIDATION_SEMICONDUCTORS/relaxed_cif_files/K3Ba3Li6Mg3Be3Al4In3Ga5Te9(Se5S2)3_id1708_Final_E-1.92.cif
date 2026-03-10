@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_K3Ba3Li6Be3AlIn3Ga2Te3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.23412547
+_cell_length_b   7.23405287
+_cell_length_c   37.57278135
+_cell_angle_alpha   89.99998801
+_cell_angle_beta   90.00000635
+_cell_angle_gamma   119.99569342
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3Ba3Li6Be3AlIn3Ga2Te3
+_chemical_formula_sum   'K3 Ba3 Li6 Be3 Al1 In3 Ga2 Te3'
+_cell_volume   1702.90545784
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.50000003  0.99999997  0.94605401  1
+  K  K1  1  0.00000010  0.50000000  0.94606134  1
+  K  K2  1  0.50000014  0.50000002  0.94601338  1
+  Ba  Ba3  1  0.49999990  0.99999980  0.05317563  1
+  Ba  Ba4  1  -0.00000005  0.49999982  0.05317947  1
+  Ba  Ba5  1  0.49999997  0.49999986  0.05315444  1
+  Li  Li6  1  0.50000003  -0.00000001  0.85587106  1
+  Li  Li7  1  0.00000048  0.49999997  0.85587548  1
+  Li  Li8  1  0.50000054  0.50000004  0.85584674  1
+  Li  Li9  1  0.50000005  0.99999994  0.16776418  1
+  Li  Li10  1  -0.00000002  0.49999999  0.16776331  1
+  Li  Li11  1  0.50000002  0.49999999  0.16776945  1
+  Be  Be12  1  0.50000002  -0.00000000  0.42584249  1
+  Be  Be13  1  0.00000001  0.50000000  0.42584236  1
+  Be  Be14  1  0.50000001  0.50000002  0.42584424  1
+  Al  Al15  1  -0.00000004  -0.00000003  0.08996679  1
+  In  In16  1  0.49999999  0.00000000  0.67542730  1
+  In  In17  1  0.00000002  0.50000001  0.67542732  1
+  In  In18  1  0.49999999  0.49999999  0.67542730  1
+  Ga  Ga19  1  0.33334023  0.66666245  0.12250103  1
+  Ga  Ga20  1  0.66665982  0.33333747  0.12250101  1
+  Te  Te21  1  0.49999994  0.99999998  0.48353432  1
+  Te  Te22  1  0.00000010  0.50000001  0.48353422  1
+  Te  Te23  1  0.49999987  0.49999999  0.48353647  1

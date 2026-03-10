@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_NaMgZnCdTe12As2PSe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.90113852
+_cell_length_b   12.82723789
+_cell_length_c   8.92868098
+_cell_angle_alpha   66.82279377
+_cell_angle_beta   117.98433051
+_cell_angle_gamma   61.60661794
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaMgZnCdTe12As2PSe2
+_chemical_formula_sum   'Na1 Mg1 Zn1 Cd1 Te12 As2 P1 Se2'
+_cell_volume   752.10964415
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.70311960  0.25433284  0.66471872  1
+  Mg  Mg1  1  0.88017408  0.46669947  0.18322202  1
+  Zn  Zn2  1  0.64633949  0.43596272  0.03212060  1
+  Cd  Cd3  1  0.65192161  0.60477639  0.38470809  1
+  Te  Te4  1  0.04684485  0.11445360  0.33877291  1
+  Te  Te5  1  0.17875155  0.01393947  0.19660821  1
+  Te  Te6  1  0.34447892  0.19209927  0.48953907  1
+  Te  Te7  1  0.27552943  0.61775345  0.07263126  1
+  Te  Te8  1  0.36332471  0.01806398  0.85438501  1
+  Te  Te9  1  0.36149900  0.16719422  0.02599393  1
+  Te  Te10  1  0.34184977  0.66949133  0.37372225  1
+  Te  Te11  1  0.48479207  0.91249025  0.52481216  1
+  Te  Te12  1  0.82526111  0.58562286  0.75854686  1
+  Te  Te13  1  0.46200777  0.29777876  0.18632855  1
+  Te  Te14  1  0.86183228  0.30605504  0.48740195  1
+  Te  Te15  1  1.00719353  0.59064202  0.25665813  1
+  As  As16  1  0.69254637  0.46911036  0.79277155  1
+  As  As17  1  0.77061893  0.73853394  0.26984961  1
+  P  P18  1  0.72775484  0.92515596  0.96397898  1
+  Se  Se19  1  0.80210245  0.00927951  0.65227038  1
+  Se  Se20  1  0.85578258  0.85678213  0.32793044  1

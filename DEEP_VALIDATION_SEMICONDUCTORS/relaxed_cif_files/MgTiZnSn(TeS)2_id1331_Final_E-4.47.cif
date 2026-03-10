@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_MgTiZnSn(TeS)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.30822394
+_cell_length_b   21.90169148
+_cell_length_c   7.59919516
+_cell_angle_alpha   77.82201676
+_cell_angle_beta   69.96825966
+_cell_angle_gamma   41.92621814
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTiZnSn(TeS)2
+_chemical_formula_sum   'Mg2 Ti2 Zn2 Sn2 Te4 S4'
+_cell_volume   657.46825366
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.27654136  0.73241380  0.13637163  1
+  Mg  Mg1  1  0.72346802  0.26758298  0.86362866  1
+  Ti  Ti2  1  0.28999841  0.25422683  0.77723039  1
+  Ti  Ti3  1  0.71000190  0.74577379  0.22276863  1
+  Zn  Zn4  1  0.17880850  0.72267676  0.51287392  1
+  Zn  Zn5  1  0.82118699  0.27732532  0.48712665  1
+  Sn  Sn6  1  0.29380386  0.77359995  0.73648441  1
+  Sn  Sn7  1  0.70619234  0.22640015  0.26351761  1
+  Te  Te8  1  0.31016735  0.85240444  0.99939683  1
+  Te  Te9  1  0.26988727  0.64236137  0.93576346  1
+  Te  Te10  1  0.73011317  0.35763786  0.06423590  1
+  Te  Te11  1  0.68983166  0.14759478  0.00060452  1
+  S  S12  1  0.27800481  0.35455454  0.59317913  1
+  S  S13  1  0.25787269  0.18644931  0.61036018  1
+  S  S14  1  0.74212903  0.81355133  0.38963715  1
+  S  S15  1  0.72199266  0.64544680  0.40682092  1

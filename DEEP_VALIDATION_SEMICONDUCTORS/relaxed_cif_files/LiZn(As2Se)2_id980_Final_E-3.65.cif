@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_LiZn(As2Se)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.25934306
+_cell_length_b   10.33070766
+_cell_length_c   5.14940966
+_cell_angle_alpha   90.00071253
+_cell_angle_beta   90.00006530
+_cell_angle_gamma   90.00112876
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiZn(As2Se)2
+_chemical_formula_sum   'Li2 Zn2 As8 Se4'
+_cell_volume   545.76674261
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00000239  0.49999848  0.39680898  1
+  Li  Li1  1  0.50000208  1.00000032  0.60319582  1
+  Zn  Zn2  1  0.99999742  -0.00000175  -0.00000193  1
+  Zn  Zn3  1  0.49999816  0.50000255  0.00000024  1
+  As  As4  1  0.18437095  0.68437257  0.45766291  1
+  As  As5  1  0.81562817  0.31562989  0.45766326  1
+  As  As6  1  0.68437002  0.81562878  0.54233539  1
+  As  As7  1  0.31562991  0.18436875  0.54233788  1
+  As  As8  1  0.13357273  0.63345739  0.01531295  1
+  As  As9  1  0.86642255  0.36654633  0.01531491  1
+  As  As10  1  0.63357433  0.86654278  0.98468828  1
+  As  As11  1  0.36642259  0.13345537  0.98468400  1
+  Se  Se12  1  0.29725964  0.79735740  0.10835795  1
+  Se  Se13  1  0.70274581  0.20263656  0.10835278  1
+  Se  Se14  1  0.79725588  0.70264448  0.89163915  1
+  Se  Se15  1  0.20274734  0.29736009  0.89164740  1

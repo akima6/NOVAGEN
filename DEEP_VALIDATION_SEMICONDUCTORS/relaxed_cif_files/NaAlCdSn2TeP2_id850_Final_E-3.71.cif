@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_NaAlCdSnTeP2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.81449067
+_cell_length_b   10.20019508
+_cell_length_c   6.81349450
+_cell_angle_alpha   89.99999553
+_cell_angle_beta   89.99997385
+_cell_angle_gamma   90.00014818
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaAlCdSnTeP2
+_chemical_formula_sum   'Na4 Al4 Cd4 Sn4 Te4 P8'
+_cell_volume   821.09496965
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.08059273  0.88101400  0.17445232  1
+  Na  Na1  1  0.91940712  0.11898573  0.67445231  1
+  Na  Na2  1  0.58059235  0.11898500  0.17445154  1
+  Na  Na3  1  0.41940744  0.88101520  0.67445126  1
+  Al  Al4  1  0.18467128  0.31764991  0.50299508  1
+  Al  Al5  1  0.81532835  0.68235013  0.00299566  1
+  Al  Al6  1  0.68467137  0.68235020  0.50299403  1
+  Al  Al7  1  0.31532861  0.31765011  0.00299481  1
+  Cd  Cd8  1  0.69256925  0.97072544  0.76940011  1
+  Cd  Cd9  1  0.30743077  0.02927393  0.26939942  1
+  Cd  Cd10  1  0.19256871  0.02927301  0.76939947  1
+  Cd  Cd11  1  0.80743134  0.97072790  0.26939867  1
+  Sn  Sn12  1  0.78345387  0.39399733  0.57773826  1
+  Sn  Sn13  1  0.21654602  0.60600233  0.07773832  1
+  Sn  Sn14  1  0.28345400  0.60600244  0.57773808  1
+  Sn  Sn15  1  0.71654602  0.39399765  0.07773808  1
+  Te  Te16  1  0.60214550  0.63952936  0.87133999  1
+  Te  Te17  1  0.39785447  0.36047057  0.37133968  1
+  Te  Te18  1  0.10214553  0.36047001  0.87134028  1
+  Te  Te19  1  0.89785455  0.63952973  0.37134056  1
+  P  P20  1  0.82205439  0.23787804  0.29813311  1
+  P  P21  1  0.17794611  0.76212227  0.79813371  1
+  P  P22  1  0.32205380  0.76212312  0.29813367  1
+  P  P23  1  0.67794635  0.23787670  0.79813405  1
+  P  P24  1  0.12717788  0.10603335  0.43665223  1
+  P  P25  1  0.87282217  0.89396622  0.93665219  1
+  P  P26  1  0.62717868  0.89396639  0.43665171  1
+  P  P27  1  0.37282152  0.10603385  0.93665156  1

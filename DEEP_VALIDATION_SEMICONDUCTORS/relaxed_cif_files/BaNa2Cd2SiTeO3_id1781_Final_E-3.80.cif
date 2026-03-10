@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_BaNa2Cd2SiTeO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.61424564
+_cell_length_b   6.61421245
+_cell_length_c   9.75068335
+_cell_angle_alpha   90.42153753
+_cell_angle_beta   89.44979577
+_cell_angle_gamma   120.00002377
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaNa2Cd2SiTeO3
+_chemical_formula_sum   'Ba1 Na2 Cd2 Si1 Te1 O3'
+_cell_volume   369.40445178
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.99999933  0.00000325  1.00000026  1
+  Na  Na1  1  0.33316027  0.66674945  0.20865406  1
+  Na  Na2  1  0.33350311  0.66660230  0.79134521  1
+  Cd  Cd3  1  -0.00002417  1.00001051  0.65467961  1
+  Cd  Cd4  1  0.00002424  0.99998994  0.34532015  1
+  Si  Si5  1  0.33333217  0.66666207  0.49999073  1
+  Te  Te6  1  0.66666618  0.33333417  0.50000173  1
+  O  O7  1  0.47284117  0.52715463  0.50004612  1
+  O  O8  1  0.47283983  0.94567124  0.49998930  1
+  O  O9  1  0.05432433  0.52715586  0.49997280  1

@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_K4NaLi3ZnSn3Ge3Sb4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   16.74939932
+_cell_length_b   21.74483174
+_cell_length_c   7.06052470
+_cell_angle_alpha   161.09564571
+_cell_angle_beta   52.21844611
+_cell_angle_gamma   120.05721323
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K4NaLi3ZnSn3Ge3Sb4
+_chemical_formula_sum   'K4 Na1 Li3 Zn1 Sn3 Ge3 Sb4'
+_cell_volume   626.57538652
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.60389894  0.28170577  0.49722704  1
+  K  K1  1  0.32205673  0.19148267  0.51327674  1
+  K  K2  1  0.89884645  0.13764191  0.44646176  1
+  K  K3  1  0.81213865  0.64716870  0.62700097  1
+  Na  Na4  1  0.30801303  0.71256686  0.94964734  1
+  Li  Li5  1  0.10921724  0.69842148  0.49687119  1
+  Li  Li6  1  0.15992317  0.27980277  0.48406113  1
+  Li  Li7  1  0.52598495  0.83331022  0.46117953  1
+  Zn  Zn8  1  0.06448707  1.09378787  0.49131237  1
+  Sn  Sn9  1  0.42570251  0.42594293  0.56301033  1
+  Sn  Sn10  1  0.55910346  0.05392376  0.48108450  1
+  Sn  Sn11  1  1.06424022  0.49421103  0.55274634  1
+  Ge  Ge12  1  0.20064002  0.61965072  0.48082211  1
+  Ge  Ge13  1  0.54302330  0.67277931  0.38357657  1
+  Ge  Ge14  1  0.31085441  0.77298476  0.55764901  1
+  Sb  Sb15  1  0.67076032  0.33581182  0.02953251  1
+  Sb  Sb16  1  0.67799477  0.71871661  0.58457663  1
+  Sb  Sb17  1  0.35807226  0.02552379  0.48517788  1
+  Sb  Sb18  1  1.05258803  0.33470435  0.48178320  1

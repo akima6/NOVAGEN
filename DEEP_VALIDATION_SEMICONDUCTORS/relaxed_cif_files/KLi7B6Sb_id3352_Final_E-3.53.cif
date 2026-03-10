@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_KLi7B6Sb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.32566384
+_cell_length_b   8.32563183
+_cell_length_c   4.07108907
+_cell_angle_alpha   90.00027545
+_cell_angle_beta   89.99935234
+_cell_angle_gamma   120.00011832
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLi7B6Sb
+_chemical_formula_sum   'K1 Li7 B6 Sb1'
+_cell_volume   244.38626352
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.33333352  0.66666706  -0.00000008  1
+  Li  Li1  1  0.00000078  0.00000168  0.50000003  1
+  Li  Li2  1  0.33438523  0.32269432  0.90206049  1
+  Li  Li3  1  0.67730642  1.01168988  0.90206043  1
+  Li  Li4  1  -0.01168902  0.66561492  0.90205521  1
+  Li  Li5  1  0.67730393  0.66561471  0.09794479  1
+  Li  Li6  1  -0.01169101  0.32269424  0.09793908  1
+  Li  Li7  1  0.33438336  1.01168979  0.09794011  1
+  B  B8  1  0.35120119  0.24670960  0.36393087  1
+  B  B9  1  0.75329091  0.10449011  0.36393090  1
+  B  B10  1  0.89550708  0.64880070  0.36392639  1
+  B  B11  1  0.75329364  0.64880051  0.63607364  1
+  B  B12  1  0.89550850  0.24670968  0.63606888  1
+  B  B13  1  0.35119907  0.10449012  0.63606937  1
+  Sb  Sb14  1  0.66666645  0.33333284  0.49999991  1

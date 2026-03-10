@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_BeGeAsP3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.56720487
+_cell_length_b   10.86550746
+_cell_length_c   6.13459836
+_cell_angle_alpha   90.00481875
+_cell_angle_beta   89.99982398
+_cell_angle_gamma   89.98769886
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BeGeAsP3
+_chemical_formula_sum   'Be4 Ge4 As4 P12'
+_cell_volume   437.74047111
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Be  Be0  1  0.14835057  1.05383493  0.70431876  1
+  Be  Be1  1  0.85164457  -0.05382918  0.20433780  1
+  Be  Be2  1  0.64839589  -0.05383343  0.70429900  1
+  Be  Be3  1  0.35154162  1.05383555  0.20432414  1
+  Ge  Ge4  1  0.71049351  0.23856924  0.46393037  1
+  Ge  Ge5  1  0.28949368  0.76142783  0.96397684  1
+  Ge  Ge6  1  0.21056444  0.76155435  0.46414013  1
+  Ge  Ge7  1  0.78942033  0.23842831  0.96412841  1
+  As  As8  1  0.83737198  0.80338649  0.47015725  1
+  As  As9  1  0.16260194  0.19659669  0.97024722  1
+  As  As10  1  0.33724995  0.19673512  0.47008114  1
+  As  As11  1  0.66272763  0.80327803  0.97001178  1
+  P  P12  1  0.18082306  0.43980788  0.27331699  1
+  P  P13  1  0.81924394  0.56017370  0.77331172  1
+  P  P14  1  0.68070149  0.56007353  0.27328362  1
+  P  P15  1  0.31938418  0.43993989  0.77326601  1
+  P  P16  1  0.37300735  0.56012196  0.47268648  1
+  P  P17  1  0.62702368  0.43988860  -0.02730972  1
+  P  P18  1  0.87306287  0.43992729  0.47291922  1
+  P  P19  1  0.12696622  0.56004369  -0.02704715  1
+  P  P20  1  0.87252845  0.04531653  0.51586943  1
+  P  P21  1  0.12744275  0.95467875  1.01584464  1
+  P  P22  1  0.37259200  0.95480314  0.51584091  1
+  P  P23  1  0.62737049  0.04518554  1.01587051  1

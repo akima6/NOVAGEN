@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ge3PO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.05926892
+_cell_length_b   5.19448855
+_cell_length_c   8.35645830
+_cell_angle_alpha   78.84190559
+_cell_angle_beta   48.60908439
+_cell_angle_gamma   82.33522766
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ge3PO2
+_chemical_formula_sum   'Ge6 P2 O4'
+_cell_volume   257.48213036
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  1.04953854  -0.14893434  0.58896852  1
+  Ge  Ge1  1  0.56885797  0.62859102  0.04068909  1
+  Ge  Ge2  1  0.22312164  0.30909826  0.24441305  1
+  Ge  Ge3  1  0.83257194  0.63918510  0.24534627  1
+  Ge  Ge4  1  0.37702823  0.87402782  0.75729589  1
+  Ge  Ge5  1  0.69699325  0.17647666  0.78149172  1
+  P  P6  1  -0.06293233  0.47139412  0.84141377  1
+  P  P7  1  0.43721307  -0.07656886  0.34966589  1
+  O  O8  1  0.94891001  0.43718489  0.35750440  1
+  O  O9  1  0.47052059  1.05146556  0.49051560  1
+  O  O10  1  0.45233004  0.13045019  -0.17950214  1
+  O  O11  1  0.00584706  0.50762962  0.98219802  1

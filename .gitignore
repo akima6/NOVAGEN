@@ -1,9 +1,0 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-
-# Conda
-.env
-*.conda
-*.lock

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_K4NaIn4Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.61229287
+_cell_length_b   10.61229964
+_cell_length_c   6.55792923
+_cell_angle_alpha   89.99996023
+_cell_angle_beta   90.00000346
+_cell_angle_gamma   90.00013512
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K4NaIn4Ge
+_chemical_formula_sum   'K8 Na2 In8 Ge2'
+_cell_volume   738.55944418
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.55213565  0.80500693  0.91980339  1
+  K  K1  1  0.44786446  0.19499295  0.91980324  1
+  K  K2  1  0.19499323  0.55213577  0.91980418  1
+  K  K3  1  0.80500671  0.44786426  0.91980413  1
+  K  K4  1  0.05213586  0.69499326  0.41980419  1
+  K  K5  1  0.94786425  0.30500684  0.41980409  1
+  K  K6  1  0.69499295  0.94786444  0.41980333  1
+  K  K7  1  0.30500700  0.05213555  0.41980329  1
+  Na  Na8  1  0.99999999  0.00000007  0.24344012  1
+  Na  Na9  1  0.49999997  0.49999995  0.74343992  1
+  In  In10  1  0.19525421  0.89825223  0.92664294  1
+  In  In11  1  0.80474579  0.10174782  0.92664290  1
+  In  In12  1  0.10174803  0.19525476  0.92664343  1
+  In  In13  1  0.89825202  0.80474526  0.92664361  1
+  In  In14  1  0.69525494  0.60174814  0.42664346  1
+  In  In15  1  0.30474502  0.39825187  0.42664350  1
+  In  In16  1  0.60174790  0.30474568  0.42664268  1
+  In  In17  1  0.39825222  0.69525439  0.42664297  1
+  Ge  Ge18  1  0.00000003  -0.00000003  0.69330433  1
+  Ge  Ge19  1  0.49999990  0.50000003  0.19330439  1

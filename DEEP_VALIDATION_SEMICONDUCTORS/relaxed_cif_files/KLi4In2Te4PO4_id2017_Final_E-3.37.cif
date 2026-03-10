@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_KLi4(InTe2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.34158180
+_cell_length_b   5.23693174
+_cell_length_c   18.98815305
+_cell_angle_alpha   90.00024278
+_cell_angle_beta   89.99971112
+_cell_angle_gamma   89.99998600
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLi4(InTe2)2
+_chemical_formula_sum   'K2 Li8 In4 Te8'
+_cell_volume   730.04440834
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.99999719  0.99998847  0.00000010  1
+  K  K1  1  0.50000246  0.49998793  0.49999998  1
+  Li  Li2  1  0.14670736  0.25216696  0.20510886  1
+  Li  Li3  1  0.85328830  0.74783459  0.20511151  1
+  Li  Li4  1  0.85329122  0.25216633  0.79488601  1
+  Li  Li5  1  0.14670983  0.74783465  0.79489332  1
+  Li  Li6  1  0.64671771  0.75216851  0.70510846  1
+  Li  Li7  1  0.35329839  0.24783583  0.70511229  1
+  Li  Li8  1  0.35330034  0.75217135  0.29488404  1
+  Li  Li9  1  0.64671973  0.24783911  0.29489574  1
+  In  In10  1  0.00000204  0.00003720  0.42724339  1
+  In  In11  1  0.00003199  0.00005283  0.57275676  1
+  In  In12  1  0.50000221  0.50000418  0.92724311  1
+  In  In13  1  0.50000318  0.50000241  0.07275677  1
+  Te  Te14  1  0.23313101  0.25687426  0.84245691  1
+  Te  Te15  1  0.76685821  0.74312995  0.84245188  1
+  Te  Te16  1  0.76686645  0.25687231  0.15754598  1
+  Te  Te17  1  0.23313887  0.74312775  0.15754523  1
+  Te  Te18  1  0.73314323  0.75688199  0.34245754  1
+  Te  Te19  1  0.26686988  0.24313693  0.34245148  1
+  Te  Te20  1  0.26686970  0.75687723  0.65754686  1
+  Te  Te21  1  0.73314337  0.24313229  0.65754403  1

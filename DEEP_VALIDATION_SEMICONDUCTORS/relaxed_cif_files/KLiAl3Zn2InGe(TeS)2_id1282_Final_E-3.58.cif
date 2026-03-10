@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_KLiAl3Zn2Ge(TeS)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.93268375
+_cell_length_b   17.70859358
+_cell_length_c   9.86520928
+_cell_angle_alpha   89.95020947
+_cell_angle_beta   90.88298643
+_cell_angle_gamma   90.01101197
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLiAl3Zn2Ge(TeS)2
+_chemical_formula_sum   'K2 Li2 Al6 Zn4 Ge2 Te4 S4'
+_cell_volume   686.95399285
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.25090126  0.25000231  -0.09163552  1
+  K  K1  1  0.74909902  0.75000760  1.09163549  1
+  Li  Li2  1  0.25008206  0.75007634  0.35625724  1
+  Li  Li3  1  0.74991856  0.24989350  0.64374303  1
+  Al  Al4  1  0.24154101  0.25010634  0.21784297  1
+  Al  Al5  1  0.75845783  0.74988954  0.78215698  1
+  Al  Al6  1  0.24786977  0.55564425  1.00221645  1
+  Al  Al7  1  0.24774136  0.94430021  1.00218217  1
+  Al  Al8  1  0.75225924  0.05570225  -0.00219294  1
+  Al  Al9  1  0.75212988  0.44435806  -0.00220539  1
+  Zn  Zn10  1  0.25047292  0.83568815  0.60747511  1
+  Zn  Zn11  1  0.25028939  0.66428898  0.60739139  1
+  Zn  Zn12  1  0.74970900  0.33571017  0.39262247  1
+  Zn  Zn13  1  0.74953012  0.16430972  0.39251110  1
+  Ge  Ge14  1  0.24988281  0.24998910  0.46837024  1
+  Ge  Ge15  1  0.75011615  0.75000545  0.53162934  1
+  Te  Te16  1  0.24818922  0.43882843  0.80922753  1
+  Te  Te17  1  0.24815433  0.06124533  0.80919470  1
+  Te  Te18  1  0.75184554  0.93876141  0.19079617  1
+  Te  Te19  1  0.75181083  0.56117809  0.19078143  1
+  S  S20  1  0.24665009  0.84145125  0.85571541  1
+  S  S21  1  0.24678540  0.65860057  0.85559942  1
+  S  S22  1  0.75321444  0.34140228  0.14441168  1
+  S  S23  1  0.75334975  0.15855168  0.14427364  1

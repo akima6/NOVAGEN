@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Na2Zn3(SeO)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.19829409
+_cell_length_b   6.48455463
+_cell_length_c   7.73600986
+_cell_angle_alpha   90.00009871
+_cell_angle_beta   90.00109136
+_cell_angle_gamma   90.00010244
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Zn3(SeO)4
+_chemical_formula_sum   'Na4 Zn6 Se8 O8'
+_cell_volume   561.75770410
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.00000008  0.00000011  0.00000019  1
+  Na  Na1  1  0.49999991  0.49999991  -0.00000068  1
+  Na  Na2  1  0.50000025  -0.00000011  1.00000034  1
+  Na  Na3  1  0.00000006  0.49999990  1.00000004  1
+  Zn  Zn4  1  0.75000047  0.25000162  0.50000007  1
+  Zn  Zn5  1  0.24999974  0.74999833  0.50000014  1
+  Zn  Zn6  1  0.25000206  0.75000099  0.14946207  1
+  Zn  Zn7  1  0.24999785  0.75000362  0.85053756  1
+  Zn  Zn8  1  0.74999755  0.24999829  0.85053792  1
+  Zn  Zn9  1  0.75000212  0.24999779  0.14946257  1
+  Se  Se10  1  0.35058875  0.19902906  0.73822377  1
+  Se  Se11  1  0.14941128  0.30097182  0.73822575  1
+  Se  Se12  1  0.14941085  0.19902817  0.26177548  1
+  Se  Se13  1  0.35058880  0.30097248  0.26177405  1
+  Se  Se14  1  0.64941095  0.80097118  0.26177648  1
+  Se  Se15  1  0.85058887  0.69902775  0.26177330  1
+  Se  Se16  1  0.85058907  0.80097117  0.73822427  1
+  Se  Se17  1  0.64941114  0.69902731  0.73822578  1
+  O  O18  1  0.35053662  0.61417828  0.31811388  1
+  O  O19  1  0.14946445  0.88582147  0.31810889  1
+  O  O20  1  0.14946302  0.61417841  0.68188655  1
+  O  O21  1  0.35053615  0.88582206  0.68189109  1
+  O  O22  1  0.64946301  0.38582154  0.68188615  1
+  O  O23  1  0.85053561  0.11417839  0.68189147  1
+  O  O24  1  0.85053701  0.38582213  0.31811376  1
+  O  O25  1  0.64946432  0.11417844  0.31810892  1

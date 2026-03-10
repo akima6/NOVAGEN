@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_CaZn5(GaO2)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.31938784
+_cell_length_b   16.28868456
+_cell_length_c   3.14537495
+_cell_angle_alpha   40.41347128
+_cell_angle_beta   87.66858952
+_cell_angle_gamma   84.63882950
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaZn5(GaO2)6
+_chemical_formula_sum   'Ca1 Zn5 Ga6 O12'
+_cell_volume   373.91130523
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  -0.00064108  -0.00001289  -0.00030438  1
+  Zn  Zn1  1  0.30931819  0.73929714  0.02357466  1
+  Zn  Zn2  1  0.69035826  0.26336879  -0.03594367  1
+  Zn  Zn3  1  0.50020086  0.99921453  0.00249641  1
+  Zn  Zn4  1  0.99999402  0.50018643  -0.00025309  1
+  Zn  Zn5  1  0.49834288  0.49972559  0.00583561  1
+  Ga  Ga6  1  0.25602196  0.02850797  0.42099056  1
+  Ga  Ga7  1  -0.05063886  0.25661145  0.48872414  1
+  Ga  Ga8  1  0.57540415  0.71256115  0.62338360  1
+  Ga  Ga9  1  0.74377910  -0.02782406  0.57794017  1
+  Ga  Ga10  1  0.05132962  0.74339959  0.51073837  1
+  Ga  Ga11  1  0.42476960  0.28615311  0.38253864  1
+  O  O12  1  0.15282516  0.70299932  0.15631618  1
+  O  O13  1  0.38095983  0.45741045  -0.27273580  1
+  O  O14  1  0.59014796  0.88905249  0.92570778  1
+  O  O15  1  0.84780657  0.29624889  -0.15366093  1
+  O  O16  1  0.61919616  0.54182874  0.27011675  1
+  O  O17  1  0.41000748  0.11022568  0.07679697  1
+  O  O18  1  0.68760597  0.07091376  -0.30237372  1
+  O  O19  1  0.52469591  0.28603607  -0.13058800  1
+  O  O20  1  0.95244607  0.61806490  0.02399333  1
+  O  O21  1  0.31322592  0.93019899  1.29924625  1
+  O  O22  1  0.47494742  0.71358603  0.13151396  1
+  O  O23  1  0.04789685  0.38224591  -0.02405377  1

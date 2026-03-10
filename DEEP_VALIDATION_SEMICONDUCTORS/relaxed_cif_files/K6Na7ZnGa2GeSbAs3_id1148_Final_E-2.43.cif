@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_K6Na7ZnGa2GeSbAs3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.53662219
+_cell_length_b   18.12926887
+_cell_length_c   11.80659686
+_cell_angle_alpha   118.18443568
+_cell_angle_beta   70.59658236
+_cell_angle_gamma   131.59146302
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K6Na7ZnGa2GeSbAs3
+_chemical_formula_sum   'K6 Na7 Zn1 Ga2 Ge1 Sb1 As3'
+_cell_volume   921.96469739
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  1.09323831  0.18491484  0.44939032  1
+  K  K1  1  0.09090386  0.80559873  1.05645623  1
+  K  K2  1  0.10938602  0.91461212  0.73647379  1
+  K  K3  1  0.13107997  0.26229936  0.18805428  1
+  K  K4  1  0.64583517  0.33600539  0.76555126  1
+  K  K5  1  0.59314966  0.57443745  0.52716726  1
+  Na  Na6  1  0.09496806  0.37368539  -0.04314792  1
+  Na  Na7  1  -0.04238938  0.11333010  0.86420034  1
+  Na  Na8  1  0.14291957  0.66409677  0.16921510  1
+  Na  Na9  1  0.27757857  0.06218083  0.50547224  1
+  Na  Na10  1  0.43763624  0.59873723  0.26394351  1
+  Na  Na11  1  0.40283375  0.09021397  0.12455987  1
+  Na  Na12  1  0.47368926  0.94416720  0.41792876  1
+  Zn  Zn13  1  0.26441716  0.75566913  0.45286863  1
+  Ga  Ga14  1  0.75693117  0.84145442  0.36369018  1
+  Ga  Ga15  1  0.75961797  0.92322479  0.16795917  1
+  Ge  Ge16  1  0.76576949  0.14946979  0.71212573  1
+  Sb  Sb17  1  0.50126629  0.18436455  0.93427088  1
+  As  As18  1  0.61913442  0.03355129  0.22939558  1
+  As  As19  1  0.73345120  -0.01560106  0.61002751  1
+  As  As20  1  0.92657120  0.75732934  0.40893227  1

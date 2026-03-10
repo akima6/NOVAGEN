@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Ba3Ti6Sb2Te3As6(SO)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.86289928
+_cell_length_b   7.86345269
+_cell_length_c   20.51951955
+_cell_angle_alpha   90.00004701
+_cell_angle_beta   90.00033994
+_cell_angle_gamma   119.99994792
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3Ti6Sb2Te3As6(SO)3
+_chemical_formula_sum   'Ba3 Ti6 Sb2 Te3 As6 S3 O3'
+_cell_volume   1098.73772983
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.49999990  -0.00000006  0.75032870  1
+  Ba  Ba1  1  -0.00000017  0.49999991  0.75023752  1
+  Ba  Ba2  1  0.49999988  0.49999999  0.75030501  1
+  Ti  Ti3  1  0.22295168  0.77704620  0.28428417  1
+  Ti  Ti4  1  0.22294936  0.44590152  0.28428351  1
+  Ti  Ti5  1  0.55409336  0.77704711  0.28428971  1
+  Ti  Ti6  1  0.77704857  0.22295400  0.28428417  1
+  Ti  Ti7  1  0.77705101  0.55409858  0.28428343  1
+  Ti  Ti8  1  0.44590669  0.22295293  0.28428993  1
+  Sb  Sb9  1  0.00000074  0.00000046  0.06097785  1
+  Sb  Sb10  1  -0.00000052  0.00000000  0.49447415  1
+  Te  Te11  1  0.49999984  0.00000007  0.80506090  1
+  Te  Te12  1  0.00000017  0.50000001  0.80496925  1
+  Te  Te13  1  0.49999986  0.49999974  0.80504269  1
+  As  As14  1  0.17334607  0.82665302  0.41113252  1
+  As  As15  1  0.17334648  0.34668575  0.41113566  1
+  As  As16  1  0.65330678  0.82664925  0.41113596  1
+  As  As17  1  0.82665454  0.17334731  0.41113274  1
+  As  As18  1  0.82665418  0.65331450  0.41113581  1
+  As  As19  1  0.34669353  0.17335072  0.41113598  1
+  S  S20  1  0.49999973  0.00000017  0.19549595  1
+  S  S21  1  0.00000018  0.50000010  0.19549472  1
+  S  S22  1  0.49999970  0.49999980  0.19549511  1
+  O  O23  1  0.49999976  -0.00000028  0.31587151  1
+  O  O24  1  -0.00000116  0.49999924  0.31587074  1
+  O  O25  1  0.49999979  0.49999986  0.31586933  1

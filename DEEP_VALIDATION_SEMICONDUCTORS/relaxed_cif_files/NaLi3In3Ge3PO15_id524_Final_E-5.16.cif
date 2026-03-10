@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_NaLi3In3Ge3PO15
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.92795962
+_cell_length_b   14.92630602
+_cell_length_c   2.99110906
+_cell_angle_alpha   90.29875174
+_cell_angle_beta   89.68089240
+_cell_angle_gamma   119.99142460
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLi3In3Ge3PO15
+_chemical_formula_sum   'Na1 Li3 In3 Ge3 P1 O15'
+_cell_volume   577.22448964
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  -0.00006074  0.00002747  0.00001693  1
+  Li  Li1  1  0.19891153  0.44086734  -0.00024008  1
+  Li  Li2  1  0.55914854  0.75804655  -0.00025345  1
+  Li  Li3  1  0.24194793  0.80108196  0.00035064  1
+  In  In4  1  0.41856855  0.55089865  0.99873046  1
+  In  In5  1  0.44908634  0.86768086  0.00031840  1
+  In  In6  1  0.13232591  0.58142036  0.00099655  1
+  Ge  Ge7  1  0.56338944  0.14397205  -0.00079981  1
+  Ge  Ge8  1  0.85604631  0.41946431  -0.00210996  1
+  Ge  Ge9  1  0.58056357  0.43664031  0.00290383  1
+  P  P10  1  0.66666045  0.33334950  -0.00001830  1
+  O  O11  1  0.38800736  0.14268236  0.50158372  1
+  O  O12  1  0.85731579  0.24522394  0.49845605  1
+  O  O13  1  0.75471931  0.61202624  0.49999449  1
+  O  O14  1  0.82182180  0.70512926  0.50043275  1
+  O  O15  1  0.29491251  0.11669669  0.50083200  1
+  O  O16  1  0.88331516  0.17810805  0.49874770  1
+  O  O17  1  0.52089268  0.64681642  0.49818101  1
+  O  O18  1  0.35315908  0.87407895  0.50244721  1
+  O  O19  1  0.12593121  0.47907897  0.49927091  1
+  O  O20  1  0.30889827  0.47222049  0.49982885  1
+  O  O21  1  0.52776701  0.83665556  0.49790507  1
+  O  O22  1  0.16333697  0.69112144  0.50243479  1
+  O  O23  1  0.60045807  0.09964727  0.49688732  1
+  O  O24  1  0.90035617  0.50083966  0.49870703  1
+  O  O25  1  0.49918738  0.39955884  0.50439589  1

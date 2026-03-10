@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_InSn2Sb3O2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.15554554
+_cell_length_b   9.61119817
+_cell_length_c   13.84030784
+_cell_angle_alpha   38.39760082
+_cell_angle_beta   119.54828824
+_cell_angle_gamma   107.17050444
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InSn2Sb3O2
+_chemical_formula_sum   'In2 Sn4 Sb6 O4'
+_cell_volume   436.07791242
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  -0.02923228  0.98701855  0.81256418  1
+  In  In1  1  0.47686642  0.48263716  0.30494132  1
+  Sn  Sn2  1  -0.01753103  1.04675485  0.47692137  1
+  Sn  Sn3  1  0.48541825  0.54022375  0.97348687  1
+  Sn  Sn4  1  0.06354551  0.52166070  0.58415117  1
+  Sn  Sn5  1  0.57769826  0.01897359  0.08565255  1
+  Sb  Sb6  1  -0.01545512  0.51817268  0.79665566  1
+  Sb  Sb7  1  0.49168536  1.01679358  0.29545826  1
+  Sb  Sb8  1  0.03255796  0.48868021  0.33782619  1
+  Sb  Sb9  1  0.52130904  -0.01467488  0.83046435  1
+  Sb  Sb10  1  1.00880012  0.49815772  0.01981823  1
+  Sb  Sb11  1  0.50352437  -0.00745097  0.51806701  1
+  O  O12  1  0.72911711  0.45202257  0.49652057  1
+  O  O13  1  0.22887607  0.49379473  0.50071384  1
+  O  O14  1  0.22359817  -0.00994855  -0.01705252  1
+  O  O15  1  0.71944587  0.96701625  0.00692104  1

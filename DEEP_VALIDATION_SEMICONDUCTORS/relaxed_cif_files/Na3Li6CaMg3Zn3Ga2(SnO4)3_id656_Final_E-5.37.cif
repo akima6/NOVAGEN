@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Na3CaMg3(GaO6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.40286228
+_cell_length_b   10.17445326
+_cell_length_c   10.14144079
+_cell_angle_alpha   74.68114081
+_cell_angle_beta   161.04755796
+_cell_angle_gamma   103.11274565
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3CaMg3(GaO6)2
+_chemical_formula_sum   'Na3 Ca1 Mg3 Ga2 O12'
+_cell_volume   303.09547241
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.66763131  -0.04779258  0.51395981  1
+  Na  Na1  1  0.88184884  0.44667599  0.50828461  1
+  Na  Na2  1  0.37287512  0.35179807  0.50895956  1
+  Ca  Ca3  1  -0.05187691  0.13662293  0.45091930  1
+  Mg  Mg4  1  0.60659022  0.98164335  0.81019313  1
+  Mg  Mg5  1  1.12555823  0.61164422  1.01059287  1
+  Mg  Mg6  1  0.60505979  0.47552560  0.94947020  1
+  Ga  Ga7  1  0.30906363  0.69428893  0.43875255  1
+  Ga  Ga8  1  0.55288455  0.24127702  0.44403190  1
+  O  O9  1  0.53980393  0.95411732  0.15420682  1
+  O  O10  1  0.03437866  0.61929719  0.38674117  1
+  O  O11  1  0.43854223  0.42261823  0.32632545  1
+  O  O12  1  0.59596700  1.03700027  0.97933196  1
+  O  O13  1  -0.14375439  0.58148216  0.98588674  1
+  O  O14  1  0.47161987  0.58842367  0.96584910  1
+  O  O15  1  0.29171942  0.87222510  0.43766804  1
+  O  O16  1  0.13276761  0.35401502  0.50809051  1
+  O  O17  1  0.55502867  0.72805617  0.47386960  1
+  O  O18  1  0.79692882  0.18614605  0.52275919  1
+  O  O19  1  0.75895779  0.61976882  0.50757366  1
+  O  O20  1  0.46222610  0.14749564  0.53420944  1

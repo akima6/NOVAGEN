@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_LiZnSiPCO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.11887118
+_cell_length_b   6.19635318
+_cell_length_c   10.96978369
+_cell_angle_alpha   78.54645996
+_cell_angle_beta   109.33403739
+_cell_angle_gamma   63.95040887
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiZnSiPCO6
+_chemical_formula_sum   'Li2 Zn2 Si2 P2 C2 O12'
+_cell_volume   322.26495181
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.06885905  1.00083669  0.50359840  1
+  Li  Li1  1  0.55989854  0.48899454  0.50473917  1
+  Zn  Zn2  1  0.08231907  0.45922572  0.91108193  1
+  Zn  Zn3  1  0.57719607  0.96381529  0.90797431  1
+  Si  Si4  1  -0.06441209  1.07461019  0.82532027  1
+  Si  Si5  1  0.43155491  0.57714828  0.82416031  1
+  P  P6  1  0.08919546  0.65535663  0.24361384  1
+  P  P7  1  0.59506869  0.06845409  0.30054666  1
+  C  C8  1  -0.13349607  0.86813122  0.28298362  1
+  C  C9  1  0.37062466  0.36677897  0.28446225  1
+  O  O10  1  0.05646024  0.18153301  0.71926829  1
+  O  O11  1  0.07669120  0.76007522  0.70536847  1
+  O  O12  1  0.55563262  0.68217758  0.71940889  1
+  O  O13  1  0.57948392  0.26126204  0.70714755  1
+  O  O14  1  -0.06401135  0.25684010  0.57334440  1
+  O  O15  1  -0.01933947  0.75443921  0.57318252  1
+  O  O16  1  0.43997407  0.75362582  0.57378491  1
+  O  O17  1  0.47783241  0.24502196  0.57965498  1
+  O  O18  1  -0.05074157  0.81222912  0.90752567  1
+  O  O19  1  -0.03821797  0.22685091  0.92791615  1
+  O  O20  1  0.45040672  0.31307657  0.90913407  1
+  O  O21  1  0.45902087  0.72951687  0.92709872  1

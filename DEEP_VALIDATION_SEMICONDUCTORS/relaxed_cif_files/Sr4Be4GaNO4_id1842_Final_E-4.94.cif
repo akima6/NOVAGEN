@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Sr4Be2GaNO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.12806683
+_cell_length_b   10.95700755
+_cell_length_c   3.79960483
+_cell_angle_alpha   131.43484889
+_cell_angle_beta   90.28247882
+_cell_angle_gamma   89.66934603
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr4Be2GaNO2
+_chemical_formula_sum   'Sr8 Be4 Ga2 N2 O4'
+_cell_volume   409.74721791
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.93585343  0.82545925  0.69934054  1
+  Sr  Sr1  1  0.04493647  0.19728969  0.69444839  1
+  Sr  Sr2  1  0.23244998  0.90795942  0.60903051  1
+  Sr  Sr3  1  0.74389951  0.04831925  0.60799362  1
+  Sr  Sr4  1  0.45459156  0.69398368  0.69538597  1
+  Sr  Sr5  1  0.56429092  0.32369585  0.67728959  1
+  Sr  Sr6  1  0.75443741  0.54839015  0.60988216  1
+  Sr  Sr7  1  0.26790192  0.40644282  0.60024674  1
+  Be  Be8  1  0.14810377  0.62595614  0.51846629  1
+  Be  Be9  1  0.85759972  0.25401780  0.43896117  1
+  Be  Be10  1  0.35191114  0.12862851  0.53650058  1
+  Be  Be11  1  0.64245373  0.75908791  0.46202546  1
+  Ga  Ga12  1  0.47219188  0.02119507  0.72893900  1
+  Ga  Ga13  1  1.03032897  0.52441581  0.74217952  1
+  N  N14  1  0.91776434  1.10777439  1.00946830  1
+  N  N15  1  0.58201577  0.61237743  1.03721663  1
+  O  O16  1  0.25446939  0.69225366  0.68835107  1
+  O  O17  1  0.75495870  0.31448923  0.67199131  1
+  O  O18  1  0.24409815  0.19012694  0.68004492  1
+  O  O19  1  0.74552788  0.81830639  0.69075255  1

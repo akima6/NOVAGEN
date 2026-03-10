@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_LiBeSiSe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.53934812
+_cell_length_b   4.85837031
+_cell_length_c   23.63749668
+_cell_angle_alpha   87.59554356
+_cell_angle_beta   81.69703649
+_cell_angle_gamma   116.85592626
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiBeSiSe
+_chemical_formula_sum   'Li6 Be6 Si6 Se6'
+_cell_volume   557.42310621
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.61595264  0.21422406  0.76912610  1
+  Li  Li1  1  0.81680388  0.40807435  0.38404071  1
+  Li  Li2  1  0.59458933  0.38194345  0.09384998  1
+  Li  Li3  1  0.39294202  0.78507461  0.23014427  1
+  Li  Li4  1  0.19278567  0.57847766  0.95228353  1
+  Li  Li5  1  0.39158190  0.60768605  0.57123467  1
+  Be  Be6  1  0.30498228  0.56096325  0.78165059  1
+  Be  Be7  1  0.47494089  0.72658736  0.40071141  1
+  Be  Be8  1  0.27929343  0.71054885  0.07206590  1
+  Be  Be9  1  0.72044335  0.44125835  0.24049103  1
+  Be  Be10  1  0.54253351  0.25730813  0.92686728  1
+  Be  Be11  1  0.68628013  0.24848886  0.54341974  1
+  Si  Si12  1  0.57858170  1.04457396  0.00353614  1
+  Si  Si13  1  0.00412418  0.44928135  0.66790960  1
+  Si  Si14  1  0.47792554  0.50809958  0.32085500  1
+  Si  Si15  1  0.46388748  -0.02135995  0.47948921  1
+  Si  Si16  1  0.01079998  0.50141128  0.16092740  1
+  Si  Si17  1  0.51119386  0.53185962  0.85108189  1
+  Se  Se18  1  0.08486150  0.17307458  0.74123386  1
+  Se  Se19  1  0.85530504  0.92514446  0.43238372  1
+  Se  Se20  1  0.01569008  0.91386181  0.10196805  1
+  Se  Se21  1  0.93690624  0.86960485  0.27468491  1
+  Se  Se22  1  0.13519002  0.06637313  0.90746439  1
+  Se  Se23  1  0.91244282  0.11772236  0.59257439  1

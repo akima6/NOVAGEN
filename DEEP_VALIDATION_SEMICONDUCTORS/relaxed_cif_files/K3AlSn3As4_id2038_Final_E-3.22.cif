@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_K3AlSn3As2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.62415535
+_cell_length_b   4.59660765
+_cell_length_c   20.86711227
+_cell_angle_alpha   89.02612516
+_cell_angle_beta   91.97460093
+_cell_angle_gamma   139.66004776
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3AlSn3As2
+_chemical_formula_sum   'K3 Al1 Sn3 As2'
+_cell_volume   286.91263134
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.35957865  0.64978554  0.96779674  1
+  K  K1  1  0.33213986  0.68065118  0.62040131  1
+  K  K2  1  0.29396804  0.73971538  0.36431381  1
+  Al  Al3  1  0.62161747  0.36241924  1.08961152  1
+  Sn  Sn4  1  0.03093406  -0.06052558  0.49415122  1
+  Sn  Sn5  1  0.36533033  0.65122901  0.16562797  1
+  Sn  Sn6  1  0.31963881  0.68639628  0.79832264  1
+  As  As7  1  0.01331021  -0.05569506  0.73295943  1
+  As  As8  1  -0.00318408  0.01269069  0.26064583  1

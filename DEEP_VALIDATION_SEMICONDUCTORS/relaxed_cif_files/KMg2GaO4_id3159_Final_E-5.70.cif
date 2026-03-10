@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_KMg2GaO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.18024706
+_cell_length_b   6.18022380
+_cell_length_c   5.58325996
+_cell_angle_alpha   90.00305420
+_cell_angle_beta   89.99687397
+_cell_angle_gamma   84.32861544
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KMg2GaO4
+_chemical_formula_sum   'K2 Mg4 Ga2 O8'
+_cell_volume   212.21047490
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.00000842  -0.00001739  0.00632378  1
+  K  K1  1  0.00000103  0.00001837  0.50632405  1
+  Mg  Mg2  1  0.47269977  0.28548369  0.25759431  1
+  Mg  Mg3  1  0.52725122  0.71459735  0.25751256  1
+  Mg  Mg4  1  0.28545499  0.47270928  0.75759054  1
+  Mg  Mg5  1  0.71456629  0.52726310  0.75751667  1
+  Ga  Ga6  1  -0.00003756  0.50000699  0.25784062  1
+  Ga  Ga7  1  0.50001686  -0.00001313  0.75784004  1
+  O  O8  1  0.76826546  0.37821941  0.43127600  1
+  O  O9  1  0.23180354  0.62170852  0.43129158  1
+  O  O10  1  0.33446781  0.18854200  0.55410584  1
+  O  O11  1  0.66556626  0.81141403  0.55405430  1
+  O  O12  1  0.18854787  0.33445569  1.05410051  1
+  O  O13  1  0.81142144  0.66555574  1.05406022  1
+  O  O14  1  0.62172679  0.23179856  -0.06870629  1
+  O  O15  1  0.37823980  0.76825776  -0.06872474  1

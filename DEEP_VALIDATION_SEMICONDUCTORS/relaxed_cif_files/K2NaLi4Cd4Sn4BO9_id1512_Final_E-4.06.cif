@@ -1,0 +1,51 @@
+# generated using pymatgen
+data_K2NaLi4Cd4Sn4BO9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.56282111
+_cell_length_b   7.21419305
+_cell_length_c   9.21434509
+_cell_angle_alpha   93.13172403
+_cell_angle_beta   85.54086257
+_cell_angle_gamma   92.53865044
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2NaLi4Cd4Sn4BO9
+_chemical_formula_sum   'K2 Na1 Li4 Cd4 Sn4 B1 O9'
+_cell_volume   632.29671150
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  -0.02367142  0.50761727  0.43762693  1
+  K  K1  1  0.49548130  -0.05199311  0.42981934  1
+  Na  Na2  1  1.00216586  0.99387805  0.52537281  1
+  Li  Li3  1  0.18871102  1.00832012  0.86236622  1
+  Li  Li4  1  0.79858812  -0.01155066  0.85701925  1
+  Li  Li5  1  -0.00815906  0.25671862  0.81150061  1
+  Li  Li6  1  1.00429395  0.75323011  0.81256058  1
+  Cd  Cd7  1  0.20749474  0.08699099  0.18843774  1
+  Cd  Cd8  1  0.77713974  0.92018311  0.17627082  1
+  Cd  Cd9  1  0.96007258  0.22739248  0.10397738  1
+  Cd  Cd10  1  0.02916038  0.75880431  0.10868176  1
+  Sn  Sn11  1  0.22202139  0.39290882  -0.01308245  1
+  Sn  Sn12  1  0.78637748  0.57544427  -0.02821560  1
+  Sn  Sn13  1  0.58698584  0.25634500  0.05081845  1
+  Sn  Sn14  1  0.40686077  0.73188426  0.03773273  1
+  B  B15  1  0.56986081  0.46461396  0.35806684  1
+  O  O16  1  -0.00098962  -0.00114272  0.77192949  1
+  O  O17  1  0.56676004  0.85013867  0.13700010  1
+  O  O18  1  0.43585051  0.20744176  0.22657898  1
+  O  O19  1  0.17742002  0.58052305  0.23235379  1
+  O  O20  1  0.81244709  0.43367919  0.24079273  1
+  O  O21  1  0.29343371  0.72296888  0.24660980  1
+  O  O22  1  0.67689688  0.34113612  0.28491453  1
+  O  O23  1  0.43713970  0.37160903  0.34992587  1
+  O  O24  1  0.59765822  0.62285851  0.42588713  1

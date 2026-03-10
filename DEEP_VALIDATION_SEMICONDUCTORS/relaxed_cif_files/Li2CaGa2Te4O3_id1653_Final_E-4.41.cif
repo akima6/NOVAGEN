@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Li2CaGa2Te4O3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.45933323
+_cell_length_b   10.44596689
+_cell_length_c   22.21785646
+_cell_angle_alpha   119.04695676
+_cell_angle_beta   39.86935169
+_cell_angle_gamma   85.11574248
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2CaGa2Te4O3
+_chemical_formula_sum   'Li4 Ca2 Ga4 Te8 O6'
+_cell_volume   634.63452438
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  -0.02389473  0.50297726  0.99244801  1
+  Li  Li1  1  0.53087011  0.03949194  0.00452880  1
+  Li  Li2  1  0.52359789  -0.00273791  0.50784010  1
+  Li  Li3  1  -0.03122485  0.46037031  0.49548273  1
+  Ca  Ca4  1  -0.00390334  0.01044231  -0.00100218  1
+  Ca  Ca5  1  0.50528243  0.48897469  0.50058912  1
+  Ga  Ga6  1  -0.01482078  -0.07166105  0.24349847  1
+  Ga  Ga7  1  1.00938167  1.03841418  0.75147638  1
+  Ga  Ga8  1  0.49169001  0.46071585  0.74798614  1
+  Ga  Ga9  1  0.51464390  0.57170319  0.25652803  1
+  Te  Te10  1  0.71870878  0.26612737  0.01021126  1
+  Te  Te11  1  0.28617302  0.71264219  0.98154242  1
+  Te  Te12  1  0.72833052  0.82449703  1.00431394  1
+  Te  Te13  1  0.27955908  0.18360981  0.99511474  1
+  Te  Te14  1  0.21448507  0.78737101  0.51814809  1
+  Te  Te15  1  0.78260856  0.23290101  0.48918307  1
+  Te  Te16  1  0.22011501  0.31696417  0.50501163  1
+  Te  Te17  1  0.77127713  0.67609819  0.49609246  1
+  O  O18  1  0.05305131  -0.10953475  0.50258797  1
+  O  O19  1  0.44520897  0.61026811  -0.00195427  1
+  O  O20  1  1.11831032  1.04031961  0.63955702  1
+  O  O21  1  -0.11377386  -0.03858995  0.36088864  1
+  O  O22  1  0.61295184  0.53869483  0.13931560  1
+  O  O23  1  0.38137194  0.45994061  0.86061182  1

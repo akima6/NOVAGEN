@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_NaLi5ZnSbTeS7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.91551292
+_cell_length_b   10.09411049
+_cell_length_c   14.06039204
+_cell_angle_alpha   90.00000367
+_cell_angle_beta   86.21739858
+_cell_angle_gamma   90.00000294
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLi5ZnSbTeS7
+_chemical_formula_sum   'Na1 Li5 Zn1 Sb1 Te1 S7'
+_cell_volume   1545.83277264
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.23965904  0.00000000  0.54114690  1
+  Li  Li1  1  0.53226370  -0.00000000  0.73570436  1
+  Li  Li2  1  0.80021230  0.00000000  0.47588935  1
+  Li  Li3  1  0.77172263  -0.00000000  0.78492809  1
+  Li  Li4  1  0.00120150  0.00000000  0.35231659  1
+  Li  Li5  1  0.66650023  0.00000000  0.33604586  1
+  Zn  Zn6  1  0.93819517  -0.00000000  0.89291388  1
+  Sb  Sb7  1  0.99175323  -0.00000000  0.56981827  1
+  Te  Te8  1  0.72482689  -0.00000000  0.97638475  1
+  S  S9  1  0.05086060  0.00000000  0.01023807  1
+  S  S10  1  0.39759283  0.00000000  0.06471989  1
+  S  S11  1  0.35405884  -0.00000000  0.69138578  1
+  S  S12  1  0.46822270  0.00000000  0.39968318  1
+  S  S13  1  0.78503268  0.00000000  0.63208801  1
+  S  S14  1  0.64847964  -0.00000000  0.34242680  1
+  S  S15  1  0.81539193  -0.00000000  0.23974410  1

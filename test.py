@@ -1,235 +1,225 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 import os
-import numpy as np
-from glob import glob
-from tqdm import tqdm
-from collections import Counter
-from sklearn.manifold import TSNE
-from sklearn.preprocessing import StandardScaler
-from pymatgen.core import Structure, Composition
+import sys
+import torch
 import warnings
+import math
+import gc
+import contextlib
+import io
+import pynvml 
+from time import time
+import logging
 
-# Suppress warnings for clean output
+# =============================================================================
+# 🚑 CRITICAL DRIVER & COMPATIBILITY SHIMS
+# =============================================================================
+# 1. GPU Shim: Route 'nvidia_smi' calls to 'pynvml' so CHGNet doesn't crash
+sys.modules['nvidia_smi'] = pynvml
+
+# 2. Path Shim: Ensure Windows finds the necessary DLLs
+os.environ['PATH'] += os.pathsep + r'C:\Windows\System32'
+
+# 3. ASE Compatibility Fix (Crucial for newer ASE / CHGNet versions)
+import ase.constraints
+sys.modules["ase.filters"] = ase.constraints
+if not hasattr(ase.constraints, "ExpCellFilter"):
+    if hasattr(ase.constraints, "UnitCellFilter"):
+        ase.constraints.ExpCellFilter = ase.constraints.UnitCellFilter
+
+# =============================================================================
+# 🔇 AGGRESSIVE SILENCING SYSTEM
+# =============================================================================
 warnings.filterwarnings("ignore")
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
+os.environ["DGLBACKEND"] = "pytorch"
+
+loggers_to_mute = ["chgnet", "dgl", "pymatgen", "matgl"]
+for name in logging.root.manager.loggerDict:
+    if any(mute_key in name.lower() for mute_key in loggers_to_mute):
+        logger = logging.getLogger(name)
+        logger.setLevel(logging.CRITICAL) 
+        logger.propagate = False
+
+class QuietBlock:
+    """Context manager to silence C-level print outputs from physics engines"""
+    def __enter__(self):
+        self._suppress = io.StringIO()
+        self._redirect_out = contextlib.redirect_stdout(self._suppress)
+        self._redirect_err = contextlib.redirect_stderr(self._suppress)
+        self._redirect_out.__enter__()
+        self._redirect_err.__enter__()
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self._redirect_out.__exit__(exc_type, exc_val, exc_tb)
+        self._redirect_err.__exit__(exc_type, exc_val, exc_tb)
 
 # =============================================================================
-# 🔧 CONFIGURATION
+# 🛠️ SETUP & IMPORTS
 # =============================================================================
-# Input: The Raw Generation CSV
-REPORT_PATH = r"C:\Users\REHNA\NOVAGEN\generated results\combined result\first_generated.csv"
+BASE_DIR = os.getcwd()
+sys.path.append(BASE_DIR)
+sys.path.append(os.path.join(BASE_DIR, "CrystalFormer"))
+sys.path.append(os.path.join(BASE_DIR, "core"))
+sys.path.append(os.path.join(BASE_DIR, "rewards"))
 
-# Input: The folder with the 13,000+ CIFs
-CIF_DIR = r"C:\Users\REHNA\NOVAGEN\generated results\combined result\cif" 
-
-# Output: The Dashboard Image
-OUTPUT_IMG = r"C:\Users\REHNA\NOVAGEN\generated results\combined result\raw_generation_dashboard.png"
-
-# =============================================================================
-# 🧠 HELPER FUNCTIONS
-# =============================================================================
-CRYSTAL_SYSTEMS = {
-    "Triclinic": (1, 2),
-    "Monoclinic": (3, 15),
-    "Orthorhombic": (16, 74),
-    "Tetragonal": (75, 142),
-    "Trigonal": (143, 167),
-    "Hexagonal": (168, 194),
-    "Cubic": (195, 230)
-}
-
-def get_crystal_system(sg_num):
-    try:
-        n = int(sg_num)
-        for sys_name, (start, end) in CRYSTAL_SYSTEMS.items():
-            if start <= n <= end: return sys_name
-    except:
-        pass
-    return "Unknown"
-
-def analyze_elements(formulas):
-    """Parses formulas and counts element usage"""
-    counts = Counter()
-    for f in formulas:
-        try:
-            for el in Composition(f).elements:
-                counts[str(el)] += 1
-        except: pass
-    return counts
-
-def get_primary_element(formula):
-    try:
-        return max(Composition(formula).items(), key=lambda x: x[1])[0].symbol
-    except:
-        return "Unknown"
+try:
+    from generator_service import CrystalGenerator
+    from sentinel import CrystalSentinel
+    from oracle import CrystalOracle     # Ensure this matches your filename
+    from relaxer import CrystalRelaxer   # Ensure this matches your filename
+except ImportError as e:
+    sys.exit(f"❌ Critical Import Error: {e}\nCheck your PYTHONPATH or folder structure.")
 
 # =============================================================================
-# 🚀 MAIN DASHBOARD GENERATOR
+# ⚙️ CONFIGURATION
 # =============================================================================
-def run_dashboard():
-    print(f"\n🎨 GENERATING RAW DISCOVERY DASHBOARD")
-    print(f"   Input CSV: {REPORT_PATH}")
+MODEL_PATH = os.path.join(BASE_DIR, "pretrained_model", "physicist_epoch_60.pt")
+CONFIG_PATH = os.path.join(BASE_DIR, "pretrained_model", "config.yaml")
+
+NUM_SAMPLES = 5
+# Atomic numbers for Ti (22), O (8), N (7) - A great system for testing bandgaps
+TEST_ELEMENTS = [22, 8, 7] 
+
+def test_pipeline():
+    print("="*85)
+    print("🧪 NOVAGEN FULL PIPELINE DIAGNOSTIC".center(85))
+    print("="*85)
+
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    print(f"   🚀 Hardware Acceleration: {device.upper()}")
+
+    # ---------------------------------------------------------
+    # 1. LOAD GENERATOR & EXTRACT LATTICE BIAS
+    # ---------------------------------------------------------
+    print("\n[1/4] Loading Generator (Phase 2)...")
+    if not os.path.exists(MODEL_PATH):
+        print(f"❌ Error: Model not found at {MODEL_PATH}")
+        return
     
-    if not os.path.exists(REPORT_PATH):
-        print("❌ Error: Report CSV not found.")
+    try:
+        generator = CrystalGenerator(MODEL_PATH, CONFIG_PATH, device)
+        generator.model.eval()
+        
+        # Extract the learned Lattice Bias to prevent implosions
+        checkpoint = torch.load(MODEL_PATH, map_location=device)
+        bias_val = checkpoint.get("lattice_bias_value", 3.0)
+        print(f"   ✅ Generator Loaded. Learned Lattice Bias: {bias_val:.4f}")
+    except Exception as e:
+        print(f"   ❌ Generator Failed: {e}")
         return
 
-    # 1. Load Data
-    df = pd.read_csv(REPORT_PATH)
-    
-    # Clean Column Names
-    df.columns = [c.strip() for c in df.columns]
-    
-    # Ensure all required columns exist (fill defaults if missing)
-    required_cols = ['file_name', 'formula', 'energy', 'bandgap', 'type', 
-                     'space_group_symbol', 'space_group_number', 'num_atoms', 'harvest_mode']
-    
-    for c in required_cols:
-        if c not in df.columns:
-            df[c] = 0 if c in ['energy', 'bandgap', 'num_atoms', 'space_group_number'] else "Unknown"
+    # ---------------------------------------------------------
+    # 2. INITIALIZE GATEKEEPERS (Sentinel)
+    # ---------------------------------------------------------
+    print("\n[2/4] Initializing Sentinel (Geometry Gatekeeper)...")
+    try:
+        sentinel = CrystalSentinel(device)
+        print("   ✅ Sentinel Online.")
+    except Exception as e:
+        print(f"   ❌ Sentinel Failed: {e}")
+        return
 
-    # Filter for Plotting (Remove extreme outliers for visuals)
-    df_clean = df[df['energy'] > -15].copy() 
-
-    print(f"   🔹 Processing {len(df_clean)} raw candidates...")
-
-    # 2. FEATURE EXTRACTION (For t-SNE)
-    print("   🔹 Calculating t-SNE Features (Chemistry)...")
-    
-    features = []
-    
-    for idx, row in tqdm(df_clean.iterrows(), total=len(df_clean), ncols=100):
-        f_feat = {}
-        
-        # A. Chemical Features (Formula based)
+    # ---------------------------------------------------------
+    # 3. LOAD PHYSICS & ELECTRONIC ENGINES
+    # ---------------------------------------------------------
+    print("\n[3/4] Initializing Physics Engines...")
+    with QuietBlock():
         try:
-            comp = Composition(row['formula'])
-            f_feat['avg_z'] = sum([e.Z * amt for e, amt in comp.items()]) / comp.num_atoms
-            f_feat['avg_eneg'] = sum([e.X * amt for e, amt in comp.items()]) / comp.num_atoms
-        except:
-            f_feat['avg_z'] = 0
-            f_feat['avg_eneg'] = 0
+            relaxer = CrystalRelaxer(device=device) 
+            relaxer_status = "✅ Relaxer (CHGNet) Online."
+        except Exception as e:
+            relaxer_status = f"❌ Relaxer Failed: {e}"
+            relaxer = None
 
-        # Note: We skip CIF loading for t-SNE features here to ensure speed for 13k rows,
-        # relying on the robust chemical features + CSV metadata.
-        f_feat['density'] = 0 
-        f_feat['vol_pa'] = 0
-            
-        features.append(f_feat)
+        try:
+            oracle = CrystalOracle(device="cpu")    
+            oracle_status = "✅ Oracle (MEGNet) Online."
+        except Exception as e:
+            oracle_status = f"❌ Oracle Failed: {e}"
+            oracle = None
 
-    df_feat = pd.DataFrame(features)
+    print(f"   {relaxer_status}")
+    print(f"   {oracle_status}")
     
-    # t-SNE Setup (Chemical Only for Speed/Robustness)
-    use_cols = ['avg_z', 'avg_eneg']
+    # ---------------------------------------------------------
+    # 4. RUN TEST BATCH
+    # ---------------------------------------------------------
+    print(f"\n[4/4] Generating {NUM_SAMPLES} Test Crystals (Ti-O-N System)...")
+    print("-" * 85)
+    print(f"{'Formula':<12} | {'Sent.':<6} | {'Relaxer':<12} | {'Energy (eV)':<15} | {'Bandgap (eV)'}")
+    print("-" * 85)
 
-    # 3. RUN t-SNE
-    print("   🧠 Running t-SNE dimensionality reduction...")
-    X = df_feat[use_cols].values
-    X_scaled = StandardScaler().fit_transform(X)
-    
-    perp = 40 
-    # FIX: Removed 'n_iter' to fix the TypeError
-    tsne = TSNE(n_components=2, perplexity=perp, random_state=42)
-    X_embedded = tsne.fit_transform(X_scaled)
-    
-    df_clean['tsne_x'] = X_embedded[:, 0]
-    df_clean['tsne_y'] = X_embedded[:, 1]
-    
-    # 4. PREPARE LABELS
-    df_clean['System'] = df_clean['space_group_number'].apply(get_crystal_system)
-    
-    # Create a label combining Symbol and Number (e.g., "Fm-3m (225)")
-    df_clean['SG_Label'] = df_clean['space_group_symbol'].astype(str) + " (" + df_clean['space_group_number'].astype(str) + ")"
+    start_time = time()
 
-    # ================= PLOTTING =================
-    print("   🎨 Rendering High-Res Dashboard...")
-    
-    fig = plt.figure(figsize=(24, 18))
-    gs = fig.add_gridspec(3, 2, height_ratios=[1, 1.2, 0.8])
-    sns.set_style("whitegrid")
+    try:
+        with torch.no_grad():
+            outputs = generator.generate(NUM_SAMPLES, TEST_ELEMENTS, temperature=0.7)
+        
+        structures = outputs["structures"]
 
-    # --- ROW 1: THE GENERATION LANDSCAPE ---
-    
-    # Plot 1: Energy vs Bandgap (Top Left)
-    # Size = num_atoms, Color = harvest_mode
-    ax1 = fig.add_subplot(gs[0, 0])
-    sns.scatterplot(
-        data=df_clean, x='bandgap', y='energy', 
-        hue='harvest_mode', size='num_atoms',
-        palette='deep', alpha=0.6, sizes=(20, 200), ax=ax1
-    )
-    ax1.axvspan(1.0, 1.8, color='orange', alpha=0.15, label='Solar Window')
-    ax1.set_title('Raw Landscape: Energy vs Bandgap (Size = Atom Count)', fontsize=16, fontweight='bold')
-    ax1.set_xlabel('Band Gap (eV)')
-    ax1.set_ylabel('Energy (eV/atom)')
-    ax1.legend(loc='upper right', fontsize=10, ncol=2)
-    ax1.set_xlim(-0.5, 6.0)
+        for i, struct in enumerate(structures):
+            if struct is None:
+                print(f"{'Invalid':<12} | {'FAIL':<6} | {'Skipped':<12} | {'N/A':<15} | {'N/A'}")
+                continue
 
-    # Plot 2: Harvest Mode vs Type (Top Right)
-    ax2 = fig.add_subplot(gs[0, 1])
-    if 'harvest_mode' in df_clean.columns:
-        sns.countplot(data=df_clean, x='harvest_mode', hue='type', 
-                      palette='Set2', ax=ax2)
-        ax2.set_title('Yield by Harvest Mode & Material Type', fontsize=16, fontweight='bold')
-        ax2.set_ylabel('Count of Candidates')
-    else:
-        ax2.text(0.5, 0.5, "Missing Harvest Mode", ha='center')
+            formula_raw = struct.composition.reduced_formula
+            energy = "N/A"
+            gap = "N/A"
+            relax_status = "Pending"
 
-    # --- ROW 2: THE MAP (t-SNE) ---
-    
-    # Plot 3: t-SNE by Harvest Mode (Middle Left)
-    ax3 = fig.add_subplot(gs[1, 0])
-    sns.scatterplot(
-        data=df_clean, x='tsne_x', y='tsne_y', 
-        hue='harvest_mode', palette='bright', 
-        s=40, alpha=0.6, ax=ax3
-    )
-    ax3.set_title('Generative Diversity: Clustered by Harvest Mode', fontsize=16, fontweight='bold')
-    ax3.legend(title="Harvest Strategy", loc='upper right')
+            # A. Sentinel Check
+            sent_res = sentinel.filter([struct])[0]
+            if not sent_res.get("valid", False):
+                print(f"{formula_raw:<12} | {'FAIL':<6} | {'Skipped':<12} | {'N/A':<15} | {'N/A'}")
+                continue
 
-    # Plot 4: t-SNE by Crystal System (Middle Right)
-    ax4 = fig.add_subplot(gs[1, 1])
-    sys_counts = df_clean['System'].value_counts()
-    top_sys = sys_counts.head(7).index
-    df_clean['Sys_Group'] = df_clean['System'].apply(lambda x: x if x in top_sys else "Other")
-    
-    sns.scatterplot(
-        data=df_clean, x='tsne_x', y='tsne_y', 
-        hue='Sys_Group', palette='tab10', 
-        s=40, alpha=0.7, ax=ax4
-    )
-    ax4.set_title('Structural Map: Clustered by Crystal System', fontsize=16, fontweight='bold')
-    ax4.legend(title="Structure", loc='upper right', ncol=2)
+            # B. Apply Phase 2 Lattice Bias (Inflate the box)
+            target_volume = math.exp(bias_val) * len(struct)
+            struct.scale_lattice(target_volume)
 
-    # --- ROW 3: STATISTICS ---
-    
-    # Plot 5: Element Usage (Bottom Left)
-    ax5 = fig.add_subplot(gs[2, 0])
-    elem_counts = analyze_elements(df_clean['formula'])
-    df_el = pd.DataFrame.from_dict(elem_counts, orient='index', columns=['Count']).sort_values('Count', ascending=False).head(20)
-    sns.barplot(x=df_el.index, y=df_el['Count'], palette="magma", ax=ax5)
-    ax5.set_title('Top 20 Elements Used in Generation', fontsize=14)
-    ax5.tick_params(axis='x', rotation=45)
+            # C. Relax (CHGNet)
+            if relaxer is not None:
+                with QuietBlock():
+                    # Turn on gradients locally for CHGNet FIRE optimizer
+                    with torch.enable_grad():
+                        relax_res = relaxer.relax(struct, steps=25)
+                
+                final_struct = relax_res["final_structure"] if relax_res["final_structure"] else struct
+                energy = relax_res["energy_per_atom"]
+                if relax_res["converged"]:
+                    relax_status = "Converged"
+                else:
+                    relax_status = "Unconverged"
+            else:
+                final_struct = struct
+                relax_status = "NoEngine"
 
-    # Plot 6: Space Group Distribution (Bottom Right)
-    ax6 = fig.add_subplot(gs[2, 1])
-    # Top 10 Specific Space Groups (Symbol + Number)
-    top_sgs = df_clean['SG_Label'].value_counts().head(10)
-    sns.barplot(x=top_sgs.values, y=top_sgs.index, palette="viridis", ax=ax6)
-    ax6.set_title('Top 10 Most Frequent Space Groups', fontsize=14)
-    ax6.set_xlabel("Count")
+            # D. Predict Properties (MEGNet)
+            if oracle is not None and relax_status in ["Converged", "NoEngine", "Unconverged"]:
+                with QuietBlock():
+                    try:
+                        _, gaps = oracle.predict_batch([final_struct])
+                        gap = gaps[0]
+                    except Exception:
+                        gap = "Error"
 
-    # Final Polish
-    plt.tight_layout()
-    
-    # Save
-    os.makedirs(os.path.dirname(OUTPUT_IMG), exist_ok=True)
-    plt.savefig(OUTPUT_IMG, dpi=300)
-    print(f"   🚀 Saved Dashboard: {OUTPUT_IMG}")
-    print("\n" + "="*50)
-    print("✅ RAW VISUALIZATION COMPLETE")
-    print("="*50)
+            # Format outputs cleanly
+            e_str = f"{energy:.4f}" if isinstance(energy, float) else str(energy)
+            g_str = f"{gap:.4f}" if isinstance(gap, float) else str(gap)
+            sent_str = "PASS"
+
+            print(f"{formula_raw:<12} | {sent_str:<6} | {relax_status:<12} | {e_str:<15} | {g_str}")
+
+            # Memory cleanup per loop
+            del final_struct
+            gc.collect()
+
+    except Exception as e:
+        print(f"\n❌ Pipeline Execution Error: {e}")
+
+    print("-" * 85)
+    print(f"⏱️  Total Diagnostic Time: {time() - start_time:.2f}s")
+    print("="*85)
+    print("✅ TEST COMPLETE".center(85))
 
 if __name__ == "__main__":
-    run_dashboard()
+    test_pipeline()

@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_K2InNO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.04750374
+_cell_length_b   8.04741952
+_cell_length_c   8.04755551
+_cell_angle_alpha   89.99943681
+_cell_angle_beta   89.99975227
+_cell_angle_gamma   89.99972528
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2InNO2
+_chemical_formula_sum   'K8 In4 N4 O8'
+_cell_volume   521.17288150
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.78954405  0.78954141  0.78954446  1
+  K  K1  1  0.71046327  0.21044616  0.28953829  1
+  K  K2  1  0.21044590  0.28954124  0.71046641  1
+  K  K3  1  0.28953595  0.71045882  0.21044838  1
+  K  K4  1  0.21045782  0.21045620  0.21045864  1
+  K  K5  1  0.28954960  0.78953254  0.71045185  1
+  K  K6  1  0.78953229  0.71045480  0.28955191  1
+  K  K7  1  0.71045046  0.28954530  0.78953451  1
+  In  In8  1  -0.00000028  -0.00000058  -0.00000036  1
+  In  In9  1  0.49999893  0.00000070  0.50000045  1
+  In  In10  1  0.00000033  0.49999986  0.49999924  1
+  In  In11  1  0.50000052  0.49999952  0.00000075  1
+  N  N12  1  0.50000884  0.49998236  0.50000811  1
+  N  N13  1  0.00007458  0.49987575  0.99995091  1
+  N  N14  1  0.49987640  0.99998710  0.00011059  1
+  N  N15  1  0.99993284  0.00002952  0.49990316  1
+  O  O16  1  0.61896250  0.61897925  0.61896307  1
+  O  O17  1  0.88098831  0.38110715  0.11899677  1
+  O  O18  1  0.38110758  0.11897480  0.88096635  1
+  O  O19  1  0.11900815  0.88101494  0.38109091  1
+  O  O20  1  0.38102672  0.38104196  0.38102755  1
+  O  O21  1  0.11892244  0.61904138  0.88106211  1
+  O  O22  1  0.61904073  0.88104037  0.11890075  1
+  O  O23  1  0.88107210  0.11894945  0.61902518  1

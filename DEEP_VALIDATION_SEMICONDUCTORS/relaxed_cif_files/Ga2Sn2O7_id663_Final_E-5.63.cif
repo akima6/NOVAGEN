@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ga(SnO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.12581005
+_cell_length_b   10.00574611
+_cell_length_c   6.20421461
+_cell_angle_alpha   93.66343334
+_cell_angle_beta   90.96546901
+_cell_angle_gamma   86.62068768
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ga(SnO3)2
+_chemical_formula_sum   'Ga2 Sn4 O12'
+_cell_volume   378.80717525
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  1.01531329  0.51443552  0.71772587  1
+  Ga  Ga1  1  0.49185904  -0.01060994  0.72028441  1
+  Sn  Sn2  1  0.92283633  0.15818730  0.73354221  1
+  Sn  Sn3  1  0.05198513  0.85882188  0.65924559  1
+  Sn  Sn4  1  0.40095982  0.34080485  0.58699652  1
+  Sn  Sn5  1  0.57139171  0.63926443  0.65944746  1
+  O  O6  1  0.57739190  0.42836407  0.36016015  1
+  O  O7  1  0.46761526  0.56476849  0.36280573  1
+  O  O8  1  1.03009589  0.07654939  0.42090066  1
+  O  O9  1  -0.03207217  0.93981476  0.37736562  1
+  O  O10  1  0.74424167  0.51100636  0.83551993  1
+  O  O11  1  0.31326340  0.52130290  0.78405412  1
+  O  O12  1  0.20874156  1.00779799  0.83132761  1
+  O  O13  1  0.77769911  -0.04737104  0.80697723  1
+  O  O14  1  0.54052104  0.15975762  0.62361297  1
+  O  O15  1  0.40739324  0.81654376  0.59571570  1
+  O  O16  1  0.07638907  0.34150794  0.56878139  1
+  O  O17  1  0.92157961  0.67880163  0.58485281  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ba2SrN2O3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.23429435
+_cell_length_b   7.57465077
+_cell_length_c   4.12159548
+_cell_angle_alpha   76.73770757
+_cell_angle_beta   106.92203139
+_cell_angle_gamma   116.36421910
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2SrN2O3
+_chemical_formula_sum   'Ba4 Sr2 N4 O6'
+_cell_volume   325.16335515
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.02372857  0.01611915  -0.04718828  1
+  Ba  Ba1  1  0.59684206  0.74893738  0.96655947  1
+  Ba  Ba2  1  0.37744616  0.05086771  0.37331681  1
+  Ba  Ba3  1  0.09124517  0.59125256  0.63599159  1
+  Sr  Sr4  1  0.31330826  0.51017892  0.33719900  1
+  Sr  Sr5  1  0.71971754  0.42529443  0.72091283  1
+  N  N6  1  0.52184413  0.47519071  0.50855345  1
+  N  N7  1  -0.15617629  -0.21135710  0.41084951  1
+  N  N8  1  -0.08855537  0.31005979  0.08480882  1
+  N  N9  1  0.58755649  0.07147071  0.10877663  1
+  O  O10  1  0.38026650  0.74885363  0.78437787  1
+  O  O11  1  0.87361579  0.24974572  0.78399267  1
+  O  O12  1  0.82158740  0.65740893  0.19456477  1
+  O  O13  1  0.15830199  0.81622993  0.10855821  1
+  O  O14  1  0.61284174  0.24032799  0.21294765  1
+  O  O15  1  0.19232820  0.31964652  0.81724275  1

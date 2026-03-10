@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Sb3(TeO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.79513236
+_cell_length_b   7.93630475
+_cell_length_c   8.34858149
+_cell_angle_alpha   90.63479881
+_cell_angle_beta   40.07322352
+_cell_angle_gamma   96.26288163
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sb3(TeO3)2
+_chemical_formula_sum   'Sb3 Te2 O6'
+_cell_volume   244.13235175
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  -0.03619603  0.79378130  1.02694076  1
+  Sb  Sb1  1  0.02529319  0.44229821  0.51060769  1
+  Sb  Sb2  1  0.48954281  0.19061380  1.00673483  1
+  Te  Te3  1  0.54180517  0.78397912  -0.04292995  1
+  Te  Te4  1  0.51807011  0.15306070  0.47414359  1
+  O  O5  1  0.73354503  1.00075555  0.22145813  1
+  O  O6  1  0.35404386  0.93171057  0.70222810  1
+  O  O7  1  0.56103234  0.28044539  0.73339234  1
+  O  O8  1  0.39234577  0.27515352  0.31634526  1
+  O  O9  1  -0.08173163  0.38072769  0.80058372  1
+  O  O10  1  1.00224942  0.29272269  0.25049547  1

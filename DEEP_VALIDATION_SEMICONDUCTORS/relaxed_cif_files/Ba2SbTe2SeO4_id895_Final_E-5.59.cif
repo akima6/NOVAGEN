@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ba2SbTe2SeO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.61802860
+_cell_length_b   5.46540106
+_cell_length_c   5.14044007
+_cell_angle_alpha   80.56490772
+_cell_angle_beta   97.72117973
+_cell_angle_gamma   70.71644010
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2SbTe2SeO4
+_chemical_formula_sum   'Ba2 Sb1 Te2 Se1 O4'
+_cell_volume   297.63069152
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.29656787  0.15345755  0.98975108  1
+  Ba  Ba1  1  0.70078834  -0.14914823  0.15660481  1
+  Sb  Sb2  1  0.95740379  1.01988855  0.68619883  1
+  Te  Te3  1  0.50004128  0.52937832  -0.05578195  1
+  Te  Te4  1  0.04101146  0.49894315  0.43429040  1
+  Se  Se5  1  0.49861930  -0.05094612  0.57652823  1
+  O  O6  1  0.92248969  -0.09943609  0.33785834  1
+  O  O7  1  0.11509579  0.09246983  0.66357035  1
+  O  O8  1  0.07995921  0.58811552  0.78163367  1
+  O  O9  1  0.88802325  0.41727750  0.42934623  1

@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Li4Al2Cd(GeSe2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.25388226
+_cell_length_b   5.25386741
+_cell_length_c   10.05375639
+_cell_angle_alpha   90.00001946
+_cell_angle_beta   90.00006918
+_cell_angle_gamma   89.99666273
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li4Al2Cd(GeSe2)2
+_chemical_formula_sum   'Li4 Al2 Cd1 Ge2 Se4'
+_cell_volume   277.51585572
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.69164240  0.69164251  0.21666690  1
+  Li  Li1  1  0.30835821  0.30835775  0.21666751  1
+  Li  Li2  1  0.69169109  0.30830895  0.78315883  1
+  Li  Li3  1  0.30830936  0.69169105  0.78315919  1
+  Al  Al4  1  0.49999987  0.99999984  0.50002063  1
+  Al  Al5  1  -0.00000029  0.50000037  0.50002063  1
+  Cd  Cd6  1  0.99999552  0.99999336  0.00287803  1
+  Ge  Ge7  1  0.49999650  0.00001142  0.99884487  1
+  Ge  Ge8  1  0.00000778  0.49999474  -0.00115439  1
+  Se  Se9  1  0.75465281  0.75465310  0.65282670  1
+  Se  Se10  1  0.24534659  0.24534705  0.65282584  1
+  Se  Se11  1  0.75461223  0.24538779  0.34704278  1
+  Se  Se12  1  0.24538794  0.75461207  0.34704240  1

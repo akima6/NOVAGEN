@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Na2AlTe4AsS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.88388661
+_cell_length_b   28.75953132
+_cell_length_c   10.46179597
+_cell_angle_alpha   15.12829761
+_cell_angle_beta   90.13275088
+_cell_angle_gamma   90.15446445
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2AlTe4AsS4
+_chemical_formula_sum   'Na4 Al2 Te8 As2 S8'
+_cell_volume   776.11017056
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.00880489  0.50428312  -0.01130241  1
+  Na  Na1  1  0.48640658  0.00903115  0.49949618  1
+  Na  Na2  1  0.00943541  0.49543125  0.51134846  1
+  Na  Na3  1  0.48701461  -0.00799462  0.00060857  1
+  Al  Al4  1  0.01608341  -0.00098914  0.25006611  1
+  Al  Al5  1  -0.01634280  0.00037284  0.75000332  1
+  Te  Te6  1  0.07890836  0.21217980  0.00965810  1
+  Te  Te7  1  0.92356962  0.76895890  0.03060651  1
+  Te  Te8  1  0.75826396  0.13060010  0.50930147  1
+  Te  Te9  1  0.24726586  0.85973153  0.52958545  1
+  Te  Te10  1  0.92351370  0.23024940  0.46746876  1
+  Te  Te11  1  0.07782312  0.78881195  0.49087248  1
+  Te  Te12  1  0.24468724  0.14071336  0.97101146  1
+  Te  Te13  1  0.76082677  0.86829478  0.99026693  1
+  As  As14  1  0.50564692  0.52698654  0.03788096  1
+  As  As15  1  0.50107358  0.47257995  0.46273041  1
+  S  S16  1  0.30841733  0.35957252  0.86575482  1
+  S  S17  1  0.70465782  0.69310430  0.83279804  1
+  S  S18  1  0.63749693  0.36018692  0.34640867  1
+  S  S19  1  0.34407314  0.67865038  0.35041625  1
+  S  S20  1  0.70370225  0.30718667  0.66605449  1
+  S  S21  1  0.30722409  0.64142251  0.63365839  1
+  S  S22  1  0.34677627  0.32151703  0.15133340  1
+  S  S23  1  0.63467108  0.63911888  0.15397302  1

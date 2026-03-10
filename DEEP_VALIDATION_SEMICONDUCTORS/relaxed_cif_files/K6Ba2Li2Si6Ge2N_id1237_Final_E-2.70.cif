@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_K6Ba2Li2Si6N
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.85269492
+_cell_length_b   11.13023955
+_cell_length_c   4.84495443
+_cell_angle_alpha   63.25381972
+_cell_angle_beta   114.01787495
+_cell_angle_gamma   87.12263474
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K6Ba2Li2Si6N
+_chemical_formula_sum   'K6 Ba2 Li2 Si6 N1'
+_cell_volume   541.71304786
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.34928885  0.91235834  0.19039471  1
+  K  K1  1  0.12485998  0.51042840  0.18409069  1
+  K  K2  1  0.54789133  0.64977015  0.16757508  1
+  K  K3  1  0.91410505  0.34466795  0.81083208  1
+  K  K4  1  0.50547271  0.12927585  0.81006501  1
+  K  K5  1  0.71358753  0.60312631  0.83713631  1
+  Ba  Ba6  1  0.31917605  0.66036932  0.21888170  1
+  Ba  Ba7  1  0.66684235  0.33806918  0.76987533  1
+  Li  Li8  1  0.29546948  0.60543055  0.58913056  1
+  Li  Li9  1  0.62827404  0.31176307  0.41832572  1
+  Si  Si10  1  0.03385989  0.80857731  0.19154954  1
+  Si  Si11  1  0.20970940  0.24158034  0.19841457  1
+  Si  Si12  1  0.75173956  0.88888007  0.20490812  1
+  Si  Si13  1  0.81924905  0.03389377  0.80626549  1
+  Si  Si14  1  0.24679922  0.21377574  0.80594430  1
+  Si  Si15  1  0.89814143  0.75898002  0.79277467  1
+  N  N16  1  -0.02446591  0.98905363  0.00383487  1

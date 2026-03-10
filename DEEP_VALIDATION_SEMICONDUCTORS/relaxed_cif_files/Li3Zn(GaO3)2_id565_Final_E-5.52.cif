@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Li3Zn(GaO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.14926610
+_cell_length_b   14.27302184
+_cell_length_c   5.25038037
+_cell_angle_alpha   87.51020880
+_cell_angle_beta   91.80124050
+_cell_angle_gamma   160.70189872
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3Zn(GaO3)2
+_chemical_formula_sum   'Li6 Zn2 Ga4 O12'
+_cell_volume   251.01403288
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00242981  0.49951401  0.03482687  1
+  Li  Li1  1  0.50243089  -0.00048531  0.03482673  1
+  Li  Li2  1  0.18062648  0.97799278  -0.02538765  1
+  Li  Li3  1  0.84198619  0.00471653  -0.01154804  1
+  Li  Li4  1  0.68062627  0.47799252  0.97461194  1
+  Li  Li5  1  0.34198650  0.50471639  -0.01154762  1
+  Zn  Zn6  1  0.49699247  0.00586202  0.54140075  1
+  Zn  Zn7  1  -0.00300775  0.50586190  0.54140092  1
+  Ga  Ga8  1  0.12757299  0.95175229  0.45938308  1
+  Ga  Ga9  1  0.86638107  0.05300298  0.46561533  1
+  Ga  Ga10  1  0.62757325  0.45175251  0.45938264  1
+  Ga  Ga11  1  0.36638111  0.55300303  0.46561547  1
+  O  O12  1  0.24779104  0.25352337  0.24779021  1
+  O  O13  1  0.74035326  0.24837634  0.78730136  1
+  O  O14  1  0.74779071  0.75352297  0.24779038  1
+  O  O15  1  0.24035293  0.74837623  0.78730158  1
+  O  O16  1  0.33465839  0.65822592  0.29752214  1
+  O  O17  1  0.66144437  0.35081982  0.28287544  1
+  O  O18  1  0.81901671  0.66589286  0.71011268  1
+  O  O19  1  0.18074596  0.33032038  0.71010813  1
+  O  O20  1  0.83465824  0.15822587  0.29752162  1
+  O  O21  1  0.16144462  0.85081999  0.28287553  1
+  O  O22  1  0.31901725  0.16589358  0.71011265  1
+  O  O23  1  0.68074722  0.83032105  0.71010800  1

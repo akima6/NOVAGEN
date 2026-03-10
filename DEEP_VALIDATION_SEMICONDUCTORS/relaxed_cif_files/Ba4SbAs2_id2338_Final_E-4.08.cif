@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Ba4SbAs2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.40175355
+_cell_length_b   8.40203769
+_cell_length_c   16.23845872
+_cell_angle_alpha   90.18597477
+_cell_angle_beta   89.98679996
+_cell_angle_gamma   89.99123369
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba4SbAs2
+_chemical_formula_sum   'Ba16 Sb4 As8'
+_cell_volume   1146.29675825
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.31268868  1.01414935  0.18765764  1
+  Ba  Ba1  1  0.18853930  -0.01502198  0.68800695  1
+  Ba  Ba2  1  0.73489745  0.56273279  0.43814783  1
+  Ba  Ba3  1  0.76428740  0.43872488  0.93762414  1
+  Ba  Ba4  1  0.68731138  -0.01414940  0.81234231  1
+  Ba  Ba5  1  0.81146061  1.01502206  0.31199301  1
+  Ba  Ba6  1  0.26510260  0.43726724  0.56185213  1
+  Ba  Ba7  1  0.23571255  0.56127511  0.06237585  1
+  Ba  Ba8  1  0.81268870  0.51414929  0.68765763  1
+  Ba  Ba9  1  0.68853933  0.48497800  0.18800694  1
+  Ba  Ba10  1  0.23489747  1.06273278  0.93814785  1
+  Ba  Ba11  1  0.26428736  -0.06127513  0.43762412  1
+  Ba  Ba12  1  0.18731136  0.48585060  0.31234235  1
+  Ba  Ba13  1  0.31146065  0.51502202  0.81199302  1
+  Ba  Ba14  1  0.76510258  -0.06273274  0.06185212  1
+  Ba  Ba15  1  0.73571252  1.06127509  0.56237583  1
+  Sb  Sb16  1  0.00071479  0.24956879  0.12501606  1
+  Sb  Sb17  1  0.49928519  0.25043121  0.37498396  1
+  Sb  Sb18  1  0.50071481  0.74956878  0.62501610  1
+  Sb  Sb19  1  0.99928518  0.75043122  0.87498397  1
+  As  As20  1  0.99871503  0.25030838  0.45459709  1
+  As  As21  1  0.50032426  0.25016550  0.70446238  1
+  As  As22  1  0.00128495  0.74969161  0.54540295  1
+  As  As23  1  0.49967571  0.74983447  0.29553762  1
+  As  As24  1  0.49871503  0.75030836  0.95459711  1
+  As  As25  1  0.00032427  0.75016553  0.20446242  1
+  As  As26  1  0.50128496  0.24969165  0.04540297  1
+  As  As27  1  -0.00032426  0.24983449  0.79553765  1

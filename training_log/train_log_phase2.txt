@@ -1,0 +1,78 @@
+🚀 STARTING PHASE 2: THE PHYSICIST
+📊 Ep 1 | Time: 39:46 | Reward: -3.982 | KL: -0.54 | Energy: -1.751 eV | Bias: 3.0098
+📊 Ep 2 | Time: 39:20 | Reward: -3.939 | KL: -0.31 | Energy: -1.439 eV | Bias: 3.0192
+📊 Ep 3 | Time: 38:42 | Reward: -3.634 | KL: -0.16 | Energy: -1.884 eV | Bias: 3.0288
+📊 Ep 4 | Time: 35:49 | Reward: -3.686 | KL: -0.11 | Energy: -1.854 eV | Bias: 3.0384
+📊 Ep 5 | Time: 36:27 | Reward: -3.329 | KL: -0.69 | Energy: -1.789 eV | Bias: 3.0484
+   💾 Saved Physicist Checkpoint: physicist_epoch_5.pt
+📊 Ep 6 | Time: 35:53 | Reward: -3.467 | KL: -0.69 | Energy: -1.976 eV | Bias: 3.0588
+📊 Ep 7 | Time: 37:04 | Reward: -4.090 | KL: -0.35 | Energy: -1.754 eV | Bias: 3.0680
+📊 Ep 8 | Time: 35:35 | Reward: -3.493 | KL: -0.35 | Energy: -1.654 eV | Bias: 3.0772
+📊 Ep 9 | Time: 36:16 | Reward: -3.608 | KL: -0.38 | Energy: -1.380 eV | Bias: 3.0867
+📊 Ep 10 | Time: 35:43 | Reward: -2.975 | KL: -0.67 | Energy: -1.924 eV | Bias: 3.0961
+   💾 Saved Physicist Checkpoint: physicist_epoch_10.pt
+📊 Ep 11 | Time: 35:35 | Reward: -3.266 | KL: -0.82 | Energy: -1.700 eV | Bias: 3.1054
+📊 Ep 12 | Time: 37:19 | Reward: -3.620 | KL: -0.57 | Energy: -1.877 eV | Bias: 3.1142
+📊 Ep 13 | Time: 37:47 | Reward: -4.110 | KL: -0.79 | Energy: -1.863 eV | Bias: 3.1234
+🚀 STARTING PHASE 2: THE PHYSICIST
+   🔄 Resuming from Phase 2 Checkpoint: Epoch 10
+📊 Ep 11 | Time: 38:33 | Reward: -3.623 | KL: -0.54 | Energy: -1.834 eV | Bias: 3.1052
+📊 Ep 12 | Time: 35:13 | Reward: -3.804 | KL: -0.38 | Energy: -1.806 eV | Bias: 3.1141
+📊 Ep 13 | Time: 35:25 | Reward: -3.381 | KL: -0.54 | Energy: -1.880 eV | Bias: 3.1237
+📊 Ep 14 | Time: 35:15 | Reward: -3.338 | KL: -0.80 | Energy: -1.773 eV | Bias: 3.1334
+📊 Ep 15 | Time: 35:11 | Reward: -3.425 | KL: -0.67 | Energy: -1.616 eV | Bias: 3.1427
+   💾 Saved Physicist Checkpoint: physicist_epoch_15.pt
+📊 Ep 16 | Time: 35:14 | Reward: -3.573 | KL: -0.99 | Energy: -2.105 eV | Bias: 3.1522
+📊 Ep 17 | Time: 35:05 | Reward: -3.700 | KL: -1.05 | Energy: -1.789 eV | Bias: 3.1613
+📊 Ep 18 | Time: 35:00 | Reward: -3.505 | KL: -1.10 | Energy: -1.652 eV | Bias: 3.1700
+📊 Ep 19 | Time: 34:59 | Reward: -3.626 | KL: -0.89 | Energy: -1.539 eV | Bias: 3.1785
+📊 Ep 20 | Time: 34:38 | Reward: -3.684 | KL: -1.22 | Energy: -1.958 eV | Bias: 3.1873
+   💾 Saved Physicist Checkpoint: physicist_epoch_20.pt
+📊 Ep 21 | Time: 35:03 | Reward: -3.641 | KL: -0.95 | Energy: -1.718 eV | Bias: 3.1955
+📊 Ep 22 | Time: 35:50 | Reward: -3.601 | KL: -0.78 | Energy: -1.789 eV | Bias: 3.2044
+📊 Ep 23 | Time: 35:18 | Reward: -3.392 | KL: -1.16 | Energy: -1.829 eV | Bias: 3.2133
+📊 Ep 24 | Time: 34:48 | Reward: -3.778 | KL: -0.73 | Energy: -1.849 eV | Bias: 3.2222
+📊 Ep 25 | Time: 35:34 | Reward: -3.419 | KL: -1.14 | Energy: -1.764 eV | Bias: 3.2303
+   💾 Saved Physicist Checkpoint: physicist_epoch_25.pt
+📊 Ep 26 | Time: 34:56 | Reward: -3.849 | KL: -0.93 | Energy: -1.839 eV | Bias: 3.2392
+📊 Ep 27 | Time: 35:06 | Reward: -3.943 | KL: -1.02 | Energy: -1.836 eV | Bias: 3.2476
+📊 Ep 28 | Time: 34:51 | Reward: -4.016 | KL: -0.81 | Energy: -1.996 eV | Bias: 3.2557
+📊 Ep 29 | Time: 35:05 | Reward: -3.513 | KL: -0.65 | Energy: -1.946 eV | Bias: 3.2650
+📊 Ep 30 | Time: 34:58 | Reward: -3.639 | KL: -0.82 | Energy: -1.864 eV | Bias: 3.2735
+   💾 Saved Physicist Checkpoint: physicist_epoch_30.pt
+📊 Ep 31 | Time: 35:16 | Reward: -3.437 | KL: -0.77 | Energy: -1.872 eV | Bias: 3.2827
+📊 Ep 32 | Time: 35:10 | Reward: -3.452 | KL: -1.11 | Energy: -1.932 eV | Bias: 3.2920
+📊 Ep 33 | Time: 36:11 | Reward: -3.453 | KL: -0.78 | Energy: -1.695 eV | Bias: 3.3010
+📊 Ep 34 | Time: 35:09 | Reward: -3.455 | KL: -0.61 | Energy: -1.888 eV | Bias: 3.3098
+📊 Ep 35 | Time: 35:02 | Reward: -3.594 | KL: -0.65 | Energy: -1.940 eV | Bias: 3.3185
+   💾 Saved Physicist Checkpoint: physicist_epoch_35.pt
+📊 Ep 36 | Time: 35:02 | Reward: -3.414 | KL: -1.07 | Energy: -1.854 eV | Bias: 3.3267
+📊 Ep 37 | Time: 34:55 | Reward: -3.700 | KL: -1.21 | Energy: -2.018 eV | Bias: 3.3347
+📊 Ep 38 | Time: 34:56 | Reward: -3.742 | KL: -0.99 | Energy: -2.038 eV | Bias: 3.3423
+📊 Ep 39 | Time: 35:20 | Reward: -2.881 | KL: -1.14 | Energy: -2.148 eV | Bias: 3.3508
+📊 Ep 40 | Time: 35:27 | Reward: -3.766 | KL: -1.37 | Energy: -2.006 eV | Bias: 3.3583
+   💾 Saved Physicist Checkpoint: physicist_epoch_40.pt
+📊 Ep 41 | Time: 36:07 | Reward: -3.554 | KL: -0.98 | Energy: -1.941 eV | Bias: 3.3671
+📊 Ep 42 | Time: 34:56 | Reward: -3.931 | KL: -1.45 | Energy: -1.753 eV | Bias: 3.3752
+📊 Ep 43 | Time: 35:14 | Reward: -3.346 | KL: -0.80 | Energy: -1.821 eV | Bias: 3.3834
+📊 Ep 44 | Time: 34:59 | Reward: -3.634 | KL: -0.86 | Energy: -1.898 eV | Bias: 3.3914
+📊 Ep 45 | Time: 34:56 | Reward: -3.970 | KL: -1.38 | Energy: -1.952 eV | Bias: 3.3984
+   💾 Saved Physicist Checkpoint: physicist_epoch_45.pt
+📊 Ep 46 | Time: 35:21 | Reward: -3.433 | KL: -0.86 | Energy: -1.926 eV | Bias: 3.4059
+📊 Ep 47 | Time: 35:18 | Reward: -3.485 | KL: -1.04 | Energy: -1.911 eV | Bias: 3.4138
+📊 Ep 48 | Time: 35:09 | Reward: -3.490 | KL: -0.60 | Energy: -1.901 eV | Bias: 3.4219
+📊 Ep 49 | Time: 36:12 | Reward: -3.674 | KL: -0.72 | Energy: -1.961 eV | Bias: 3.4300
+📊 Ep 50 | Time: 35:21 | Reward: -3.427 | KL: -0.66 | Energy: -1.971 eV | Bias: 3.4371
+   💾 Saved Physicist Checkpoint: physicist_epoch_50.pt
+📊 Ep 51 | Time: 35:19 | Reward: -3.402 | KL: -1.41 | Energy: -2.106 eV | Bias: 3.4441
+📊 Ep 52 | Time: 35:00 | Reward: -3.930 | KL: -0.85 | Energy: -2.058 eV | Bias: 3.4510
+📊 Ep 53 | Time: 35:12 | Reward: -3.580 | KL: -0.75 | Energy: -1.848 eV | Bias: 3.4586
+📊 Ep 54 | Time: 35:33 | Reward: -3.864 | KL: -0.85 | Energy: -1.874 eV | Bias: 3.4661
+📊 Ep 55 | Time: 35:30 | Reward: -3.581 | KL: -1.04 | Energy: -2.084 eV | Bias: 3.4738
+   💾 Saved Physicist Checkpoint: physicist_epoch_55.pt
+📊 Ep 56 | Time: 35:35 | Reward: -3.690 | KL: -1.02 | Energy: -1.815 eV | Bias: 3.4815
+📊 Ep 57 | Time: 35:43 | Reward: -3.606 | KL: -0.94 | Energy: -1.953 eV | Bias: 3.4885
+📊 Ep 58 | Time: 36:07 | Reward: -3.052 | KL: -0.87 | Energy: -2.050 eV | Bias: 3.4957
+📊 Ep 59 | Time: 35:50 | Reward: -3.467 | KL: -1.19 | Energy: -1.993 eV | Bias: 3.5025
+📊 Ep 60 | Time: 35:40 | Reward: -3.277 | KL: -1.20 | Energy: -1.947 eV | Bias: 3.5094
+   💾 Saved Physicist Checkpoint: physicist_epoch_60.pt

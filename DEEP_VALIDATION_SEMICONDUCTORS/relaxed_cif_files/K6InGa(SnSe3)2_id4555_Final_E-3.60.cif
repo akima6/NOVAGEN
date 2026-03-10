@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_K6InGa(SnSe3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.38528293
+_cell_length_b   11.94013710
+_cell_length_c   6.55799662
+_cell_angle_alpha   97.26793353
+_cell_angle_beta   88.13823505
+_cell_angle_gamma   132.75517837
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K6InGa(SnSe3)2
+_chemical_formula_sum   'K6 In1 Ga1 Sn2 Se6'
+_cell_volume   533.83228164
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.31340427  0.34002376  0.24555517  1
+  K  K1  1  0.64656441  0.99540123  0.19708515  1
+  K  K2  1  0.03968628  0.68436644  0.24896942  1
+  K  K3  1  0.66407684  0.67322660  0.79793423  1
+  K  K4  1  0.03046806  0.34275928  0.79119152  1
+  K  K5  1  0.31425813  0.96502483  0.75471095  1
+  In  In6  1  0.63761993  0.34416574  0.94993123  1
+  Ga  Ga7  1  0.37688373  0.68204024  0.49979035  1
+  Sn  Sn8  1  -0.00217076  0.98826962  0.47729053  1
+  Sn  Sn9  1  0.68768456  0.33358571  0.49462462  1
+  Se  Se10  1  0.70028389  0.71171002  0.29250439  1
+  Se  Se11  1  0.33704182  0.05501218  0.25970962  1
+  Se  Se12  1  1.00352094  0.38204284  0.30711834  1
+  Se  Se13  1  0.32200625  0.28147374  0.74070098  1
+  Se  Se14  1  0.95008888  0.60565204  0.75690778  1
+  Se  Se15  1  0.64524941  -0.05142083  0.68597563  1

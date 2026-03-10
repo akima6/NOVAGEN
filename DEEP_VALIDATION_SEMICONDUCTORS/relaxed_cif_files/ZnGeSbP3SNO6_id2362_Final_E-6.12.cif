@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_ZnGeSbP3NO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.29699118
+_cell_length_b   7.02643177
+_cell_length_c   9.23947137
+_cell_angle_alpha   89.48598271
+_cell_angle_beta   74.00546048
+_cell_angle_gamma   88.82503998
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnGeSbP3NO5
+_chemical_formula_sum   'Zn2 Ge2 Sb2 P6 N2 O10'
+_cell_volume   517.68093641
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.73948446  0.25160952  0.69978847  1
+  Zn  Zn1  1  0.26051143  0.74838933  0.30021001  1
+  Ge  Ge2  1  0.19900753  0.25060511  0.58253140  1
+  Ge  Ge3  1  0.80098851  0.74939483  0.41746892  1
+  Sb  Sb4  1  0.27719754  0.25053843  0.94590396  1
+  Sb  Sb5  1  0.72280133  0.74946161  0.05409516  1
+  P  P6  1  0.37079690  0.24940946  0.28065683  1
+  P  P7  1  0.62920046  0.75059068  0.71934381  1
+  P  P8  1  0.56490746  0.24984128  0.54813729  1
+  P  P9  1  0.43508802  0.75015953  0.45186102  1
+  P  P10  1  0.76805061  0.24946739  0.94506642  1
+  P  P11  1  0.23194825  0.75053259  0.05493123  1
+  N  N12  1  0.38531905  0.24962697  0.66698649  1
+  N  N13  1  0.61467740  0.75037371  0.33301279  1
+  O  O14  1  0.25354867  0.25009671  0.17150962  1
+  O  O15  1  0.74645029  0.74990327  0.82848952  1
+  O  O16  1  0.70425632  0.91890747  0.59598864  1
+  O  O17  1  0.29406171  0.41933155  0.40239531  1
+  O  O18  1  0.29573978  0.08109256  0.40401161  1
+  O  O19  1  0.70593366  0.58066865  0.59760492  1
+  O  O20  1  0.69361233  0.06583362  0.02730449  1
+  O  O21  1  0.30656661  0.56583065  0.97230846  1
+  O  O22  1  0.30638803  0.93416629  0.97269400  1
+  O  O23  1  0.69343321  0.43416886  0.02769019  1

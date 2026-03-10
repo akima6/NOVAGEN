@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_K4Ga(GeO2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.26697310
+_cell_length_b   5.76952968
+_cell_length_c   16.64904991
+_cell_angle_alpha   90.35046819
+_cell_angle_beta   90.46575092
+_cell_angle_gamma   90.45483788
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K4Ga(GeO2)4
+_chemical_formula_sum   'K4 Ga1 Ge4 O8'
+_cell_volume   601.93745222
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.29926770  0.29527666  0.40128154  1
+  K  K1  1  0.69492115  0.70557395  0.39946290  1
+  K  K2  1  0.70011508  0.29510834  0.59996667  1
+  K  K3  1  0.30398707  0.70643637  0.60023477  1
+  Ga  Ga4  1  0.99952286  0.99530313  1.00003213  1
+  Ge  Ge5  1  0.17271345  0.17459593  0.15561033  1
+  Ge  Ge6  1  0.83718117  0.82363328  0.15679456  1
+  Ge  Ge7  1  0.83118516  0.17362902  0.84446148  1
+  Ge  Ge8  1  0.17085979  0.82335837  0.84432286  1
+  O  O9  1  0.23633905  0.23293710  0.24977940  1
+  O  O10  1  0.76155720  0.76201887  0.24877699  1
+  O  O11  1  0.76200648  0.23502339  0.75147630  1
+  O  O12  1  0.23967563  0.76090380  0.75155781  1
+  O  O13  1  0.69604621  0.70975049  0.55971254  1
+  O  O14  1  0.30712709  0.29087795  0.56152394  1
+  O  O15  1  0.30269348  0.71168118  0.43981552  1
+  O  O16  1  0.69323307  0.29084385  0.43959398  1

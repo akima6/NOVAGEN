@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_AlCd2Ge(AsS)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.04197054
+_cell_length_b   6.85210467
+_cell_length_c   12.16966935
+_cell_angle_alpha   89.98415474
+_cell_angle_beta   89.99725459
+_cell_angle_gamma   89.94210171
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlCd2Ge(AsS)4
+_chemical_formula_sum   'Al2 Cd4 Ge2 As8 S8'
+_cell_volume   587.21444708
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.00004006  -0.00000406  0.49999499  1
+  Al  Al1  1  0.50003698  0.50000816  -0.00000374  1
+  Cd  Cd2  1  0.00000139  0.49999932  0.25305227  1
+  Cd  Cd3  1  0.00000396  0.49999926  0.74694228  1
+  Cd  Cd4  1  0.50000292  0.00000134  0.75305255  1
+  Cd  Cd5  1  0.50000204  0.00000132  0.24694237  1
+  Ge  Ge6  1  0.00020351  1.00004487  -0.00000482  1
+  Ge  Ge7  1  0.50022010  0.49998317  0.49999210  1
+  As  As8  1  0.62804198  0.63096389  0.78478344  1
+  As  As9  1  0.37195790  0.36903539  0.78479506  1
+  As  As10  1  0.62804675  0.36900370  0.21523034  1
+  As  As11  1  0.37195332  0.63099931  0.21522766  1
+  As  As12  1  0.12804204  0.13096321  0.28478720  1
+  As  As13  1  0.87195733  0.86903449  0.28479220  1
+  As  As14  1  0.12804629  0.86900317  0.71523418  1
+  As  As15  1  0.87195341  0.13099847  0.71522502  1
+  S  S16  1  0.76848554  0.76975113  0.45672860  1
+  S  S17  1  0.23138639  0.23024294  0.45670227  1
+  S  S18  1  0.76846446  0.23026886  0.54325683  1
+  S  S19  1  0.23139907  0.76975873  0.54329086  1
+  S  S20  1  0.26848331  0.26973343  0.95673477  1
+  S  S21  1  0.73138214  0.73022238  0.95669615  1
+  S  S22  1  0.26847601  0.73025026  0.04326462  1
+  S  S23  1  0.73141298  0.26973711  0.04328270  1

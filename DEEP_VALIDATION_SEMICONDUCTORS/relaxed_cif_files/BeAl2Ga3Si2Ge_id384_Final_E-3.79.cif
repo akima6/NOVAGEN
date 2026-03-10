@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_BeAl2Ga3Si2Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.52943480
+_cell_length_b   7.50868323
+_cell_length_c   11.26817539
+_cell_angle_alpha   85.28995732
+_cell_angle_beta   33.14727465
+_cell_angle_gamma   94.87324444
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BeAl2Ga3Si2Ge
+_chemical_formula_sum   'Be2 Al4 Ga6 Si4 Ge2'
+_cell_volume   333.06816049
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Be  Be0  1  0.10062183  1.04255962  0.87174643  1
+  Be  Be1  1  0.10303361  1.01249499  0.38441936  1
+  Al  Al2  1  0.94645967  0.70690201  0.96870722  1
+  Al  Al3  1  0.04733189  0.25809647  0.04463287  1
+  Al  Al4  1  0.28045019  0.83344541  0.44635790  1
+  Al  Al5  1  0.68838112  0.18401662  0.61440471  1
+  Ga  Ga6  1  0.31192852  0.52734487  0.31001677  1
+  Ga  Ga7  1  0.64124691  0.46204884  0.76647114  1
+  Ga  Ga8  1  0.25520833  0.62509689  1.08656177  1
+  Ga  Ga9  1  0.75576321  0.44677823  -0.08060128  1
+  Ga  Ga10  1  0.45319975  0.29352572  0.53477243  1
+  Ga  Ga11  1  0.56243100  0.66085268  0.46979026  1
+  Si  Si12  1  0.25120137  0.90984315  0.95807711  1
+  Si  Si13  1  0.65327568  0.14937479  1.09556289  1
+  Si  Si14  1  0.19403724  0.20936296  0.47826091  1
+  Si  Si15  1  0.91893387  0.70954597  0.45738012  1
+  Ge  Ge16  1  -0.06525841  0.01773719  0.28863213  1
+  Ge  Ge17  1  0.90175429  0.95097362  0.80480727  1

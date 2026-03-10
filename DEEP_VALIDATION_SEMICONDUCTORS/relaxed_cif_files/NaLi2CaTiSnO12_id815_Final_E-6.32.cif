@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NaLi2CaTiSnO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.08574499
+_cell_length_b   7.52719571
+_cell_length_c   6.48999052
+_cell_angle_alpha   90.57273394
+_cell_angle_beta   61.14191514
+_cell_angle_gamma   62.27605630
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLi2CaTiSnO8
+_chemical_formula_sum   'Na1 Li2 Ca1 Ti1 Sn1 O8'
+_cell_volume   219.68764097
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.69080312  0.02699899  1.13738871  1
+  Li  Li1  1  0.19457993  0.17428978  0.64347445  1
+  Li  Li2  1  0.27812824  0.86168352  0.69664496  1
+  Ca  Ca3  1  0.72388745  0.48320933  0.35220677  1
+  Ti  Ti4  1  0.08397270  0.56005186  0.75631514  1
+  Sn  Sn5  1  0.83050757  -0.07344593  0.56384789  1
+  O  O6  1  0.80679357  0.16301513  0.40412108  1
+  O  O7  1  0.60610360  0.86439982  0.46177945  1
+  O  O8  1  0.91758473  0.08719602  0.73788953  1
+  O  O9  1  0.72020851  0.80697669  0.86173174  1
+  O  O10  1  0.25101845  0.66412294  0.40388223  1
+  O  O11  1  0.28688751  0.36013492  0.44084187  1
+  O  O12  1  0.01869595  0.39200283  0.94164487  1
+  O  O13  1  0.30825334  0.62845446  0.79545502  1

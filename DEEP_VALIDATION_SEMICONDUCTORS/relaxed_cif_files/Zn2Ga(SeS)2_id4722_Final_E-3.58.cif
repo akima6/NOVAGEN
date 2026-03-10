@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Zn2Ga(SeS)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.15410579
+_cell_length_b   4.12840726
+_cell_length_c   12.86622172
+_cell_angle_alpha   85.08766737
+_cell_angle_beta   89.99897374
+_cell_angle_gamma   89.99452198
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn2Ga(SeS)2
+_chemical_formula_sum   'Zn4 Ga2 Se4 S4'
+_cell_volume   378.60885841
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.06891722  -0.01748408  0.07243393  1
+  Zn  Zn1  1  0.43110748  0.48252279  0.57241774  1
+  Zn  Zn2  1  0.94529601  0.46250185  0.88101980  1
+  Zn  Zn3  1  0.55472177  -0.03748690  0.38102572  1
+  Ga  Ga4  1  -0.05820956  0.48768592  0.18867642  1
+  Ga  Ga5  1  0.55819165  0.98768909  0.68867988  1
+  Se  Se6  1  0.20912620  0.59395539  0.30888512  1
+  Se  Se7  1  0.67976528  0.47382277  0.30190658  1
+  Se  Se8  1  0.82021797  0.97382265  0.80190643  1
+  Se  Se9  1  0.29084369  0.09396167  0.80889687  1
+  S  S10  1  0.69630866  0.78006549  0.54525648  1
+  S  S11  1  0.25982390  0.21943374  0.45421436  1
+  S  S12  1  0.24019156  0.71943378  0.95421751  1
+  S  S13  1  0.80369814  0.28007578  1.04525221  1

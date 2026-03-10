@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_LiTiZn2O3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.83879791
+_cell_length_b   6.50291592
+_cell_length_c   7.97325828
+_cell_angle_alpha   138.43920021
+_cell_angle_beta   92.16093163
+_cell_angle_gamma   74.96852204
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiTiZn2O3
+_chemical_formula_sum   'Li2 Ti2 Zn4 O6'
+_cell_volume   188.10485534
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.22074633  0.20142431  0.48117718  1
+  Li  Li1  1  0.78238577  0.79805518  0.51946056  1
+  Ti  Ti2  1  0.34488103  0.33707605  -0.11515759  1
+  Ti  Ti3  1  0.67529409  0.66683004  1.12152894  1
+  Zn  Zn4  1  0.75401672  0.27050933  0.50574379  1
+  Zn  Zn5  1  0.25386769  0.73629043  0.48419125  1
+  Zn  Zn6  1  0.24259992  0.17330079  0.16051404  1
+  Zn  Zn7  1  0.74517470  0.82782462  0.83895910  1
+  O  O8  1  0.65581437  0.28919199  -0.01318753  1
+  O  O9  1  0.35464133  0.71404531  0.01773396  1
+  O  O10  1  0.98741025  0.98106740  0.48406426  1
+  O  O11  1  0.48791097  0.49901019  0.50170705  1
+  O  O12  1  0.49081786  0.99833959  0.50911488  1
+  O  O13  1  0.99249496  0.49192630  0.49812667  1

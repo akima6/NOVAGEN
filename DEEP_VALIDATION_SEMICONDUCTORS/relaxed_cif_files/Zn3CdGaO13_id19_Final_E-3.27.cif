@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Zn3CdGaO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.68297363
+_cell_length_b   6.22872279
+_cell_length_c   17.68847770
+_cell_angle_alpha   88.32813457
+_cell_angle_beta   50.24735615
+_cell_angle_gamma   119.57637651
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn3CdGaO2
+_chemical_formula_sum   'Zn9 Cd3 Ga3 O6'
+_cell_volume   421.80791518
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.45076956  -0.01233075  0.51083162  1
+  Zn  Zn1  1  -0.00001543  0.47345072  0.50031279  1
+  Zn  Zn2  1  0.55040600  0.53943193  0.48852221  1
+  Zn  Zn3  1  0.12155786  0.32246483  0.84316134  1
+  Zn  Zn4  1  0.66570204  0.80803674  0.83405942  1
+  Zn  Zn5  1  0.21410103  0.87022768  0.82257460  1
+  Zn  Zn6  1  0.78334898  0.65352937  0.17775394  1
+  Zn  Zn7  1  0.33142204  0.14133644  0.16723158  1
+  Zn  Zn8  1  0.87730760  0.20191520  0.15654263  1
+  Cd  Cd9  1  0.99746959  -0.01996376  0.49809904  1
+  Cd  Cd10  1  0.66388231  0.31419275  0.83196860  1
+  Cd  Cd11  1  0.33079694  0.64803059  0.16371996  1
+  Ga  Ga12  1  0.00385075  0.02187311  0.00067494  1
+  Ga  Ga13  1  0.67064252  0.35520212  0.33404213  1
+  Ga  Ga14  1  0.33773411  0.68881421  0.66734017  1
+  O  O15  1  0.96599425  0.98749538  0.18983029  1
+  O  O16  1  1.03502906  0.01446437  0.81100065  1
+  O  O17  1  0.63832750  0.32359640  0.52132171  1
+  O  O18  1  0.69975173  0.34736752  0.14470292  1
+  O  O19  1  0.29973549  0.65440949  0.85700118  1
+  O  O20  1  0.36467517  0.67900442  0.47932186  1

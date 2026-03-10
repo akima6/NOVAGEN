@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Li5TiB4As4(S2O)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.33562536
+_cell_length_b   9.33086137
+_cell_length_c   3.84363069
+_cell_angle_alpha   89.52343997
+_cell_angle_beta   90.21606567
+_cell_angle_gamma   90.00952358
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li5TiB4As4(S2O)2
+_chemical_formula_sum   'Li5 Ti1 B4 As4 S4 O2'
+_cell_volume   334.80249801
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.50027571  0.49907651  0.67235697  1
+  Li  Li1  1  0.42054048  0.31282823  0.18958921  1
+  Li  Li2  1  0.57843557  0.68810647  0.18806532  1
+  Li  Li3  1  0.68741394  0.42214253  0.19119223  1
+  Li  Li4  1  0.31250831  0.57967750  0.18610773  1
+  Ti  Ti5  1  0.99902625  0.00308966  0.33967199  1
+  B  B6  1  0.11353571  0.23269308  0.36967851  1
+  B  B7  1  0.88654362  0.76768779  0.37224863  1
+  B  B8  1  0.76749164  0.11345107  0.36865378  1
+  B  B9  1  0.23228212  0.88612957  0.37247977  1
+  As  As10  1  0.25185881  0.08463883  0.17033018  1
+  As  As11  1  0.74791236  0.91571851  0.17051977  1
+  As  As12  1  0.91487798  0.25406764  0.17240124  1
+  As  As13  1  0.08357745  0.75006409  0.16643976  1
+  S  S14  1  0.21200173  0.38230655  0.55442683  1
+  S  S15  1  0.78834960  0.61707884  0.55627641  1
+  S  S16  1  0.61766754  0.21093765  0.55324365  1
+  S  S17  1  0.38265814  0.78752978  0.55720789  1
+  O  O18  1  0.00309961  0.99252783  0.81929979  1
+  O  O19  1  0.49994343  0.50024786  0.15050964  1

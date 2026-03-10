@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_K5BaInGaSb6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.88951208
+_cell_length_b   7.89960644
+_cell_length_c   14.29308666
+_cell_angle_alpha   90.01437717
+_cell_angle_beta   90.00183672
+_cell_angle_gamma   119.95957236
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K5BaInGaSb6
+_chemical_formula_sum   'K5 Ba1 In1 Ga1 Sb6'
+_cell_volume   771.77199420
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.66673484  0.33360416  0.67158033  1
+  K  K1  1  0.66633588  0.33342590  0.34163395  1
+  K  K2  1  0.70245358  0.74764965  0.33412754  1
+  K  K3  1  0.25246812  -0.04533564  0.33438983  1
+  K  K4  1  1.04453747  0.29643395  0.33375355  1
+  Ba  Ba5  1  0.66707817  0.33341520  1.03948943  1
+  In  In6  1  0.00024919  -0.00030818  0.56524883  1
+  Ga  Ga7  1  0.33372317  0.66696738  0.56383173  1
+  Sb  Sb8  1  0.64834578  0.99327232  0.51305934  1
+  Sb  Sb9  1  0.00672050  0.65474756  0.51296971  1
+  Sb  Sb10  1  0.34445026  0.35176577  0.51301809  1
+  Sb  Sb11  1  0.37659767  0.47382998  0.15224207  1
+  Sb  Sb12  1  0.52670321  -0.09674820  0.15233975  1
+  Sb  Sb13  1  1.09693548  0.62394683  0.15265891  1

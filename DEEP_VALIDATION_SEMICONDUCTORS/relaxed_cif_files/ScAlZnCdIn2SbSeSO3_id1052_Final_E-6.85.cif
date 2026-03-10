@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_ScAlZnSO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.13578220
+_cell_length_b   5.25660471
+_cell_length_c   15.49631469
+_cell_angle_alpha   30.27143860
+_cell_angle_beta   90.53800038
+_cell_angle_gamma   87.62280638
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScAlZnSO3
+_chemical_formula_sum   'Sc2 Al2 Zn2 S2 O6'
+_cell_volume   209.85717996
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.21788844  0.16771471  0.34964005  1
+  Sc  Sc1  1  0.77886087  0.82801147  0.65216267  1
+  Al  Al2  1  0.25086142  0.38963134  0.44897376  1
+  Al  Al3  1  0.75024613  0.61180814  0.55027174  1
+  Zn  Zn4  1  0.36189137  0.22612085  1.02678957  1
+  Zn  Zn5  1  0.63620522  0.77107512  -0.02680618  1
+  S  S6  1  0.25721567  0.30957031  0.86122464  1
+  S  S7  1  0.74182113  0.68916251  0.13839513  1
+  O  O8  1  0.78467558  0.15850417  0.77097361  1
+  O  O9  1  0.21571194  0.84513520  0.22824135  1
+  O  O10  1  -0.00526017  0.01115892  0.49810970  1
+  O  O11  1  0.50852969  0.48731419  0.50178302  1
+  O  O12  1  0.49492253  -0.00692570  0.50012275  1
+  O  O13  1  0.00770422  0.51095982  0.49863473  1

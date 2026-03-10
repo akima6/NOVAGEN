@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_LiTeAsS
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.83456461
+_cell_length_b   10.94886085
+_cell_length_c   10.12627222
+_cell_angle_alpha   97.80769218
+_cell_angle_beta   61.44020139
+_cell_angle_gamma   138.55426153
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiTeAsS
+_chemical_formula_sum   'Li4 Te4 As4 S4'
+_cell_volume   466.54167440
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  -0.02279770  0.15469041  0.87322838  1
+  Li  Li1  1  0.00664212  0.84727596  0.35090991  1
+  Li  Li2  1  0.47720430  0.65468997  0.87322968  1
+  Li  Li3  1  0.50664027  0.34727816  0.35091028  1
+  Te  Te4  1  -0.00664389  0.73391185  0.64494959  1
+  Te  Te5  1  -0.03045347  0.25730962  0.14110292  1
+  Te  Te6  1  0.49335458  0.23391081  0.64495019  1
+  Te  Te7  1  0.46954807  0.75730941  0.14110263  1
+  As  As8  1  0.02355749  0.01272458  0.11724220  1
+  As  As9  1  0.00226068  0.99195381  0.60889868  1
+  As  As10  1  0.52355825  0.51272452  0.11724053  1
+  As  As11  1  0.50226623  0.49195492  0.60890000  1
+  S  S12  1  0.00826295  0.20253000  0.60911724  1
+  S  S13  1  0.01916769  0.79960223  0.10711669  1
+  S  S14  1  0.50826520  0.70253087  0.60911708  1
+  S  S15  1  0.51916723  0.29960289  0.10711680  1

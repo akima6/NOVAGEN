@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_SrLi2(GaSi2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.59934647
+_cell_length_b   9.99026917
+_cell_length_c   8.92299397
+_cell_angle_alpha   90.00003789
+_cell_angle_beta   89.99957293
+_cell_angle_gamma   90.00002159
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrLi2(GaSi2)2
+_chemical_formula_sum   'Sr2 Li4 Ga4 Si8'
+_cell_volume   410.00005548
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.00000083  0.99999992  0.14539422  1
+  Sr  Sr1  1  0.00000076  0.49999996  0.64539414  1
+  Li  Li2  1  0.50000012  0.79415035  0.40413211  1
+  Li  Li3  1  0.50000000  0.20584955  0.40413217  1
+  Li  Li4  1  0.50000020  0.29415035  0.90413213  1
+  Li  Li5  1  0.50000022  0.70584953  0.90413216  1
+  Ga  Ga6  1  -0.00000049  0.63800648  0.05783264  1
+  Ga  Ga7  1  -0.00000078  0.36199405  0.05783261  1
+  Ga  Ga8  1  -0.00000239  0.13800643  0.55783271  1
+  Ga  Ga9  1  0.99999874  0.86199405  0.55783260  1
+  Si  Si10  1  -0.00000054  -0.00000009  0.80652147  1
+  Si  Si11  1  -0.00000165  0.49999992  0.30652140  1
+  Si  Si12  1  0.50000100  -0.00000003  0.67158770  1
+  Si  Si13  1  0.49999930  0.49999992  0.17158752  1
+  Si  Si14  1  0.00000107  0.73171390  0.32899826  1
+  Si  Si15  1  0.00000118  0.26828592  0.32899854  1
+  Si  Si16  1  0.00000109  0.23171392  0.82899819  1
+  Si  Si17  1  0.00000134  0.76828592  0.82899848  1

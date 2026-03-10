@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Be2ZnC
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.98405143
+_cell_length_b   2.98868656
+_cell_length_c   11.69895858
+_cell_angle_alpha   90.69551247
+_cell_angle_beta   90.03896442
+_cell_angle_gamma   119.95464106
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Be2ZnC
+_chemical_formula_sum   'Be4 Zn2 C2'
+_cell_volume   90.38943771
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Be  Be0  1  0.00051475  0.00102829  -0.03424542  1
+  Be  Be1  1  -0.00053015  -0.00096630  0.46580195  1
+  Be  Be2  1  0.33212434  0.66433792  0.33305116  1
+  Be  Be3  1  0.66617899  0.33239728  0.83310845  1
+  Zn  Zn4  1  1.00133699  1.00246319  0.65612556  1
+  Zn  Zn5  1  0.99919558  0.99828473  0.15616724  1
+  C  C6  1  0.00028910  0.00056116  0.32411567  1
+  C  C7  1  -0.00060956  -0.00120241  0.82407143  1

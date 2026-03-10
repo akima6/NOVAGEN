@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Al2GaGeTe6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.91366457
+_cell_length_b   15.34743517
+_cell_length_c   4.17442759
+_cell_angle_alpha   89.99831765
+_cell_angle_beta   90.00010594
+_cell_angle_gamma   89.99991141
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al2GaGeTe6
+_chemical_formula_sum   'Al4 Ga2 Ge2 Te12'
+_cell_volume   699.20309392
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.22455942  -0.00955480  0.19484617  1
+  Al  Al1  1  0.77544138  1.00955520  0.19484585  1
+  Al  Al2  1  0.27544170  0.49044555  0.80515537  1
+  Al  Al3  1  0.72455977  0.50955554  0.80515246  1
+  Ga  Ga4  1  0.99999956  0.49999756  0.50645759  1
+  Ga  Ga5  1  0.49999968  1.00000073  0.49354263  1
+  Ge  Ge6  1  0.00000126  1.00000219  0.04287677  1
+  Ge  Ge7  1  0.50000295  0.49999729  0.95712363  1
+  Te  Te8  1  0.35132060  0.13242668  0.31942223  1
+  Te  Te9  1  0.64867827  0.86757445  0.31944065  1
+  Te  Te10  1  0.14867694  0.63242540  0.68055578  1
+  Te  Te11  1  0.85131934  0.36757289  0.68058121  1
+  Te  Te12  1  0.07099053  0.12802185  0.45176183  1
+  Te  Te13  1  0.92901043  0.87197475  0.45174923  1
+  Te  Te14  1  0.42900960  0.62802582  0.54825798  1
+  Te  Te15  1  0.57098960  0.37197863  0.54823118  1
+  Te  Te16  1  0.30754392  0.89692089  0.69083025  1
+  Te  Te17  1  0.69245508  0.10307957  0.69080978  1
+  Te  Te18  1  0.19245554  0.39692065  0.30919156  1
+  Te  Te19  1  0.80754438  0.60307916  0.30916778  1

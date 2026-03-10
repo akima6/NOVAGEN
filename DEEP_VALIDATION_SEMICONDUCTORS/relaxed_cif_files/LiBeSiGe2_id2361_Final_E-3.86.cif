@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiBeSiGe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.65443143
+_cell_length_b   2.71884940
+_cell_length_c   10.66478491
+_cell_angle_alpha   62.88182700
+_cell_angle_beta   60.17634283
+_cell_angle_gamma   91.06954709
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiBeSiGe2
+_chemical_formula_sum   'Li2 Be2 Si2 Ge4'
+_cell_volume   183.73285506
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.50002121  0.51519237  0.24875974  1
+  Li  Li1  1  0.49999984  0.48478584  0.75125538  1
+  Be  Be2  1  0.99986672  -0.00004225  0.00017064  1
+  Be  Be3  1  -0.00004353  0.00000148  0.50008159  1
+  Si  Si4  1  0.49996621  0.50001866  0.00003783  1
+  Si  Si5  1  0.49998504  0.50000916  0.50001562  1
+  Ge  Ge6  1  0.80333665  0.51701438  -0.02328524  1
+  Ge  Ge7  1  0.19680828  0.48302212  1.02305951  1
+  Ge  Ge8  1  0.19591743  0.48333151  0.52431088  1
+  Ge  Ge9  1  0.80414214  0.51666677  0.47559405  1

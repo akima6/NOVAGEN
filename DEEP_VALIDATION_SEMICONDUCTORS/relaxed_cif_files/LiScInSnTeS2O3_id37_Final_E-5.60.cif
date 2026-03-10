@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiInSnO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.10769310
+_cell_length_b   7.82131039
+_cell_length_c   9.42474536
+_cell_angle_alpha   24.49010113
+_cell_angle_beta   76.17877792
+_cell_angle_gamma   95.17638550
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiInSnO3
+_chemical_formula_sum   'Li2 In2 Sn2 O6'
+_cell_volume   174.29791434
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.22508944  0.18074595  0.05644883  1
+  Li  Li1  1  0.78392700  0.80197758  0.90268668  1
+  In  In2  1  0.30763172  0.20591952  0.33230423  1
+  In  In3  1  0.68431951  0.83491468  0.57449734  1
+  Sn  Sn4  1  0.24620175  0.22139165  0.72920369  1
+  Sn  Sn5  1  0.79491807  0.75897292  0.25636071  1
+  O  O6  1  0.71143283  0.22727692  0.50877120  1
+  O  O7  1  0.26156550  0.76287150  0.47237134  1
+  O  O8  1  0.02983538  0.00775076  0.57991795  1
+  O  O9  1  0.51444318  0.52851209  0.55132588  1
+  O  O10  1  0.46692777  -0.03832093  0.54036904  1
+  O  O11  1  -0.02799716  0.50624012  0.49397376  1

@@ -1,0 +1,91 @@
+🚀 STARTING HEAD-TO-HEAD MODEL EVALUATION
+
+==================================================
+🤖 EVALUATING: MODEL A (Pre-Trained Baseline)
+==================================================
+💎 Initializing CrystalGenerator on cuda...
+   Loading weights from epoch_005500_CLEAN.pt...
+Generating 1000 structures: 100%|████████████████████████████████████████████████| 500/500 [15:58<00:00,  1.92s/it] 
+
+📊 --- RESULTS ---
+🛡️ Geometric Survival Rate:  50.5%
+📦 Average Valid Volume:     25.47 Å³/atom
+⚡ Pauling Test Pass Rate:   39.8% (of valid)
+⚖️ Average Charge Error:     17.92 electrons
+🎰 True Jackpot Hit Rate:    16.2%
+🏆 Average RL Reward:        0.92
+
+==================================================
+🤖 EVALUATING: MODEL B (Phase 1 Chemist v2.0)
+==================================================
+💎 Initializing CrystalGenerator on cuda...
+   Loading weights from chemist_v2_epoch_100.pt...
+Generating 1000 structures: 100%|████████████████████████████████████████████████| 500/500 [15:56<00:00,  1.91s/it]
+
+📊 --- RESULTS ---
+🛡️ Geometric Survival Rate:  65.7%
+📦 Average Valid Volume:     40.48 Å³/atom
+⚡ Pauling Test Pass Rate:   44.0% (of valid)
+⚖️ Average Charge Error:     21.99 electrons
+🎰 True Jackpot Hit Rate:    19.7%
+🏆 Average RL Reward:        3.18
+
+🎯 EVALUATION COMPLETE.
+
+
+
+
+
+
+
+
+
+🚀 STARTING FULL PIPELINE BENCHMARK
+   [Relaxer] Initializing CHGNet on cuda...
+   [Relaxer] Downloading/Loading standard CHGNet...
+CHGNet initialized with 412,525 parameters
+   [Relaxer] ✅ CHGNet Active.
+🧊 Physicist Jury: Loading Clean Cache from mp_thermo_cache_clean.pkl...
+   ✅ Loaded 152975 reference phases.
+
+============================================================
+🤖 EVALUATING: MODEL A (Phase 1 Baseline)
+============================================================
+💎 Initializing CrystalGenerator on cuda...
+   Loading weights from chemist_v2_epoch_100.pt...
+   📏 Using Global Lattice Bias: 3.0000
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████| 500/500 [21:11<00:00,  2.54s/it] 
+
+🧪 --- PHASE 1: CHEMISTRY RETENTION ---
+🛡️ Geometric Survival Rate:  44.4%
+⚡ Pauling Test Pass Rate:   41.0%
+⚖️ Average Charge Error:     20.57 electrons
+
+⚛️ --- PHASE 2: PHYSICS UPGRADES ---
+✅ Relaxation Success Rate:  56.4%
+🔋 Avg Relaxed Energy:       -1.290 eV/atom
+🔥 Avg Formation Energy:     1.111 eV/atom
+🏔️ Avg E_hull (Stability):   1.597 eV/atom
+💰 Avg AI Physics Reward:    -2.504
+
+============================================================
+🤖 EVALUATING: MODEL B (Phase 2 Physicist - Epoch 60)
+============================================================
+💎 Initializing CrystalGenerator on cuda...
+   Loading weights from physicist_epoch_60.pt...
+   📏 Using Global Lattice Bias: 3.5094
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████| 500/500 [49:55<00:00,  5.99s/it]
+
+🧪 --- PHASE 1: CHEMISTRY RETENTION ---
+🛡️ Geometric Survival Rate:  42.4%
+⚡ Pauling Test Pass Rate:   44.8%
+⚖️ Average Charge Error:     23.16 electrons
+
+⚛️ --- PHASE 2: PHYSICS UPGRADES ---
+✅ Relaxation Success Rate:  54.8%
+🔋 Avg Relaxed Energy:       -1.762 eV/atom
+🔥 Avg Formation Energy:     0.647 eV/atom
+🏔️ Avg E_hull (Stability):   1.196 eV/atom
+💰 Avg AI Physics Reward:    -2.196
+
+🎯 BENCHMARK COMPLETE.

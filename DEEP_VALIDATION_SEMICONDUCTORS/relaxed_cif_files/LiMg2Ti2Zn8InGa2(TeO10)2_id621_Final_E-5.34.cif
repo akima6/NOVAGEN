@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_LiMg2Ti2Zn8InO12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.92040734
+_cell_length_b   6.81495892
+_cell_length_c   15.67086978
+_cell_angle_alpha   94.84541688
+_cell_angle_beta   121.07115765
+_cell_angle_gamma   112.06673074
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiMg2Ti2Zn8InO12
+_chemical_formula_sum   'Li1 Mg2 Ti2 Zn8 In1 O12'
+_cell_volume   470.02030696
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  -0.00014982  0.00172041  0.50033882  1
+  Mg  Mg1  1  0.28236908  0.64905399  0.24290027  1
+  Mg  Mg2  1  0.71510418  0.34649516  0.75866117  1
+  Ti  Ti3  1  0.29408280  0.69161725  0.83349679  1
+  Ti  Ti4  1  0.69413208  0.30995686  0.16722900  1
+  Zn  Zn5  1  0.27478228  0.63242217  0.03655173  1
+  Zn  Zn6  1  0.72751738  0.36020549  0.96641074  1
+  Zn  Zn7  1  0.78098317  0.06726983  0.28813205  1
+  Zn  Zn8  1  0.96064747  0.77160443  0.30670030  1
+  Zn  Zn9  1  0.26549888  0.19106450  0.26016061  1
+  Zn  Zn10  1  0.22177568  0.93688627  0.71116999  1
+  Zn  Zn11  1  0.03523790  0.22022118  0.69697772  1
+  Zn  Zn12  1  0.72882565  0.80348816  0.73104784  1
+  In  In13  1  -0.00974046  0.97583434  0.97543901  1
+  O  O14  1  0.72845125  0.81258069  0.34739419  1
+  O  O15  1  0.26797361  0.92725937  0.29067551  1
+  O  O16  1  0.10639661  0.38812835  0.28695460  1
+  O  O17  1  0.27268955  0.20010024  0.65402818  1
+  O  O18  1  0.72352208  0.07191127  0.71205161  1
+  O  O19  1  0.88164759  0.60338837  0.71452412  1
+  O  O20  1  0.15395275  0.50255824  0.89146819  1
+  O  O21  1  0.61588541  0.69580064  0.82908482  1
+  O  O22  1  0.38966860  0.98674984  0.87000589  1
+  O  O23  1  0.84367892  0.49669159  0.11000920  1
+  O  O24  1  0.42195112  0.34158771  0.18616247  1
+  O  O25  1  0.60203198  0.01509102  0.13071515  1

@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_KIn2Sb3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   19.47970319
+_cell_length_b   4.01572506
+_cell_length_c   12.07282643
+_cell_angle_alpha   89.99910825
+_cell_angle_beta   90.00043295
+_cell_angle_gamma   121.03205448
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KIn2Sb3
+_chemical_formula_sum   'K4 In8 Sb12'
+_cell_volume   809.23521898
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.79600370  0.02098155  0.75271285  1
+  K  K1  1  0.70399725  0.97904126  0.25271693  1
+  K  K2  1  0.20377540  0.51369391  0.75575476  1
+  K  K3  1  0.29622750  0.48623828  0.25576541  1
+  In  In4  1  0.61026394  0.85179391  0.53555005  1
+  In  In5  1  0.88973413  0.14824598  0.03555107  1
+  In  In6  1  0.40011200  0.35596830  0.95594615  1
+  In  In7  1  0.09987820  0.64400998  0.45596817  1
+  In  In8  1  0.11040022  0.35477364  0.03586656  1
+  In  In9  1  0.38960169  0.64531334  0.53584908  1
+  In  In10  1  0.90045638  0.85838829  0.45616099  1
+  In  In11  1  0.59953598  0.14154045  0.95615810  1
+  Sb  Sb12  1  0.08331925  0.00613721  0.25652389  1
+  Sb  Sb13  1  0.41668729  -0.00616108  0.75652248  1
+  Sb  Sb14  1  0.58374677  0.50544998  0.75667377  1
+  Sb  Sb15  1  0.91625918  0.49454809  0.25668138  1
+  Sb  Sb16  1  0.23727884  0.16207202  -0.00168968  1
+  Sb  Sb17  1  0.26271723  0.83795086  0.49830558  1
+  Sb  Sb18  1  0.73757368  0.66016100  0.49885173  1
+  Sb  Sb19  1  0.76242355  0.33984596  0.99884861  1
+  Sb  Sb20  1  0.99979160  0.24987833  0.66051392  1
+  Sb  Sb21  1  1.00026866  0.75013630  0.83716949  1
+  Sb  Sb22  1  0.50020735  0.75013153  0.16051393  1
+  Sb  Sb23  1  0.49973220  0.24985211  0.33717037  1

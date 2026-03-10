@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_KCd4Ga(SnO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.08688324
+_cell_length_b   10.08692825
+_cell_length_c   5.30893200
+_cell_angle_alpha   89.99719360
+_cell_angle_beta   90.00899548
+_cell_angle_gamma   90.00020448
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KCd4Ga(SnO2)2
+_chemical_formula_sum   'K2 Cd8 Ga2 Sn4 O8'
+_cell_volume   540.16082291
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.99999960  0.50000131  0.24999980  1
+  K  K1  1  0.49999961  0.00000122  0.74999987  1
+  Cd  Cd2  1  0.14019014  0.76824257  0.77279467  1
+  Cd  Cd3  1  0.85980167  0.23176664  0.77278626  1
+  Cd  Cd4  1  0.76821257  0.85978827  0.22723854  1
+  Cd  Cd5  1  0.23173833  0.14017789  0.22718031  1
+  Cd  Cd6  1  0.85981898  0.76825535  0.72719052  1
+  Cd  Cd7  1  0.14020702  0.23178042  0.72722883  1
+  Cd  Cd8  1  0.23177964  0.85979394  0.27277042  1
+  Cd  Cd9  1  0.76825571  0.14018327  0.27281055  1
+  Ga  Ga10  1  0.99925974  -0.00023655  -0.00000024  1
+  Ga  Ga11  1  0.00074070  1.00023543  0.50000165  1
+  Sn  Sn12  1  0.49999974  0.29394281  0.25000686  1
+  Sn  Sn13  1  0.49999884  0.70605080  0.24999243  1
+  Sn  Sn14  1  0.29394758  0.50000266  0.74997616  1
+  Sn  Sn15  1  0.70605451  0.50000144  0.75002399  1
+  O  O16  1  0.44285487  0.65637666  0.84038188  1
+  O  O17  1  0.55714464  0.34363164  0.84042320  1
+  O  O18  1  0.65636629  0.55714234  0.15960877  1
+  O  O19  1  0.34362208  0.44285269  0.15958641  1
+  O  O20  1  0.55714616  0.65637796  0.65960670  1
+  O  O21  1  0.44285721  0.34363480  0.65958605  1
+  O  O22  1  0.34363028  0.55714303  0.34038243  1
+  O  O23  1  0.65637406  0.44285336  0.34042396  1

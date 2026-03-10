@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Ti2Be4Te(AsO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.02721343
+_cell_length_b   9.30095357
+_cell_length_c   4.47344523
+_cell_angle_alpha   97.89332210
+_cell_angle_beta   61.11711314
+_cell_angle_gamma   96.52242377
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti2Be4Te(AsO2)2
+_chemical_formula_sum   'Ti2 Be4 Te1 As2 O4'
+_cell_volume   289.24410029
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.02912665  0.48801769  0.27571654  1
+  Ti  Ti1  1  0.53062676  0.01693166  0.30777149  1
+  Be  Be2  1  0.95604590  0.71843150  0.08194312  1
+  Be  Be3  1  0.12052675  0.14260645  0.02977835  1
+  Be  Be4  1  0.20452588  0.81236121  0.33124565  1
+  Be  Be5  1  0.83143724  0.28089721  0.09577376  1
+  Te  Te6  1  0.92853596  -0.05926293  0.89428737  1
+  As  As7  1  0.86145550  0.50777639  0.90433876  1
+  As  As8  1  0.39354926  1.07357726  0.91580572  1
+  O  O9  1  0.39611415  0.84102482  0.29819083  1
+  O  O10  1  0.64647343  0.20026233  0.20469899  1
+  O  O11  1  0.01247736  0.28500271  0.15254988  1
+  O  O12  1  1.10023193  0.69302061  0.20529065  1

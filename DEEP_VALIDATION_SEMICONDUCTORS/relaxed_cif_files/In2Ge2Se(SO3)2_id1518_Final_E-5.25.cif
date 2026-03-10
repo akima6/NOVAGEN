@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_In2Ge2Se(SO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.74580258
+_cell_length_b   14.26436167
+_cell_length_c   6.68106857
+_cell_angle_alpha   72.41252211
+_cell_angle_beta   102.81661445
+_cell_angle_gamma   127.29421476
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In2Ge2Se(SO3)2
+_chemical_formula_sum   'In2 Ge2 Se1 S2 O6'
+_cell_volume   342.53838106
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.23421076  0.62145360  0.70214255  1
+  In  In1  1  0.76578905  0.37854659  0.29785702  1
+  Ge  Ge2  1  0.76310807  0.04252684  0.67234790  1
+  Ge  Ge3  1  0.23689210  0.95747305  0.32765251  1
+  Se  Se4  1  0.49999973  0.50000004  0.50000007  1
+  S  S5  1  0.41255426  0.79273567  0.26692330  1
+  S  S6  1  0.58744577  0.20726429  0.73307614  1
+  O  O7  1  0.78332367  0.92811911  0.24761722  1
+  O  O8  1  0.21667690  0.07188099  0.75238286  1
+  O  O9  1  0.88601523  0.18356272  0.74369666  1
+  O  O10  1  0.11398489  0.81643710  0.25630368  1
+  O  O11  1  0.68492589  0.50815882  0.26584332  1
+  O  O12  1  0.31507365  0.49184117  0.73415679  1

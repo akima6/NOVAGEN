@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_Ti3Zn(GeO4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.61770858
+_cell_length_b   7.85739882
+_cell_length_c   7.17983591
+_cell_angle_alpha   132.26278876
+_cell_angle_beta   125.76877453
+_cell_angle_gamma   55.99200669
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti3Zn(GeO4)3
+_chemical_formula_sum   'Ti3 Zn1 Ge3 O12'
+_cell_volume   313.07966439
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.31119426  1.08347630  -0.06106642  1
+  Ti  Ti1  1  0.97436433  0.40067342  -0.04305727  1
+  Ti  Ti2  1  0.99037306  -0.14904544  0.61270155  1
+  Zn  Zn3  1  -0.03594165  -0.09123223  1.15139771  1
+  Ge  Ge4  1  -0.19939620  0.50250027  0.47606762  1
+  Ge  Ge5  1  0.40400635  -0.04357336  0.51002114  1
+  Ge  Ge6  1  0.39710762  0.48222976  1.07326624  1
+  O  O7  1  0.18101297  0.30247481  0.18669178  1
+  O  O8  1  0.93995668  0.74775115  0.25335885  1
+  O  O9  1  0.87343723  0.16352538  0.77701760  1
+  O  O10  1  0.22139631  0.82912021  0.78733611  1
+  O  O11  1  0.91830518  0.72231508  0.68024434  1
+  O  O12  1  0.12742909  0.23372261  0.75065611  1
+  O  O13  1  0.23544442  0.77079111  0.20760732  1
+  O  O14  1  0.87534352  0.22486460  0.22737251  1
+  O  O15  1  0.46493925  0.29327465  0.17672500  1
+  O  O16  1  0.57570263  0.63965150  0.29578612  1
+  O  O17  1  0.78708796  0.51520046  0.71397834  1
+  O  O18  1  0.45823700  0.87227972  0.72389539  1

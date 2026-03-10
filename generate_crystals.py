@@ -9,15 +9,18 @@ import contextlib
 import io
 import logging
 import time
-import signal
+import math
 from tqdm import tqdm
 from pymatgen.core import Structure
 
 # ==========================================
 # 🚑 DRIVER & PATH SHIMS
 # ==========================================
-sys.modules['nvidia_smi'] = pynvml
-os.environ['PATH'] += os.pathsep + r'C:\Windows\System32'
+try:
+    sys.modules['nvidia_smi'] = pynvml
+    os.environ['PATH'] += os.pathsep + r'C:\Windows\System32'
+except Exception:
+    pass
 
 # ==========================================
 # 🚑 ASE COMPATIBILITY PATCH
@@ -49,26 +52,31 @@ class QuietBlock:
         self._redirect_err.__exit__(exc_type, exc_val, exc_tb)
 
 # ==========================================
-# 🛠️ IMPORTS
+# 🛠️ DYNAMIC PATHS & IMPORTS
 # ==========================================
-sys.path.append(os.getcwd())
+PROJECT_ROOT = os.getcwd()
+sys.path.append(PROJECT_ROOT)
+sys.path.append(os.path.join(PROJECT_ROOT, "core"))
+sys.path.append(os.path.join(PROJECT_ROOT, "CrystalFormer"))
+sys.path.append(os.path.join(PROJECT_ROOT, "rewards"))
+
 try:
     from generator_service import CrystalGenerator
-    from product_oracle import CrystalOracle
-    from product_relaxer import CrystalRelaxer 
+    from oracle import Phase3Oracle
+    from relaxer import CrystalRelaxer 
 except ImportError as e:
     sys.exit(f"❌ Critical Import Error: {e}")
 
 # ==========================================
 # ⚙️ CONFIGURATION
 # ==========================================
-N_CRYSTALS = 5000       
-BATCH_SIZE = 16         # 🚀 Recommended from Stress Test
-TIMEOUT_PER_RELAX = 45  # ⏱️ Seconds to wait before killing a "stuck" relaxation
+N_CRYSTALS = 100  
+BATCH_SIZE = 16         
 SAVE_EVERY = 25         
-MODEL_PATH = r"C:\Users\REHNA\NOVAGEN\pretrained_model\final_lab_grade_Light_epoch_100.pt"
-CONFIG_PATH = r"C:\Users\REHNA\NOVAGEN\pretrained_model\config.yaml"
-OUTPUT_DIR = "UNIVERSAL_HARVEST_LIGHT"
+
+MODEL_PATH = os.path.join(PROJECT_ROOT, "pretrained_model", "final_lab_grade_Solar_epoch_100.pt")
+CONFIG_PATH = os.path.join(PROJECT_ROOT, "pretrained_model", "config.yaml")
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "UNIVERSAL_HARVEST_SEMICONDUCTORS")
 CIF_DIR = os.path.join(OUTPUT_DIR, "cif_files")
 
 CAMPAIGN_ELEMENTS = [
@@ -80,16 +88,22 @@ CAMPAIGN_ELEMENTS = [
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 def get_vram_usage():
-    pynvml.nvmlInit()
-    handle = pynvml.nvmlDeviceGetHandleByIndex(0)
-    info = pynvml.nvmlDeviceGetMemoryInfo(handle)
-    return info.used / 1024**2
+    try:
+        pynvml.nvmlInit()
+        handle = pynvml.nvmlDeviceGetHandleByIndex(0)
+        info = pynvml.nvmlDeviceGetMemoryInfo(handle)
+        return info.used / 1024**2
+    except:
+        return 0.0
 
 def get_material_type(bandgap):
     if bandgap < 0.05: return "Metal"
     elif bandgap > 3.5: return "Insulator"
     else: return "Semiconductor"
 
+# ==========================================
+# 🏭 MAIN FACTORY LOOP
+# ==========================================
 def run_harvest():
     print("="*80)
     print(f"🏭 FAIL-SAFE FACTORY: HARVESTING {N_CRYSTALS} CRYSTALS".center(80))
@@ -99,13 +113,18 @@ def run_harvest():
     os.makedirs(CIF_DIR, exist_ok=True)
     csv_path = os.path.join(OUTPUT_DIR, "final_harvest_results.csv")
 
-    print(f"🔌 Initializing Engines (VRAM Usage: {get_vram_usage():.0f}MB)...")
+    print(f"🔌 Initializing Main Engines (VRAM Usage: {get_vram_usage():.0f}MB)...")
     try:
+        # Load the Model & extract the Lattice Bias for volume scaling
+        checkpoint = torch.load(MODEL_PATH, map_location=DEVICE)
+        lattice_bias_val = checkpoint.get("lattice_bias_value", 3.0)
+        print(f"   📏 Internal Lattice Bias Loaded: {lattice_bias_val:.4f}")
+
         gen = CrystalGenerator(MODEL_PATH, CONFIG_PATH, DEVICE)
         with QuietBlock():
-            oracle = CrystalOracle(device="cpu")   
-        relaxer = CrystalRelaxer(device="cuda", method="CHGNet")
-        print("✅ Engines Ready.")
+            oracle = Phase3Oracle()   
+            relaxer = CrystalRelaxer(device="cuda") # Loaded exactly ONCE!
+        print("✅ Engines Ready. Commencing high-speed harvest...")
     except Exception as e:
         sys.exit(f"❌ Engine Init Failed: {e}")
 
@@ -115,9 +134,9 @@ def run_harvest():
     
     while saved_count < N_CRYSTALS:
         try:
-            # 🧹 MEMORY PURGE: Prevent fragmentation hangs
-            torch.cuda.empty_cache()
-            gc_vram = get_vram_usage()
+            # 🧹 MEMORY PURGE
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
 
             # A. Batched Generation
             with torch.no_grad():
@@ -132,18 +151,17 @@ def run_harvest():
                 if struct.density < 0.8 or struct.volume > 2000 or struct.num_sites > 60:
                     continue 
 
-                # ⏱️ B. Physics Relaxation with Heartbeat Debugging
+                # 📏 BUGFIX 1: Scale the lattice BEFORE passing to CHGNet!
+                struct.scale_lattice(math.exp(lattice_bias_val) * len(struct))
+
+                # ⏱️ B. Physics Relaxation (Now fast because lattice is scaled)
                 res = None
-                start_relax = time.time()
                 with QuietBlock():
-                    try:
-                        # CHGNet often hangs on specific structures; we wrap this in a manual timeout check
+                    with torch.enable_grad(): # CHGNet needs gradients to compute forces
                         res = relaxer.relax(struct, steps=25)
-                    except Exception: 
-                        pass
                 
-                # Check if relaxation took way too long or failed
-                if not res or not res["converged"] or (time.time() - start_relax) > TIMEOUT_PER_RELAX: 
+                # Check if relaxation failed
+                if not res or not res.get("converged"): 
                     continue
                 
                 final_struct = res["final_structure"]
@@ -155,9 +173,13 @@ def run_harvest():
                 gap = 0.0
                 with QuietBlock():
                     try:
-                        _, gaps = oracle.predict_batch([final_struct])
-                        gap = float(gaps[0])
-                    except: gap = 0.0
+                        gap = oracle.evaluate_structure(final_struct)
+                    except: 
+                        gap = -1.0
+
+                # 🛑 BUGFIX 2: The Oracle Poison Pill Trap
+                if gap < 0.0:
+                    continue
 
                 # D. Record and Save
                 formula = final_struct.composition.reduced_formula
@@ -194,7 +216,9 @@ def run_harvest():
                 if saved_count >= N_CRYSTALS: break
 
         except Exception as e:
-            # Silence internal batch errors and keep moving
+            # 🚨 BUGFIX 3: LOUD ERROR Catching
+            pbar.write(f"\n🚨 CRITICAL LOOP ERROR: {e}")
+            time.sleep(2)  
             continue
 
     pbar.close()

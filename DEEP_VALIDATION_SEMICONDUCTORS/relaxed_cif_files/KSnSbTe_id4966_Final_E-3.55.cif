@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_KSnSbTe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.95561506
+_cell_length_b   11.27387967
+_cell_length_c   8.45300542
+_cell_angle_alpha   89.99999902
+_cell_angle_beta   90.00015778
+_cell_angle_gamma   90.00005736
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KSnSbTe
+_chemical_formula_sum   'K4 Sn4 Sb4 Te4'
+_cell_volume   662.85735798
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.27578236  0.38324386  0.50055607  1
+  K  K1  1  0.72421749  0.61675608  0.50055596  1
+  K  K2  1  0.27578238  0.61675621  0.00055606  1
+  K  K3  1  0.72421750  0.38324381  0.00055590  1
+  Sn  Sn4  1  0.80572784  0.05646604  0.95242815  1
+  Sn  Sn5  1  0.19427197  0.94353403  0.95242841  1
+  Sn  Sn6  1  0.80572783  0.94353395  0.45242840  1
+  Sn  Sn7  1  0.19427224  0.05646599  0.45242833  1
+  Sb  Sb8  1  0.85836850  0.81383895  0.82097484  1
+  Sb  Sb9  1  0.14163284  0.18616105  0.82097444  1
+  Sb  Sb10  1  0.85836909  0.18616110  0.32097487  1
+  Sb  Sb11  1  0.14163093  0.81383900  0.32097500  1
+  Te  Te12  1  0.54451659  0.81227298  0.23603030  1
+  Te  Te13  1  0.45548349  0.18772704  0.23603017  1
+  Te  Te14  1  0.54451483  0.18772699  0.73603066  1
+  Te  Te15  1  0.45548410  0.81227293  0.73603025  1

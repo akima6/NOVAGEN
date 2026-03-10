@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Si2GeAs2(PO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.26784296
+_cell_length_b   6.26773791
+_cell_length_c   12.62606982
+_cell_angle_alpha   89.99682489
+_cell_angle_beta   90.00181067
+_cell_angle_gamma   90.00529870
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Si2GeAs2(PO)2
+_chemical_formula_sum   'Si4 Ge2 As4 P4 O4'
+_cell_volume   496.01763630
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.31283882  0.50000231  0.74604923  1
+  Si  Si1  1  0.68716580  0.49999456  0.74605114  1
+  Si  Si2  1  0.50000491  0.31283184  0.24605164  1
+  Si  Si3  1  0.49999686  0.68716063  0.24604833  1
+  Ge  Ge4  1  0.00000671  0.49999625  0.84631051  1
+  Ge  Ge5  1  0.50000226  0.99998913  0.34631105  1
+  As  As6  1  0.23705026  0.49995815  0.03610116  1
+  As  As7  1  0.76293840  0.50004814  0.03610057  1
+  As  As8  1  0.49995392  0.23706230  0.53610130  1
+  As  As9  1  0.50004195  0.76295627  0.53610213  1
+  P  P10  1  0.76346252  0.49998751  0.56822081  1
+  P  P11  1  0.23653494  0.50002390  0.56821797  1
+  P  P12  1  0.49997750  0.76346702  0.06821728  1
+  P  P13  1  0.50001557  0.23653668  0.06822205  1
+  O  O14  1  0.69159062  0.50001077  0.26988674  1
+  O  O15  1  0.30841107  0.49997717  0.26988387  1
+  O  O16  1  0.50002079  0.69158897  0.76988311  1
+  O  O17  1  0.49998707  0.30840840  0.76988836  1

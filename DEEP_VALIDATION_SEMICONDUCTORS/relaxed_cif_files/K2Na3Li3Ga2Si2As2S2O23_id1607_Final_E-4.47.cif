@@ -1,0 +1,49 @@
+# generated using pymatgen
+data_K2Na3Li3Ga2As2O11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.51294512
+_cell_length_b   3.96506490
+_cell_length_c   29.62695990
+_cell_angle_alpha   64.73990891
+_cell_angle_beta   135.79633304
+_cell_angle_gamma   121.18337025
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Na3Li3Ga2As2O11
+_chemical_formula_sum   'K2 Na3 Li3 Ga2 As2 O11'
+_cell_volume   524.14040051
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.25827649  0.66970154  0.08531258  1
+  K  K1  1  0.61255356  0.27464547  -0.00263520  1
+  Na  Na2  1  0.12183956  0.06039225  0.51989207  1
+  Na  Na3  1  0.54521968  0.66155375  0.66969396  1
+  Na  Na4  1  0.89940505  0.47279777  0.63814628  1
+  Li  Li5  1  0.24389677  0.94789590  0.23010233  1
+  Li  Li6  1  -0.06310002  0.39053199  0.14853246  1
+  Li  Li7  1  0.80689814  0.78717310  0.25429439  1
+  Ga  Ga8  1  0.26233089  0.63110040  0.43798023  1
+  Ga  Ga9  1  0.71548283  0.33546685  0.51540077  1
+  As  As10  1  0.30269573  0.73089823  0.35098395  1
+  As  As11  1  0.61492948  0.34521530  0.41021816  1
+  O  O12  1  1.09919055  0.94979626  0.13832295  1
+  O  O13  1  0.91071052  0.88654061  0.14794240  1
+  O  O14  1  0.11836020  -0.01930477  0.26782112  1
+  O  O15  1  0.93457643  0.92897933  0.68103397  1
+  O  O16  1  0.06467448  0.53778906  0.58076845  1
+  O  O17  1  0.46962147  0.33437627  0.51578871  1
+  O  O18  1  0.31775218  0.60541722  0.01568916  1
+  O  O19  1  0.75206321  0.36799730  -0.07256485  1
+  O  O20  1  0.79037988  0.04777894  0.97529864  1
+  O  O21  1  0.92409911  0.72148533  0.94977121  1
+  O  O22  1  0.29900802  0.32568060  0.99968881  1

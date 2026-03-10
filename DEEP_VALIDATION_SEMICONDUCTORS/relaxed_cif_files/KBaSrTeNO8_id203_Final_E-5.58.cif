@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_KBaSrTeNO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   20.22403962
+_cell_length_b   7.92253051
+_cell_length_c   10.51107965
+_cell_angle_alpha   70.64801131
+_cell_angle_beta   154.75702668
+_cell_angle_gamma   127.83673071
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KBaSrTeNO6
+_chemical_formula_sum   'K2 Ba2 Sr2 Te2 N2 O12'
+_cell_volume   424.38115938
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.70626812  0.22463915  0.68391915  1
+  K  K1  1  0.29373185  0.77536101  0.31608122  1
+  Ba  Ba2  1  0.90546679  0.24425373  0.52762364  1
+  Ba  Ba3  1  0.09453341  0.75574627  0.47237635  1
+  Sr  Sr4  1  0.31826167  0.25752297  0.33525358  1
+  Sr  Sr5  1  0.68173823  0.74247680  0.66474629  1
+  Te  Te6  1  0.15050473  0.29232062  0.61379770  1
+  Te  Te7  1  0.84949470  0.70767807  0.38620218  1
+  N  N8  1  0.07026750  0.20556393  0.07620640  1
+  N  N9  1  0.92973256  0.79443594  0.92379396  1
+  O  O10  1  0.17289562  0.19006958  0.84754633  1
+  O  O11  1  0.82710528  0.80993164  0.15245438  1
+  O  O12  1  0.53468954  0.26417458  0.14233711  1
+  O  O13  1  0.46531020  0.73582387  0.85766380  1
+  O  O14  1  1.04440506  0.26295921  0.11987309  1
+  O  O15  1  -0.04440518  0.73704059  0.88012688  1
+  O  O16  1  0.95163117  0.29659594  0.33850030  1
+  O  O17  1  0.04836925  0.70340379  0.66149945  1
+  O  O18  1  0.59210331  0.34646900  0.66015074  1
+  O  O19  1  0.40789662  0.65353099  0.33984939  1
+  O  O20  1  0.66724289  0.29575750  0.26489880  1
+  O  O21  1  0.33275687  0.70424481  0.73509958  1

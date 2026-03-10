@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_CaCdSbTe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.94197190
+_cell_length_b   4.94197937
+_cell_length_c   24.93677678
+_cell_angle_alpha   89.96305337
+_cell_angle_beta   90.08243232
+_cell_angle_gamma   90.00006716
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaCdSbTe
+_chemical_formula_sum   'Ca4 Cd4 Sb4 Te4'
+_cell_volume   609.03321440
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.02142978  0.02143097  0.37499988  1
+  Ca  Ca1  1  0.97856530  0.97856649  0.87500015  1
+  Ca  Ca2  1  0.97857011  0.02143301  0.62500013  1
+  Ca  Ca3  1  0.02143448  0.97856866  0.12499990  1
+  Cd  Cd4  1  0.00000040  0.02948407  0.99999187  1
+  Cd  Cd5  1  0.00000019  0.97051542  0.50000630  1
+  Cd  Cd6  1  0.97051553  0.00000102  0.24998220  1
+  Cd  Cd7  1  0.02948422  1.00000125  0.75001981  1
+  Sb  Sb8  1  -0.00000038  0.52937843  0.00000869  1
+  Sb  Sb9  1  -0.00000011  0.47062180  0.49999342  1
+  Sb  Sb10  1  0.47062176  -0.00000099  0.25001905  1
+  Sb  Sb11  1  0.52937835  0.99999872  0.74997871  1
+  Te  Te12  1  0.51066324  0.51065977  0.37500010  1
+  Te  Te13  1  0.48935046  0.48934698  0.87499973  1
+  Te  Te14  1  0.48933695  0.51065364  0.62499940  1
+  Te  Te15  1  0.51064976  0.48934078  0.12500069  1

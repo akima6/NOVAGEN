@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_AlNO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.91697884
+_cell_length_b   16.24372313
+_cell_length_c   5.77137649
+_cell_angle_alpha   63.64593713
+_cell_angle_beta   89.99971416
+_cell_angle_gamma   90.00032879
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlNO
+_chemical_formula_sum   'Al4 N4 O4'
+_cell_volume   245.04125715
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.99345802  0.92467217  0.03554775  1
+  Al  Al1  1  0.00778022  0.08027355  0.54991588  1
+  Al  Al2  1  0.49221781  0.08027343  0.04991587  1
+  Al  Al3  1  0.50654119  0.92467340  0.53554604  1
+  N  N4  1  0.50764081  0.07921222  0.36606753  1
+  N  N5  1  0.49263200  0.91585874  0.86184482  1
+  N  N6  1  0.00736977  0.91585847  0.36184481  1
+  N  N7  1  0.99236025  0.07921350  0.86606614  1
+  O  O8  1  0.39312430  0.51884091  0.85650502  1
+  O  O9  1  0.60687670  0.48114128  0.36015820  1
+  O  O10  1  0.89312166  0.48114138  0.86015805  1
+  O  O11  1  0.10687732  0.51884095  0.35650481  1

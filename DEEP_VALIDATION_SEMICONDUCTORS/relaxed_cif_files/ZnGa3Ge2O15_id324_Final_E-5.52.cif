@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_ZnGa3Ge2O15
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.97603070
+_cell_length_b   6.96034113
+_cell_length_c   28.64313562
+_cell_angle_alpha   94.05993696
+_cell_angle_beta   89.92166632
+_cell_angle_gamma   131.97731204
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnGa3Ge2O15
+_chemical_formula_sum   'Zn1 Ga3 Ge2 O15'
+_cell_volume   881.78806233
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.03061530  -0.00450512  1.04799422  1
+  Ga  Ga1  1  0.65602823  0.07090165  0.98379767  1
+  Ga  Ga2  1  -0.02323299  0.64081760  0.97439501  1
+  Ga  Ga3  1  0.41219058  0.51973571  0.99969832  1
+  Ge  Ge4  1  0.32572216  0.68955357  0.43391851  1
+  Ge  Ge5  1  0.70348018  0.27261958  0.48034219  1
+  O  O6  1  0.52453831  0.01998247  0.43118282  1
+  O  O7  1  -0.02908870  0.56329303  0.45169381  1
+  O  O8  1  0.42483385  0.51931389  0.42588236  1
+  O  O9  1  0.27711023  -0.02405141  0.55857538  1
+  O  O10  1  0.06902949  0.17990398  0.49057565  1
+  O  O11  1  0.70090374  0.75044985  0.54432514  1
+  O  O12  1  1.09154458  0.82602471  0.58654712  1
+  O  O13  1  0.72033229  0.92025058  0.56636291  1
+  O  O14  1  0.19128825  0.28248245  0.53046646  1
+  O  O15  1  0.32108107  -0.07158505  0.95093162  1
+  O  O16  1  0.02027866  0.38962989  0.97637473  1
+  O  O17  1  0.62346938  0.53998114  0.95118255  1
+  O  O18  1  0.96718305  0.69592308  0.04050378  1
+  O  O19  1  0.63548837  0.87329875  0.02490320  1
+  O  O20  1  0.35720371  0.34598010  0.05034654  1
