@@ -95,7 +95,7 @@ def run_golden_validation():
     if not os.path.exists(INPUT_CSV):
         sys.exit(f"❌ Input CSV not found: {INPUT_CSV}\nRun final_relaxation.py first.")
 
-    MP_API_KEY = "eWyH34PzCvMfwZol5jN6CIeCGk4i7j5n"
+    MP_API_KEY = "api_key"
     df = pd.read_csv(INPUT_CSV)
     
     golden_records = []
